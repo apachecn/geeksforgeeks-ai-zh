@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.packbits() function
 
@@ -38,7 +38,7 @@ print ("Output packed array : ", out_arr)
 
 **Output :**
 
-```
+```py
 Input array :  
 [[[1 0 1]
   [0 1 0]]
@@ -51,7 +51,7 @@ Output packed array :  [171  16]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.packbits() function
 
@@ -75,7 +75,7 @@ print ("Output packed array along axis 1 : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Input array :  [[[0 0 1]
   [1 1 0]]
 

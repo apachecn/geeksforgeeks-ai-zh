@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.dot() function
 
@@ -31,7 +31,7 @@ print( gfg)
 
 **输出:**
 
-```
+```py
 [[ 3\.  3\.  3.]
  [ 3\.  3\.  3.]
  [ 3\.  3\.  3.]]
@@ -40,7 +40,7 @@ print( gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.dot() function
 
@@ -57,7 +57,7 @@ print( gfg)
 
 **输出:**
 
-```
+```py
 [[ 27\.  27\.  27.]
  [ 27\.  27\.  27.]
  [ 27\.  27\.  27.]]

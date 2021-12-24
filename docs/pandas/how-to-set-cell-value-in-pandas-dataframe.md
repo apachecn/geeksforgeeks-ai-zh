@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.at[index, 'column_name'] = value
 ```
 
@@ -25,7 +25,7 @@ dataframe.at[index, 'column_name'] = value
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -69,7 +69,7 @@ data
 
 **语法**:
 
-```
+```py
 dataframe.loc[index, 'column_name'] = value
 ```
 
@@ -84,7 +84,7 @@ dataframe.loc[index, 'column_name'] = value
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

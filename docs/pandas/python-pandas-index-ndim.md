@@ -14,7 +14,7 @@ Pandas `**Index.ndim**`属性返回给定索引对象中底层数据的维数。
 
 **示例#1:** 使用`Index.ndim`属性找出给定索引对象中底层数据的维数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.ndim`属性找出给定 Index 对象中底层数据的维数。
 
-```
+```py
 # return the number of dimensions
 result = idx.ndim
 
@@ -44,7 +44,7 @@ print(result)
 
 **例 2 :** 使用`Index.ndim`属性找出给定 Index 对象中底层数据的维数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(idx)
 
 现在我们将使用`Index.ndim`属性找出给定 Index 对象中底层数据的维数。
 
-```
+```py
 # return the number of dimensions
 result = idx.ndim
 

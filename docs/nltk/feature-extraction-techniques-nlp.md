@@ -59,7 +59,7 @@
 我们的 BoW 模型无法捕获这样的 N 克，因为它的频率非常低。为了解决这类问题，我们需要另一个模型，即 **TF-IDF 矢量器**，我们接下来将研究它。
  **代码:创建 BoW 模型的 Python 代码是:**
 
-```
+```py
 # Creating the Bag of Words model 
 word2count = {} 
 for data in dataset: 
@@ -128,7 +128,7 @@ TF-IDF 是 TF 和 IDF 的乘积。其表述如下:
 
 **代码:使用 python 内置函数 *TfidfVectorizer* 计算任意语料库的 tf-idf 评分**
 
-```
+```py
 # calculating tf-idf values
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd

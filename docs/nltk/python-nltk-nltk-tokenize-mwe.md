@@ -10,7 +10,7 @@
 **示例#1 :**
 在此示例中，我们使用了`MWETokenizer.tokenize()`方法，该方法用于绑定之前定义的令牌。我们也可以使用`tokenizer.add_mwe()`方法添加预定义的令牌。
 
-```
+```py
 # import MWETokenizer() method from nltk
 from nltk.tokenize import MWETokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import MWETokenizer() method from nltk
 from nltk.tokenize import MWETokenizer
 

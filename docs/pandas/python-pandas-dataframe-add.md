@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 > 
 > **返回:**结果数据框
 
-```
+```py
 # Importing Pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ df
 
 **注意:** `add()` 功能类似于“+”操作，但是，`add()`为其中一个输入中的缺失值提供了额外的支持。
 
-```
+```py
 # We want NaN values in dataframe. 
 # so let's fill the last row with NaN value
 df.iloc[-1] = np.nan
@@ -53,7 +53,7 @@ df
 
 **使用`add()`功能向数据框添加一个常量值:**
 
-```
+```py
 # add 1 to all the elements
 # of the data frame
 df.add(1)
@@ -66,7 +66,7 @@ df.add(1)
 
 让我们看看怎么做。
 
-```
+```py
 # We have given a default value
 # of '10' for all the nan cells
 df.add(1, fill_value = 10)
@@ -79,7 +79,7 @@ df.add(1, fill_value = 10)
 
 对于序列输入，数据框和序列的索引维度必须匹配。
 
-```
+```py
 # Create a Series of 10 values
 tk = pd.Series(np.ones(10))
 
@@ -89,7 +89,7 @@ tk = pd.Series(np.ones(10))
 
 ![](img/653b1800f14f572bf2c304970719089a.png)
 
-```
+```py
 # Add tk(series) to the df(dataframe)
 # along the index axis
 df.add(tk, axis ='index')
@@ -99,7 +99,7 @@ df.add(tk, axis ='index')
 
 **将一个数据帧与其他数据帧相加**
 
-```
+```py
 # Create a second dataframe
 # First set the seed to regenerate the result
 np.random.seed(10)
@@ -114,7 +114,7 @@ df2
 
 让我们执行这两个数据帧的元素相加
 
-```
+```py
 df.add(df2)
 ```
 
@@ -124,7 +124,7 @@ df.add(df2)
 
 让我们解决它–
 
-```
+```py
 # Set a default value of 10 for nan cells
 # nan value won't be filled for those cells
 # in which both data frames has nan value

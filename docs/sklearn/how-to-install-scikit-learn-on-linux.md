@@ -16,7 +16,7 @@
 
 **第 2 步**:获取 scikit-learn 存储库，并使用以下命令克隆它。
 
-```
+```py
 git clone git://github.com/scikit-learn/scikit-learn.git --depth 1
 cd scikit-learn
 ```
@@ -29,19 +29,19 @@ cd scikit-learn
 
 要安装 python3-virtualenv 工具，如果您还没有安装的话。
 
-```
+```py
 sudo apt install python3.8-venv
 ```
 
 运行以下命令来创建和激活虚拟环境。
 
-```
+```py
 python3 -m venv geeks-env
 ```
 
 这将创建一个名为 geeks-env 的虚拟环境
 
-```
+```py
 source geeks-env/bin/activate
 ```
 
@@ -53,7 +53,7 @@ source geeks-env/bin/activate
 
 **步骤 4:** 现在，安装 NumPy、SciPy 和 Cython，并在可编辑模式下用 pip 构建包:
 
-```
+```py
 pip install numpy scipy cython
 ```
 
@@ -63,7 +63,7 @@ pip install numpy scipy cython
 
 构建包:
 
-```
+```py
 pip install --verbose --no-build-isolation --editable .
 ```
 
@@ -73,7 +73,7 @@ pip install --verbose --no-build-isolation --editable .
 
 **步骤 5:** 验证安装。
 
-```
+```py
 python3 -c "import sklearn; sklearn.show_versions()"
 ```
 
@@ -85,7 +85,7 @@ python3 -c "import sklearn; sklearn.show_versions()"
 
 **步骤 1:** 使用以下 pip 安装命令安装 Scikit-learn:
 
-```
+```py
 pip3 install -U scikit-learn
 ```
 
@@ -95,7 +95,7 @@ pip3 install -U scikit-learn
 
 **第 2 步**:运行以下命令验证安装:
 
-```
+```py
 python3 -m pip show scikit-learn
 ```
 

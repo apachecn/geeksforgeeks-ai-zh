@@ -24,7 +24,7 @@ IIR 代表无限脉冲响应，它是许多线性时不变系统的显著特征�
 
 ## 蟒 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -35,7 +35,7 @@ import matplotlib.pyplot as plt
 
 ## python 3
 
-```
+```py
 def mfreqz(b, a, Fs):
 
     # Compute frequency response of the filter
@@ -114,7 +114,7 @@ def impz(b, a):
 
 ## 蟒 3
 
-```
+```py
 # Given specification
 Fs = 7000  # Sampling frequency in Hz
 fp = np.array([1400, 2100])  # Pass band frequency in Hz

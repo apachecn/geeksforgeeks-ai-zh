@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.all()`功能检查给定序列对象中的所有值是真还是非零。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 Coca Cola    34
 Sprite        5
 Coke         13
@@ -50,7 +50,7 @@ dtype: int64
 
 现在我们将使用`Series.all()`函数检查给定序列对象中的所有值是否为真非零。
 
-```
+```py
 # check if all value is True
 # or non-zero
 result = sr.all()
@@ -61,7 +61,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -69,7 +69,7 @@ True
 
 **示例 2 :** 使用`Series.all()`功能检查给定系列对象中的所有值是否为真或非零。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -89,7 +89,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    51
 2011-12-31 08:45:00    10
 2012-12-31 08:45:00    24
@@ -106,7 +106,7 @@ Freq: A-DEC, dtype: int64
 
 现在我们将使用`Series.all()`函数检查给定序列对象中的所有值是否为真非零。
 
-```
+```py
 # check if all value is True
 # or non-zero
 result = sr.all()
@@ -117,7 +117,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 False
 ```
 

@@ -13,7 +13,7 @@
 **示例#1:**
 在这个示例中，我们可以看到，通过使用`pyplot.plotfile()`方法，我们能够通过使用`pyplot.plotfile()`方法给定的属性在图形上绘制 csv 文件数据。
 
-```
+```py
 # import matplotlib
 import matplotlib.pyplot as plt
 
@@ -35,7 +35,7 @@ plt.show()
 
 **例 2 :**
 
-```
+```py
 # import matplotlib
 import matplotlib.pyplot as plt
 

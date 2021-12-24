@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :
 A = ['Akash', 'Ayush', 'Diksha', 'Radhika']
 B = ['Kumar', 'Sharma', 'Tewari', 'Pegowal']
@@ -30,7 +30,7 @@ A + B = [AkashKumar, AyushSharma, 'DikshTewari', 'RadhikaPegowal']
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library numpy as np
 import numpy as np
 
@@ -55,7 +55,7 @@ print(full_name)
 
 **输出:**
 
-```
+```py
 Printing first name array:
 ['Geeks']
 Printing last name array:
@@ -70,7 +70,7 @@ Printing concatenate array as full name:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library numpy as np
 import numpy as np
 
@@ -95,7 +95,7 @@ print(full_name)
 
 **输出:**
 
-```
+```py
 Printing first name array:
 ['Akash' 'Ayush' 'Diksha' 'Radhika']
 Printing last name array:

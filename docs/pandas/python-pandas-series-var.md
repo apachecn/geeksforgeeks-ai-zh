@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.var()`函数找到给定序列对象的方差。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们用`Series.var()`函数求给定序列对象的方差。
 
-```
+```py
 # find the variance
 sr.var()
 ```
@@ -50,7 +50,7 @@ sr.var()
 
 **注意:**我们可以通过将 skipna 参数设置为`True`来跳过缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们用`Series.var()`函数求给定序列对象的方差。
 
-```
+```py
 # find the variance
 sr.var(skipna = True)
 ```

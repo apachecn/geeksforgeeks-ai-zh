@@ -16,7 +16,7 @@ Pandas 为数据分析师提供了各种预定义的函数来获取数据框中�
 
 **示例:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -42,7 +42,7 @@ print("Number of Columns: " + str(cols))
 
 **输出:**
 
-```
+```py
 Number of Rows: 4
 Number of Columns: 3
 
@@ -54,13 +54,13 @@ Number of Columns: 3
 
 **语法:**
 
-```
+```py
 df.info
 ```
 
 **示例:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -91,7 +91,7 @@ df.info()
 
 **语法:**
 
-```
+```py
 len(df)
 and
 len(df.columns)
@@ -99,7 +99,7 @@ len(df.columns)
 
 **例 1:获取行数**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -120,14 +120,14 @@ print("Number of Rows:", len(df))
 
 **输出:**
 
-```
+```py
 Number of Rows: 4
 
 ```
 
 **例 2:获取列数**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -148,7 +148,7 @@ print("Number of Columns:", len(df.columns))
 
 **输出:**
 
-```
+```py
 Number of Columns: 3
 
 ```
@@ -159,7 +159,7 @@ Number of Columns: 3
 
 **示例:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -180,6 +180,6 @@ df.shape
 
 **输出:**
 
-```
+```py
 (4, 3)
 ```

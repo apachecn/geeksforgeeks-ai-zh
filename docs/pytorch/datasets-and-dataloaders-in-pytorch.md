@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import torch
 import torchvision
@@ -77,7 +77,7 @@ torch dataLoader 将此数据集作为输入，与 batch_size、shuffle 等其�
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading whole dataset with DataLoader
 # shuffle the data, which is good for training
 dataloader = DataLoader(dataset=dataset, batch_size=4, shuffle=True)
@@ -100,7 +100,7 @@ for i, (targets, labels) in enumerate(dataloader):
 
 ## 蟒蛇 3
 
-```
+```py
 num_epochs = 2
 
 for epoch in range(num_epochs):

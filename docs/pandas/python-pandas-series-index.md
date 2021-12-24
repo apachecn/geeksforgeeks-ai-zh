@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.index`属性为给定的序列对象设置索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(sr)
 
 现在我们将使用`Series.index`属性来设置给定对象的索引标签。
 
-```
+```py
 # Creating the row axis labels
 sr.index = ['City 1', 'City 2', 'City 3', 'City 4'] 
 ```
@@ -46,7 +46,7 @@ sr.index = ['City 1', 'City 2', 'City 3', 'City 4'] 
 
 **示例#2 :** 使用`Series.index`属性获取给定系列对象的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(sr)
 
 现在我们将使用`Series.index`属性来获取给定对象的索引标签。
 
-```
+```py
 # print the index labels
 print(sr.index)
 ```

@@ -19,7 +19,7 @@
 
 **示例 1 :** 从列表创建系列
 
-```
+```py
 # import the library
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(ex1)
 
 **示例 2 :** 从 NumPy 数组创建系列。
 
-```
+```py
 # import the pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -58,7 +58,7 @@ print(s)
 
 **示例 3:** 从字典创建系列。
 
-```
+```py
 # import the pandas library
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(s)
 
 **示例 4 :** 从列表列表创建系列。
 
-```
+```py
 # importing the module
 import pandas as pd
 

@@ -20,7 +20,7 @@ rcParams 是 matplotlib 库的一个实例，用于处理默认 matplotlib 值�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # setting font sizeto 30
@@ -65,7 +65,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # creating a dictionary

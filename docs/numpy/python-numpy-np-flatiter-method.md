@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.flatiter()`方法，我们能够使用该方法获得平面迭代器。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -33,7 +33,7 @@ for items in gfg:
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

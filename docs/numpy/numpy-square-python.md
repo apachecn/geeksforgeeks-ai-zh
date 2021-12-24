@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 arr  : *[array_like]* Input array or object
           whose elements, we need to square.
 
@@ -14,14 +14,14 @@ arr  : *[array_like]* Input array or object
 
 **返回:**
 
-```
+```py
 An array with square value of each array.  
 
 ```
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # square () function
 
@@ -36,7 +36,7 @@ print ("\nSquare Value of arr2 : ", np.square(arr2))
 
 **输出:**
 
-```
+```py
 Square Value of arr1 : 
  [     1      9    225 217156]
 
@@ -46,7 +46,7 @@ Square Value of arr2 :  [ 529 3136]
 
 **代码#2:处理复数**
 
-```
+```py
 # Python program explaining
 # square () function
 
@@ -61,7 +61,7 @@ print("\nSquare value(16 + 13j) : ", np.square(b))
 
 **输出:**
 
-```
+```py
 Square(4 + 3j) :  (7+24j)
 
 Square value(16 + 13j) :  (87+416j)
@@ -69,7 +69,7 @@ Square value(16 + 13j) :  (87+416j)
 
 **代码# 3:numpy . square()的图形表示**
 
-```
+```py
 # Python program explaining
 # square () function
 
@@ -90,7 +90,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Graphical Representation : 
  [ 25\.   9\.   1\.   1\.   9\.  25.]
 

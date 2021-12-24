@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import numpy as np
 import seaborn as sns
@@ -83,7 +83,7 @@ ax = sns.heatmap(data, annot=text, fmt="")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import numpy as np
 import seaborn as sns

@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -70,7 +70,7 @@ plt.show()
 
 ![](img/766ae5d878595d8976234a918e86d31b.png)
 
-```
+```py
 Value return by get_constrained_layout_pads() 
 w_pad : 0.04167
 h_pad  : 0.04167
@@ -81,7 +81,7 @@ hspace  : 0.02
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,7 +124,7 @@ plt.show()
 
 ![](img/c6c0e9415bb84726b6c14eb05da0456a.png)
 
-```
+```py
 Value return by get_constrained_layout_pads() 
 w_pad : 0.04167
 h_pad  : 0.04167

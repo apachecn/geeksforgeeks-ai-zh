@@ -4,7 +4,7 @@
 
 在本文中，让我们讨论如何获取 Numpy 数组元素的下限、上限和截断值。首先，我们需要导入 NumPy 库来使用其中所有可用的功能。这可以通过以下导入语句来完成:
 
-```
+```py
 import numpy as np
 
 ```
@@ -15,7 +15,7 @@ import numpy as np
 
 **语法:**
 
-```
+```py
 numpy.floor(x[, out]) = ufunc ‘floor’) 
 
 ```
@@ -24,7 +24,7 @@ numpy.floor(x[, out]) = ufunc ‘floor’)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the numpy library
 import numpy as np
 
@@ -38,7 +38,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [1.]
 
 ```
@@ -47,7 +47,7 @@ print(a)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 a = np.array([-1.8, -1.6, -0.5, 0.5,
@@ -59,7 +59,7 @@ print(a)
 
 **OutPut:**
 
-```
+```py
 [-2., -2., -1., 0., 1., 1., 3.]
 
 ```
@@ -70,7 +70,7 @@ print(a)
 
 **语法:**
 
-```
+```py
 numpy.ceil(x[, out]) = ufunc ‘ceil’) 
 
 ```
@@ -79,7 +79,7 @@ numpy.ceil(x[, out]) = ufunc ‘ceil’)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the numpy library
 import numpy as np
 
@@ -93,7 +93,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [2.]
 
 ```
@@ -102,7 +102,7 @@ print(a)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 a = np.array([-1.8, -1.6, -0.5, 0.5,
@@ -114,7 +114,7 @@ print(a)
 
 **输出**:
 
-```
+```py
 [-1., -1., -0., 1., 2., 2., 3.]
 
 ```
@@ -125,7 +125,7 @@ print(a)
 
 **语法:**
 
-```
+```py
 numpy.trunc(x[, out]) = ufunc ‘trunc’)
 
 ```
@@ -134,7 +134,7 @@ numpy.trunc(x[, out]) = ufunc ‘trunc’)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the numpy library
 import numpy as np
 
@@ -148,7 +148,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [1.]
 
 ```
@@ -157,7 +157,7 @@ print(a)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 a = np.array([-1.8, -1.6, -0.5, 0.5,
@@ -169,7 +169,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [-1., -1., -0., 0., 1., 1., 3.]
 
 ```
@@ -178,7 +178,7 @@ print(a)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 input_arr = np.array([-1.8, -1.6, -0.5, 0.5, 
@@ -197,7 +197,7 @@ print("\nTruncated values : \n", trunc_values)
 
 **输出:**
 
-```
+```py
 [-1.8 -1.6 -0.5  0.5  1.6  1.8  3\. ]
 
 Floor values : 

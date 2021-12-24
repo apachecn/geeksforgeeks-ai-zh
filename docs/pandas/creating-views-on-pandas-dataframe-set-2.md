@@ -12,7 +12,7 @@
 
 **解决方案#1:** 将 csv 文件中的数据读入 Python 时，我们可以选择所有想要读入 DataFrame 的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(df)
 
 **解决方案#2 :** 将 csv 文件中的数据读入 Python 时，我们可以列出所有不想读入 DataFrame 的列。就像放下那些柱子。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -54,7 +54,7 @@ print(df)
 
 **解决方案#3 :** 我们可以使用`difference()`方法删除不需要的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(df)
 
 现在我们将使用`difference()`方法删除那些我们不需要的列。
 
-```
+```py
 # Drop the listed columns
 df_view = df[df.columns.difference(['Position', 'Age', 'Salary'])]
 

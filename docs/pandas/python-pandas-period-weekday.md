@@ -14,7 +14,7 @@ Pandas `**Period.weekday**`属性返回一个整数值，表示给定周期对�
 
 **示例#1:** 使用`Period.weekday`属性找出给定期间对象中的工作日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.weekday`属性来查找 prd 对象中的工作日。
 
-```
+```py
 # return the weekday
 prd.weekday
 ```
@@ -43,7 +43,7 @@ prd.weekday
 
 **例 2:** 使用`Period.weekday`属性找出给定期间对象中的工作日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(prd)
 
 现在我们将使用`Period.weekday`属性来查找 prd 对象中的工作日。
 
-```
+```py
 # return the weekday
 prd.weekday
 ```

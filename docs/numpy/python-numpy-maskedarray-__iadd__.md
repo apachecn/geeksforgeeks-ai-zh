@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都添加了方法 MaskedArray 中作为参数给出的值。__iadd__()。记住一件事，它对双类型值不起作用。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,14 +24,14 @@ print(gfg.__iadd__(5)) 
 
 **Output:**
 
-```
+```py
 [  6\.    7\.    8\.    9.7  10.2]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -45,7 +45,7 @@ print(gfg.__iadd__(5)) 
 
 **Output:**
 
-```
+```py
 [[ 6  7  8  9 10]
  [11 10  9  8  7]]
 

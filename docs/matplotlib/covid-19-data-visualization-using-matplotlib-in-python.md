@@ -22,7 +22,7 @@
 
 导入新冠肺炎印度案例时间序列数据集
 
-```
+```py
 data = pd.read_csv('case_time_series.csv')
 
 ```
@@ -31,14 +31,14 @@ data = pd.read_csv('case_time_series.csv')
 
 case_time_series.csv 数据集有 7 列。我们将收集每日确认每日恢复和每日死亡的变量作为数组。
 
-```
+```py
 Y = data.iloc[61:,1].values #Stores Daily Confirmed
 R = data.iloc[61:,3].values #Stores Daily Recovered
 D = data.iloc[61:,5].values #Stores Daily Deceased
 
 ```
 
-```
+```py
 X = data.iloc[61:,0] #Stores Date
 
 ```
@@ -59,7 +59,7 @@ D *'* 变量存储“每日死者”冠状病毒病例
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -84,28 +84,28 @@ plt.plot(X,Y)
 
 为了控制图形的美观，如标签、标题、颜色和大小，我们将应用更多的功能，如下所示。
 
-```
+```py
 plt.figure(figsize=(25,8))
 
 ```
 
 这将为图形创建一个画布，其中第一个值“25”是图形的宽度参数位置，“8”是图形的高度参数位置。
 
-```
+```py
 ax = plt.axes()
 
 ```
 
 让我们创建一个图形轴的对象作为“ax ”,这样就更容易实现函数了。
 
-```
+```py
 ax.grid(linewidth=0.4, color='#8f8f8f') 
 
 ```
 
 。“网格”功能允许您在图形上创建网格线。网格线的宽度可以通过简单地传递参数“线宽”来调整，通过传递“颜色”参数来改变其颜色。
 
-```
+```py
 ax.set_facecolor("black") 
 
 ax.set_xlabel('\nDate',size=25,
@@ -118,7 +118,7 @@ ax.set_ylabel('Number of Confirmed Cases\n',
 
 。“set_facecolor”允许您设置图形的背景颜色，这里是黑色。。set _ xlabel“and”。“set_ylabel”允许您沿两个轴设置标签，标签的大小和颜色可以更改。
 
-```
+```py
 ax.plot(X,Y,
         color='#1F77B4',
         marker='o',
@@ -134,7 +134,7 @@ ax.plot(X,Y,
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -170,7 +170,7 @@ ax.plot(X,Y,
 
 我们仍然可以看到日期是重叠的，沿着轴的标签不够清晰。所以现在我们要改变坐标轴的刻度，并标注这些图。
 
-```
+```py
 plt.xticks(rotation='vertical',size='20',color='white')
 plt.yticks(size=20,color='white')
 plt.tick_params(size=20,color='white')
@@ -181,7 +181,7 @@ plt.tick_params(size=20,color='white')
 
 。“tick_params”允许您更改虚线的大小和颜色，虚线看起来像是刻度和图形之间的桥梁。
 
-```
+```py
 for i,j in zip(X,Y):
     ax.annotate(str(j),xy=(i,j+100),
                 color='white',size='13')
@@ -190,7 +190,7 @@ for i,j in zip(X,Y):
 
 。“注释”允许您在图表上进行注释。在这里，我们编写了一个代码，通过运行一个 for 循环来注释绘制点，该循环在绘制点绘制。字符串(j)包含“Y”变量，即每日确认。传递的任何字符串都将被绘制出来。XY 是应该绘制字符串的坐标。最后可以定义颜色和大小。请注意，我们在 XY 坐标中为 j 添加了+100，这样字符串就不会与标记重叠，并且它在 Y 轴上的距离为 100 个单位？—?轴。
 
-```
+```py
 ax.annotate('Second Lockdown 15th April',
             xy=(15.2, 860),
             xytext=(19.9,500),
@@ -202,7 +202,7 @@ ax.annotate('Second Lockdown 15th April',
 
 要注释一个指向图中某个位置的箭头，并且它的尾部包含字符串，我们可以定义“arrowprops”参数以及由“xytext”定义的尾部坐标。请注意,“箭头道具”的修改可以使用字典来完成。
 
-```
+```py
 plt.title("COVID-19 IN : Daily Confrimed\n",
           size=50,color='#28a9ff')
 
@@ -214,7 +214,7 @@ plt.title("COVID-19 IN : Daily Confrimed\n",
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -272,7 +272,7 @@ ax.plot(X,Y,
 
 ### 初始化数据集
 
-```
+```py
 slices = [62, 142, 195]
 activities = ['Travel', 'Place Visit', 'Unknown']
 
@@ -282,13 +282,13 @@ activities = ['Travel', 'Place Visit', 'Unknown']
 
 ### 绘制 Pir 图
 
-```
+```py
 cols=['#4C8BE2','#00e061','#fe073a']
 exp = [0.2,0.02,0.02]
 
 ```
 
-```
+```py
 plt.pie(slices,
 labels=activities, 
 textprops=dict(size=25,color='black'),
@@ -301,7 +301,7 @@ startangle=90)
 
 ```
 
-```
+```py
 plt.title('Transmission\n\n\n\n',color='#4fb4f2',size=40)
 
 ```
@@ -312,7 +312,7 @@ plt.title('Transmission\n\n\n\n',color='#4fb4f2',size=40)
 
 ## 蟒蛇 3
 
-```
+```py
 slices = [62, 142, 195]
 activities = ['Travel', 'Place Visit', 'Unknown']
 
@@ -341,7 +341,7 @@ plt.title('Transmission\n\n\n\n',color='#4fb4f2',size=40)
 
 ### 初始化数据集
 
-```
+```py
 data = pd.read_csv('district.csv')
 data.head()
 
@@ -349,7 +349,7 @@ data.head()
 
 ![](img/95e812ec0d586de304ce72f096467f86.png)
 
-```
+```py
 re=data.iloc[:30,5].values
 de=data.iloc[:30,4].values
 co=data.iloc[:30,3].values
@@ -367,7 +367,7 @@ x=list(data.iloc[:30,0])
 
 ### 绘制条形图
 
-```
+```py
 plt.figure(figsize=(25,10))
 ax=plt.axes()
 
@@ -394,7 +394,7 @@ ax.set_title('Maharashtra District wise breakdown\n',
 
 美学的代码将与我们在前面的剧情中看到的一样。唯一会改变的是调用 bar 函数。
 
-```
+```py
 plt.bar(x,co,label='re')
 plt.bar(x,re,label='re',color='green')
 plt.bar(x,de,label='re',color='red')
@@ -416,7 +416,7 @@ plt.legend(['Confirmed','Recovered','Deceased'],
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.read_csv('district.csv')
 data.head()
 

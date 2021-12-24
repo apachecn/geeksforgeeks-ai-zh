@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都用方法`ndarray.__truediv__()`中作为参数给出的值进行了划分。此方法对于数组的正、负和浮点值都很有效。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__truediv__(2))
 
 **Output:**
 
-```
+```py
 [ 0.5   1.25  1.5   2.4   2.5 ]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__truediv__(3))
 
 **Output:**
 
-```
+```py
 [[ 0.33333333  0.66666667  1\.          1.48333333  1.66666667]
  [ 2\.          1.83333333  1.33333333  1\.          0.87333333]]
 

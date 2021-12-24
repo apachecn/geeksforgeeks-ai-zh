@@ -18,7 +18,7 @@ Pandas 是一个开源的、BSD 许可的库，用 Python 语言编写。熊猫�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -46,7 +46,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # melting with DAYS as column identifier
 reshaped_df = df.melt(id_vars=['DAYS'])
 

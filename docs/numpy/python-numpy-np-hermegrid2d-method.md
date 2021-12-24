@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermegrid2d()`方法，我们能够用这个方法来评估 x 和 y 的笛卡尔乘积上的 2-D hermite 级数。
 
-```
+```py
 # import numpy and hermegrid2d
 import numpy as np
 from numpy.polynomial.hermite_e import hermegrid2d
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermegrid2d
 import numpy as np
 from numpy.polynomial.hermite_e import hermegrid2d

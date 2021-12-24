@@ -13,11 +13,11 @@
 
 **返回:**
 
-```
+```py
 Sorted Array
 ```
 
-```
+```py
 # importing libraries
 import numpy as np
 
@@ -38,7 +38,7 @@ print ("\nAlong none axis : \n", arr1)
 
 **输出:**
 
-```
+```py
 Along first axis : 
  [[10  1]
  [12 15]]

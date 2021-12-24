@@ -60,7 +60,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import in order to use inbuilt functions
 import numpy as np
 import pandas as pd
@@ -100,7 +100,7 @@ display(systematic_sample)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import in order to use inbuilt functions
 import numpy as np
 import pandas as pd
@@ -164,7 +164,7 @@ print("Average Height in cm: ", systematic_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import in order to use inbuilt functions
 import numpy as np
 import pandas as pd
@@ -236,7 +236,7 @@ print("Average Number Of Childrens in Locality: ", systematic_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import in order to use inbuilt functions
 import numpy as np
 import pandas as pd
@@ -308,7 +308,7 @@ print("Average Number Of Defective Bulbs: ", systematic_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import in order to use inbuilt functions
 import numpy as np
 import pandas as pd

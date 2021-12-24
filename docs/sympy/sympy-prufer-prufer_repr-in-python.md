@@ -12,7 +12,7 @@
 
 **代码#1 : prufer_repr()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prufer_repr()
 
@@ -36,7 +36,7 @@ print ("Prufer a prufer_repr : ", a.prufer_repr)
 
 **代码#2 : prufer_repr()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prufer_repr()
 

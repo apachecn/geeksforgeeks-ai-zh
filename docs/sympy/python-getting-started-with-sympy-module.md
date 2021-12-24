@@ -6,7 +6,7 @@
 SymPy 只依赖于 mpmath，这是一个用于任意浮点运算的纯 Python 库，使用起来很方便。
 **安装症状模块:**
 
-```
+```py
  pip install sympy 
 
 ```
@@ -18,7 +18,7 @@ SymPy 定义了以下数值类型:*有理*和*整数*。有理数类将有理数
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from sympy module
 from sympy import *
 
@@ -31,7 +31,7 @@ print("value of b is :" + str(b))
 
 **输出:**
 
-```
+```py
 
 value of a is :5/8
 value of b is :3
@@ -43,7 +43,7 @@ SymPy 在后台使用 mpmath，这使得使用任意精度的算法执行计算�
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from sympy module
 from sympy import *
 
@@ -73,7 +73,7 @@ else:
 
 **输出:**
 
-```
+```py
 value of p is :pi^3
 value of q is :3.14159265358979
 value of r is :2.71828182845905
@@ -88,7 +88,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from sympy module
 from sympy import * x = Symbol('x')
 y = Symbol('y')
@@ -99,7 +99,7 @@ print("value of z is :" + str(z))
 
 **输出:**
 
-```
+```py
 value of z is :2*x 
 
 ```
@@ -111,7 +111,7 @@ value of z is :2*x
 
 ## 蟒蛇 3
 
-```
+```py
 # import everything from sympy module
 from sympy import *
 
@@ -142,7 +142,7 @@ print("roots are : ", ans5)
 
 **输出:**
 
-```
+```py
 derivative of sin(x)*e^x :  exp(x)*sin(x) + exp(x)*cos(x)
 indefinite integration is :  exp(x)*sin(x)
 definite integration is :  sqrt(2)*sqrt(pi)/2

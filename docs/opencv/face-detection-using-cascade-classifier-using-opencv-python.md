@@ -26,7 +26,7 @@ OpenCV 附带了许多预先训练好的分类器。这些 XML 文件可以通�
 
 ## 计算机编程语言
 
-```
+```py
 img = cv2.imread('Photos/cric.jpg')
 ```
 
@@ -36,6 +36,6 @@ img = cv2.imread('Photos/cric.jpg')
 
 ## 计算机编程语言
 
-```
+```py
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ```

@@ -16,7 +16,7 @@ PyTorch `torch.fmod()`方法给出了除数除法的元素余项。除数可以�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -32,7 +32,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 5
  6
  7
@@ -48,7 +48,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -65,7 +65,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 5
  6
  7

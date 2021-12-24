@@ -16,7 +16,7 @@ Matploptib 是 Python 的一个低级库，用于数据可视化。它易于使�
 
 要安装 Matplotlib，请在终端中键入以下命令。
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -37,7 +37,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # initializing the data

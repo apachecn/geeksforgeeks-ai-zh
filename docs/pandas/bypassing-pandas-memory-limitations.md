@@ -22,7 +22,7 @@ Pandas 是一个用于分析和操作数据集的 Python 库，但是 Pandas 的
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = pd.read_csv('train dataset.csv', chunksize=100)
@@ -47,7 +47,7 @@ for x in data:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data=pd.read_csv('train_dataset.csv')
@@ -74,7 +74,7 @@ display(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = pd.read_csv('train_dataset.csv', dtype={'Age': 'int32'})
@@ -100,7 +100,7 @@ print(data.info())
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -130,7 +130,7 @@ sdf.dtypes
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = pd.read_csv('train_dataset.csv')

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import pandas as pd
@@ -34,7 +34,7 @@ df['species'].unique()
 
 **输出:**
 
-```
+```py
 array(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'], dtype=object)
 ```
 
@@ -42,7 +42,7 @@ array(['Iris-setosa', 'Iris-versicolor', 'Iris-virginica'], dtype=object)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import label encoder
 from sklearn import preprocessing
 
@@ -57,7 +57,7 @@ df['species'].unique()
 
 **输出:**
 
-```
+```py
 array([0, 1, 2], dtype=int64)
 ```
 

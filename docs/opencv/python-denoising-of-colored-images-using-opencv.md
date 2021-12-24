@@ -16,7 +16,7 @@
 
 **下面是实现:**
 
-```
+```py
 # importing libraries
 import numpy as np
 import cv2

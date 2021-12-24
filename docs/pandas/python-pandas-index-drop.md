@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.drop()`功能从索引中删除传递的标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ idx
 
 让我们从指数中去掉“1 月”和“12 月”。
 
-```
+```py
 # Passing a list containing the labels
 # to be dropped from the Index
 idx.drop(['Jan', 'Dec'])
@@ -48,7 +48,7 @@ idx.drop(['Jan', 'Dec'])
 
 **示例 2:** 使用`Index.drop()`函数在索引中删除包含日期时间数据的标签列表。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ idx
 
 现在，让我们从索引中删除一些日期。
 
-```
+```py
 # Passing the values to be dropped from the Index
 idx.drop(['2015-12-02', '2016-02-08'])
 ```

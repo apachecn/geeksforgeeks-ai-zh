@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.normalize()`函数来归一化时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(didx)
 ![](img/292c6860e7a16769bbc54ecce0f5ed65.png)
 现在我们希望 DatetimeIndex 对象中存在的所有时间值都被规范化，即它被转换为午夜时间。
 
-```
+```py
 # normalize the time.
 idx.normalize()
 ```
@@ -40,7 +40,7 @@ idx.normalize()
 
 **例 2:** 使用`DatetimeIndex.normalize()`功能将时间归一化。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(didx)
 
 现在，我们希望 DatetimeIndex 对象中的所有时间值都被规范化，也就是说，它被转换为午夜时间。
 
-```
+```py
 # normalize the time.
 idx.normalize()
 ```

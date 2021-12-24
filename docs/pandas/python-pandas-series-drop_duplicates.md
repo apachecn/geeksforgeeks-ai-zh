@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.drop_duplicates()`函数删除给定序列对象中的重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.drop_duplicates()`函数删除给定序列对象的基础数据中的重复值。
 
-```
+```py
 # drop duplicates
 result = sr.drop_duplicates()
 
@@ -50,7 +50,7 @@ print(result)
 
 **示例 2 :** 使用`Series.drop_duplicates()`功能从给定的序列对象中删除重复的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(sr)
 ![](img/21921ada03d0d188261de98782098034.png)
 现在我们使用`Series.drop_duplicates()`函数删除给定序列对象底层数据中的重复值。
 
-```
+```py
 # drop duplicates
 result = sr.drop_duplicates()
 

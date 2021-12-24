@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # array
@@ -48,7 +48,7 @@ print("Index of nearest value is : ", index)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # array

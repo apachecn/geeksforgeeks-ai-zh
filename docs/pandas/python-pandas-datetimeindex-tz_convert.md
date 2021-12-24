@@ -15,7 +15,7 @@ Pandas `**DatetimeIndex.tz_convert()**`函数将支持 tz 的日期时间索引�
 
 **示例#1:** 使用`DatetimeIndex.tz_convert()`函数将给定的日期时间索引对象转换为所需的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(didx)
 
 现在，我们希望将时区从“亚洲/加尔各答”转换为“美国/中部”
 
-```
+```py
 # Convert the timezone to 'US / Central'
 didx.tz_convert('US/Central')</div>
 ```
@@ -45,7 +45,7 @@ didx.tz_convert('US/Central')</div>
 
 **示例 2:** 使用`DatetimeIndex.tz_convert()`函数将给定的 DatetimeIndex 对象转换为所需的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(didx)
 
 现在，我们希望将时区从“亚洲/加尔各答”转换为“欧洲/柏林”
 
-```
+```py
 # Convert the timezone to 'Europe / Berlin'
 didx.tz_convert('Europe/Berlin')
 ```

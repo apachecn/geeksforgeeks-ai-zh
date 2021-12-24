@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create a dataframe
@@ -47,7 +47,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Compare first and second timestamps
 if df['new_time'][0] <= df['new_time'][1]:
     print("First entry is old")
@@ -57,7 +57,7 @@ else:
 
 **输出:**
 
-```
+```py
 First entry is old
 ```
 
@@ -65,7 +65,7 @@ First entry is old
 
 ## 蟒蛇 3
 
-```
+```py
 # Timestamps satisfying given condition
 for i in range(len(df['year'])):
     if df['new_time'][i] < pd.Timestamp(2018, 1, 5, 12):
@@ -74,7 +74,7 @@ for i in range(len(df['year'])):
 
 **输出:**
 
-```
+```py
 2017-11-29 10:10:00
 2017-11-30 10:20:00
 2017-12-31 10:25:00
@@ -85,14 +85,14 @@ for i in range(len(df['year'])):
 
 ## 蟒蛇 3
 
-```
+```py
 # Boolean value output for given condition
 print(df['new_time'] > pd.Timestamp(2018, 1, 5, 12))
 ```
 
 **输出:**
 
-```
+```py
 0    False
 1    False
 2    False
@@ -107,7 +107,7 @@ Name: new_time, dtype: bool
 
 ## 蟒蛇 3
 
-```
+```py
 # Latest timestamp
 print("Latest Timestamp: ", max(df['new_time']))
 
@@ -118,7 +118,7 @@ print("Difference: ", diff)
 
 **输出:**
 
-```
+```py
 Latest Timestamp:  2018-02-02 11:40:00
 Difference:  1 days 00:10:00
 ```

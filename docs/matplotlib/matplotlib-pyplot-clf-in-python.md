@@ -11,7 +11,7 @@ matplotlib.pyplot.clf() Function
 matplotlib 库 pyplot 模块中的 **clf()函数**用于清除当前图形。
 **语法:**
 
-```
+```py
 matplotlib.pyplot.clf()
 ```
 
@@ -20,7 +20,7 @@ matplotlib.pyplot.clf()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -39,7 +39,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

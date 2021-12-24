@@ -4,7 +4,7 @@
 
 In Sympy, the function `director_circle()` returns a Circle consisting of all points where two perpendicular tangent lines to the ellipse cross each other.
 
-```
+```py
 Syntax: Ellipse.director_circle()
 
 Returns: Circle
@@ -14,7 +14,7 @@ Returns: Circle
 
 **示例#1:**
 
-```
+```py
 # import sympy and Circle, Ellipse, Point
 from sympy import Circle, Ellipse, Point
 
@@ -28,13 +28,13 @@ print(directorCircle)
 
 **输出:**
 
-```
+```py
 Circle(Point2D(3, 8), sqrt(130))
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy and Circle, Ellipse, Point, symbols
 from sympy import Circle, Ellipse, Point, symbols
 
@@ -49,6 +49,6 @@ print(directorCircle)
 
 **输出:**
 
-```
+```py
 Circle(Point2D(3, 8), sqrt(a**2 + b**2))
 ```

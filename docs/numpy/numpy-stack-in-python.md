@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # stack() function
 
@@ -38,7 +38,7 @@ print ("Output stacked array along axis 1:\n ", out_arr2)
 
 **Output:**
 
-```
+```py
 1st Input array : 
  [1 2 3]
 2nd Input array : 
@@ -55,7 +55,7 @@ Output stacked array along axis 1:
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # stack() function
 
@@ -83,7 +83,7 @@ print ("Output stacked array along last axis :\n ", out_arr3)
 
 **Output:**
 
-```
+```py
 1st Input array : 
  [[ 1  2  3]
  [-1 -2 -3]]

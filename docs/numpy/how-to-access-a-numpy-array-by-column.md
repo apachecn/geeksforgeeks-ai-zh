@@ -12,7 +12,7 @@ NumPy 中的行和列类似于 Python 列表
 
 **示例:**
 
-```
+```py
 Given array : 1 13 6
               9  4 7
               19 16 2
@@ -39,7 +39,7 @@ Output:  [13 4 16]
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to select row and column
 # in NumPy
 
@@ -66,7 +66,7 @@ print(arr[:,[0,1]])
 
 ****输出:****
 
-```
+```py
 printing array as it is
 [[ 1 13  6]
  [ 9  4  7]
@@ -95,7 +95,7 @@ selecting 0th and 1st row simultaneously
 
 ## **蟒蛇 3**
 
-```
+```py
 # program to select row and column
 # in numpy using ellipsis
 
@@ -119,7 +119,7 @@ print(arr[1, ...])
 
 ****输出:****
 
-```
+```py
 printing array as it is
 [[ 1 13  6]
  [ 9  4  7]

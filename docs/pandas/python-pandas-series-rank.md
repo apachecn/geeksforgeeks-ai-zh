@@ -20,7 +20,7 @@
 
 **示例#1:** 使用`Series.rank()`函数对给定序列对象的基础数据进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.rank()`函数返回给定 Series 对象的底层数据的排名。
 
-```
+```py
 # assign rank
 result = sr.rank()
 
@@ -59,7 +59,7 @@ print(result)
 
 **示例#2:** 使用`Series.rank()`函数对给定序列对象的基础数据进行排序。给定的数据也包含一些相等的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -82,7 +82,7 @@ print(sr)
 
 现在我们将使用`Series.rank()`函数返回给定 Series 对象的底层数据的排名。
 
-```
+```py
 # assign rank
 result = sr.rank()
 

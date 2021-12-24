@@ -21,7 +21,7 @@ Pandas **`.to_dict()`** 方法用于根据 orient 参数将数据帧转换为系
 **示例#1:** 默认转换为字典
 在这种情况下，没有参数传递给 **`to_dict()`** 方法。因此，默认情况下，它会将数据帧转换为字典。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -46,7 +46,7 @@ data_dict
 
 在本例中，“序列”被传递给 orient 参数，以将数据框转换为序列字典。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

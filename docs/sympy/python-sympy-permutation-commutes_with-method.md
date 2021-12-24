@@ -12,7 +12,7 @@
 
 **代码#1:用()通勤 _ 示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.commutes_with()
 
@@ -38,7 +38,7 @@ print ("Permutation b - commutes_with form : ", b.commutes_with(a))
 
 **代码#2:用()通勤 _ 示例**–自换向器
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.commutes_with()
 

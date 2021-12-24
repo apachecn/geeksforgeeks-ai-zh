@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
    # initializing the data
    x = [10, 20, 30, 40]
@@ -76,7 +76,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    plt.plot([1, 2, 3, 4], [1, 4, 9, 16]) 
@@ -118,7 +118,7 @@ Matplotlib 负责创建内置默认值，如**图形和轴。**不要担心这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -140,7 +140,7 @@ Matplotlib 负责创建内置默认值，如**图形和轴。**不要担心这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -185,7 +185,7 @@ Matplotlib 负责创建内置默认值，如**图形和轴。**不要担心这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -202,7 +202,7 @@ Matplotlib 负责创建内置默认值，如**图形和轴。**不要担心这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -239,7 +239,7 @@ Matplotlib 负责创建内置默认值，如**图形和轴。**不要担心这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -278,7 +278,7 @@ matplotlib 库的 add_axes()方法图形模块用于给图形添加一个轴。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show pyplot module
    import matplotlib.pyplot as plt 
    from matplotlib.figure import Figure 
@@ -317,7 +317,7 @@ add_axes()方法通过创建另一个 axes 对象在同一图形中添加绘图�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # data to display on plots 
    x = [3, 1, 3] 
@@ -354,7 +354,7 @@ import matplotlib.pyplot as plt 
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # Creating the figure and subplots
    # according the argument passed
@@ -383,7 +383,7 @@ import matplotlib.pyplot as plt 
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # data to display on plots 
    x = [3, 1, 3] 
@@ -435,7 +435,7 @@ legend()函数的属性 **bbox_to_anchor=(x，y)** 用于指定图例的坐标�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # data to display on plots 
    x = [3, 1, 3] 
@@ -475,7 +475,7 @@ import matplotlib.pyplot as plt 
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # data to display on plots 
    x = [3, 1, 3] 
@@ -518,7 +518,7 @@ import matplotlib.pyplot as plt 
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt 
    # data to display on plots 
    x = [3, 1, 3, 12, 2, 4, 4] 

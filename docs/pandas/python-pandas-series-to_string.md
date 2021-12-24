@@ -23,7 +23,7 @@
 
 **示例#1:** 使用`Series.to_string()`函数渲染给定序列对象的字符串表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -47,7 +47,7 @@ print(sr)
 
 现在我们将使用`Series.to_string()`函数将字符串表示呈现给这个序列对象。
 
-```
+```py
 # render to string form
 sr.to_string()
 ```
@@ -60,7 +60,7 @@ sr.to_string()
 
 **示例 2:** 使用`Series.to_string()`函数渲染给定序列对象的字符串表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.to_string()`函数将字符串表示呈现给这个序列对象。
 
-```
+```py
 # render to string form
 sr.to_string()
 ```

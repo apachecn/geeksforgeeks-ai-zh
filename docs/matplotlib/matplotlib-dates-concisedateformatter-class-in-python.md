@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.dates as mdates
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import datetime
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates

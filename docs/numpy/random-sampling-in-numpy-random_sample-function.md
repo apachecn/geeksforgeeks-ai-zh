@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.sample() function
 
@@ -27,14 +27,14 @@ print ("Output random float value : ", out_val) 
 
 **Output :**
 
-```
+```py
 Output random float value :  0.9211987310893188
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.random_sample() function
 
@@ -48,14 +48,14 @@ print ("Output 2D Array filled with random floats : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 2D Array filled with random floats :  [[ 0.64325146  0.4699456   0.89895437]]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.random_sample() function
 
@@ -69,7 +69,7 @@ print ("Output 3D Array filled with random floats : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 3D Array filled with random floats :  [[[ 0.78245025]
   [ 0.77736746]]
 

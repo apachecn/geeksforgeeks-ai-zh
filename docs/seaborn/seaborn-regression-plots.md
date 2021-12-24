@@ -12,7 +12,7 @@ seaborn 中的回归图主要是为了添加一个视觉指南，有助于在探
 
 ## 蟒蛇 3
 
-```
+```py
 # import the library
 import seaborn as sns
 
@@ -27,7 +27,7 @@ dataset.head()
 
 ## 蟒蛇 3
 
-```
+```py
 sns.set_style('whitegrid')
 sns.lmplot(x ='total_bill', y ='tip', data = dataset)
 ```
@@ -36,7 +36,7 @@ sns.lmplot(x ='total_bill', y ='tip', data = dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.set_style('whitegrid')
 sns.lmplot(x ='total_bill', y ='tip', data = dataset, 
            hue ='sex', markers =['o', 'v'])
@@ -46,7 +46,7 @@ sns.lmplot(x ='total_bill', y ='tip', data = dataset, 
 
 ## 蟒蛇 3
 
-```
+```py
 sns.set_style('whitegrid')
 sns.lmplot(x ='total_bill', y ='tip', data = dataset, hue ='sex', 
            markers =['o', 'v'], scatter_kws ={'s':100}, 
@@ -57,7 +57,7 @@ sns.lmplot(x ='total_bill', y ='tip', data = dataset, hue ='sex', 
 
 ## 蟒蛇 3
 
-```
+```py
 sns.lmplot(x ='total_bill', y ='tip', data = dataset, 
            col ='sex', row ='time', hue ='smoker')
 ```
@@ -66,7 +66,7 @@ sns.lmplot(x ='total_bill', y ='tip', data = dataset, 
 
 ## 蟒蛇 3
 
-```
+```py
 sns.lmplot(x ='total_bill', y ='tip', data = dataset, col ='sex', 
            row ='time', hue ='smoker', aspect = 0.6, 
            size = 4, palette ='coolwarm')

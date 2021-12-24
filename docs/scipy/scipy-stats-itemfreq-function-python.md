@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # cummulative frequency
 from scipy import stats
 import numpy as np 
@@ -26,7 +26,7 @@ print ("\n\nBincount : \n", np.bincount(arr))
 
 **Output:** 
 
-```
+```py
 Itemfrequency : 
  [[13  2]
  [14  2]

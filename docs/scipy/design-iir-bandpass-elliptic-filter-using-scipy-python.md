@@ -23,7 +23,7 @@ IIR 代表无限脉冲响应，它是许多线性时不变系统的显著特征�
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to depict magnitude
 # and phase plot
 def mfreqz(b, a, Fs):
@@ -118,7 +118,7 @@ def impz(b, a):
 
 ## 蟒蛇 3
 
-```
+```py
 # Given specification
 
 # Sampling frequency in Hz
@@ -141,7 +141,7 @@ As = 50
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute pass band and stop band edge frequencies
 
 # Normalized passband edge
@@ -157,7 +157,7 @@ ws = fs/(Fs/2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute order of the elliptic filter
 # using signal.ellipord
 N, wc = signal.ellipord(wp, ws, Ap, As)
@@ -174,7 +174,7 @@ print('Cut-off frequency=', wc)
 
 ## 蟒蛇 3
 
-```
+```py
 # Design digital elliptic bandpass filter
 # using signal.ellip function
 z, p = signal.ellip(N, Ap, As, wc, 'bandpass')
@@ -191,7 +191,7 @@ print('Denominator Coefficients:', p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Depicting visulalizations
 
 # Call mfreqz to plot the magnitude and phase response
@@ -204,7 +204,7 @@ mfreqz(z, p, Fs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Call impz function to plot impulse
 # and step response of the filter
 impz(z, p)
@@ -216,7 +216,7 @@ impz(z, p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required library
 import numpy as np
 import scipy.signal as signal

@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.empty() function
 
@@ -31,7 +31,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[  6.91957648e-310   1.90383493e-316]
  [  6.91957669e-310   5.30409905e-317]]
 
@@ -39,7 +39,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.empty() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[139855860099992        40294208]
  [139855825297024        10730496]]
 

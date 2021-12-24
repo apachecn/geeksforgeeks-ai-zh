@@ -12,7 +12,7 @@
 
 **要求:**
 
-```
+```py
 pip install OpenCV
 pip install webbrowser ( built in )
 ```
@@ -21,7 +21,7 @@ pip install webbrowser ( built in )
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import webbrowser
 ```
@@ -30,7 +30,7 @@ import webbrowser
 
 ## 蟒蛇 3
 
-```
+```py
 cap = cv2.VideoCapture(0)
 # initialize the cv2 QRCode detector
 detector = cv2.QRCodeDetector()
@@ -40,7 +40,7 @@ detector = cv2.QRCodeDetector()
 
 ## 蟒蛇 3
 
-```
+```py
 while True:
     _, img = cap.read()
 ```
@@ -51,7 +51,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # detect and decode
    data, bbox, _ = detector.detectAndDecode(img)
    # check if there is a QRCode in the image
@@ -68,7 +68,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 cv2.imshow("QRCODEscanner", img)    
     if cv2.waitKey(1) == ord("q"):
         break

@@ -10,7 +10,7 @@
 
 ## 巨蟒
 
-```
+```py
 # importing cv2 module
 import cv2
 

@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.getdata() function
 
@@ -33,7 +33,7 @@ print("Output array : ", gfg)
 
 **输出:**
 
-```
+```py
 Input array :  [[2 --]
  [6 8]]
 Output array :  [[2 4]
@@ -43,7 +43,7 @@ Output array :  [[2 4]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.getdata() function
 
@@ -62,7 +62,7 @@ print("Output array : ", gfg)
 
 **输出:**
 
-```
+```py
 Input array :  [[1 3]
  [-- 8]]
 Output array :  [[1 3]

@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数`is_tangent()`用于检查给定直线是否与给定圆相切。
 
-```
+```py
 Syntax:  Circle().is_tangent(line)
 
 Return: True:if line is tangent to circle, otherwise False.
@@ -13,7 +13,7 @@ Return: True:if line is tangent to circle, otherwise False.
 
 **示例#1:**
 
-```
+```py
 # import sympy and geometry module
 from sympy import * 
 from sympy.geometry import * 
@@ -32,13 +32,13 @@ print(isTangent)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy and geometry module
 from sympy import * 
 from sympy.geometry import * 
@@ -57,6 +57,6 @@ print(isTangent)
 
 **输出:**
 
-```
+```py
 False
 ```

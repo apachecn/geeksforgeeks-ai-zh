@@ -34,13 +34,13 @@
 
 *   **torch:** 这个 python 包提供了基于 autograd 系统构建的高级张量计算和深度神经网络。
 
-```
+```py
 pip install torch
 ```
 
 *   **torchvision:** 该模块由大量数据库、图像架构和计算机视觉转换组成
 
-```
+```py
 pip install torchvision
 ```
 
@@ -52,7 +52,7 @@ pip install torchvision
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 from torchvision import datasets
 from torchvision import transforms
@@ -65,7 +65,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Transforms images to a PyTorch Tensor
 tensor_transform = transforms.ToTensor()
 
@@ -86,13 +86,13 @@ loader = torch.utils.data.DataLoader(dataset = dataset,
 
 在这个编码片段中，编码器部分按顺序降低数据的维数，如下所示:
 
-```
+```py
 28*28 = 784 ==> 128 ==> 64 ==> 36 ==> 18 ==> 9
 ```
 
 其中输入节点的数量是 784，被编码成潜在空间中的 9 个节点。而在解码器部分，数据的维数线性增加到原始输入大小，以便重建输入。
 
-```
+```py
 9 ==> 18 ==> 36 ==> 64 ==> 128 ==> 784 ==> 28*28 = 784
 ```
 
@@ -102,7 +102,7 @@ loader = torch.utils.data.DataLoader(dataset = dataset,
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a PyTorch class
 # 28*28 ==> 9 ==> 28*28
 class AE(torch.nn.Module):

@@ -12,7 +12,7 @@
 
 **代码# 1:RGS _ generated()示例**
 
-```
+```py
 ]
 
 # Python code explaining
@@ -35,7 +35,7 @@ print ("Row of Matrix : \n", p)
 
 **代码# 2:RGS _ generated()示例**
 
-```
+```py
 ]
 
 # Python code explaining

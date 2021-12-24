@@ -13,7 +13,7 @@
 **注意:**确保包含各种模型来馈送投票分类器，以确保一个模型产生的错误可能被另一个模型解决。
 **代码:实现投票分类器的 Python 代码**
 
-```
+```py
 # importing libraries
 from sklearn.ensemble import VotingClassifier
 from sklearn.linear_model import LogisticRegression
@@ -64,14 +64,14 @@ print("Soft Voting Score % d" % score)
 
 **输出:**
 
-```
+```py
 Hard Voting Score 1
 Soft Voting Score 1
 ```
 
 **示例:**
 
-```
+```py
 Input  :4.7, 3.2, 1.3, 0.2 
 Output :Iris Setosa 
 

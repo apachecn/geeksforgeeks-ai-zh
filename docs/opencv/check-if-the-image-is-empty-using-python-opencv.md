@@ -10,7 +10,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 为此，需要安装 OpenCV 库:
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -28,7 +28,7 @@ Gfg.png
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing OpenCV library
 import cv2
 
@@ -58,7 +58,7 @@ print(check_empty_img(img))
 
 **输出:**
 
-```
+```py
 Image is not empty!!
 ```
 
@@ -68,7 +68,7 @@ Image is not empty!!
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing OpenCV library
 import cv2
 
@@ -98,6 +98,6 @@ print(check_empty_img(img))
 
 **输出:**
 
-```
+```py
 Image is empty!!
 ```

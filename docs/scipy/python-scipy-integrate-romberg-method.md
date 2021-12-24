@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`scipy.integrate.romberg()`方法，我们能够通过使用`scipy.integrate.romberg()`方法获得可调用函数从极限 a 到极限 b 的龙贝格积分。
 
-```
+```py
 # import numpy and scipy.integrate
 import numpy as np
 from scipy import integrate
@@ -24,7 +24,7 @@ print(geek)
 
 **输出:**
 
-> ```
+> ```py
 > Romberg integration of <function vectorize1..vfunc at 0x00000209C3641EA0> from [0, 3]
 > 
 >  Steps  StepSize   Results
@@ -43,7 +43,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import numpy and scipy.integrate
 import numpy as np
 from scipy import integrate
@@ -57,7 +57,7 @@ print(geek)
 
 **输出:**
 
-> ```
+> ```py
 > Romberg integration of <function vectorize1..vfunc at 0x00000209E1605400> from [1, 2]
 > 
 >  Steps  StepSize   Results

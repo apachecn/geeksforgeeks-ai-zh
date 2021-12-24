@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 numpy.roll(array, shift, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like][array_like]Input array, whose elements we want to roll
 shift : [int or int_tuple]No. of times we need to shift array elements.
         If a tuple, then axis must be a tuple of the same size, and each of the given 
@@ -24,13 +24,13 @@ axis  :  [array_like]Plane, along which we wish to roll array or shift it's elem
 
 **返回:**
 
-```
+```py
 Output rolled array, with the same shape as a.
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.roll() method
 
@@ -51,7 +51,7 @@ print("\nRolling with 2 shift with 0 axis : \n", geek.roll(array, 2, axis = 0))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[ 0  1  2  3]
  [ 4  5  6  7]

@@ -16,7 +16,7 @@
 
 标准比例计算如下:
 
-```
+```py
 z = (x - u) / s
 ```
 
@@ -48,7 +48,7 @@ Sklearn 预处理支持 StandardScaler()方法，只需 2-3 步即可直接实�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from sklearn.preprocessing import StandardScaler
 
@@ -111,7 +111,7 @@ Sklearn 预处理定义了 MinMaxScaler()方法来实现这一点。
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from sklearn.preprocessing import MinMaxScaler
 

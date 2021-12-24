@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`nunique()`函数查找列轴上唯一值的数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ df
 
 让我们使用`dataframe.nunique()`函数来查找列轴上的唯一值。
 
-```
+```py
 # find unique values
 df.nunique(axis = 1)
 ```
@@ -45,7 +45,7 @@ df.nunique(axis = 1)
 
 **示例 2:** 使用`nunique()`函数查找数据帧中索引轴上唯一值的数量。数据框包含`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

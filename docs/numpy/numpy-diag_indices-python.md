@@ -7,20 +7,20 @@
 **numpy . diag _ indexes()**函数返回索引，以便访问最小维数= 2 的数组的主对角线元素。以元组的形式返回索引。
 访问一个数组的主对角线。
 
-```
+```py
 Syntax: numpy.diag_indices(n, n_dim = 2)
 ```
 
 **参数:**
 
-```
+```py
 n : size of array, for which indices of diag elements are required along each dimension
 n_dim  : [int, optional]number of dimensions. 
 ```
 
 **返回:**
 
-```
+```py
 Indices(as tuples) to access diagonal elements.
 ```
 
@@ -28,7 +28,7 @@ Indices(as tuples) to access diagonal elements.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program illustrating
 # working of diag_indices()
 
@@ -52,7 +52,7 @@ print("\n New array : \n", array)
 
 **输出:**
 
-```
+```py
 Indices of diagonal elements as tuple : 
 (array([0, 1, 2, 3, 4]), array([0, 1, 2, 3, 4])) 
 
@@ -73,7 +73,7 @@ Initial array :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of diag_indices()
 
@@ -90,7 +90,7 @@ print("Manipulated array : \n", array)
 
 **输出:**
 
-```
+```py
 Manipulated array : 
  [[111   1   2]
  [  3 111   5]
@@ -102,7 +102,7 @@ Manipulated array :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of diag_indices()
 
@@ -123,7 +123,7 @@ print("New array : \n", array)
 
 **输出:**
 
-```
+```py
 Diag indices : 
  (array([0]), array([0]))
 Initial array : 

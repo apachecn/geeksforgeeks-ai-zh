@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_picker()函数**用于定义艺�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 np.random.seed(19680801)
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

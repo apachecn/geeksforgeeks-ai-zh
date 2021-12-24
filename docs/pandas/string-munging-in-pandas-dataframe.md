@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import re as re
@@ -24,7 +24,7 @@ import re as re
 
 ## 蟒蛇 3
 
-```
+```py
 raw_data = {"first_name": ["Jason", "Molly", "Tina", "Jake", "Amy"],
             "last_name": ["Miller", "Jacobson", "Ali", "Milner", "Cooze"],
             "email": ["jas203@gmail.com", "momomolly@gmail.com", np.NAN,
@@ -41,7 +41,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 print(df["email"].str.contains("gmail"))
 ```
 
@@ -49,7 +49,7 @@ print(df["email"].str.contains("gmail"))
 
 ## 蟒蛇 3
 
-```
+```py
 pattern = "([A-Z0-9._%+-]+)@([A-Z0-9.-]+)\.([A-Z]{2,4})"
 print(df["email"].str.findall(pattern, flags=re.IGNORECASE))
 ```
@@ -58,7 +58,7 @@ print(df["email"].str.findall(pattern, flags=re.IGNORECASE))
 
 ## 蟒蛇 3
 
-```
+```py
 def ProjectPro_Ex_136():
 
     print()

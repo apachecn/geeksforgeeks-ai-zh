@@ -48,7 +48,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import numpy as np
 
@@ -62,7 +62,7 @@ print(array)
 
 **输出:**
 
-```
+```py
 [[6.3 6.3]
  [6.3 6.3]]
 ```
@@ -73,7 +73,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import numpy as np
 

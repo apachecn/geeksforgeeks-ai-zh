@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input: (100, 200) (50, 50) (300, 100)
 Output: (150, 116)
 
@@ -18,7 +18,7 @@ Output: (150, 116)
 
 **所需的库:**
 
-```
+```py
 OpenCV
 Numpy
 
@@ -33,7 +33,7 @@ Numpy
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 code to draw a triangle and find centroid
 
 # importing libraries
@@ -73,7 +73,7 @@ cv2.waitKey(0)
 
 **输出:**
 
-```
+```py
 (150, 116)
 
 ```

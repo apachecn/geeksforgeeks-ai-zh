@@ -15,7 +15,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 
 要在数据集中绘制多个成对的二元分布，可以使用 pairplot()函数。这将数据框中(n，2)个变量组合的关系显示为一个矩阵图，对角线图是单变量图。
 
-```
+```py
                         seaborn.pairplot( data, \*\*kwargs )
 
 ```
@@ -39,7 +39,7 @@ Seaborn.pairplot 使用许多参数作为输入，主要参数如下表所示:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt

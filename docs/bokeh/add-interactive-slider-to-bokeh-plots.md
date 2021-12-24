@@ -38,7 +38,7 @@ Slider()函数可用于创建滑块。
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.layouts import column
 from bokeh.models import ColumnDataSource, Slider, CustomJS
 from bokeh.plotting import figure, output_file, show

@@ -12,7 +12,7 @@
 
 **代码#1:执行标记**
 
-```
+```py
 # Loading Libraries 
 from nltk.tag import SequentialBackoffTagger
 from nltk.tag import DefaultTagger 
@@ -36,7 +36,7 @@ tag2.evaluate(test_data)
 
 **输出:**
 
-```
+```py
 0.8752428232246924
 
 ```
@@ -46,7 +46,7 @@ sequentialbackfftagger 类可以接受 backoff 关键字参数，其值是 seque
 
 **代码#2:准备回退标记员内部列表**
 
-```
+```py
 from nltk.tag import SequentialBackoffTagger
 
 print (tag1._taggers == [tag1])
@@ -56,7 +56,7 @@ print ("\n", tag2._taggers == [tag2, tag1])
 
 **输出:**
 
-```
+```py
 True
 
 True
@@ -75,7 +75,7 @@ True
 
 **代码#3:用泡菜保存并装载一个训练有素的标记器。**
 
-```
+```py
 # Loading Libraries
 import pickle
 
@@ -92,7 +92,7 @@ tagger = pickle.load(f)
 
 **输出:**
 
-```
+```py
 nltk.data.load('tagger.pickle') will load the file 
 
 ```

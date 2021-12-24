@@ -8,7 +8,7 @@ Pandas DataFrame 是一个二维标记数据结构，具有潜在的不同类型
 
 **代码#1:**
 
-```
+```py
 # Python code demonstrate how to create  
 # Pandas DataFrame by lists of dicts. 
 import pandas as pd 
@@ -29,7 +29,7 @@ df 
 
 **代码#2:** 带`index`
 
-```
+```py
 # Python code demonstrate how to create  
 # Pandas DataFrame by lists of dicts. 
 import pandas as pd 
@@ -50,7 +50,7 @@ df 
 
 **代码#3:** 带`index`和`columns`
 
-```
+```py
 # Python code demonstrate how to create  
 # Pandas DataFrame by lists of dicts. 
 import pandas as pd 

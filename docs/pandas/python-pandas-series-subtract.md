@@ -17,7 +17,7 @@
 
 **示例#1 :** 使用`Series.subtract()`函数从给定的序列对象元素中减去一个标量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 现在我们将使用`Series.subtract()`函数以标量元素的方式对该系列进行减法运算。
 
-```
+```py
 # subtract all the elements of the 
 # series by 10
 sr.subtract(10)
@@ -47,7 +47,7 @@ sr.subtract(10)
 
 **示例#2 :** 使用`Series.subtract()`函数从给定的序列对象元素中减去一个标量。也将缺少的值替换为 100。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(sr)
 
 现在我们将使用`Series.subtract()`函数以标量元素的方式对该系列进行减法运算。我们将用 100 替换系列对象中缺少的值。
 
-```
+```py
 # subtract all the elements of the 
 # series by 10 and also fill 100 at
 # the place of missing values.

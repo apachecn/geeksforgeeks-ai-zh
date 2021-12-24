@@ -18,7 +18,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1 :** 使用`DataFrame.transform()`函数向数据框中的每个元素添加 10。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df)
 
 现在我们将使用`DataFrame.transform()`函数为数据帧的每个元素添加 10。
 
-```
+```py
 # add 10 to each element of the dataframe
 result = df.transform(func = lambda x : x + 10)
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例#2 :** 使用`DataFrame.transform()`函数找到平方根和欧拉数上升到数据框每个元素的结果。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ print(df)
 
 现在我们将使用`DataFrame.transform()`函数来寻找平方根和欧拉数上升到数据帧每个元素的结果。
 
-```
+```py
 # pass a list of functions
 result = df.transform(func = ['sqrt', 'exp'])
 

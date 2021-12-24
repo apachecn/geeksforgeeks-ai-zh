@@ -11,7 +11,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:** 转换重量列数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ df[:10]
 
 因为数据有一些“nan”值，所以为了避免任何错误，我们将删除所有包含任何`nan` 值的行。
 
-```
+```py
 # drop all those rows which 
 # have any 'nan' value in it.
 df.dropna(inplace = True)
@@ -36,7 +36,7 @@ df.dropna(inplace = True)
 
 ![](img/dafc4cf788fe5320db61c511e201fef8.png)
 
-```
+```py
 # let's find out the data type of Weight column
 before = type(df.Weight[0])
 
@@ -57,7 +57,7 @@ after
 ![](img/95a08158d9ec81b581c9b04a9d2ffa33.png)
 ![](img/1e15a43997820fc8d586578a6b8d8d30.png)
 
-```
+```py
 # print the data frame and see
 # what it looks like after the change
 df
@@ -71,7 +71,7 @@ df
 
 **代码#1:** 使用`infer_objects()`函数推断更好的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -89,7 +89,7 @@ print(df)
 
 让我们看看 dataframe 中每一列的数据类型。
 
-```
+```py
 # to print the basic info
 df.info()
 ```
@@ -98,7 +98,7 @@ df.info()
 
 正如我们在输出中看到的，第一列和第三列是`object`类型。而第二列为`int64`型。现在对数据帧进行切片，并从中创建一个新的数据帧。
 
-```
+```py
 # slice from the 1st row till end
 df_new = df[1:]
 
@@ -115,7 +115,7 @@ df_new.info()
 
 正如我们在输出中看到的，列“A”和“C”是对象类型，即使它们包含整数值。那么，我们来试试`infer_objects()`功能。
 
-```
+```py
 # applying infer_objects() function.
 df_new = df_new.infer_objects()
 
@@ -133,7 +133,7 @@ df_new.info()
 
 **代码#1:** 使用`isna()`功能检测数据帧中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -148,7 +148,7 @@ df
 
 让我们使用`isna()`功能来检测丢失的值。
 
-```
+```py
 # detect the missing values
 df.isna()
 ```
@@ -163,7 +163,7 @@ df.isna()
 
 **代码#1:** 使用`notna()`函数查找数据帧中所有未缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -181,7 +181,7 @@ print(df)
 
 让我们使用`dataframe.notna()`函数来查找数据帧中所有未丢失的值。
 
-```
+```py
 # find non-na values
 df.notna()
 ```

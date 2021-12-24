@@ -45,7 +45,7 @@ NumPy 是一个通用的数组处理包。它提供了一个高性能多维数�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries that will be used
 import numpy as np
 
@@ -73,7 +73,7 @@ print(
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries that will be used
 import numpy as np
 

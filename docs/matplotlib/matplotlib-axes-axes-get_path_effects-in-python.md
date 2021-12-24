@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_path_effects()函数**用来获�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/f984c21cdd016c488b95d1ee04abe424.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.PathPatchEffect object at 0x0B36CA90>
@@ -62,7 +62,7 @@ Value Return by get_path_effects() :
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as PathEffects
@@ -109,7 +109,7 @@ plt.show()
 
 ![](img/66a76049f8066259be7663e54622aa72.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.withStroke object at 0x0B1DDDF0>

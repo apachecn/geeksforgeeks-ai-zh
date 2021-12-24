@@ -10,7 +10,7 @@
 **示例#1 :**
 在给定的示例中，我们可以看到，通过使用`sympy.apart()`方法，我们可以做有理函数的部分分式。
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 gfg_exp = (x**2 + 2 * x + 1)/(x**2 + x)
@@ -27,7 +27,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 gfg_exp = 1 / x + (3 * x / 2 - 2)/(x - 4)

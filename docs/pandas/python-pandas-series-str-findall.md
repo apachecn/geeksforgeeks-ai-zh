@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，使用 str.findall()方法在名称列中搜索“r”，并将输出存储在新列中。在执行任何操作之前，使用。dropna()以避免错误。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -51,7 +51,7 @@ data.head(10)
 
 在本例中，在“名称”列中搜索“a”，并传递 IGNORECASE 标志。因为环形模块也必须导入。str.findall()方法返回的序列存储在 New 列中。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

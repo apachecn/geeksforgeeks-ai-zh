@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.polyfromroots() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-64\.  56\. -14\.   1.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.polyfromroots() method 
 
@@ -62,7 +62,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-120\.  274\. -225\.   85\.  -15\.    1.]
 
 ```

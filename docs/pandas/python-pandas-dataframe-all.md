@@ -28,7 +28,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 数据框中各列的后缀`_col` 。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ df[:10]
 
 ![](img/836ed1d13f8962a28804f881cfca5a18.png)
 
-```
+```py
 # checking for 'Name' column
 df.Name.all()
 ```
@@ -54,7 +54,7 @@ df.Name.all()
 
 **`dataframe.all()`** 默认行为检查列值是否都返回真。
 
-```
+```py
 # Checking for all the columns in the dataframe
 df.all()
 ```
@@ -66,7 +66,7 @@ df.all()
 
 指定轴=“列”以检查行方向的值是否都返回真。如果任何特定行中的所有值都评估为 true，则整个行都将评估为 true。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -86,7 +86,7 @@ df.all(axis ='columns')
 
 对于数据框中的每个值是否为真，指定轴=无。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

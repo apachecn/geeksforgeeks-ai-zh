@@ -18,7 +18,7 @@ GD()是用于此目的的用户定义函数。它采用以下参数:
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 def GD(f, start, lr, n_iter=50, tol=1e-05):
@@ -61,7 +61,7 @@ print(f'The vector notation of global minima: {GD(f,10,0.1)}')
 
 ## 蟒 3
 
-```
+```py
 if np.all(np.abs(new_val) <= tol):
    break
 ```
@@ -77,7 +77,7 @@ if np.all(np.abs(new_val) <= tol):
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 def GD(f, start, lr, n_iter=50, tol=1e-05):
@@ -100,7 +100,7 @@ print(f'The vector notation of global minima: {GD(f,10,0.001)}')
 
 **输出** :
 
-```
+```py
 [9.9 9.9]
 ```
 

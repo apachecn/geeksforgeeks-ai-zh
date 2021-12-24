@@ -7,7 +7,7 @@
 
 **代码:**
 
-```
+```py
 # Python code explaining
 # constructing categorical data frame
 
@@ -26,7 +26,7 @@ print("\n\ndf1 type :\n", df1.dtypes)
 **输出:**
 ![](img/78dbf41eea3e51d3ce21daf8a2f2421f.png)
 
-```
+```py
 # Converting dataframe to category
 df2 = pd.DataFrame({'A': list('1245'), 'B': list('3456')}, dtype ="category")
 
@@ -40,7 +40,7 @@ print ("\n\ndf2 column 1 :\n", df2['B'])
 **输出:**
 ![](img/9327c5eb0d4bf814da556d9b2218d5ee.png)
 
-```
+```py
 # Conversion can be done using astype()
 df3 = pd.DataFrame({'A': list('efgh'), 'B': list('aebc')})
 print ("\n\ndf3 : \n", df3)

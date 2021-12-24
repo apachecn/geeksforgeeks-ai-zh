@@ -15,7 +15,7 @@ Python 为图像和视频处理提供了各种库。其中之一就是 OpenCV。
 
 下面是实现。
 
-```
+```py
 # import the opencv library
 import cv2
 

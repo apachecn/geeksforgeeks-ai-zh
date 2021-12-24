@@ -31,7 +31,7 @@ Pytorch 用于处理张量。[张量](https://www.geeksforgeeks.org/deep-learnin
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch
 import torch
 

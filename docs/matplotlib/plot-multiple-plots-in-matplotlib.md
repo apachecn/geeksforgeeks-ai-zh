@@ -25,7 +25,7 @@ subplot()函数是一个包装函数，它允许程序员只需调用一次就�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -95,7 +95,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -140,7 +140,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import matplotlib.pyplot as plt
 import numpy as np

@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.strftime()`函数将给定的日期时间索引对象转换为指定的格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(didx)
 
 现在我们想把给定的 DatetimeIndex 对象转换成`('%B %d, %Y, %r')`格式。
 
-```
+```py
 # change the datetime format.
 didx.strftime('% B % d, % Y, % r')
 ```
@@ -44,7 +44,7 @@ didx.strftime('% B % d, % Y, % r')
 
 **示例#2:** 使用`DatetimeIndex.strftime()`函数将给定的 DatetimeIndex 对象转换为指定的格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(didx)
 
 现在我们想把给定的 DatetimeIndex 对象转换成`('%B %Y, %r')`格式。
 
-```
+```py
 # change the datetime format.
 didx.strftime('% B % Y, % r')
 ```

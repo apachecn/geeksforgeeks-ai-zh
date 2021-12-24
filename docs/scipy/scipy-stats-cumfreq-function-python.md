@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # cumulative frequency
 from scipy import stats
 import numpy as np 
@@ -37,7 +37,7 @@ print ("extra-points : ", d)
 
 **Output:** 
 
-```
+```py
 Array element :  [1, 3, 27, 2, 5, 13] 
 
 cumulative frequency :  [ 4\.  5\.  5\.  6.]
@@ -50,7 +50,7 @@ extra-points :  0
 
 ## 蟒蛇 3
 
-```
+```py
 # cummulative frequency
 from scipy import stats
 import numpy as np 
@@ -69,7 +69,7 @@ print ("extrapoints : ", d)
 
 **Output:** 
 
-```
+```py
 Array element :  [1, 3, 27, 2, 5, 13] 
 
 cumfreqs :  [ 1.6  7.6  7.6  7.7]

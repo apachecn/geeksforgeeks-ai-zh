@@ -26,7 +26,7 @@ matplotlib 库 pyplot 模块中的**等高线()函数**用于绘制等高线。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +57,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np

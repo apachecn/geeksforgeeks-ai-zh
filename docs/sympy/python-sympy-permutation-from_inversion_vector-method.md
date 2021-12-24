@@ -13,7 +13,7 @@
 
 **代码#1 : from_inversion_vector()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.from_inversion_vector()
 
@@ -43,7 +43,7 @@ print ("vector b - from_inversion_vector form : ", 
 
 **代码#2 : from_inversion_vector()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.from_inversion_vector()
 

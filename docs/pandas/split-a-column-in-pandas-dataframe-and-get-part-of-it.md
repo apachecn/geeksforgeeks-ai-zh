@@ -10,7 +10,7 @@
 
 **代码#1:** 打印分割列的数据对象。
 
-```
+```py
 import pandas as pd
 import numpy as np
 df = pd.DataFrame({'Geek_ID':['Geek1_id', 'Geek2_id', 'Geek3_id', 
@@ -31,7 +31,7 @@ print(df.Geek_ID.str.split('_').str[0])
 
 **Output:**
 
-```
+```py
 0    Geek1
 1    Geek2
 2    Geek3
@@ -43,7 +43,7 @@ dtype: object
 
 **代码#2:** 打印返回数据对象列表。
 
-```
+```py
 import pandas as pd
 import numpy as np
 df = pd.DataFrame({'Geek_ID':['Geek1_id', 'Geek2_id', 'Geek3_id',
@@ -64,14 +64,14 @@ print(df.Geek_ID.str.split('_').str[0].tolist())
 
 **Output:**
 
-```
+```py
 ['Geek1', 'Geek2', 'Geek3', 'Geek4', 'Geek5']
 
 ```
 
 **代码#3:** 打印元素列表。
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -93,7 +93,7 @@ print(df.Geek_ID.str.split('_').str[1].tolist())
 
 **Output:**
 
-```
+```py
 ['id', 'id', 'id', 'id', 'id']
 
 ```

@@ -17,7 +17,7 @@ T3】
 
 **代码#1:创建反正弦连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import arcsine
 
@@ -30,14 +30,14 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV :  
 <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000029484D796D8>
 ```
 
 **代码#2:反正弦随机变量和概率分布函数。**
 
-```
+```py
 quantile = np.arange (0.01, 1, 0.1)
 
 # Random Variates
@@ -51,7 +51,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [1.17353658 1.96350916 1.73419819 0.71255312 0.28760466 1.54410451
  1.9644408  0.35014597 0.26798525 0.24599504]
@@ -63,7 +63,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 # libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -76,7 +76,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02040816 0.04081633 0.06122449 0.08163265 0.10204082
  0.12244898 0.14285714 0.16326531 0.18367347 0.20408163 0.2244898
@@ -94,7 +94,7 @@ Distribution :
 
 **代码#4:不同的位置和比例**
 
-```
+```py
 from scipy.stats import arcsine
 import matplotlib.pyplot as plt
 import numpy as np

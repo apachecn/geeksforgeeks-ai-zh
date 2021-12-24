@@ -9,7 +9,7 @@ T3】
 
 **代码#1:引入 Synsets。**
 
-```
+```py
 from nltk.corpus import wordnet 
 
 syn1 = wordnet.synsets('hello')[0] 
@@ -21,7 +21,7 @@ print ("selling name : ", syn2.name()) 
 
 **输出:**
 
-```
+```py
 hello name :   hello.n.01
 selling name :   selling.n.01
 
@@ -29,26 +29,26 @@ selling name :   selling.n.01
 
 **代码#2:路径相似性**
 
-```
+```py
 syn1.path_similarity(syn2) 
 ```
 
 **输出:**
 
-```
+```py
 0.08333333333333333
 
 ```
 
 **代码#3 : Leacock Chordorow (LCH)相似度**
 
-```
+```py
 syn1.lch_similarity(syn2) 
 ```
 
 **输出:**
 
-```
+```py
 1.1526795099383855
 
 ```

@@ -24,7 +24,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import modules
 import cv2
 import numpy as np
@@ -42,7 +42,7 @@ import sys, time
 
 ## 计算机编程语言
 
-```
+```py
 # Interpolation kernel
 def u(s, a):
 
@@ -58,7 +58,7 @@ def u(s, a):
 
 ## 计算机编程语言
 
-```
+```py
 # Padding
 def padding(img, H, W, C):
     zimg = np.zeros((H+4, W+4, C))
@@ -83,7 +83,7 @@ def padding(img, H, W, C):
 
 ## 计算机编程语言
 
-```
+```py
 # Bicubic operation
 def bicubic(img, ratio, a):
 
@@ -169,7 +169,7 @@ def bicubic(img, ratio, a):
 
 ## 蟒蛇 3
 
-```
+```py
 # Read image
 # You can put your input image over here 
 # to run bicubic interpolation
@@ -197,7 +197,7 @@ bicubicImg=cv2.imread('bicubic.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # display shapes of both images
 print('Original Image Shape:',img.shape)
 print('Generated Bicubic Image Shape:',bicubicImg.shape)
@@ -213,7 +213,7 @@ gfg.png
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import cv2
 import numpy as np

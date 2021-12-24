@@ -5,7 +5,7 @@
 情感检测器用于许多行业，其中一个是媒体行业，在这个行业中，公司确定公众对其产品的反应非常重要。在本文中，我们将使用 OpenCV 构建一个微笑检测器，该检测器从网络摄像头获取实时反馈。我们将要实现的微笑/幸福检测器将是一个原始的，有很多更好的方法来实现它。
 **第一步:**首先，我们需要导入 OpenCV 库。
 
-```
+```py
 import cv2
 ```
 
@@ -15,7 +15,7 @@ import cv2
 
 ## 蟒蛇 3
 
-```
+```py
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_eye.xml')
 smile_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_smile.xml')

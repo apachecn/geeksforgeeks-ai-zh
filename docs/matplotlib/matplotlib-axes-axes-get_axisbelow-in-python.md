@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_axisbelow()函数**用来获取�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

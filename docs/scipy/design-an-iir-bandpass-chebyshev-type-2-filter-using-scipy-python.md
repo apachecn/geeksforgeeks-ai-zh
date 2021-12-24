@@ -34,7 +34,7 @@ IIR 切比雪夫滤波器是一种线性时不变滤波器，与巴特沃兹滤�
 
 ## 蟒 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -45,7 +45,7 @@ import matplotlib.pyplot as plt
 
 ## ***python 3***
 
-```
+```py
 def mfreqz(b, a, Fs):
 
     # Compute frequency response of the filter

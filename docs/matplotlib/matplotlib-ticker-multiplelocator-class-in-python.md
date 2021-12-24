@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
@@ -39,7 +39,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.ticker
 

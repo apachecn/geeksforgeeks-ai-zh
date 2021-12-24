@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing the libraries used
 import pandas as pd
 

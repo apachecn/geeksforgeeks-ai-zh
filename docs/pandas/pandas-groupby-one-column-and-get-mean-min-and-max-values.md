@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```py
 import pandas as pd
 
 # creating a dataframe
@@ -29,7 +29,7 @@ df
 
 寻找平均值、最小值和最大值。
 
-```
+```py
 # using groupby function with aggregation
 # to get mean, min and max values
 result = df.groupby('Type').agg({'top_speed(mph)': ['mean', 'min', 'max']})
@@ -43,7 +43,7 @@ print(result)
 
 **例 2:**
 
-```
+```py
 import pandas as pd
 
 # creating a dataframe
@@ -65,7 +65,7 @@ sales_data
 
 寻找平均值、最小值和最大值。
 
-```
+```py
 # using groupby function with aggregation 
 # to get mean, min and max values
 result = sales_data.groupby('salesman_id').agg({'purchase_amt': ['mean', 'min', 'max']})
@@ -79,7 +79,7 @@ print(result)
 
 **例 3:**
 
-```
+```py
 import pandas as pd
 
 # creating a dataframe
@@ -101,7 +101,7 @@ df
 
 寻找平均值、最小值和最大值。
 
-```
+```py
 # using groupby function with aggregation 
 # to get mean, min and max values
 result = df.groupby('Team').agg({'Age': ['mean', 'min', 'max']})

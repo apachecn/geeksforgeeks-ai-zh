@@ -17,7 +17,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # bitwise_and() function
 
@@ -34,7 +34,7 @@ print ("bitwise_and of 10 and 11 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  11
 bitwise_and of 10 and 11 :  10
@@ -43,7 +43,7 @@ bitwise_and of 10 and 11 :  10
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # bitwise_and() function
 
@@ -61,7 +61,7 @@ print ("Output array after bitwise_and: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 115]
 Output array after bitwise_and:  [  2   0 113]
@@ -70,7 +70,7 @@ Output array after bitwise_and:  [  2   0 113]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # bitwise_and() function
 
@@ -88,7 +88,7 @@ print ("Output array after bitwise_and: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [True, False, True, False]
 Input array2 :  [False, False, True, True]
 Output array after bitwise_and:  [False False  True False]

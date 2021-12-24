@@ -43,7 +43,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
     数据集由信用卡交易组成。该数据集在 284，807 笔交易中有 **492 笔欺诈交易。这使得它高度不平衡，正类(欺诈)占所有交易的 0.172%。
     数据集可以从 **[这里](https://www.kaggle.com/mlg-ulb/creditcardfraud)** 下载。**
 
-    ```
+    ```py
     # import necessary modules 
     import pandas  as pd
     import matplotlib.pyplot as plt
@@ -61,7 +61,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
     RangeIndex: 284807 entries, 0 to 284806
     Data columns (total 31 columns):
     Time      284807 non-null float64
@@ -98,7 +98,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     ```
 
-    ```
+    ```py
     # normalise the amount column
     data['normAmount'] = StandardScaler().fit_transform(np.array(data['Amount']).reshape(-1, 1))
 
@@ -111,7 +111,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
            0    284315
            1       492
 
@@ -119,7 +119,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     ### 将数据分成测试集和训练集
 
-    ```
+    ```py
     from sklearn.model_selection import train_test_split
 
     # split into 70:30 ration
@@ -134,7 +134,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
           Number transactions X_train dataset:  (199364, 29)
           Number transactions y_train dataset:  (199364, 1)
           Number transactions X_test dataset:  (85443, 29)
@@ -144,7 +144,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     ### 现在在不处理不平衡的类分布的情况下训练模型
 
-    ```
+    ```py
     # logistic regression object
     lr = LogisticRegression()
 
@@ -159,7 +159,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
 
                     precision   recall   f1-score  support
 
@@ -180,7 +180,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     您可以从[这里](https://imbalanced-learn.readthedocs.io/en/stable/generated/imblearn.over_sampling.SMOTE.html)查看所有参数。
 
-    ```
+    ```py
     print("Before OverSampling, counts of label '1': {}".format(sum(y_train == 1)))
     print("Before OverSampling, counts of label '0': {} \n".format(sum(y_train == 0)))
 
@@ -199,7 +199,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
     Before OverSampling, counts of label '1': [345]
     Before OverSampling, counts of label '0': [199019] 
 
@@ -216,7 +216,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     #### 预测和回忆
 
-    ```
+    ```py
     lr1 = LogisticRegression()
     lr1.fit(X_train_res, y_train_res.ravel())
     predictions = lr1.predict(X_test)
@@ -227,7 +227,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
                     precision   recall   f1-score  support
 
                0       1.00      0.98      0.99     85296
@@ -246,7 +246,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     您可以从[这里](https://imbalanced-learn.org/en/stable/generated/imblearn.under_sampling.NearMiss.html)查看所有参数。
 
-    ```
+    ```py
     print("Before Undersampling, counts of label '1': {}".format(sum(y_train == 1)))
     print("Before Undersampling, counts of label '0': {} \n".format(sum(y_train == 0)))
 
@@ -265,7 +265,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
     Before Undersampling, counts of label '1': [345]
     Before Undersampling, counts of label '0': [199019] 
 
@@ -281,7 +281,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     #### 预测和回忆
 
-    ```
+    ```py
     # train the model on train set
     lr2 = LogisticRegression()
     lr2.fit(X_train_miss, y_train_miss.ravel())
@@ -293,7 +293,7 @@ SMOTE 在现有的少数民族实例之间合成新的少数民族实例。它�
 
     **输出:**
 
-    ```
+    ```py
                    precision    recall   f1-score   support
 
                0       1.00      0.56      0.72     85296

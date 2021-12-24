@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Moment
 from scipy import stats
 import numpy as np 
@@ -29,14 +29,14 @@ print("Oth moment : \n", stats.moment(arr1, moment = 0)) 
 
 **输出:**
 
-```
+```py
 Oth moment : 
  [1\. 1\. 1\. 1\. 1\. 1.]
 ```
 
 **代码#2:** 有多维数据
 
-```
+```py
 # Moment 
 from scipy import stats
 import numpy as np 
@@ -59,7 +59,7 @@ print("\n10th moment : \n", stats.moment(arr1, moment = 10, axis = 1))
 
 **输出:**
 
-```
+```py
 Oth moment : 
  [1\. 1\. 1.]
 

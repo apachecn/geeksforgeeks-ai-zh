@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.variance()`方法，我们能够使用这个方法来计算方差的值。
 
-```
+```py
 # Import Sympy and variance
 from sympy.stats import P, variance, Die
 
@@ -25,14 +25,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 8/3
 
 ```
 
 **例 2 :**
 
-```
+```py
 # Import Sympy and variance
 from sympy.stats import P, variance, Die
 
@@ -46,7 +46,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 75/16
 
 ```

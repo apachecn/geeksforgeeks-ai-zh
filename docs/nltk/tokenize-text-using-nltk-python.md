@@ -17,7 +17,7 @@ NLTK 模块是一个庞大的工具包，旨在帮助您掌握整个自然语言
 
     **所以基本上标记化包括从正文中拆分句子和单词。**
 
-    ```
+    ```py
     # import the existing word and sentence tokenizing 
     # libraries
     from nltk.tokenize import sent_tokenize, word_tokenize

@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minorticklines()函数**用于获
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -49,7 +49,7 @@ plt.show()
 
 ![](img/5f18c34fc41ede35208093902584539e.png)
 
-```
+```py
 Value of get_minorticklines() : <a list of 0 Line2D ticklines objects>
 ```
 
@@ -57,7 +57,7 @@ Value of get_minorticklines() : <a list of 0 Line2D ticklines objects>
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -90,7 +90,7 @@ plt.show()
 
 ![](img/d7994f4853daf150bdc489c476730d6f.png)
 
-```
+```py
 Value of get_minorticklines() : <a list of 0 Line2D ticklines objects>
 
 ```

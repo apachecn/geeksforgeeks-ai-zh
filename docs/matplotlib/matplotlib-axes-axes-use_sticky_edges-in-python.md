@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.use_sticky_edges()函数**用于判�
 
 **语法:**
 
-```
+```py
 Axes.use_sticky_edges
 
 ```
@@ -19,7 +19,7 @@ Axes.use_sticky_edges
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt

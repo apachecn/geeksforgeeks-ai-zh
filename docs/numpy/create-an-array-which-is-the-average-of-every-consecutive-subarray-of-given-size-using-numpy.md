@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```py
 Arr = [1,2,3,4,5,6
        7,8,9,10,11
        12,13,14,15,16] 
@@ -41,7 +41,7 @@ Here, subarray of size k and there average are calculated as :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy
 
@@ -67,7 +67,7 @@ print("Output Array:\n", output)
 
 **输出:**
 
-```
+```py
 Given Array:
 [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 Output Array:

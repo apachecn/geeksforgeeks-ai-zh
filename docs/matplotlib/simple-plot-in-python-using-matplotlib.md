@@ -9,13 +9,13 @@
 **第一步:**打开命令管理器(只需在窗口开始搜索栏中键入“cmd”)
 **第二步:**在终端中键入以下命令。
 
-```
+```py
 cd Desktop
 ```
 
 **步骤 3:** 然后键入以下命令。
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -23,7 +23,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required module
 import matplotlib.pyplot as plt
 
@@ -92,7 +92,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 a = [1, 2, 3, 4, 5]
@@ -157,7 +157,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 a = [1, 2, 3, 4, 5]

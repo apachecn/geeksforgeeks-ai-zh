@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.set_names()`函数设置给定时间增量索引对象的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.set_names()`函数来设置给定时间增量索引对象的名称。
 
-```
+```py
 # set the name of the object
 tidx.set_names(names ='Sale_Point')
 ```
@@ -46,7 +46,7 @@ tidx.set_names(names ='Sale_Point')
 
 **示例 2:** 使用`TimedeltaIndex.set_names()`函数设置给定时间增量索引对象的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.set_names()`函数来设置给定时间增量索引对象的名称。
 
-```
+```py
 # set the name of the object
 tidx.set_names(names ='Purchase_Time')
 ```

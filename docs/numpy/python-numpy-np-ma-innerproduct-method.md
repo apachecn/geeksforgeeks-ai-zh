@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.ma.innerproduct()`方法，我们能够得到两个向量的内积的值。
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 

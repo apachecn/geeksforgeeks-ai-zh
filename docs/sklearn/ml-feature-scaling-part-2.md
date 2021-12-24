@@ -24,7 +24,7 @@
 
  **代码:Python 代码，解释特征缩放对数据的作用**
 
-```
+```py
 # Python code explaining How to
 # perform Feature Scaling
 
@@ -76,7 +76,7 @@ print ("\nAfter Standardisation : \n", x_after_Standardisation)
 
 **输出:**
 
-```
+```py
    Country  Age  Salary  Purchased
 0   France   44   72000          0
 1    Spain   27   48000          1

@@ -18,7 +18,7 @@
 
 **语法:**
 
-```
+```py
 For Image shape: image.shape
 For getting a pixel: image[row][col]
 For setting a pixel: image[row][col] = [r,g,b]
@@ -28,7 +28,7 @@ For setting a pixel: image[row][col] = [r,g,b]
 
 ## 蟒蛇 3
 
-```
+```py
 # import cv2 module
 import cv2
 
@@ -44,7 +44,7 @@ print(img)
 
 **输出:**
 
-```
+```py
 (225, 225, 3)
 [[[ 87 157  14]
  [ 87 157  14]
@@ -87,7 +87,7 @@ print(img)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # read the image
@@ -99,7 +99,7 @@ print(img[0][0])
 
 **输出:**
 
-```
+```py
 [ 87 157  14]
 ```
 
@@ -109,7 +109,7 @@ print(img[0][0])
 
 ## 蟒蛇 3
 
-```
+```py
 # import the cv2 package
 import cv2
 
@@ -137,7 +137,7 @@ cv2.imwrite("output.png", img)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 img = cv2.imread('image.png', 0)
 
@@ -156,7 +156,7 @@ print("pixel at index (5,5): ", img[5][5])
 
 **输出:**
 
-```
+```py
 image shape =  (225, 225)
 image array =  
 [[106 106 106 ... 106 106 106]

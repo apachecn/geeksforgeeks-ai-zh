@@ -4,7 +4,7 @@
 
 **汉明窗**是通过使用加权余弦形成的锥形
 
-```
+```py
 Parameters(numpy.hamming(M)): 
 
 M : int Number of points in the output window.
@@ -17,14 +17,14 @@ out : array
 窗口，最大值归一化为 1(只有当样本数为奇数时，才会出现值 1)。
 **例:**
 
-```
+```py
 import numpy as np 
 print(np.hamming(12))
 ```
 
 **输出:**
 
-```
+```py
 [ 0.08        0.15302337  0.34890909  0.60546483  0.84123594  0.98136677
   0.98136677  0.84123594  0.60546483  0.34890909  0.15302337  0.08      ]
 
@@ -33,7 +33,7 @@ print(np.hamming(12))
 **绘制窗口及其频率响应(需要 SciPy 和 matplotlib):**
 **对于窗口:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 
@@ -52,7 +52,7 @@ plt.show() 
 
 **频率:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 

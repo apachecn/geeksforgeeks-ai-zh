@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.combinatorics.partitions.IntegerPartition().conjugate`方法，我们能够获得作为参数传递的数组的共轭值。
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import IntegerPartition
 from sympy import *
@@ -27,7 +27,7 @@ print(gfg.conjugate)
 
 **例 2 :**
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import IntegerPartition
 from sympy import *

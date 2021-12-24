@@ -18,7 +18,7 @@
 
 **代码#1:创建左偏 Gumbel 连续随机变量**
 
-```
+```py
 from scipy.stats import gumbel_l  
 
 numargs = gumbel_l  .numargs
@@ -30,7 +30,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E39A283518>
 
@@ -38,7 +38,7 @@ RV :
 
 **代码#2:左偏甘贝尔随机变量和概率分布**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -53,7 +53,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 0.55349097 -0.36709655 -0.25581806 -0.81730142  0.28719592 -0.30831366
  -2.69858598 -0.23586469 -1.01965346  6.44132721]
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

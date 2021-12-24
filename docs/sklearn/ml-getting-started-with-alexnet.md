@@ -19,7 +19,7 @@
 
 ***代码:实现对象分类 AlexNet 的 Python 代码***
 
-```
+```py
 *model = Sequential()
 
 # 1st Convolutional Layer

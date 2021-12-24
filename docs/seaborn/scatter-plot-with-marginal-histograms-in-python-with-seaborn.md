@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing and creating alias for seaborn
 import seaborn as sns
 
@@ -41,7 +41,7 @@ jointplot _ with _ 直方图
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 tips = sns.load_dataset("tips")
@@ -60,7 +60,7 @@ sns.jointplot(data=tips, x="total_bill", y="tip", kind="reg", marker="*")
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 tips = sns.load_dataset("tips")

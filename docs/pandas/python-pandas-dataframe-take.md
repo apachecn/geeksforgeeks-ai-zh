@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`take()`函数获取索引轴上的一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 现在，出于演示目的，我们将修改索引标签。现在标签的编号是从 0 到 914。
 
-```
+```py
 # double the value of index labels
 df.index = df.index * 2
 
@@ -48,7 +48,7 @@ df
 
 让我们取位置 0、1 和 2 的值
 
-```
+```py
 # take values at input position over the index axis
 
 df.take([0, 1, 2], axis = 0)
@@ -60,7 +60,7 @@ df.take([0, 1, 2], axis = 0)
 
 **示例#2:** 使用`take()`函数获取列轴上位置 0、1 和 2 的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ df
 
 现在我们将取列轴上位置 0、1 和 2 的值。
 
-```
+```py
 # take values over the column axis.
 
 df.take([0, 1, 2], axis = 1)

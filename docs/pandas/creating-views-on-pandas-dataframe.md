@@ -8,7 +8,7 @@
 
 **解决方案#1:** 可以通过删除所有不需要的列来选择数据框中的一组列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -24,7 +24,7 @@ print(df)
 
 现在我们将选择除前三列之外的所有列。
 
-```
+```py
 # drop the first three columns
 df.drop(df.columns[[0, 1, 2]], axis = 1)
 ```
@@ -35,7 +35,7 @@ df.drop(df.columns[[0, 1, 2]], axis = 1)
 
 我们也可以使用要删除的列的名称。
 
-```
+```py
 # drop the 'Name', 'Team' and 'Number' columns
 df.drop(['Name', 'Team', 'Number'], axis = 1)
 ```
@@ -45,7 +45,7 @@ df.drop(['Name', 'Team', 'Number'], axis = 1)
 
 **解决方案#2 :** 我们可以单独选择我们需要的所有列，而省略其余的。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ df_copy
 
 我们也可以通过向`DataFrame.iloc`属性传递一个列表来随机选择列。
 
-```
+```py
 # select the first, third and sixth columns
 # and store the result in a new dataframe
 # The numbering of columns begins from 0
@@ -81,7 +81,7 @@ df_copy
 
 或者，我们也可以命名我们想要选择的列。
 
-```
+```py
 # Select the below listed columns
 df_copy = df[['Name', 'Number', 'College']]
 

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import seaborn
 from vega_datasets import data
@@ -51,7 +51,7 @@ dataset.sample(n=5)
 
 ## 蟒蛇 3
 
-```
+```py
 # depict illustration
 seaborn.distplot(dataset['CO2'])
 ```
@@ -64,7 +64,7 @@ seaborn.distplot(dataset['CO2'])
 
 ## 蟒蛇 3
 
-```
+```py
 # depict illustration
 sns.distplot(dataset['CO2'],
              hist_kws=dict(edgecolor="green", linewidth=5))
@@ -80,7 +80,7 @@ sns.distplot(dataset['CO2'],
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import seaborn
 from vega_datasets import data
@@ -98,7 +98,7 @@ dataset.sample(n=5)
 
 ## 蟒蛇 3
 
-```
+```py
 # depict illustration
 sns.distplot(dataset['age'],
              hist_kws={'color':'green', 'edgecolor':'black',
@@ -115,7 +115,7 @@ sns.distplot(dataset['age'],
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import seaborn
 from vega_datasets import data

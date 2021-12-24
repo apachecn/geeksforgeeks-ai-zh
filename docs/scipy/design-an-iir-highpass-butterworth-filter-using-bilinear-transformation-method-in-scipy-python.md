@@ -23,7 +23,7 @@ IIR 代表无限脉冲响应，它是许多线性时不变系统的显著特征�
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 def mfreqz(b, a, Fs):
 
     # Compute frequency response of the filter
@@ -112,7 +112,7 @@ def impz(b, a):
 
 ## 蟒蛇 3
 
-```
+```py
 # Given specification
 Fs = 8000  # Sampling frequency in Hz
 fp = 2000  # Pass band frequency in Hz
@@ -128,7 +128,7 @@ Td = 1/Fs
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute cut-off frequency in radian/sec
 wp = 2*np.pi*fp  # pass band frequency in radian/sec
 ws = 2*np.pi*fs  # stop band frequency in radian/sec
@@ -138,7 +138,7 @@ ws = 2*np.pi*fs  # stop band frequency in radian/sec
 
 ## 蟒蛇 3
 
-```
+```py
 # Prewarp the analog frequency
 Omega_p = (2/Td)*np.tan(wp*Td/2)  # Prewarped analog passband frequency
 Omega_s = (2/Td)*np.tan(ws*Td/2)  # Prewarped analog stopband frequency
@@ -148,7 +148,7 @@ Omega_s = (2/Td)*np.tan(ws*Td/2)  # Prewarped analog stopband frequency
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute Butterworth filter order and cutoff frequency
 N, wc = signal.buttord(Omega_p, Omega_s, Ap, As, analog=True)
 
@@ -165,7 +165,7 @@ print('Cut-off frequency=', wc)
 
 ## 蟒蛇 3
 
-```
+```py
 # Design analog Butterworth filter using N and
 # wc by signal.butter function
 b, a = signal.butter(N, wc, 'high', analog=True)
@@ -187,7 +187,7 @@ print('Denominator Coefficients:', p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Call mfreqz function to plot the
 # magnitude and phase response
 mfreqz(z, p, Fs)
@@ -201,7 +201,7 @@ mfreqz(z, p, Fs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Call impz function to plot impulse and
 # step response of the filter
 impz(z, p)
@@ -215,7 +215,7 @@ impz(z, p)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal

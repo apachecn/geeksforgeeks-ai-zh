@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate trigonometric function
 import numpy as np
 
@@ -67,7 +67,7 @@ print(np.hypot(base, height))
 
 **Output:** 
 
-```
+```py
 Sine of angles in the array:
 [  0.00000000e+00   5.00000000e-01   7.07106781e-01   8.66025404e-01
    1.00000000e+00   1.22464680e-16]
@@ -108,7 +108,7 @@ hypotenuse of right triangle is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate statistical function
 import numpy as np
 
@@ -150,7 +150,7 @@ print(np.average(weight))
 
 **Output:** 
 
-```
+```py
 Minimum and maximum weight of the students: 
 45.0 73.25
 
@@ -195,7 +195,7 @@ Average weight of the students:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate bitwise-function
 import numpy as np
 
@@ -230,7 +230,7 @@ print(np.right_shift(even, 1))
 
 **Output:** 
 
-```
+```py
 bitwise_and of two arrays: 
 [ 0  2  4  6  8 16 32]
 

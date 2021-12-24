@@ -35,7 +35,7 @@ sum()中的条件仅从图像中提取符合该条件的像素，并为它们指
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import cv2
 import numpy as np

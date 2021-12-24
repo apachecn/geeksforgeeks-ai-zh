@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.QuadraticU()`方法，我们能够通过使用该方法来获得表示 U-二次分布的连续随机变量。
 
-```
+```py
 # Import sympy and QuadraticU
 from sympy.stats import QuadraticU, density
 from sympy import Symbol, pprint
@@ -43,7 +43,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and QuadraticU
 from sympy.stats import QuadraticU, density
 from sympy import Symbol, pprint

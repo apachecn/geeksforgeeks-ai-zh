@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # to detect the face of the human
@@ -30,7 +30,7 @@ cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 ## 蟒蛇 3
 
-```
+```py
 video_capture = cv2.VideoCapture(0)
 while True:
 
@@ -42,7 +42,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # convert the frame into grayscale(shades of black & white)
 gray_image = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 face = cascade.detectMultiScale(gray_image,
@@ -54,7 +54,7 @@ face = cascade.detectMultiScale(gray_image,
 
 ## 蟒蛇 3
 
-```
+```py
 for x, y, w, h in face:
 
     # draw a border around the detected face.
@@ -68,7 +68,7 @@ for x, y, w, h in face:
 
 ## 蟒蛇 3
 
-```
+```py
 # blur the face which is in the rectangle
 image[y:y+h, x:x+w] = cv2.medianBlur(image[y:y+h, x:x+w], 35)
 ```
@@ -77,7 +77,7 @@ image[y:y+h, x:x+w] = cv2.medianBlur(image[y:y+h, x:x+w], 35)
 
 ## 蟒蛇 3
 
-```
+```py
 # show the blurred face in the video
 cv2.imshow('face blurred', frame)
 key = cv2.waitKey(1)
@@ -87,7 +87,7 @@ key = cv2.waitKey(1)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # to detect the face of the human

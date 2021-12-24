@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas 
 import pandas as pd 
 
@@ -41,7 +41,7 @@ print("Given Dataframe :\n", dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # selecting rows based on condition 
 rslt_df = dataframe[dataframe['Percentage'] > 70] 
 
@@ -56,7 +56,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # selecting rows based on condition 
 rslt_df = dataframe.loc[dataframe['Percentage'] > 70] 
 

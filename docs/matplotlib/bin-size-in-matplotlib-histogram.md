@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 height = [189, 185, 195, 149, 189, 147, 154, 
@@ -44,7 +44,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 values = [87, 53, 66, 61, 67, 68, 62,
@@ -79,7 +79,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 marks = [1, 2, 3, 2, 1, 2, 3, 2, 
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 data = [189, 185, 195, 149, 189, 147,
@@ -126,7 +126,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 data = [87, 53, 66, 61, 67, 68, 62, 110,

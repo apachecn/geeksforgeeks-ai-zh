@@ -12,7 +12,7 @@ Pandas 是一个很棒的 python 包，用于处理数据，我们作为初学�
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing python libraries and breast_cancer dataset from sklearn
 import numpy as np
 import pandas as pd
@@ -34,13 +34,13 @@ df.head()
 
 ## **蟒蛇 3**
 
-```
+```py
 print(df['target'].describe(), df['worst texture'].describe())
 ```
 
 ****输出:****
 
-```
+```py
 count    569.000000
 mean       0.627417
 std        0.483918
@@ -65,7 +65,7 @@ Name: worst texture, dtype: float64
 
 ## **蟒蛇 3**
 
-```
+```py
 df1 = df[['worst texture', 'worst area', 'target']]
 gr1 = df1.groupby(df1['target']).mean()
 gr1

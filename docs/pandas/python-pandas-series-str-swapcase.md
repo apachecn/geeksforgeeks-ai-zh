@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 之后，团队栏中文本的大小写被替换为使用。swapcase()方法，结果将在“团队”列中被覆盖。之后，将显示数据框，以查看在“团队”列的文本案例中所做的更改。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -48,7 +48,7 @@ data
 
 在此示例中，创建了“名称”列的副本。之后，在其上应用两次 str.swapcase()，并使用原始系列检查它是否相同。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

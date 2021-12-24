@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.leg2poly() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 0.1375 -0.4    -1.425   1\.      2.1875]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.leg2poly() method 
 
@@ -63,7 +63,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [  1.375  -4\.    -14.25   10\.     21.875]
 
 ```

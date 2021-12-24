@@ -12,7 +12,7 @@
 
 **代码#1 : from_sequence()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.from_sequence()
 
@@ -43,7 +43,7 @@ print ("vector b - from_sequence form : \n", Permutation.from_sequence(b))
 
 **代码#2 : from_sequence()示例**–使用字符串和键
 
-```
+```py
 # Python code explaining
 # SymPy.from_sequence()
 

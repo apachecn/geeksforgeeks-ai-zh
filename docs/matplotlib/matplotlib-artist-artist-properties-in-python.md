@@ -8,7 +8,7 @@
 
 The **properties() method** in artist module of matplotlib library is used to get the dictionary of all the properties of the artist.
 
-```
+```py
 Syntax: Artist.properties(self)
 
 Parameters: This method does not accepts any parameters.Returns: This method return dictionary of all the properties of the artist.
@@ -18,7 +18,7 @@ Below examples illustrate the matplotlib.artist.Artist.properties() function in 
 
 **Example 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np  
@@ -45,7 +45,7 @@ plt.show()
 **Output:**
 ![](img/5bbe2e849a8c004c377d439dd8f7ba6d.png)
 
-```
+```py
 Display all Propertiesadjustable : box
 agg_filter : None
 alpha : None
@@ -199,7 +199,7 @@ zorder : 0
 
 **Example 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -229,7 +229,7 @@ plt.show()
 **Output:**
 ![](img/b3132daaba25e8408319dfc0b776a89d.png)
 
-```
+```py
 Display all Propertiesadjustable : box
 agg_filter : None
 alpha : None

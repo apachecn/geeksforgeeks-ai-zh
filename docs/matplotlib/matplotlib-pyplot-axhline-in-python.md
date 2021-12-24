@@ -26,7 +26,7 @@ matplotlib 库 pyplot 模块中的 **axhline()函数**用于添加一条横轴�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.annotate() function
 
 import numpy as np
@@ -57,7 +57,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.annotate() 
 # function
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -40,7 +40,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([0.2 0.5 0.7 1\. ], shape=(4, ), dtype=float64)
 b:  tf.Tensor([0.1 0.3 1\.  5\. ], shape=(4, ), dtype=float64)
 Result:  tf.Tensor([0.02 0.15 0.7  5\.  ], shape=(4, ), dtype=float64)
@@ -51,7 +51,7 @@ Result:  tf.Tensor([0.02 0.15 0.7  5\.  ], shape=(4, ), dtype=float64)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -72,7 +72,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([-2.+3.j -5.+4.j  7.+2.j  1.+7.j], shape=(4, ), dtype=complex128)
 b:  tf.Tensor([-1.+2.j -6.+8.j  8.+2.j  0.+1.j], shape=(4, ), dtype=complex128)
 Result:  tf.Tensor([-4\. -7.j -2.-64.j 52.+30.j -7\. +1.j], shape=(4, ), dtype=complex128)

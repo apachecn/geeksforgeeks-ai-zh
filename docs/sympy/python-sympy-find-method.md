@@ -4,7 +4,7 @@
 
 使用 simpy 模块中的`find()`方法，我们可以找到数学函数中的子表达式(如果存在)。`find()`方法返回数学函数中的子表达式。
 
-```
+```py
 Syntax : sympy.find(x)
 
 Return : returns subexpression 
@@ -14,7 +14,7 @@ Return : returns subexpression
 
 借助下面的例子，我们可以清楚地理解，使用`sympy.find()`方法，我们可以从给定的表达式中计算子表达式。
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -28,13 +28,13 @@ print(geek)
 
 **输出:**
 
-```
+```py
 set([log(3*x)])
 ```
 
 **代码#2:**
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -48,6 +48,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 set([log(a), log(1/b), log(b)])
 ```

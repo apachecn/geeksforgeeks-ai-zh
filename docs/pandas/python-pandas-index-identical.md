@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.identical()`功能检查两个索引是否包含相同的元素，以及其他属性是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(idx1, '\n', idx2)
 
 让我们检查一下这两个索引是否相同。
 
-```
+```py
 # Checking the equality of the two Indexes
 idx1.identical(idx2)
 ```
@@ -46,7 +46,7 @@ idx1.identical(idx2)
 
 **例 2:** 使用`Index.identical()`功能检查输入指标是否一致。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(idx1, '\n', idx2)
 
 让我们检查一下这两个索引是否相同。
 
-```
+```py
 # test the equality
 idx1.identical(idx2)
 ```

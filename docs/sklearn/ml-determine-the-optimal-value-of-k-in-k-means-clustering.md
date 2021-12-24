@@ -33,7 +33,7 @@ K=4 时形成弯头
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib import style
 from sklearn.cluster import KMeans
@@ -62,7 +62,7 @@ plt.clf() # clear the figure
 
 ## 蟒蛇 3
 
-```
+```py
 cost =[]
 for i in range(1, 11):
     KM = KMeans(n_clusters = i, max_iter = 500)

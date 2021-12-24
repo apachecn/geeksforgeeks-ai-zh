@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np            
 
@@ -31,7 +31,7 @@ print(rslt)
 
 **输出:**
 
-```
+```py
 [3 4 5 6]
 ```
 
@@ -39,7 +39,7 @@ print(rslt)
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -56,6 +56,6 @@ print(rslt)
 
 **输出:**
 
-```
+```py
 [3 4 7 9] 
 ```

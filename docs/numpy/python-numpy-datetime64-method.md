@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.datetime64()`方法，我们能够获得特定格式的日期，即 yyyy-mm-dd。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

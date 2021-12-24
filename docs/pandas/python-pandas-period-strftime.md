@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.strftime()`函数以指定的格式返回给定周期的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(prd)
 
 **注:** `'%b'`为月名，`%d`为一月中的日，`%Y`为年，`%A`为工作日名。
 
-```
+```py
 # return the period in specified format.
 prd.strftime('% b. % d, % Y was a % A')
 ```
@@ -47,7 +47,7 @@ prd.strftime('% b. % d, % Y was a % A')
 
 **示例 2:** 使用`Period.strftime()`函数以指定的格式返回给定期间的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(prd)
 
 **注:** `'%b'`为月名，`%Y`为年
 
-```
+```py
 # return the period in specified format.
 prd.strftime('% b-% Y')
 ```

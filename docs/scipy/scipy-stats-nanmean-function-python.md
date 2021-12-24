@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Arithmetic Mean 
 import scipy
 import numpy as np
@@ -29,14 +29,14 @@ print("Arithmetic Mean without handling nan value :", scipy.mean(arr1)) 
 
 **输出:**
 
-```
+```py
 Arithmetic Mean using nanmean : 10.333333333333334
 Arithmetic Mean without handling nan value : nan
 ```
 
 **代码#2:** 多维数据
 
-```
+```py
 # Arithmetic Mean 
 from scipy import mean
 from scipy import nanmean
@@ -65,7 +65,7 @@ print("\nArithmetic Mean handling nan with default axis = 1 : \n", 
 
 **输出:**
 
-```
+```py
 Arithmetic Mean is : nan
 Arithmetic Mean handling nan : 6.444444444444445
 

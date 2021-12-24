@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 pd.read_pickle(path, compression='infer')
 
 ```
@@ -30,7 +30,7 @@ pd.read_pickle(path, compression='infer')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages 
 import pandas as pd 
 
@@ -72,7 +72,7 @@ print(unpickled_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages 
 import pandas as pd 
 

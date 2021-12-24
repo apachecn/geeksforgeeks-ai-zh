@@ -6,7 +6,7 @@
 ![](img/2922ab8fe7d5fe6aa2dd938970423594.png)
 **参数:**
 
-```
+```py
 -> α : scale
 -> β : shape
 -> μ : location
@@ -15,7 +15,7 @@
 
 **Code #1 : Creating Hyperbolic secant continuous random variable**
 
-```
+```py
 from scipy.stats import hypsecant  
 
 numargs = hypsecant.numargs
@@ -27,7 +27,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x0000021FB588A160
 
@@ -35,7 +35,7 @@ RV :
 
 **代码#2:双曲割线连续变量和概率分布**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -50,7 +50,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 0.50120826  0.60225476 -0.38307417  7.15799321 -1.1929279  -2.03152053
  -0.07410646  1.79859597 -3.14724818  2.03731139]
@@ -63,7 +63,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -75,7 +75,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -93,7 +93,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

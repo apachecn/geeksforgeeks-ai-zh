@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -43,7 +43,7 @@ print("No of non-zero elements: ",res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([1 0 2 5 0], shape=(5,), dtype=int32)
 No of non-zero elements:  tf.Tensor(3, shape=(), dtype=int64)
 ```
@@ -52,7 +52,7 @@ No of non-zero elements:  tf.Tensor(3, shape=(), dtype=int64)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -71,7 +71,7 @@ print("No of non-zero elements: ",res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([b'' b' ' b'a' b'b'], shape=(4,), dtype=string)
 No of non-zero elements:  tf.Tensor(3, shape=(), dtype=int64)
 ```

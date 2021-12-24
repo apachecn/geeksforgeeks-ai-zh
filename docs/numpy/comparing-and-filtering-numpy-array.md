@@ -18,20 +18,20 @@
 
 **步骤 1:** 首先在您的系统或环境中安装 NumPy。通过使用以下命令。
 
-```
+```py
 pip install numpy(command prompt)
 !pip install numpy(jupyter)
 ```
 
 **第二步:**导入 NumPy 模块。
 
-```
+```py
 import numpy as np
 ```
 
 **步骤 3:** 使用 NumPy Array 方法创建元素数组。
 
-```
+```py
 np.array([elements])
 ```
 
@@ -45,7 +45,7 @@ np.array([elements])
 
 ## 蟒 3
 
-```
+```py
 # importing NumPy Module
 import numpy as np 
 
@@ -59,7 +59,7 @@ np.greater(a, b)
 
 **输出:**
 
-```
+```py
 array([False, False, False, False])
 ```
 
@@ -71,7 +71,7 @@ array([False, False, False, False])
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing NumPy Module
 import numpy as np
 
@@ -83,7 +83,7 @@ np.less(a, b)
 
 **输出:**
 
-```
+```py
 array([ True,  True,  True,  True])
 ```
 
@@ -95,7 +95,7 @@ array([ True,  True,  True,  True])
 
 ## 蟒 3
 
-```
+```py
 # Importing NumPy Module.
 import numpy as np
 
@@ -111,7 +111,7 @@ np.equal(a, b)
 
 **输出:**
 
-```
+```py
 array([ False,  False,  False, False])
 ```
 
@@ -123,7 +123,7 @@ array([ False,  False,  False, False])
 
 ## 蟒 3
 
-```
+```py
 # Importing NumPy Module.
 import numpy as np
 
@@ -139,7 +139,7 @@ np.not_equal(a, b)
 
 **输出:**
 
-```
+```py
 array([ True,  True,  True,  True])
 ```
 
@@ -151,7 +151,7 @@ array([ True,  True,  True,  True])
 
 ## 蟒 3
 
-```
+```py
 # Importing NumPy Module.
 import numpy as np
 

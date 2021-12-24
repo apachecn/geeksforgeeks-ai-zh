@@ -38,7 +38,7 @@
 
 **示例:**
 
-```
+```py
 # Reducing an array using np.add.reduce()
 
 import numpy as np
@@ -54,7 +54,7 @@ print("The array {0} gets reduced to {1}".format(a, b))
 
 **输出**
 
-```
+```py
 The array [0 1 2 3 4 5 6 7 8 9] gets reduced to 45
 ```
 
@@ -74,7 +74,7 @@ The array [0 1 2 3 4 5 6 7 8 9] gets reduced to 45
 
 **示例:**
 
-```
+```py
 import numpy as np
 
 # Array formation
@@ -106,7 +106,7 @@ print("The array {0} gets added cumulatively to {1}".format(a, c))
 
 **示例:**
 
-```
+```py
 # To find the outer of two input arrays
 import numpy as np
 
@@ -126,7 +126,7 @@ print("The outer of {0} & {1} is {2}".format(b,a,z))
 
 **输出**
 
-```
+```py
 The outer of [0 1 2] & [[0 1]
  [2 3]] is [[[0 1]
   [2 3]]
@@ -144,7 +144,7 @@ The outer of [0 1 2] & [[0 1]
 
 **示例:**
 
-```
+```py
 # Reduceat method example
 
 import numpy as np
@@ -162,7 +162,7 @@ print("Reduceat of matrix {} is {}".format(a,z))
 **STEP-1**
 它涉及指数 1 和 4。该步骤导致索引 1 和 4 之间的阵列元素的操作减少。
 
-```
+```py
 import numpy as np
 
 a = np.arange(9)
@@ -171,14 +171,14 @@ print("Result of STEP-I is", np.add.reduce(a[0:4]))
 
 **输出**
 
-```
+```py
 Result of STEP-I is 6
 ```
 
 **STEP-2**
 第二步涉及指数 4 和 2。因为 2 小于 4，所以返回索引 4 处的数组元素:
 
-```
+```py
 import numpy as np
 
 a = np.arange(9)
@@ -187,14 +187,14 @@ print("Result of STEP-II is", a[4])
 
 **输出**
 
-```
+```py
 Result of STEP-II is 4
 ```
 
 **STEP-3**
 第三步涉及指数 2 和 8。该步骤导致索引 2 和 8 之间的阵列元素的减少操作:
 
-```
+```py
 import numpy as np
 
 a = np.arange(9)
@@ -203,14 +203,14 @@ print("Result of STEP-III is", np.add.reduce(a[2:8]))
 
 **输出**
 
-```
+```py
 Result of STEP-III is 27
 ```
 
 **STEP-4**
 第四步涉及指数 8。该步骤导致从索引 8 到数组末尾的数组元素的减少操作:
 
-```
+```py
 import numpy as np
 
 a = np.arange(9)
@@ -219,7 +219,7 @@ print("Result of step IV is", np.add.reduce(a[8:]))
 
 **输出**
 
-```
+```py
 Result of step IV is 8
 ```
 

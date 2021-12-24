@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -25,14 +25,14 @@ print("Totient numbers for the range of numbers [1, 10) : {}".format(totient_lis
 
 **输出:**
 
-```
+```py
 Totient numbers for the range of numbers [1, 10) : [1, 1, 2, 2, 4, 2, 6, 4, 6]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -45,7 +45,7 @@ print("Totient numbers for the range of numbers [8, 20) : {}".format(totient_lis
 
 **输出:**
 
-```
+```py
 Totient numbers for the range of numbers [8, 20) : [4, 6, 4, 10, 4, 12, 6, 8, 8, 16, 6, 18]
 
 ```

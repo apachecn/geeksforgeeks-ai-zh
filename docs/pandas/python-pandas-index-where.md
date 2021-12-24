@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Index.where`函数返回一个索引，如果该索引的值不小于 100，我们从另一个索引中选择该值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(idx2)
 
 现在我们将使用`Index.where`函数返回一个索引，其中如果该索引的值不小于 100，我们将从另一个索引中选择该值。
 
-```
+```py
 # return the new index based on the condition
 result = idx1.where(idx1 < 100, idx2)
 
@@ -54,7 +54,7 @@ print(result)
 
 **例 2 :** 使用`Index.where`函数返回一个满足传递条件的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(idx2)
 
 现在我们将使用`Index.where`函数返回一个 Index，其中如果其他 Index 的值减 1200 不小于 idx1，则从其他 Index 中选择值。
 
-```
+```py
 # return the new index based on the condition
 result = idx1.where((idx2 - 1200) < idx1, idx2)
 

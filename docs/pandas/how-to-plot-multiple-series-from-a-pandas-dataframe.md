@@ -8,7 +8,7 @@ Series 是包含整数点的数据范围，我们可以使用 plot()函数在 pa
 
 **语法**:
 
-```
+```py
 matplotlib.pyplot(dataframe['column_name'])
 ```
 
@@ -18,7 +18,7 @@ matplotlib.pyplot(dataframe['column_name'])
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 

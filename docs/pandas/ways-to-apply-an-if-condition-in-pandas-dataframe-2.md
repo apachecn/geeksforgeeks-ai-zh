@@ -6,7 +6,7 @@
 
 首先，我们将创建以下数据帧:
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df)
 
 **示例 1 :** 列值(元组)上的 if 条件:if 条件可以应用于列值，就像当有人用 MRP < =2000 和折扣> 0 要求所有项目时，下面的代码会这样做。同样，任何数量的条件都可以应用于数据框的任何数量的属性。
 
-```
+```py
 # if condition with column conditions given
 # the condition is if MRP of the product <= 2000 
 # and discount > 0 show me those items
@@ -41,7 +41,7 @@ df[(df['MRP'] <= 2000) & (df['Discount'] > 0)]
 
 **例 2 :** if 条件对行值(元组) :这可以作为条件对列值的特例。如果给定了一个元组(Sofa，5000，20)，并在数据框中找到它，可以这样完成:
 
-```
+```py
 # if condition with row tuple given
 df[(df['Product'] == 'Sofa') & (df['MRP'] == 5000) & (df['Discount']== 20)]
 ```
@@ -52,7 +52,7 @@ df[(df['Product'] == 'Sofa') & (df['MRP'] == 5000) & (df['Discount']== 20)]
 
 **示例 3 :** 使用 Lambda 函数:Lambda 函数接受输入并根据某个条件返回结果。它可以用来对熊猫数据框中的每个列元素应用特定的函数。以下示例使用 Lambda 函数设置折扣值的上限为 20，即如果任何单元格中的折扣值>为 20，则将其设置为 20。
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -82,7 +82,7 @@ print(df)
 
 以下示例显示了这两个函数在数据框上传递条件的用法。这里取一个索引为[2，1]的单元格，这是羽毛球产品的物料需求计划。
 
-```
+```py
 # If condition on a cell value using iloc() or loc() functions
 # iloc() is based on index search and loc() based on label search
 

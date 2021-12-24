@@ -58,7 +58,7 @@ Bokeh 可用于在图形上绘制带有十字的菱形。可以使用`plotting`�
 
 **示例 1 :** 在本例中，我们将使用默认值绘制图表。我们已经提供了尺寸和填充颜色属性来使字形可见。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -84,7 +84,7 @@ show(graph)
 
 **示例 2 :** 在本例中，我们将在其他参数旁边用虚线绘制菱形十字，菱形十字的大小与其值成比例。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 

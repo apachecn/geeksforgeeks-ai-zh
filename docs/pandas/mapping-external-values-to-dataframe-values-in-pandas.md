@@ -10,7 +10,7 @@
 
 通过使用这个映射函数，我们可以向现有的数据框中再添加一列。请记住，任何键值都不会重复，这将使数据不一致。
 
-```
+```py
 # Creating new dataframe
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(df)
 
 **Output:**
 
-```
+```py
 First_name Last_name  Age    City    Qualification
 0        Ram     Kumar   42  Mumbai         B.Com
 1      Mohan    Sharma   52   Noida           IAS
@@ -51,7 +51,7 @@ First_name Last_name  Age    City    Qualification
 
 在这种方法中，我们可以用一些定义的外部值来添加或替换数据帧的一些值。
 
-```
+```py
 # Creating new dataframe
 import pandas as pd
 initial_data = {'First_name': ['Ram', 'Mohan', 'Tina', 'Jeetu', 'Meera'], 
@@ -76,7 +76,7 @@ print(df)
 
 **Output:**
 
-```
+```py
 First_name Last_name  Age    City
 0        Ram     Kumar   42  Mumbai
 1      Mohan    Sharma   52   Noida
@@ -97,7 +97,7 @@ First_name Last_name  Age    City
 
 在这种方法中，我们可以通过使用索引值来更新 dataframe 值，我们可以通过外部数据来更改列的值。
 
-```
+```py
 # Creating new dataframe
 import pandas as pd
 
@@ -121,7 +121,7 @@ print(df)
 
 **Output:**
 
-```
+```py
 First_name Last_name  Age    City
 0      Shyam     Kumar   42  Mumbai
 1      Mohan    Sharma   52   Noida

@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 start : [optional] start of interval range. By default start = 0
 stop  : end of interval range
 step  : [optional] step size of interval. By default step size = 1,  
@@ -16,7 +16,7 @@ dtype : type of output array
 
 **返回:**
 
-```
+```py
 Array of evenly spaced values.
 Length of array being generated  = Ceil((Stop - Start) / Step) 
 ```
@@ -25,7 +25,7 @@ Length of array being generated  = Ceil((Stop - Start) / Step)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Programming illustrating
 # numpy.arange method
 
@@ -38,7 +38,7 @@ print("A\n", geek.arange(4, 20, 3), "\n")
 
 **输出:**
 
-```
+```py
 A
  [[0 1]
  [2 3]]
@@ -59,7 +59,7 @@ A
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Programming illustrating
 # numpy.arange method
 
@@ -72,7 +72,7 @@ print(np.arange(1, 2, 0.1))
 
 **输出:**
 
-```
+```py
 [1\.  1.1 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9]
 ```
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 course = ["DBMS", "DSA", "OOPS",

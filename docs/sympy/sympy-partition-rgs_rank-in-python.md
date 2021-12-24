@@ -12,7 +12,7 @@
 
 **代码#1 : RGS_rank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_rank()
 
@@ -33,7 +33,7 @@ print ("rank for restricted growth string : \n", p)
 
 **代码#2 : RGS_rank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_rank()
 

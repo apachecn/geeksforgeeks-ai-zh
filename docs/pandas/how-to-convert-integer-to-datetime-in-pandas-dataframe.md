@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(df.dtypes)
 
 我们可以看到，“日期”列的数据类型是整数。现在，为了将其转换为 Datetime，我们使用前面提到的语法。由于在本例中日期格式是 **yyyymmdd** ，日期格式可以表示如下:
 
-```
+```py
 format= '%Y%m%d'
 
 ```
@@ -43,7 +43,7 @@ format= '%Y%m%d'
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(df.dtypes)
 
 **示例#2:** 现在，假设数据框具有格式为 **yymmdd** 的日期。在这种情况下，日期格式现在将包含小写的**‘y’**:
 
-```
+```py
 format='%y%m%d'
 
 ```
@@ -77,7 +77,7 @@ format='%y%m%d'
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -102,7 +102,7 @@ print(df.dtypes)
 
 **示例#3:** 现在，让我们假设您的整数包含日期和时间。在这种情况下，您应该指定的格式是:
 
-```
+```py
 format='%Y%m%d%H%M%S'
 
 ```
@@ -111,7 +111,7 @@ format='%Y%m%d%H%M%S'
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -136,7 +136,7 @@ print(df.dtypes)
 
 **示例#4:** 考虑我们的日期时间值中以微秒为单位的数据帧。在这种情况下，格式应指定为:
 
-```
+```py
 format='%Y%m%d%H%M%S%F'
 
 ```
@@ -145,7 +145,7 @@ format='%Y%m%d%H%M%S%F'
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

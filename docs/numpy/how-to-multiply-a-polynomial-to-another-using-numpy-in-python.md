@@ -7,7 +7,7 @@
 *   多项式 **p(x) = C3 x2 + C2 x + C1** 在 NumPy 中表示为: **( C1、C2、C3 )** {系数(常数)}。
 *   让我们取两个多项式 p(x)和 q(x)，然后将它们相乘，得到 r(x) = p(x) * q(x)作为两个输入多项式相乘的结果。
 
-```
+```py
 If p(x) = A3 x2 + A2 x + A1 
 and 
 q(x) = B3 x2 + B2 x + B1 
@@ -26,7 +26,7 @@ and output is
 
 **语法:**
 
-```
+```py
 numpy.polymul(p1, p2)
 ```
 
@@ -36,7 +36,7 @@ numpy.polymul(p1, p2)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -56,7 +56,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [ 10\. -29\.  30\. -29\.  10.] 
 
 ```
@@ -65,7 +65,7 @@ print(rx)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -85,7 +85,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [  0\.     0\.    21.56   0\.     8.8 ]
 
 ```
@@ -94,7 +94,7 @@ print(rx)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -114,7 +114,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [ 0\.         -2.91666667  0\.          3\.        ]
 
 ```

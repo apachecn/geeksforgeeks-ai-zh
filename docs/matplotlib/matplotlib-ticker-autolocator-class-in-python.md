@@ -25,7 +25,7 @@ matplotlib.ticker.AutoLocator 类是 matplotlib.ticker.MaxNLocator 的子类，�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
@@ -74,7 +74,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pylab as pl
 from matplotlib import ticker
 

@@ -18,7 +18,7 @@ Pandas `**Series.aggregate()**`函数在给定系列对象的指定轴上使用�
 
 **示例#1:** 使用`Series.aggregate()`函数对给定序列对象的底层数据进行聚合。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 Coca Cola    34
 Sprite        5
 Coke         13
@@ -49,7 +49,7 @@ dtype: int64
 
 现在我们使用`Series.aggregate()`函数来求给定数列对象中所有值的和。
 
-```
+```py
 # Find the sum of all values
 result = sr.aggregate(func = sum)
 
@@ -59,7 +59,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 103
 ```
 
@@ -67,7 +67,7 @@ print(result)
 
 **例 2 :** 使用`Series.aggregate()`函数对给定序列对象的底层数据进行聚合。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    51
 2011-12-31 08:45:00    10
 2012-12-31 08:45:00    24
@@ -104,7 +104,7 @@ Freq: A-DEC, dtype: int64
 
 现在我们将使用`Series.aggregate()`函数来寻找给定序列对象中所有值的最大值。
 
-```
+```py
 # Find the max of all values
 result = sr.aggregate(func = max)
 
@@ -114,7 +114,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 84
 ```
 

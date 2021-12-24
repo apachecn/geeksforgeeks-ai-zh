@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.itemset() function
 
@@ -30,7 +30,7 @@ print ("Output array : ", arr)
 
 **输出:**
 
-```
+```py
 Input array :  [[8 0 3]
  [8 4 3]
  [4 1 7]]
@@ -42,7 +42,7 @@ Output array :  [[8 0 3]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.itemset() function
 
@@ -60,7 +60,7 @@ print ("Output array : ", arr)
 
 **输出:**
 
-```
+```py
 Input array :  [[8 0 3]
  [8 4 3]
  [4 1 7]]

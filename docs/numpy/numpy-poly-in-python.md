@@ -12,7 +12,7 @@
 > **返回:**多项式系数从最高到最低的 1D 阵列。
 > c[0]* x * *(N)+c[1]* x * *(N-1)+…+c[N-1]* x+c[N]，其中 c[0]总是等于 1。
 
-```
+```py
 # Python code explaining  
 # numpy.poly() 
 
@@ -31,7 +31,7 @@ print ("\nAbove polynomial = \n", p1) 
 
 **输出:**
 
-```
+```py
 Coefficients of the polynomial:  [ 1\. -3\.  2\.  0.]
 
 Above polynomial = 
@@ -41,7 +41,7 @@ Above polynomial =
 
 **代码#2:**
 
-```
+```py
 # Python code explaining  
 # numpy.poly() 
 
@@ -60,7 +60,7 @@ print ("\nAbove polynomial = \n", p2) 
 
 **输出:**
 
-```
+```py
 Coefficients of the polynomial:  [  1\. -11\.  46\. -92\.  88\. -32\.   0.]
 
 Above polynomial = 

@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.nanstd() function
 
@@ -34,14 +34,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 1.247219128924647
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nanstd() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [0\. 1.]
 
 ```

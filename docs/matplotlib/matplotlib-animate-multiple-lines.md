@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary libraries
 import random
 import matplotlib
@@ -30,7 +30,7 @@ from matplotlib.animation import FuncAnimation
 
 ## 蟒蛇 3
 
-```
+```py
 # add random points for each line
 l1 = [random.randint(-20, 4)+(points**1.88)/(random.randint(13, 14))
       for points in range(0, 160, 2)]
@@ -46,7 +46,7 @@ l4 = [random.randint(-5, 10)-(points**1.1)/(random.randint(7, 12))
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import count
 myvar = count(0, 3)
 ```
@@ -55,7 +55,7 @@ myvar = count(0, 3)
 
 ## 蟒蛇 3
 
-```
+```py
 # subplots() function you can draw
 # multiple plots in one figure
 fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(10, 5))
@@ -93,7 +93,7 @@ anim = FuncAnimation(fig, animate, interval=30)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary libraries
 from itertools import count
 import random
@@ -160,7 +160,7 @@ anim = FuncAnimation(fig, animate, interval=30)
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import numpy as np
 import matplotlib
@@ -172,7 +172,7 @@ import matplotlib.animation as animation
 
 ## 蟒蛇 3
 
-```
+```py
 def updateline(num, data, line1, data2, line2):
     line1.set_data(data[..., :num])
     line2.set_data(data2[..., :num])
@@ -224,7 +224,7 @@ time_text = ax.text(0.1, 0.95, "", transform=ax.transAxes,
 
 ## 蟒蛇 3
 
-```
+```py
 # set line_animation variable to call
 # the function recursively
 line_animation = animation.FuncAnimation(
@@ -237,7 +237,7 @@ line_animation.save("lines.mp4", writer=Writer)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import matplotlib

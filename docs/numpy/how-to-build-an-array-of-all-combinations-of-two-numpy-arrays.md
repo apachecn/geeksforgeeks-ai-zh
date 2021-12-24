@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.meshgrid(*xi, copy=True, sparse=False, indexing='xy')
 
 ```
@@ -15,7 +15,7 @@ numpy.meshgrid(*xi, copy=True, sparse=False, indexing='xy')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -47,7 +47,7 @@ print(comb_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -85,7 +85,7 @@ print(comb_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

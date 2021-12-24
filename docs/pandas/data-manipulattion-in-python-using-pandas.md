@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -41,7 +41,7 @@ student_register
 
 **示例:**
 
-```
+```py
 # creating a new pandas
 # series object
 new_person = pd.Series(['Mansi', 19, True], 
@@ -61,7 +61,7 @@ student_register.append(new_person, ignore_index = True)
 
 **示例:**
 
-```
+```py
 # for showing the dimension 
 # of the dataframe
 print('Shape')

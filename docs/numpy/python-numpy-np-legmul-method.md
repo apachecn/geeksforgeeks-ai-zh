@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legmul() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 14\.          27.6         37.42857143  26.4         20.57142857]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legmul() method 
 
@@ -64,7 +64,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 183.93650794  451.80952381  666.43578644  755.23232323  786.997003
   626.61782662  512.26551227  326.34032634  190.36519037]
 

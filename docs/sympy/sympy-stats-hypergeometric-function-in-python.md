@@ -17,7 +17,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`sympy.stats.Hypergeometric()`方法，我们能够通过使用该方法获得表示超几何分布的随机变量。
 
-```
+```py
 # Import sympy and hypergeometric
 from sympy.stats import Hypergeometric, density
 
@@ -31,14 +31,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 {0: 1/12, 1: 5/12, 2: 5/12, 3: 1/12}
 
 ```
 
 **例 2 :**
 
-```
+```py
 # Import sympy and hypergeometric
 from sympy.stats import Hypergeometric, density
 
@@ -51,7 +51,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 {0: 1/2, 1: 1/2}
 
 ```

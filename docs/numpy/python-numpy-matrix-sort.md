@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们能够使用`matrix.sort()`方法对矩阵中的元素进行排序。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,7 +25,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 1  4]
  [ 3 12]]
 
@@ -33,7 +33,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 1  4  9]
  [ 1  3 12]
  [ 4  5  6]]

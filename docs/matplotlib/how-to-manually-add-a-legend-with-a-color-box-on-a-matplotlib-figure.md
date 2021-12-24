@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 

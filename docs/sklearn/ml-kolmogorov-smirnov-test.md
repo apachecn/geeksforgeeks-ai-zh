@@ -9,7 +9,7 @@ Kolmogorov–Smirnov 检验也可用于检验两个基础一维概率分布是�
 
 为了使用检验随机数一致性的测试，我们使用了 U[0，1]的 CDF(累积分布函数)。
 
-```
+```py
 F(x)=x  for 0<=x<=1 
 ```
 
@@ -30,7 +30,7 @@ F(x)=x  for 0<=x<=1
 > **p 值:**这是借助 D.
 > - >计算出来的如果 p 值>α，我们就无法拒绝零假设。否则，我们得出结论，这些数字是不一致的。理想情况下，p 值应该尽可能大。对于完美均匀分布，p 值=1，Statisitics = 0。
 
-```
+```py
 from scipy.stats import kstest
 import random
 
@@ -56,7 +56,7 @@ print(x)
 *   这里使用的零假设假设数字遵循正态分布。
 *   该功能的功能保持完全相同。它再次返回统计数据和 p 值。如果 p 值
 
-```
+```py
 from scipy.stats import kstest
 import random
 

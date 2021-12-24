@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.format_xdata()函数**用于返回 x 
 
 **语法:**
 
-```
+```py
 Axes.format_xdata(self, x)
 
 ```
@@ -21,7 +21,7 @@ Axes.format_xdata(self, x)
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

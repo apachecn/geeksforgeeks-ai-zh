@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining 
 # pmt() function 
 
@@ -44,7 +44,7 @@ print("Solution - No. of periods : % f months" %(Solution)) 
 
 **输出:**
 
-```
+```py
 Solution - No. of periods : 215.905777 months
 
 ```

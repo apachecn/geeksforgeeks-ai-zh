@@ -21,7 +21,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.median() method 
 
@@ -37,7 +37,7 @@ print("median of arr : ", np.median(arr))
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 34]
 median of arr :  7.0
 
@@ -45,7 +45,7 @@ median of arr :  7.0
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.median() method  
 import numpy as np
@@ -72,7 +72,7 @@ print("median of arr, axis = 1 : ", 
 
 **输出:**
 
-```
+```py
 median of arr, axis = None :  15.0
 
 median of arr, axis = 0 :  [15\.  6\. 27\.  8\. 19.]

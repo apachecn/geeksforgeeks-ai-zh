@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -44,7 +44,7 @@ print('DataFrame is written to Excel File successfully.')
 
 **输出:**
 
-```
+```py
 DataFrame is written to Excel File successfully.
 ```
 
@@ -56,7 +56,7 @@ Excel 文件是:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -80,7 +80,7 @@ print('DataFrame is written to Excel File successfully.')
 
 **输出:**
 
-```
+```py
 DataFrame is written to Excel File successfully.
 ```
 

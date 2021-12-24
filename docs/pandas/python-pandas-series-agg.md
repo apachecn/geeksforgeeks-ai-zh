@@ -17,7 +17,7 @@ Pandas `**Series.agg()**`用于传递一个函数或函数列表，分别应用�
 **示例#1:**
 在此示例中，传递了一个 lambda 函数，该函数简单地将每个序列值加 2。由于该函数将应用于系列的每个值，因此返回类型也是系列。通过传递使用 Numpy 随机方法生成的数组，生成由 10 个元素组成的随机序列。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -46,7 +46,7 @@ print('Array before operation: \n', series,
 
 在这个例子中，一些 Python 默认函数的列表被传递，多个结果被`agg()`方法返回到多个变量中。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

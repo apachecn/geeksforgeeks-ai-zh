@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Geometric()`方法，我们能够通过使用这个方法得到表示几何分布的随机变量。
 
-```
+```py
 # Import sympy and geometric
 from sympy.stats import Geometric, density, E, variance
 from sympy import Symbol, S
@@ -31,7 +31,7 @@ print(variance(X))
 
 **例 2 :**
 
-```
+```py
 # Import sympy and geometric
 from sympy.stats import Geometric, density, E, variance
 from sympy import Symbol, S

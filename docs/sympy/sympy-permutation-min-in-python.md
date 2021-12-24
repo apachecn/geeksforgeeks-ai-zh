@@ -10,7 +10,7 @@
 
 **代码#1 : min()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.min()
 
@@ -36,7 +36,7 @@ print ("Permutation b - min form : ", b.min())
 
 **代码#2 : min()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.min()
 

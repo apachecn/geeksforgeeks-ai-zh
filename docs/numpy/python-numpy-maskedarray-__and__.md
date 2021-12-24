@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到每个元素都由作为参数传递的值进行 and 运算。
 
-```
+```py
 
 # import the important module in python 
 import numpy as np 
@@ -25,14 +25,14 @@ print(gfg.__and__(2)) 
 
 **Output:**
 
-```
+```py
 [0 2 2 0 0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -46,7 +46,7 @@ print(gfg.__and__(1)) 
 
 **Output:**
 
-```
+```py
 [[1 0 1 0 1]
  [0 1 0 1 0]]
 

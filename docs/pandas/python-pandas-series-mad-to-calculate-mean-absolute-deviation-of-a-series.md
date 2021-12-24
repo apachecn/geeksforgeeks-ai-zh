@@ -20,7 +20,7 @@
 **示例#1:**
 在本例中，使用熊猫从 Python 列表创建了一个系列。Series()方法。那个。mad()方法在具有所有默认参数的序列上调用。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -42,7 +42,7 @@ result
 
 **输出:**
 
-```
+```py
 5.876543209876543
 ```
 

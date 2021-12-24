@@ -73,7 +73,7 @@ xyA 和 xyB 的坐标由字符串坐标 sA 和坐标 sB 表示。
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib.patches import ConnectionPatch
 import matplotlib.pyplot as plt
 
@@ -137,7 +137,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import ConnectionPatch
 import numpy as np

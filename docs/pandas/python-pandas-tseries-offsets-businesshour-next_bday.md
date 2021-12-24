@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessHour.next_bday`功能将给定的时间戳移动到下一个工作日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还会将给定的时间戳移到下一个工作日。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 
@@ -66,7 +66,7 @@ print(result)
 
 **示例 2:** 使用`pandas.tseries.offsets.BusinessHour()`功能创建 10 天 5 个工作时间的偏移量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -91,7 +91,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还会将给定的时间戳移到下一个工作日。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 

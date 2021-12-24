@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.subtract() function
 
@@ -37,7 +37,7 @@ print ("Difference of two input number : ", out_num) 
 
 **Output :**
 
-```
+```py
 1st Input number :  4
 2nd Input number :  6
 Difference of two input number :  -2
@@ -46,7 +46,7 @@ Difference of two input number :  -2
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.subtract() function
 
@@ -64,7 +64,7 @@ print ("Output array: ", out_arr) 
 
 **Output :**
 
-```
+```py
 1st Input array :  [[ 2 -4  5]
  [-6  2  0]]
 2nd Input array :  [[ 0 -7  5]

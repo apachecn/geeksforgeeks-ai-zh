@@ -6,7 +6,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 数据分析的一个重要部分是分析*重复值*并将其删除。熊猫**重复()**方法仅帮助分析重复值。它返回一个布尔序列，该序列仅对唯一元素为真。
 **语法:**
 
-```
+```py
 DataFrame.duplicated(subset=None, keep='first')
 ```
 
@@ -24,7 +24,7 @@ DataFrame.duplicated(subset=None, keep='first')
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -54,7 +54,7 @@ data[bool_series]
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

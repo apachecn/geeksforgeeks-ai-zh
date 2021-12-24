@@ -6,21 +6,21 @@
 
 **参数:**
 
-```
+```py
 arr  : *[array_like]* Input array or object whose elements, we need to test.
 
 ```
 
 **返回:**
 
-```
+```py
 An array with absolute value of each array.  
 
 ```
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # absolute () function
 
@@ -37,7 +37,7 @@ print ("\nAbsolute Value of arr2 : \n",
 
 **输出:**
 
-```
+```py
 Absolute Value of arr1 : 
  [  1   3  15 466]
 
@@ -48,7 +48,7 @@ Absolute Value of arr2 :
 
 **代码#2:处理复数**
 
-```
+```py
 # Python program explaining
 # absolute () function
 
@@ -65,7 +65,7 @@ print("\nAbsolute value(16 + 13j) : ",
 
 **输出:**
 
-```
+```py
 Absolute(4 + 3j) :  5.0
 
 Absolute value(16 + 13j) :  20.6155281281
@@ -73,7 +73,7 @@ Absolute value(16 + 13j) :  20.6155281281
 
 **代码# 3:numpy . absolute()**的图形表示
 
-```
+```py
 # Python program explaining
 # absolute () function
 
@@ -95,7 +95,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Graphical Representation : 
  [ 5\.  3\.  1\.  1\.  3\.  5.]
 

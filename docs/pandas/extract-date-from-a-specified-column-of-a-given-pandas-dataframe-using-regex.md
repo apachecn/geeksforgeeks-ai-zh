@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas and re library
 import pandas as pd
 import re as re
@@ -43,7 +43,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # creating function to find whether the 
 # given date is valid or not
 def checking_valid_dates(dt):

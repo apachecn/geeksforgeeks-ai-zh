@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`sympy.is_comparable()`方法，我们能够评估表达式，如果计算值是精确的实数，它将返回真或假。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

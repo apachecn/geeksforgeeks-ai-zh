@@ -22,7 +22,7 @@
 
 **语法:**
 
-```
+```py
  index_add_(dim,index,ensor)---> Tensor
 ```
 
@@ -36,7 +36,7 @@
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 
@@ -49,7 +49,7 @@ x.index_add_(0,index0,te)
 
 **输出:**
 
-```
+```py
 tensor([[1., 3., 5., 7., 9.],
         [0., 0., 0., 0., 0.],
         [1., 3., 5., 7., 9.],
@@ -61,7 +61,7 @@ tensor([[1., 3., 5., 7., 9.],
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 
@@ -74,7 +74,7 @@ y.index_add_(1,index2,ten)
 
 **输出:**
 
-```
+```py
 tensor([[0.9460, 0.4762, 1.2219, 1.0000, 1.0000],
         [0.9460, 0.4762, 1.2219, 1.0000, 1.0000],
         [0.9460, 0.4762, 1.2219, 1.0000, 1.0000],
@@ -88,7 +88,7 @@ tensor([[0.9460, 0.4762, 1.2219, 1.0000, 1.0000],
 
 ## 蟒 3
 
-```
+```py
 import torch
 
 y=torch.ones(5,5)
@@ -101,7 +101,7 @@ print ("Printing Indexed Matrix again:\n",y)
 
 **输出:**
 
-```
+```py
 Indexed Matrix:
  tensor([[-0.2811, -1.0776,  2.2697,  1.0000,  1.0000],
         [-0.2811, -1.0776,  2.2697,  1.0000,  1.0000],
@@ -120,7 +120,7 @@ Printing Indexed Matrix again:
 
 **语法:**
 
-```
+```py
 index_copy_(dim,index,tensor)---> Tensor
 ```
 
@@ -134,7 +134,7 @@ index_copy_(dim,index,tensor)---> Tensor
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 
@@ -148,7 +148,7 @@ a.index_copy_(0,index3,t1)
 
 **输出:**
 
-```
+```py
 tensor([[ 1.0000,  1.0000,  1.0000,  1.0000],
         [-0.1918, -1.2089,  0.3229, -0.1831],
         [ 1.0000,  1.0000,  1.0000,  1.0000],
@@ -159,7 +159,7 @@ tensor([[ 1.0000,  1.0000,  1.0000,  1.0000],
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 
@@ -171,7 +171,7 @@ y.index_copy_(1,index1,te)
 
 **输出:**
 
-```
+```py
 RuntimeError                              Traceback (most recent call last)
 <ipython-input-8-25e4150d5bd7> in <module>
       1 y=torch.ones(5,5)
@@ -186,7 +186,7 @@ Destination slice shape: 5 at dimension 1 and source slice shape: 3 at dimension
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 b=torch.ones(4,4)
@@ -198,7 +198,7 @@ b.index_copy_(1,index4,t2)
 
 **输出:**
 
-```
+```py
 tensor([[-0.3964, -0.3859,  1.0000,  1.0000],
         [ 2.6910, -0.9394,  1.0000,  1.0000],
         [ 0.3591, -0.2262,  1.0000,  1.0000],
@@ -211,7 +211,7 @@ tensor([[-0.3964, -0.3859,  1.0000,  1.0000],
 
 **语法:**
 
-```
+```py
 index_fill_(dim, index, val) → Tensor
 ```
 
@@ -225,7 +225,7 @@ index_fill_(dim, index, val) → Tensor
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 c=torch.randn(4,4)
@@ -239,7 +239,7 @@ print(c)
 
 **输出:**
 
-```
+```py
  tensor([[ 4.0000,  4.0000,  4.0000,  4.0000],
         [ 0.4762,  0.0056,  0.3258,  1.1345],
         [ 4.0000,  4.0000,  4.0000,  4.0000],
@@ -250,7 +250,7 @@ print(c)
 
 ## 蟒 3
 
-```
+```py
 d=torch.randn(5,5)
 
 d.index_fill(1,index5,2)
@@ -259,7 +259,7 @@ print(d)
 
 **输出:**
 
-```
+```py
  tensor([[ 0.5978, -1.2461, -0.8794, -1.0175,  0.8938],
         [-0.6374,  1.0848,  0.1291,  0.6658,  0.3081],
         [-0.9686, -0.8212, -0.5223, -0.3208, -1.7718],
@@ -273,7 +273,7 @@ print(d)
 
 **语法:**
 
-```
+```py
 index_put_(indices, values, accumulate=False) → Tensor
 ```
 
@@ -287,7 +287,7 @@ index_put_(indices, values, accumulate=False) → Tensor
 
 ## 中提到的值张量的值
 
-```
+```py
 #importing libraries
 import torch
 
@@ -300,7 +300,7 @@ target.index_put_(tuple(indices.t()), value)
 
 **输出:**
 
-```
+```py
 tensor([[0., 1., 0., 0.],
        [1., 0., 1., 0.],
        [0., 0., 0., 0.],
@@ -313,7 +313,7 @@ tensor([[0., 1., 0., 0.],
 
 ## 蟒 3
 
-```
+```py
 e=torch.ones([4,4])
 indices2=torch.LongTensor([[0,1],[0,1],[2,1]])
 value2=torch.zeros(indices2.shape[0])
@@ -321,7 +321,7 @@ value2=torch.zeros(indices2.shape[0])
 e.index_put_(tuple(indices2.t()),value2,accumulate=True)
 ```
 
-```
+```py
 Output:
 tensor([[1., 1., 1., 1.],
        [1., 1., 1., 1.],
@@ -335,7 +335,7 @@ tensor([[1., 1., 1., 1.],
 
 **语法:**
 
-```
+```py
 torch.index_select(input, dim, index, out=None) 
 ```
 
@@ -349,7 +349,7 @@ torch.index_select(input, dim, index, out=None)
 
 ## 蟒 3
 
-```
+```py
 #importing libraries
 import torch
 
@@ -361,7 +361,7 @@ print("Indexed Matrix:\n",torch.index_select(m, 0, indices))
 
 **输出:**
 
-```
+```py
 Original matrix:
  tensor([[ 0.2008, -0.2637,  2.1216, -0.2892],
         [-0.4059, -1.6054, -2.5022, -0.2912],

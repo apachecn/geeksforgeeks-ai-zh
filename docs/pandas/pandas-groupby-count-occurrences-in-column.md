@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -64,7 +64,7 @@ display(occur)
 
 ## **蟒蛇 3**
 
-```
+```py
 # import module
 import pandas as pd
 

@@ -6,21 +6,21 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object whose elements, we need to test.
 
 ```
 
 **返回:**
 
-```
+```py
 True, if the input array hasn't any complex element; otherwise False 
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python program explaining
 # isrealobj() function
 import numpy as np
@@ -34,7 +34,7 @@ print ("\nIs real : ", output_value)
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 4]
 
 Is real :  True
@@ -43,7 +43,7 @@ Is real :  True
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isrealobj() method   
 import numpy as geek 
@@ -66,7 +66,7 @@ print("\nIs real : ", geek.isrealobj(b))
 
 **输出:**
 
-```
+```py
 Is real :  True
 
  class 'complex'

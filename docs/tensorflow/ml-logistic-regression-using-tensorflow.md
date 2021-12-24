@@ -12,7 +12,7 @@ Logistic 回归是机器学习中常用的分类算法。它允许通过从给�
 其中向量`w`代表权重，标量`b`代表模型的偏差。
 让我们想象一下 Sigmoid 函数–
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -36,7 +36,7 @@ plt.show()
 **实现:**
 我们将从导入必要的库开始。我们将使用 Numpy 和张量流进行计算，熊猫用于基本数据分析，Matplotlib 用于绘图。我们还将使用`Scikit-Learn`的预处理模块对数据进行一次热编码。
 
-```
+```py
 # importing modules
 import numpy as np
 import pandas as pd
@@ -47,7 +47,7 @@ from sklearn.preprocessing import OneHotEncoder
 
 接下来我们将导入[数据集](https://media.geeksforgeeks.org/wp-content/uploads/dataset.csv)。我们将使用著名的[虹膜数据集](https://www.kaggle.com/uciml/iris)的子集。
 
-```
+```py
 data = pd.read_csv('dataset.csv', header = None)
 print("Data Shape:", data.shape)
 
@@ -56,7 +56,7 @@ print(data.head())
 
 **输出:**
 
-```
+```py
 Data Shape: (100, 4)
    0    1    2  3
 0  0  5.1  3.5  1
@@ -68,7 +68,7 @@ Data Shape: (100, 4)
 
 现在让我们得到特征矩阵和相应的标签并可视化。
 
-```
+```py
 # Feature Matrix
 x_orig = data.iloc[:, 1:-1].values
 
@@ -81,14 +81,14 @@ print("Shape Label Vector:", y_orig.shape)
 
 **输出:**
 
-```
+```py
 Shape of Feature Matrix: (100, 2)
 Shape Label Vector: (100, 1)
 ```
 
 可视化给定的数据。
 
-```
+```py
 # Positive Data Points
 x_pos = np.array([x_orig[i] for i in range(len(x_orig))
                                     if y_orig[i] == 1])
@@ -115,7 +115,7 @@ plt.show()
 
 现在我们将对数据进行一次热编码，以便它与算法一起工作。一种热编码将分类特征转换成一种更适合分类和回归算法的格式。我们还将设置学习率和时代数量。
 
-```
+```py
 # Creating the One Hot Encoder
 oneHot = OneHotEncoder()
 
@@ -137,7 +137,7 @@ print('Number of Epochs =', epochs)
 
 **输出:**
 
-```
+```py
 m = 100
 n = 7
 Learning Rate = 0.0035
@@ -146,7 +146,7 @@ Number of Epochs = 500
 
 现在，我们将通过定义占位符`X`和`Y`来开始创建模型，这样我们就可以在训练过程中将训练示例`x`和`y`输入到优化器中。我们还将创建可训练变量`W`和`b`，它们可以通过梯度下降优化器进行优化。
 
-```
+```py
 # There are n columns in the feature matrix
 # after One Hot Encoding.
 X = tf.placeholder(tf.float32, [None, n])
@@ -164,7 +164,7 @@ b = tf.Variable(tf.zeros([2]))
 
 现在声明假设、代价函数、优化器和全局变量初始化器。
 
-```
+```py
 # Hypothesis
 Y_hat = tf.nn.sigmoid(tf.add(tf.matmul(X, W), b))
 
@@ -182,7 +182,7 @@ init = tf.global_variables_initializer()
 
 在张量流会话中开始训练过程。
 
-```
+```py
 # Starting the Tensorflow Session
 with tf.Session() as sess:
 
@@ -230,7 +230,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Epoch 100 Cost: 125.700202942
 Epoch 200 Cost: 120.647117615
 Epoch 300 Cost: 118.151592255
@@ -241,7 +241,7 @@ Accuracy: 91.0000026226 %
 
 让我们画出不同时期成本的变化。
 
-```
+```py
 plt.plot(list(range(epochs)), cost_history)
 plt.xlabel('Epochs')
 plt.ylabel('Cost')
@@ -254,7 +254,7 @@ plt.show()
 
 绘制各个时期准确度的变化。
 
-```
+```py
 plt.plot(list(range(epochs)), accuracy_history)
 plt.xlabel('Epochs')
 plt.ylabel('Accuracy')
@@ -267,7 +267,7 @@ plt.show()
 
 现在，我们将为训练好的分类器绘制决策边界。决策边界是一个超曲面，它将基础向量空间分成两组，每组一个。
 
-```
+```py
 # Calculating the Decision Boundary
 decision_boundary_x = np.array([np.min(x_orig[:, 0]),
                                np.max(x_orig[:, 0])])

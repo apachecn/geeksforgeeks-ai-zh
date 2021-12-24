@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 
@@ -42,7 +42,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(pd.pivot_table(df,index=["Country"]))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(pd.pivot_table(df,index=["Country","Salary"]))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 
@@ -100,7 +100,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 

@@ -19,7 +19,7 @@
 
 Windows、Linux 和 macOS 发行版都将 matplotlib 及其大部分依赖项作为轮包。运行以下命令安装 matplotlib 包:
 
-```
+```py
 python -mpip install -U matplotlib
 ```
 
@@ -31,7 +31,7 @@ python -mpip install -U matplotlib
 
 ## 计算机编程语言
 
-```
+```py
 # import libraries
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
@@ -64,7 +64,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import libraries
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
@@ -98,7 +98,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import libraries
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider

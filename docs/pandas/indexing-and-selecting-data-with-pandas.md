@@ -50,7 +50,7 @@
 
 为了选择单个列，我们只需将列名放在括号中
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(first)
 
 为了选择多个列，我们必须在索引操作符中传递一个列列表。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -93,7 +93,7 @@ first
 
 为了使用`.loc[]`选择单行，我们在`.loc`函数中放置一个单行标签。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -115,7 +115,7 @@ print(first, "\n\n\n", second)
 
 为了选择多行，我们将所有行标签放在一个列表中，并将其传递给`[.loc](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)`函数。
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -134,12 +134,12 @@ print(first)
 
 为了选择两行和三列，我们选择一个我们想要选择的两行和三列，并将其放在一个单独的列表中，如下所示:
 
-```
+```py
 Dataframe.loc[["row1", "row2"], ["column1", "column2", "column3"]]
 
 ```
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -159,12 +159,12 @@ print(first)
 
 为了选择所有的行和一些列，我们使用单冒号 **[:]** 来选择所有的行和一些列的列表，我们想要这样选择:
 
-```
+```py
 Dataframe.loc[[:, ["column1", "column2", "column3"]]
 
 ```
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -186,7 +186,7 @@ print(first)
 
 为了使用`.iloc[]`选择单行，我们可以将单个整数传递给`.iloc[]`函数。
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -205,7 +205,7 @@ print(row2)
 
 为了选择多行，我们可以将一个整数列表传递给`.iloc[]`函数。
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -224,7 +224,7 @@ row2
 
 为了选择两行两列，我们为行创建一个 2 整数列表，为列创建一个 2 整数列表，然后传递给`.iloc[]`函数。
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -243,7 +243,7 @@ print(row2)
 
 为了选择所有的行和一些列，我们使用单冒号 **[:]** 来选择所有的行，对于列，我们制作一个整数列表，然后传递给一个`.iloc[]`函数。
 
-```
+```py
 import pandas as pd
 
 # making data frame from csv file
@@ -266,7 +266,7 @@ print(row2)
 
 为了选择单行，我们在一个`.ix`函数中放置一个单行标签。这个函数的行为类似于。loc[]如果我们传递一个行标签作为函数的参数。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -287,7 +287,7 @@ print(first)
 
 为了选择单行，我们可以将单个整数传递给`.ix[]`函数。如果我们在`.ix[]`函数中传递一个整数，这个函数类似于 iloc[]函数。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

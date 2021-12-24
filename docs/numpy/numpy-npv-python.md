@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 rate  : [scalar] Rate of discount 
 value : [array_like, shape(M,)] value of 
         cash flows time series. The (fixed) time interval 
@@ -18,7 +18,7 @@ value : [array_like, shape(M,)] value of
 
 **返回:**
 
-```
+```py
 present value as per given parameters.
 
 ```
@@ -28,7 +28,7 @@ present value as per given parameters.
 
 **代码 1:工作**
 
-```
+```py
 ## Python program explaining pv() function
 import numpy as np
 
@@ -39,7 +39,7 @@ print("Net Present Value(npv) : ", a)
 
 **输出:**
 
-```
+```py
 Net Present Value(npv) :  46.5579792365
 
 ```

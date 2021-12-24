@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining 
 # rate() function 
 import numpy as np 
@@ -34,6 +34,6 @@ print("Solution= rate ", Solution) 
 
 **输出:**
 
-```
+```py
 Solution= rate  -2.024705182882783
 ```

@@ -22,7 +22,7 @@ python 中的 pandas 库提供了一套标准的时间序列工具和数据算�
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime module 
 # for getting date and time
 from datetime import datetime
@@ -40,7 +40,7 @@ datetime.now()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import datetime
 
@@ -64,7 +64,7 @@ print(a.date)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time delta module
 from datetime import timedelta
 
@@ -99,7 +99,7 @@ print(deltaresult.seconds)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

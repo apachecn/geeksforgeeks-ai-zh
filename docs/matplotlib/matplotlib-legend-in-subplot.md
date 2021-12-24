@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 axes[position].legend(loc='best')
 ```
 
@@ -24,7 +24,7 @@ axes[position].legend(loc='best')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot
 import numpy
@@ -63,7 +63,7 @@ pyplot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot
 import numpy
@@ -100,7 +100,7 @@ pyplot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot
 

@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DataFrame.plot.bar()`以矩形条的形式垂直绘制图形
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot
 
@@ -36,7 +36,7 @@ print(df)
 ![](img/7970509e65e3592500d7272912dd5696.png)
 现在我们将使用函数`DataFrame.plot.bar()`以矩形条的形式垂直绘制图形
 
-```
+```py
 # using a function df.plot.bar()
 df.plot.bar()
 ```
@@ -46,7 +46,7 @@ df.plot.bar()
 
 **示例 2:** 使用`DataFrame.plot.bar()`以矩形条的形式垂直绘制图形。
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot
 
@@ -66,7 +66,7 @@ df
 ![](img/50f472ccd1c85f53ad96b4e9bbdbd388.png)
 现在我们将使用函数`DataFrame.plot.bar()`以矩形条的形式垂直绘制图形
 
-```
+```py
 # using a function df.plot.bar()
 df.plot.bar()
 ```

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.WordPunctTokenizer()()`方法，我们能够从字母或非字母字符流中提取标记。
 
-```
+```py
 # import WordPunctTokenizer() method from nltk
 from nltk.tokenize import WordPunctTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import WordPunctTokenizer() method from nltk
 from nltk.tokenize import WordPunctTokenizer
 

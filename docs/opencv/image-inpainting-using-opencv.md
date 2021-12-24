@@ -21,7 +21,7 @@ OpenCV 实现了两种修复算法:
 
 使用`cv2.INPAINT_TELEA`可以调用 FMM，而使用`cv2.INPAINT_NS`可以调用纳维尔-斯托克斯。下面的 Python 代码使用 Navier-Stokes 修复了猫的图像。
 
-```
+```py
 import numpy as np
 import cv2
 

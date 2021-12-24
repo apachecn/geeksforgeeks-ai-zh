@@ -14,7 +14,7 @@ Pandas `**DatetimeIndex.to_pydatetime()**`函数返回 DatetimeIndex 作为 date
 
 **示例#1:** 使用`DatetimeIndex.to_pydatetime()`函数将 DatetimeIndex 转换为 datetime.datetime 对象的对象数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(didx)
 
 现在我们要将 DatetimeIndex 转换为 datetime.datetime 对象。
 
-```
+```py
 # convert to datetime.datetime objects.
 didx.to_pydatetime()
 ```
@@ -42,7 +42,7 @@ didx.to_pydatetime()
 
 **示例 2:** 使用`DatetimeIndex.to_pydatetime()`函数将 DatetimeIndex 转换为 datetime.datetime 对象的对象数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 
 现在我们要将 DatetimeIndex 转换为 datetime.datetime 对象。
 
-```
+```py
 # convert to datetime.datetime objects.
 didx.to_pydatetime()
 ```

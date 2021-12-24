@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.zeros() function
 
@@ -30,7 +30,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0\.  0\.  0\.  0.]
  [ 0\.  0\.  0\.  0.]
  [ 0\.  0\.  0\.  0.]]
@@ -39,7 +39,7 @@ Output matrix :  [[ 0\.  0\.  0\.  0.]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.zeros() function
 
@@ -54,7 +54,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[0 0 0 0 0]]
 
 ```

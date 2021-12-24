@@ -10,7 +10,7 @@
 **创建空系列:**
 可以创建的基本系列是空系列。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -22,7 +22,7 @@ print(ser)
 
 **输出:**
 
-```
+```py
 Series([], dtype: float64)
 
 ```
@@ -30,7 +30,7 @@ Series([], dtype: float64)
 **从数组创建系列:**
 为了从数组创建系列，我们必须导入一个 numpy 模块，并且必须使用 array()函数。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -51,7 +51,7 @@ print(ser)
 **用索引从数组中创建系列:**
 为了用索引从数组中创建系列，我们必须为索引提供与数组中相同数量的元素。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(ser)
 **[从 list 创建系列](https://www.geeksforgeeks.org/creating-a-pandas-series-from-lists/) :**
 为了从 list 创建系列，我们必须先创建一个 list，然后才能从 list 创建系列。
 
-```
+```py
 import pandas as pd
 
 # a simple list
@@ -90,7 +90,7 @@ print(ser)
 **[从字典创建系列](https://www.geeksforgeeks.org/creating-a-pandas-series-from-dictionary/) :**
 为了从字典创建系列，我们必须先创建一个字典，之后我们可以使用字典来制作系列。字典键用于构造索引。
 
-```
+```py
 import pandas as pd
 
 # a simple dictionary
@@ -111,7 +111,7 @@ print(ser)
 **从标量值创建系列:**
 为了从标量值创建系列，必须提供索引。标量值将被重复以匹配索引的长度。
 
-```
+```py
 import pandas as pd
 
 import numpy as np
@@ -129,7 +129,7 @@ print(ser)
 **[使用 numpy 函数创建系列](https://www.geeksforgeeks.org/create-pandas-series-using-numpy-functions/) :**
 为了使用 numpy 函数创建系列，我们可以使用不同的 NumPy 函数，如 [numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/) 、 [numpy.random.radn()](https://www.geeksforgeeks.org/numpy-random-randn-python/) 。
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd 
 import numpy as np 

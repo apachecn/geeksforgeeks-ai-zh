@@ -14,7 +14,7 @@ TensorProto 主要用于生成 numpy 数组。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -33,7 +33,7 @@ print("Result: ", res)
 
 **输出:**
 
-```
+```py
 
 Value:  tf.Tensor([ 1\. 15.], shape=(2, ), dtype=float64)
 Result:  dtype: DT_DOUBLE
@@ -50,7 +50,7 @@ tensor_content: "\000\000\000\000\000\000\360?\000\000\000\000\000\000.@"
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -69,7 +69,7 @@ print("Result: ", res)
 
 **输出:**
 
-```
+```py
 
 Value:  [1, 2, 3, 4]
 Result:  dtype: DT_INT32

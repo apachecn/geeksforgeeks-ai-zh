@@ -26,7 +26,7 @@ matplotlib 库的 **suptitle()方法**图形模块用于给图形添加居中的
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,7 +51,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

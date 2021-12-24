@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn as sns
 
@@ -29,7 +29,7 @@ fmri = sns.load_dataset("fmri")
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting lineplot for signal with respect to timepoint
 # using relplot, kind = "line"
 # code added by devanshigupta1304
@@ -46,7 +46,7 @@ sns.lineplot( x = "timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 sns.lineplot( x = "timepoint",
              y = "signal",
              hue = "region",

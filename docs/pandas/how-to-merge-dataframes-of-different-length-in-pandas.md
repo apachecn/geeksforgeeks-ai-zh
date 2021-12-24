@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 
 import pandas as pd
@@ -70,7 +70,7 @@ display(mergedf)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

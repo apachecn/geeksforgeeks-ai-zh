@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
@@ -34,7 +34,7 @@ gs = GridSpec(4, 4, figure=fig)
 
 ## 蟒蛇 3
 
-```
+```py
 # explictit function to hide index
 # of subplots in the figure
 def formatAxes(fig):
@@ -77,7 +77,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # explictit function to hide index
 # of sub plots in the figure
 def formatAxes(fig):
@@ -120,7 +120,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
@@ -153,7 +153,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
@@ -181,7 +181,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt

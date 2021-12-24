@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_path_effects()方法**用于获取 s
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 
@@ -53,7 +53,7 @@ plt.show()
 
 ![python-matplotlib-get-path-effects1](img/8b044487791c28a63b11ce10ec5276c9.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.PathPatchEffect object at 0x0AAAB890>
@@ -63,7 +63,7 @@ Value Return by get_path_effects() :
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 
@@ -111,7 +111,7 @@ plt.show()
 
 ![python-matplotlib-get-path-effects-2](img/20585636ad2e8a5543f3fdb85dfd1f90.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.withStroke object at 0x0A66DBD0>

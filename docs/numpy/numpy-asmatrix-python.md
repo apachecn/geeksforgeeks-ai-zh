@@ -5,18 +5,18 @@
 通过将输入解释为矩阵来返回矩阵。
 **参数:**
 
-```
+```py
 data  : array-like input data 
 dtype : Data type of returned array
 ```
 
 **返回:**
 
-```
+```py
 Interprets the input as a matrix
 ```
 
-```
+```py
 # Python Programming illustrating
 # numpy.asmatrix
 
@@ -33,7 +33,7 @@ print("c matrix : \n", c)
 
 **输出:**
 
-```
+```py
 Via array-like input : 
  [[[5, 6, 7] [4, 6]]] 
 

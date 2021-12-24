@@ -22,7 +22,7 @@ Pandas cut()函数用于将数组元素分成不同的容器。cut 函数主要�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -43,7 +43,7 @@ print(df['bins'].unique())
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

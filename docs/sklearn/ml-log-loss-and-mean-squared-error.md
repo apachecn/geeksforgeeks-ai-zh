@@ -7,7 +7,7 @@
 它是检验分类模型性能的评价尺度。它测量预测概率与实际标签的偏离量。所以对数损失值越小，模型越完善。对于完美模型，对数损失值= 0。例如，由于准确性是正确预测的计数，即与实际标签相匹配的预测，因此对数损失值是根据预测标签与实际标签的差异来衡量预测标签的不确定性。
 ![](img/ec13386ea1c0235ca686da84741a6497.png)
 
-```
+```py
 where, 
 N  : no. of samples.
 M  : no. of attributes.
@@ -20,7 +20,7 @@ p<sub>ij</sub> : indicates probability of ith sample belonging to jth class.
 
 **Implementation of LogLoss using sklearn**
 
-```
+```py
 from sklearn.metrics import log_loss:
 
 LogLoss = log_loss(y_true, y_pred, eps = 1e-15,
@@ -34,7 +34,7 @@ LogLoss = log_loss(y_true, y_pred, eps = 1e-15,
 
 **使用 sklearn 实现均方误差**
 
-```
+```py
 from sklearn.metrics import mean_squared_error
 
 MSE = mean_squared_error(y_true, y_pred)

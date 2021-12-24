@@ -11,7 +11,7 @@
 3.  使用参数`frac`为 1 的`sample()`方法对数据帧的行进行洗牌，它确定需要返回的实例总数的比例。
 4.  打印原稿和混洗的数据帧。
 
-```
+```py
 # import the modules
 import pandas as pd
 import numpy as np

@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -29,7 +29,7 @@ print("Simplified Expression : {}".format(simple_expr))  
 
 **输出:**
 
-```
+```py
 Expression = factorial(n)/factorial(n - 3)
 Simplified Expression : n*(n - 2)*(n - 1)
 
@@ -37,7 +37,7 @@ Simplified Expression : n*(n - 2)*(n - 1)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -53,7 +53,7 @@ print("Simplified Expression : {}".format(simple_expr))  
 
 **输出:**
 
-```
+```py
 Expression = binomial(n+1, k+1)/binomial(n, k)
 Simplified Expression : (n + 1)/(k + 1)
 

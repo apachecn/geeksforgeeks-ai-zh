@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.quantile()`函数返回给定序列对象中基础数据的期望分位数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.quantile()`函数找到给定序列对象中底层数据的 40%分位数。
 
-```
+```py
 # return the value of 40 % quantile
 result = sr.quantile(q = 0.4)
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例#2:** 使用`Series.quantile()`函数返回给定序列对象中基础数据的期望分位数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们将使用`Series.quantile()`函数找到给定序列对象中底层数据的 90%分位数。
 
-```
+```py
 # return the value of 90 % quantile
 result = sr.quantile(q = 0.9)
 

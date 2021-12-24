@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.iteritems()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.iteritems()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # iterate over all the elements
 for items in sr.iteritems():
     print(items)
@@ -50,7 +50,7 @@ for items in sr.iteritems():
 
 **示例 2 :** 使用`Series.iteritems()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.iteritems()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # iterate over all the elements
 for items in sr.iteritems():
     print(items)

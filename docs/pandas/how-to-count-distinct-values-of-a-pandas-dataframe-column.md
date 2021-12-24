@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import pandas as pd
 
@@ -62,7 +62,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # import library
 import pandas as pd
 
@@ -109,7 +109,7 @@ print("unique values :",
 
 ****输出:****
 
-```
+```py
 No.of.unique values : 5
 unique values : [165, 164, 158, 167, 160] 
 ```
@@ -130,7 +130,7 @@ unique values : [165, 164, 158, 167, 160]
 
 ## **蟒蛇 3**
 
-```
+```py
 # import library
 import pandas as pd
 
@@ -161,7 +161,7 @@ print("No.of.unique values :", 
 
 ****输出:****
 
-```
+```py
 No.of.unique values : 5 
 ```
 
@@ -175,7 +175,7 @@ No.of.unique values : 5
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import library
 import pandas as pd
 
@@ -207,7 +207,7 @@ print("No.of.unique values in each column :\n",
 
 ******输出:******
 
-```
+```py
 **No.of.unique values in each column :
 height    5
 weight    4
@@ -223,7 +223,7 @@ dtype: int64**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import library
 import pandas as pd
 
@@ -255,7 +255,7 @@ print("No.of.unique values in height column :",
 
 ******输出:******
 
-```
+```py
 **No.of.unique values in height column : 5** 
 ```
 
@@ -269,7 +269,7 @@ print("No.of.unique values in height column :",
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import library
 import pandas as pd
 
@@ -301,6 +301,6 @@ print("No.of.unique values :",
 
 ******输出:******
 
-```
+```py
 **No.of.unique values : 5** 
 ```

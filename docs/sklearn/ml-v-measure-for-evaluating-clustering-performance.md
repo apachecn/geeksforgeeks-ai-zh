@@ -65,7 +65,7 @@ V-测度的计算首先需要计算两个项:-
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -74,7 +74,7 @@ from sklearn.metrics import v_measure_score
 
 **第二步:加载和清理数据**
 
-```
+```py
 # Changing the working location to the location of the file
 cd C:\Users\Dev\Desktop\Kaggle\Credit Card Fraud
 
@@ -94,7 +94,7 @@ X.head()
 
 在这一步中，将建立 5 个不同的 K-Means 聚类模型，每个模型将数据聚类成不同数量的聚类。
 
-```
+```py
 # List of V-Measure Scores for different models
 v_scores = []
 
@@ -104,7 +104,7 @@ N_Clusters = [2, 3, 4, 5, 6]
 
 a) **n_clusters = 2**
 
-```
+```py
 # Building the clustering model
 kmeans2 = KMeans(n_clusters = 2)
 
@@ -120,7 +120,7 @@ v_scores.append(v_measure_score(y, labels2))
 
 b) **n_clusters = 3**
 
-```
+```py
 # Building the clustering model
 kmeans3 = KMeans(n_clusters = 3)
 
@@ -136,7 +136,7 @@ v_scores.append(v_measure_score(y, labels3))
 
 c) **n_clusters = 4**
 
-```
+```py
 # Building the clustering model
 kmeans4 = KMeans(n_clusters = 4)
 
@@ -152,7 +152,7 @@ v_scores.append(v_measure_score(y, labels4))
 
 d) **n_clusters = 5**
 
-```
+```py
 # Building the clustering model
 kmeans5 = KMeans(n_clusters = 5)
 
@@ -168,7 +168,7 @@ v_scores.append(v_measure_score(y, labels5))
 
 e) **n_clusters = 6**
 
-```
+```py
 # Building the clustering model
 kmeans6 = KMeans(n_clusters = 6)
 
@@ -184,7 +184,7 @@ v_scores.append(v_measure_score(y, labels6))
 
 **第四步:可视化结果并比较性能**
 
-```
+```py
 # Plotting a Bar Graph to compare the models
 plt.bar(N_Clusters, v_scores)
 plt.xlabel('Number of Clusters')

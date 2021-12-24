@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.onOffset()`功能检查对于给定的日期偏移量，过去的日期是否为“开”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将检查给定的日期偏移量是否是给定日期的开偏移量。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -66,7 +66,7 @@ print(do.onOffset())
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.onOffset()`功能检查对于给定的日期偏移量，过去的日期是否为“开”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将检查给定的日期偏移量是否是给定日期的开偏移量。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 All Sundays in 2020:
 0    2020-01-05
 1    2020-01-12

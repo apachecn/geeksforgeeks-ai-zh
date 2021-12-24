@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`rdiv()`函数以数据帧元素的方式划分一个系列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ df
 
 让我们创建一个系列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ sr
 
 让我们使用`dataframe.rdiv()`函数用一个数据帧来划分序列
 
-```
+```py
 # perform division of series with 
 # dataframe element-wise over the column axis
 df.rdiv(sr, axis = 1)
@@ -63,7 +63,7 @@ df.rdiv(sr, axis = 1)
 
 **示例 2:** 使用`rdiv()`函数将一个数据帧与另一个包含`NaN`值的数据帧相除。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

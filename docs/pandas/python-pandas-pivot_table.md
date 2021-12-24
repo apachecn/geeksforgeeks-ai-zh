@@ -26,7 +26,7 @@
 
 代码:
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd
@@ -43,7 +43,7 @@ df
 
 ![](img/218dd9e0594c782da721d47d52a5d65c.png)
 
-```
+```py
 # Simplest pivot table must have a dataframe
 # and an index/list of index.
 table = pd.pivot_table(df, index =['A', 'B'])
@@ -53,7 +53,7 @@ table
 
 ![](img/45ef5dfad5bbf05475ead60df052af60.png)
 
-```
+```py
 # Creates a pivot table dataframe
 table = pd.pivot_table(df, values ='A', index =['B', 'C'],
                          columns =['B'], aggfunc = np.sum)

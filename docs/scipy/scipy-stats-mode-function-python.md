@@ -7,7 +7,7 @@
  **其公式–**
 ![](img/6813cfcf26256d2b2299d2264d9bb4e8.png)
 
-```
+```py
 where,
 l : Lower Boundary of modal class
 h : Size of modal class
@@ -24,7 +24,7 @@ f<sub>2</sub> : Frequency proceeding to modal class
 
 **代码#1:**
 
-```
+```py
 # Arithmetic mode  
 from scipy import stats
 import numpy as np 
@@ -37,14 +37,14 @@ print("Arithmetic mode is : \n", stats.mode(arr1)) 
 
 **输出:**
 
-```
+```py
 Arithmetic mode is : 
  ModeResult(mode=array([[1, 3, 8, 4, 7, 9]]), count=array([[1, 1, 1, 1, 1, 1]]))
 ```
 
 **代码#2:** 有多维数据
 
-```
+```py
 # Arithmetic mode 
 from scipy import stats
 import numpy as np 
@@ -65,7 +65,7 @@ print("\nArithmetic mode is : \n", stats.mode(arr1, axis = 1)) 
 
 **输出:**
 
-```
+```py
 Arithmetic mode is : 
  ModeResult(mode=array([[3, 6, 3]]), count=array([[2, 2, 1]]))
 

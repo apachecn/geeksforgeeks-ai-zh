@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.fillna()`函数填充给定时间增量索引对象中所有缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.fillna()`函数来填充 tidx 对象中所有缺失的值。
 
-```
+```py
 # fill the missing values
 tidx.fillna('10 days')
 ```
@@ -45,7 +45,7 @@ tidx.fillna('10 days')
 
 **示例 2:** 使用`TimedeltaIndex.fillna()`函数填充给定时间增量索引对象中所有缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.fillna()`函数来填充 tidx 对象中所有缺失的值。
 
-```
+```py
 # fill the missing values
 tidx.fillna('2 days 10:50')
 ```

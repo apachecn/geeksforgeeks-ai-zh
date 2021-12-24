@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermgauss()`方法，我们能够利用这个方法得到高斯埃尔米特的求积。
 
-```
+```py
 # import numpy and hermgauss
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermgauss
 import numpy as np
 

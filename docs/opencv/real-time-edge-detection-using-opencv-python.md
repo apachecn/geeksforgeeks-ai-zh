@@ -12,7 +12,7 @@
 **实施
 T2】**
 
-```
+```py
 # OpenCV program to perform Edge detection in real time
 # import libraries of python OpenCV 
 # where its functionality resides

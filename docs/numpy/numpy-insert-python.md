@@ -5,13 +5,13 @@
 **numpy.insert()** 函数在给定的索引前沿上述轴插入值。
 **语法:**
 
-```
+```py
 numpy.insert(array, object, values, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array   : [array_like]Input array. 
 object  : [int, array of ints]Sub-array with the index or indices before 
      which values is inserted
@@ -25,14 +25,14 @@ axis    : Axis along which we want to insert the values. By default, it
 
 **返回:**
 
-```
+```py
 An copy of array with values being inserted as per the mentioned object along a given axis. 
 
 ```
 
 **代码 1:从 1D 阵列中删除**
 
-```
+```py
 # Python Program illustrating
 # numpy.insert()
 
@@ -62,7 +62,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 1D arr : 
  [0 1 2 3 4]
 Shape :  (5,)
@@ -86,7 +86,7 @@ Shape :  (3, 5)
 
 **代码 2:使用标量**
 
-```
+```py
 # Python Program illustrating
 # numpy.insert()
 
@@ -110,7 +110,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 2D arr : 
  [[ 0  1  2  3]
  [ 4  5  6  7]
@@ -135,7 +135,7 @@ Shape :  (3, 5)
 
 **代码 3:不同点插入**
 
-```
+```py
 # Python Program illustrating
 # numpy.insert()
 
@@ -164,7 +164,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 1D arr : 
  [[0 1 2]
  [3 4 5]]

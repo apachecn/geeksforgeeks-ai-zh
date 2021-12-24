@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import binomial_coefficients_list() method from sympy
 from sympy.ntheory import binomial_coefficients_list
 
@@ -27,14 +27,14 @@ print("{}th row of Pascal's Triangle = {} ".format(n, binomial_coefficients_list
 
 **输出:**
 
-```
+```py
 6th row of Pascal's Triangle = [1, 6, 15, 20, 15, 6, 1] 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import binomial_coefficients_list() method from sympy
 from sympy.ntheory import binomial_coefficients_list
 
@@ -48,7 +48,7 @@ print("{}th row of Pascal's Triangle = {} ".format(n, binomial_coefficients_list
 
 **输出:**
 
-```
+```py
 9th row of Pascal's Triangle = [1, 9, 36, 84, 126, 126, 84, 36, 9, 1]  
 
 ```

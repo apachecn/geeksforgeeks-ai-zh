@@ -29,11 +29,11 @@
 
 考虑给定的数据点。以下是 20 个不同的人每周在极客博客门户网站上花费的时间(以小时为单位)。
 
-```
+```py
 15, 25, 18, 36, 40, 28, 30, 32, 23, 22, 21, 27, 31, 20, 14, 10, 33, 11, 7, 13
 ```
 
-```
+```py
 # data points
 time = [15, 25, 18, 36, 40, 28, 30, 32, 23, 22, 
         21, 27, 31, 20, 14, 10, 33, 11, 7, 13]
@@ -61,7 +61,7 @@ moment = (sum([(item-A) for item in time]))/len(time)
 
 **Python 中的原始时刻–**
 
-```
+```py
 # data points
 time = [15, 25, 18, 36, 40, 28, 30, 32, 23,
        22, 21, 27, 31, 20, 14, 10, 33, 11, 7, 13]
@@ -85,7 +85,7 @@ moment = sum(time)/len(time)
 > **- >** 我们用 1 代替 r 就可以找到第一个原始矩(![\mu_1](img/ff897729479644ae3d7509319cde01da.png "Rendered by QuickLaTeX.com"))，用 2 代替 r 就可以找到第二个原始矩(![\mu_2](img/bd9f0bd95fc90a90a59835dd6f0e59a6.png "Rendered by QuickLaTeX.com"))以此类推。
 > **- >** 当 r = 0 时的时刻![\mu_0 = 1](img/aae8a1a445c63ae79b1702c288cbe5c5.png "Rendered by QuickLaTeX.com")，以及当 r = 1 时的时刻![\mu_1 = 0](img/a92d745a19560d1895415b36f76719e6.png "Rendered by QuickLaTeX.com")对于分组和未分组的数据。
 
-```
+```py
 # data points
 time = [15, 25, 18, 36, 40, 28, 30, 32, 23, 22,
        21, 27, 31, 20, 14, 10, 33, 11, 7, 13]

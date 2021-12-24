@@ -9,7 +9,7 @@
 *”操作在数组元素上执行逐元素乘法。a[i][j]处的元素乘以 b[i][j]。这发生在数组的所有元素上。
 **例:**
 
-```
+```py
 Let the two 2D array are v1 and v2:-
 v1 = [[1, 2], [3, 4]]
 v2 = [[1, 2], [3, 4]]
@@ -27,7 +27,7 @@ From below picture it would be clear.
 它带有正规矩阵乘法。如果第一个数组的列数应等于第二个数组的行数，则只检查 numpy.dot()函数，否则会显示错误。
 **例:**
 
-```
+```py
 Let the two 2D array are v1 and v2:-
 v1=[[1, 2], [3, 4]]
 v2=[[1, 2], [3, 4]]
@@ -40,7 +40,7 @@ Than numpy.dot(v1, v2)  gives output of :-
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # vector v1 of dimension (2, 2)
@@ -56,7 +56,7 @@ print("\nElementwise multiplication of two vector")
 print(v1 * v2)
 ```
 
-```
+```py
 Output :
 vector multiplication
 [[3 6]
@@ -71,7 +71,7 @@ Elementwise multiplication of two vector
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 v1 = np.array([[1, 2, 3], [1, 2, 3], [1, 2, 3]])
@@ -85,7 +85,7 @@ print("\nElementwise multiplication of two vector")
 print(v1 * v2)
 ```
 
-```
+```py
 Output :
 vector multiplication
 [[ 6 12 18]

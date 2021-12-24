@@ -31,7 +31,7 @@ matplotlib 库的 Axes 模块中的 **Axes.hexbin()函数**用于制作点 x，y
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

@@ -18,7 +18,7 @@
 
 **使用熊猫[数据框](https://www.geeksforgeeks.org/python-pandas-dataframe/)绘制箱线图的一种方法是使用熊猫库的`boxplot()`功能。**
 
-```
+```py
 # import the required library 
 import numpy as np 
 import pandas as pd 
@@ -36,7 +36,7 @@ df.head()   
 
 **`days` 相对于`total_bill`的箱线图。**
 
-```
+```py
 df.boxplot(by ='day', column =['total_bill'], grid = False)
 ```
 
@@ -44,7 +44,7 @@ df.boxplot(by ='day', column =['total_bill'], grid = False)
 
 同敬`size` `tip`的箱型地块。**
 
-```
+```py
 df.boxplot(by ='size', column =['tip'], grid = False)
 ```
 
@@ -66,7 +66,7 @@ df.boxplot(by ='size', column =['tip'], grid = False)
 
 **关于“提示”数据集的信息。**
 
-```
+```py
 # load the dataset
 tips = sns.load_dataset('tips')
 
@@ -77,7 +77,7 @@ tips.head()
 
 **`days` 相对于`total_bill`的箱线图。**
 
-```
+```py
 # Draw a vertical boxplot grouped 
 # by a categorical variable:
 sns.set_style("whitegrid")

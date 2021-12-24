@@ -11,7 +11,7 @@
 
 **代码#1:定义动词修正映射**
 
-```
+```py
 # singular to plural mapping
 
 plural_verb_forms = {
@@ -30,7 +30,7 @@ singular_verb_forms = {
 
 **代码#2 : first_chunk_index()**
 
-```
+```py
 def first_chunk_index(chunk, pred, start = 0, step = 1):
 
     l = len(chunk)
@@ -47,7 +47,7 @@ def first_chunk_index(chunk, pred, start = 0, step = 1):
 
 **代码#3 :**
 
-```
+```py
 def tag_startswith(prefix):
     def f(wt):
         return wt[1].startswith(prefix)
@@ -56,7 +56,7 @@ def tag_startswith(prefix):
 
 **代码#4:让我们纠正动词形式**
 
-```
+```py
 from transforms import correct_verbs
 
 print ("Corrected verb forms : \n", 
@@ -66,7 +66,7 @@ print ("Corrected verb forms : \n", 
 
 **输出:**
 
-```
+```py
 Corrected verb forms : 
 [('are', 'VBP'), ('our', 'PRP{content}apos;), ('children', 'NNS'), ('learning',
 'VBG')]

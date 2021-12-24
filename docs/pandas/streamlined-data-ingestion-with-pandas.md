@@ -50,7 +50,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import the Pandas library
 import pandas
 
@@ -88,7 +88,7 @@ print(dfIndianMetros)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the Pandas library
 import pandas
 
@@ -126,7 +126,7 @@ print(dfBakery)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the Pandas library
 import pandas
 
@@ -165,7 +165,7 @@ print(dfCodeCountry)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required library
 import pandas
 
@@ -202,7 +202,7 @@ dataframe 对象中的剪贴板数据
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -259,7 +259,7 @@ dataframe 对象中的剪贴板数据
 
 ## 计算机编程语言
 
-```
+```py
 # Import the Pandas library
 import pandas
 
@@ -363,7 +363,7 @@ print(dfHtml)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 import sqlite3
 import pandas

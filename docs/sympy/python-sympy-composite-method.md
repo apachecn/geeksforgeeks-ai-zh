@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import composite
 
@@ -27,14 +27,14 @@ print("The {}th composite is {}".format(n, nth_composite))  
 
 **输出:**
 
-```
+```py
 The 5th composite is 10
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import composite
 
@@ -48,7 +48,7 @@ print("The {}th composite is {}".format(n, nth_composite))          
 
 **输出:**
 
-```
+```py
 The 25th composite is 38
 
 ```

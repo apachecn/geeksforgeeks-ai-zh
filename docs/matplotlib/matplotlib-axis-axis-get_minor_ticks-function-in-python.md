@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minor_ticks()函数**用于获取
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/b719957829af43d3f7526cedb5c3b519.png)
 
-```
+```py
 Value of get_minor_ticks() :
 <matplotlib.axis.YTick object at 0x0A770DB0>
 <matplotlib.axis.YTick object at 0x07E09DF0>
@@ -63,7 +63,7 @@ Value of get_minor_ticks() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -92,7 +92,7 @@ plt.show()
 
 ![](img/417a9fbf8d24d86a5d231d5e06c57cec.png)
 
-```
+```py
 Value of get_minor_ticks() :
 <matplotlib.axis.XTick object at 0x0AD502F0>
 <matplotlib.axis.XTick object at 0x083D9850>

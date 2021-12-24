@@ -19,7 +19,7 @@ KNN 算法假设相似的东西存在于非常接近的地方。换句话说，�
 
 **Import Libraries:**
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -32,7 +32,7 @@ import numpy as np
 
 将 index_col=0 设置为使用第一列作为索引。
 
-```
+```py
 df = pd.read_csv("Data", index_col = 0)
 
 df.head()
@@ -44,7 +44,7 @@ df.head()
 **标准化变量:**
 因为 KNN 分类器通过识别最接近的观测值来预测给定测试观测值的类别，所以变量的规模很重要。任何大规模的变量都会比小规模的变量对观测值之间的距离产生更大的影响，从而对 KNN 分类器产生更大的影响。
 
-```
+```py
 from sklearn.preprocessing import StandardScaler
 
 scaler = StandardScaler()
@@ -61,7 +61,7 @@ df_feat.head()
 
 **列车测试从 sklearn 库中拆分数据并使用 KNN 模型:**
 
-```
+```py
 from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(
@@ -89,7 +89,7 @@ print(classification_report(y_test, pred))
 
 **输出:**
 
-```
+```py
 [[133  16]
  [ 15 136]]
 
@@ -108,7 +108,7 @@ weighted avg       0.90      0.90      0.90       300
 
 让我们继续使用手肘法来选择一个好的 *K* 值
 
-```
+```py
 error_rate = []
 
 # Will take some time
@@ -134,7 +134,7 @@ plt.ylabel('Error Rate')
 
 在这里，我们可以看到，大致在 K>15 之后，错误率倾向于在 0.07-0.08 之间徘徊。让我们用它来重新训练模型，并检查分类报告。
 
-```
+```py
 # FIRST A QUICK COMPARISON TO OUR ORIGINAL K = 1
 knn = KNeighborsClassifier(n_neighbors = 1)
 
@@ -162,7 +162,7 @@ print(classification_report(y_test, pred))
 
 **输出:**
 
-```
+```py
 WITH K=1
 
 [[133  16]

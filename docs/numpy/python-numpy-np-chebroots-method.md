@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.chebroots()`方法，我们能够用这个方法得到切比雪夫级数的根。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb

@@ -8,7 +8,7 @@
 
 **代码#1:** 我们可以使用`DataFrame.replace()`功能来实现这个任务。让我们看看如何做到这一点。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -26,7 +26,7 @@ print(df)
 
 现在，我们将通过它们各自的代码重新映射“事件”列的值。
 
-```
+```py
 # Create a dictionary using which we
 # will remap the values
 dict = {'Music' : 'M', 'Poetry' : 'P', 'Theatre' : 'T', 'Comedy' : 'C'}
@@ -44,7 +44,7 @@ df.replace({"Event": dict})
 
 **代码#2:** 我们可以使用`map()`功能来实现这个任务。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(df)
 
 现在，我们将通过它们各自的代码重新映射“事件”列的值。
 
-```
+```py
 # Create a dictionary using which we
 # will remap the values
 dict = {'Music' : 'M', 'Poetry' : 'P', 'Theatre' : 'T', 'Comedy' : 'C'}

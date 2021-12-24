@@ -17,7 +17,7 @@ Pandas `**DatetimeIndex.tz_localize()**`函数将 tz-naive DatetimeIndex 本地�
 
 **示例#1:** 使用`DatetimeIndex.tz_localize()`函数将幼稚的 DatetimeIndex 对象转换为具有时区感知的对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(didx)
 
 现在，我们希望将天真的日期时间索引对象转换为时区感知对象
 
-```
+```py
 # make timezone aware
 didx.tz_localize(tz ='Europe/Berlin')
 ```
@@ -45,7 +45,7 @@ didx.tz_localize(tz ='Europe/Berlin')
 
 **示例#2:** 使用`DatetimeIndex.tz_localize()`函数将幼稚的 DatetimeIndex 对象转换为具有时区意识的对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(didx)
 
 现在，我们希望将天真的日期时间索引对象转换为时区感知对象
 
-```
+```py
 # make timezone aware
 didx.tz_localize(tz ='US/Eastern')
 ```

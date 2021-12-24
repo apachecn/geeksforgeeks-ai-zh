@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 dept, name
 10, Vivek|John
@@ -29,7 +29,7 @@ dept, name
 
 **方法一:**蟒道
 
-```
+```py
 # Reading Data From the text
 # file
 data = pd.read_csv(r'GFG.txt')
@@ -83,7 +83,7 @@ final_df.sort_values('dept')
 
 **方法二:**探索熊猫
 
-```
+```py
 emp_df = pd.read_csv(r'GFG.txt')
 
 # split column data on basis of seperator
@@ -105,7 +105,7 @@ emp_df1
 
 **方法三:**熊猫方式:爆炸()
 
-```
+```py
 df = pd.read_csv(r'GFG.txt')
 
 # seperate values using split()

@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.contains()`功能检查给定日期是否出现在索引中。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ idx
 
 让我们检查一下“2016-02-08”是否出现在索引中。
 
-```
+```py
 # Check if input date in present or not.
 idx.contains('2016-02-08')
 ```
@@ -43,7 +43,7 @@ idx.contains('2016-02-08')
 
 **示例 2:** 使用`Index.contains()`功能检查索引中是否存在输入月份。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ idx
 
 让我们检查一下“五月”是否出现在索引中
 
-```
+```py
 # to check if the input month is
 # part of the Index or not.
 idx.contains('May')

@@ -14,7 +14,7 @@ cla()、clf()和 close()是 Matplotlib 的不同方法/函数。它们之间的�
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.cla()
 ```
 
@@ -22,7 +22,7 @@ matplotlib.pyplot.cla()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -56,7 +56,7 @@ plt.show()
 
 ****语法:****
 
-```
+```py
 matplotlib.pyplot.clf()
 ```
 
@@ -64,7 +64,7 @@ matplotlib.pyplot.clf()
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -99,7 +99,7 @@ clf()函数清除了整个图形，只剩下空格。**
 
 ****语法:****
 
-```
+```py
 matplotlib.pyplot.close()
 ```
 
@@ -107,7 +107,7 @@ matplotlib.pyplot.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

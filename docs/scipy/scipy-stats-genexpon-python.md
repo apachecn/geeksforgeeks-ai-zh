@@ -17,7 +17,7 @@
 
 **代码#1:创建广义指数连续随机变量**
 
-```
+```py
 from scipy.stats import genexpon 
 
 numargs = genexpon .numargs
@@ -29,7 +29,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000018D57997F60>
 
@@ -37,7 +37,7 @@ RV :
 
 **代码#2:广义指数随机变量。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -48,7 +48,7 @@ print ("Random Variates : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.74505484 2.02790441 2.06823675 3.96275674 1.24274054 3.71331036
  0.53957521 0.37359838 2.53934153 2.36254065]
@@ -60,7 +60,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -72,7 +72,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -89,7 +89,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

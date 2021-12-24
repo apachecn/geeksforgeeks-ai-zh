@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1 :** 使用`Series.squeeze()`函数将给定序列的单个元素压缩为标量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 让我们变换级数，使它只包含那些能被 13 整除的元素。
 
-```
+```py
 # Keep only those elements which are divisible by 13
 sr_temp = sr[sr % 13 == 0]
 
@@ -48,7 +48,7 @@ print(sr_temp)
 
 现在我们将使用`Series.squeeze()`函数将给定的级数对象简化为标量。
 
-```
+```py
 # squeeze the series to scalar
 sr_temp.squeeze()
 ```
@@ -59,7 +59,7 @@ sr_temp.squeeze()
 
 **例 2 :** 使用`Series.squeeze()`功能挤压给定的序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.std()`函数来挤压给定的序列对象。
 
-```
+```py
 # squeeze the series to scalar
 sr_temp.squeeze()
 ```

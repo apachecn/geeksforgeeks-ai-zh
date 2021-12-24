@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program explaining
 # arctan2() function
 
@@ -40,7 +40,7 @@ print ("\narctan2 values : \n", ans)
 
 **输出:**
 
-```
+```py
 x-coordinates :  [-1, 1, 1, -1]
 y-coordinates :  [-1, -1, 1, 1]
 
@@ -52,7 +52,7 @@ arctan2 values :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program showing
 # of arctan2() function
 
@@ -69,7 +69,7 @@ print ("b : ", b)
 
 **输出:**
 
-```
+```py
 a :  [ 0\.          3.14159265  0.78539816]
 b :  [ 1.57079633 -1.57079633]
 ```

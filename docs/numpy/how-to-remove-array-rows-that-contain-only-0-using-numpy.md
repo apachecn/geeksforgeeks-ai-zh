@@ -6,7 +6,7 @@ Numpy 库提供了一个名为 [**numpy.all()**](https://www.geeksforgeeks.org/n
 
 **示例:**
 
-```
+```py
 data=[[1,2,3]
       [0,0,0]
       [9,8,7]]
@@ -25,7 +25,7 @@ data=[[1,2,3]
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 # take data
 data = np.array([[1, 2, 3], [0, 0, 0], [4, 5, 6],
@@ -58,7 +58,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 # take random data
 

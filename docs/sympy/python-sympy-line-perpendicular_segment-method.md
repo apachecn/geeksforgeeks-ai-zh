@@ -4,7 +4,7 @@
 
 In Sympy, the function `perpendicular_segment()` is used to create a perpendicular line segment from a given point to the given line.The endpoints of the segment are p and theclosest point in the line containing self.
 
-```
+```py
 Syntax: Line.perpendicular_segment(p)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -32,13 +32,13 @@ print(perpendicularSegment)
 
 **输出:**
 
-```
+```py
 Segment2D(Point2D(0, 2), Point2D(1, 1))
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point3D, Line3D
 from sympy import Point3D, Line3D
 
@@ -55,6 +55,6 @@ print(perpendicularSegment)
 
 **输出:**
 
-```
+```py
 Segment3D(Point3D(0, 2, 0), Point3D(2/3, 2/3, 2/3))
 ```

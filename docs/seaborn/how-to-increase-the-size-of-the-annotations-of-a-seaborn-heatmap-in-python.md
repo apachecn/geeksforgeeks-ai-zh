@@ -45,7 +45,7 @@ Seaborn 是一个基于 matplotlib 的 Python 库，用于数据可视化。它�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np
@@ -71,7 +71,7 @@ mtb.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np

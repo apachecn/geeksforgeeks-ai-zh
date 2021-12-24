@@ -20,7 +20,7 @@ Info()方法返回数据帧的摘要。
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv(data.csv)
@@ -41,7 +41,7 @@ df.info(memory_usage="deep")
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv(data.csv)
@@ -66,7 +66,7 @@ df.memory_usage()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 df = pd.read_csv('data.csv')
 
@@ -79,7 +79,7 @@ df['price'].memory_usage()
 
 **输出:**
 
-```
+```py
 173032
 43354
 ```
@@ -92,7 +92,7 @@ df['price'].memory_usage()
 
 ## 蟒蛇 3
 
-```
+```py
 df.info(verbose = False, memory_usage = 'deep')
 df = df[['price', 'sqft_living]]
 df.info(verbose = False, memory_usage = 'deep')
@@ -100,7 +100,7 @@ df.info(verbose = False, memory_usage = 'deep')
 
 **输出:**
 
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 21613 entries, 0 to 21612
 Columns: 22 entries, Unnamed: 0 to sqft_lot15
@@ -108,7 +108,7 @@ dtypes: float16(1), float64(5), int64(15), object(1)
 memory usage: 4.8 MB
 ```
 
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 21613 entries, 0 to 21612
 Columns: 2 entries, price to sqft_living
@@ -124,7 +124,7 @@ memory usage: 211.2 KB
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import pandas as pd
 import numpy
@@ -146,7 +146,7 @@ del df["Unnamed: 0"]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import pandas
 import numpy
@@ -169,7 +169,7 @@ df['bedrooms'].memory_usage()
 
 **输出:**
 
-```
+```py
 314640
 173032
 ```
@@ -188,7 +188,7 @@ df['bedrooms'].memory_usage()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the mmodule
 import pandas
 

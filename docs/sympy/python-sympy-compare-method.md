@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.compare()`方法，我们能够比较变量并返回 3 个值，即-1 表示较小，0 表示相等，1 表示较大。
 
-```
+```py
 # import sympy
 from sympy import *
 x, y = symbols('x y')
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 x, y = symbols('x y')
@@ -44,7 +44,7 @@ print(gfg)
 
 **示例#3 :**
 
-```
+```py
 # import sympy
 from sympy import *
 x, y = symbols('x y')

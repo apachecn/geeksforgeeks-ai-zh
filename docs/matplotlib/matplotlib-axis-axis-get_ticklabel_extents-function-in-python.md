@@ -23,7 +23,7 @@ matplotlib 库的轴模块中的**axis . get _ tick label _ extensions()函数**
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -59,7 +59,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermadd()`方法，我们能够通过使用这个方法得到两个 hermite 级数的加法。
 
-```
+```py
 # import numpy and hermadd
 import numpy as np
 from numpy.polynomial.hermite import hermadd
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermadd
 import numpy as np
 from numpy.polynomial.hermite import hermadd

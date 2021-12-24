@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessDay.isAnchored()`功能检查给定的工作日偏移对象是否锚定。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。我们还将检查给定的工作日偏移对象是否锚定。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 
@@ -66,7 +66,7 @@ print(result)
 
 **示例 2 :** 使用`pandas.tseries.offsets.BusinessDay.isAnchored()`功能检查给定的工作日偏移对象是否锚定。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -91,7 +91,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。我们还将检查给定的工作日偏移对象是否锚定。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 

@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 import numpy as np 
@@ -40,7 +40,7 @@ print("\n", panel['b'].add(df1['b'], axis = 0)) 
 
 **代码#2:**
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 import numpy as np 
@@ -67,7 +67,7 @@ print(panel['b'].add(df2, axis = 0)) 
 
 **代码#3:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 

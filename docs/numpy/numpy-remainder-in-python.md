@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.remainder() function
 
@@ -37,7 +37,7 @@ print ("Remainder : ", out_num) 
 
 **Output :**
 
-```
+```py
 Dividend :  4
 Divisor :  6
 Remainder :  4
@@ -46,7 +46,7 @@ Remainder :  4
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.remainder() function
 
@@ -64,7 +64,7 @@ print ("Output remainder array: ", out_arr) 
 
 **Output :**
 
-```
+```py
 Dividend array :  [ 5 -4  8]
 Divisor array :  [2 3 4]
 Output remainder array:  [1 2 0]

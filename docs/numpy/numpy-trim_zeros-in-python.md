@@ -14,7 +14,7 @@
 
 **代码 1:**
 
-```
+```py
 import numpy as geek 
 
 gfg = geek.array((0, 0, 0, 0, 1, 5, 7, 0, 6, 2, 9, 0, 10, 0, 0))
@@ -26,14 +26,14 @@ res = geek.trim_zeros(gfg)
 print(res)
 ```
 
-```
+```py
 Output :array([1, 5, 7, 0, 6, 2, 9, 0, 10])
 
 ```
 
 **代码 2:**
 
-```
+```py
 import numpy as geek 
 gfg = geek.array((0, 0, 0, 0, 1, 5, 7, 0, 6, 2, 9, 0, 10, 0, 0))
 
@@ -44,14 +44,14 @@ res = geek.trim_zeros(gfg, 'f')
 print(res)
 ```
 
-```
+```py
 Output :array([1, 5, 7, 0, 6, 2, 9, 0, 10, 0, 0])
 
 ```
 
 **代码 3:**
 
-```
+```py
 import numpy as geek 
 gfg = geek.array((0, 0, 0, 0, 1, 5, 7, 0, 6, 2, 9, 0, 10, 0, 0))
 
@@ -62,7 +62,7 @@ res = geek.trim_zeros(gfg, 'b')
 print(res)
 ```
 
-```
+```py
 Output :array([0, 0, 0, 0, 1, 5, 7, 0, 6, 2, 9, 0, 10])
 
 ```

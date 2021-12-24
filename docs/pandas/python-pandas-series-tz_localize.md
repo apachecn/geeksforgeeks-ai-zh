@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.tz_localize()`函数将给定系列的时区初始索引定位到目标时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(sr)
 
 现在我们将使用`Series.tz_localize()`函数将给定的时区初始索引定位到时区感知索引。目标时区为“美国/中部”。
 
-```
+```py
 # Localize to 'US / Central'
 sr.tz_localize('US/Central')
 ```
@@ -56,7 +56,7 @@ sr.tz_localize('US/Central')
 
 **示例 2:** 使用`Series.tz_localize()`函数将给定序列的时区初始索引定位到目标时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.tz_localize()`函数将给定的时区初始索引定位到时区感知索引。目标时区是“亚洲/加尔各答”。
 
-```
+```py
 # Localize to 'Asia/Calcutta'
 sr.tz_localize('Asia/Calcutta')
 ```

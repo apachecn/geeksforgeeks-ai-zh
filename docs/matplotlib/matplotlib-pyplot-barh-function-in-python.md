@@ -33,7 +33,7 @@ Python 中的 **matplotlib** API 提供了 **barh()** 函数，该函数可以�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -65,7 +65,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from matplotlib import pyplot as plt
 

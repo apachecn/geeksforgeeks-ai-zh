@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -53,7 +53,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # combining the two dataframes
 df = pd.concat([df1, df2], ignore_index=True)
 
@@ -69,7 +69,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # we can also separate 2 datasets using keys
 frames = [df1, df2]
 df_keys = pd.concat(frames, keys=['x', 'y'])
@@ -88,7 +88,7 @@ df_keys
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -131,7 +131,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # combining dataframes
 result = df1.append(df2, sort=False, ignore_index=True)
 

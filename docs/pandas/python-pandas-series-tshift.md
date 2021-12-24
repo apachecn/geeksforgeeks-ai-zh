@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.tshift()`函数将给定序列对象的基于 Datetime 的索引移动一定的周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在，我们将使用`Series.tshift()`功能，在序列对象已经应用的频率上，将索引移动 2 个周期。
 
-```
+```py
 # shift by 2 periods
 sr.tshift(periods = 2)
 ```
@@ -53,7 +53,7 @@ sr.tshift(periods = 2)
 
 **示例 2:** 使用`Series.tshift()`函数将给定序列对象的基于日期时间的索引增加一定的周期，并对其应用“每日”频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.tshift()`函数，在序列对象已经应用的频率上，将索引增加 4 个周期。
 
-```
+```py
 # increment by 4 periods
 sr.tshift(periods = 4, freq = 'D')
 ```

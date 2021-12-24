@@ -4,7 +4,7 @@
 
 在本文中，我们将学习如何在 bokeh 中添加按钮。现在，Bokeh 为我们提供了各种各样的小部件，可以用于各种目的。其中之一就是巴顿。按钮是 bokeh.models 模块的一个小部件，帮助我们在 python 笔记本中创建一个按钮。让我们看一个例子，以便更好地理解这个概念。但是在此之前，如果您使用本地设备实现上述功能，那么请确保在设备中安装了 python，然后在命令提示符下运行这段代码，以便 bokeh 功能在代码编辑器中正常工作。
 
-```
+```py
 pip install bokeh
 ```
 
@@ -16,7 +16,7 @@ pip install bokeh
 
 在下面的代码中，除了导入 show 和 button 之外，我们还在 python shell 中导入了另一个包，那就是 customJS。customJS 为用户提供了定制的行为，以响应特定事件的变化。这是一个在 bokeh 服务器应用程序中工作的 javascript 回调。在实现中，我们将使用 **js_on_click(处理程序)**，它为按钮点击设置了一个 javascript 处理程序。当点击创建的按钮时，它被激活，在其中，customJS 将被用作处理程序，消息将被打印在控制台中。
 
-```
+```py
 js_on_click(handler)
 ```
 
@@ -24,7 +24,7 @@ js_on_click(handler)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing show from bokeh.io
 # to show the button
 from bokeh.io import show
@@ -68,7 +68,7 @@ show(button)
 
 ## 计算机编程语言
 
-```
+```py
 # importing show from bokeh.io
 from bokeh.io import show
 

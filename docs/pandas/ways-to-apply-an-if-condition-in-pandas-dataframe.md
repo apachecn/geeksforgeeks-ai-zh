@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas import DataFrame
 
 numbers = {'mynumbers': [51, 52, 53, 54, 55]}
@@ -42,7 +42,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas import DataFrame
 
 numbers = {'mynumbers': [51, 52, 53, 54, 55]}
@@ -64,7 +64,7 @@ print (df)
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas import DataFrame
 
 names = {'First_name': ['Hanah', 'Ria', 'Jay', 'Bholu', 'Sachin']}
@@ -87,7 +87,7 @@ print (df)
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas import DataFrame
 
 names = {'First_name': ['Hanah', 'Ria', 'Jay', 'Bholu', 'Sachin']}
@@ -109,7 +109,7 @@ print (df)
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas import DataFrame
 
 names = {'First_name': ['Hanah', 'Ria', 'Jay', 'Bholu', 'Sachin']}

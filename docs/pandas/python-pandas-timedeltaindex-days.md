@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.days`属性返回时间增量索引对象的每个条目中的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们想要返回 tidx 对象的每个条目的天数。
 
-```
+```py
 # return the number of days
 tidx.days
 ```
@@ -40,7 +40,7 @@ tidx.days
 
 **示例 2:** 使用`TimedeltaIndex.days`属性返回 TimedeltaIndex 对象每个条目中的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们想要返回 tidx 对象的每个条目的天数。
 
-```
+```py
 # return the number of days
 tidx.days
 ```

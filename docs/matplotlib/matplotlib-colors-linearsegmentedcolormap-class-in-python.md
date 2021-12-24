@@ -41,7 +41,7 @@ matplotlib . colors . linearsegmented color map 类用于在线性线段的帮�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
@@ -180,7 +180,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap

@@ -8,7 +8,7 @@
 
 [matplotlib](http://geeksforgeeks.org/python-matplotlib-an-overview/) 的 [pyplot](https://www.geeksforgeeks.org/pyplot-in-matplotlib/) 模块中可以找到**子图()**功能，提供了一个类似于 MATLAB 的 Python 绘图框架。该函数的原型如下所示:
 
-```
+```py
 matplotlib.pyplot.subplot(nrows, ncols, index)
 ```
 
@@ -18,7 +18,7 @@ matplotlib.pyplot.subplot(nrows, ncols, index)
 
 首先，让我们通过将一个图叠加在另一个图上来尝试绘制一系列图(这里是 3)。当我们堆叠它们时，改变的是行数，这意味着 ncols 保持不变，为 1。每个子情节都由索引参数标识。
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -48,7 +48,7 @@ plt.show()
 
 接下来，我们将尝试将一些图形绘制为网格，即多点多列。在这里，我们将创建一个具有 4 个图的多图，我们将使它成为 2×2 的网格，这意味着 nrows=2 和 ncols=2，每个图像再次由索引识别，以**行-主**的顺序。
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -73,7 +73,7 @@ plt.show()
 
 如果我们要创建一个多图，其中一个图**与另一个图**重叠，就像我们最小化 youtube 视频时看到的那样，但它仍然在底部角落的一个小窗口中运行，那么`add_suplplot()`功能在这方面有所帮助。
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -94,7 +94,7 @@ plt.show()
 
 哦，还有，对于我们已经实现的所有子图函数，如果 nrows、ncol 和 index 小于 10，而不是给出(nrows、ncol、index)格式的参数，它们可以作为格式`(nrows*100+ncols*10+index)`的三位数传递，输出将保持不变。我们为什么不试试网格图呢？
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

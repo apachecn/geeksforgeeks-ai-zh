@@ -10,7 +10,7 @@
 
 假设有两个学生数据列表，第一个列表保存学生的姓名，第二个列表保存学生的年龄。那我们就可以，
 
-```
+```py
 # List1
 Name = ['tom', 'krish', 'nick', 'juli']
 
@@ -20,7 +20,7 @@ Age = [25, 30, 26, 22]
 
 以上两个列表可以使用`list(zip())`功能进行合并。现在，通过调用`pd.DataFrame()`函数创建熊猫数据帧。
 
-```
+```py
 # Python program to demonstrate creating
 # pandas Datadaframe from lists using zip.
 
@@ -43,7 +43,7 @@ list_of_tuples 
 **输出:**
 ![](img/1445fd5f5fdb4c02a47445c94e010688.png)
 
-```
+```py
 # Converting lists of tuples into
 # pandas Dataframe.
 df = pd.DataFrame(list_of_tuples, columns = ['Name', 'Age'])

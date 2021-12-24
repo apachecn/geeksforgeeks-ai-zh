@@ -14,7 +14,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # trunc() function
 
@@ -41,7 +41,7 @@ print ("\nRounded values : \n", truncoff_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0.5, 1.5, 2.5, 3.5, 4.5, 10.1]
 
@@ -63,7 +63,7 @@ Rounded values :
 
 **代码 2:工作**
 
-```
+```py
 # Python program explaining
 # trunc() function
 
@@ -84,7 +84,7 @@ print ("\nRounded values upto 2: \n", truncoff_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [1.67, 4.5, 7, 9, 12]
 

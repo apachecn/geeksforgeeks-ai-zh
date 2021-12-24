@@ -26,7 +26,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # right_shift() function
 
@@ -43,7 +43,7 @@ print ("After right shifting 2 bit  : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  20
 Number of bit shift :  2
 After right shifting 2 bit  :  5
@@ -52,7 +52,7 @@ After right shifting 2 bit  :  5
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # right_shift() function
 
@@ -70,7 +70,7 @@ print ("Output array after right shifting: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [24, 48, 16]
 Number of bit shift :  [3, 4, 2]
 Output array after right shifting:  [3 3 4]

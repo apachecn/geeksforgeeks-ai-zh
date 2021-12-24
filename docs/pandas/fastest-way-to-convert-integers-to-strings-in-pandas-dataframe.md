@@ -24,7 +24,7 @@
 
 为了找出最快的方法，我们找到了将整数转换为字符串所需的每种方法所花费的时间。需要最短转换时间的方法被认为是最快的方法。
 
-```
+```py
 import pandas as pd
 import sys
 import time

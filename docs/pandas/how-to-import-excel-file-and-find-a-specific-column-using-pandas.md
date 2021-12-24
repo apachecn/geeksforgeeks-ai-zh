@@ -23,7 +23,7 @@ Excel 工作表链接:[https://drive . Google . com/file/d/1x-S0z-gTo–h8by n12
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pandas as pd
 
@@ -41,7 +41,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df[df["Country"] == 'Canada'].head()
 ```
 
@@ -53,7 +53,7 @@ df[df["Country"] == 'Canada'].head()
 
 ## 蟒蛇 3
 
-```
+```py
 df[df["Year"] == 2013].head()
 ```
 
@@ -65,7 +65,7 @@ df[df["Year"] == 2013].head()
 
 ## 蟒蛇 3
 
-```
+```py
 df[df["Segment"]=='Government'].head()
 ```
 

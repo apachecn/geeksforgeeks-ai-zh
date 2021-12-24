@@ -6,7 +6,7 @@
 
 **示例 1:** 选择两列
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -25,7 +25,7 @@ print(df.loc[1:3, ['Name', 'Qualification']])
 
 **输出:**
 
-```
+```py
      Name Qualification
 1  Princi            MA
 2  Gaurav           MCA
@@ -35,7 +35,7 @@ print(df.loc[1:3, ['Name', 'Qualification']])
 
 **示例 2:** 首先按标签格式过滤行和选择列，然后选择所有列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -58,7 +58,7 @@ print(df.loc[0, :] )
 
 **输出:**
 
-```
+```py
 Address          Delhi
 Age                 27
 Name               Jai
@@ -69,7 +69,7 @@ Name: 0, dtype: object
 
 **示例 3:** 选择所有或部分列，使用 iloc 逐个选择。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -88,7 +88,7 @@ print(df.iloc [0:2, 1:3] )
 
 **输出:**
 
-```
+```py
    Age    Name
 0   27     Jai
 1   24  Princi

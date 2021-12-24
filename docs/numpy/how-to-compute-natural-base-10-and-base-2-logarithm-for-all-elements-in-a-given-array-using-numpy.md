@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 n = 3
@@ -30,7 +30,7 @@ print("natural logarithm of {} is".format(n), numpy.log(n))
 
 **输出:**
 
-```
+```py
 natural logarithm of 3 is 1.0986122886681098
 natural logarithm of 5 is 1.6094379124341003
 
@@ -42,7 +42,7 @@ natural logarithm of 5 is 1.6094379124341003
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 arr = np.array([6, 2, 3, 4, 5])
@@ -51,7 +51,7 @@ print(numpy.log(arr))
 
 **输出:**
 
-```
+```py
 [1.79175947 0.69314718 1.09861229 1.38629436 1.60943791]
 
 ```
@@ -65,7 +65,7 @@ print(numpy.log(arr))
 
 ## 计算机编程语言
 
-```
+```py
 # importing numpy
 import numpy
 
@@ -87,7 +87,7 @@ print(numpy.log10(arr))
 
 **输出:**
 
-```
+```py
 natural logarithm -
 [1.79175947 0.69314718 1.09861229 1.38629436 1.60943791]
 Base 2 logarithm -

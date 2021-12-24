@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.replace()`函数替换给定时间戳中的年份值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(ts)
 
 现在我们使用`Timestamp.replace()`功能将对象中的当前年份替换为 2019 年。
 
-```
+```py
 # replace year
 ts.replace(year = 2019)
 ```
@@ -54,7 +54,7 @@ ts.replace(year = 2019)
 
 **示例 2:** 使用`Timestamp.replace()`函数替换给定时间戳中的年、月和小时值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(ts)
 
 现在我们将使用`Timestamp.replace()`功能来替换对象中当前的年、月、小时值。
 
-```
+```py
 # replace year, month and hour value
 ts.replace(year = 2019, month = 12, hour = 1)
 ```

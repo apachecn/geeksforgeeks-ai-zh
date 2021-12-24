@@ -10,7 +10,7 @@
 
 #### **所需库:**
 
-```
+```py
 OpenCV
 Numpy
 ```
@@ -23,7 +23,7 @@ Numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import cv2
 import numpy as np

@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论如何将 NumPy datetime64 转换为 Timestamp。为了更好地理解，首先让我们看下面的例子:
 
-```
+```py
 If the current datetime64 is as follows: 2020-08-18 09:31:51.944622
 then,
 the required timestamp in seconds will be: 1597743111.944622
@@ -23,7 +23,7 @@ the required timestamp in an hour will be: 443817.53109572834
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required library
 import numpy as np
 from datetime import datetime
@@ -69,7 +69,7 @@ print("Printing the converted datetime in Timestamp in hour:",
 
 ## 蟒蛇 3
 
-```
+```py
 #importing required library
 import numpy as np
 from datetime import datetime

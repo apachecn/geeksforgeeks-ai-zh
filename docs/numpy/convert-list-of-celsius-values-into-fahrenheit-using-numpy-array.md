@@ -7,14 +7,14 @@
 让我们看看如何通过将摄氏温度列表转换成华氏温度来将其转换成 NumPy 数组。
 将 Celcius 转换为 Farenhiet 的公式为:
 
-```
+```py
 feh = (9 * cel / 5 + 32)
 
 ```
 
 **方法 1 :** 使用`**numpy.array()**`方法。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -36,7 +36,7 @@ print(f"Fahrenheit {feh}")
 
 **输出:**
 
-```
+```py
 Celsius [ 0\.   12\.   45.21 34\.   99.91]
 Fahrenheit [ 32\.     53.6   113.378  93.2   211.838]
 
@@ -44,7 +44,7 @@ Fahrenheit [ 32\.     53.6   113.378  93.2   211.838]
 
 **方法 2 :** 使用`**numpy.asarray()**`方法。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -66,7 +66,7 @@ print(f"Fahrenheit {feh}")
 
 **输出:**
 
-```
+```py
 Celsius [ 0\.   12\.   45.21 34\.   99.91]
 Fahrenheit [ 32\.     53.6   113.378  93.2   211.838]
 
@@ -74,7 +74,7 @@ Fahrenheit [ 32\.     53.6   113.378  93.2   211.838]
 
 **方法三:**使用`**numpy.arange()**`。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -105,7 +105,7 @@ print(f"Fahrenheit {feh}")
 
 **输出:**
 
-```
+```py
 Celsius [ 0\.   12\.   45.21 34\.   99.91]
 Fahrenheit [ 32\.     53.6   113.378  93.2   211.838]
 

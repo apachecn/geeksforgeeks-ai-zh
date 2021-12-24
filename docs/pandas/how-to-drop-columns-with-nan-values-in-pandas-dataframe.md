@@ -10,7 +10,7 @@ Nan(非数字)是一个浮点值，不能转换为其他数据类型，只能浮
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -33,7 +33,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Dropping the columns having NaN/NaT values
 df = df.dropna(axis=1)
 
@@ -50,7 +50,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -77,7 +77,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Dropping the columns having NaN/NaT values
 df = df.dropna(axis=1)
 
@@ -97,7 +97,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -124,7 +124,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Dropping the columns having NaN/NaT values
 df = df.dropna(axis=1)
 
@@ -144,7 +144,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing libraries 
 import pandas as pd 
 import numpy as np 
@@ -168,7 +168,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Dropping the columns having NaN/NaT values
 # under certain label index using  'subset' attribute
 df = df.dropna(subset=[3], axis=1)

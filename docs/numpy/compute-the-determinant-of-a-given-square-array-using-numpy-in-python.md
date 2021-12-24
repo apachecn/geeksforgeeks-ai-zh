@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 from numpy import linalg
@@ -37,7 +37,7 @@ print(np.linalg.det(matrix))
 
 **输出:**
 
-```
+```py
 Original 2-D matrix
 [[1 0]
  [3 6]]
@@ -50,7 +50,7 @@ Determinant of the 2-D matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 from numpy import linalg
@@ -67,7 +67,7 @@ print(np.linalg.det(matrix))
 
 **输出:**
 
-```
+```py
 Original 3-D matrix
 [[1 0 1]
  [1 2 0]
@@ -81,7 +81,7 @@ Determinant of the 3-D matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 from numpy import linalg
@@ -98,7 +98,7 @@ print(np.linalg.det(matrix))
 
 **输出:**
 
-```
+```py
 Original 4-D matrix
 [[1 0 1 8]
  [1 2 0 3]

@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.istitle() function 
 
@@ -26,7 +26,7 @@ print ("output  array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['P4Q R' '4Q Rp' 'Q rP4' 'Rpq']
 output array : [ True  True False  True]
 
@@ -34,7 +34,7 @@ output array : [ True  True False  True]
 
   **Code #2:**
 
-```
+```py
 # Python Program explaining 
 # numpy.char.istitle() function  
 
@@ -50,7 +50,7 @@ print ("output array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['GEEKS' 'for' 'Geeks']
 output array : [False False  True]
 

@@ -27,7 +27,7 @@ Matplotlib 及其成员支持许多功能。其中一个功能是，我们可以
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import image
 from matplotlib import pyplot as plt
 
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import image
 from matplotlib import pyplot as plt
 
@@ -77,7 +77,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import image
 from matplotlib import pyplot as plt
 

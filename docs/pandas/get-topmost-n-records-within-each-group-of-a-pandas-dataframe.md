@@ -6,7 +6,7 @@
 
 首先，我们创建了一个熊猫数据框:
 
-```
+```py
 #importing pandas as pd
 import pandas as pd
 

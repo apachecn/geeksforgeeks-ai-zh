@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.fill() method 
 
@@ -47,7 +47,7 @@ print ("Output filled array : ", rec_arr.b) 
 
 **Output:**
 
-```
+```py
 Input array :  [(5.,  2) (3., -4) (6.,  9)]
 Record array of float:  [5\. 3\. 6.]
 Record array of int:  [ 2 -4  9]
@@ -60,7 +60,7 @@ Output filled array :  [0 0 0]
 
 我们将`numpy.recarray.fill()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.fill() method 
 
@@ -86,7 +86,7 @@ print ("Output filled array : ", rec_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[( 5.,  2) ( 3.,  4) ( 6., -7)]
  [( 9.,  1) ( 6.,  4) (-2., -7)]]
 Output filled array :  [[(0., 0) (0., 0) (0., 0)]

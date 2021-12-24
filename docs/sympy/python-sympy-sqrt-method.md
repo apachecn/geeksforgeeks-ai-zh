@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.sqrt()`方法，我们可以得到任意数的平方根。
 
-```
+```py
 # import sympy
 import sympy
 
@@ -26,7 +26,7 @@ print(num)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 import sympy
 

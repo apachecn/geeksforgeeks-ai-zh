@@ -21,7 +21,7 @@ Numpy 是 Python 中用于科学计算的核心库。这个 Python 库支持您�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -104,7 +104,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -153,7 +153,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -198,7 +198,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np

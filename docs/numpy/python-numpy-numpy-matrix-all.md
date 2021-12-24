@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，借助`matrix.all()`方法，我们能够比较任意两个维度不同的矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,14 +27,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 False
 
 ```

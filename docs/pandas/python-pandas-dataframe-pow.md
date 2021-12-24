@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`pow()`函数查找数据框中每个元素的幂。使用数列将一行中的每个元素提升到不同的幂。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ df
 
 让我们创建一个系列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ sr
 
 现在，让我们使用`dataframe.pow()`函数将一行中的每个元素提升到不同的幂。
 
-```
+```py
 # find the power
 df.pow(sr, axis = 1)
 ```
@@ -62,7 +62,7 @@ df.pow(sr, axis = 1)
 
 **示例 2:** 使用`pow()`函数将第一个数据帧的每个元素提升到另一个数据帧中相应元素的幂。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

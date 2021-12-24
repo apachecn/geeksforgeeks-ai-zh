@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的 **gci()方法**用于获取当前可着色的
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -53,7 +53,7 @@ plt.show() 
 **输出:**
 ![](img/7f0bc365e8d6a8d45d8a3a6eb0987f7a.png)
 
-```
+```py
 The current colorable artist is :
 AxesImage(50, 44;310x308)
 
@@ -61,7 +61,7 @@ AxesImage(50, 44;310x308)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from scipy import sin, cos
@@ -90,7 +90,7 @@ plt.show() 
 **输出:**
 ![](img/a1ed88fe4fc24c97b51054f2d7a9b323.png)
 
-```
+```py
 The current colorable artist is :
 None
 

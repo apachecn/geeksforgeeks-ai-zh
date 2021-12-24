@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import randprime() method from sympy
 from sympy import randprime
 
@@ -29,14 +29,14 @@ print("A random prime between {} and {} is {}".format(a, b, a_randprime_b))
 
 **输出:**
 
-```
+```py
 A random prime between 4 and 50 is 37
 
 ```
 
 **例 2:**
 
-```
+```py
 # import randprime() method from sympy
 from sympy import randprime
 
@@ -51,7 +51,7 @@ print("A random prime between {} and {} is {}".format(a, b, a_randprime_b))  �
 
 **输出:**
 
-```
+```py
 A random prime between 60 and 100 is 79
 
 ```

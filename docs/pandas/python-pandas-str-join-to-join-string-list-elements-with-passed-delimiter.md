@@ -25,7 +25,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，str.join()方法用于“名称”列(字符串系列)。如前所述，字符串也是一个字符数组，因此字符串的每个字符都将使用 str.join()方法与传递的分隔符连接。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -50,7 +50,7 @@ data
 
 在本例中，str.join()方法应用于一系列列表。使用 [str.split()](https://www.geeksforgeeks.org/python-pandas-split-strings-into-two-list-columns-using-str-split/) 方法将团队列中的数据分成列表。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

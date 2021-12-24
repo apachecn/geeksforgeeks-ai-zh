@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ matplotlib 库的 Axes 模块中的 **Axes.errorbar()函数**用于将 y 对 x �
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -75,7 +75,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

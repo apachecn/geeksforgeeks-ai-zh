@@ -26,7 +26,7 @@ matplotlib.axes.Axes.drag_pan() Function
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

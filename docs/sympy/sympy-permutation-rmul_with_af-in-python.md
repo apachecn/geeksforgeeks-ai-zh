@@ -10,7 +10,7 @@
 
 **代码#1 : rmul_with_af()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rmul_with_af()
 
@@ -36,7 +36,7 @@ print ("Permutation b - rmul_with_af form : ", b.rmul_with_af(a))
 
 **代码#2 : rmul_with_af()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rmul_with_af()
 

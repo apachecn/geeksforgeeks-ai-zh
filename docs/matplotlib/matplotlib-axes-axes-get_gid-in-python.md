@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_gid()函数**用于获取组 id�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,14 +56,14 @@ plt.show()
 
 ![](img/03facb7400e6dbd34a03e55de4d98e05.png)
 
-```
+```py
 Value Return : patch_0
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -124,7 +124,7 @@ plt.show()
 
 ![](img/6659d56fd7ae5cb733741b0ba9d19eed.png)
 
-```
+```py
 Value Return
 patch_0
 patch_1

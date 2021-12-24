@@ -12,7 +12,7 @@
 
 **代码#1 : iterate_graycode()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.iterate_graycode()
 
@@ -36,7 +36,7 @@ print ("Subset a iterate_graycode : ", a.iterate_graycode(1).subset)
 
 **代码#2 : iterate_graycode()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.iterate_graycode()
 

@@ -10,7 +10,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pylab as pl
 import networkx as nx
@@ -18,7 +18,7 @@ import networkx as nx
 
 **步骤 2:定义和可视化图形**
 
-```
+```py
 edges = [(0, 1), (1, 5), (5, 6), (5, 4), (1, 2), 
          (1, 3), (9, 10), (2, 4), (0, 6), (6, 7),
          (8, 9), (7, 8), (1, 7), (3, 9)]
@@ -39,7 +39,7 @@ pl.show()
 
 **第三步:定义机器人系统的奖励**
 
-```
+```py
 MATRIX_SIZE = 11
 M = np.matrix(np.ones(shape =(MATRIX_SIZE, MATRIX_SIZE)))
 M *= -1
@@ -66,7 +66,7 @@ print(M)
 
 **第 4 步:定义一些在训练中使用的实用功能**
 
-```
+```py
 Q = np.matrix(np.zeros([MATRIX_SIZE, MATRIX_SIZE]))
 
 gamma = 0.75
@@ -108,7 +108,7 @@ update(initial_state, action, gamma)
 
 **第五步:使用 Q 矩阵**训练和评估机器人
 
-```
+```py
 scores = []
 for i in range(1000):
     current_state = np.random.randint(0, int(Q.shape[0]))
@@ -152,7 +152,7 @@ pl.show()
 
 **步骤 6:用环境线索定义和可视化新图形**
 
-```
+```py
 # Defining the locations of the police and the drug traces
 police = [2, 4, 5]
 drug_traces = [3, 8, 9]
@@ -177,7 +177,7 @@ pl.show() 
 
 **步骤 7:为训练过程定义一些实用函数**
 
-```
+```py
 Q = np.matrix(np.zeros([MATRIX_SIZE, MATRIX_SIZE]))
 env_police = np.matrix(np.zeros([MATRIX_SIZE, MATRIX_SIZE]))
 env_drugs = np.matrix(np.zeros([MATRIX_SIZE, MATRIX_SIZE]))
@@ -244,7 +244,7 @@ def available_actions_with_env_help(state):
 
 **步骤 8:可视化环境矩阵**
 
-```
+```py
 scores = []
 for i in range(1000):
     current_state = np.random.randint(0, int(Q.shape[0]))
@@ -266,7 +266,7 @@ print(env_drugs)
 
 **第九步:模型的训练和评估**
 
-```
+```py
 scores = []
 for i in range(1000):
     current_state = np.random.randint(0, int(Q.shape[0]))

@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，使用制作了两个列表，并将其转换为熊猫系列。Series()方法。使用 lambda 创建一个函数，该函数检查两个序列中哪些值较小，并返回较小的值。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -50,7 +50,7 @@ result
 
 在本例中，也使用`Numpy.nan`方法传递空值。由于序列包含空值，所以将 5 传递给 fill_value 参数，用 5 替换空值。传递一个 lambda 函数，该函数将比较两个序列中的值，并将返回较大的一个。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -79,7 +79,7 @@ result
 **输出:**
 如输出所示，在组合序列之前，序列中的 NaN 值被替换为 5。
 
-```
+```py
 
 0      5.0
 1      3.0

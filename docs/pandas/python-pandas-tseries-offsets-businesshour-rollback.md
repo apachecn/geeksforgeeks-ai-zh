@@ -18,7 +18,7 @@
 
 **示例#1:** 仅当不在偏移上时，使用`pandas.tseries.offsets.BusinessHour.rollback()`功能将提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。如果没有偏移，我们也将把提供的日期倒推至下一个偏移。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 
@@ -68,7 +68,7 @@ print(result)
 
 **示例 2:** 仅当不在偏移上时，使用`pandas.tseries.offsets.BusinessHour.rollback()`功能将提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -93,7 +93,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。如果没有偏移，我们也将把提供的日期倒推至下一个偏移。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 

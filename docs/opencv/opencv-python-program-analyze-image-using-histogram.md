@@ -12,13 +12,13 @@
 
 **导入图像数据**
 
-```
+```py
 import matplotlib.pyplot as plt #importing matplotlib
 ```
 
 图像应该在一个 PNG 文件中使用，因为 matplotlib 只支持 PNG 图像。在这里，这是一个 24 位的 RGB PNG 图像(R，G，B 各 8 位)，在这个例子中使用。每个内部列表代表一个像素。这里，对于一个 RGB 图像，有 3 个值。对于 RGB 图像，matplotlib 支持 float32 和 uint8 数据类型。
 
-```
+```py
 img = plt.imread('flower.png') #reads image data
 ```
 
@@ -40,7 +40,7 @@ img = plt.imread('flower.png') #reads image data
 
 为了创建图像数据的直方图，我们使用 hist()函数。
 
-```
+```py
 plt.hist(n_img.ravel(), bins=256, range=(0.0, 1.0), fc='k', ec='k') #calculating histogram
 ```
 
@@ -55,7 +55,7 @@ plt.hist(n_img.ravel(), bins=256, range=(0.0, 1.0), fc='k', ec='k') #calculating
 
 这里，我们使用 cv2 . calchist()(OpenCV 中的内置函数)来查找直方图。
 
-```
+```py
 cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])
 ```
 
@@ -68,7 +68,7 @@ cv2.calcHist(images, channels, mask, histSize, ranges[, hist[, accumulate]])
 
 例如:
 
-```
+```py
 # load an image in grayscale mode
 img = cv2.imread('ex.jpg',0)
 
@@ -82,7 +82,7 @@ histg = cv2.calcHist([img],[0],None,[256],[0,256]) 
 
 使用 Matplotlib 进行分析:
 
-```
+```py
 # importing required libraries of opencv
 import cv2
 
@@ -110,7 +110,7 @@ plt.show()
 [![n4](img/982ba9c9fe3effa506aefe148cd1a626.png)](https://media.geeksforgeeks.org/wp-content/uploads/OpenCV-Python-Program-to-analyze-an-image-using-Histogram-10.png)
 插图显示图像的每个像素数位于 0 到 255 的范围内。在第二个例子中，它直接找到直方图并绘制出来。我们不需要使用 calcHist()。请参见下面的代码:
 
-```
+```py
 import cv2
 from matplotlib import pyplot as plt
 img = cv2.imread('ex.jpg',0)

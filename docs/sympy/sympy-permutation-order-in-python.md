@@ -10,7 +10,7 @@
 
 **代码#1:订单()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.order()
 
@@ -36,7 +36,7 @@ print ("Permutation b - order form : ", b.order())
 
 **代码#2:顺序()示例**–2D 排列
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.order()
 

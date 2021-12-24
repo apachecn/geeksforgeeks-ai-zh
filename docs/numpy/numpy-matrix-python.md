@@ -5,13 +5,13 @@
 这个类从一串数据或类似数组的对象中返回一个矩阵。获得的矩阵是一个专门的 2D 阵列。
 **语法:**
 
-```
+```py
 numpy.matrix(data, dtype = None) : 
 ```
 
 **参数:**
 
-```
+```py
 data  : data needs to be array-like or string 
 dtype : Data type of returned array. 
 
@@ -19,11 +19,11 @@ dtype : Data type of returned array.
 
 **返回:**
 
-```
+```py
 data interpreted as a matrix
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.matrix class
 
@@ -40,7 +40,7 @@ print("Via array-like input : \n", b)
 
 **输出:**
 
-```
+```py
 Via string input : 
  [[1 2]
  [3 4]] 

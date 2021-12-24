@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.append()`函数将单个索引附加到给定的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df1, "\n", df2)
 
 让我们在 df1 的末尾添加 df2 索引。
 
-```
+```py
 # append df2 at the end of df1
 df1.append(df2)
 ```
@@ -50,7 +50,7 @@ df1.append(df2)
 
 **示例 2:** 使用`Index.append()`函数在给定索引的末尾追加一个索引集合。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(df1, "\n", df2, "\n", df3)
 
 让我们在 *df1* 的末尾加上两个索引 *df2* 和 *df3* 。
 
-```
+```py
 # We pass df2 and df3 as a list of
 # indexes to the append function
 df1.append([df2, df3])

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the matplotlib.pyplot
 import matplotlib.pyplot as plt
 
@@ -59,47 +59,47 @@ plt.savefig("gantt1.png")
 
 让我们逐一了解不同的代码:
 
-```
+```py
 fig, gnt = plt.subplots()
 ```
 
 *   这里，我们声明了一个用于绘制图表的数字“gnt”。
 
-```
+```py
 gnt.set_ylim(0, 50)
 gnt.set_xlim(0, 160)
 ```
 
 *   在这里，我们声明了图表的 X 轴和 Y 轴的极限。默认情况下，X 轴和 Y 轴的下限是 0，两个轴的上限是最高 X 轴值和 Y 轴值的 5 倍。
 
-```
+```py
 gnt.set_xlabel('seconds since start')
 gnt.set_ylabel('Processor')
 ```
 
 *   在这里，我们为轴添加了标签。默认情况下，没有标签。
 
-```
+```py
 gnt.set_yticks([15, 25, 35])
 gnt.set_yticklabels(['1', '2', '3'])
 ```
 
 *   这里，我们在 Y 轴上添加了刻度。我们也可以给它们贴上标签。默认情况下，轴在界限内均匀划分。
 
-```
+```py
 gnt.grid(True)
 ```
 
 *   这里，我们将 grid()设置为 True 以显示网格。默认情况下，它是 False。
 
-```
+```py
 gnt.broken_barh([(40, 50)], (30, 9), facecolors=('tab:orange'))
 ```
 
 *   这里，我们在图表中添加了一个条形图。在本例中，该条表示运行时间为 40 到(40+50)= 90 秒。
     **基本论点:**
 
-```
+```py
 gnt.broken_barh([(start_time, duration)],
                  (lower_yaxis, height),
                  facecolors=('tab:colours'))
@@ -108,14 +108,14 @@ gnt.broken_barh([(start_time, duration)],
 *   默认情况下，颜色设置为蓝色。
     我们可以同时申报多个酒吧:
 
-```
+```py
 gnt.broken_barh([(10, 50), (100, 20), (130, 10)], (20, 9),
                                   facecolors=('tab:red'))
 ```
 
 *   我们还可以通过将“edge color”属性设置为任何颜色来添加边缘颜色。
 
-```
+```py
 plt.savefig("gantt1.png")
 ```
 

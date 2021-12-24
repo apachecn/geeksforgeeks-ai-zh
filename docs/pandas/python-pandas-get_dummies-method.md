@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 con = pd.Series(list('abcba'))
@@ -40,7 +40,7 @@ print(pd.get_dummies(con))
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -59,7 +59,7 @@ Nan 列不存在，因为默认情况下 dummy_na 为 False
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -76,7 +76,7 @@ print(pd.get_dummies(li, dummy_na=True))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

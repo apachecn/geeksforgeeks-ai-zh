@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rpow()`函数将标量值提升到给定 Series 对象中每个元素的幂。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.rpow()`函数将标量提升到给定级数对象的每个元素的幂。
 
-```
+```py
 # raise 2 to the power of each element in
 # the sr object
 selected_items = sr.rpow(other = 2)
@@ -55,7 +55,7 @@ print(selected_items)
 
 **示例 2 :** 使用`Series.rpow()`函数将标量值提升到给定 Series 对象中每个元素的幂。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们将使用`Series.rpow()`函数将标量提升到给定级数对象的每个元素的幂。我们将用 100 代替所有缺少的值。
 
-```
+```py
 # raise 2 to the power of each element in
 # the sr object
 selected_items = sr.rpow(other = 2, fill_value = 100)

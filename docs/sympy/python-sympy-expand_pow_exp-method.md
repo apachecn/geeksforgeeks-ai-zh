@@ -4,7 +4,7 @@
 
 借助 **sympy.expand_pow_exp()** 方法，我们可以使用以下等式扩展数学表达式–
 
-```
+```py
  x<sup>(a+b)</sup> = x<sup>a</sup>.x<sup>b</sup>
 ```
 
@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -36,7 +36,7 @@ print("After Expansion : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Expansion : x**(a + b)
 After Expansion : x**a*x**b
 
@@ -46,7 +46,7 @@ After Expansion : x**a*x**b
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -63,7 +63,7 @@ print("After Expansion : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Expansion : x**(2*a + 3*b)
 After Expansion : x**(2*a)*x**(3*b)
 

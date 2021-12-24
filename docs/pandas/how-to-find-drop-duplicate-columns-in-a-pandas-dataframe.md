@@ -4,7 +4,7 @@
 
 让我们讨论如何在熊猫数据框中查找和删除重复的列。首先，让我们用列名“姓名”、“年龄”、“住所”和“标记”创建一个简单的数据框。
 
-```
+```py
 # Import pandas library 
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 **代码 1:** 在数据框中查找重复的列。
 为了找到重复的列，我们需要遍历数据框的所有列，对于每一列，它将搜索数据框中是否存在任何其他已经具有相同内容的列。如果是，则该列名将存储在重复的列集中。最后，该函数将返回重复列的列名列表。
 
-```
+```py
 # import pandas library 
 import pandas as pd
 
@@ -108,7 +108,7 @@ if __name__ == "__main__" :
 **代码 2:** 删除数据框中的重复列。
 要删除重复的列，我们可以将用户定义函数 getDuplicateColumns()返回的重复列名称列表传递给 [Dataframe.drop()](https://www.geeksforgeeks.org/python-delete-rows-columns-from-dataframe-using-pandas-drop/) 方法。
 
-```
+```py
 # import pandas library 
 import pandas as pd
 

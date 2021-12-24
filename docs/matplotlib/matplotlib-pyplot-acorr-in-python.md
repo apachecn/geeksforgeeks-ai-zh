@@ -35,7 +35,7 @@ matplotlib 库 pyplot 模块中的 **acorr()函数**用于绘制 x *(类数组)*
 
 ***示例#1:***
 
-```
+```py
 *# Implementation of matplotlib.pyplot.acorr()
 # function
 
@@ -64,7 +64,7 @@ plt.show()*
 
 ***例 2:***
 
-```
+```py
 *# Implementation of matplotlib.pyplot.acorr() 
 # function
 

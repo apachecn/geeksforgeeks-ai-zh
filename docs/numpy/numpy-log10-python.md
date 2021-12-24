@@ -7,7 +7,7 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object.
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
          placed with result.
@@ -21,7 +21,7 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with Base-10 logarithmic value of x; 
 where x belongs to all elements of input array. 
 
@@ -29,7 +29,7 @@ where x belongs to all elements of input array.
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # log10() function
 
@@ -47,7 +47,7 @@ print("np.log10(2**8) : ", np.log10(10**8))
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 100000000]
 Output array :  [ 0\.          0.47712125  0.69897     8\.        ]
 
@@ -58,7 +58,7 @@ np.log10(2**8) :  8.0
 
 **代码 2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation of 
 # log10() function
@@ -83,7 +83,7 @@ plt.show()  
 
 **输出:**
 
-```
+```py
 out_array :  [ 0\.          0.30103     0.47712125  0.60205999  0.69897   ]
 ```
 

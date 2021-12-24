@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 分配一个名为`Revised_Salary` 的新列，增加原薪资的 10%。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df[:10]
 
 ![](img/836ed1d13f8962a28804f881cfca5a18.png)
 
-```
+```py
 # increase the salary by 10 % 
 df.assign(Revised_Salary = lambda x: df['Salary']
                                + df['Salary']/10)
@@ -44,7 +44,7 @@ df.assign(Revised_Salary = lambda x: df['Salary']
 
 **示例 2:** 一次分配多个列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:** 默认情况下，空或全 NA 序列的和为 0。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -32,14 +32,14 @@ pd.Series([]).sum(min_count = 1)
 
 **输出:**
 
-```
+```py
 0.0
 nan
 ```
 
 **代码#2:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -54,13 +54,13 @@ val
 
 **输出:**
 
-```
+```py
 2159837111.0
 ```
 
 **代码#3:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

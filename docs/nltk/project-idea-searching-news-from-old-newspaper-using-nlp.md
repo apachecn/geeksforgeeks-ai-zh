@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 !pip install nltk
 !pip install pytesseract
 
@@ -62,7 +62,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 import glob
 import os
@@ -88,7 +88,7 @@ from google.colab.patches import cv2_imshow
 
 ## 蟒蛇 3
 
-```
+```py
 def pre(text):
     text = text.lower()
     tokenizer = RegexpTokenizer(r'\w+')
@@ -116,7 +116,7 @@ def pre(text):
 
 ## 计算机编程语言
 
-```
+```py
 def to_df(imgno):
   text = pytesseract.image_to_string(imgno)
   out = pre(text)

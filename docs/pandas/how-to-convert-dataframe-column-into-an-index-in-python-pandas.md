@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # set the index to 'None' via its name property
 df.index.names = [None]
 
@@ -74,7 +74,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

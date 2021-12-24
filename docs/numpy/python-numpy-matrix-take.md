@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`matrix.take()`方法选择一个索引，我们在矩阵中只能获得一个值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[12]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[ 4 12  4]]
 
 ```

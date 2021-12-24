@@ -23,7 +23,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

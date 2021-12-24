@@ -8,7 +8,7 @@
 
 **步骤 1:加载所需的库**
 
-```
+```py
 import pandas as pd 
 import numpy as np
 from sklearn.model_selection import train_test_split 
@@ -26,7 +26,7 @@ from keras import regularizers
 
 **第二步:加载数据**
 
-```
+```py
 # Changing the working location to the location of the data
 cd C:\Users\Dev\Desktop\Kaggle\Credit Card Fraud
 
@@ -52,7 +52,7 @@ X = df.drop('Class', axis = 1)
 
 a)
 
-```
+```py
 df.head()
 ```
 
@@ -60,7 +60,7 @@ df.head()
 
 b)
 
-```
+```py
 df.info()
 ```
 
@@ -68,7 +68,7 @@ df.info()
 
 c)
 
-```
+```py
 df.describe()
 ```
 
@@ -76,7 +76,7 @@ df.describe()
 
 **第 4 步:定义一个效用函数来绘制数据**
 
-```
+```py
 def tsne_plot(x, y):
 
     # Setting the plotting background
@@ -108,7 +108,7 @@ def tsne_plot(x, y):
 
 **第五步:可视化原始数据**
 
-```
+```py
 tsne_plot(X, y)
 ```
 
@@ -118,7 +118,7 @@ tsne_plot(X, y)
 
 **第六步:清理数据，使其适合自动编码器**
 
-```
+```py
 # Scaling the data to make it suitable for the auto-encoder
 X_scaled = MinMaxScaler().fit_transform(X)
 X_normal_scaled = X_scaled[y == 0]
@@ -127,7 +127,7 @@ X_fraud_scaled = X_scaled[y == 1]
 
 **步骤 7:建立自动编码器神经网络**
 
-```
+```py
 # Building the Input Layer
 input_layer = Input(shape =(X.shape[1], ))
 
@@ -154,7 +154,7 @@ output_layer = Dense(X.shape[1], activation ='relu')(decoded)
 
 **步骤 8:定义和训练自动编码器**
 
-```
+```py
 # Defining the parameters of the Auto-encoder network
 autoencoder = Model(input_layer, output_layer)
 autoencoder.compile(optimizer ="adadelta", loss ="mse")
@@ -169,7 +169,7 @@ autoencoder.fit(X_normal_scaled, X_normal_scaled, 
 
 **第九步:保留自动编码器的编码器部分进行数据编码**
 
-```
+```py
 hidden_representation = Sequential()
 hidden_representation.add(autoencoder.layers[0])
 hidden_representation.add(autoencoder.layers[1])
@@ -180,7 +180,7 @@ hidden_representation.add(autoencoder.layers[4])
 
 **步骤 10:编码数据并可视化编码数据**
 
-```
+```py
 # Separating the points encoded by the Auto-encoder as normal and fraud
 normal_hidden_rep = hidden_representation.predict(X_normal_scaled)
 fraud_hidden_rep = hidden_representation.predict(X_fraud_scaled)
@@ -201,7 +201,7 @@ tsne_plot(encoded_X, encoded_y)
 
 **第 11 步:将原始数据和编码数据拆分成训练和测试数据**
 
-```
+```py
 # Splitting the encoded data for linear classification
 X_train_encoded, X_test_encoded, y_train_encoded, y_test_encoded = train_test_split(encoded_X, encoded_y, test_size = 0.2)
 
@@ -211,7 +211,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
 
 **步骤 12:建立逻辑回归模型并评估其性能**
 
-```
+```py
 # Building the logistic regression model
 lrclf = LogisticRegression()
 lrclf.fit(X_train_encoded, y_train_encoded)
@@ -227,7 +227,7 @@ print('Accuracy : '+str(accuracy_score(y_test_encoded, y_pred_lrclf)))
 
 **步骤 13:建立支持向量分类器模型并评估其性能**
 
-```
+```py
 # Building the SVM model
 svmclf = SVC()
 svmclf.fit(X_train, y_train)

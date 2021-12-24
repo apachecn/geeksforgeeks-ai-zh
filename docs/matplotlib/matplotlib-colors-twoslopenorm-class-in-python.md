@@ -25,7 +25,7 @@ matplotlib . colors . two lop norm 类用于使用 set center 对数据进行规
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook
@@ -79,7 +79,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors

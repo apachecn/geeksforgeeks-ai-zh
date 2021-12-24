@@ -6,7 +6,7 @@
 
 **示例 1 :** `[pandas.timestamp.now()](https://www.geeksforgeeks.org/python-pandas-timestamp-now/)`以时区为输入，返回该时区的当前时间戳对象。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -24,7 +24,7 @@ print("Hour: ", frame)
 
 **示例 2 :** `[pandas.timestamp()](https://www.geeksforgeeks.org/python-pandas-timestamp-timestamp/)`用于特定时区的日期时间索引。它以年、月、日、时间和时区作为输入，并返回该时区的日期时间索引。
 
-```
+```py
 # importing the module
 import pandas as pd   
 
@@ -43,7 +43,7 @@ print("Hour: ", date.hour)
 
 **例 3 :** 使用`[pandas.dt_range()](https://www.geeksforgeeks.org/python-pandas-date_range-method/)`将输入作为时间戳范围，使用`[pandas.series()](https://www.geeksforgeeks.org/python-pandas-series/)`转换为时间戳数组。
 
-```
+```py
 # importing the module
 import pandas as pd 
 
@@ -63,7 +63,7 @@ print(frame)
 
 **解决方案 4 :** 使用`object.hour`属性返回给定序列对象数据中日期时间的小时。
 
-```
+```py
 # importing the module
 import pandas as pd 
 
@@ -89,7 +89,7 @@ print(rs)
 
 **解决方案 5 :** 从 csv 文件中读取时间戳数据，并从每个时间戳中获取 Hours。
 
-```
+```py
 # importing the module
 import pandas as pd
 

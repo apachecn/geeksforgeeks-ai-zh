@@ -10,7 +10,7 @@
 
 **代码#1:共轭()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.conjugate()
 
@@ -29,7 +29,7 @@ print ('Conjugate : ', p.conjugate)
 
 **代码#2:共轭()示例–显示值错误。**
 
-```
+```py
 # Python code explaining
 # SymPy.conjugate()
 

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.argmin()`函数找到给定指数中最小值的指数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,14 +28,14 @@ df
 
 让我们找到我们指数中最小值的指数。
 
-```
+```py
 # function to return the index of the minimum value.
 df.argmin()
 ```
 
 **输出:**
 
-```
+```py
 4
 ```
 
@@ -43,7 +43,7 @@ df.argmin()
 
 **例 2:** 当最小值重复多次时，使用`Index.argmin()`函数寻找最小值的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,13 +59,13 @@ df
 
 让我们找到最小值的索引。
 
-```
+```py
 # We call the argmin() function to find the index of minimum value.
 df.argmin()
 ```
 
 **输出:**
 
-```
+```py
 3
 ```

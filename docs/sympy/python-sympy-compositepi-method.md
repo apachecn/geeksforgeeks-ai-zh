@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import compositepi() method from sympy
 from sympy import compositepi
 
@@ -27,14 +27,14 @@ print("The number of composites numbers less than or equal to {} is {}".format(n
 
 **输出:**
 
-```
+```py
 The number of composites numbers less than or equal to 10 is 5
 
 ```
 
 **例 2:**
 
-```
+```py
 # import compositepi() method from sympy
 from sympy import compositepi
 
@@ -48,7 +48,7 @@ print("The number of composites numbers less than or equal to {} is {}".format(n
 
 **输出:**
 
-```
+```py
 The number of composites numbers less than or equal to 100 is 74
 
 ```

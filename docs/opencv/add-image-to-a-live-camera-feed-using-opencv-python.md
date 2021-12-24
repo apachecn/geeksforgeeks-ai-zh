@@ -12,7 +12,7 @@ CV 以 NumPy 数组的形式读取和存储所有图像。我们需要 NumPy 库
 
 ## 蟒 3
 
-```
+```py
 # imorting libraries
 import cv2
 import numpy as np

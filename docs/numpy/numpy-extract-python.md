@@ -4,13 +4,13 @@
 
 **numpy.extract()** 函数返回 input_array 的元素，如果它们满足某个指定的条件。
 
-```
+```py
 Syntax: numpy.extract(condition, array)
 ```
 
 **参数:**
 
-```
+```py
 array     : Input array. User apply conditions on input_array elements
 condition : [array_like]Condition on the basis of which user extract elements. 
       Applying condition on input_array, if we print condition, it will return an array
@@ -20,13 +20,13 @@ condition : [array_like]Condition on the basis of which user extract elements.
 
 **返回:**
 
-```
+```py
 Array elements that satisfy the condition.
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.compress method
 
@@ -52,7 +52,7 @@ print("\nElements that satisfy condition b  : \n", geek.extract(b, array))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[0 1]
  [2 3]

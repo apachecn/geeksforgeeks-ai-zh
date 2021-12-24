@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.data`属性查找给定 Index 对象的底层数据的内存地址。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(idx)
 
 现在我们将使用`Index.data`属性来查找给定序列对象的底层数据的内存地址。
 
-```
+```py
 # return memory address
 result = idx.data
 
@@ -47,7 +47,7 @@ print(result)
 
 **示例#2 :** 使用`Index.data`属性查找给定 Index 对象的底层数据的内存地址。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(idx)
 
 现在我们将使用`Index.data`属性来查找给定序列对象的底层数据的内存地址。
 
-```
+```py
 # return memory address
 result = idx.data
 

@@ -18,14 +18,14 @@
 
 **返回:**
 
-```
+```py
 An array with 2**x(power of 2) for all x i.e. array elements 
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # exp2() function
 import numpy as np
@@ -39,7 +39,7 @@ print ("\n2**x values : \n", exp2_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [1, 3, 5, 4]
 
@@ -50,7 +50,7 @@ Input array :
 
 **代码 2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation of 
 # exp2() function

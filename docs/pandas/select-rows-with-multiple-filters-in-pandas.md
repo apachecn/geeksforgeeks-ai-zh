@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 
 # initialize list of lists
@@ -38,7 +38,7 @@ print(df)
 
 ## 计算机编程语言
 
-```
+```py
 df1 = df[(df.English>6) & (df.Maths>8)]
 print(df1)
 ```
@@ -51,7 +51,7 @@ print(df1)
 
 ## 计算机编程语言
 
-```
+```py
 df1 = df[(df.English>=5) | (df.History>7)]
 print(df1)
 ```
@@ -64,7 +64,7 @@ print(df1)
 
 ## 计算机编程语言
 
-```
+```py
 df1 = df[(df.Class == 9) & ((df.English>=5) | (df.History>7))]
 print(df1)
 ```
@@ -77,7 +77,7 @@ print(df1)
 
 ## 计算机编程语言
 
-```
+```py
 df1 = df[(df.English<=5) & (df.Maths<=5) & (df.History<=5)]
 print(df1)
 ```
@@ -90,7 +90,7 @@ print(df1)
 
 ## 计算机编程语言
 
-```
+```py
 df1 = df[(df.Class == 8) & ((df.English<=5) | (df.Maths>5) | (df.History<=5))]
 print(df1)
 ```

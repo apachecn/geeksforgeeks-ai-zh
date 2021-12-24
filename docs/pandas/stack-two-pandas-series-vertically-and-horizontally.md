@@ -7,7 +7,7 @@
 **水平堆叠:**我们可以将 2 个熊猫系列水平堆叠，方法是将它们放入参数为`axis = 1`的[熊猫. concat()](https://www.geeksforgeeks.org/python-merge-join-and-concatenate-dataframes-using-panda/) 。
 **例:**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -31,7 +31,7 @@ display(df)
 **垂直堆叠:**我们可以通过参数`axis = 0`将 2 只熊猫系列通过`pandas.concat()`垂直堆叠。
 **例:**
 
-```
+```py
 # importing the module
 import pandas as pd
 

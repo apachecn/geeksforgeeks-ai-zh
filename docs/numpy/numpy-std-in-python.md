@@ -8,7 +8,7 @@
 ![](img/4a0d323535121aea9e67d9d58ee5e4f7.png)
 **举例:**
 
-```
+```py
 x = 1 1 1 1 1 
 Standard Deviation = 0 . 
 
@@ -31,7 +31,7 @@ Step 4 : Standard Deviation = sqrt(Variance) = sqrt(8.9) = 2.983..
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.std() method 
 import numpy as np
@@ -51,7 +51,7 @@ print("std of arr : ", np.std(arr, dtype = np.float64))
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 34]
 std of arr :  12.576167937809991
 
@@ -65,7 +65,7 @@ std of arr :  12.576167937809991
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.std() method 
 import numpy as np
@@ -88,7 +88,7 @@ print("\nstd of arr, axis = 1 : ", np.std(arr, axis = 1))
 
 **输出:**
 
-```
+```py
 std of arr, axis = None :  15.3668474320532
 
 std of arr, axis = 0 :  [ 7.56224173 17.68473918 18.59267329  3.04138127  0\.        ]

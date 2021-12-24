@@ -9,7 +9,7 @@ TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型�
 
 **示例 1:** 如果给定变量是 Tensor，则该示例将打印 True，否则将打印 False。
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -34,7 +34,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 
 Result:  False
 Result:  True
@@ -43,7 +43,7 @@ Result:  True
 
 **示例 2:** 本示例检查变量是否为张量，如果不是，则将变量转换为张量。
 
-```
+```py
 # importing the library
 import tensorflow as tf
 import numpy as np
@@ -65,7 +65,7 @@ print("tensor: ",arr)
 
 **输出:**
 
-```
+```py
 Dtype:  <dtype: 'int64'>
 tensor:  tf.Tensor([1 2 3], shape=(3,), dtype=int64)
 

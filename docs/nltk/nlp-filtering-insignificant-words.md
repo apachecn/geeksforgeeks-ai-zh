@@ -8,7 +8,7 @@
 
 **代码# 1:filter _ notify()类过滤掉不重要的词**
 
-```
+```py
 def filter_insignificant(chunk, 
                          tag_suffixes =['DT', 'CC']):    
     good = []
@@ -31,7 +31,7 @@ def filter_insignificant(chunk, 
 
 **代码#2:在短语**上使用`filter_insignificant()`
 
-```
+```py
 from transforms import filter_insignificant
 
 print ("Significant words : \n", 
@@ -41,7 +41,7 @@ print ("Significant words : \n", 
 
 **输出:**
 
-```
+```py
 Significant words : 
 [('terrible', 'JJ'), ('movie', 'NN')]
 
@@ -51,7 +51,7 @@ Significant words :
 
 **代码#3:使用`filter_insignificant()`** 传入我们自己的标签后缀
 
-```
+```py
 from transforms import filter_insignificant
 
 # choosing tag_suffixes
@@ -64,7 +64,7 @@ print ("Significant words : \n", 
 
 **输出:**
 
-```
+```py
 Significant words : 
 [('book', 'NN'), ('is', 'VBZ'), ('great', 'JJ')]
 

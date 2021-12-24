@@ -18,7 +18,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ majoticlocs()函数**用于获
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -47,7 +47,7 @@ plt.show()
 **输出:**
 ![](img/320feec90371445ea2f3bebcabca8a65.png)
 
-```
+```py
 Value of get_majorticklocs() :
 0.0
 0.2
@@ -61,7 +61,7 @@ Value of get_majorticklocs() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -94,7 +94,7 @@ plt.show()
 **输出:**
 ![](img/fbe96ae152e42484260b44a626514887.png)
 
-```
+```py
 Value of get_majorticklocs() :
 -40.0
 -30.0

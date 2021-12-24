@@ -49,7 +49,7 @@
 
 安装完成后，您可以通过在 python 解释器中运行以下命令来确保安装成功:
 
-```
+```py
 import tensorflow as tf
 ```
 
@@ -63,7 +63,7 @@ import tensorflow as tf
 
 现在，让我们编写我们的第一个 **TensorFlow** 程序来理解上面的概念:
 
-```
+```py
 # importing tensorflow
 import tensorflow as tf
 
@@ -84,7 +84,7 @@ sess.close()
 
 输出:
 
-```
+```py
 Sum of node1 and node2 is: 8
 
 ```
@@ -95,7 +95,7 @@ Sum of node1 and node2 is: 8
 
 *   在上述程序中，节点**节点 1** 和节点**节点 2** 属于 **tf.constant** 类型。一个**常量**节点不接受输入，输出一个内部存储的值。注意，我们也可以使用 **dtype** 参数指定输出张量的数据类型。
 
-    ```
+    ```py
     node1 = tf.constant(3, dtype=tf.int32)
     node2 = tf.constant(5, dtype=tf.int32)
 
@@ -103,35 +103,35 @@ Sum of node1 and node2 is: 8
 
 *   **节点 3** 属于**类型。它将两个张量作为输入，并将它们的和作为输出张量返回。
 
-    ```
+    ```py
     node3 = tf.add(node1, node2)
 
     ```** 
 
 *   **Step 2 : Run the computational graph** In order to run the computational graph, we need to create a **session**. To create a session, we simply do:
 
-    ```
+    ```py
     sess = tf.Session()
 
     ```
 
     现在，我们可以调用会话对象的**运行**方法在任何节点上执行计算:
 
-    ```
+    ```py
     print("Sum of node1 and node2 is:",sess.run(node3))
 
     ```
 
     这里，**节点 3** 得到评估，进一步调用**节点 1** 和**节点 2** 。最后，我们使用以下命令关闭会话:
 
-    ```
+    ```py
     sess.close()
 
     ```
 
     **注意:**使用会话的另一种(也是更好的)方法是像这样使用**和**:
 
-    ```
+    ```py
     with tf.Session() as sess:
         print("Sum of node1 and node2 is:",sess.run(node3))
 
@@ -151,7 +151,7 @@ Sum of node1 and node2 is: 8
 
     下面给出了一个使用**变量**的例子:
 
-    ```
+    ```py
     # importing tensorflow
     import tensorflow as tf
 
@@ -176,7 +176,7 @@ Sum of node1 and node2 is: 8
 
     输出:
 
-    ```
+    ```py
     Tensor value before addition:
      [[ 0\.  0.]
      [ 0\.  0.]]
@@ -190,21 +190,21 @@ Sum of node1 and node2 is: 8
 
     *   我们定义一个类型为**变量**的节点，并赋予它一些初始值。
 
-        ```
+        ```py
         node = tf.Variable(tf.zeros([2,2]))
 
         ```
 
     *   要初始化当前会话范围内的变量节点，我们需要做:
 
-        ```
+        ```py
         sess.run(tf.global_variables_initializer())
 
         ```
 
     *   要给变量节点赋值，我们可以使用**赋值**方法，如下所示:
 
-        ```
+        ```py
         node = node.assign(node + tf.ones([2,2]))
 
         ```
@@ -217,7 +217,7 @@ Sum of node1 and node2 is: 8
 
     考虑下面给出的例子:
 
-    ```
+    ```py
     # importing tensorflow
     import tensorflow as tf
 
@@ -233,7 +233,7 @@ Sum of node1 and node2 is: 8
 
     输出:
 
-    ```
+    ```py
     [[3 6 9]
      [2 4 6]
      [1 2 3]]
@@ -244,7 +244,7 @@ Sum of node1 and node2 is: 8
 
     *   We define placeholder nodes **a** and **b** like this:
 
-        ```
+        ```py
         a = tf.placeholder(tf.int32, shape=(3,1))
         b = tf.placeholder(tf.int32, shape=(1,3))
 
@@ -254,14 +254,14 @@ Sum of node1 and node2 is: 8
 
     *   我们定义了另一个节点 **c** ，它进行矩阵乘法运算( **matmul** )。我们将两个占位符节点作为参数传递。
 
-        ```
+        ```py
         c = tf.matmul(a,b)
 
         ```
 
     *   Finally, when we run the session, we pass the value of placeholder nodes in **feed_dict** argument of **sess.run**:
 
-        ```
+        ```py
         print(sess.run(c, feed_dict={a:[[3],[2],[1]], b:[[1,2,3]]}))
 
         ```
@@ -277,7 +277,7 @@ Sum of node1 and node2 is: 8
 
 下面给出了一个使用张量流核心应用编程接口的**线性回归模型**的实现。
 
-```
+```py
 # importing the dependencies
 import tensorflow as tf
 import numpy as np
@@ -362,7 +362,7 @@ with tf.Session() as sess:
     plt.show()
 ```
 
-```
+```py
 Epoch:   200      Cost:    0.1715      W: 0.426      b:-0.4371
 Epoch:   400      Cost:    0.1351      W:0.3884      b:-0.1706
 Epoch:   600      Cost:    0.1127      W:0.3589      b:0.03849
@@ -385,7 +385,7 @@ Absolute mean square loss difference: 0.00248838
 
 *   首先，我们定义一些参数来训练我们的模型，比如:
 
-    ```
+    ```py
     learning_rate = 0.01
     training_epochs = 2000
     display_step = 200
@@ -394,7 +394,7 @@ Absolute mean square loss difference: 0.00248838
 
 *   然后我们为特征和目标向量定义占位符节点。
 
-    ```
+    ```py
     X = tf.placeholder(tf.float32)
     y = tf.placeholder(tf.float32)
 
@@ -402,7 +402,7 @@ Absolute mean square loss difference: 0.00248838
 
 *   然后，我们为权重和偏差定义可变节点。
 
-    ```
+    ```py
     W = tf.Variable(np.random.randn(), name="weight")
     b = tf.Variable(np.random.randn(), name="bias")
 
@@ -410,35 +410,35 @@ Absolute mean square loss difference: 0.00248838
 
 *   **线性模型**是计算线性回归模型假设的操作节点。
 
-    ```
+    ```py
     linear_model = W*X + b
 
     ```
 
 *   每次梯度下降的损失(或成本)计算为均方误差，其节点定义为:
 
-    ```
+    ```py
     cost = tf.reduce_sum(tf.square(linear_model - y)) / (2*n_samples)
 
     ```
 
 *   最后，我们有**优化器**节点，它实现了梯度下降算法。
 
-    ```
+    ```py
     optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost)
 
     ```
 
 *   现在，通过应用梯度下降算法将训练数据拟合到线性模型中。任务重复**训练 _ 历代记**次数。在每个历元中，我们执行梯度下降步骤，如下所示:
 
-    ```
+    ```py
     sess.run(optimizer, feed_dict={X: train_X, y: train_y})
 
     ```
 
 *   在每一个**显示 _ 步**的时期数后，我们打印电流损耗值，该值使用:
 
-    ```
+    ```py
     c = sess.run(cost, feed_dict={X: train_X, y: train_y})
 
     ```
@@ -446,7 +446,7 @@ Absolute mean square loss difference: 0.00248838
     找到
 *   模型根据测试数据进行评估，**测试 _ 成本**的计算方法为:
 
-    ```
+    ```py
     testing_cost = sess.run(tf.reduce_sum(tf.square(linear_model - y)) / (2 * test_X.shape[0]),
                               feed_dict={X: test_X, y: test_y})
 
@@ -465,7 +465,7 @@ Absolute mean square loss difference: 0.00248838
 
 让我们尝试使用 **tf.contrib.learn** 来查看我们在上面使用的相同数据上的线性回归的实现。
 
-```
+```py
 # importing the dependencies
 import tensorflow as tf
 import numpy as np
@@ -506,7 +506,7 @@ print("Final training loss:", train_loss)
 print("Final testing loss:", test_loss)
 ```
 
-```
+```py
 W: 0.252928     b: 0.802972
 Final training loss: 0.153998
 Final testing loss: 0.0777036
@@ -517,21 +517,21 @@ Final testing loss: 0.0777036
 
 *   使用列表来声明特征矩阵的形状和类型。列表的每个元素定义了一列的结构。在上面的例子中，我们只有一个存储真实值的特征，并被命名为 **X** 。
 
-    ```
+    ```py
     features = [tf.contrib.layers.real_valued_column("X")]
 
     ```
 
 *   然后，我们需要一个估计量。估计量只不过是一个预定义的模型，有许多有用的方法和参数。在上面的例子中，我们使用了线性回归模型估计量。
 
-    ```
+    ```py
     estimator = tf.contrib.learn.LinearRegressor(feature_columns=features)
 
     ```
 
 *   出于训练目的，我们需要使用一个输入函数，该函数负责在训练时向估计器提供数据。它将要素列值作为字典。可以指定许多其他参数，如批次大小、时期数量等。
 
-    ```
+    ```py
     input_fn = tf.contrib.learn.io.numpy_input_fn({"X":train_X}, 
                   train_y, batch_size=4, num_epochs=2000)
 
@@ -539,14 +539,14 @@ Final testing loss: 0.0777036
 
 *   为了将训练数据拟合到估计量，我们简单地使用估计量的**拟合**方法，其中输入函数作为参数传递。
 
-    ```
+    ```py
     estimator.fit(input_fn=input_fn)
 
     ```
 
 *   一旦训练完成，我们就可以使用估计器的 **get_variable_value** 方法获得不同变量的值。您可以使用**get _ variable _ name**方法获得所有变量的列表。
 
-    ```
+    ```py
     W = estimator.get_variable_value('linear/X/weight')[0][0]
     b = estimator.get_variable_value('linear/bias_weight')[0]
 
@@ -554,7 +554,7 @@ Final testing loss: 0.0777036
 
 *   均方误差/损失可计算为:
 
-    ```
+    ```py
     train_loss = estimator.evaluate(input_fn=input_fn)['loss']
     test_loss = estimator.evaluate(input_fn=test_input_fn)['loss']
 

@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.reindex_like()`函数基于另一个对象重新索引给定的序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(sr2)
 
 现在我们将使用`Series.reindex_like()`函数基于 sr1 重新索引 sr2 系列对象。
 
-```
+```py
 # reindex sr2 using sr1
 result = sr2.reindex_like(sr1)
 
@@ -70,7 +70,7 @@ print(result)
 
 **示例#2 :** 使用`Series.reindex_like()`函数基于另一个对象重新索引给定的序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -107,7 +107,7 @@ print(sr2)
 
 现在我们将使用`Series.reindex_like()`函数基于 sr1 重新索引 sr2 系列对象。
 
-```
+```py
 # reindex sr2 using sr1
 result = sr2.reindex_like(sr1)
 

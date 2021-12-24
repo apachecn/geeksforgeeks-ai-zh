@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # dates of july  2020

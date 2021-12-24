@@ -14,7 +14,7 @@
 **示例#1:**
 在这个示例中，我们可以看到，通过使用 **sympy.factor_list()** 方法，我们可以获得给定数学表达式的因子列表。
 
-```
+```py
 # import sympy
 from sympy import * x = symbols('x')
 expr = x**2 * z + 4 * x*y * z + 4 * y**2 * z
@@ -29,7 +29,7 @@ print("List of factors : {}".format(f)) 
 
 **输出:**
 
-```
+```py
 Mathematical expression : x**2*z + 4*x*y*z + 4*y**2*z
 List of factors : (1, [(z, 1), (x + 2*y, 2)])
 
@@ -37,7 +37,7 @@ List of factors : (1, [(z, 1), (x + 2*y, 2)])
 
 **例 2:**
 
-```
+```py
 # import sympy
 from sympy import * x = symbols('x')
 expr = (x**2 - 2 * x + 1)
@@ -52,7 +52,7 @@ print("List of factors : {}".format(f)) 
 
 **输出:**
 
-```
+```py
 Mathematical expression : x**2 - 2*x + 1
 List of factors : (1, [(x - 1, 2)])
 

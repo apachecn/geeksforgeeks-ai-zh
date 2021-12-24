@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 
@@ -41,7 +41,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 import numpy as np
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 import numpy as np
@@ -93,7 +93,7 @@ df.plot(x='Team', kind='bar', stacked=True,
 
 **输出:**
 
-```
+```py
   Team  Round 1  Round 2  Round 3  Round 4
 0    A       10       20       10       26
 1    B       20       25       15       21

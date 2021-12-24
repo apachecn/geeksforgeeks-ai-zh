@@ -11,7 +11,7 @@
 **示例#1 :**
 在此示例中，我们可以看到每个元素都使用`ndarray.__ipow__()`方法中作为参数提供的值供电。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__ipow__(3))
 
 **Output:**
 
-```
+```py
 [  1   8  27  64 125]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__ipow__(2))
 
 **Output:**
 
-```
+```py
 [[ 1  4  9 16 25]
  [36 25 16  9  4]]
 

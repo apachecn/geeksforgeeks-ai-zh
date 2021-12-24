@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -63,7 +63,7 @@ print("data after deleting last six  rows ", a[:-6])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -90,7 +90,7 @@ for i in range(1, len(a)+1):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -109,7 +109,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 [[21  7  8  9]
  [34 10 11 12]]
 ```
@@ -134,7 +134,7 @@ print(b)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -152,7 +152,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [[21  7  8  9]
  [34 10 11 12]]
 ```
@@ -161,7 +161,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -178,6 +178,6 @@ print(a)
 
 **输出:**
 
-```
+```py
 [ ]
 ```

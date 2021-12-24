@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 [[1, 2, 3, 4, 5],
  [5, 6, 7, 8, 9],
@@ -26,7 +26,7 @@ Output : [8, 15, 12, 18]
 
 **方法 1 :** 我们将使用`[sum()](https://www.geeksforgeeks.org/numpy-sum-in-python/)`方法。我们将通过参数 `axis = 0`逐列获取总和。
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -45,7 +45,7 @@ print("Column wise sum is :\n", sum_2d)
 
 **输出:**
 
-```
+```py
 Column wise sum is :
  [10 18 18 20 22]
 
@@ -53,7 +53,7 @@ Column wise sum is :
 
 **方法二:**我们也可以使用`**numpy.einsum()**`方法，参数`'ij->j'`。
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -72,7 +72,7 @@ print("Column wise sum is :\n", sum_2d)
 
 **输出:**
 
-```
+```py
 Column wise sum is :
  [10 18 18 20 22]
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy
 import numpy as np
 import matplotlib.pyplot as plt
@@ -34,7 +34,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy
 import numpy as np
 import matplotlib.pyplot as plt

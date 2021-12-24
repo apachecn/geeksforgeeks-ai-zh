@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Create the Index
 didx = pd.DatetimeIndex(start ='2014-08-01 10:00', freq ='W',
                      periods = 6, tz = 'Europe/Berlin')
@@ -64,7 +64,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Assign the new index
 sr.set_axis(['A', 'B', 'C', 'D', 'E', 'F'], inplace = True)
 

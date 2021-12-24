@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_transform()函数**用来获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np   
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  

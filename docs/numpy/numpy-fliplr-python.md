@@ -5,19 +5,19 @@
 **numpy.fliplr(数组):**左右方向翻转数组(各列条目)，形状保留
 **参数:**
 
-```
+```py
 array : [array_like]Input array, we want to flip
 
 ```
 
 **返回:**
 
-```
+```py
 Flipped array in left-right direction.
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.fliplr() method
 
@@ -32,7 +32,7 @@ print("\nFlipped array left-right : \n", geek.fliplr(array))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[[0 1]
   [2 3]]

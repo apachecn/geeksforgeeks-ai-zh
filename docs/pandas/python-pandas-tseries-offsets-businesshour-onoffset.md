@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessHour.onOffset()`功能检查通过日期是否偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还将检查给定日期是否有偏移。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 
@@ -66,7 +66,7 @@ print(result)
 
 **例 2:** 使用`pandas.tseries.offsets.BusinessHour.onOffset()`功能检查通过日期是否偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -91,7 +91,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还将检查给定日期是否有偏移。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 

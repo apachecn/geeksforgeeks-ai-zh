@@ -12,7 +12,7 @@
 
 **代码#1:周期()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cycles()
 
@@ -38,7 +38,7 @@ print ("Permutation b - cycles form : ", b.cycles)
 
 **代码#2:循环()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cycles()
 

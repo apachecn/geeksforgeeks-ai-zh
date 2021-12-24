@@ -10,7 +10,7 @@
 
 **代码#1 : is_Singleton()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Singleton()
 
@@ -36,7 +36,7 @@ print ("Permutation b - is_Singleton form : ", b.is_Singleton)
 
 **代码#2 : is_Singleton()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Singleton()
 

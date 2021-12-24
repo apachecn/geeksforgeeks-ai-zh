@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 array1 = np.array([0, 1, 2])
 array2 = np.array([3, 4, 5])
@@ -36,7 +36,7 @@ print("\nCross-correlation:\n",
 
 **输出:**
 
-```
+```py
 [0 1 2]
 [3 4 5]
 
@@ -48,7 +48,7 @@ Cross-correlation:
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 array1 = np.array([1,2])
 array2 = np.array([1,2])
@@ -65,7 +65,7 @@ print("\nCross-correlation:\n",
 
 **输出:**
 
-```
+```py
 [1 2]
 [1 2]
 

@@ -10,7 +10,7 @@ size()方法返回自张量的大小。返回值是元组的子类。
 
 ## 蟒 3
 
-```
+```py
 import torch
 torch.empty(3, 4, 5).size()
 ```

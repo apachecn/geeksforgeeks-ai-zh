@@ -21,7 +21,7 @@ Matplotlib 用 Python 编写，利用了 Python 的数值数学扩展 **NumPy** 
 *   用 **pip** 安装 Matplotlib
     Matplotlib 也可以用 Python 包管理器 pip 安装。要使用 pip 安装 Matplotlib，请打开一个终端窗口并键入:
 
-    ```
+    ```py
     pip install matplotlib
 
     ```
@@ -29,7 +29,7 @@ Matplotlib 用 Python 编写，利用了 Python 的数值数学扩展 **NumPy** 
 *   Install Matplotlib with the **Anaconda Prompt**
     Matplotlib can be installed using with the Anaconda Prompt. If the Anaconda Prompt is available on your machine, it can usually be seen in the Windows Start Menu. To install Matplotlib, open the Anaconda Prompt and type:
 
-    ```
+    ```py
     conda install matplotlib
 
     ```
@@ -43,7 +43,7 @@ Matplotlib 用 Python 编写，利用了 Python 的数值数学扩展 **NumPy** 
 
 #### 线图
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt 
 
@@ -66,7 +66,7 @@ plt.show()
 
 #### 条形图
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt 
 
@@ -89,7 +89,7 @@ plt.show()
 
 #### 柱状图
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt 
 
@@ -109,7 +109,7 @@ plt.show() 
 
 #### 散点图
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt 
 
@@ -134,13 +134,13 @@ plt.show() 
 
 我们可以使用以下命令为图表添加标题
 
-```
+```py
 matplotlib.pyplot.title("My title")
 ```
 
 我们可以使用以下函数来标记 x 轴和 y 轴
 
-```
+```py
 matplotlib.pyplot.xlabel("Time (Hr)")
 
 matplotlib.pyplot.ylabel("Position (Km)")
@@ -148,7 +148,7 @@ matplotlib.pyplot.ylabel("Position (Km)")
 
 **示例:**
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt 
 
@@ -179,7 +179,7 @@ plt.show()
 我们也可以在同一个单元格中编写一个程序，一起打印**多个图形**。
 我们可以通过在程序中重复 show()函数，将这些图形上下垂直打印，或者我们也可以使用名为**子图()**的函数，将它们水平打印。
 
-```
+```py
 from matplotlib import pyplot as plt 
 
 x = [1, 2, 3, 4, 5] 

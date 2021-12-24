@@ -18,7 +18,7 @@
 
 函数 xticks()和 yticks()用于表示数据点应该显示的位置。他们以一份清单作为论据。因此，可以通过将 xticks 和 yticks 设置为空列表来禁用轴文本刻度或刻度标签，如下所示:
 
-```
+```py
 plt.xticks([])
 plt.yticks([])
 ```
@@ -27,7 +27,7 @@ plt.yticks([])
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x1 = [5, 8, 10]
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.plot([5, 10, 20], [20, 10, 50], color='g')
@@ -93,7 +93,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.ticker as ticker
 
@@ -118,7 +118,7 @@ ax.yaxis.set_major_locator(ticker.NullLocator())
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [5, 8, 15, 20, 30]
@@ -146,7 +146,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [5, 8, 15, 20, 30]
@@ -171,7 +171,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [5, 8, 15, 20, 30]

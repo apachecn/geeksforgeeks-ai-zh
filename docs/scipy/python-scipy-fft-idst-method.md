@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 scipy.fft.idst(x, type=2)
 
 ```
@@ -17,7 +17,7 @@ scipy.fft.idst(x, type=2)
 
 ## 蟒 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [ 1.6421339  -0.2024893   0.09040392 -0.06497288]
 
 ```
@@ -38,7 +38,7 @@ print(gfg)
 
 ## 蟒 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -50,7 +50,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [-0.02311678  0.00 -0.11785113  0.000 -1.20162809 -3.5]
 
 ```

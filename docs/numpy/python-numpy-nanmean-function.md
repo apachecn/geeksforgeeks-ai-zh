@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.nanmean
 import numpy as np
@@ -36,7 +36,7 @@ print("Using nanmean function:", np.nanmean(arr))
 
 **Output:** 
 
-```
+```py
 Shape of array is (2, 3)
 Mean of array without using nanmean function: nan
 Using nanmean function: 26.4
@@ -46,7 +46,7 @@ Using nanmean function: 26.4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.nanmean
 # with axis = 0
@@ -69,7 +69,7 @@ print("Using nanmedian function:",
 
 **Output:** 
 
-```
+```py
 Shape of array is (4, 3)
 Mean of array with axis = 0: [ 26.5   29.75    nan]
 Using nanmedian function: [ 26.5   29.75  16.5 ]
@@ -79,7 +79,7 @@ Using nanmedian function: [ 26.5   29.75  16.5 ]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.nanmedian
 # with axis = 1
@@ -102,7 +102,7 @@ print("Using nanmedian function:",
 
 **Output:** 
 
-```
+```py
 Shape of array is (4, 3)
 Mean of array with axis = 1: [ 25.33333333          nan          nan   9\.        ]
 Using nanmedian function: [ 25.33333333  55\.          22.5          9\.        ]

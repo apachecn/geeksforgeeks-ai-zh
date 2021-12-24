@@ -4,7 +4,7 @@
 
 TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型和深度学习神经网络。**贝塞尔 _i0e()** 是张量流数学模块中存在的函数。该函数用于寻找元素态指数标度的修正 0 阶贝塞尔函数。
 
-```
+```py
 bessel_i0e(x) = exp(-abs(x)) bessel_i0(x)
 
 bessel_i0e(x) is faster and numerically stabler than bessel_i0(x).
@@ -25,7 +25,7 @@ bessel_i0e(x) is faster and numerically stabler than bessel_i0(x).
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -44,7 +44,7 @@ print("Result: ",r)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([1\. 2\. 3\. 4\. 5.], shape=(5,), dtype=float64)
 Result:  tf.Tensor([0.46575961 0.30850832 0.24300035 0.20700192 0.18354081], shape=(5,), dtype=float64)
 
@@ -54,7 +54,7 @@ Result:  tf.Tensor([0.46575961 0.30850832 0.24300035 0.20700192 0.18354081], sha
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 import matplotlib.pyplot as plt 

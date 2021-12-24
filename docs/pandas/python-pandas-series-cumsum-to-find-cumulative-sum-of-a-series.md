@@ -15,7 +15,7 @@
 **示例#1:**
 在本例中，使用 Pandas 从 Python 列表中创建了一个系列。Series()方法。该列表还包含一个空值，skipna 参数保持默认值，即 True。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -37,7 +37,7 @@ cumsum
 
 **输出:**
 
-```
+```py
 3
 7
 NaN
@@ -50,7 +50,7 @@ dtype: float64
 **解释**
 累计和是当前值和所有以前值的和。如以上输出所示，添加操作如下
 
-```
+```py
 3
 3+4 = 7
 7+NaN = NaN
@@ -62,7 +62,7 @@ dtype: float64
 **示例#2:** skipna=False
 在此示例中，创建了一个系列，就像上面的示例一样。但是`skipna` 参数保持为假。因此，空值不会被忽略，它会在每次出现后被添加。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -84,7 +84,7 @@ cumsum
 
 **输出:**
 
-```
+```py
 0     1.0
 1    21.0
 2    34.0

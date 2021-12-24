@@ -87,7 +87,7 @@ P(总体喜欢电影|正)* P(正)与 P(总体喜欢电影|负)* P(负)
 
 ## 蟒蛇 3
 
-```
+```py
 # cleaning texts
 import pandas as pd
 import re
@@ -127,7 +127,7 @@ y = dataset.iloc[:, 1].values
 
 ## 蟒蛇 3
 
-```
+```py
 # splitting the data set into training set and test set
 from sklearn.cross_validation import train_test_split
 
@@ -137,7 +137,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 ## 蟒蛇 3
 
-```
+```py
 # fitting naive bayes to the training set
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import confusion_matrix

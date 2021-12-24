@@ -13,7 +13,7 @@
 
 **读取数据**
 
-```
+```py
 # import the libraries
 import sqlite3
 import pandas as pd
@@ -36,7 +36,7 @@ data.head()
 
 ***   行切片**
 
-```
+```py
 # read the data from sql to pandas dataframe.
 data = pd.read_sql_query('Select * from Diabetes;', con)
 
@@ -51,7 +51,7 @@ df1
  ***   Selecting specific columns
     To select a particular column or to select number of columns from the dataframe for further processing of data.
 
-    ```
+    ```py
     # read the data from sql to
     # pandas dataframe.
     data = pd.read_sql_query('Select * from Diabetes;', con)
@@ -67,7 +67,7 @@ df1
     *   **Summarize the data
     In order to get insights from data, we must have a statistical summary of data. To display a statistical summary of the data such as mean, median, mode, std etc. We perform the following operation
 
-    ```
+    ```py
     # read the data from sql 
     # to pandas dataframe.
     data = pd.read_sql_query('Select * from Diabetes;', con)
@@ -80,7 +80,7 @@ df1
     ![pandas database](img/a23ee68d6e7bf77f93565eacb6a7b33a.png)** *   ****Sort data with respect to a column
     For sorting the dataframe with respect to a given column values
 
-    ```
+    ```py
     # read the data from sql 
     # to pandas dataframe.
     data = pd.read_sql_query('Select * from Diabetes;', con)
@@ -94,7 +94,7 @@ df1
     ![pandas database](img/d19909799748440d4a4cc88f450f8524.png)**** *   ******Display mean of each column
     To Display the mean of every column of the dataframe.
 
-    ```
+    ```py
     # read the data from sql 
     # to pandas dataframe.
     data = pd.read_sql_query('Select * from Diabetes;', con)

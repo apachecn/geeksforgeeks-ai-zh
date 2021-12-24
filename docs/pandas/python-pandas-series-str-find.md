@@ -24,7 +24,7 @@ Pandas **str.find()** 方法用于搜索序列中出现的每个字符串中的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -54,7 +54,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

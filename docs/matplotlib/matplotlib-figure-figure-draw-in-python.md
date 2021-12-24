@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 from mpl_toolkits.mplot3d import axes3d 
 import matplotlib.pyplot as plt 
@@ -44,7 +44,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 from mpl_toolkits.mplot3d import axes3d 
 import matplotlib.pyplot as plt 

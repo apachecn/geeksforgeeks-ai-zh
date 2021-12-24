@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.index() method 
 import numpy as np 
@@ -27,7 +27,7 @@ print ("\nindex of 'geeks' : ", np.char.index(arr, 'geeks'))
 
 **输出:**
 
-```
+```py
 arr :  ['this is geeks for geek']
 
 index of 'geeks' : [8]
@@ -36,7 +36,7 @@ index of 'geeks' : [8]
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.index() method 
 import numpy as np 
@@ -50,7 +50,7 @@ print ("\nindex of 'geek' : ", np.char.index(arr, 'geek', start = 10))
 
 **输出:**
 
-```
+```py
 index of 'geeks' : [8]
 ValueError: substring not found
 index of 'geek' : [18]

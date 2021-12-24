@@ -14,7 +14,7 @@
 
 **代码#1:** 变异的使用()
 
-```
+```py
 from scipy.stats import variation 
 import numpy as np
 
@@ -31,7 +31,7 @@ print ("\nVariation at axis = 1: \n", variation(arr, axis = 1))
 
 **Output:**
 
-```
+```py
 array : 
  [[-1.16536706 -1.29744691 -0.39964651  2.14909277 -1.00669835]
  [ 0.79979681  0.91566149 -0.823054    0.9189682  -0.01061181]
@@ -49,7 +49,7 @@ Variation at axis = 1:
 
 **代码#2:** 如何实现无变异()
 
-```
+```py
 import numpy as np
 
 arr = np.random.randn(5, 5)
@@ -68,7 +68,7 @@ print ("\nVariation at axis = 0: \n", var2)
 
 **Output:**
 
-```
+```py
 array : 
  [[ 0.51268414 -1.93697931  0.41573223  2.14911168  0.15036631]
  [-0.50407207  1.51519879 -0.42217231 -1.09609322  1.93184432]

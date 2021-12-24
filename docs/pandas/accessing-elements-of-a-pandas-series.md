@@ -18,7 +18,7 @@
 
 **代码#1:** 访问序列的第一个元素
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd
 import numpy as np
@@ -33,14 +33,14 @@ print(ser[0])
 
 **输出:**
 
-```
+```py
 g
 
 ```
 
 **代码#2:** 访问系列的前 5 个元素
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd
 import numpy as np
@@ -59,7 +59,7 @@ print(ser[:5])
 
 **代码#3:** 访问系列的最后 10 个元素
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd
 import numpy as np
@@ -78,7 +78,7 @@ print(ser[-10:])
 
 **代码#4:** 访问`nba.csv`文件中系列的前 5 个元素
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 
@@ -92,7 +92,7 @@ ser.head(10) 
 ![](img/69c514ffed794820ef40c99b26155668.png)
 现在我们访问系列的前 5 个元素
 
-```
+```py
 # get first five names 
 ser[:5] 
 ```
@@ -107,7 +107,7 @@ ser[:5] 
 
 **代码#1:** 使用索引标签访问单个元素
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd
 import numpy as np
@@ -122,14 +122,14 @@ print(ser[16])
 
 **输出:**
 
-```
+```py
 o
 
 ```
 
 **代码#2:** 使用索引标签访问多元素
 
-```
+```py
 # import pandas and numpy 
 import pandas as pd
 import numpy as np
@@ -149,7 +149,7 @@ print(ser[[10, 11, 12, 13, 14]])
 
 **代码#3:** 通过提供索引的标签来访问多个元素
 
-```
+```py
 # importing pandas and numpy  
 import pandas as pd  
 import numpy as np 
@@ -165,7 +165,7 @@ print(ser[['a', 'd', 'g', 'l']])
 
 **代码#4:** 使用`nba.csv`文件中的索引标签访问多个元素
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 
@@ -179,7 +179,7 @@ ser.head(10) 
 ![](img/69c514ffed794820ef40c99b26155668.png)
 现在我们使用索引标签访问一个多元素
 
-```
+```py
 ser[[0, 3, 6, 9]] 
 ```
 

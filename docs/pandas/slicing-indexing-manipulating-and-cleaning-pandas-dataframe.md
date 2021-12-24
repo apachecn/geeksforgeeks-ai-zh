@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Slicing rows in data frame
 df1 = df.iloc[0:4]
 
@@ -54,7 +54,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -80,7 +80,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Slicing columnss in data frame
 df1 = df.iloc[:,0:2]
 
@@ -98,7 +98,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -133,7 +133,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -162,7 +162,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -192,7 +192,7 @@ df.sort_values(by=['Weight'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas and Numpy libraries
 import pandas as pd
 import numpy as np
@@ -218,7 +218,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Checking for missing values
 df.isnull().sum()
 ```
@@ -229,7 +229,7 @@ df.isnull().sum()
 
 ## 蟒蛇 3
 
-```
+```py
 # dropping or cleaning the missing data 
 df= df.dropna() 
 df

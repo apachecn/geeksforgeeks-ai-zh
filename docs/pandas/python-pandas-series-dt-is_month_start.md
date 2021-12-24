@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.is_month_start`属性检查给定序列对象的基础数据中的日期是否是月初。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.is_month_start`属性来检查给定序列对象中的日期是否是月初。
 
-```
+```py
 # check if dates are the start
 # of the month or not
 result = sr.dt.is_month_start
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.is_month_start`属性检查给定序列对象的基础数据中的日期是否是月初。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.dt.is_month_start`属性来检查给定序列对象中的日期是否是月初。
 
-```
+```py
 # check if dates are the start
 # of the month or not
 result = sr.dt.is_month_start

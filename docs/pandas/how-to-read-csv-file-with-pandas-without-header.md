@@ -28,7 +28,7 @@ CSV 文件的标题是分配给每个列的值的数组。它充当数据的行�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing python package
 import pandas as pd
 
@@ -49,7 +49,7 @@ display(dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing python package
 import pandas as pd
 
@@ -68,7 +68,7 @@ display(dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing python package
 import pandas as pd
 

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all required libraries
 import pandas as pd
 import seaborn as sns
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #importing all required libraries
 import pandas as pd
 import seaborn as sns

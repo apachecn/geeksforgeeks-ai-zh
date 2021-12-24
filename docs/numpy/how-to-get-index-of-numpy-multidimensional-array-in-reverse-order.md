@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import Modules
 import numpy as np
 
@@ -78,7 +78,7 @@ print(final_list)  
 
 ## 蟒蛇 3
 
-```
+```py
 #import Modules
 import numpy as np
 
@@ -114,7 +114,7 @@ print(final_list)  
 
 ## 蟒蛇 3
 
-```
+```py
 # import Modules
 import numpy as np
 

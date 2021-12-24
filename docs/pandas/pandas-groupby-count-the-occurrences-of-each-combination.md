@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import library
 import pandas as pd
 import numpy as np
@@ -51,7 +51,7 @@ display(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 new = df.groupby(['States','Products']).size()
 display(new)
 ```
@@ -76,7 +76,7 @@ display(new)
 
 ## **蟒蛇 3**
 
-```
+```py
 new = df.groupby(['States','Products'])['Sale'].count()
 display(new)
 ```
@@ -103,7 +103,7 @@ display(new)
 
 ## **蟒蛇 3**
 
-```
+```py
 new = df.groupby(['States','Products'])['Sale'].agg('count').reset_index()
 display(new)
 ```
@@ -129,7 +129,7 @@ display(new)
 
 ## **蟒蛇 3**
 
-```
+```py
 new = df.groupby(['States','Products'],as_index = False
                 ).count().pivot('States','Products').fillna(0)
 display(new)

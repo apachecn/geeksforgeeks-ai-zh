@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.DateOffset.freqstr**`属性将频率对象作为给定
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.freqstr`属性以字符串形式返回应用于给定日期偏移对象的频率对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的 timestamp 对象中，以从给定的日期创建一个 2 天的偏移量。还返回应用于给定日期偏移对象的频率。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -62,7 +62,7 @@ print(do.freqstr)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.freqstr`属性以字符串形式返回应用于给定日期偏移对象的频率对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的 timestamp 对象中，以从给定的日期创建一个 2 天的偏移量。还返回应用于给定日期偏移对象的频率。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

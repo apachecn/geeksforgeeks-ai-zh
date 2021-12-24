@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -35,7 +35,7 @@ print("Limit of the expression tends to 0 : {}".format(limit_expr)) 
 
 **输出:**
 
-```
+```py
 Expression : sin(x)/x
 Limit of the expression tends to 0 : 1
 ```
@@ -44,7 +44,7 @@ Limit of the expression tends to 0 : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -61,7 +61,7 @@ print("Limit of the expression tends to 0 : {}".format(limit_expr)) 
 
 **输出:**
 
-```
+```py
 Expression : sin(3*x)/x
 Limit of the expression tends to 0 : 3
 ```

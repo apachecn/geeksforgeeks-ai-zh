@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，“名称”列的字符串长度是使用 str.len()方法计算的。系列的数据类型已经是字符串。所以不需要数据类型转换。在执行任何操作之前，会删除空行以避免错误。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -50,7 +50,7 @@ data
 **例#2:**
 在本例中，使用 str.len()方法计算薪资列的长度。由于该系列是作为 float64 数据类型导入的，因此首先使用。astype()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

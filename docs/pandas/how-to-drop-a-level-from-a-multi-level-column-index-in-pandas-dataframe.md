@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all important libraries
 import pandas as pd
 ```
@@ -24,7 +24,7 @@ import pandas as pd
 
 ## **蟒蛇 3**
 
-```
+```py
 # Creating a multilevel index 
 index = pd.MultiIndex.from_tuples([("Group 1", "Group 1"), 
                                    ("Group 1", "Group 2"),
@@ -55,7 +55,7 @@ print(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Dropping a level down
 df.columns = df.columns.droplevel(0)
 ```
@@ -64,7 +64,7 @@ df.columns = df.columns.droplevel(0)
 
 ## **蟒蛇 3**
 
-```
+```py
 print(df)
 ```
 
@@ -82,7 +82,7 @@ print(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing all important libraries
 import pandas as pd
 

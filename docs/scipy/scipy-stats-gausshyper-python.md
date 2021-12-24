@@ -20,7 +20,7 @@
 
 **代码#1:创建高斯超几何连续随机变量**
 
-```
+```py
 from scipy.stats import gausshyper  
 
 numargs = gausshyper  .numargs
@@ -32,7 +32,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E399AB5A58>
 
@@ -40,7 +40,7 @@ RV :
 
 **代码#2:高斯超几何随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -55,7 +55,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [1.45915082 0.58184603 1.91448022 1.23505789 0.9253147  0.36681062
  0.19628827 0.91795248 1.95313724 1.63728124]
@@ -67,7 +67,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -79,7 +79,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02040816 0.04081633 0.06122449 0.08163265 0.10204082
  0.12244898 0.14285714 0.16326531 0.18367347 0.20408163 0.2244898
@@ -96,7 +96,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

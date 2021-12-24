@@ -44,7 +44,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get average of a list
 
 # Importing the NumPy module
@@ -59,7 +59,7 @@ print(np.average(list))
 
 **输出:**
 
-```
+```py
 5.0
 ```
 
@@ -67,7 +67,7 @@ print(np.average(list))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get average of a list
 
 # Importing the NumPy module
@@ -82,7 +82,7 @@ print(np.average(list))
 
 **输出:**
 
-```
+```py
 105.57142857142857
 ```
 
@@ -131,7 +131,7 @@ print(np.average(list))
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to get variance of a list
 
 # Importing the NumPy module
@@ -146,7 +146,7 @@ print(np.var(list))
 
 ****输出:****
 
-```
+```py
 4.0
 ```
 
@@ -154,7 +154,7 @@ print(np.var(list))
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to get variance of a list
 
 # Importing the NumPy module
@@ -169,7 +169,7 @@ print(np.var(list))
 
 ****输出:****
 
-```
+```py
 18133.359999999997
 ```
 
@@ -211,7 +211,7 @@ print(np.var(list))
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to get
 # standard deviation of a list
 
@@ -228,7 +228,7 @@ print(np.std(list))
 
 ****输出:****
 
-```
+```py
 2.0
 ```
 
@@ -236,7 +236,7 @@ print(np.std(list))
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to get
 # standard deviation of a list
 
@@ -253,6 +253,6 @@ print(np.std(list))
 
 ****输出:****
 
-```
+```py
 318.35750344541907
 ```

@@ -27,7 +27,7 @@
 
 在此数据中，拆分函数用于在每个“t”处拆分团队列。该参数设置为 1，因此单个字符串中的最大分色数将为 1。expand 参数为 False，这就是为什么返回一个包含字符串列表的序列，而不是数据框。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -52,7 +52,7 @@ data
 
 在本例中，“名称”列用空格(" ")分隔，expand 参数设置为 True，这意味着它将返回一个数据框，其中所有分隔的字符串都在不同的列中。然后使用数据框创建新列，并使用删除旧的名称列。drop()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.compressed() function
 
@@ -27,14 +27,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4 5]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.compressed() function
 
@@ -51,7 +51,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [0 1 2 3]
 
 ```

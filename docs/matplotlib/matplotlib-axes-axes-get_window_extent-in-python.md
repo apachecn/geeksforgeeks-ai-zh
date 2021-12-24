@@ -19,7 +19,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_window_extent()函数**用于返�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -44,7 +44,7 @@ plt.show() 
 
 ![](img/0723e662e23285ffb87b4d68af7623d1.png)
 
-```
+```py
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),
     BboxTransformTo(
@@ -59,7 +59,7 @@ TransformedBbox(
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -83,7 +83,7 @@ plt.show() 
 
 ![](img/b6369966fe173f5123e4bfe0f82fcb9b.png)
 
-```
+```py
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),
     BboxTransformTo(

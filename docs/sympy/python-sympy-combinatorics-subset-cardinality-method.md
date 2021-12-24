@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.combinatorics.Subset().cardinality`方法，我们能够得到子集的总基数。
 
-```
+```py
 # import sympy and subset
 from sympy.combinatorics.subsets import Subset
 
@@ -26,7 +26,7 @@ print(gfg.cardinality)
 
 **例 2 :**
 
-```
+```py
 # import sympy and subset
 from sympy.combinatorics.subsets import Subset
 

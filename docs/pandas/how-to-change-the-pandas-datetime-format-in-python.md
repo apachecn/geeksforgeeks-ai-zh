@@ -12,7 +12,7 @@ strftime()可以在 python 中更改日期格式。
 
 **语法:**
 
-```
+```py
 strftime(format) 
 ```
 
@@ -32,7 +32,7 @@ strftime(format)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(change_format)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(change_format)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

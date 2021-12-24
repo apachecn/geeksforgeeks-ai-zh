@@ -22,7 +22,7 @@ matplotlib 库 pyplot 模块中的 **waitforbuttonpress()方法**用于阻止调
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -52,7 +52,7 @@ function Example\n\n""", fontweight ="bold") 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.cm as cm 

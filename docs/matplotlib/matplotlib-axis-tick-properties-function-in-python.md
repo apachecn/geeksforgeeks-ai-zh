@@ -19,7 +19,7 @@ matplotlib 库的轴模块中的 **Tick.properties()函数**用来获取艺术�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np   
@@ -47,7 +47,7 @@ plt.show() 
 
 ![](img/f5611d3acfd91a2fe54ad1a68a4884af.png)
 
-```
+```py
 Display first 10 Properties
 
 adjustable : box
@@ -67,7 +67,7 @@ axes_locator : None
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -98,7 +98,7 @@ plt.show() 
 
 ![](img/2e801a542fea0d93b62b9799bf4ed425.png)
 
-```
+```py
 Display last 10 Properties
 
 ygridlines : 

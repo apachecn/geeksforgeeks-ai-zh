@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # adding columns in numpy array
 
@@ -30,7 +30,7 @@ print ("resultant array", str(result))
 
 **输出:**
 
-```
+```py
 initial_array :  [[ 1  2  3]
  [45  4  7]
  [ 9  6 10]]
@@ -44,7 +44,7 @@ resultant array [[ 1  2  3  1]
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate
 # adding columns in numpy array
 
@@ -67,7 +67,7 @@ print ("resultant array", str(result))
 
 **输出:**
 
-```
+```py
 initial_array :  [[ 1  2  3]
  [45  4  7]
  [ 9  6 10]]
@@ -81,7 +81,7 @@ resultant array [[ 1  2  3  1]
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate
 # adding rows in numpy array
 
@@ -104,7 +104,7 @@ print ("resultant array", str(result))
 
 **输出:**
 
-```
+```py
 initial_array :  [[ 1  2  3]
  [45  4  7]
  [ 9  6 10]]
@@ -117,7 +117,7 @@ resultant array [[ 1  2  3]
 
 有时我们有一个空数组，需要在其中追加行。Numpy 提供了使用 **numpy.append()** 函数向空 Numpy 数组追加一行的功能。
 
-```
+```py
 Syntax : numpy.append(arr, values, axis=None)
 ```
 
@@ -125,7 +125,7 @@ Syntax : numpy.append(arr, values, axis=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np  
 
@@ -143,7 +143,7 @@ print("\nNow array is:")
 print(empt_array)
 ```
 
-```
+```py
 Empty array:
 []
 
@@ -156,7 +156,7 @@ Now array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np  
 
@@ -175,7 +175,7 @@ print("\nNow array is:")
 print(empt_array)
 ```
 
-```
+```py
 Empty array:
 []
 
@@ -189,7 +189,7 @@ Now array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np  
 
@@ -209,7 +209,7 @@ print("\nNow array is:")
 print(empt_array)
 ```
 
-```
+```py
 Empty array:
 []
 

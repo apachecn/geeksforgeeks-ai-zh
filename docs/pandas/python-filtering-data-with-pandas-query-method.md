@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，数据是根据单个条件过滤的。在应用 query()方法之前，列名中的空格已被替换为“_”。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -48,7 +48,7 @@ data
 
 在这个例子中，数据帧已经在多个条件下被过滤。在应用 query()方法之前，列名中的空格已被替换为“_”。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

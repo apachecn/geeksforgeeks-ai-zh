@@ -6,7 +6,7 @@ numpy.amax()方法返回数组的最大值或沿轴的最大值(如果提到的�
 
 **语法:**
 
-```
+```py
 numpy.amax(arr, axis = None, out = None, keepdims = <class numpy._globals._NoValue>)
 ```
 
@@ -25,7 +25,7 @@ numpy.amax(arr, axis = None, out = None, keepdims = <class numpy._globals._NoVal
 
 **代码–**
 
-```
+```py
 # Python Program illustrating
 # numpy.amax() method
 
@@ -54,7 +54,7 @@ print("Max of arr, axis = 1 : ", geek.amax(arr, axis = 1))   
 
 **输出–**
 
-```
+```py
 arr :  [0 1 2 3 4 5 6 7]
 Max of arr :  7
 

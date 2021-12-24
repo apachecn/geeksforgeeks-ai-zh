@@ -20,7 +20,7 @@
 
 **代码#1:创建弗雷歇左连续随机变量**
 
-```
+```py
 from scipy.stats import frechet_l 
 
 numargs = frechet_l .numargs
@@ -32,7 +32,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000018D578BC9E8>
 
@@ -40,7 +40,7 @@ RV :
 
 **代码#2:弗雷歇左随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -55,7 +55,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [-4.66775585e-02 -3.75425255e+00 -2.32248407e-01 -1.20807347e-03
  -6.26373883e+00 -1.14007755e+00 -5.09499683e+00 -4.18191271e-01
@@ -68,7 +68,7 @@ Probability Distribution :
 
 **代码#3:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

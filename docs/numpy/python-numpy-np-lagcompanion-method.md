@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagcompanion() method 
 
@@ -34,7 +34,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [[ 1\.  -0.5]
  [-1\.   4\. ]]
 
@@ -42,7 +42,7 @@ print (res) 
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagcompanion() method 
 
@@ -63,7 +63,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [[  1\.   -1\.    0\.    0.8]
  [ -1\.    3\.   -2\.    1.6]
  [  0\.   -2\.    5\.   -0.6]

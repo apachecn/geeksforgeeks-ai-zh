@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from matplotlib import pyplot as plt
 import numpy as np
 

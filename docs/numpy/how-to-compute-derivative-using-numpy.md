@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # defining polynomial function
@@ -45,7 +45,7 @@ print("When x=5  f(x)'=", derivative(5))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # defining polynomial function
@@ -69,7 +69,7 @@ print("When x=3  f(x)'=", derivative(3))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # defining polynomial function
@@ -95,7 +95,7 @@ print("When x=2  f(x)'=", derivative(0.2))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # defining polynomial function

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.dt.tz_localize()`函数将系列中的 tz-naive 日期时间值本地化为 tz-aware。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz_localize()`函数将给定的天真系列本地化为‘美国/东方’。
 
-```
+```py
 # localize to 'US / Eastern'
 result = sr.dt.tz_localize(tz = 'US / Eastern')
 
@@ -57,7 +57,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.tz_localize()`函数将给定的序列对象作为本机 python datetime 对象的数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz_localize()`函数将给定的天真系列本地化为“欧洲/柏林”。
 
-```
+```py
 # localize to 'Europe / Berlin'
 result = sr.dt.tz_localize(tz = 'Europe / Berlin')
 

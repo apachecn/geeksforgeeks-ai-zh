@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.dot() method 
 
@@ -46,7 +46,7 @@ print ("Dot product of two arrays : ", out_arr)      
 
 **Output:**
 
-```
+```py
 1st Input array :  [[1 2]
  [3 4]]
 2nd Input array :  [[-1 -2]
@@ -62,7 +62,7 @@ Dot product of two arrays :  [[-6 -8]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.dot() method 
 
@@ -94,7 +94,7 @@ print ("Dot product of two arrays : ", out_arr)      
 
 **Output:**
 
-```
+```py
 1st Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]

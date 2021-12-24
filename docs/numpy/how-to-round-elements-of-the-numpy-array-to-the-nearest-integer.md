@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as n
 
 # create array
@@ -34,7 +34,7 @@ print(y)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as n
 
 # create array

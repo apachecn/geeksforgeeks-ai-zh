@@ -18,7 +18,7 @@
 
 下面是解释大津阈值技术的 Python 代码–
 
-```
+```py
 # Python program to illustrate
 # Otsu thresholding type on an image
 

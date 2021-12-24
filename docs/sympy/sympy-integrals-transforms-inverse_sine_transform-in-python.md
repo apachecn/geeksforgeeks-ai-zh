@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_sine_transform
 from sympy import inverse_sine_transform, exp, sqrt, gamma, pi
 from sympy.abc import x, k, a
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_sine_transform
 from sympy import inverse_sine_transform, exp, sqrt, gamma, pi
 from sympy.abc import x, k, a

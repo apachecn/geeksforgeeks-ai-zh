@@ -10,7 +10,7 @@
 
 **代码#1:支持()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.support()
 
@@ -36,7 +36,7 @@ print ("Permutation b - support form : ", b.support())
 
 **代码#2:支持()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.support()
 

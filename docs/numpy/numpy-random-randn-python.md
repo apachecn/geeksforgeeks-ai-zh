@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```py
 numpy.random.randn(d0, d1, ..., dn)
 ```
 
 **参数:**
 
-```
+```py
 d0, d1, ..., dn : [int, optional]Dimension of the returned array we require, 
      If no argument is given a single Python float is returned.
 
@@ -22,7 +22,7 @@ d0, d1, ..., dn : [int, optional]Dimension of the returned array we require,
 
 **返回:**
 
-```
+```py
 Array of defined shape, filled with random floating-point samples from 
 the standard normal distribution.
 
@@ -30,7 +30,7 @@ the standard normal distribution.
 
 **代码 1:随机构建 1D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.randn() method
 
@@ -43,7 +43,7 @@ print("1D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 1D Array filled with randnom values : 
  [-0.51733692  0.48813676 -0.88147002  1.12901958  0.68026197]
 
@@ -51,7 +51,7 @@ print("1D Array filled with random values : \n", array);
 
 **代码 2:随机构建 2D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.randn() method
 
@@ -64,7 +64,7 @@ print("2D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 2D Array filled with random values : 
  [[ 1.33262386 -0.88922967 -0.07056098  0.27340112]
  [ 1.00664965 -0.68443807  0.43801295 -0.35874714]
@@ -74,7 +74,7 @@ print("2D Array filled with random values : \n", array);
 
 **代码 3:随机构建 3D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.randn() method
 
@@ -87,7 +87,7 @@ print("3D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 3D Array filled with random values : 
  [[[-0.00416587 -0.66211158]
   [-0.97254293 -0.68981333]]
@@ -99,7 +99,7 @@ print("3D Array filled with random values : \n", array);
 
  **代码 4:随机创建数组的操作**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.randn() method
 
@@ -119,7 +119,7 @@ print("\nArray * 3 + 2 : \n", array);
 
 **输出:**
 
-```
+```py
 3D Array filled with random values : 
  [[[ 1.9609643  -1.89882763]
   [ 0.52252173  0.08159455]]

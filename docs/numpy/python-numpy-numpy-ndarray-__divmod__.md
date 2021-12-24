@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`ndarray.__divmod__()`方法，我们得到了两个数组。一个是用作为参数传递的值除以，另一个是用 mod 值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__divmod__(3))
 
 **Output:**
 
-```
+```py
 (array([0, 0, 1, 1, 1]), array([1, 2, 0, 1, 2]))
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__divmod__(3))
 
 **Output:**
 
-```
+```py
 (array([[0, 0, 1, 1, 1],
        [2, 1, 1, 1, 0]]), 
  array([[1, 2, 0, 1, 2],

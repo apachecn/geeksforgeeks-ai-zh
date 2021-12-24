@@ -14,7 +14,7 @@ Pandas `**Index.itemsize**`属性返回给定索引对象中基础数据项的�
 
 **示例#1:** 使用`Index.itemsize`属性找出给定索引对象中底层数据的数据类型的大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.itemsize`属性找出给定 Index 对象中底层数据的数据类型的大小。
 
-```
+```py
 # return the size of dtype
 result = idx.itemsize
 
@@ -44,7 +44,7 @@ print(result)
 
 **示例 2 :** 使用`Index.itemsize`属性找出给定索引对象中底层数据的数据类型的大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(idx)
 
 现在我们将使用`Index.itemsize`属性找出给定 Index 对象中底层数据的数据类型的大小。
 
-```
+```py
 # return the size of dtype
 result = idx.itemsize
 

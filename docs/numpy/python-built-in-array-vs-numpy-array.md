@@ -10,7 +10,7 @@
 
 **代码:**
 
-```
+```py
 import array as built_in
 array1 = built_in.array('i')
 array1.append(1)
@@ -20,7 +20,7 @@ print(array1)
 
 **输出:**
 
-```
+```py
 array('i', [1, 2])
 
 ```
@@ -35,7 +35,7 @@ array('i', [1, 2])
 
 **代码:**
 
-```
+```py
 import array as built_in
 array1 = built_in.array('i', [1, 2])
 array1.append(3)
@@ -45,7 +45,7 @@ print(array1)
 
 **输出:**
 
-```
+```py
 array('i', [1, 2, 3, 4])
 
 ```
@@ -64,7 +64,7 @@ python 中的 Numpy 模块一般用于矩阵和数组计算。使用 numpy 模�
 除了对象，其他都是可选的。而对象是数组，任何暴露数组接口的对象，其 *__array__* 方法返回数组或任何(嵌套)序列的对象。而 dtype 是数组所需数据类型。
 T3】代号:
 
-```
+```py
 import numpy
 array1 = numpy.array([1, 2, 3])
 print(array1)
@@ -72,7 +72,7 @@ print(array1)
 
 **输出:**
 
-```
+```py
 [1 2 3]
 
 ```
@@ -81,7 +81,7 @@ print(array1)
 
 **代码:**
 
-```
+```py
 import numpy
 array1 = numpy.array([1, 2, 3], int)
 print(array1, type(array1[0]))
@@ -89,7 +89,7 @@ print(array1, type(array1[0]))
 
 **输出:**
 
-```
+```py
 [1 2 3] 
 
 ```
@@ -100,7 +100,7 @@ print(array1, type(array1[0]))
 
 **代码:**
 
-```
+```py
 import numpy
 array1 = numpy.array([1.5, 2.5], int)
 print(array1, type(array1[0]), type(array1[1]))
@@ -108,7 +108,7 @@ print(array1, type(array1[0]), type(array1[1]))
 
 **输出:**
 
-```
+```py
 [1 2]  
 
 ```
@@ -116,7 +116,7 @@ print(array1, type(array1[0]), type(array1[1]))
 这里浮点数据被类型化为 int，当数组的期望数据类型是 int 时，小数点后的数据丢失。
 **代号:**
 
-```
+```py
 import numpy
 array1 = numpy.array([1.5, 2.5], str)
 print(array1, type(array1[0]), type(array1[1]))
@@ -124,7 +124,7 @@ print(array1, type(array1[0]), type(array1[1]))
 
 **输出:**
 
-```
+```py
 ['1.5' '2.5']  
 
 ```
@@ -139,7 +139,7 @@ print(array1, type(array1[0]), type(array1[1]))
 
 **代码:**
 
-```
+```py
 import array as built_in
 array1 = built_in.array('i', [1, 2])
 print(array1)
@@ -149,7 +149,7 @@ print(array1.itemsize)
 
 **输出:**
 
-```
+```py
 array('i', [1, 2])
 i
 4

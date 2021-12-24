@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.fill()函数**用于绘制填充多�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.fill(self, *args, data=None, **kwargs)
 > ```
 > 
@@ -25,7 +25,7 @@ matplotlib 库的 Axes 模块中的 **Axes.fill()函数**用于绘制填充多�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -46,7 +46,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

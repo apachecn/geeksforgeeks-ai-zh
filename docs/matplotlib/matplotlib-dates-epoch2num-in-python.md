@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 import random
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 from tkinter import *
 from tkinter import ttk
 import time 

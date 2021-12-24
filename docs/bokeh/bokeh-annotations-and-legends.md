@@ -16,7 +16,7 @@ legend_label 参数用于向任何一个标志符号添加基本标签。
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.plotting import figure, output_file, show
 
 x = [val for val in range(10)]
@@ -41,7 +41,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.plotting import figure, output_file, show
 from bokeh.models import ColumnDataSource
 
@@ -69,7 +69,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.plotting import figure, output_file, show
 
 p = figure()

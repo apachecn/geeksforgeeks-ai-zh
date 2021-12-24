@@ -16,7 +16,7 @@
 
 **代码#1:** 工作
 
-```
+```py
 # stats.signaltonoise() method 
 import numpy as np
 from scipy import stats
@@ -53,7 +53,7 @@ print ("\nsignaltonoise ratio for arr1 : ", 
 
 **代码#2 :** 如何实现
 
-```
+```py
 def signaltonoise(a, axis, ddof):
     a = np.asanyarray(a)
     m = a.mean(axis)

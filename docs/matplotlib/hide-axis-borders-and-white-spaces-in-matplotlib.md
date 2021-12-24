@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,7 +68,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Hiding Y-axis label
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Hiding X-axis
 import numpy as np
 import matplotlib.pyplot as plt

@@ -20,7 +20,7 @@ Pandas `**Series.fillna()**`功能用于使用指定的方法填充 NA/NaN 值�
 
 **示例#1:** 使用`Series.fillna()`函数填写给定序列对象中缺失的值。使用字典传递对应于系列对象中不同索引标签的要填充的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.fillna()`函数来填充给定序列对象中缺失的值。
 
-```
+```py
 # fill the values using dictionary
 result = sr.fillna(value = {'City 4' : 'Lisbon', 'City 1' : 'Dublin'})
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例 2 :** 使用向前填充(ffill)方法，使用`Series.fillna()`函数填充给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 ![](img/e2d47e4a4438dcf15b61e0cffe195b80.png)
 现在我们将使用`Series.fillna()`函数来填充给定序列对象中缺失的值。我们将使用正向填充方法来填充缺失的值。
 
-```
+```py
 # fill the values using forward fill method
 result = sr.fillna(method = 'ffill')
 

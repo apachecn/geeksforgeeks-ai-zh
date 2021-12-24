@@ -13,7 +13,7 @@
 
 **代码#1:** 显示文件的全部内容，各列用“，”分隔
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -25,7 +25,7 @@ pd.read_table('nba.csv',delimiter=',')
 
 **代码#2:** 跳过没有索引的行
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -39,7 +39,7 @@ pd.read_table('nba.csv',delimiter=',',skiprows=4,index_col=0)
 
 **代码#3:** 跳过带索引的行
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -51,7 +51,7 @@ pd.read_table('nba.csv',delimiter=',',skiprows=4)
 
 **代码#4:** 如果是大文件，如果你想只读取几行，那么给**指定需要的行数**。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -63,7 +63,7 @@ pd.read_table('nba.csv',delimiter=',',index_col=0,nrows=4)
 
 **代码#5:** 如果你想从文件底部跳过行，那么给**跳过器**所需的行数。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -76,7 +76,7 @@ pd.read_table('nba.csv',delimiter=',',index_col=0,
 
 **代码#6:** 用作列名的行号，数据的开始出现在**标题**中给出的最后一个行号之后。
 
-```
+```py
 # importing pandas
 import pandas as pd
 

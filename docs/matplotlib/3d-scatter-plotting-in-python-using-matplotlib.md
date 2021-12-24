@@ -7,7 +7,7 @@ A **三维散点图**是一种数学图，是三维绘图的最基本版本，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -38,7 +38,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from mpl_toolkits import mplot3d
 import numpy as np

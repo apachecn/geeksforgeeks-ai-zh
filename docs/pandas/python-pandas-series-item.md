@@ -16,7 +16,7 @@ Pandas `**Series.item()**`函数以 python 标量的形式返回给定序列对�
 
 **示例#1:** 使用`Series.item()`函数以标量形式返回给定序列对象的第一个元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.item()`函数返回给定系列对象的第一个元素作为标量。
 
-```
+```py
 # return a scalar
 result = sr.item()
 
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2 :** 使用`Series.item()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.item()`函数返回给定系列对象的第一个元素作为标量。
 
-```
+```py
 # return a scalar
 result = sr.item()
 

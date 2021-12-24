@@ -35,7 +35,7 @@ matplotlib 库的 Axes 模块中的 **Axes.xcorr()函数**用于绘制 x 和 y �
 
 ***例 1:***
 
-```
+```py
 *# Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -71,7 +71,7 @@ plt.show()*
 
 ***例 2:***
 
-```
+```py
 *# Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

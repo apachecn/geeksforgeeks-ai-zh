@@ -15,7 +15,7 @@
 **示例#1:**
 在这个示例中我们可以看到，借助`**.resize()**`方法，我们已经将数组的形状从 **1×6** 更改为 **2×3** 。
 
-```
+```py
 # importing the python module numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]]
 
@@ -39,7 +39,7 @@ print(gfg)
 **示例#2:**
 在这个示例中，我们可以看到，我们正在尝试调整该形状数组的大小，该形状属于越界值类型。但是当数组中没有值时，numpy 会处理这种情况，在后面加上**零**。
 
-```
+```py
 # importing the python module numpy
 import numpy as np
 
@@ -54,7 +54,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4]
  [5 6 0 0]
  [0 0 0 0]]

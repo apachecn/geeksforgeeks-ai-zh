@@ -14,7 +14,7 @@ Pandas `**TimedeltaIndex.to_pytimedelta()**`函数返回给定的时间增量索
 
 **示例#1:** 使用`TimedeltaIndex.to_pytimedelta()`函数将给定的时间增量索引对象转换为一个数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_pytimedelta()`函数返回一个从给定的时间增量索引对象构造的数组。
 
-```
+```py
 # convert to datetime.timedelta
 tidx.to_pytimedelta()
 ```
@@ -44,7 +44,7 @@ tidx.to_pytimedelta()
 
 **示例 2:** 使用`TimedeltaIndex.to_pytimedelta()`函数将给定的时间增量索引对象转换为数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_pytimedelta()`函数返回一个从给定的时间增量索引对象构造的数组。
 
-```
+```py
 # convert to datetime.timedelta
 tidx.to_pytimedelta()
 ```

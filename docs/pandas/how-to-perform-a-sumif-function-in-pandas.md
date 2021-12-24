@@ -20,7 +20,7 @@ sumif()函数用于对数据框中的一组项目进行求和运算，可以应�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -53,7 +53,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -99,7 +99,7 @@ print(data.groupby('subjects').sum())
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -161,7 +161,7 @@ print(data.groupby('subjects')['external marks'].sum())
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

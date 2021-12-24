@@ -38,7 +38,7 @@ matplotlib 库 pyplot 模块中的 **hist()函数**用于绘制直方图。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np
@@ -75,7 +75,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np

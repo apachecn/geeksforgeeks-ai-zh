@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing cv2 module
 import cv2
 

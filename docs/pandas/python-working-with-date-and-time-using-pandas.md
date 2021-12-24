@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create dates dataframe with frequency 
@@ -27,7 +27,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # Create date and time with dataframe
 data = pd.date_range('1/1/2011', periods = 10, freq ='H')
 
@@ -37,7 +37,7 @@ x.month, x.year
 
 **输出:**
 
-```
+```py
 (9, 2018)
 ```
 
@@ -56,7 +56,7 @@ x.month, x.year
 
 ## 蟒蛇 3
 
-```
+```py
 # Create date and time with dataframe
 rng = pd.DataFrame()
 rng['date'] = pd.date_range('1/1/2011', periods = 72, freq ='H')
@@ -83,30 +83,30 @@ rng.head(3)
 
 ## 蟒蛇 3
 
-```
+```py
 # Input present datetime using Timestamp
 t = pandas.tslib.Timestamp.now()
 t
 ```
 
-```
+```py
 Timestamp('2018-09-18 17:18:49.101496')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Convert timestamp to datetime
 t.to_datetime()
 ```
 
-```
+```py
 datetime.datetime(2018, 9, 18, 17, 18, 49, 101496)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Directly access and print the features
 t.year
 t.month
@@ -116,7 +116,7 @@ t.minute
 t.second
 ```
 
-```
+```py
 2018
 8
 25
@@ -128,7 +128,7 @@ t.second
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 url = 'http://bit.ly/uforeports'
@@ -144,7 +144,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Convert the Time column to datetime format
 df['Time'] = pd.to_datetime(df.Time)
 
@@ -155,12 +155,12 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # shows the type of each column data
 df.dtypes
 ```
 
-```
+```py
 City                       object
 Colors Reported            object
 Shape Reported             object
@@ -171,12 +171,12 @@ dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 # Get hour detail from time data
 df.Time.dt.hour.head()
 ```
 
-```
+```py
 0    22
 1    20
 2    14
@@ -187,12 +187,12 @@ Name: Time, dtype: int64
 
 ## 蟒蛇 3
 
-```
+```py
 # Get name of each date
 df.Time.dt.weekday_name.head()
 ```
 
-```
+```py
 0     Sunday
 1     Monday
 2     Sunday
@@ -203,12 +203,12 @@ Name: Time, dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 # Get ordinal day of the year
 df.Time.dt.dayofyear.head()
 ```
 
-```
+```py
 0    152
 1    181
 2     46

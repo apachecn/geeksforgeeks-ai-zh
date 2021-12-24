@@ -19,7 +19,7 @@
 
 **为了完成这个任务，我们必须导入名为熊猫的库。**
 
-```
+```py
 import pandas as pd
 ```
 
@@ -85,7 +85,7 @@ import pandas as pd
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing the required package
 import pandas as pd
 
@@ -145,7 +145,7 @@ print(merged_dataframe)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing the required package
 import pandas as pd
 # Creating the DataFrame of left side
@@ -204,7 +204,7 @@ print(merged_dataframe)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing the required package
 import pandas as pd
 
@@ -262,7 +262,7 @@ print(merged_dataframe)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing the required package
 import pandas as pd
 
@@ -322,7 +322,7 @@ print(merged_dataframe)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing the required package
 import pandas as pd
 

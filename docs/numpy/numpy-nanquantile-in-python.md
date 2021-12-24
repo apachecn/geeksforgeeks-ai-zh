@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanquantile() method  
 import numpy as np 
@@ -38,7 +38,7 @@ print("Q3 - nanquantile of arr : ", np.nanquantile(arr, .75)) 
 
 **输出:**
 
-```
+```py
 arr : [20, 2, 7, nan, 34]
 
 Q1 - quantile of arr : nan
@@ -53,7 +53,7 @@ Q3 - nanquantile of arr : 23.5
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanquantile() method 
 
@@ -73,7 +73,7 @@ print("0th quantile of arr, axis = None : ", np.nanquantile(arr, 0)) 
 
 **输出:**
 
-```
+```py
 arr : 
 [[14, nan, 12, 33, 44], [15, nan, 27, 8, 19], [23, 2, nan, 1, 4]]
 
@@ -85,7 +85,7 @@ Q2 quantile of arr, axis = None : 14.5
 
 **代码#3:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanquantile() method 
 import numpy as np 
@@ -112,7 +112,7 @@ print("\n0th quantile of arr, axis = 1 : \n",
 
 **输出:**
 
-```
+```py
 arr : 
 [[14, nan, 12, 33, 44], [15, nan, 27, 8, 19], [23, 2, nan, 1, 4]]
 

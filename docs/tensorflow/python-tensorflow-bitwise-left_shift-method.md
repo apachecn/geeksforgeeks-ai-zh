@@ -17,7 +17,7 @@ Tensorflow `bitwise.left_shift()`方法对由输入 b 定义的输入 a 执行 l
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 import tensorflow as tf 
 
 # A constant a and b
@@ -40,7 +40,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_49:0", shape=(), dtype=int32)
 8
 Input 2 Tensor("Const_50:0", shape=(), dtype=int32)
@@ -52,7 +52,7 @@ Output:  Tensor("LeftShift_1:0", shape=(), dtype=int32)
 
 **例 2:**
 
-```
+```py
 import tensorflow as tf 
 
 # A constant a and b
@@ -75,7 +75,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_51:0", shape=(3, ), dtype=int32)
 [ 8 16 32]
 Input 2 Tensor("Const_52:0", shape=(3, ), dtype=int32)

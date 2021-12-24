@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 dataframe.groupby([column names])
 ```
 
@@ -34,7 +34,7 @@ dataframe.groupby([column names])
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

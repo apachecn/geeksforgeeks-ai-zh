@@ -37,13 +37,13 @@ x 表示 x 轴，y 表示 y 轴。
 
 **语法:**
 
-```
+```py
 seaborn.countplot(x)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 
 import seaborn as sns
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 
 import seaborn as sns
@@ -99,7 +99,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 
 import seaborn as sns
@@ -129,7 +129,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 
 import seaborn as sns
@@ -177,7 +177,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -208,7 +208,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt

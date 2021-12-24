@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import pandas as pd
 import numpy as np
@@ -59,7 +59,7 @@ df.loc[df["gender"] == "male", "gender"] = 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import pandas as pd
 import numpy as np
@@ -94,7 +94,7 @@ Pandas 掩蔽功能用于用条件替换任何行或列的值。现在使用这�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import pandas as pd
 import numpy as np

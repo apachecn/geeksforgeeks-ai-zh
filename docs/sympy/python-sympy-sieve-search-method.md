@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -24,14 +24,14 @@ print("The bounding prime indices of the number 23 : {}, {}".format(i, j))  
 
 **输出:**
 
-```
+```py
 The bounding prime indices of the number 23 : 9, 9
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -43,7 +43,7 @@ print("The bounding prime indices of the number 23 : {}, {}".format(i, j))   
 
 **输出:**
 
-```
+```py
 The bounding prime indices of the number 23 : 9, 10
 
 ```

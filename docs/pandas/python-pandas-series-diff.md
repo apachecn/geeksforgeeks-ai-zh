@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，从 Python 列表创建了两个系列。`diff()`方法在两个序列上调用，一次带正周期，一次带负值传递给周期参数。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -43,7 +43,7 @@ print('Diff with period 2:\n{}\n\
 
 **输出:**
 
-```
+```py
 Diff with period 2:
 0     NaN
 1     NaN

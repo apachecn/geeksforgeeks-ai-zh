@@ -20,7 +20,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.multiply() function
 
@@ -37,7 +37,7 @@ print ("output number : ", out_num) 
 
 **Output :**
 
-```
+```py
 1st Input number :  4
 2nd Input number :  6
 output number :  24
@@ -47,7 +47,7 @@ output number :  24
 **示例#2 :**
 下面的代码也被称为哈达玛乘积，它只不过是两个矩阵的元素乘积。对于对机器学习或统计感兴趣的人来说，它是最常用的产品。
 
-```
+```py
 # Python program explaining
 # numpy.multiply() function
 
@@ -65,7 +65,7 @@ print ("Resultant output array: ", out_arr) 
 
 **Output :**
 
-```
+```py
 1st Input array :  [[ 2 -7  5]
  [-6  2  0]]
 2nd Input array :  [[ 0 -7  8]
@@ -77,7 +77,7 @@ Resultant output array:  [[  0  49  40]
 
 另一个找到相同的方法是
 
-```
+```py
 import numpy as geek
 in_arr1=geek.matrix([[2, -7, 5], [-6, 2, 0]])
 in_arr2 = geek.matrix([[0, -7, 8], [5, -2, 9]])
@@ -91,7 +91,7 @@ print ("Resultant output array: ", out_arr)
 
 **输出:**
 
-```
+```py
 1st Input array :  [[ 2 -7  5]
  [-6  2  0]]
 2nd Input array :  [[ 0 -7  8]

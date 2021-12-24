@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.is_month_end`属性检查给定时间戳对象中的日期是否是一个月的最后一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_month_end`属性来检查 ts 对象中的日期是否是一个月的最后一天。
 
-```
+```py
 # check if the date in ts is last day of the month
 ts.is_month_end
 ```
@@ -44,7 +44,7 @@ ts.is_month_end
 
 **示例#2:** 使用`Timestamp.is_month_end`属性检查给定时间戳对象中的日期是否是一个月的最后一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_month_end`属性来检查 ts 对象中的日期是否是一个月的最后一天。
 
-```
+```py
 # check if the date in ts is last day of the month
 ts.is_month_end
 ```

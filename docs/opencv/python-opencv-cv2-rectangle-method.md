@@ -20,7 +20,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.rectangle() method 
 
 # importing cv2 
@@ -64,7 +64,7 @@ cv2.imshow(window_name, image) 
 
 使用-1 像素的厚度用黑色填充矩形。
 
-```
+```py
 # Python program to explain cv2.rectangle() method 
 
 # importing cv2 

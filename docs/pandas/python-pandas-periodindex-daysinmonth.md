@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the number of days in month
 pidx.daysinmonth
 ```
@@ -49,7 +49,7 @@ pidx.daysinmonth
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the number of days in month
 pidx.daysinmonth
 ```

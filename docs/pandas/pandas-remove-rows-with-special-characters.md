@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # select the rows
 # if Name column
 # has special characters
@@ -42,7 +42,7 @@ print(df[df.Name.str.contains(r'[@#&$%+-/*]')])
 
 ## 蟒蛇 3
 
-```
+```py
 # select the rows
 # if Grade column
 # has special characters

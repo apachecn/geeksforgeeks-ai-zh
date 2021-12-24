@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python3 program explaining
 # degrees() function
 
@@ -31,7 +31,7 @@ print ("\nRadian values : \n", radian_Values)
 
 **输出:**
 
-```
+```py
 Degree values : 
  [   0\.   90\.  180\.  270\.  360\.  450\.  540\.  630\.  720\.  810.]
 
@@ -53,7 +53,7 @@ Radian values :
 
 **代码#2 : deg2rad()相当于弧度()**
 
-```
+```py
 # Python3 program explaining
 # rad2deg() function
 
@@ -69,7 +69,7 @@ print ("\nradian values : \n", radian)
 
 **输出:**
 
-```
+```py
 Degree values : 
  [   0\.   90\.  180\.  270\.  360\.  450\.  540\.  630\.  720\.  810.]
 

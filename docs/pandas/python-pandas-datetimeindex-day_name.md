@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.day_name()`函数返回 DatetimeIndex 对象中每个条目的日期名称。返回法语地区的日期名称
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在我们想要返回法语地区的日期名称。
 
-```
+```py
 # return the names of the days in French
 didx.day_name(locale ='French')
 ```
@@ -43,7 +43,7 @@ didx.day_name(locale ='French')
 
 让我们用英语返回日子的名称
 
-```
+```py
 # return the names of the days in English
 didx.day_name(locale ='English')
 ```
@@ -53,7 +53,7 @@ didx.day_name(locale ='English')
 
 **示例#2:** 使用`DatetimeIndex.day_name()`函数返回 DatetimeIndex 对象中每个条目的日期名称。返回德语地区的日期名称
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(didx)
 
 现在，我们想要返回德国地区的日期名称。
 
-```
+```py
 # return the names of the days in German
 didx.day_name(locale ='German')
 ```

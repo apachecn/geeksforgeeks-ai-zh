@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import divisor_count() method from sympy
 from sympy import divisor_count
 
@@ -28,14 +28,14 @@ print("The number of divisors of {} : {}".format(n, divisor_count_n))
 
 **输出:**
 
-```
+```py
 The number of divisors of 84 : 12
 
 ```
 
 **例 2:**
 
-```
+```py
 # import divisor_count() method from sympy
 from sympy import divisor_count
 
@@ -49,7 +49,7 @@ print("The number of divisors of {} : {}".format(n, divisor_count_n))
 
 **输出:**
 
-```
+```py
 The number of divisors of 12 : 4
 
 ```

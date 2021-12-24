@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.seconds`属性找出时间增量索引对象的每个条目的秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将打印对象每个条目中的秒数。
 
-```
+```py
 # find number of seconds for each element
 tidx.seconds
 ```
@@ -40,7 +40,7 @@ tidx.seconds
 
 **示例 2:** 使用`TimedeltaIndex.seconds`属性找出 TimedeltaIndex 对象每个条目的秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将打印对象每个条目中的秒数。
 
-```
+```py
 # find number of seconds for each element
 tidx.seconds
 ```

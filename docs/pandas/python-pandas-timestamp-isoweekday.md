@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.isoweekday()`函数在给定的 Timestamp 对象中查找日期的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isoweekday()`函数在 ts 对象中查找日期的星期几。
 
-```
+```py
 # return the day of the week
 ts.isoweekday()
 ```
@@ -45,7 +45,7 @@ ts.isoweekday()
 
 **示例 2:** 使用`Timestamp.isoweekday()`函数在给定的时间戳对象中查找日期的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isoweekday()`函数在 ts 对象中查找日期的星期几。
 
-```
+```py
 # return the day of the week
 ts.isoweekday()
 ```

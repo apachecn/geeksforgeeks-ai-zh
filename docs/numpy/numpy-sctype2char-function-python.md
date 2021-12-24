@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.sctype2char() function
 
@@ -28,14 +28,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 D
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.sctype2char() function
 
@@ -49,7 +49,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 0
 
 ```

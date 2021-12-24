@@ -10,7 +10,7 @@
 
 **代码#1 : next_nonlex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_nonlex()
 
@@ -36,7 +36,7 @@ print ("Permutation b - next_nonlex form : ", b.next_nonlex())
 
 **代码#2 : next_nonlex()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_nonlex()
 

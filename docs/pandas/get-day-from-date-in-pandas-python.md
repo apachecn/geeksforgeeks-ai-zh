@@ -8,7 +8,7 @@
 
 **示例 1 :** Pandas.dt_range 将输入作为日期范围，并返回固定频率的 DatetimeIndex。Series.dt.dayofweek 返回一周中从 0 到 6 的一天，其中 0 表示星期一，6 表示星期日。
 
-```
+```py
 import pandas as pd
 
 date = pd.date_range('2018-12-30', '2019-01-07',
@@ -21,7 +21,7 @@ date.dt.dayofweek
 
 **例 2 :** 熊猫。DataFrame 充当系列对象的 dict 类型容器。pandas.to_datetime 将输入转换为 datetime。
 
-```
+```py
 import pandas as pd
 
 date = pd.DataFrame({'inputDate':['2020-07-07']})
@@ -36,7 +36,7 @@ date
 
 **示例 3 :** 对于多个输入日期。
 
-```
+```py
 import pandas as pd
 
 date = pd.DataFrame({'inputDates':['2015-01-07', '2015-12-02',
@@ -56,7 +56,7 @@ date
 
 **示例 4 :** 为了以特定格式打印日期。
 
-```
+```py
 import pandas as pd
 
 date = pd.DataFrame({'inputDates':['1999-7-14', '1998-12-14', 
@@ -78,7 +78,7 @@ date
 
 **示例 5 :** 将输入作为日期范围，并打印它们的名称以及给定的数字(0-6)。
 
-```
+```py
 import pandas as pd
 
 myDate = pd.DataFrame({'inputDates':list(pd.date_range('2018-12-30',

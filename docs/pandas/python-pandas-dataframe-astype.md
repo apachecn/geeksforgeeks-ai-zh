@@ -26,7 +26,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 转换权重列数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ df[:10]
 
 因为数据有一些“nan”值，所以为了避免任何错误，我们将删除所有包含任何`nan` 值的行。
 
-```
+```py
 # drop all those rows which 
 # have any 'nan' value in it.
 df.dropna(inplace = True)
@@ -51,7 +51,7 @@ df.dropna(inplace = True)
 
 ![](img/dafc4cf788fe5320db61c511e201fef8.png)
 
-```
+```py
 # let's find out the data type of Weight column
 before = type(df.Weight[0])
 
@@ -72,7 +72,7 @@ after
 ![](img/95a08158d9ec81b581c9b04a9d2ffa33.png)
 ![](img/1e15a43997820fc8d586578a6b8d8d30.png)
 
-```
+```py
 # print the data frame and see
 # what it looks like after the change
 df
@@ -84,7 +84,7 @@ df
 
 将`Name` 列改为分类类型，`Age` 列改为 int64 类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -103,7 +103,7 @@ df.info()
 
 现在让我们一次更改两个列的数据类型。
 
-```
+```py
 # Passed a dictionary to astype() function 
 df = df.astype({"Name":'category', "Age":'int64'})
 
@@ -115,7 +115,7 @@ df.info()
 **输出:**
 ![](img/ee1815b48ffd0eaedbefecab37599237.png)
 
-```
+```py
 # print the data frame
 # too after the change
 df

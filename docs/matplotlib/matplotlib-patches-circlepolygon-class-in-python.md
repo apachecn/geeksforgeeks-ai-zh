@@ -54,7 +54,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import CirclePolygon
 
@@ -78,7 +78,7 @@ plt.show()
 ![](img/4d7134590f7da3035a0fef5973ec22ac.png)
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib
 from matplotlib.patches import Circle, Wedge, Polygon, Ellipse

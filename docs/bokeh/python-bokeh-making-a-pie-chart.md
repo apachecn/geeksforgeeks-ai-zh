@@ -10,7 +10,7 @@ Bokeh 是一个 Python 交互式数据可视化工具。它使用 HTML 和 JavaS
 
 **例 1 :**
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -54,7 +54,7 @@ show(graph)
 
 **示例 2 :** 在他的示例中，我们将可视化一些数据。在数据中，我们提供了 2017-2018 年 GVA 在印度的行业份额。这些股份是:
 
-```
+```py
 Agriculture - 17.1%
 Industry - 29.1%
 Services - 53.8%
@@ -63,11 +63,11 @@ Services - 53.8%
 
 要找到`start_angle` 和`end_angle` ，我们需要使用以下公式将百分比转换为弧度:
 
-```
+```py
 math.radians((percent / 100) * 360)
 ```
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 import math

@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.dropna()`函数删除给定时间增量索引对象中所有缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.dropna()`函数从 tidx 对象中删除所有丢失的值。
 
-```
+```py
 # drop all missing values
 tidx.dropna()
 ```
@@ -43,7 +43,7 @@ tidx.dropna()
 
 **示例 2:** 使用`TimedeltaIndex.dropna()`函数删除给定时间增量索引对象中所有缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.dropna()`函数从 tidx 对象中删除所有丢失的值。
 
-```
+```py
 # drop all missing values
 tidx.dropna()
 ```

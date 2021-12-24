@@ -27,7 +27,7 @@ k-NN 是机器学习中最基本的分类算法之一。它属于机器学习的
 
 人脸检测. py
 
-```
+```py
 # this file is used to detect face 
 # and then store the data of the face
 import cv2
@@ -119,7 +119,7 @@ cv2.destroyAllWindows()
 
 **npwriter . py–**创建/更新。' csv ':文件
 
-```
+```py
 import pandas as pd
 import numpy as np
 import os.path
@@ -151,7 +151,7 @@ def write(name, data):
 
 **人脸识别器**
 
-```
+```py
 # this one is used to recognize the 
 # face after training the model with
 # our data stored using knn

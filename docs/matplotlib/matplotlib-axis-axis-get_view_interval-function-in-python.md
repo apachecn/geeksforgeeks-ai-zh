@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_view_interval()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ plt.show()
 
 ![](img/33bd1cebd0d819ce3f00cdf9c52077f7.png)
 
-```
+```py
 Value return by get_view_interval() :
 [-0.62831853 13.19468915]
 
@@ -61,7 +61,7 @@ Value return by get_view_interval() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt
@@ -91,7 +91,7 @@ plt.show()
 
 ![](img/1a6cba4aedba15ad9d2bf51f8b4c76d6.png)
 
-```
+```py
 Value return by get_view_interval() :
 [-22\.  22.]
 

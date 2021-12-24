@@ -10,7 +10,7 @@
 
 **代码#1 : next_lex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_lex()
 
@@ -36,7 +36,7 @@ print ("Permutation b - next_lex form : ", b.next_lex())
 
 **代码#2 : next_lex()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_lex()
 

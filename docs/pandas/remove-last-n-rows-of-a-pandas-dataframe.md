@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 
@@ -115,7 +115,7 @@ print(df_dropped_last_n)
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Required Libraries
 import pandas as pd
 
@@ -152,7 +152,7 @@ print(df1)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Required Libraries
 import pandas as pd
 

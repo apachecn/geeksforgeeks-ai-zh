@@ -27,7 +27,7 @@ XT picks()和 yticks()是一个函数，它允许我们通过以列表的形式�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import pandas as pd
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Setting x and y values for the plot
 x = [1, 2, 3, 4]
 y = [7, 13, 24, 22]
@@ -103,7 +103,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Setting x and y values for the plot
 x = [1, 2, 3, 4]
 y = [7, 13, 24, 22]

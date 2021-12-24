@@ -14,7 +14,7 @@ OpenCV 有时有助于控制和管理不同类型的鼠标事件，并为我们�
 
 **代码:**
 
-```
+```py
 import cv2
 
 # read image

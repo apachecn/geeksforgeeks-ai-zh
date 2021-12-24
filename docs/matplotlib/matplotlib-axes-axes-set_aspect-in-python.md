@@ -9,7 +9,7 @@
 **轴类**包含大部分图形元素:轴、刻度、线 2D、文本、多边形等。，并设置坐标系。Axes 的实例通过回调属性支持回调。
 **#样本代码**
 
-```
+```py
 # Implementation of matplotlib function
 
 import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_aspect()函数**用于设置轴�
 
 **示例-1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -85,7 +85,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

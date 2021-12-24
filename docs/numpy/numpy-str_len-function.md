@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.str_len() method 
 
@@ -29,7 +29,7 @@ print ("Output array containing length: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['geeks for geeks']
 Output array containing length:  [15]
 
@@ -37,7 +37,7 @@ Output array containing length:  [15]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.str_len() method 
 
@@ -55,7 +55,7 @@ print ("Output array containing length: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Numpy' 'Python' 'Pandas']
 Output array containing length:  [5 6 6]
 

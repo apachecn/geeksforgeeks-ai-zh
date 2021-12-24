@@ -9,7 +9,7 @@
 
 **代码#1:交换 _ 动词 _ 短语类交换动词**
 
-```
+```py
 def swap_verb_phrase(chunk):
     def vbpred(wt):
         word, tag = wt
@@ -25,14 +25,14 @@ def swap_verb_phrase(chunk):
 
 **代码#2:评估 swap _ 动词 _ 短语**
 
-```
+```py
 swap_verb_phrase([('the', 'DT'), ('book', 'NN'),
                ('was', 'VBD'), ('great', 'JJ')])
 ```
 
 **输出:**
 
-```
+```py
 [('great', 'JJ'), ('the', 'DT'), ('book', 'NN')]
 
 ```
@@ -41,7 +41,7 @@ swap_verb_phrase([('the', 'DT'), ('book', 'NN'),
 
 **代码#3 :**
 
-```
+```py
 swap_verb_phrase([('this', 'DT'), 
                   ('gripping', 'VBG'), ('book', 'NN'), 
                   ('is', 'VBZ'), ('fantastic', 'JJ')])
@@ -49,7 +49,7 @@ swap_verb_phrase([('this', 'DT'), 
 
 **输出:**
 
-```
+```py
 [('fantastic', 'JJ'), ('this', 'DT'), ('gripping', 'VBG'), ('book', 'NN')]
 
 ```
@@ -59,7 +59,7 @@ swap_verb_phrase([('this', 'DT'), 
 
 **代码#4:交换名词红雀**
 
-```
+```py
 swap_noun_cardinal([('Dec.', 'NNP'), ('10', 'CD')])
 
 swap_noun_cardinal([('the', 'DT'), ('top', 'NN'), ('10', 'CD')])
@@ -67,7 +67,7 @@ swap_noun_cardinal([('the', 'DT'), ('top', 'NN'), ('10', 'CD')])
 
 **输出:**
 
-```
+```py
 [('10', 'CD'), ('Dec.', 'NNP')]
 
 [('the', 'DT'), ('10', 'CD'), ('top', 'NN')]

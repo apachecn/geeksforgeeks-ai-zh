@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.nanprod() function
 
@@ -34,7 +34,7 @@ print ("product of array element : ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 product of array element :  10
 
@@ -42,7 +42,7 @@ product of array element :  10
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nanprod function
 
@@ -58,7 +58,7 @@ print ("product of array elements: ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 product of array elements:  32.0
@@ -67,7 +67,7 @@ product of array elements:  32.0
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.nanprod function
 
@@ -83,7 +83,7 @@ print ("product of array elements taking axis 1: ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 product of array elements taking axis 1:  [ 8\.  4.]

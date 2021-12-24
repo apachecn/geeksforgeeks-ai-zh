@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Figure instance with label => label
@@ -52,7 +52,7 @@ assert fig == fig2
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # plotting a yellow background
@@ -78,7 +78,7 @@ plt.plot([2.5, 1, 2.5, 4, 2.5],
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.plot([2.5, 1, 2.5, 4, 2.5],
@@ -97,7 +97,7 @@ plt.plot([1, 2, 3, 4], [1, 2, 3, 4])
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.plot([2.5, 1, 2.5, 4, 2.5],
@@ -123,7 +123,7 @@ figure()返回一个 Figure 实例，下一个示例只是验证了这个事实�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # the type comes out as Figure Instance.

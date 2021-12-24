@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 ar1 = np.array([0, 1, 2, 3, 4])
@@ -26,7 +26,7 @@ print(np.intersect1d(ar1, ar2))
 
 **输出:**
 
-```
+```py
 [1,3,4]
 
 ```
@@ -35,7 +35,7 @@ print(np.intersect1d(ar1, ar2))
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 ar1 = np.array([12, 14, 15, 16, 17])
@@ -47,7 +47,7 @@ print(np.intersect1d(ar1, ar2))
 
 **输出:**
 
-```
+```py
 [12]
 
 ```

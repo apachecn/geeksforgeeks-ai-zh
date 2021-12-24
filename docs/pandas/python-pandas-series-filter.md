@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.filter()`函数使用正则表达式过滤掉给定序列对象中的一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.filter()`函数从给定的序列对象中过滤那些值，该序列对象的索引标签名称中有一个空格。
 
-```
+```py
 # filter values
 result = sr.filter(regex = '. .')
 
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2 :** 使用`Series.filter()`函数，使用索引标签列表过滤出给定序列对象中的一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 ![](img/1072adfc33879961ad66d0685cab78fc.png)
 现在我们使用`Series.filter()`函数过滤给定序列对象中传递的索引标签对应的值。
 
-```
+```py
 # filter values
 result = sr.filter(items = ['City 2', 'City 4'])
 

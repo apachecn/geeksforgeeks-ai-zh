@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # using numpy
 import numpy as np
 
@@ -50,7 +50,7 @@ print("mod_arr :", *mod_arr)
 
 **输出:**
 
-```
+```py
 arr     : 1 2 3 4 5 6 7 8 9 10
 mod_arr : 1 0 1 0 1 0 1 0 1 0
 ```

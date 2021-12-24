@@ -7,7 +7,7 @@ Pandas.melt()将数据帧从宽格式取消固定为长格式。
 **melt()** 函数用于将数据框消息转换为一种格式，其中一列或多列是标识符变量，而所有其他被认为是测量变量的列被取消固定到行轴，只留下两个非标识符列，变量和值。
 语法:
 
-```
+```py
 pandas.melt(frame, id_vars=None, value_vars=None,
  var_name=None, value_name='value', col_level=None)
 ```
@@ -25,7 +25,7 @@ pandas.melt(frame, id_vars=None, value_vars=None,
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd
@@ -42,7 +42,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Name is id_vars and Course is value_vars
 pd.melt(df, id_vars =['Name'], value_vars =['Course'])
 ```
@@ -51,7 +51,7 @@ pd.melt(df, id_vars =['Name'], value_vars =['Course'])
 
 ## 蟒蛇 3
 
-```
+```py
 # multiple unpivot columns
 pd.melt(df, id_vars =['Name'], value_vars =['Course', 'Age'])
 ```
@@ -60,7 +60,7 @@ pd.melt(df, id_vars =['Name'], value_vars =['Course', 'Age'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Names of ‘variable’ and ‘value’ columns can be customized
 pd.melt(df, id_vars =['Name'], value_vars =['Course'],
               var_name ='ChangedVarname', value_name ='ChangedValname')

@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的 **draw()方法**用于使用给定的渲�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 from mpl_toolkits.mplot3d import axes3d  
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 from mpl_toolkits.mplot3d import axes3d  

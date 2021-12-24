@@ -10,7 +10,7 @@ Python OpenCV 的 **waitkey()函数**允许用户在给定的毫秒内显示一�
 
 ## 【蟒蛇】
 
-```
+```py
 # importing cv2 module
 import cv2
 

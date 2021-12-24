@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd
@@ -50,7 +50,7 @@ print(Mydataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd
@@ -80,7 +80,7 @@ display(Mydataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd
@@ -112,7 +112,7 @@ display(Mydataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd
@@ -144,7 +144,7 @@ display(Mydataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd

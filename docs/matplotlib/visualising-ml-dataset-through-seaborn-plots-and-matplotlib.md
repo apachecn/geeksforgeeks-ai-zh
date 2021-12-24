@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -34,7 +34,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ dataset.Age[(dataset["Age"] >= 20) & (dataset["Age"] <= 40)].count()
 
 输出:
 
-```
+```py
 26
 ```
 
@@ -55,7 +55,7 @@ dataset.Age[(dataset["Age"] >= 20) & (dataset["Age"] <= 40)].count()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -75,7 +75,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -91,7 +91,7 @@ dataset.Age[((dataset["Fare"] >= 100) &
 
 输出:
 
-```
+```py
 16
 ```
 
@@ -99,7 +99,7 @@ dataset.Age[((dataset["Fare"] >= 100) &
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -120,7 +120,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -144,7 +144,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -162,7 +162,7 @@ dataset.Gender[((dataset["Age"] >= 12) &
 
 输出:
 
-```
+```py
 17
 15
 ```
@@ -173,7 +173,7 @@ dataset.Gender[((dataset["Age"] >= 12) &
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -198,7 +198,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -222,7 +222,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -249,7 +249,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -272,7 +272,7 @@ plt.figure()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules and dataset
 import pandas as pd
 import matplotlib.pyplot as plt

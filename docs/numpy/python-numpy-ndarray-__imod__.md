@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到我们通过`ndarray.__imod__()`方法传递的值用于对数组的每个元素执行 mod 操作。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__imod__(2))
 
 **Output:**
 
-```
+```py
 [ 1\.   0.5  1\.   0.8  1\. ]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__imod__(3))
 
 **Output:**
 
-```
+```py
 [[ 1\.    2\.    0\.    1.45  2\.  ]
  [ 0\.    2.5   1\.    0\.    2.62]]
 

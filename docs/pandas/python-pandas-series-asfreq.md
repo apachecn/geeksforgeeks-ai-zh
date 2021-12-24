@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.asfreq()`功能更改给定序列对象的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00     8
 2011-01-31 08:45:00    18
 2011-02-28 08:45:00    65
@@ -53,7 +53,7 @@ Freq: M, dtype: float64
 
 现在我们使用`Series.asfreq()`功能将给定系列对象的频率改为季度。
 
-```
+```py
 # change to quarterly frequency
 result = sr.asfreq(freq = 'Q')
 
@@ -63,7 +63,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00     8
 2011-03-31 08:45:00    18
 2011-06-30 08:45:00     5
@@ -74,7 +74,7 @@ Freq: Q-DEC, dtype: float64
 
 **示例 2 :** 使用`Series.asfreq()`功能将给定系列对象的年度频率更改为 3 年的批次。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -111,7 +111,7 @@ Freq: A-DEC, dtype: float64
 
 现在，我们将使用`Series.asfreq()`功能将给定系列对象的年度频率更改为 3 年的批次。
 
-```
+```py
 # apply year batch frequency
 result = sr.asfreq(freq = '3Y')
 
@@ -121,7 +121,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2013-12-31 08:45:00    18.0
 2016-12-31 08:45:00    32.0

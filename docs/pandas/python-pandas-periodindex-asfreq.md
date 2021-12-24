@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`PeriodIndex.asfreq()`功能将给定周期索引对象的频率转换为指定的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.asfreq()`函数将给定 PeriodIndex 对象的时间序列频率转换为指定频率。
 
-```
+```py
 # convert the frequency
 # 'M' stands for monthly frequency
 pidx.asfreq('M')
@@ -48,7 +48,7 @@ pidx.asfreq('M')
 
 **示例 2:** 使用`PeriodIndex.asfreq()`函数将给定周期索引对象的频率转换为指定的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.asfreq()`函数将给定 PeriodIndex 对象的时间序列频率转换为指定频率。
 
-```
+```py
 # convert the frequency
 # 'Y' stands for yearly frequency
 pidx.asfreq('Y')

@@ -21,7 +21,7 @@
 以下示例说明了 matplotlib . axes . sublotbase()类在 matplotlib.axes:
 **示例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import SubplotZero
@@ -47,7 +47,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import Subplot

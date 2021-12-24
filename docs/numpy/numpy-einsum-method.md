@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 array1 = np.array([1, 2, 3])
@@ -32,7 +32,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 [1 2 3]
 [4 5 6]
 32
@@ -43,7 +43,7 @@ print(r)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 ar1 = np.arange(9).reshape(3, 3)
@@ -63,7 +63,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 [[0 1 2]
  [3 4 5]
  [6 7 8]]

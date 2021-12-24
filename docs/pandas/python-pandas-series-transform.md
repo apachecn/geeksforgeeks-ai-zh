@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.transform()`函数变换给定系列对象的元素。在每个城市名称的末尾添加“_City”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 现在我们将使用`Series.transform()`函数在每个城市名称的末尾追加“_City”。
 
-```
+```py
 # append '_City'
 sr.transform(lambda x : x + '_City')
 ```
@@ -54,7 +54,7 @@ sr.transform(lambda x : x + '_City')
 
 **示例 2:** 使用`Dataframe.transform()`函数转换给定数据帧的数据。每连门票费用增加 1000。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(df)
 
 现在我们将使用`Dataframe.transform()`功能增加 1000 的门票费用
 
-```
+```py
 # transform the 'Cost' column
 df['Cost'] = df['Cost'].transform(lambda x : x + 1000)
 

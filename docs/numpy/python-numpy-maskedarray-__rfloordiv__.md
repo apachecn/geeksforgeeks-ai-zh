@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到在应用 MaskedArray 之后。__rfloordiv__()，我们得到了数组中每个元素的底值。此方法对于数组的正、负和浮点值都很有效。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,14 +24,14 @@ print(gfg.__rfloordiv__(2)) 
 
 **Output:**
 
-```
+```py
 [2.0 0.0 0.0 0.0 0.0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -45,7 +45,7 @@ print(gfg.__rfloordiv__(3)) 
 
 **Output:**
 
-```
+```py
 [[3.0 1.0 1.0 0.0 0.0]
  [0.0 0.0 0.0 1.0 1.0]]
 

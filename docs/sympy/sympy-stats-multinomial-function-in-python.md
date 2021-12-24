@@ -6,7 +6,7 @@
 
 多项式分布是多项式实验结果的概率分布。
 
-```
+```py
 Syntax: sympy.stats.Multinomial(syms, n, p)
 
 Parameters: 
@@ -22,7 +22,7 @@ Returns: a discrete random variable with Multinomial Distribution
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Multinomial, density, symbols
 from sympy.stats.joint_rv_types import Multinomial
 from sympy.stats import density
@@ -40,7 +40,7 @@ pprint(multiDist)
 
 **输出:**
 
-```
+```py
 /    x1   x2   x3                      
 |6*p1  *p2  *p3                        
 |----------------  for x1 + x2 + x3 = 3
@@ -55,7 +55,7 @@ pprint(multiDist)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Multinomial, density, symbols
 from sympy.stats.joint_rv_types import Multinomial
 from sympy.stats import density
@@ -72,7 +72,7 @@ pprint(multiDist)
 
 **输出:**
 
-```
+```py
 /     x1  x3                      
 | 24*0  *0                        
 |-----------  for x1 + x2 + x3 = 4

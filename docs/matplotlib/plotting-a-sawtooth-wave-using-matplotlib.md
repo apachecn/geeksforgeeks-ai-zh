@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plot
 import numpy as np

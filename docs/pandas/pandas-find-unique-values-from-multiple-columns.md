@@ -12,7 +12,7 @@ Pandas 系列又名 columns 有一个独特的()方法，它只从一个列中�
 
 ## 蟒 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -49,7 +49,7 @@ print(f"Unique Values from 3 Columns:\
 
 ## 蟒 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -81,7 +81,7 @@ print(np.unique(df[['LastName', 'FirstName']].values))
 
 ## 蟒 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

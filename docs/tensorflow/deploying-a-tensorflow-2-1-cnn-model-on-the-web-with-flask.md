@@ -9,30 +9,30 @@
 **创建模型**
 首先，我们将不得不使用 TensorFlow 和 Keras 的 ImageDataGenerator 来训练我们的模型。为此，我们分别下载了 12500 张猫的图片和 12500 张狗的图片。要使用 ImageDataGenerator 训练模型，首先安装`keras`和`tensorflow`，
 
-```
+```py
 pip install keras
 ```
 
-```
+```py
 pip install tensorflow
 ```
 
 我们使用`InceptionV3`模型的迁移学习训练了一个模型。有关迁移学习的教程，请访问[此链接。](https://machinelearningmastery.com/how-to-use-transfer-learning-when-developing-convolutional-neural-network-models/)模型训练完成后，我们需要执行以下命令，为训练好的模型创建一个模型文件夹。(在 TensorFlow 2.0 之前，创建的是模型文件，而不是模型文件夹)。
 
-```
+```py
 model.save('Name_of_model')
 ```
 
 **创建烧瓶应用程序**
 然后，我们将不得不安装烧瓶。Flask 是 Python 中的一个微框架，广泛用于在网络上部署 ML 模型，我们将不得不使用以下命令安装 flask。
 
-```
+```py
 pip install flask
 ```
 
 来到我们想要建立的网页。创建一个 HTML 页面根据您的喜好，我们已经创建了一个基本的网页，带有一个上传图像的按钮和一个预测图像是什么的按钮。这段代码将图像作为发布请求发送，并将其存储在“上传/图像/”文件夹中，在此进行预测。来自堆栈溢出的[舒巴姆·纳伊克](https://stackoverflow.com/questions/42825157/upload-an-image-and-display-it-back-as-a-response-using-flask)的礼遇。代码分为两个文件，即. js 文件和. html 文件。将下面的代码复制到名为`upload.html`的文件中，并保存在名为 templates 的文件夹中。
 
-```
+```py
 <!DOCTYPE html>
 
 <html>
@@ -75,7 +75,7 @@ pip install flask
 
 将下面的代码复制到一个名为`upload.js`的文件中，并保存在一个名为 static 的文件夹中。
 
-```
+```py
 function readURL(input) {
 if (input.files && input.files[0]) {
     var reader = new FileReader();
@@ -94,13 +94,13 @@ if (input.files && input.files[0]) {
 
 完成此操作后，我们将需要`ImageDataGenerator`对训练后的图像进行预测。首先，我们将使用加载模型
 
-```
+```py
 model = tf.keras.models.load_model('Name_of_model')
 ```
 
 然后，我们需要导入 ImageDataGenerator。现在，来看看烧瓶的代码。将下面的代码复制到一个`Code.py`文件中，放在根目录下。完整的 Python 代码如下:-
 
-```
+```py
 from flask import Flask, render_template, request
 from werkzeug import secure_filename
 from keras.preprocessing.image import ImageDataGenerator
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
 最后，我们需要为最终的预测渲染一个 html 页面。复制下面的代码，并将其保存为`pred.html`放在模板文件夹中。
 
-```
+```py
 <!DOCTYPE html>
 
 <html>

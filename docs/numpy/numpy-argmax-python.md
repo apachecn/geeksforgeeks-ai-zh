@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```py
 numpy.argmax(array, axis = None, out = None)
 ```
 
 **参数:**
 
-```
+```py
 array : Input array to work on 
 axis  : [int, optional]Along a specified axis like 0 or 1
 out   : [array optional]Provides a feature to insert output to the out
@@ -23,7 +23,7 @@ out   : [array optional]Provides a feature to insert output to the out
 
 **返回:**
 
-```
+```py
 Array of indices into the array with same shape as array.shape
  with the dimension along axis removed.
 ```
@@ -32,7 +32,7 @@ Array of indices into the array with same shape as array.shape
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmax()
 
@@ -53,7 +53,7 @@ print("\nIndices of Max element : ", geek.argmax(array, axis=1))
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [[ 0  1  2  3]
  [ 4  5  6  7]
@@ -70,7 +70,7 @@ Indices of Max element :  [3 3 3]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmax()
 
@@ -110,7 +110,7 @@ print("\nIndices of Max element : ", geek.argmax(array, axis = 1))
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [[ 0  3  8 13]
   [12 11  2 11]
@@ -128,7 +128,7 @@ Indices of Max element :  [3 0 1 1]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmax()
 
@@ -150,7 +150,7 @@ print("\nMAX ELEMENT INDICES : ", geek.argmax(array, axis = 0))
 
 **输出:**
 
-```
+```py
 array : 
  [[0 1 2 3 4]
  [5 6 7 8 9]]

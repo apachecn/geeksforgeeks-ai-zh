@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 
@@ -50,7 +50,7 @@ print(pandas.merge_asof(left, right, on='a', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 
@@ -80,7 +80,7 @@ print(pandas.merge_asof(left, right, on='a',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 

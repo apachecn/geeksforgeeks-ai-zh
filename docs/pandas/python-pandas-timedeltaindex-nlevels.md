@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.nlevels`属性找出所考虑的给定时间增量索引对象的级别数
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找到 tidx 对象的层数。
 
-```
+```py
 # return the number of levels of the tidx object
 tidx.nlevels
 ```
@@ -40,7 +40,7 @@ tidx.nlevels
 
 **示例 2:** 使用`TimedeltaIndex.nlevels`属性找出所考虑的给定时间增量索引对象的级别数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找到 tidx 对象的层数。
 
-```
+```py
 # return the number of levels of the tidx object
 tidx.nlevels
 ```

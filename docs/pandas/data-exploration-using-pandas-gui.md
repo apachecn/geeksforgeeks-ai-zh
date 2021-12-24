@@ -8,7 +8,7 @@
 
 您可以使用 pip 命令像安装任何其他 python 库一样安装 PandasGUI。相同的命令是:-
 
-```
+```py
 pip install pandasgui
 ```
 
@@ -18,7 +18,7 @@ pip install pandasgui
 
 ## 蟒蛇 3
 
-```
+```py
 from pandasgui import show
 import pandas as pd
 ```
@@ -27,7 +27,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.read_csv('data.csv')
 show(df)
 ```
@@ -46,7 +46,7 @@ show(df)
 
 ## 蟒蛇 3
 
-```
+```py
 df[df['total_bill'] >= 40]
 ```
 
@@ -68,7 +68,7 @@ PandasGUI 为我们提供了过滤器，您可以在其中编写查询表达式�
 
 ## 蟒蛇 3
 
-```
+```py
 df.describe()
 ```
 

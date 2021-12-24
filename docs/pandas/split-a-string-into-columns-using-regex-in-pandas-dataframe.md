@@ -14,7 +14,7 @@
 *   **。**匹配除新行字符之外的任何字符\n
 *   ***** 匹配 0 个或多个模式实例
 
-```
+```py
 # import the regex library
 import pandas as pd
 import re
@@ -74,7 +74,7 @@ print(df)
 **方法 2:**
 要分解字符串，我们将使用`Series.str.extract(pat, flags=0, expand=True)`功能。这里*拍*指的是我们要搜索的图案。
 
-```
+```py
 import pandas as pd
 
 dict = {'movie_data':['The Godfather 1972 9.2',

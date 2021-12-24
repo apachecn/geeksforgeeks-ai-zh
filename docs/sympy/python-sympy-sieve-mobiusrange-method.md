@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -25,14 +25,14 @@ print("Mobius numbers for the range of numbers [1, 10) : {}".format(mobius_list)
 
 **输出:**
 
-```
+```py
 Mobius numbers for the range of numbers [1, 10) : [1, -1, -1, 0, -1, 1, -1, 0, 0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -45,7 +45,7 @@ print("Mobius numbers for the range of numbers [8, 20) : {}".format(mobius_list)
 
 **输出:**
 
-```
+```py
 Mobius numbers for the range of numbers [8, 20) : [0, 0, 1, -1, 0, -1, 1, 1, 0, -1, 0, -1]
 
 ```

@@ -24,7 +24,7 @@ NumPy 是一个强大的 N 维数组对象，它在线性代数、傅立叶变�
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required modules
 import numpy as np
 
@@ -44,7 +44,7 @@ print("power to the array1 and array 2 : ", power_array)**
 
 ******输出:******
 
-```
+```py
 **Original array 
 array1  [0 1 2 3 4]
 array2  [0 2 4 6 8]
@@ -55,7 +55,7 @@ power to the array1 and array 2 :  [    1     1    16   729 65536]**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required module
 import numpy as np
 
@@ -71,7 +71,7 @@ print(np.power(array, 3))**
 
 ******输出:******
 
-```
+```py
 **Original array
 [0 1 2 3 4 5 6 7]
 power of 3 for every element-wise:
@@ -82,7 +82,7 @@ power of 3 for every element-wise:
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import required modules
 import numpy as np
 
@@ -104,7 +104,7 @@ print("power to the array1 and array 2 : ", power_array)**
 
 ******输出:******
 
-```
+```py
 **Original array 
 array1  [0 1 2 3 4]
 array2  [1.0, 2.0, 3.0, 3.0, 2.0]
@@ -117,7 +117,7 @@ power to the array1 and array 2 :  [ 0\.  1\.  8\. 27\. 16.]**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing module
 import numpy as np
 

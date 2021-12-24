@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # mirr() function
 
@@ -36,6 +36,6 @@ print("Solution - Modified Internal Rate of Return : ", Solution)
 
 **输出:**
 
-```
+```py
 Solution - Modified Internal Rate of Return :  -0.26165615714437973
 ```

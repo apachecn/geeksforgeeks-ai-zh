@@ -18,7 +18,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -33,7 +33,7 @@ print("Value of nth partition number : {}".format(nth_partition))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth partition number : 15
 
@@ -41,7 +41,7 @@ Value of nth partition number : 15
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -56,7 +56,7 @@ print("N partition number are : {}".format(n_partition))  
 
 **输出:**
 
-```
+```py
 Value of n = 10
 N partition number are : [1, 2, 3, 5, 7, 11, 15, 22, 30, 42]
 

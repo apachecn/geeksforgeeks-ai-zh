@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program to create a data type object
 import numpy as np
 
@@ -33,13 +33,13 @@ print(np.dtype(np.int16))
 
 **输出:**
 
-```
+```py
 int16
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program to create a data type object
 # containing a 32 bit big-endian integer
 import numpy as np
@@ -58,7 +58,7 @@ print("Data type is:",dt.name)
 
 **输出:**
 
-```
+```py
 Byte order is: >
 Size is: 4
 Name of data type is: int32
@@ -74,13 +74,13 @@ Name of data type is: int32
 
 **注:**
 
-```
+```py
 dtype is different from type. 
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to differentiate
 # between type and dtype.
 import numpy as np
@@ -93,7 +93,7 @@ print("dtype is: ",a.dtype)
 
 **输出:**
 
-```
+```py
 type is:    
 dtype is:  int32
 ```
@@ -103,7 +103,7 @@ dtype is:  int32
 
 ## 计算机编程语言
 
-```
+```py
 # Python program for demonstrating
 # the use of fields
 import numpy as np
@@ -122,13 +122,13 @@ print(dt['name'])
 
 **输出:**
 
-```
+```py
 ('<f8', (2,))
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate 
 # the use of data type object with structured array.
 import numpy as np
@@ -147,7 +147,7 @@ print("Names are: ",x['name'])
 
 **输出:**
 
-```
+```py
 ('John', [ 6.,  7.])
 Grades of John are:  [ 6\.  7.]
 Names are:  ['Sarah' 'John']

@@ -23,7 +23,7 @@ Python 语言是最流行的编程语言之一，因为它比其他语言更具�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 ```
 
@@ -31,7 +31,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.read_csv("your downloaded dataset location ")
 ```
 
@@ -42,7 +42,7 @@ data = pd.read_csv("your downloaded dataset location ")
 
 ## 蟒蛇 3
 
-```
+```py
 data.head()
 ```
 
@@ -55,7 +55,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 data.sample(10)
 ```
 
@@ -68,7 +68,7 @@ column()函数以列表形式打印数据集的所有列。
 
 ## 蟒蛇 3
 
-```
+```py
 data.columns
 ```
 
@@ -81,7 +81,7 @@ data.columns
 
 ## 蟒蛇 3
 
-```
+```py
 #The first one is the number of rows and
 # the other one is the number of columns.
 data.shape
@@ -95,7 +95,7 @@ data.shape
 
 ## 蟒蛇 3
 
-```
+```py
 print(data)
 ```
 
@@ -108,7 +108,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 #data[start:end]
 #start is inclusive whereas end is exclusive
 print(data[10:21])
@@ -128,7 +128,7 @@ print(sliced_data)
 
 ## 蟒蛇 3
 
-```
+```py
 #here in the case of Iris dataset
 #we will save it in a another variable named "specific_data"
 
@@ -151,7 +151,7 @@ print(specific_data.head(10))
 
 ## 蟒蛇 3
 
-```
+```py
 #here we will use iloc
 
 data.iloc[5]
@@ -174,7 +174,7 @@ value _ counts()函数计算特定实例或数据出现的次数。
 
 ## 蟒蛇 3
 
-```
+```py
 #In this dataset we will work on the Species column, it will count number of times a particular species has occurred.
 data["Species"].value_counts()
 #it will display in descending order.
@@ -189,7 +189,7 @@ data["Species"].value_counts()
 
 ## 蟒蛇 3
 
-```
+```py
 # data["column_name"].sum()
 
 sum_data = data["SepalLengthCm"].sum()
@@ -208,7 +208,7 @@ print("Sum:",sum_data, "\nMean:", mean_data, "\nMedian:",median_data)
 
 ## 蟒蛇 3
 
-```
+```py
 min_data=data["SepalLengthCm"].min()
 max_data=data["SepalLengthCm"].max()
 
@@ -224,7 +224,7 @@ print("Minimum:",min_data, "\nMaximum:", max_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # For example, if we want to add a column let say "total_values",
 # that means if you want to add all the integer value of that particular
 # row and get total answer in the new column "total_values".
@@ -256,7 +256,7 @@ data["total_values"]=data1[cols].sum(axis=1)
 
 ## 蟒蛇 3
 
-```
+```py
 newcols={
 "Id":"id",
 "SepalLengthCm":"sepallength"
@@ -277,7 +277,7 @@ print(data.head())
 
 ## 蟒蛇 3
 
-```
+```py
 #this is an example of rendering a datagram,
 which is not visualised by any styles.
 data.style
@@ -291,7 +291,7 @@ data.style
 
 ## 蟒蛇 3
 
-```
+```py
 # we will here print only the top 10 rows of the dataset,
 # if you want to see the result of the whole dataset remove
 #.head(10) from the below code
@@ -322,7 +322,7 @@ data.head(10).style.highlight_max(color='lightgreen', axis=None)
 
 ## 蟒蛇 3
 
-```
+```py
 data.isnull()
 #if there is data is missing, it will display True else False.
 ```
@@ -338,7 +338,7 @@ isnull()
 
 ## 蟒蛇 3
 
-```
+```py
 data.isnull.sum()
 ```
 
@@ -352,7 +352,7 @@ data.isnull.sum()
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 iris = sns.load_dataset("iris")
@@ -368,7 +368,7 @@ sns.heatmap(iris.corr(),camp = "YlGnBu", linecolor = 'white', linewidths = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.heatmap(iris.corr(),camp = "YlGnBu", linecolor = 'white', linewidths = 1, annot = True )
 ```
 
@@ -384,7 +384,7 @@ sns.heatmap(iris.corr(),camp = "YlGnBu", linecolor = 'white', linewidths = 1, an
 
 ## 蟒蛇 3
 
-```
+```py
 data.corr(method='pearson')
 ```
 
@@ -401,7 +401,7 @@ data.corr()
 
 ## 蟒蛇 3
 
-```
+```py
 g = sns.pairplot(data,hue="Species")
 ```
 

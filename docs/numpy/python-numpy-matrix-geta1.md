@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到我们能够借助方法`matrix.getA1()`获得 numpy 数组。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [6 2 3]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [1 2 3 4 5 6 7 8 9]
 
 ```

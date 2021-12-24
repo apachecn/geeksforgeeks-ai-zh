@@ -84,7 +84,7 @@ K-Means 聚类是一种划分方法，每个聚类都用一个计算出的质心
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import numpy as np
 from scipy.cluster.vq import whiten, kmeans, vq, kmeans2

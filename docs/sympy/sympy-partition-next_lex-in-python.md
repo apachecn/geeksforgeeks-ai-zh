@@ -10,7 +10,7 @@
 
 **代码#1 : next_lex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.next_lex()
 
@@ -33,7 +33,7 @@ print('\nNext Integrer : ', p.next_lex())
 
 **代码#2 : next_lex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.next_lex()
 

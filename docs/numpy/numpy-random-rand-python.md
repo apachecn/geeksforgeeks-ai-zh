@@ -5,13 +5,13 @@
 函数的作用是:创建一个指定形状的数组，并用随机值填充。
 **语法:**
 
-```
+```py
 numpy.random.rand(d0, d1, ..., dn)
 ```
 
 **参数:**
 
-```
+```py
 d0, d1, ..., dn : [int, optional]Dimension of the returned array we require, 
      If no argument is given a single Python float is returned.
 
@@ -19,14 +19,14 @@ d0, d1, ..., dn : [int, optional]Dimension of the returned array we require,
 
 **返回:**
 
-```
+```py
 Array of defined shape, filled with random values.
 
 ```
 
 **代码 1:随机构建 1D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.rand() method
 
@@ -39,7 +39,7 @@ print("1D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 1D Array filled with random values : 
  [ 0.84503968  0.61570994  0.7619945   0.34994803  0.40113761]
 
@@ -47,7 +47,7 @@ print("1D Array filled with random values : \n", array);
 
 **代码 2:随机构建 2D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.rand() method
 
@@ -60,7 +60,7 @@ print("\n\n2D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 
 2D Array filled with random values : 
  [[ 0.94739375  0.5557614   0.69812121  0.86902435]
@@ -71,7 +71,7 @@ print("\n\n2D Array filled with random values : \n", array);
 
 **代码 3:随机构建 3D 阵列**
 
-```
+```py
 # Python Program illustrating
 # numpy.random.rand() method
 
@@ -84,7 +84,7 @@ print("\n\n3D Array filled with random values : \n", array);
 
 **输出:**
 
-```
+```py
 
 3D Array filled with random values : 
  [[[ 0.97942627  0.01068711]

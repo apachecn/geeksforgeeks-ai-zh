@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.CustomBusinessHour.name**`属性以字符串形式返�
 
 **示例#1:** 使用`pandas.tseries.offsets.CustomBusinessHour.name`属性将应用于给定偏移对象的频率名称打印为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还会将应用于给定偏移对象的频率名称打印为字符串。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 
@@ -67,7 +67,7 @@ print(result)
 
 **示例#2:** 使用`pandas.tseries.offsets.CustomBusinessHour.name`属性将应用于给定偏移对象的频率名称打印为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还会将应用于给定偏移对象的频率名称打印为字符串。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 

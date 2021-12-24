@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image
@@ -65,7 +65,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from PIL import Image

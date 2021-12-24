@@ -8,7 +8,7 @@
 
 将*名称*列拆分为两个不同的列。默认情况下，通过`str.split()`功能在单个空间的基础上进行拆分。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print("\nSplitting 'Name' column into two different columns :\n",
 
 将*名称*列分别拆分为“第一个”和“最后一个”列，并将其添加到现有的数据框中。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 
@@ -50,7 +50,7 @@ print("\n After adding two new columns : \n", df)
 
 使用*下划线*作为分隔符，将列拆分为两列。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print("\n After adding two new columns : \n",df)
 
 一起使用`str.split()`、`tolist()`功能。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(pd.DataFrame(df.Name.str.split('_',1).tolist(),
 
 将*名称*列拆分为两个不同的列。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 
@@ -113,7 +113,7 @@ print(df.Name.apply(lambda x: pd.Series(str(x).split("_"))))
 
 将*名称*列拆分为两个不同的列，分别命名为“第一个”和“最后一个”，然后将其添加到现有的数据框中。
 
-```
+```py
 # import Pandas as pd
 import pandas as pd
 

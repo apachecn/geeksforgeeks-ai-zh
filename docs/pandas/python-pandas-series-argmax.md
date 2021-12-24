@@ -17,7 +17,7 @@ Pandas `**Series.argmax()**`函数返回给定序列对象中最大值的行标�
 
 **示例#1:** 使用`Series.argmax()`函数返回给定序列对象中最大值的行标签
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 Coca Cola    34
 Sprite        5
 Coke         13
@@ -48,7 +48,7 @@ dtype: int64
 
 现在我们将使用`Series.argmax()`函数返回给定序列对象中最大值的行标签。
 
-```
+```py
 # return the row label for
 # the maximum value
 result = sr.argmax()
@@ -59,7 +59,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Coca Cola
 ```
 
@@ -67,7 +67,7 @@ Coca Cola
 
 **示例 2 :** 使用`Series.argmax()`函数返回给定序列对象中最大值的行标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -104,7 +104,7 @@ Freq: A-DEC, dtype: float64
 
 现在我们将使用`Series.argmax()`函数返回给定序列对象中最大值的行标签。
 
-```
+```py
 # return the row label for
 # the maximum value
 result = sr.argmax()
@@ -115,7 +115,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 2014-12-31 08:45:00
 ```
 

@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing pyplot for graph plotting
 from matplotlib import pyplot as plt
 

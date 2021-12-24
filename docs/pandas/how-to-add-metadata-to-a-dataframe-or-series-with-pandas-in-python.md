@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 
@@ -70,7 +70,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # data information
 df.info()
 
@@ -89,7 +89,7 @@ df.describe()
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing scale and offset
 # for creating meta data
 df.scale = 0.1
@@ -108,7 +108,7 @@ print('Offset:', df.offset)
 
 ## 蟒蛇 3
 
-```
+```py
 # store in hdf5 file format
 storedata = pd.HDFStore('college_data.hdf5')
 
@@ -149,7 +149,7 @@ print('\nMetadata:\n', metadata)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -178,7 +178,7 @@ ser
 
 ## 蟒蛇 3
 
-```
+```py
 # storing data in hdf5 file format
 storedata = pd.HDFStore('college_data.hdf5')
 

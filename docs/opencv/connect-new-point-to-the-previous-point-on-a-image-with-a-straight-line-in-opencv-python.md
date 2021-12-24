@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import cv2
 import numpy as np

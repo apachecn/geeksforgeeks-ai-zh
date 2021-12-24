@@ -25,7 +25,7 @@ matplotlib 库的**子图 _ 调整()方法**图形模块用于用 kwargs 更新�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ fig.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

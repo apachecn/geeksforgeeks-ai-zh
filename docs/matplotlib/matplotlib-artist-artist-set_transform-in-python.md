@@ -20,7 +20,7 @@ matplotlib 库的艺术家模块中的 **set_transform()方法**用于设置艺�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np 
@@ -68,7 +68,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 

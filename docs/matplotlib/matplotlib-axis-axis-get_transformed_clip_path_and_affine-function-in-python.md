@@ -25,7 +25,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ transformed _ clip _ path _ an
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -59,7 +59,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -106,7 +106,7 @@ plt.show()
 
 ![](img/7a9ed78df560c975bc563b26438d02e7.png)
 
-```
+```py
 Value Return by get_transformed_clip_path_and_affine(): 
 Path(array([[ 0.,  1.],
        [ 1.,  0.],

@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Mean 
 
 from scipy import stats
@@ -33,7 +33,7 @@ print("\nTrimmed Mean by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Mean : 9.5
 
 Trimmed Mean by setting limit :  6.0
@@ -42,7 +42,7 @@ Trimmed Mean by setting limit :  6.0
 
 **代码#2:** 多维数据，轴()工作
 
-```
+```py
 # Trimmed Mean 
 
 from scipy import stats
@@ -60,7 +60,7 @@ print("\nTrimmed Mean is with default axis = 0 : \n", 
 
 **Output:**
 
-```
+```py
 Trimmed Mean is with default axis = 0 : 
  42.8333333333
 

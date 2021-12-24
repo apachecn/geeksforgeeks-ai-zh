@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import udivisor_sigma() method from sympy
 from sympy.ntheory.factor_ import udivisor_sigma
 
@@ -29,14 +29,14 @@ print("udivisor_sigma({}) =  {} ".format(n, udivisor_sigma_n)) 
 
 **输出:**
 
-```
+```py
 udivisor_sigma(12) =  20
 
 ```
 
 **例 2:**
 
-```
+```py
 # import udivisor_sigma() method from sympy
 from sympy.ntheory.factor_ import udivisor_sigma
 
@@ -51,7 +51,7 @@ print("udivisor_sigma({}) =  {} ".format(n, udivisor_sigma_n)) 
 
 **输出:**
 
-```
+```py
 udivisor_sigma(18) =  410
 
 ```

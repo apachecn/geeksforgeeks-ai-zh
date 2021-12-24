@@ -10,7 +10,7 @@ Python Pandas 是一个数据分析库。它可以读取、过滤和重新排列
 
 **代码#1:** 使用 Pandas 和 XlsxWriter 将 Pandas 数据帧转换为 xlsx 文件。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ writer.save()
 
 **代码#2:** 使用 Pandas 和 XlsxWriter 将多个数据框写入工作表。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ writer.save()
 
 **代码#3:** 使用 Pandas 和 XlsxWriter 在工作表中定位数据框。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 

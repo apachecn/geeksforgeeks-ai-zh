@@ -8,7 +8,7 @@
 
 通过熊猫中的这个方法，我们可以将一个列表字典转换成一个数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,7 +27,7 @@ df
 
 **方法#2:** 使用 from_dict()函数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

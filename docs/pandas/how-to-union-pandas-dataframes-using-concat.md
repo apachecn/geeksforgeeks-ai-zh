@@ -24,7 +24,7 @@ concat()函数以两种方式之一组合数据帧:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 students1 = {'Class': ['10','10','10'],
@@ -45,7 +45,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 students2 = {'Class': ['10','10','10'],
@@ -67,7 +67,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 pd.concat([df1,df2])
 ```
 

@@ -4,7 +4,7 @@
 
 In Sympy, the function `intersection()` is used to find the intersection with another geometrical entity.
 
-```
+```py
 Syntax: Line.intersection(o)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -32,13 +32,13 @@ print(showIntersection)
 
 **输出:**
 
-```
+```py
 [Point2D(7, 7)]
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Line, Segment
 from sympy import Point, Line, Segment
 
@@ -54,6 +54,6 @@ print(showIntersection)
 
 **输出:**
 
-```
+```py
 []
 ```

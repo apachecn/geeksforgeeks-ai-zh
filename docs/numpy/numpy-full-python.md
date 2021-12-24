@@ -5,7 +5,7 @@
 **numpy.full(shape，fill_value，dtype = None，order = 'C') :** 返回一个新数组，其形状和类型与填充 fill_value 的给定数组相同。
 T3】参数:
 
-```
+```py
 shape      : Number of rows
 order      : C_contiguous or F_contiguous
 dtype      : [optional, float(by Default)] Data type of returned array.  
@@ -15,12 +15,12 @@ fill_value : [bool, optional] Value to fill in the array.
 
 **返回:**
 
-```
+```py
 ndarray
 
 ```
 
-```
+```py
 # Python Programming illustrating
 # numpy.full method
 
@@ -35,7 +35,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 
 Matrix a : 
  [[67 67]

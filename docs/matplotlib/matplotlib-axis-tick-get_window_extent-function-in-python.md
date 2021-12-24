@@ -21,7 +21,7 @@ matplotlib 库的轴模块中的 **Tick.get_window_extent()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np 
@@ -53,7 +53,7 @@ plt.show() 
 
 ![](img/dfc8a9800fca8030870f6da576ddfa30.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
@@ -63,7 +63,7 @@ Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt 
@@ -94,7 +94,7 @@ plt.show() 
 
 ![](img/30cae3347540f40505a1f8df6643ecce.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 

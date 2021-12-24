@@ -10,7 +10,7 @@
 
 **示例 1 :** 系列中的绝对数值。
 
-```
+```py
 # import the library
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(s.abs())
 
 **例 2 :** 复数数列中的绝对数值。
 
-```
+```py
 # import the library
 import pandas as pd
 
@@ -46,7 +46,7 @@ print(s.abs())
 
 **示例 3 :** 具有时间增量元素的序列中的绝对数值。
 
-```
+```py
 # import the library
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(s.abs())
 
 **示例 4 :** 从数据框列中获取绝对值。
 
-```
+```py
 # import the library
 import pandas as pd
 

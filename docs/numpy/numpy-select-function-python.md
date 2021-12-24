@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.select() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [  0, 1, 2, 0, 0, 125, 216, 343]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.select() function
 
@@ -58,7 +58,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ 0, 1, 2, 3, 0, 0, 0, 49]
 
 ```

@@ -12,7 +12,7 @@
 
 **代码#1:** 工作
 
-```
+```py
 # stats.bayes_mvs() method   
 import numpy as np
 from scipy import stats

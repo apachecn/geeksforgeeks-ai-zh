@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # sorting series s with
 # s.sort_value() method in
 # ascending order
@@ -56,7 +56,7 @@ sorted_series
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

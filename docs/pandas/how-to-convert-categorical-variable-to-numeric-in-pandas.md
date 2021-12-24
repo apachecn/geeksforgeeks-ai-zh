@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 
@@ -70,7 +70,7 @@ df['Education'].replace(['Under-Graduate', 'Diploma '],
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 

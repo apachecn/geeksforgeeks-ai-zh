@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import antidivisors() method from sympy
 from sympy.ntheory.factor_ import antidivisors
 
@@ -28,14 +28,14 @@ print("The anti-divisors of {} : {}".format(n, antidivisors_n))
 
 **输出:**
 
-```
+```py
 The anti-divisors of 24 : [7, 16]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import antidivisors() method from sympy
 from sympy.ntheory.factor_ import antidivisors
 
@@ -49,7 +49,7 @@ print("The anti-divisors of {} : {}".format(n, antidivisors_n))
 
 **输出:**
 
-```
+```py
 The anti-divisors of 128 : [3, 5, 15, 17, 51, 85]
 
 ```

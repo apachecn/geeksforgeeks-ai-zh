@@ -4,7 +4,7 @@
 
 The function `div()` provides division of polynomials with remainder. That is, for polynomials f and g, it computes q and r, such that **`f= g*q+r`** and `deg(r) <q.`
 
-```
+```py
 Syntax:sympy.div(f, g, domain='QQ')
 Return: division of polynomials with remainder
 
@@ -12,7 +12,7 @@ Return: division of polynomials with remainder
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 5*x/2 + 5/2
 -2
 
@@ -36,7 +36,7 @@ print(r)
 
 **示例#2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -52,7 +52,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 5/2
 10*x - 2
 

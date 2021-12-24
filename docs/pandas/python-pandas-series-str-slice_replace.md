@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，薪资列已被切片，以获得小数点后的值，这些值(' . 0 '被替换为' { content } ' 2019；标志)。由于薪资列是作为 float64 数据类型导入的，因此首先使用。astype()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

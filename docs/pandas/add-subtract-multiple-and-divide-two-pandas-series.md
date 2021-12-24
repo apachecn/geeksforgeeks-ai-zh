@@ -15,7 +15,7 @@
 
 ### 增加 2 个系列
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(series3)
 
 ### 2 级数的减法
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(series3)
 
 ### 2 级数的乘法
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(series3)
 
 ### 2 系列的划分
 
-```
+```py
 # importing the module
 import pandas as pd
 

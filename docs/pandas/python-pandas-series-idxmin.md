@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.idxmin()`函数在给定的序列对象中找到与最小值对应的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.idxmin()`函数来查找序列中最小值对应的索引标签。
 
-```
+```py
 # return index label of the 
 # minimum value in the series
 result = sr.idxmin()
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2 :** 使用`Series.idxmin()`函数，在给定的序列对象中找到与最小值对应的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.idxmin()`函数来查找序列中最小值对应的索引标签。
 
-```
+```py
 # return index label of the 
 # minimum value in the series
 result = sr.idxmin()

@@ -6,7 +6,7 @@
 
 当我们使用深度神经网络时，图像的归一化是一个非常好的实践。归一化图像意味着将图像转换成这样的值，即图像的平均值和标准偏差分别变为 0.0 和 1.0。为此，首先从每个输入通道中减去通道平均值，然后将结果除以通道标准偏差。
 
-```
+```py
 output[channel] = (input[channel] - mean[channel]) / std[channel]
 ```
 
@@ -49,7 +49,7 @@ PyTorch 中的规范化使用**torch vision . transforms . normalize()**完成�
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to load and visualize 
 # an image
 
@@ -84,7 +84,7 @@ plt.title("distribution of pixels")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for converting PIL Image to
 # PyTorch Tensor image and plot pixel values
 
@@ -123,7 +123,7 @@ plt.title("distribution of pixels")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to calculate mean and std
 # of image
 
@@ -151,7 +151,7 @@ print("Std of the image:", std)
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to normalize the image
 
 from torchvision import transforms
@@ -190,7 +190,7 @@ plt.title("distribution of pixels")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Code to visualize normalized image
 
 # get normalized image
@@ -220,7 +220,7 @@ plt.yticks([])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to calculate mean and std
 # of normalized image
 

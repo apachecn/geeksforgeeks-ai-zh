@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`pct_change()`函数查找时间序列数据中的百分比变化。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ df
 
 让我们使用`dataframe.pct_change()`函数来查找数据中的百分比变化。
 
-```
+```py
 # find the percentage change with the previous row
 df.pct_change()
 ```
@@ -53,7 +53,7 @@ df.pct_change()
 
 **示例#2:** 使用`pct_change()`函数查找也具有`NaN`值的数据中的百分比变化。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中， ***str.get()*** 方法用于从名称列中获取单个字符。使用 [dropna()](https://www.geeksforgeeks.org/python-pandas-dataframe-dropna/) 方法删除了 *null* 值，在应用该方法之前，使用`.astype()`将该系列转换为字符串类型系列。这个方法可以用来获取一个字符而不是整个字符串。例如，从男性获得 M，从女性获得 F，因为只能有两个输入，所以这样做可以保存数据。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -49,7 +49,7 @@ data
 
 在本例中，使用 ***str.split()*** 方法，团队列在每次出现" "(空白)时都被拆分为一个列表。然后用它覆盖同一列。之后使用 *str.get()* 方法获取列表中通过索引的元素。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

@@ -15,7 +15,7 @@ torch . tan()函数为 PyTorch 中的*切线*函数提供支持。它需要弧�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the PyTorch library
 import torch
 
@@ -31,7 +31,7 @@ print(b)
 
 **输出:**
 
-```
+```py
  1.0000
 -0.5000
  3.4000
@@ -53,7 +53,7 @@ print(b)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the PyTorch library
 import torch
 
@@ -83,7 +83,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 -1.5574
 -1.1549
 -0.8670

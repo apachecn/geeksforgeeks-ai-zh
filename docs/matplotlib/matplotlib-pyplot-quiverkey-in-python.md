@@ -28,7 +28,7 @@ matplotlib 库 pyplot 模块中的 **quiverkey()函数**用于为颤图添加一
 以下示例说明了 matplotlib.axes:
 **示例 1:** 中的 matplotlib.pyplot.quiverkey()函数
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,7 +51,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

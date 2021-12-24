@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagroots() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 0.8416876  4.1583124]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagroot() method 
 
@@ -62,7 +62,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [  0.50680523   2.37919156   5.5446037   10.76939951]
 
 ```

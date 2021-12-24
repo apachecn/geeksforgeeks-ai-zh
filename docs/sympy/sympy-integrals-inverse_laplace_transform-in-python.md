@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_laplace_transform
 from sympy.integrals.transforms import inverse_laplace_transform
 from sympy import exp, Symbol
@@ -35,7 +35,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_laplace_transform
 from sympy.integrals.transforms import inverse_laplace_transform
 from sympy import exp, Symbol

@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # argpartition() function
 
@@ -33,7 +33,7 @@ print ("Output partitioned array indices :\n ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array : 
  [[2 0 1]
  [5 4 9]]
@@ -45,7 +45,7 @@ Output partitioned array indices :
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # argpartition() function
 
@@ -61,7 +61,7 @@ print ("Output partitioned array indices: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [2 0 1 5 4 3]
 Output partitioned array indices:  [1 2 0 3 4 5]
 

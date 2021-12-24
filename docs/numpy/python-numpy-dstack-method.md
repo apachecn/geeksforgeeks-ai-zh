@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.dstack()`方法，我们能够逐个索引地获得堆栈索引中的组合数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(np.dstack((gfg1, gfg2)))
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

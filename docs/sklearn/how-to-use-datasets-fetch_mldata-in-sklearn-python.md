@@ -27,7 +27,7 @@
 
  **## 蟒 3
 
-```
+```py
 # import fetch_mldata function
 from sklearn.datasets.mldata import fetch_mldata
 
@@ -43,7 +43,7 @@ print(iris.data.shape)
 
 ****输出:****
 
-```
+```py
 (4,150)
 ```
 
@@ -51,7 +51,7 @@ print(iris.data.shape)
 
  **## 蟒 3
 
-```
+```py
 # import fetch_mldata function
 from sklearn.datasets.mldata import fetch_mldata
 
@@ -65,7 +65,7 @@ print(mnist.data.shape)
 
 ****输出:****
 
-```
+```py
  (70000, 784)
 ```
 

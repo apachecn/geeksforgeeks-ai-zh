@@ -6,7 +6,7 @@
 
 用列表字典创建一个简单的数据框架，比如列名是 **A，B，C，D，E** 。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -31,7 +31,7 @@ df
 
 删除特定的单列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -55,7 +55,7 @@ df.drop(['A'], axis = 1)
 
 移除特定的多列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -81,7 +81,7 @@ df.drop(['C', 'D'], axis = 1)
 
 根据列索引删除列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -109,7 +109,7 @@ df
 
 删除特定列与另一列之间的所有列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 # create a dictionary with five fields each 
@@ -136,7 +136,7 @@ df
 
 删除特定列名与另一列名之间的所有列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -162,7 +162,7 @@ df.drop(df.ix[:, 'B':'D'].columns, axis = 1)
 
 删除特定列名与另一列名之间的所有列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -189,7 +189,7 @@ df.drop(df.loc[:, 'B':'D'].columns, axis = 1)
 
 删除特定列名与另一列名之间的所有列。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 

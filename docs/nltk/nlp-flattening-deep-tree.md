@@ -7,7 +7,7 @@
 
 **代码#1:展平深树类**
 
-```
+```py
 from nltk.tree import Tree
 
 def flatten_childtrees(trees):
@@ -34,7 +34,7 @@ def flatten_deeptree(tree):
 
 **代码#2:评估`flatten_deeptree()`**
 
-```
+```py
 from nltk.corpus import treebank
 from transforms import flatten_deeptree
 
@@ -46,7 +46,7 @@ print ("\nFlattened Tree : \n", 
 
 **输出:**
 
-```
+```py
 Deep Tree : 
  (S
   (NP-SBJ
@@ -82,7 +82,7 @@ Tree('S', [Tree('NP', [('Pierre', 'NNP'), ('Vinken', 'NNP')]), (', ',
 
 **代码#3:高度()**
 
-```
+```py
 from nltk.corpus import treebank
 from transforms import flatten_deeptree
 
@@ -98,7 +98,7 @@ print ("\nHeight : ", Tree(
 
 **输出:**
 
-```
+```py
 Height : 2
 
 Height : 3

@@ -10,7 +10,7 @@ numpy.vectorize()函数将函数映射到包含一系列对象(如 numpy 数组)
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 arr = np.array([1, 2, 3, 4, 5])

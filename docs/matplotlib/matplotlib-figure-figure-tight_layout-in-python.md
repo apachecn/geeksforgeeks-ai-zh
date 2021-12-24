@@ -23,7 +23,7 @@ matplotlib 库的**紧 _ 布局()方法**图形模块用于自动调整子图参
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import EngFormatter
@@ -55,7 +55,7 @@ fig.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

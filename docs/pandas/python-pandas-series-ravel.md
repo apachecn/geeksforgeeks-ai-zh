@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.ravel()`函数返回给定序列对象的元素作为数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.ravel()`函数返回给定 Series 对象的底层数据作为一个数组。
 
-```
+```py
 # return an ndarray
 result = sr.ravel()
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2:** 使用`Series.ravel()`函数返回给定序列对象的元素作为数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.ravel()`函数返回给定 Series 对象的底层数据作为一个数组。
 
-```
+```py
 # return an ndarray
 result = sr.ravel()
 

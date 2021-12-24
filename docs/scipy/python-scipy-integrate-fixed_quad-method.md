@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.fixed_quad()`方法，我们能够通过使用该方法使用固定阶高斯求积得到定积分。
 
-```
+```py
 # import scipy.integrate
 from scipy import integrate
 func = lambda x: x**3
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import scipy.integrate
 from scipy import integrate
 func = lambda x: x**2 + 4 * x + 4

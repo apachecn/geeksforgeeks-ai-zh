@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -31,7 +31,7 @@ print("Value of the derivative : {} ".format(expr_diff.doit()))
 
 **输出:**
 
-```
+```py
 Expression : x**2 + y**3 + 2*y 
 Derivative of expression with respect to x : Derivative(x**2 + y**3 + 2*y, x)
 Value of the derivative : 2*x 
@@ -40,7 +40,7 @@ Value of the derivative : 2*x
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -57,7 +57,7 @@ print("Value of the derivative : {} ".format(expr_diff.doit()))
 
 **输出:**
 
-```
+```py
 Expression : x**3*y**3 + x**2*y**2 + 2*x*y 
 Derivative of expression with respect to x : Derivative(x**3*y**3 + x**2*y**2 + 2*x*y, x, y)
 Value of the derivative : 9*x**2*y**2 + 4*x*y + 2 

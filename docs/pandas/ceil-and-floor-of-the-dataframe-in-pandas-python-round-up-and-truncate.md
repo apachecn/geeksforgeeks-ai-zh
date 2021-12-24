@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np

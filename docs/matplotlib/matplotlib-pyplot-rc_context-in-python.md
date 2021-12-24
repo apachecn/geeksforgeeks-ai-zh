@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的 **rc_context()函数**用于返回管理 rc �
 
 **例 1:**
 
-```
+```py
 # implementation of the matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,7 +50,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # implementation of the matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.is_leap_year`属性检查给定时间戳对象中的日期是否为闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_leap_year`属性来找出 ts 对象中的日期是否是闰年。
 
-```
+```py
 # check for leap year
 ts.is_leap_year
 ```
@@ -44,7 +44,7 @@ ts.is_leap_year
 
 **示例 2:** 使用`Timestamp.is_leap_year`属性检查给定时间戳对象中的日期是否为闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_leap_year`属性来找出 ts 对象中的日期是否是闰年。
 
-```
+```py
 # check for leap year
 ts.is_leap_year
 ```

@@ -23,7 +23,7 @@
 
 **实施例 1 :** 重复 3 次。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -50,7 +50,7 @@ print(new_array)
 
 **实施例 2:** 重复 2 次。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -68,7 +68,7 @@ print(new_array)
 
 **输出:**
 
-```
+```py
 Original Array :
 ['Geeks' 'for' 'Geeks']
 

@@ -12,7 +12,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing numpy package from
 # python library
 import numpy as np
@@ -48,7 +48,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing numpy package
 import numpy as np
 
@@ -107,7 +107,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing matplotlib.pyplot from
 # python
 import matplotlib.pyplot as plt
@@ -180,7 +180,7 @@ plt.show()
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#importing matplotlib.pyplot from
 # python
 import matplotlib.pyplot as plt
@@ -252,7 +252,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#importing matplotlib.pyplot from
 # python
 import matplotlib.pyplot as plt
@@ -324,7 +324,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing axes3d from mpl_toolkits.mplot
 # module in python
 from mpl_toolkits.mplot3d import axes3d
@@ -394,7 +394,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import Axes3D from mpl_toolkits.mplot3d
 # from python
 from mpl_toolkits.mplot3d import Axes3D
@@ -466,7 +466,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import axes3d from mpl_toolkits.mplot3d
 from mpl_toolkits.mplot3d import axes3d
 
@@ -520,7 +520,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing numpy package
 import numpy as np
 # importing matplotlib package

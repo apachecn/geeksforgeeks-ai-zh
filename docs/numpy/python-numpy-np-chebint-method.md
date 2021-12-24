@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.chebint()`方法，我们能够得到切比雪夫级数的积分，它将返回一个有坐标的数组。
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C
@@ -24,14 +24,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [-0.3125      0.25       -0.25        0.08333333  0.0625    ]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C
@@ -45,7 +45,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [-0.8125     -2.125      -0.66666667 -0.47916667  0.14583333  0.1375    ]
 
 ```

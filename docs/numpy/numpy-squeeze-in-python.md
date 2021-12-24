@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.squeeze function
 
@@ -34,7 +34,7 @@ print("Shape of output array : ", out_arr.shape) 
 
 **输出:**
 
-```
+```py
 Input array :  [[[2 2 2]
   [2 2 2]]]
 Shape of input array :  (1, 2, 3)
@@ -46,7 +46,7 @@ Shape of output array :  (2, 3)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.squeeze function
 import numpy as geek
@@ -63,7 +63,7 @@ print(in_arr.shape, out_arr.shape)
 
 **输出:**
 
-```
+```py
 Input array :  [[[0 1 2]
   [3 4 5]
   [6 7 8]]]
@@ -77,14 +77,14 @@ The shapes of Input and Output array :
 
 **注:**
 
-```
+```py
 ValueError :
 If axis is not None, and an axis being squeezed is not of length 1.
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.squeeze function
 # when value error occurs
@@ -103,7 +103,7 @@ print(in_arr.shape, out_arr.shape)
 
 **输出:**
 
-```
+```py
 ValueError                                Traceback (most recent call last)
  in ()
       5 

@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import primenu() method from sympy
 from sympy.ntheory.factor_ import primenu
 
@@ -27,14 +27,14 @@ print("Number of distinct prime factors of {} = {} ".format(n, primenu_n)) # 2 a
 
 **输出:**
 
-```
+```py
 Number of distinct prime factors of 24 = 2  
 
 ```
 
 **例 2:**
 
-```
+```py
 # import primenu() method from sympy
 from sympy.ntheory.factor_ import primenu
 
@@ -48,7 +48,7 @@ print("Number of distinct prime factors of {} = {} ".format(n, primenu_n))  
 
 **输出:**
 
-```
+```py
 Number of distinct prime factors of 6006 = 5 
 
 ```

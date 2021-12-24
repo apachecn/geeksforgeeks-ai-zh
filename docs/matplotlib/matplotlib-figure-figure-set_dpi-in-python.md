@@ -20,7 +20,7 @@ matplotlib 库的 **set_dpi()方法**图形模块用于设置图形的分辨率�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure
@@ -46,7 +46,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure

@@ -8,7 +8,7 @@ WordNet 是专门为自然语言处理设计的词汇数据库，即英语词典
 
 **代码#1:创建类在 WordNet 中查找单词。**
 
-```
+```py
 from nltk.tag import SequentialBackoffTagger
 from nltk.corpus import wordnet
 from nltk.probability import FreqDist
@@ -47,7 +47,7 @@ class WordNetTagger(SequentialBackoffTagger):
 
 **代码#2:使用简单的 WordNetTagger()**
 
-```
+```py
 from taggers import WordNetTagger
 from nltk.corpus import treebank
 
@@ -66,7 +66,7 @@ print ("Accuracy of WordNetTagger : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of WordNetTagger : 0.17914876598160262
 
 ```
@@ -74,7 +74,7 @@ Accuracy of WordNetTagger : 0.17914876598160262
 使用代码 3，我们可以提高准确性。
 **代码#3:位于 NgramTagger 回退链末端的 WordNetTagger 类**
 
-```
+```py
 from taggers import WordNetTagger
 from nltk.corpus import treebank
 from tag_util import backoff_tagger
@@ -98,7 +98,7 @@ print ("Accuracy : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy : 0.8848262464925534
 
 ```

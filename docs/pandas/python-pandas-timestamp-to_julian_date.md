@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.to_julian_date()`函数将给定的时间戳转换为儒略日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_julian_date()`函数将给定的时间戳转换为儒略日。
 
-```
+```py
 # convert to julian date
 ts.to_julian_date()
 ```
@@ -45,7 +45,7 @@ ts.to_julian_date()
 
 **示例 2:** 使用`Timestamp.to_julian_date()`函数将给定的时间戳转换为儒略日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_julian_date()`函数将给定的时间戳转换为儒略日。
 
-```
+```py
 # convert to julian date
 ts.to_julian_date()
 ```

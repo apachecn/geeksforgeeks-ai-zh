@@ -7,7 +7,7 @@
 *   多项式**p(x)= C<sub>3</sub>x<sup>2</sup>+C<sub>2</sub>x+C<sub>1</sub>**在 NumPy 中表示为: **( C1、C2、C3 )** {系数(常数)}。
 *   让我们取两个多项式 p(x)和 q(x)，然后相加得到 r(x) = p(x) + q(x)，这是两个输入多项式相加的结果。
 
-```
+```py
 If p(x) = A3 x2 + A2 x + A1 
 and
 q(x) = B3 x2 + B2 x + B1 
@@ -28,7 +28,7 @@ and output is
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -48,7 +48,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [ 7\. -7\.  7.]
 
 ```
@@ -57,7 +57,7 @@ print(rx)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -77,7 +77,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [ 9.8  0\.   6.2]
 
 ```
@@ -86,7 +86,7 @@ print(rx)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -106,7 +106,7 @@ print(rx)
 
 **输出:**
 
-```
+```py
 [-1.75        1.66666667  1.8       ]
 
 ```

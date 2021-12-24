@@ -10,7 +10,7 @@
 **示例#1 :**
 在给定的示例中，我们可以看到`sympy.Matrix.col_del()`方法用于删除矩阵的列并返回新的矩阵。
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg_val)
 
 **例 2 :**
 
-```
+```py
 from sympy import *
 
 # use the col() method for matrix

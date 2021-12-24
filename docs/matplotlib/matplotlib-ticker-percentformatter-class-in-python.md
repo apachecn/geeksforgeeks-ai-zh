@@ -19,7 +19,7 @@
 
 **例 1:**
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.ticker as mtick
@@ -36,7 +36,7 @@ ax.yaxis.set_major_formatter(mtick.PercentFormatter(5.0)) 
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker as mtick

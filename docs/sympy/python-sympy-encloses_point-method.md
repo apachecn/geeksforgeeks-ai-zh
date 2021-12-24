@@ -4,7 +4,7 @@
 
 In sympy, the function `encloses_point()` is used to check whether the given point is encolsed by given ellipse or not.
 
-```
+```py
 Syntax: Ellipse.encloses_point(point)
 
 Return: True:if point is enclosed by ellipse, otherwise False.
@@ -13,7 +13,7 @@ Return: True:if point is enclosed by ellipse, otherwise False.
 
 **示例#1:**
 
-```
+```py
 # import sympy and geometry module 
 from sympy import * 
 from sympy.geometry import * 
@@ -32,13 +32,13 @@ print(isEnclosed)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and geometry module 
 from sympy import * 
 from sympy.geometry import * 
@@ -57,6 +57,6 @@ print(isEnclosed)
 
 **输出:**
 
-```
+```py
 False
 ```

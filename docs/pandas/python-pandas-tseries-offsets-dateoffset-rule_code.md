@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.rule_code`属性返回应用于给定日期偏移对象的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将返回应用于给定日期偏移对象的规则代码。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -67,7 +67,7 @@ print(do.rule_code)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.rule_code`属性返回应用于给定日期偏移对象的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -95,7 +95,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将返回应用于给定日期偏移对象的规则代码。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

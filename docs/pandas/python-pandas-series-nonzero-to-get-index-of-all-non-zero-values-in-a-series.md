@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，使用熊猫`Series()`方法从 Python 列表创建系列。该系列还包含一些零值。之后在序列上调用`nonzero()`方法，结果存储在结果变量中。结果序列然后被传递到`[iloc()](https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/)`方法，以返回该索引处的所有非零值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -40,7 +40,7 @@ values
 
 **输出:**
 
-```
+```py
 (array([0, 2, 3, 5, 6, 8, 9]), )
 0     1
 2    12

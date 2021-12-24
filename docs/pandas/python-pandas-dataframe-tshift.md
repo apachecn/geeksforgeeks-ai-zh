@@ -17,7 +17,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.tshift()`函数将给定数据帧的基于日期时间的索引移动 5 小时。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(df)
 
 现在我们将使用`DataFrame.tshift()`函数将给定数据帧的基于 Datetime 的索引移动 5 小时。我们将把‘5H’作为 freq 值传递给函数。
 
-```
+```py
 # Shift by 5 hours
 result = df.tshift(freq = '5H')
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例 2 :** 使用`DataFrame.tshift()`函数将给定数据帧的基于日期时间的索引移动-30 个周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ print(df)
 
 现在我们将使用`DataFrame.tshift()`函数将给定数据帧的基于 Datetime 的索引移动-30 个周期。这将使同一频率的指数在过去移动 30 个周期。
 
-```
+```py
 # Shift by -30 periods
 result = df.tshift(periods = -30)
 

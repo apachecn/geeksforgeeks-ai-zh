@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.split() method 
 
@@ -31,7 +31,7 @@ print ("Output splitted array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['geeks for geeks']
 Output splitted array:  [['geeks', 'for', 'geeks']]
 
@@ -39,7 +39,7 @@ Output splitted array:  [['geeks', 'for', 'geeks']]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.split() method 
 
@@ -57,7 +57,7 @@ print ("Output splitted array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Num-py' 'Py-th-on' 'Pan-das']
 Output splitted array:  [['Num', 'py'] ['Py', 'th', 'on'] ['Pan', 'das']]
 
@@ -65,7 +65,7 @@ Output splitted array:  [['Num', 'py'] ['Py', 'th', 'on'] ['Pan', 'das']]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.split() method 
 
@@ -84,7 +84,7 @@ print ("Output splitted array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Num-py' 'Py-th-on' 'Pan-das']
 Output splitted array:  [['Num', 'py'] ['Py', 'th-on'] ['Pan', 'das']]
 

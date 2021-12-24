@@ -12,7 +12,7 @@ matplotlib 库 pyplot 模块中的 **prism()函数**用于将 colormap 设置为
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.prism()
 > 
 > ```
@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的 **prism()函数**用于将 colormap 设置为
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -62,7 +62,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

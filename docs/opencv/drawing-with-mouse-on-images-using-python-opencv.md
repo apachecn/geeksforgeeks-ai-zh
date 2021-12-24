@@ -24,14 +24,14 @@
 
 只有在弹出窗口上使用鼠标时，我们才希望有这个回调，弹出窗口的标题为**“弹出窗口的标题。”**
 
-```
+```py
 cv2.namedWindow("Title of Popup Window")
 
 ```
 
 **示例 1:** **当我们用 OpenCV 左键单击弹出菜单时，绘制圆形:**
 
-```
+```py
 import cv2
 
 img = cv2.imread("flower.jpg")
@@ -60,7 +60,7 @@ cv2.destroyAllWindows()
 
 **示例 2:** **使用 OpenCV** 拖动图像绘制矩形
 
-```
+```py
 import cv2
 
 img = cv2.imread("flower.jpg")

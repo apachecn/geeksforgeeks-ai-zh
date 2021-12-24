@@ -8,7 +8,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -19,7 +19,7 @@ from sklearn.preprocessing import normalize, StandardScaler
 
 **第二步:加载数据**
 
-```
+```py
 # Changing the working location to the location of the data
 cd C:\Users\Dev\Desktop\Kaggle\Customer Segmentation
 
@@ -39,7 +39,7 @@ X.head()
 
 **第三步:数据预处理**
 
-```
+```py
 # Scaling the data to bring all the attributes to a comparable level
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -61,7 +61,7 @@ X_normalized.head()
 
 **第四步:建立聚类模型**
 
-```
+```py
 # Building the OPTICS Clustering model
 optics_model = OPTICS(min_samples = 10, xi = 0.05, min_cluster_size = 0.05)
 
@@ -71,7 +71,7 @@ optics_model.fit(X_normalized)
 
 **第五步:存储训练结果**
 
-```
+```py
 # Producing the labels according to the DBSCAN technique with eps = 0.5
 labels1 = cluster_optics_dbscan(reachability = optics_model.reachability_,
                                    core_distances = optics_model.core_distances_,
@@ -99,7 +99,7 @@ print(labels)
 
 **第 6 步:可视化结果**
 
-```
+```py
 # Defining the framework of the visualization
 plt.figure(figsize =(10, 7))
 G = gridspec.GridSpec(2, 3)

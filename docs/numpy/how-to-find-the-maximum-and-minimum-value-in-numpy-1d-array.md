@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -37,7 +37,7 @@ print("Min Element:", min_ele)
 
 **输出:**
 
-```
+```py
 Given Array: [ 1  2  3  0 -1 -2]
 Max Element: 3
 Min Element: -2
@@ -53,7 +53,7 @@ Min Element: -2
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -85,7 +85,7 @@ print("Min Element:", min_ele)
 
 **输出:**
 
-```
+```py
 Given Array: [ 1  2  3  0 -1 -2]
 Max Element: 3
 Min Element: -2

@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import pandas as pd
 
@@ -54,7 +54,7 @@ print(df['experience'])
 
 ![](img/f3472660b2639962185f4b5e1d7bf75d.png)
 
-```
+```py
 0      FIVE
 1       TWO
 2     SEVEN
@@ -69,7 +69,7 @@ Name: experience, dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -96,7 +96,7 @@ print(data[['X1', 'X2']])
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

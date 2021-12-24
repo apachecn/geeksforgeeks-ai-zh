@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.maximum_fill_value() method 
 
@@ -39,7 +39,7 @@ print ("Minimum filled value : ", out_val) 
 
 **Output:**
 
-```
+```py
 Input array :  [ 1\.  3\.  5\. -3.]
 Masked array :  [-- 3.0 5.0 -3.0]
 Minimum filled value :  -inf
@@ -48,7 +48,7 @@ Minimum filled value :  -inf
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.maximum_fill_value() method 
 
@@ -74,7 +74,7 @@ print ("Minimum filled value : ", out_val)  
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]

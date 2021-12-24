@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy
 
@@ -36,7 +36,7 @@ colsum(TwoDArray, len(TwoDArray[0]), len(TwoDArray))
 
 **输出:**
 
-```
+```py
 2D Array:
 [[ 1  2  3]
  [ 4  5  6]
@@ -51,7 +51,7 @@ Column-wise Sum:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy
 
@@ -78,7 +78,7 @@ colsum(TwoDArray, len(TwoDArray[0]), len(TwoDArray))
 
 **输出:**
 
-```
+```py
 2D Array:
 [[1.2 2.3]
  [3.4 4.5]]
@@ -92,7 +92,7 @@ Column-wise Sum:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy
 
@@ -112,7 +112,7 @@ print(numpy.sum(TwoDArray, axis = 0))
 
 **输出:**
 
-```
+```py
 2D Array:
 [[ 1  2  3]
  [ 4  5  6]
@@ -127,7 +127,7 @@ Column-wise Sum:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy
 
@@ -146,7 +146,7 @@ print(*numpy.sum(TwoDArray, axis = 0))
 
 **输出:**
 
-```
+```py
 2D Array:
 [[1.2 2.3]
  [3.4 4.5]]

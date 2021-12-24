@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # log() function
 import numpy as np
@@ -33,7 +33,7 @@ print("np.log(2**8) : ", np.log(2**8))
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 256]
 Output array :  [ 0\.          1.09861229  1.60943791  5.54517744]
 
@@ -44,7 +44,7 @@ np.log(2**8) :  5.54517744448
 
 **代码#2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation  
 # of log() function
@@ -71,7 +71,7 @@ plt.show() 
 
 **输出:**
 
-```
+```py
 out_array :  [ 0\.          0.18232156  0.33647224  0.47000363  0.58778666  0.69314718]
 
 ```

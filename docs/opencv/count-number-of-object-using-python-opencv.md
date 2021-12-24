@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import cv2
 import numpy as np
@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 image = cv2.imread('coins.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(gray, cmap='gray')
@@ -45,7 +45,7 @@ plt.imshow(gray, cmap='gray')
 
 ## 蟒蛇 3
 
-```
+```py
 blur = cv2.GaussianBlur(gray, (11, 11), 0)
 plt.imshow(blur, cmap='gray')
 ```
@@ -58,7 +58,7 @@ plt.imshow(blur, cmap='gray')
 
 ## 蟒蛇 3
 
-```
+```py
 canny = cv2.Canny(blur, 30, 150, 3)
 plt.imshow(canny, cmap='gray')
 ```
@@ -71,7 +71,7 @@ plt.imshow(canny, cmap='gray')
 
 ## 蟒蛇 3
 
-```
+```py
 dilated = cv2.dilate(canny, (1, 1), iterations=0)
 plt.imshow(dilated, cmap='gray')
 ```
@@ -84,7 +84,7 @@ plt.imshow(dilated, cmap='gray')
 
 ## 蟒蛇 3
 
-```
+```py
 (cnt, hierarchy) = cv2.findContours(
     dilated.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -101,13 +101,13 @@ plt.imshow(rgb)
 
 ## 蟒蛇 3
 
-```
+```py
 print("coins in the image : ", len(cnt))
 ```
 
 **输出:**
 
-```
+```py
 coins in the image:  5
 ```
 
@@ -115,7 +115,7 @@ coins in the image:  5
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import cv2
 import numpy as np
@@ -138,6 +138,6 @@ print("coins in the image : ", len(cnt))
 
 **输出:**
 
-```
+```py
 coins in the image :  5
 ```

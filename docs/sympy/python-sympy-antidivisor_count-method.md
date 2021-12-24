@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import antidivisor_count() method from sympy
 from sympy.ntheory.factor_ import antidivisor_count
 
@@ -27,14 +27,14 @@ print("The number of anti-divisors of {} : {}".format(n, antidivisor_count_n))
 
 **输出:**
 
-```
+```py
 The number of anti-divisors of 24 : 2
 
 ```
 
 **例 2:**
 
-```
+```py
 # import antidivisor_count() method from sympy
 from sympy.ntheory.factor_ import antidivisor_count
 
@@ -48,7 +48,7 @@ print("The number of anti-divisors of {} : {}".format(n, antidivisor_count_n))
 
 **输出:**
 
-```
+```py
 The number of anti-divisors of 128 : 6
 
 ```

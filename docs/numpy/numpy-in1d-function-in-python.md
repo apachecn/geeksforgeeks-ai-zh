@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.in1d() function
 
@@ -33,14 +33,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ True False True False True False True]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.in1d() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [False True False True False True False]
 
 ```

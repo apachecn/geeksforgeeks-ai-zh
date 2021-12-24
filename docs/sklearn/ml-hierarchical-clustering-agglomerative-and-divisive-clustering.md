@@ -10,7 +10,7 @@
 
 **算法:**
 
-```
+```py
 given a dataset (d1, d2, d3, ....dN) of size N
 # compute the distance matrix
 for i=1 to N:
@@ -32,7 +32,7 @@ until only a single cluster remains
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.cluster import AgglomerativeClustering
 import numpy as np
 
@@ -51,7 +51,7 @@ print(clustering.labels_)
 
 **输出:**
 
-```
+```py
 [1, 1, 1, 0, 0, 0]
 ```
 
@@ -59,7 +59,7 @@ print(clustering.labels_)
 
 **算法:**
 
-```
+```py
 given a dataset (d1, d2, d3, ....dN) of size N
 at the top we have all data in one cluster
 the cluster is split using a flat clustering method eg. K-Means etc

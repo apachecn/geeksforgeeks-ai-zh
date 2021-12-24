@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.sqrt() method 
 
@@ -31,7 +31,7 @@ print("square-root of an array2  : ", arr2)
 
 **Output:**
 
-```
+```py
 square-root of an array1  :  [ 1\.  2\.  3\.  4.]
 square-root of an array2  :  [ 2.44948974  3.16227766  4.24264069]
 
@@ -39,7 +39,7 @@ square-root of an array2  :  [ 2.44948974  3.16227766  4.24264069]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.sqrt() method 
 
@@ -54,14 +54,14 @@ print("square-root of an array  : ", arr)
 
 **Output:**
 
-```
+```py
 square-root of an array  :  [ 2.00000000+0.j  0.00000000+1.j  1.62721083+2.76546833j]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.sqrt() method 
 
@@ -76,7 +76,7 @@ print("square-root of an array  : ", arr)
 
 **Output:**
 
-```
+```py
 RuntimeWarning: invalid value encountered in sqrt
 square-root of an array  :  [ nan  2.23606798  nan]
 

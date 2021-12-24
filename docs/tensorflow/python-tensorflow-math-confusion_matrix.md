@@ -23,7 +23,7 @@ TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -44,7 +44,7 @@ print('Confusion_matrix: ',res)
 
 **输出:**
 
-```
+```py
 labels:  tf.Tensor([1 3 4], shape=(3,), dtype=int32)
 Predictions:  tf.Tensor([1 2 3], shape=(3,), dtype=int32)
 Confusion_matrix:  tf.Tensor(
@@ -59,7 +59,7 @@ Confusion_matrix:  tf.Tensor(
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -82,7 +82,7 @@ print('Confusion_matrix: ',res)
 
 **输出:**
 
-```
+```py
 labels:  tf.Tensor([1 3 4], shape=(3,), dtype=int32)
 Predictions:  tf.Tensor([1 2 4], shape=(3,), dtype=int32)
 Weights:  tf.Tensor([1 2 2], shape=(3,), dtype=int32)

@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from ipywidgets import interact

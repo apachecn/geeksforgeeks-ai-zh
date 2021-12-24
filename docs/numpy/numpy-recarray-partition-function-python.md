@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.partition() method 
 
@@ -51,7 +51,7 @@ print ("Output partitioned int array : ", rec_arr.b) 
 
 **Output:**
 
-```
+```py
 Input array :  [(  5.,  2) (  3., -4) (  6.,  9) (  9.,  1) (  5.,  4) (-12., -7)]
 Record array of float:  [  5\.   3\.   6\.   9\.   5\. -12.]
 Record array of int:  [ 2 -4  9  1  4 -7]
@@ -64,7 +64,7 @@ Output partitioned int array :  [ 1 -7 -4  2  4  9]
 
 我们将`numpy.recarray.partition()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.partition() method 
 
@@ -89,7 +89,7 @@ print ("Output array : ", rec_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[(5.0, 2) (3.0, 4) (6.0, -7)]
  [(9.0, 1) (6.0, 4) (-2.0, -7)]]
 Output array :  [[(3.0, 4) (5.0, 2) (6.0, -7)]

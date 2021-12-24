@@ -14,7 +14,7 @@ Pandas**time delta Index . difference()**函数返回一个新的索引，其中
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(tidx1, "\n", tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the set difference
 tidx1.difference(tidx2)
 ```
@@ -57,7 +57,7 @@ tidx1.difference(tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ print(tidx1, "\n", tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the set difference
 tidx1.difference(tidx2)
 ```

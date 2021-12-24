@@ -19,7 +19,7 @@ Seaborn 旨在使探索和理解数据的中心部分可视化。它提供了面
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -31,7 +31,7 @@ import seaborn as sns
 
 ## 蟒蛇 3
 
-```
+```py
 # load dataset
 tips= sns.load_dataset('tips')
 
@@ -47,7 +47,7 @@ tips.head()                     
 
 ## 蟒蛇 3
 
-```
+```py
 # illustrate box plot
 fx = sns.boxplot(x='day', y='total_bill', data=tips, hue='sex', palette='Set2')
 ```
@@ -60,7 +60,7 @@ fx = sns.boxplot(x='day', y='total_bill', data=tips, hue='sex', palette='Set2')
 
 ## 蟒蛇 3
 
-```
+```py
 # illustrating box plot with order
 fx = sns.boxplot(x='day', y='total_bill', data=tips, order=[
                  'Sun', 'Sat', 'Fri', 'Thur'], hue='sex', palette='Set2')
@@ -80,7 +80,7 @@ fx = sns.boxplot(x='day', y='total_bill', data=tips, order=[
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -108,7 +108,7 @@ sns.boxplot(x='day', y='total_bill', data=tips, order=[
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np

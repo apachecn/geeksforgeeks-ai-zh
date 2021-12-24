@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`np.hermeweight()`方法，我们能够使用该方法获得 hermiteE 多项式的权函数。
 
-```
+```py
 # import numpy and hermeweight
 import numpy as np
 from numpy.polynomial.hermite_e import hermeweight
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermeweight
 import numpy as np
 from numpy.polynomial.hermite_e import hermeweight

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 from sklearn.neighbors import NearestCentroid
 from sklearn.datasets import load_iris
@@ -54,7 +54,7 @@ print(f"Model Classification Report : \n{classification_report(y_test, model.pre
 
 **输出:**
 
-```
+```py
 Training Set Score : 94.16666666666667 %
 Test Set Score : 90.0 %
 Model Classification Report : 

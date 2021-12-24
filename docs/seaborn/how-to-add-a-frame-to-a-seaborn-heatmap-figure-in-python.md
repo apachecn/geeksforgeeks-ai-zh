@@ -23,7 +23,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 import seaborn as sns
 import matplotlib.pyplot as plt

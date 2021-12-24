@@ -11,7 +11,7 @@
 **例 1 :**
 在这个例子中我们可以看到，借助方法`matrix.getT()`，我们能够得到**转置**。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[6 2]
  [1 3]]
 
@@ -34,7 +34,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 4 7]
  [2 5 8]
  [3 6 9]]

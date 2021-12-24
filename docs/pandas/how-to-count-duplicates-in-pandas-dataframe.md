@@ -6,7 +6,7 @@
 
 **单列下:**我们将使用 [`pivot_table()`](https://www.geeksforgeeks.org/python-pandas-pivot_table/) 功能统计单列中的重复项。要找到重复项的列将作为`index`参数的值传递。`aggfunc` 的价值将是“大小”。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(dups)
 
 **跨多列:**我们将使用 [`pivot_table()`](https://www.geeksforgeeks.org/python-pandas-pivot_table/) 功能统计跨多列的重复项。要找到重复项的列将作为列表作为`index`参数的值传递。`aggfunc` 的价值将是“大小”。
 
-```
+```py
 # importing the module
 import pandas as pd
 

@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.arrow()函数**也用于给轴添加�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.arrow(self, x, y, dx, dy, **kwargs)
 > 
 > ```
@@ -26,7 +26,7 @@ matplotlib 库的 Axes 模块中的 **Axes.arrow()函数**也用于给轴添加�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -45,7 +45,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

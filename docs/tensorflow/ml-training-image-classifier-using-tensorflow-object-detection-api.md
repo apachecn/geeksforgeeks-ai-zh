@@ -25,7 +25,7 @@ Tensorflow 是谷歌大脑创建的开源深度学习框架。张量流的对象
 
 首先是最重要的！确保您的系统中安装了下面给出的软件包。这些在你的冒险中是必不可少的。
 
-```
+```py
        pip install protobuf
        pip install pillow
        pip install lxml
@@ -46,14 +46,14 @@ Tensorflow 是谷歌大脑创建的开源深度学习框架。张量流的对象
 
 下载模型文件夹后，将其提取到项目目录中。我们可以在里面找到 **object_detection** 目录
 
-```
+```py
  models-master/research/ 
 ```
 
 *   **创建一个 PYTHONPATH 变量:**
     必须创建一个 PYTHONPATH 变量，该变量指向\模型、\模型\研究和\模型\研究\slim 目录。从任何目录以下列方式发出命令。就我而言，
 
-```
+```py
    set PYTHONPATH=F:\Programming\geeksforgeeks_project\models-master;F:\Programming\geeksforgeeks_project\models-master\research;F:\Programming\geeksforgeeks_project\models-master\research\slim
 ```
 
@@ -62,7 +62,7 @@ Tensorflow 是谷歌大脑创建的开源深度学习框架。张量流的对象
 要编译协议文件，首先需要得到 protobuf 编译器。你可以[在这里](https://github.com/protocolbuffers/protobuf/releases)下载。下载 windows 操作系统的**protocol-3.8-win 64 . zip**文件，其他操作系统下载相关的 zip 文件。将 bin 文件夹提取到研究目录。
 复制下面给定的代码，并将其保存为您的研究目录中的 **use_protobuf.py** 。
 
-```
+```py
   import os 
   import sys 
   args = sys.argv 
@@ -75,14 +75,14 @@ Tensorflow 是谷歌大脑创建的开源深度学习框架。张量流的对象
 
 转到命令提示符下的研究目录，并使用下面给出的命令。
 
-```
+```py
 python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 ```
 
 这会编译所有 protobuf 文件，并从\object_detection\protos 文件夹中的每个 name.proto 文件创建一个 name_pb2.py 文件。
 最后，从 models-master\research 目录运行以下命令:
 
-```
+```py
   python setup.py build
   python setup.py install
 ```
@@ -92,7 +92,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 *   **Testing the API:**
     For testing the Object Detection api, go to object_detection directory and enter the following command:
 
-    ```
+    ```py
     jupyter notebook object_detection_tutorial.ipynb
     ```
 
@@ -145,7 +145,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 
         用以下代码替换 xml_to_csv.py 的 main()方法:
 
-        ```
+        ```py
         def main():
             for folder in ['train', 'test']:
                 image_path = os.path.join(os.getcwd(), ('images/' + folder))
@@ -156,7 +156,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 
         此外，如下图所示，在 return 语句之前添加 xml_to_csv()方法中的下面几行代码。
 
-        ```
+        ```py
         names=[]
             for i in xml_df['filename']:
                 names.append(i+'.jpg')
@@ -166,7 +166,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
         ![Editing xml_to_csv.py](img/da46520e9f77f1bee9ec33fa3c0d86e0.png)
         首先让我们通过在 object_detection 目录下运行 xml_to_csv.py 文件并使用以下命令将所有的 XML 文件转换为 CSV 文件:
 
-        ```
+        ```py
         python xml_to_csv.py
         ```
 
@@ -178,7 +178,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 
         然后，通过从\object_detection 文件夹发出以下命令来生成 TFRecord 文件:
 
-        ```
+        ```py
         python generate_tfrecord.py --csv_input=images\train_labels.csv --image_dir=images\train --output_path=train.record
         python generate_tfrecord.py --csv_input=images\test_labels.csv --image_dir=images\test --output_path=test.record
         ```
@@ -194,7 +194,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
         使用文本编辑器创建一个新文件，并将其保存为训练目录中的 **labelmap.pbtxt** 。标签映射通过定义类名到类标识号的映射来告诉培训师每个对象是什么。
         现在，以下面的格式在 labelmap.pbtxt 文件中添加内容，为您的分类器创建一个 labelmap。
 
-        ```
+        ```py
         item {
           id: 1
           name: 'shoe'
@@ -243,7 +243,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
     复制 train.py 文件并将其粘贴到 object_detection 目录中。
     导航到 object_detection 目录，运行以下命令开始训练你的模型！
 
-    ```
+    ```py
     python train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
 
     ```
@@ -255,7 +255,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
     ![Check Points](img/13cfb03ced658e272193e8dac719fe37.png)
     可以使用 TensorBoard 查看培训作业的进度。为此，请打开一个新的命令提示符并导航到 object_detection 目录，然后发出以下命令:
 
-    ```
+    ```py
     tensorboard --logdir=training
     ```
 
@@ -270,7 +270,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 
     然后，我们可以通过在命令行中键入以下命令来创建推理图。
 
-    ```
+    ```py
     python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-XXXX --output_directory inference_graph
     ```
 
@@ -281,7 +281,7 @@ python use_protobuf.py  .\object_detection\protos\ .\bin\protoc
 
 使用以下代码在 object_detection 目录中创建一个 python 文件:
 
-```
+```py
 # Write Python3 code here
 import os
 import cv2

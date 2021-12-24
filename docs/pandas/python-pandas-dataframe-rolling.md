@@ -25,7 +25,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 在股票收盘价列上有大小为 3 的窗口的滚动总和
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ df[:10]
 
 ![](img/50996392541ccb52d070005c88886756.png)
 
-```
+```py
 # 3 indicates the window size
 # we have selected 'triang' type window
 # which returns triangular type window
@@ -59,7 +59,7 @@ df.close.rolling(3, win_type ='triang').sum()
 
 **示例#2:** 滚动窗口意味着超过 3 的窗口大小。我们使用默认的窗口类型，即无。所以所有的值将被平均加权。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

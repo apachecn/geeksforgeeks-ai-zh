@@ -13,13 +13,13 @@ TF-IDF 可以计算为 tf * idf
 Tf*Idf 不直接将原始数据转换为有用的功能。首先，它将原始字符串或数据集转换为向量，每个单词都有自己的向量。然后，我们将使用一种特殊的技术来检索像余弦相似性这样的特征，它对向量起作用，等等。我们知道，我们不能直接将字符串传递给我们的模型。因此，tf*idf 为我们提供了整个文档的数值。
 为了从单词文档中提取特征，我们导入–
 
-```
+```py
 from sklearn.feature_extraction.text import TfidfVectorizer
 ```
 
 **输入:**
 
-```
+```py
 1st Sentence - "hello i am pulkit"
 2nd Sentence - "your name is akshit"
 
@@ -27,7 +27,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
  **代码:Python 代码查找相似性度量**
 
-```
+```py
 # importing libraries
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -112,7 +112,7 @@ print(newData);
 
 **输出:**
 
-```
+```py
  manhatten  cos_sim  euclidean
 0   2.955813      0.0   1.414214 
 ```

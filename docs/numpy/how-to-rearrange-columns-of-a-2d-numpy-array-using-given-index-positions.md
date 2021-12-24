@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -46,7 +46,7 @@ print(output)
 
 **输出:**
 
-```
+```py
 [[1 2 3 4 5]
  [1 2 3 4 5]
  [1 2 3 4 5]

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random as random
 import matplotlib.pyplot as plt
 
@@ -55,7 +55,7 @@ plt.plot(teams, wincount, c=color)
 
 ## 蟒蛇 3
 
-```
+```py
 import random as random
 import matplotlib.pyplot as plt
 import numpy as np

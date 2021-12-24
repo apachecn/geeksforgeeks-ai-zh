@@ -16,7 +16,7 @@
 
 *   一维数字阵列；
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([1, 2, 3])
@@ -25,14 +25,14 @@
 
     **输出:**
 
-    ```
+    ```py
     [1 2 3]
 
     ```
 
 *   多维 Numpy 数组:
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([(1, 2, 3), (4, 5, 6)])
@@ -41,7 +41,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [[1 2 3]
      [4 5 6]]
 
@@ -69,7 +69,7 @@
 
 下面是实现。
 
-```
+```py
 # importing numpy package
 import numpy as np
 
@@ -97,7 +97,7 @@ print("Size of the whole Numpy array in bytes: ",D.size*D.itemsize)
 
 **Output:**
 
-```
+```py
 Size of each element of list in bytes:  48
 Size of the whole list in bytes:  48000
 Size of each element of the Numpy array in bytes:  8
@@ -110,7 +110,7 @@ Size of the whole Numpy array in bytes:  8000
 
 下面是实现。
 
-```
+```py
 # importing required packages
 import numpy
 import time
@@ -151,7 +151,7 @@ print("Time taken by NumPy Arrays to perform multiplication:",
 
 **Output:**
 
-```
+```py
 Time taken by Lists : 0.15030384063720703 seconds
 Time taken by NumPy Arrays : 0.005921125411987305 seconds
 
@@ -162,7 +162,7 @@ Time taken by NumPy Arrays : 0.005921125411987305 seconds
 
 下面是实现。
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -193,7 +193,7 @@ except(TypeError):
 
 **Output:**
 
-```
+```py
 Lists don't support list + int
 Modified Numpy array: [5 6 7]
 

@@ -21,7 +21,7 @@
 **导入库**
 我们将需要以下库。在实现以下代码之前，请确保您安装了 **NumPy** 、 **Pandas** 、 **Keras** 、 **Matplotlib** 和 **OpenCV** 。
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import keras
@@ -44,7 +44,7 @@ np.random.seed(0)
 **加载数据集**
 加载数据的时间。我们将使用 pandas 来加载 signnames.csv，并使用 pickle 来加载火车、验证和测试 pickle 文件。在提取数据之后，使用字典标签“特征”和“标签”将其分割。
 
-```
+```py
 # Read data
 data = pd.read_csv("german-traffic-signs / signnames.csv")
 
@@ -68,7 +68,7 @@ print(X_test.shape)
 
 **输出:**
 
-```
+```py
 (34799, 32, 32, 3)
 (4410, 32, 32, 3)
 (12630, 32, 32, 3)
@@ -82,7 +82,7 @@ print(X_test.shape)
 *   **均衡器 Hist()** 功能通过将像素与其附近的像素归一化来均衡像素的强度，从而增加图像的对比度。
 *   最后，我们通过将像素值除以 255 来对 0 和 1 之间的像素值进行归一化。
 
-```
+```py
 def preprocessing(img):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     img = cv2.equalizeHist(img)
@@ -102,7 +102,7 @@ X_test = X_test.reshape(12630, 32, 32, 1)
 
 这样做是为了减少训练数据的过度拟合，因为获得更多不同的数据将产生更好的模型。值 0.1 被解释为 10%，而 10 是旋转的度数。我们也像平常一样，将标签转换为分类值。
 
-```
+```py
 datagen = ImageDataGenerator(width_shift_range = 0.1, 
                   height_shift_range = 0.1, 
                   zoom_range = 0.2, 
@@ -118,7 +118,7 @@ y_test = to_categorical(y_test, 43)
 **建立模型**
 由于数据集中有 43 类图像，我们将 num _ classes 设置为 43。该模型包含两个 Conv2D 层，后跟一个 MaxPooling2D 层。为了有效提取要素，这要做两次，然后是密集层。添加了 0.5 的丢失层，以避免数据过拟合。
 
-```
+```py
 num_classes = 43
 
 def cnn_model():
@@ -152,7 +152,7 @@ history = model.fit_generator(datagen.flow(X_train, y_train, 
                             shuffle = 1)
 ```
 
-```
+```py
 Output:
 Epoch 1/10
 2000/2000 [==============================] - 129s 65ms/step - loss: 0.9130 - acc: 0.7322 - val_loss: 0.0984 - val_acc: 0.9669
@@ -182,7 +182,7 @@ Epoch 10/10
 **评估测试**
 标绘损失函数。
 
-```
+```py
 plt.plot(history.history['loss'])
 plt.plot(history.history['val_loss'])
 plt.legend(['training', 'validation'])
@@ -194,7 +194,7 @@ plt.xlabel('epoch')
 
 **绘制精度函数。**
 
-```
+```py
 plt.plot(history.history['acc'])
 plt.plot(history.history['val_acc'])
 plt.legend(['training', 'validation'])
@@ -206,7 +206,7 @@ plt.xlabel('epoch')
 
 如您所见，我们很好地拟合了数据，将训练和验证损失保持在最低水平。是时候评估我们的模型在测试数据上的表现了。
 
-```
+```py
 score = model.evaluate(X_test, y_test, verbose = 0)
 print('Test Loss: ', score[0])
 print('Test Accuracy: ', score[1])
@@ -214,7 +214,7 @@ print('Test Accuracy: ', score[1])
 
 **输出:**
 
-```
+```py
 Test Loss:  0.16352852963907774
 Test Accuracy:  0.9701504354899777
 
@@ -222,13 +222,13 @@ Test Accuracy:  0.9701504354899777
 
 让我们通过将测试图像输入模型来检查它。该模型给出了 0 级(限速 20)的预测，这是正确的。
 
-```
+```py
 plt.imshow(X_test[990].reshape(32, 32))
 print("Predicted sign: "+ str(
         model.predict_classes(X_test[990].reshape(1, 32, 32, 1))))
 ```
 
-```
+```py
 Output:
 Predicted sign: [0]
 

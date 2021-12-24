@@ -19,7 +19,7 @@ matplotlib 库轴模块中的 **Tick.pickable()函数**用于返回艺术家是�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  
@@ -58,7 +58,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  

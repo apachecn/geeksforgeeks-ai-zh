@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.repeat()()`功能重复索引的元素 2 次。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ idx
 
 让我们重复索引元素两次。
 
-```
+```py
 # to repeat the values
 idx.repeat(2)
 ```
@@ -44,7 +44,7 @@ idx.repeat(2)
 
 **例 2:** 使用`Index.repeat()`功能重复索引值 3 次。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ idx
 
 让我们重复索引元素 3 次。
 
-```
+```py
 # to repeat the values
 idx.repeat(3)
 ```

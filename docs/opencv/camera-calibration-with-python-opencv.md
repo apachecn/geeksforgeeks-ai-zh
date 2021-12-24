@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import cv2
 import numpy as np
@@ -129,7 +129,7 @@ print(t_vecs)
 
 **输出:**
 
-```
+```py
  Camera matrix: 
 [[ 36.26378216   0\.         125.68539168]
  [  0\.          36.76607372 142.49821147]

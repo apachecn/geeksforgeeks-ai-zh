@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.asfreq()`功能将给定时间段的频率从“秒”更改为“天”
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(prd)
 
 现在我们将使用`Period.asfreq()`功能将 prd 对象的频率更改为“每日频率”。
 
-```
+```py
 # change the frequency
 prd.asfreq(freq ='D')
 ```
@@ -46,7 +46,7 @@ prd.asfreq(freq ='D')
 
 **示例 2:** 使用`Period.asfreq()`功能将给定时间段的频率从“秒”更改为“小时”
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(prd)
 
 现在我们将使用`Period.asfreq()`功能将 prd 对象的频率更改为“每小时频率”。
 
-```
+```py
 # change the frequency
 prd.asfreq(freq ='H')
 ```

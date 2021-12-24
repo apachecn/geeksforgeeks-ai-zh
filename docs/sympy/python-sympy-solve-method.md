@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.solve()`方法，我们可以求解数学表达式，这将返回该方程的根。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -33,7 +33,7 @@ print("After Integration : {}".format(intr))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 检查薪资列的值。如果它们介于 80000 和 100000 之间，则返回 True。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

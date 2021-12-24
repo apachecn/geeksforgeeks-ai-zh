@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Performing normaltest
 from scipy.stats import normaltest
 import numpy as np 
@@ -30,7 +30,7 @@ print( '\nNormal test for given data :\n', normaltest(y1))
 
 **输出:**
 
-```
+```py
 
 Normal test for given data :
  NormaltestResult(statistic=146.08066794511544, pvalue=1.901016994532079e-32)
@@ -39,7 +39,7 @@ Normal test for given data :
 
 **代码#2:**
 
-```
+```py
 # Performing normaltest
 from scipy.stats import normaltest
 import numpy as np 
@@ -55,7 +55,7 @@ print( '\nNormal test for given data :\n', normaltest(y1))
 
 **输出:**
 
-```
+```py
 
 Normal test for given data :
  NormaltestResult(statistic=344.05533061429884, pvalue=1.9468577593501764e-75)

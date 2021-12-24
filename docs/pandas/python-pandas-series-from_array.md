@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.from_array()`函数从数组中构造一个序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 **示例 2:** 使用`Series.from_array()`函数从数组中构造一个序列对象。还要设置系列的名称
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

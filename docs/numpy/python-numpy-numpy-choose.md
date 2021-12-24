@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助`numpy.choose()`方法，我们能够从多维数组中提取选择数组。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 array([3 2 5 4])
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 array([7 2 6])
 
 ```

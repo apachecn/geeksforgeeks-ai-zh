@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the csv module
 import csv
 
@@ -34,7 +34,7 @@ print(mpg_data[:3])
 
 ## 蟒蛇 3
 
-```
+```py
 # Let's find all the keys in the dictionary
 print(mpg_data[0].keys)
 
@@ -58,7 +58,7 @@ print(unique_cyl)
 
 ## 蟒蛇 3
 
-```
+```py
 # Let's create an empty list to store the values
 # of average mpg for each cylinder
 avg_mpg = []

@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.columns`属性返回给定数据框的列标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 现在我们将使用`DataFrame.columns`属性返回给定数据帧的列标签。
 
-```
+```py
 # return the column labels
 result = df.columns
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.columns`属性返回给定数据框的列标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(df)
 
 现在我们将使用`DataFrame.columns`属性返回给定数据帧的列标签。
 
-```
+```py
 # return the column labels
 result = df.columns
 

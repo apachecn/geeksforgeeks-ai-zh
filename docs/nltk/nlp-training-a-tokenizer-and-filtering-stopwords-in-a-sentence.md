@@ -7,7 +7,7 @@
 
 为了理解这个概念，让我们考虑下面的文本。这种文本在任何网络文本语料库中都很常见。
 
-```
+```py
 Example of TEXT:
 A guy: So, what are your plans for the party?
 B girl: well! I am not going!
@@ -18,7 +18,7 @@ A guy: Oh, but u should enjoy.
 
 **代码#1:训练标记器**
 
-```
+```py
 # Loading Libraries
 from nltk.tokenize import PunktSentenceTokenizer
 from nltk.corpus import webtext
@@ -33,7 +33,7 @@ print("\n"sents_1[678])
 
 **输出:**
 
-```
+```py
 'White guy: So, do you have any plans for this evening?'
 
 'Hobo: Got any spare change?'
@@ -42,7 +42,7 @@ print("\n"sents_1[678])
 
 **代码#2:默认句子标记器**
 
-```
+```py
 from nltk.tokenize import sent_tokenize
 sents_2 = sent_tokenize(text)
 
@@ -52,7 +52,7 @@ print("\n"sents_2[678])
 
 **输出:**
 
-```
+```py
 'White guy: So, do you have any plans for this evening?'
 
 'Girl: But you already have a Big Mac...\r\nHobo: Oh, this is all theatrical.'
@@ -71,7 +71,7 @@ NLTK 库附带了一个 stopwords 语料库–`nltk_data/corpora/stopwords/`，�
 
 **代码 Python 中的 Stopwords】**
 
-```
+```py
 # Loading Library
 from nltk.corpus import stopwords
 
@@ -88,7 +88,7 @@ print ("\nAfter stopwords removal : ",
 
 **输出:**
 
-```
+```py
 Before stopwords removal:  ["Let's", 'see', 'how', "it's", 'working']
 
 After stopwords removal :  ["Let's", 'see', 'working']
@@ -97,13 +97,13 @@ After stopwords removal :  ["Let's", 'see', 'working']
 
 **代码# 4:NLTK stop words 中使用的语言的完整列表。**
 
-```
+```py
 stopwords.fileids()
 ```
 
 **输出:**
 
-```
+```py
 ['danish', 'dutch', 'english', 'finnish', 'french', 'german',
 'hungarian', 'italian', 'norwegian', 'portuguese', 'russian',
 'spanish', 'swedish', 'turkish']

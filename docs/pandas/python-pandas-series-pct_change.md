@@ -17,7 +17,7 @@ Pandas pct_change()方法应用于具有数字数据的系列，以计算 n 个�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -39,7 +39,7 @@ result
 
 **输出:**
 
-```
+```py
 0         NaN
 1    0.400000
 2    0.428571
@@ -60,7 +60,7 @@ dtype: float64
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -82,7 +82,7 @@ result
 
 **输出:**
 
-```
+```py
 0         NaN
 1    0.400000
 2    0.000000

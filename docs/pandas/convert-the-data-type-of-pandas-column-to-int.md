@@ -21,7 +21,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd  
 
 df = pd.DataFrame([["1", "2"], ["3", "4"]],
@@ -42,7 +42,7 @@ print(df.dtypes)
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd  
 
 # sample dataframe  

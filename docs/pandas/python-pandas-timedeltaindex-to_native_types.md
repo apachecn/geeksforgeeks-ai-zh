@@ -16,7 +16,7 @@ Pandas `**TimedeltaIndex.to_native_types()**`函数格式化 self (TimedeltaInde
 
 **示例#1:** 使用`TimedeltaIndex.to_native_types()`函数将给定的时间增量索引对象格式化为其本机格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_native_types()`函数将 tidx 格式化为它的原生类型。
 
-```
+```py
 # format tidx
 tidx.to_native_types()
 ```
@@ -46,7 +46,7 @@ tidx.to_native_types()
 
 **示例 2:** 使用`TimedeltaIndex.to_native_types()`函数将给定的时间增量索引对象格式化为其本机格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_native_types()`函数将 tidx 格式化为它的原生类型。
 
-```
+```py
 # format tidx
 tidx.to_native_types()
 ```

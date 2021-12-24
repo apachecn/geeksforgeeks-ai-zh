@@ -16,7 +16,7 @@ Pandas `**dataframe.idxmin()**`函数返回请求轴上最小值第一次出现�
 
 **例#1:** 使用`idxmin()`函数来求沿指数轴的最小值的指数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 现在沿着索引轴应用`idxmin()`功能。
 
-```
+```py
 # applying idxmin() function.
 df.idxmin(axis = 0)
 ```
@@ -45,7 +45,7 @@ df.idxmin(axis = 0)
 
 **例 2:** 使用`idxmin()`函数沿列轴寻找最小值的索引。数据框包含`NA`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

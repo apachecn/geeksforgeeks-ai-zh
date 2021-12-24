@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.minute`属性查找 DatetimeIndex 对象中的分钟值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们想要找到 DatetimeIndex 对象中存在的所有分钟值。
 
-```
+```py
 # find all the minute values present in the object
 didx.minute
 ```
@@ -41,7 +41,7 @@ didx.minute
 
 **示例#2:** 使用`DatetimeIndex.minute`属性查找 DatetimeIndex 对象中存在的分钟值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 
 现在，我们想要找到 DatetimeIndex 对象中存在的所有分钟值。
 
-```
+```py
 # find all the minute values present in the object
 didx.minute
 ```

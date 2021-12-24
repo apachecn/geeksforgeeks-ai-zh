@@ -7,25 +7,25 @@
 我们先加载图像，找出图像的直方图。
 **导入库**
 
-```
+```py
 import cv2
 ```
 
 **导入图像数据**
 
-```
+```py
 image = cv2.imread('test.jpg')
 ```
 
 **转换为灰色图像**
 
-```
+```py
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 ```
 
 **寻找直方图**
 
-```
+```py
 histogram = cv2.calcHist([gray_image], [0], 
                               None, [256], [0, 256])
 ```
@@ -46,7 +46,7 @@ histogram = cv2.calcHist([gray_image], [0],
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # test image
@@ -91,6 +91,6 @@ else:
 
 **输出:**
 
-```
+```py
 data1.jpg is more similar to test.jpg as compare to data2.jpg
 ```

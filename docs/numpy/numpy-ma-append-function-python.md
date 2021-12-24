@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.append() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 2 -- 4 5 6 7 -- 9]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.append() function
 
@@ -58,7 +58,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 -- 3 4 5 6 7 -- 9 10]
 
 ```

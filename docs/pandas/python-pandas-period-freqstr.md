@@ -14,7 +14,7 @@ Pandas `**Period.freqstr**`属性返回应用于给定周期对象的时间序�
 
 **示例#1:** 使用`Period.freqstr`属性查找应用于给定周期对象的时间序列频率的字符串别名。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.freqstr`属性来查找应用于 prd 对象的频率的字符串别名。
 
-```
+```py
 # return the string alias of the frequency
 prd.freqstr
 ```
@@ -44,7 +44,7 @@ prd.freqstr
 
 **示例#2:** 使用`Period.freqstr`属性查找应用于给定周期对象的时间序列频率的字符串别名。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(prd)
 
 现在我们将使用`Period.freqstr`属性来查找应用于 prd 对象的频率的字符串别名。
 
-```
+```py
 # return the string alias of the frequency
 prd.freqstr
 ```

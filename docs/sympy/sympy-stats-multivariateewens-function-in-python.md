@@ -4,7 +4,7 @@
 
 借助于**方法，我们可以创建一个具有多变量 Ewens 分布的离散随机变量。**
 
-```
+```py
 **Syntax:** sympy.stats.MultivariateEwens(syms, n, theta)
 
 **Parameters:**
@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import sympy, MultivariateEwens, density, Symbol
 from sympy.stats.joint_rv_types import MultivariateEwens
 from sympy.stats import density

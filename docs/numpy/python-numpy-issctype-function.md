@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.issctype() function
 
@@ -31,14 +31,14 @@ print ("Are integers scalar: ", out_val) 
 
 **Output :**
 
-```
+```py
 Are integers scalar:  True
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.issctype() function
 
@@ -56,7 +56,7 @@ print ("Is list scalar: ", out_val) 
 
 **Output :**
 
-```
+```py
 Is list scalar:  False
 
 ```

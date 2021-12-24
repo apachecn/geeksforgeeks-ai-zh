@@ -9,7 +9,7 @@
 **示例#1:** 通过变量进行复制
 在此示例中，制作了一个 Pandas 系列样本，并将其复制到一个新变量中。之后，对新数据进行一些更改，并与旧数据进行比较。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(data)
 **示例 2:** 使用 Pandas.copy()方法
 在本例中，pandas.copy()方法用于复制数据，并对新数据进行了一些更改。然后将这些变化与旧数据进行比较。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

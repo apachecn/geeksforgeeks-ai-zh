@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_autoscaley_on()函数**用于设�
 
 ## 蟒蛇 3
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,7 +48,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt

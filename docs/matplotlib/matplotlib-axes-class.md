@@ -14,13 +14,13 @@
 
 **语法:**
 
-```
+```py
 axes([left, bottom, width, height])
 ```
 
 **示例:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
@@ -41,13 +41,13 @@ ax = plt.axes([0.1, 0.1, 0.8, 0.8]) 
 
 **语法:**
 
-```
+```py
 add_axes([left, bottom, width, height])
 ```
 
 **示例:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
@@ -66,7 +66,7 @@ ax = fig.add_axes([0, 0, 1, 1])
 
 **语法:**
 
-```
+```py
 ax.legend(handles, labels, loc)
 ```
 
@@ -74,7 +74,7 @@ ax.legend(handles, labels, loc)
 
 **示例:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
@@ -116,7 +116,7 @@ ax.legend(labels = ('label1', 'label2'), 
 
 **示例:**以下示例显示了**正弦**和**余弦**函数的图形。
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

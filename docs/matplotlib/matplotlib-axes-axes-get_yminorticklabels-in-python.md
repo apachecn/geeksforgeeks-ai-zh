@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_yminorticklabels()函数**用于�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
@@ -46,7 +46,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

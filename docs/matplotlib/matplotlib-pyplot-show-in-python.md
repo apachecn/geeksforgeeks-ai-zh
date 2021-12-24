@@ -8,7 +8,7 @@
 
 **样本代码–**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的 **show()功能**用于显示所有图形。
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.show(*args, **kw)
 > 
 > ```
@@ -40,7 +40,7 @@ matplotlib 库 pyplot 模块中的 **show()功能**用于显示所有图形。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -82,7 +82,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

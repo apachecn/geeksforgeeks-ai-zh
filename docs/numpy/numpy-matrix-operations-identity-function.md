@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.identity() function
 
@@ -29,7 +29,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  
 [[ 1\.  0\.  0.]
  [ 0\.  1\.  0.]
@@ -39,7 +39,7 @@ Output matrix :
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.identity() function
 
@@ -54,7 +54,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  
 [[1 0 0 0 0]
  [0 1 0 0 0]

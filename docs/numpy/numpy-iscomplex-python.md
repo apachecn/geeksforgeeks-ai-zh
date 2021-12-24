@@ -7,27 +7,27 @@
 **numpy.iscomplex()** 函数逐元素测试它是否是复数(不是无穷大也不是数字)，并将结果作为布尔数组返回。
 **语法:**
 
-```
+```py
 numpy.iscomplex(array)
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like] Input array whose element we want to test
 
 ```
 
 **返回:**
 
-```
+```py
 boolean array containing the result
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.iscomplex() method
 
@@ -40,7 +40,7 @@ print("Is Complex : ", geek.iscomplex([0+1j, 0]), "\n")
 
 **输出:**
 
-```
+```py
 Is Complex :  [ True False] 
 
 Is Complex :  [ True False] 
@@ -49,7 +49,7 @@ Is Complex :  [ True False]
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.iscomplex() method
 
@@ -73,7 +73,7 @@ print("\nIs complex : \n", geek.iscomplex(b))
 
 **输出:**
 
-```
+```py
 Is complex : 
  [[False False False False]
  [False False False False]

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermeroots()`方法，我们能够使用该方法从 hermiteE 系列中获得根。
 
-```
+```py
 # import numpy and hermeroots
 import numpy as np
 from numpy.polynomial.hermite_e import hermeroots
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermeroots
 import numpy as np
 from numpy.polynomial.hermite_e import hermeroots

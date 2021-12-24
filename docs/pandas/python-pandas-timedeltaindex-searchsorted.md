@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.searchsorted()`函数查找应该插入元素的索引，以保持给定时间增量索引对象中的顺序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.searchsorted()`函数来查找索引的值，在该索引中应该插入给定的元素，以保持给定对象中的顺序。
 
-```
+```py
 # return the value of index
 tidx.searchsorted('11 days 22:16:13.001124')
 ```
@@ -46,7 +46,7 @@ tidx.searchsorted('11 days 22:16:13.001124')
 
 **示例#2:** 使用`TimedeltaIndex.searchsorted()`函数查找应该插入元素的索引，以保持给定时间增量索引对象中的顺序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.searchsorted()`函数来查找索引的值，在该索引中应该插入给定的元素，以保持给定对象中的顺序。
 
-```
+```py
 # return the value of index
 tidx.searchsorted('3 days 09:45:56')
 ```

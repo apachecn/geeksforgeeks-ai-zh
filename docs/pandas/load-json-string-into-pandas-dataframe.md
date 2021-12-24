@@ -10,7 +10,7 @@
 
 path_to_json.json
 
-```
+```py
 # importing the module
 import pandas
 
@@ -37,7 +37,7 @@ print(data)
 
 ![](img/4926b3a0870de076e8b86d1f3483a779.png)
 
-```
+```py
 # importing the module
 import pandas
 
@@ -58,7 +58,7 @@ print(data)
 
 ![](img/3308f853dfcbbbc75a4799a60aa8ecd5.png)
 
-```
+```py
 # importing the module
 import pandas
 
@@ -79,7 +79,7 @@ print(data)
 
 ![](img/68be2272acbfcf56d3cdd97912a49722.png)
 
-```
+```py
 # importing the module
 import pandas
 

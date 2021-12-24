@@ -19,7 +19,7 @@
 
 **代码#1:创建 beta 连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import beta
 
@@ -32,7 +32,7 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000029482FCC438>
 
@@ -40,7 +40,7 @@ RV :
 
 **代码#2:贝塔随机变量和概率分布函数。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -55,7 +55,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [1.47189604 1.47284574 1.84692416 1.0686604  0.32709236 1.96857076
  0.00639731 1.97093898 1.34811881 0.34269426]
@@ -67,7 +67,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -80,7 +80,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **代码#4:变化的位置参数**
 
-```
+```py
 from scipy.stats import arcsine
 import matplotlib.pyplot as plt
 import numpy as np

@@ -8,7 +8,7 @@ Python 是执行数据分析任务的优秀语言。它提供了大量的类和�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

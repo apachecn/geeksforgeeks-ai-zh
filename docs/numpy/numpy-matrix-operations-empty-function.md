@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.empty() function
 
@@ -30,7 +30,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[  6.93621940e-310   2.43141878e-316   6.93621669e-310]
  [  6.93621669e-310   6.93621553e-310   6.93621553e-310]]
 
@@ -38,7 +38,7 @@ Output matrix :  [[  6.93621940e-310   2.43141878e-316   6.93621669e-310]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.empty() function
 
@@ -53,7 +53,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[140133380791224 140133380791224 140133356100528]
  [140133356100336 140133356100592 140133343343704]]
 

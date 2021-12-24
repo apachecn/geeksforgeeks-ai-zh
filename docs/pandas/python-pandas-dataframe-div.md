@@ -17,7 +17,7 @@ Pandas**data frame . div()**用于查找数据帧的浮动分区和其他元素�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Find the division with 50 being substituted
 # for all the missing values in the dataframe
 df.div(2, fill_value = 50)
@@ -54,7 +54,7 @@ df.div(2, fill_value = 50)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

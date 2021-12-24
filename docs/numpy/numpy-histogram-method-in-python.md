@@ -31,7 +31,7 @@ Numpy 有一个内置的 numpy .直方图()函数，它以图形形式表示数�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 
@@ -68,7 +68,7 @@ print()
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 from matplotlib import pyplot as plt
 import numpy as np 

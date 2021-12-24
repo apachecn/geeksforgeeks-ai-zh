@@ -26,7 +26,7 @@
 
 上面解释的一切都封装在 OpenCV 函数 cv2 中。HoughLines()。它只是返回一个(r，0)值的数组。r 以像素为单位，0 以弧度为单位。
 
-```
+```py
 # Python program to illustrate HoughLine
 # method for line detection
 import cv2

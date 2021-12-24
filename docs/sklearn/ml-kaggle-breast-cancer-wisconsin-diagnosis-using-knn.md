@@ -11,7 +11,7 @@ K 近邻算法用于预测患者是否患有癌症(恶性肿瘤)或良性肿瘤�
 
 **代码:导入库**
 
-```
+```py
 # performing linear algebra
 import numpy as np 
 
@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 
 **代码:加载数据集**
 
-```
+```py
 df = pd.read_csv("..\\breast-cancer-wisconsin-data\\data.csv")
 
 print (data.head)
@@ -35,13 +35,13 @@ print (data.head)
 
 **代码:数据信息**
 
-```
+```py
 df.info()
 ```
 
 **输出:**
 
-```
+```py
 RangeIndex: 569 entries, 0 to 568
 Data columns (total 33 columns):
 id                         569 non-null int64
@@ -84,20 +84,20 @@ memory usage: 146.8+ KB
 
 **代码:我们正在删除列–“id”和“未命名:32”，因为它们在预测中没有作用**
 
-```
+```py
 df.drop(['Unnamed: 32', 'id'], axis = 1)
 print(df.shape)
 ```
 
 **输出:**
 
-```
+```py
 (569, 31)
 ```
 
 **代码:将 M 和 B 的诊断值转换为数值，其中 M(恶性)= 1，B(良性)= 0**
 
-```
+```py
 def diagnosis_value(diagnosis):
     if diagnosis == 'M':
         return 1
@@ -109,7 +109,7 @@ df['diagnosis'] = df['diagnosis'].apply(diagnosis_value)
 
 **代码:**
 
-```
+```py
 sns.lmplot(x = 'radius_mean', y = 'texture_mean', hue = 'diagnosis', data = df)
 ```
 
@@ -117,7 +117,7 @@ sns.lmplot(x = 'radius_mean', y = 'texture_mean', hue = 'diagnosis', data = df)
 
 **代码:**
 
-```
+```py
 sns.lmplot(x ='smoothness_mean', y = 'compactness_mean', 
            data = df, hue = 'diagnosis')
 ```
@@ -127,14 +127,14 @@ sns.lmplot(x ='smoothness_mean', y = 'compactness_mean', 
 
 **代码:输入输出数据**
 
-```
+```py
 X = np.array(df.iloc[:, 1:])
 y = np.array(df['diagnosis'])
 ```
 
 **代码:拆分数据进行训练测试**
 
-```
+```py
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size = 0.33, random_state = 42)
@@ -142,14 +142,14 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 **代码:使用 Sklearn**
 
-```
+```py
 knn = KNeighborsClassifier(n_neighbors = 13)
 knn.fit(X_train, y_train)
 ```
 
 **输出:**
 
-```
+```py
 KNeighborsClassifier(algorithm='auto', leaf_size=30, 
              metric='minkowski', metric_params=None, 
              n_jobs=None, n_neighbors=13, p=2, 
@@ -159,20 +159,20 @@ KNeighborsClassifier(algorithm='auto', leaf_size=30,
 
 **代码:预测得分**
 
-```
+```py
 knn.score(X_test, y_test)
 ```
 
 **输出:**
 
-```
+```py
 0.9627659574468085
 
 ```
 
 **代码:执行交叉验证**
 
-```
+```py
 neighbors = []
 cv_scores = []
 
@@ -188,7 +188,7 @@ for k in range(1, 51, 2):
 
 **代码:误分类错误对 k**
 
-```
+```py
 MSE = [1-x for x in cv_scores]
 
 # determining the best k
@@ -205,7 +205,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 The optimal number of neighbors is 13 
 
 ```

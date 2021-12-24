@@ -24,7 +24,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 import seaborn as sns

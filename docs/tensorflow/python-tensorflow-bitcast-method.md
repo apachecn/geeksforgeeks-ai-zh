@@ -6,7 +6,7 @@
 
 bitcast()是 tensorflow 库中的一种方法，用于将张量从一种类型 bitcast 到另一种类型。它不会复制数据。
 
-```
+```py
 Syntax:
 tf.bitcast(
     input, type, name
@@ -29,7 +29,7 @@ Return: It returns a tensor of type type.
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow
 
@@ -48,7 +48,7 @@ print('b:',b)
 
 **输出:**
 
-```
+```py
 a: tf.Tensor(4294967295, shape=(), dtype=uint32)
 b: tf.Tensor([255 255 255 255], shape=(4,), dtype=uint8)
 
@@ -60,7 +60,7 @@ b: tf.Tensor([255 255 255 255], shape=(4,), dtype=uint8)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow
 

@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * M = Matrix([[3, -2,  4, -2],
                                 [5,  3, -3, -2],
@@ -32,7 +32,7 @@ print("Diagonal of a matrix : {}".format(D))  
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * M = Matrix([[1, -3, 3], [3, -5, 3], [6, -6, 4]]) 
 print("Matrix : {} ".format(M))

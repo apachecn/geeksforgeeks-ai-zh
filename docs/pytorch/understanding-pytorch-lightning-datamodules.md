@@ -8,13 +8,13 @@ PyTorch Lightning 旨在使 PyTorch 代码更具结构化和可读性，这不�
 
 安装 Lightning 与 python 中的任何其他库相同。
 
-```
+```py
 pip install pytorch-lightning
 ```
 
 或者，如果您想在 conda 环境中安装它，您可以使用以下命令:-
 
-```
+```py
 conda install -c conda-forge pytorch-lightning
 ```
 
@@ -22,7 +22,7 @@ conda install -c conda-forge pytorch-lightning
 
 要定义闪电数据模块，我们遵循以下格式:-
 
-```
+```py
 import pytorch-lightning as pl
 from torch.utils.data import random_split, DataLoader
 
@@ -55,7 +55,7 @@ class DataModuleClass(pl.LightningDataModule):
 
 在本文中，我将以 MNIST 数据为例。如我们所见，创建闪电数据模块的第一个要求是继承 pytorch-lightning 中的 Lightning DataModule 类:
 
-```
+```py
 import pytorch-lightning as pl
 from torch.utils.data import random_split, DataLoader
 
@@ -66,7 +66,7 @@ class DataModuleMNIST(pl.LightningDataModule):
 
 它用于存储关于批次大小、转换等的信息。
 
-```
+```py
 def __init__(self):
     super().__init__()
     self.download_dir = ''
@@ -80,7 +80,7 @@ def __init__(self):
 
 该方法用于定义仅由一个图形处理器执行的进程。它通常用于处理下载数据的任务。
 
-```
+```py
 def prepare_data(self):
     datasets.MNIST(self.download_dir,
            train=True, download=True)
@@ -93,7 +93,7 @@ def prepare_data(self):
 
 该方法用于定义由所有可用的图形处理器执行的过程。它通常用于处理加载数据的任务。
 
-```
+```py
 def setup(self, stage=None):
     data = datasets.MNIST(self.download_dir,
              train=True, transform=self.transform)
@@ -108,7 +108,7 @@ def setup(self, stage=None):
 
 此方法用于创建训练数据数据加载器。在这个函数中，通常只返回训练数据的数据加载器。
 
-```
+```py
 def train_dataloader(self):
     return DataLoader(self.train_data, batch_size=self.batch_size)
 ```
@@ -117,7 +117,7 @@ def train_dataloader(self):
 
 此方法用于创建验证数据数据加载器。在这个函数中，通常只返回验证数据的数据加载器。
 
-```
+```py
 def val_dataloader(self):
    return DataLoader(self.valid_data, batch_size=self.batch_size)
 ```
@@ -126,7 +126,7 @@ def val_dataloader(self):
 
 此方法用于创建测试数据数据加载器。在这个函数中，通常只返回测试数据的数据加载器。
 
-```
+```py
 def test_dataloader(self):
    return DataLoader(self.test_data, batch_size=self.batch_size)
 ```
@@ -135,7 +135,7 @@ def test_dataloader(self):
 
 在 Pytorch Lighting 中，我们使用 Trainer()来训练我们的模型，在这种情况下，我们可以将数据作为 DataLoader 或 DataModule 传递。让我们以我在本文[中定义的模型](https://www.geeksforgeeks.org/training-neural-networks-using-pytorch-lightning/)为例:
 
-```
+```py
 class model(pl.LightningModule): 
     def __init__(self): 
         super(model, self).__init__() 
@@ -169,7 +169,7 @@ class model(pl.LightningModule):
 
 现在，为了训练这个模型，我们将创建一个 Trainer()对象，并通过将模型和数据模块作为参数传递来拟合它。
 
-```
+```py
 clf = model() 
 mnist = DataModuleMNIST() 
 trainer = pl.Trainer(gpus=1) 
@@ -180,7 +180,7 @@ trainer.fit(clf, mnist)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import torch 
 

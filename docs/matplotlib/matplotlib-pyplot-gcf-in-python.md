@@ -12,13 +12,13 @@
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.gcf()
 ```
 
 **例 1:**
 
-```
+```py
 import numpy as np
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 import matplotlib.pyplot as plot
@@ -47,7 +47,7 @@ img.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.tri import Triangulation
 from matplotlib.patches import Polygon

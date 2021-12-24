@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.max()`函数在给定序列对象的底层数据中找到最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们用`Series.max()`函数求给定数列对象的最大值。
 
-```
+```py
 # return the maximum value in the 
 # series object
 result = sr.max()
@@ -56,7 +56,7 @@ print(result)
 
 **例 2:** 使用`Series.max()`函数在给定序列对象的底层数据中寻找最大值。给定的序列对象也包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们用`Series.max()`函数求给定数列对象的最大值。我们将跳过丢失的值，同时找到最大值。
 
-```
+```py
 # return the maximum value in the series object
 # skip the missing values
 result = sr.max(skipna = True)

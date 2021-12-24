@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessHour.offset`属性返回自我。给定偏移量的偏移量值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们将打印偏移值。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 
@@ -62,7 +62,7 @@ print(bh.offset)
 
 **例 2:** 使用`pandas.tseries.offsets.BusinessHour.offset`属性返回自我。给定偏移量的偏移量值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们将打印自我。_ 偏移值。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 

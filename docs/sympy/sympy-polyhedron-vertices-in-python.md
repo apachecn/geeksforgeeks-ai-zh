@@ -10,7 +10,7 @@
 
 **代码#1:顶点()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.vertices()
 
@@ -38,7 +38,7 @@ print ("\nPolyhedron - vertices form : ", a.vertices)
 
 **代码#2:顶点()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.vertices()
 

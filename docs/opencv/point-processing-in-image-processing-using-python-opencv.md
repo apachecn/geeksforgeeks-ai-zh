@@ -8,7 +8,7 @@
 
 对像素值进行的所有处理。点处理操作采用以下形式–
 
-```
+```py
 s = T ( r )
 ```
 
@@ -16,20 +16,20 @@ s = T ( r )
 
 **影像底片:**
 
-```
+```py
 s = (L-1) – r, where L= number of grey levels
 ```
 
 **阈值化:**
 
-```
+```py
 s = L-1 for r > threshold
 s = 0 for r < threshold
 ```
 
 **背景灰度切片:**
 
-```
+```py
 s = L-1 for a < r < b,
 here a and b define some specific range of grey level
 s = r otherwise.
@@ -41,7 +41,7 @@ s = r otherwise.
 
 ![](img/864f00169490090a63553a22c138aa56.png)
 
-```
+```py
 import cv2
 import numpy as np
 

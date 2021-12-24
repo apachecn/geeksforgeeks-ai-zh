@@ -15,7 +15,7 @@
 
 **步骤 1:** 在命令提示符下输入以下命令，检查是否已经安装了 python3。
 
-```
+```py
 python3 --version
 ```
 
@@ -25,7 +25,7 @@ python3 --version
 
 **步骤 2:** 在命令提示符下输入以下命令，检查 pip3 是否已经安装。
 
-```
+```py
 pip3 --version
 ```
 
@@ -37,7 +37,7 @@ pip3 --version
 
 **1。计算平台:中央处理器**
 
-```
+```py
 pip3 install torch torchvision torchaudio
 ```
 
@@ -45,7 +45,7 @@ pip3 install torch torchvision torchaudio
 
 **第 4 步:**在命令提示符下输入以下命令，检查 Pytorch 是否安装成功。
 
-```
+```py
 pip3 show torch
 ```
 
@@ -57,7 +57,7 @@ pip3 show torch
 
 **第一步:**如果蟒蛇被停用，激活蟒蛇提示。
 
-```
+```py
 conda activate
 ```
 
@@ -65,7 +65,7 @@ conda activate
 
 **步骤 2:** 通过在 Anaconda 提示符下输入以下命令，检查 conda 是否已安装。
 
-```
+```py
 conda --version
 ```
 
@@ -77,7 +77,7 @@ conda --version
 
 **1。计算平台:中央处理器**
 
-```
+```py
 conda install pytorch torchvision torchaudio -c pytorch
 ```
 
@@ -85,7 +85,7 @@ conda install pytorch torchvision torchaudio -c pytorch
 
 **第 4 步:**在 Anaconda 提示符下输入以下命令，检查 Pytorch 是否安装成功。
 
-```
+```py
 conda list -f pytorch
 ```
 

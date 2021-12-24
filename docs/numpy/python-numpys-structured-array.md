@@ -18,7 +18,7 @@ Numpy 的结构化数组类似于 c 语言中的 Struct，用于对不同类型�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Structured array
 
@@ -32,7 +32,7 @@ print(a)
 
 **Output:** 
 
-```
+```py
 [('Sana', 2, 21.0) ('Mansi', 7, 29.0)]
 ```
 
@@ -40,7 +40,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Structured array
 
@@ -60,7 +60,7 @@ print('\nSorting according to the age', b)
 
 **Output:** 
 
-```
+```py
 Sorting according to the name [('Mansi', 7, 29.0) ('Sana', 2, 21.0)]
 
 Sorting according to the age [('Sana', 2, 21.0) ('Mansi', 7, 29.0)]

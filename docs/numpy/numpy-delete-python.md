@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 numpy.delete(array, object, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array   : [array_like]Input array. 
 object  : [int, array of ints]Sub-array to delete
 axis    : Axis along which we want to delete sub-arrays. By default, it object is applied to  
@@ -22,7 +22,7 @@ axis    : Axis along which we want to delete sub-arrays. By default, it object i
 
 **返回:**
 
-```
+```py
 An array with sub-array being deleted as per the mentioned object along a given axis. 
 
 ```
@@ -31,7 +31,7 @@ An array with sub-array being deleted as per the mentioned object along a given 
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.delete()
 
@@ -57,7 +57,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [0 1 2 3 4]
 Shape :  (5,)
@@ -76,7 +76,7 @@ Shape :  (4,)
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.delete()
 
@@ -112,7 +112,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [[ 0  1  2  3]
  [ 4  5  6  7]
@@ -141,7 +141,7 @@ Shape :  (3, 3)
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.delete()
 
@@ -160,7 +160,7 @@ print("\nDeletion Using a Boolean Mask : ", result)
 
 **输出:**
 
-```
+```py
 Original array :  [0 1 2 3 4]
 
 Mask set as :  [False  True False  True  True]

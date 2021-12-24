@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.factor()`方法，我们可以找到数学表达式中带有变量的因子。这里我们也使用`symbols()`方法将变量声明为符号。
 
-```
+```py
 # import sympy
 from sympy import expand, symbols, factor
 
@@ -30,7 +30,7 @@ print(fact)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import expand, symbols, factor
 

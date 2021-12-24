@@ -10,7 +10,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 该方法以(索引、序列)对的形式遍历行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -29,7 +29,7 @@ for index, row in df.iterrows():
 
 **Output:**
 
-```
+```py
 Original DataFrame: 
     age    name
 0   10  Sujeet
@@ -47,7 +47,7 @@ Sumit 12
 
 此方法为每一行返回一个命名元组。`getattr()`函数可以用来获取返回元组中的`row` 属性。这个方法比方法#1 更快。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -66,7 +66,7 @@ for row in df.itertuples():
 
 **Output:**
 
-```
+```py
 Original DataFrame: 
     age    name
 0   10  Sujeet

@@ -6,7 +6,7 @@
 
 **示例#1:** 使用 sort()方法基于轴对给定数组进行简单排序。
 
-```
+```py
 # importing libraries
 import numpy as np
 
@@ -27,7 +27,7 @@ print ("\nAlong none axis : \n", arr1)
 
 **输出:**
 
-```
+```py
 Along first axis : 
  [[10  1]
  [12 15]]
@@ -43,7 +43,7 @@ Along none axis :
 
 **示例#2:** 使用 argsort()方法获取可以返回排序数组的索引
 
-```
+```py
 # Python code to demonstrate 
 # working of  numpy.argsort
 import numpy as np
@@ -68,7 +68,7 @@ print('Sorted array->', c)
 
 **输出:**
 
-```
+```py
 Original array:
  [9 3 1 7 4 3 6]
 Sorted indices of original array-> [2 1 5 4 6 3 0]
@@ -78,7 +78,7 @@ Sorted array-> [1 3 3 4 6 7 9]
 
 **示例#3:** 使用一系列键获得稳定的排序。
 
-```
+```py
 import numpy as np
 
 # Numpy array created
@@ -98,7 +98,7 @@ print('Sorted indices->', ind)
 
 **输出:**
 
-```
+```py
 column a, column b
 9   4
 3   6

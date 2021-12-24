@@ -16,7 +16,7 @@
 
 **示例 1 :** 我们将使用`pandas.get_option()`更改选项的值，然后使用`pandas.reset_option()`将其重置回默认值。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -75,7 +75,7 @@ print("Value of xlsm reader : " + 
 
 **例 2 :** 我们可以通过在`pandas.reset_option()`函数中传递“all”作为参数，一次重置所有选项的值，而不是单独重置不同选项的值。
 
-```
+```py
 # importing the module
 import pandas as pd
 

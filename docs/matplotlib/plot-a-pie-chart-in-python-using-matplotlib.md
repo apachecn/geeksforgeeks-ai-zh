@@ -23,7 +23,7 @@ Matplotlib API 在其 pyplot 模块中有 pie()函数，该函数创建一个饼
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from matplotlib import pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -112,7 +112,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from matplotlib import pyplot as plt
 import numpy as np

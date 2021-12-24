@@ -14,7 +14,7 @@ Pandas `**Timestamp.weekday()**`函数返回给定 Timestamp 对象中的日期�
 
 **示例#1:** 使用`Timestamp.weekday()`函数返回给定时间戳对象中日期的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekday()`功能返回星期几。
 
-```
+```py
 # return the day of the week
 ts.weekday()
 ```
@@ -45,7 +45,7 @@ ts.weekday()
 
 **示例 2:** 使用`Timestamp.weekday()`函数返回给定时间戳对象中日期的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekday()`功能返回星期几。
 
-```
+```py
 # return the day of the week
 ts.weekday()
 ```

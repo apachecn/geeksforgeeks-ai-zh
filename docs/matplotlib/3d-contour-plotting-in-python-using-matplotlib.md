@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ plt.show()
 
 **例 2:** 为了更好地理解概念，我们再来看另一个 3d 图。这一次，3d tan 功能。
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt

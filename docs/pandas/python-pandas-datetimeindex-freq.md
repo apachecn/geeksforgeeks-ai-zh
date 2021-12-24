@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.freq`属性查找给定日期时间索引对象的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在我们想找到给定的 DatetimeIndex 对象的频率值。
 
-```
+```py
 # find the value of frequency
 didx.freq
 ```
@@ -41,7 +41,7 @@ didx.freq
 
 **示例#2:** 使用`DatetimeIndex.freq`属性为给定的 DatetimeIndex 对象查找频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(didx)
 ![](img/f4a42c851d0a8132b1e387964be2b2e0.png)
 现在我们要找到给定 DatetimeIndex 对象的频率值。
 
-```
+```py
 # find the value of frequency
 didx.freq
 ```

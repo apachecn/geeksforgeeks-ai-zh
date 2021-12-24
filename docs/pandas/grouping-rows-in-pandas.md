@@ -10,7 +10,7 @@ Pandas 是最流行的用于数据分析的 Python 库。它提供了高度优�
 
 为了对 pandas 中的行进行分组，我们将首先创建 Pandas 数据框。
 
-```
+```py
 # importing Pandas
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(df)
 
 现在，创建一个分组对象，意味着一个代表该特定分组的对象。
 
-```
+```py
 total_goals = df['Goals'].groupby(df['Team'])
 
 # printing the means value
@@ -46,7 +46,7 @@ print(total_goals.mean())    
 
 **例 2:**
 
-```
+```py
 import pandas as pd
 
 # example dataframe

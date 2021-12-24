@@ -9,7 +9,7 @@ Numpy 库给了我们像`[real()](https://www.geeksforgeeks.org/numpy-real-funct
 
 例 1:
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -27,7 +27,7 @@ for i in range(len(complex_num)):
 
 **输出:**
 
-```
+```py
 1\. complex number is (-1+9j)
 The real part is: -1.0
 The imaginary part is: 9.0
@@ -52,7 +52,7 @@ The imaginary part is: 11.0
 
 **例 2 :** 实数的虚数将为 0。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -68,7 +68,7 @@ for i in range(len(complex_num)):
 
 **输出:**
 
-```
+```py
 1\. Number is -1.0
 The real part is: -1.0
 The imaginary part is: 0.0

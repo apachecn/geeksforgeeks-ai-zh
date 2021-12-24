@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_contains()方法**用于返回 artis
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -70,7 +70,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 # Implementation of matplotlib function 

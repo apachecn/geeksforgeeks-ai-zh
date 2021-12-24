@@ -16,7 +16,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -27,7 +27,7 @@ import seaborn as sns
 
 **第二步:读取数据集**
 
-```
+```py
 cd C:\Users\Dev\Desktop\Kaggle\Breast_Cancer
 # Changing the read file location to the location of the file
 df = pd.read_csv('data.csv')
@@ -45,7 +45,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 **第三步:训练假人模型**
 
-```
+```py
 strategies = ['most_frequent', 'stratified', 'uniform', 'constant']
 
 test_scores = []
@@ -61,7 +61,7 @@ for s in strategies:
 
 **第四步:分析我们的结果**
 
-```
+```py
 ax = sns.stripplot(strategies, test_scores);
 ax.set(xlabel ='Strategy', ylabel ='Test Score')
 plt.show()
@@ -71,7 +71,7 @@ plt.show()
 
 **第五步:训练 KNN 模型**
 
-```
+```py
 clf = KNeighborsClassifier(n_neighbors = 5)
 clf.fit(X_train, y_train)
 print(clf.score(X_test, y_test))

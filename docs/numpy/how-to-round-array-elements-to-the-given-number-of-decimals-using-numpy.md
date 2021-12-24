@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 np.round(a, decimals=0, out=None)
 ```
 
@@ -16,7 +16,7 @@ np.round(a, decimals=0, out=None)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # perform the numpy.round
@@ -28,7 +28,7 @@ print(rounded_array)
 
 **输出**
 
-```
+```py
 [2\. 2\. 1\. 4.]
 
 ```
@@ -37,7 +37,7 @@ print(rounded_array)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # perform the numpy.round
@@ -50,7 +50,7 @@ print(rounded_array)
 
 **输出:**
 
-```
+```py
 [1.5 1.5 1.2 3.9]
 
 ```
@@ -59,7 +59,7 @@ print(rounded_array)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # perform the numpy.round
@@ -72,7 +72,7 @@ print(rounded_array)
 
 **输出:**
 
-```
+```py
 [1.53 1.54 1.23 3.9  6.99 4.09]
 
 ```

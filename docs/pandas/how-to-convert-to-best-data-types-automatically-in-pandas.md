@@ -12,13 +12,13 @@
 
 **对于系列:**
 
-```
+```py
 series_name.convert_dtypes()
 ```
 
 **对于数据帧:**
 
-```
+```py
 dataframe_name.convert_dtypes().dtypes
 ```
 
@@ -34,7 +34,7 @@ dataframe_name.convert_dtypes().dtypes
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(s.convert_dtypes())
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -110,7 +110,7 @@ print(df.convert_dtypes().dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

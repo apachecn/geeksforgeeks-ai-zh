@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # fmax() function
 
@@ -36,7 +36,7 @@ print ("maximum of 10 and 11 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  11
 maximum of 10 and 11 :  11
@@ -45,7 +45,7 @@ maximum of 10 and 11 :  11
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # fmax() function
 
@@ -63,7 +63,7 @@ print ("Output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125, nan]
 Input array2 :  [nan, 3, 115, nan]
 Output array :  [   2\.    8\.  125\.   nan]
@@ -72,7 +72,7 @@ Output array :  [   2\.    8\.  125\.   nan]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # fmax() function
 
@@ -90,7 +90,7 @@ print ("Output array: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 115]
 Output array:  [  3   8 125]

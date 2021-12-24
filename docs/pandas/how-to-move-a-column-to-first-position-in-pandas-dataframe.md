@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # define data
@@ -80,7 +80,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # define data

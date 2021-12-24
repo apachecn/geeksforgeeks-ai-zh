@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import reduced_totient() method from sympy
 from sympy.ntheory import reduced_totient
 
@@ -29,14 +29,14 @@ print("lambda({}) =  {} ".format(n, reduced_totient_n)) 
 
 **输出:**
 
-```
+```py
 lambda(8) =  2 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import reduced_totient() method from sympy
 from sympy.ntheory import reduced_totient
 
@@ -50,7 +50,7 @@ print("lambda({}) =  {} ".format(n, reduced_totient_n)) 
 
 **输出:**
 
-```
+```py
 lambda(30) =  4
 
 ```

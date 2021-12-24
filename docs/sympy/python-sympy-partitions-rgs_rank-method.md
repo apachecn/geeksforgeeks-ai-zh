@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.combinatorics.partitions.RGS_rank()`方法，我们能够得到受限生长字符串的排名。
 
-```
+```py
 # import sympy and RGS_unrank
 from sympy.combinatorics.partitions import RGS_rank
 from sympy import * x, y = symbols('x y')
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy and RGS_unrank
 from sympy.combinatorics.partitions import RGS_rank
 from sympy import * x, y = symbols('x y')

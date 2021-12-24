@@ -33,7 +33,7 @@
 
 单链聚类通常产生这样的聚类，其中个体被顺序添加到单个组中。两个群集之间的距离定义为两个最近的数据点之间的距离。
 
-```
+```py
 L(a , b) = min(D(xai , xbj)) 
 ```
 
@@ -43,7 +43,7 @@ L(a , b) = min(D(xai , xbj))
 
 完全连锁聚类通常产生分离良好且紧密的聚类。两个簇之间的距离被定义为每个簇中两个数据点之间的最长距离。
 
-```
+```py
 L(a , b) = max(D(xai , xbj))
 ```
 
@@ -53,7 +53,7 @@ L(a , b) = max(D(xai , xbj))
 
 简单平均算法将集群之间的距离定义为每个成员之间的平均距离，加权后两个集群对最终输出的影响相等。
 
-```
+```py
 L(a , b) = Tab / ( Na * Nb)
 T<sub>ab</sub>: The sum of all pairwise distances between the two clusters.
 N<sub>a and Nb</sub>: The sizes of the clusters a and b, respectively.
@@ -102,7 +102,7 @@ N<sub>a and Nb</sub>: The sizes of the clusters a and b, respectively.
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to plot the hierarchical
 # clustering dendrogram using SciPy
 
@@ -131,7 +131,7 @@ dn = hierarchy.dendrogram(
 
 ## 计算机编程语言
 
-```
+```py
 # Plot the dendrogram in horizontal orientation
 
 # Import the python libraries

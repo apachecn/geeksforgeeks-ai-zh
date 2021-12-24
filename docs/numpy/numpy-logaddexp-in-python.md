@@ -21,7 +21,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python3 code demonstrate logaddexp() function
 
 # importing numpy
@@ -38,7 +38,7 @@ print ("Output number : ", out_num)
 
 **输出:**
 
-```
+```py
 Input  number1 :  2
 Input  number2 :  3
 Output number :  3.31326168752
@@ -47,7 +47,7 @@ Output number :  3.31326168752
 
 **代码#2 :**
 
-```
+```py
 # Python3 code demonstrate logaddexp() function
 
 # importing numpy
@@ -64,7 +64,7 @@ print ("Output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 3, 8]
 Input array2 :  [1, 2, 3]
 Output array :  [ 2.31326169  3.31326169  8.00671535]

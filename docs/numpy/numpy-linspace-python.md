@@ -5,7 +5,7 @@
 **numpy.linspace()** 函数返回间隔均匀的空格数。与[numpy . array()函数](https://www.geeksforgeeks.org/numpy-arange-python/)类似，但它使用样本号代替步长。
 **语法:**
 
-```
+```py
 numpy.linspace(start,
                stop,
                num = 50,
@@ -16,7 +16,7 @@ numpy.linspace(start,
 
 **参数:**
 
-```
+```py
 -> start  : [optional] start of interval range. By default start = 0
 -> stop   : end of interval range
 -> restep : If True, return (samples, step). By deflut restep = False
@@ -26,7 +26,7 @@ numpy.linspace(start,
 
 **返回:**
 
-```
+```py
 -> ndarray
 -> step : [float, optional], if restep = True
 ```
@@ -35,7 +35,7 @@ numpy.linspace(start,
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.linspace method
 
@@ -51,7 +51,7 @@ print("A\n", geek.sin(x))
 
 **输出:**
 
-```
+```py
 B
  (array([ 2\.  ,  2.25,  2.5 ,  2.75,  3\.  ]), 0.25)
 
@@ -64,7 +64,7 @@ A
 
 ## 计算机编程语言
 
-```
+```py
 # Graphical Representation of numpy.linspace()
 import numpy as geek
 import pylab as p
@@ -87,7 +87,7 @@ p.xlim(-0.2, 1.8)
 
 ## 计算机编程语言
 
-```
+```py
 # Graphical Representation of numpy.linspace()
 import numpy as geek
 import pylab as p

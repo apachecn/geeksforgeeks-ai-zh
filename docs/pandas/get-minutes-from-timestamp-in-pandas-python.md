@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd 
 
@@ -35,7 +35,7 @@ print(time_stamp)
 
 ## 蟒蛇 3
 
-```
+```py
 # display the value of minute from
 # the created timestamp object
 print(time_stamp.minute)
@@ -51,7 +51,7 @@ print(time_stamp.minute)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd 
 
@@ -70,7 +70,7 @@ print(time_stamp)
 
 ## 蟒蛇 3
 
-```
+```py
 # display the value of minute from
 # the created timestamp object
 print(time_stamp.minute)
@@ -89,7 +89,7 @@ print(time_stamp.minute)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd 
 
@@ -118,7 +118,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # extract minutes from time stamps and
 # add them as a separate column
 df['minutes_from_timestamps'] = df['time_stamps'].dt.minute
@@ -137,7 +137,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd 
 
@@ -162,7 +162,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # extract minutes from time stamps and
 # add them as a separate column
 df['minutes_from_timestamps'] = df['time_stamps'].dt.minute

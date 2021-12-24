@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # the slices are ordered and 
@@ -49,7 +49,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # the slices are ordered and plotted counter-clockwise:

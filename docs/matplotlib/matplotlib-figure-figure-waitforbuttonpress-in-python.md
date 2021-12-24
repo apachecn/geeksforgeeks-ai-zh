@@ -20,7 +20,7 @@ matplotlib 库的 **waitforbuttonpress()方法**图形模块用于阻止调用�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ for ite in range(2):
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm

@@ -14,7 +14,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.nan_to_num() function
 
@@ -29,7 +29,7 @@ print ("output  number : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  nan
 output  number :  0.0
 
@@ -37,7 +37,7 @@ output  number :  0.0
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nan_to_num function
 
@@ -53,7 +53,7 @@ print ("output array: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.  inf   2.]
  [  2\.   2\.  nan]]
 output array:  [[  2.00000000e+000   1.79769313e+308   2.00000000e+000]
@@ -63,7 +63,7 @@ output array:  [[  2.00000000e+000   1.79769313e+308   2.00000000e+000]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.nan_to_num function
 
@@ -79,7 +79,7 @@ print ("Output array: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  Input array :  [[2 2 2]
  [2 2 6]]
 Output array:  [[2 2 2]

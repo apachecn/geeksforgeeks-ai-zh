@@ -8,7 +8,7 @@
 
 **创建数据帧:**
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(team)
 
 **向数据框添加列名:**我们可以使用其`columns` 属性向现有数据框添加列。
 
-```
+```py
 # adding column name to the respective columns
 team.columns =['Name', 'Code', 'Age', 'Weight']
 
@@ -49,7 +49,7 @@ print(team)
 
 **重命名数据框的列名:**我们可以使用`rename()`函数重命名数据框的列。
 
-```
+```py
 # reanming the DataFrame columns
 team.rename(columns = {'Code':'Code-Name', 
                        'Weight':'Weight in kgs'}, 

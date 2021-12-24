@@ -34,7 +34,7 @@
 
 **例 1:**
 
-```
+```py
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -78,7 +78,7 @@ cv2.destroyAllWindows()
 
 **例 2:**
 
-```
+```py
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt

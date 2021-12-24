@@ -17,7 +17,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program explaining  
 # savetxt() function
 import numpy as geek
@@ -36,7 +36,7 @@ print(a.read())
 
 **输出:**
 
-```
+```py
 x is:
 [0 1 2 3 4 5 6 7 8 9]
 the file contains:
@@ -55,7 +55,7 @@ the file contains:
 
 **代码#2:**
 
-```
+```py
 # Python program explaining  
 # savetxt() function
 
@@ -95,7 +95,7 @@ print(a.read())
 
 **代码#3:** 类型错误
 
-```
+```py
 # Python program explaining  
 # savetxt() function
 

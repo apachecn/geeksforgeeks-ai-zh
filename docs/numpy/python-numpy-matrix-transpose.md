@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`**matrix.transpose()**`方法，我们能够找到给定矩阵的转置。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,7 +25,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[ 4 12]
  [ 1  3]]
 
@@ -33,7 +33,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[ 4 12  4]
  [ 1  3  5]
  [ 9  1  6]]

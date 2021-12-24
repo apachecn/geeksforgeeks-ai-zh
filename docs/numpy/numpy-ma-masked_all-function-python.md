@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.masked_all() function
 
@@ -30,7 +30,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[-- -- -- --]
  [-- -- -- --]
  [-- -- -- --]
@@ -40,7 +40,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.masked_all() function
 
@@ -56,7 +56,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[-- -- --]
  [-- -- --]
  [-- -- --]]

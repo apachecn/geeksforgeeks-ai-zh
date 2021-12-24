@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program explaining 
 # where() function 
 
@@ -28,14 +28,14 @@ np.where([[True, False], [True, True]],
 
 **输出:**
 
-```
+```py
 array([[1, 6],
        [3, 4]])
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program explaining 
 # where() function 
 
@@ -57,7 +57,7 @@ print(a[b])
 
 **输出:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]]
 

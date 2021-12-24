@@ -10,13 +10,13 @@
 
 用于安装 Matplotlib
 
-```
+```py
 pip install matplotlib
 ```
 
 用于安装 Numpy。
 
-```
+```py
 pip install numpy
 ```
 
@@ -28,7 +28,7 @@ pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -44,7 +44,7 @@ Z = (np.cos(x*0.2) + np.sin(y*0.3))
 
 ## 蟒蛇 3
 
-```
+```py
 Zpos = np.ma.masked_less(Z, 0)
 Zneg = np.ma.masked_greater(Z, 0)
 ```

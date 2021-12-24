@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.names`属性找出时间增量索引对象的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找出 tidx 对象的名称
 
-```
+```py
 # print the names of the TimedeltaIndex object.
 tidx.names
 ```
@@ -40,7 +40,7 @@ tidx.names
 
 **例 2:** 使用`TimedeltaIndex.names`属性找出 TimedeltaIndex 对象的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找出 tidx 对象的名称
 
-```
+```py
 # print the name of the TimedeltaIndex object.
 tidx.names
 ```

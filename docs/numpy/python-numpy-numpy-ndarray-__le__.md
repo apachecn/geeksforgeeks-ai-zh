@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到在应用`numpy.__le__()`之后，我们得到了简单的布尔数组，它可以告诉我们数组中的哪个元素小于或等于提供的参数的元素。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__le__(4))
 
 **Output:**
 
-```
+```py
 [ True  True  True  True False False]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__le__(4))
 
 **Output:**
 
-```
+```py
 [[ True  True  True  True False False]
  [False False  True  True  True  True]]
 

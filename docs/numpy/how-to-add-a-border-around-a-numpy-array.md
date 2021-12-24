@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.pad(array, pad_width, mode='constant', **kwargs)  
 
 ```
@@ -15,7 +15,7 @@ numpy.pad(array, pad_width, mode='constant', **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -45,7 +45,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -75,7 +75,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

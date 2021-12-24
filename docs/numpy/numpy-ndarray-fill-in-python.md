@@ -13,7 +13,7 @@ numpy.ndarray.fill()方法用于用标量值填充 numpy 数组。
 
 **代码#1:**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.fill() function
 import numpy as geek
@@ -38,7 +38,7 @@ print("\nAfter using fill() a is : \n", a)
 
 **Output:**
 
-```
+```py
 a is : 
  [[ 1\.  1\.  1.]
  [ 1\.  1\.  1.]
@@ -53,7 +53,7 @@ After using fill() a is :
 
 **代码#2:**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.fill() function
 import numpy as geek
@@ -71,7 +71,7 @@ print("\nNow a is :\n", a)
 
 **Output:**
 
-```
+```py
 a is 
  [0 1 2 3 4]
 
@@ -82,7 +82,7 @@ Now a is :
 
 **代码#3:** numpy.ndarray.fill()也适用于多维数组。
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.fill() function
 
@@ -98,7 +98,7 @@ print("a is :\n", a)
 
 **Output:**
 
-```
+```py
 a is :
  [[ 0\.  0\.  0.]
  [ 0\.  0\.  0.]

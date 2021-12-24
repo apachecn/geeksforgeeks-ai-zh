@@ -17,7 +17,7 @@
 
 **代码 1 :** 使用 seaborn 的 factorplot()方法绘制点图。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns
@@ -39,7 +39,7 @@ plt.show()
 
 **代码 2 :** 小提琴绘图使用了 seaborn 的 factorplot()方法。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns
@@ -61,7 +61,7 @@ plt.show()
 
 **代码 3 :** 使用 seaborn 的 factorplot()方法绘制条形图。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns
@@ -90,7 +90,7 @@ plt.show()
 
 **代码 4 :** 使用海鸟因子图()方法的箱线图。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns
@@ -112,7 +112,7 @@ plt.show()
 
 **代码 5 :** 使用海鸟因子图()方法绘制带状图。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns
@@ -134,7 +134,7 @@ plt.show()
 
 **代码 6 :** 使用海鸟因子图()方法计数图。
 
-```
+```py
 # importing required library
 import pandas as pd
 import seaborn as sns

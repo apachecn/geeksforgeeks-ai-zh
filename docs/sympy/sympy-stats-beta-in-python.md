@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Beta()`方法，我们能够通过使用这个方法得到代表β分布的连续随机变量。
 
-```
+```py
 # Import sympy and beta
 from sympy.stats import Beta, density, E, variance
 from sympy import Symbol, simplify, pprint, factor
@@ -38,7 +38,7 @@ pprint(gfg, use_unicode = False)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and beta
 from sympy.stats import Beta, density, E, variance
 from sympy import Symbol, simplify, pprint, factor

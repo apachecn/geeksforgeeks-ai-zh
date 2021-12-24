@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -36,7 +36,7 @@ print(np.roots(coeff))
 
 **输出:**
 
-```
+```py
 [-1\. -1.]
 ```
 
@@ -44,7 +44,7 @@ print(np.roots(coeff))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -77,7 +77,7 @@ print(np.roots(coeff))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -93,7 +93,7 @@ print(root_of_poly)
 
 **输出:**
 
-```
+```py
 [-1\. -1.]
 ```
 
@@ -101,7 +101,7 @@ print(root_of_poly)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 

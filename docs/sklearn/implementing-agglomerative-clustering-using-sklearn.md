@@ -12,7 +12,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -25,7 +25,7 @@ import scipy.cluster.hierarchy as shc
 
 **第二步:加载和清理数据**
 
-```
+```py
 # Changing the working location to the location of the file
 cd C:\Users\Dev\Desktop\Kaggle\Credit_Card
 
@@ -40,7 +40,7 @@ X.fillna(method ='ffill', inplace = True)
 
 **第三步:数据预处理**
 
-```
+```py
 # Scaling the data so that all the features become comparable
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -55,7 +55,7 @@ X_normalized = pd.DataFrame(X_normalized)
 
 **第四步:降低数据的维度**
 
-```
+```py
 pca = PCA(n_components = 2)
 X_principal = pca.fit_transform(X_normalized)
 X_principal = pd.DataFrame(X_principal)
@@ -66,7 +66,7 @@ X_principal.columns = ['P1', 'P2']
 
 **第五步:可视化树突的工作**
 
-```
+```py
 plt.figure(figsize =(8, 8))
 plt.title('Visualising the data')
 Dendrogram = shc.dendrogram((shc.linkage(X_principal, method ='ward')))
@@ -84,7 +84,7 @@ Dendrogram = shc.dendrogram((shc.linkage(X_principal, method ='ward')))
 
 a) **k = 2**
 
-```
+```py
 ac2 = AgglomerativeClustering(n_clusters = 2)
 
 # Visualizing the clustering
@@ -98,7 +98,7 @@ plt.show()
 
 b) **k = 3**
 
-```
+```py
 ac3 = AgglomerativeClustering(n_clusters = 3)
 
 plt.figure(figsize =(6, 6))
@@ -111,7 +111,7 @@ plt.show()
 
 c) **k = 4**
 
-```
+```py
 ac4 = AgglomerativeClustering(n_clusters = 4)
 
 plt.figure(figsize =(6, 6))
@@ -124,7 +124,7 @@ plt.show()
 
 d) **k = 5**
 
-```
+```py
 ac5 = AgglomerativeClustering(n_clusters = 5)
 
 plt.figure(figsize =(6, 6))
@@ -137,7 +137,7 @@ plt.show()
 
 e) **k = 6**
 
-```
+```py
 ac6 = AgglomerativeClustering(n_clusters = 6)
 
 plt.figure(figsize =(6, 6))
@@ -152,7 +152,7 @@ plt.show()
 
 **步骤 7:评估不同的模型并可视化结果。**
 
-```
+```py
 k = [2, 3, 4, 5, 6]
 
 # Appending the silhouette scores of the different models to the list

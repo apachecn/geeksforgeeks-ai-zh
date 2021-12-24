@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到如何使用`matrix.astype()`方法将浮点型矩阵转换为 int 型矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]
  [7 8 9]]

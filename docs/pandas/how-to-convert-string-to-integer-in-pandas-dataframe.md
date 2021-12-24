@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -53,7 +53,7 @@ print (df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -107,7 +107,7 @@ pandas.to numeric()是 pandas 中用于将参数转换为数字形式的广泛�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

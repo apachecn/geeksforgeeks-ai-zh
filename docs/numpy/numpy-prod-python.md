@@ -5,7 +5,7 @@
 numpy.prod()返回给定轴上数组元素的乘积。
 **语法:**
 
-```
+```py
 numpy.prod(a, axis=None, dtype=None, out=None, keepdims=)
 ```
 
@@ -25,7 +25,7 @@ numpy.prod(a, axis=None, dtype=None, out=None, keepdims=)
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of prod()
 
@@ -40,7 +40,7 @@ print("product", array2)
 
 输出:
 
-```
+```py
 2.0
 ```
 
@@ -48,7 +48,7 @@ print("product", array2)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 array1 = [[1., 2.], [3., 4.]]
 
@@ -60,7 +60,7 @@ print("product", array2)
 
 输出:
 
-```
+```py
 24.0
 ```
 
@@ -69,7 +69,7 @@ print("product", array2)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 array1 = []
 
@@ -81,7 +81,7 @@ print("product", array2)
 
 输出:
 
-```
+```py
 1
 ```
 
@@ -90,7 +90,7 @@ print("product", array2)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 array1 =[[1, 2], [3, 4]]
 
@@ -102,7 +102,7 @@ print("product", array2)
 
 输出:
 
-```
+```py
 [2, 12]
 ```
 
@@ -111,7 +111,7 @@ print("product", array2)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 x = np.array([1, 2, 3], dtype = np.uint8)
 
@@ -121,6 +121,6 @@ x = np.array([1, 2, 3], dtype = np.uint8)
 
 输出:
 
-```
+```py
 True
 ```

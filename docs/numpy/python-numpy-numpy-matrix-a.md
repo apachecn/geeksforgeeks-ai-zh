@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，借助`matrix.A()`方法，我们能够得到自矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]
  [7 8 9]]

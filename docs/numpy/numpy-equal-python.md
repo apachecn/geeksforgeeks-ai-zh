@@ -17,14 +17,14 @@
 
 **返回:**
 
-```
+```py
 Returns arr1 == arr2 element-wise
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.equal() method
 import numpy as geek 
@@ -38,7 +38,7 @@ print("Check to be Equal : \n", b, "\n")
 
 **输出:**
 
-```
+```py
 Check to be Equal : 
  [ True False] 
 
@@ -50,7 +50,7 @@ Check to be Equal :
 
 **代码 2:使用比较数据类型。相等()功能**
 
-```
+```py
 # Python Program illustrating
 # numpy.equal() method
 import numpy as geek 
@@ -65,13 +65,13 @@ print("Comparing complex with int using .equal() : ", d)
 
 **输出:**
 
-```
+```py
 Comparing complex with int using .equal() :  [False  True]
 ```
 
 **代码 3 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.not_equal() method
 import numpy as geek 
@@ -86,7 +86,7 @@ print("\nComparing float with int using .not_equal() : ", d)
 
 **输出:**
 
-```
+```py
 Comparing float with int using .not_equal() :  [ True  True]
 ```
 

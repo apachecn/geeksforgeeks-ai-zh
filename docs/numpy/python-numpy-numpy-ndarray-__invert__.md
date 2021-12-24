@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都是借助`ndarray.__invert__()`方法对一元运算符 **~** 进行运算的。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__invert__())
 
 **Output:**
 
-```
+```py
 [-2 -3 -4 -5 -6]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__invert__())
 
 **Output:**
 
-```
+```py
 [[-2 -3 -4 -5 -6]
  [-7 -6 -5 -4 -3]]
 

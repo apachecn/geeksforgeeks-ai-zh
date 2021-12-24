@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the numpy package
 import numpy as np
 
@@ -41,7 +41,7 @@ print("2d diagonal array:\n", 
 
 **输出:**
 
-```
+```py
 Original 3d array:
  [[[ 0  1  2  3]
   [ 4  5  6  7]
@@ -68,7 +68,7 @@ Original 3d array:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the numpy package
 import numpy as np
 
@@ -90,7 +90,7 @@ print("2d diagonal array:\n",
 
 **输出:**
 
-```
+```py
 Original 3d array:
  [[[ 0  1  2  3]
   [ 4  5  6  7]
@@ -114,7 +114,7 @@ Original 3d array:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the numpy package
 import numpy as np
 
@@ -135,7 +135,7 @@ print("2d diagonal array:\n",
 
 **输出:**
 
-```
+```py
 Original 3d array:
  [[[ 0  1  2  3  4  5]
   [ 6  7  8  9 10 11]

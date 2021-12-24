@@ -43,7 +43,7 @@
 
 ****下面是伪代码的 DBSCAN 聚类算法:****
 
-```
+```py
 DBSCAN(dataset, eps, MinPts){
 # cluster index
 C = 1
@@ -65,7 +65,7 @@ for each unvisited point p in dataset {
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.cluster import DBSCAN

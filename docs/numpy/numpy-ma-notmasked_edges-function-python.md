@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.notmasked_edges() function
 
@@ -33,14 +33,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ 0, 11]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.notmasked_edges() function
 
@@ -62,7 +62,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [0, 8]
 
 ```

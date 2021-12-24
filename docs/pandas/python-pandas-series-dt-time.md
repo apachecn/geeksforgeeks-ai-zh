@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.time`属性返回给定 Series 对象的基础数据的时间属性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.time`属性返回给定 Series 对象的底层数据的时间属性。
 
-```
+```py
 # return the time
 result = sr.dt.time
 
@@ -52,7 +52,7 @@ print(result)
 
 **例 2 :** 使用`Series.dt.time`属性返回给定 Series 对象底层数据的时间属性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.dt.time`属性返回给定 Series 对象的底层数据的时间属性。
 
-```
+```py
 # return the time
 result = sr.dt.time
 

@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.mean() method 
 import numpy as np
@@ -30,7 +30,7 @@ print("mean of arr : ", np.mean(arr))
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 34]
 mean of arr :  12.8
 
@@ -38,7 +38,7 @@ mean of arr :  12.8
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.mean() method   
 import numpy as np
@@ -65,7 +65,7 @@ print("mean of arr, axis = 1 : ", 
 
 **输出:**
 
-```
+```py
 mean of arr, axis = None :  18.6
 
 mean of arr, axis = 0 :  [17.33333333  8.33333333 31\.         14\.         22.33333333]

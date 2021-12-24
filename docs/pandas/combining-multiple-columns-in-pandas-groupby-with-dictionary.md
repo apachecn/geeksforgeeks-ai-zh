@@ -6,7 +6,7 @@
 
 **示例#1:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -26,7 +26,7 @@ print(df)
 **输出:**
 ![](img/3dd47c943b45c959aa88cfdc48a50a6f.png)
 
-```
+```py
 # Creating the groupby dictionary 
 groupby_dict = {'Column 1.1':'Column 1',
                 'Column 1.2':'Column 1',
@@ -53,7 +53,7 @@ print(df)
 
 **例 2:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -73,7 +73,7 @@ print(df)
 **输出:**
 ![](img/7dc6dc3fc5f6dfa22c9191fe9aaf7fea.png)
 
-```
+```py
 # Create the groupby_dict 
 groupby_dict = {"Week_1_Viewers":"Total_Viewers",
            "Week_2_Viewers":"Total_Viewers",

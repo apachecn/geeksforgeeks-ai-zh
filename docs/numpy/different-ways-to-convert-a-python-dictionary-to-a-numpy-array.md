@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required librariess
 import numpy as np
 from ast import literal_eval
@@ -89,7 +89,7 @@ print("Type:\n", type(result_nparra))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy as np
 
@@ -114,7 +114,7 @@ print(type(res_array))
 
 **输出:**
 
-```
+```py
 <class 'dict'>
 [[  0   0]
 [  1   1]

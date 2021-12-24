@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -28,7 +28,7 @@ print(np.any(array))
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -37,7 +37,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -51,7 +51,7 @@ print(np.any(array))
 
 **输出:**
 
-```
+```py
 False
 
 ```

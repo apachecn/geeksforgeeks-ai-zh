@@ -15,7 +15,7 @@
 
 卡方特征选择的 Python 实现:
 
-```
+```py
 # Load libraries
 from sklearn.datasets import load_iris
 from sklearn.feature_selection import SelectKBest
@@ -42,7 +42,7 @@ print('Reduced feature number:', X_kbest.shape[1])
 
 **输出:**
 
-```
+```py
 Original feature number: 4
 Reduced feature number : 2
 ```

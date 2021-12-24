@@ -12,7 +12,7 @@ NumPy 数组的元素就像普通数组一样被索引。第一个元素的索�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # NumPy Array
@@ -23,7 +23,7 @@ print("numpyArr[-1] =", numpyArr[-1])
 
 **输出:**
 
-```
+```py
 numpyArr[0] = 1
 numpyArr[-1] = 4
 
@@ -37,7 +37,7 @@ numpyArr[-1] = 4
 
 **语法:**
 
-```
+```py
 numpyArr[x:y]
 
 ```
@@ -48,7 +48,7 @@ numpyArr[x:y]
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # NumPy Array

@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining 
 # numpy.legline() method  
 
@@ -30,14 +30,14 @@ print (res)  
 
 **Output:**
 
-```
+```py
 [2 3]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining 
 # numpy.legline() method  
 
@@ -55,7 +55,7 @@ print (res)
 
 **Output:**
 
-```
+```py
 [1 4]
 
 ```

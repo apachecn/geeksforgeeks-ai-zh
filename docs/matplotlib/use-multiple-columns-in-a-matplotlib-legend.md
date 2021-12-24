@@ -12,13 +12,13 @@
 
 **基本上，我们可以用 matplotlib 导入 pyplot，就像我们通常用 python 导入其他库一样，比如**
 
-```
+```py
 import matplotlib.pyplot as plt
 ```
 
 **或者**
 
-```
+```py
 from matplotlib import pyplot as plt
 ```
 
@@ -28,7 +28,7 @@ from matplotlib import pyplot as plt
 
 **以下面定义的方式使用 plt.legend()中的 ncol 参数来指定图例应该具有的列数。**
 
-```
+```py
 plt.legend(ncol=k)
 ```
 
@@ -38,7 +38,7 @@ plt.legend(ncol=k)
 
 ## **蟒蛇 3**
 
-```
+```py
 # code
 import matplotlib.pyplot as plt
 

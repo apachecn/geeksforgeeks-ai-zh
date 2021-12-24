@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 import datetime
 import matplotlib.pyplot as plt
 from matplotlib.dates import DayLocator, HourLocator, DateFormatter, drange
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import datetime
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates

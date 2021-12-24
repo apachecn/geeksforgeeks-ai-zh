@@ -14,7 +14,7 @@
 
 **步骤#1:** 导入所需的库
 
-```
+```py
 import nltk
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
@@ -28,7 +28,7 @@ from urllib.request import urlopen
 
 **步骤#2:** 提取文本文件的所有内容。
 
-```
+```py
 raw = urlopen("https://www.w3.org/TR/PNG/iso_8859-1.txt").read()
 ```
 
@@ -36,13 +36,13 @@ raw = urlopen("https://www.w3.org/TR/PNG/iso_8859-1.txt").read()
 
 **步骤#3:** 接下来，我们处理数据以移除可能存在于我们的“原始”变量中的任何 html/xml 标签，使用:
 
-```
+```py
 raw1 = BeautifulSoup(raw)
 ```
 
 **步骤#4:** 现在我们获得“原始”变量中的文本。
 
-```
+```py
 raw2 = raw1.get_text()
 ```
 
@@ -51,7 +51,7 @@ raw2 = raw1.get_text()
 
 **步骤#5:** 接下来，我们将文本标记为单词。
 
-```
+```py
 token = nltk.word_tokenize(raw2)
 ```
 
@@ -61,7 +61,7 @@ token = nltk.word_tokenize(raw2)
 
 **步骤#6:** 最后，我们获得最终文本。
 
-```
+```py
 text2 = ' '.join(token)
 ```
 
@@ -70,7 +70,7 @@ text2 = ' '.join(token)
 
 以下是完整代码:
 
-```
+```py
 # importing libraries
 import nltk
 from bs4 import BeautifulSoup

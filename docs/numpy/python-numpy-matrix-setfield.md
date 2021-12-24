@@ -12,7 +12,7 @@
 
 在这个例子中，我们可以看到`matrix.setfield()`方法用于生成一个新的矩阵，该矩阵的值在这个方法中作为参数传递。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[2 2]
  [2 2]]
 
@@ -35,7 +35,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[25 25 25]
  [25 25 25]
  [25 25 25]]

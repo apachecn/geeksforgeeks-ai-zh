@@ -22,7 +22,7 @@ Bokeh 包括几个布局选项，用于排列图和小部件。它们可以安�
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for bokeh row layout
 from bokeh.io import output_file, show
 from bokeh.layouts import row
@@ -61,7 +61,7 @@ show(row(plot1, plot2, plot3))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import row
 from bokeh.plotting import figure

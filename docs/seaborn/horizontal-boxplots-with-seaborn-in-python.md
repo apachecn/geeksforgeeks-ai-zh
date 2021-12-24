@@ -14,7 +14,7 @@ Seaborn 使用 boxplot()方法绘制 boxplot。我们可以通过两种方法将
 
 ## 蟒蛇 3
 
-```
+```py
 # import library & dataset
 import seaborn as sns
 
@@ -34,7 +34,7 @@ sns.boxplot(y=df["species"], x=df["sepal_length"])
 
 ## 蟒蛇 3
 
-```
+```py
 # import library & dataset
 import seaborn as sns
 

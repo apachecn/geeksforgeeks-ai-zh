@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.to_period()`函数将 DatetimeIndex 对象的数据转换为 PeriodIndex。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在我们要将日期时间索引对象转换为周期索引对象。
 
-```
+```py
 # cast to PeriodIndex
 # 'T' represents minute based frequency
 didx.to_period('T')
@@ -44,7 +44,7 @@ didx.to_period('T')
 
 **示例 2:** 使用`DatetimeIndex.to_period()`函数将 DatetimeIndex 对象的数据转换为 PeriodIndex。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(didx)
 
 现在我们要将日期时间索引对象转换为周期索引对象。
 
-```
+```py
 # cast to PeriodIndex
 # 'H' represents hourly frequency
 didx.to_period('H')

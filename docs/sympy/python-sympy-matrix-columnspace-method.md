@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -25,7 +25,7 @@ print("Columnspace of a matrix : {}".format(M_columnspace))  
 
 **输出:**
 
-```
+```py
 Matrix : Matrix([[1, 0, 1, 3], [2, 3, 4, 7], [-1, -3, -3, -4]]) 
 Columnspace of a matrix : [Matrix([
 [ 1],
@@ -39,7 +39,7 @@ Columnspace of a matrix : [Matrix([
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -54,7 +54,7 @@ print("Columnspace of a matrix : {}".format(M_columnspace)) 
 
 **输出:**
 
-```
+```py
 Matrix : Matrix([[14, 0, 11, 3], [22, 23, 4, 7], [-12, -34, -3, -4]]) 
 Columnspace of a matrix : [Matrix([
 [ 14],

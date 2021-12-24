@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 patterns = [(r'^\d+{content}apos;, 'CD'),
             # gerunds, i.e. wondering
             (r'.*ing{content}apos;, 'VBG'),
@@ -27,7 +27,7 @@ patterns = [(r'^\d+{content}apos;, 'CD'),
 
 **RegexpTagger** 类需要一个二元组列表
 
-```
+```py
 -> first element in the tuple is a regular expression
 -> second element is the tag
 ```
@@ -36,7 +36,7 @@ patterns = [(r'^\d+{content}apos;, 'CD'),
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading Libraries
 from tag_util import patterns
 from nltk.tag import RegexpTagger
@@ -50,7 +50,7 @@ print ("Accuracy : ", tagger.evaluate(test_data))
 
 **输出:**
 
-```
+```py
 Accuracy : 0.037470321605870924
 ```
 
@@ -62,7 +62,7 @@ Accuracy : 0.037470321605870924
 
 ## 蟒蛇 3
 
-```
+```py
 # loading libraries
 from tag_util import word_tag_model
 from nltk.corpus import treebank

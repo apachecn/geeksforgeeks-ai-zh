@@ -22,7 +22,7 @@ matplotlib 库 pyplot 模块中的**网格()功能**用于配置网格线。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function   
 import matplotlib.pyplot as plt
 import numpy as np
@@ -40,7 +40,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function   
 import numpy as np
 import matplotlib.pyplot as plt

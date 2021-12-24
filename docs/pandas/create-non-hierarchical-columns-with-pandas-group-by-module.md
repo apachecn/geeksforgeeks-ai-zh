@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # load the dataset
@@ -35,7 +35,7 @@ print(df.columns)
 
 ## 蟒蛇 3
 
-```
+```py
 # remove unwanted columns 
 remove_columns =['Website','Hqaddr','Hqzip', 'Hqtel',
                  'Ceo','Ceo-title', 'Address', 'Ticker',
@@ -65,7 +65,7 @@ print(df.columns)
 
 ## 蟒蛇 3
 
-```
+```py
 df_result = (df
            .groupby(['Sector','Industry'])
            .agg({'Employees':['sum', 'mean'],
@@ -83,7 +83,7 @@ df_result.head(15)
 
 ## 蟒蛇 3
 
-```
+```py
 df_result.columns = ['_'.join(cols).lower()
                      for cols in df_result.columns.to_flat_index()]
 df_result.head(10)
@@ -99,7 +99,7 @@ df_result.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 """
  Program: For each "Sector" and "Industry" Find the total, average employees, and the minimum, maximum revenue change.  
 """
@@ -155,7 +155,7 @@ df_result.head(15)
 
 ## 蟒蛇 3
 
-```
+```py
 """
  Program: For each "Sector" and "Industry" Find the total, average employees, and the minimum, maximum revenue change.  
 """

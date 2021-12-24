@@ -26,7 +26,7 @@ Swish 在 Keras 中实现为自定义功能，定义后必须在激活类中用�
 
 **代码:**
 
-```
+```py
 # Code from between to demonstrate the implementation of Swish
 
 # Our aim is to use "swish" in place of "relu" and make compiler understand it
@@ -36,7 +36,7 @@ model.add(Dense(16, activation = "relu"))
 
 现在我们将创建一个名为 Swish 的自定义函数，它可以根据 Swish 激活函数的数学公式给出如下输出:
 
-```
+```py
 # Importing the sigmoid function from
 # Keras backend and using it
 from keras.backend import sigmoid
@@ -49,7 +49,7 @@ def swish(x, beta = 1):
 
 **代码:**
 
-```
+```py
 # Getting the Custom object and updating them
 from keras.utils.generic_utils import get_custom_objects
 from keras.layers import Activation
@@ -60,7 +60,7 @@ get_custom_objects().update({'swish': Activation(swish)})
 
 **代码:实现自定义设计的激活功能**
 
-```
+```py
 model.add(Dense(64, activation = "swish"))
 model.add(Dense(16, activation = "swish"))
 ```

@@ -16,7 +16,7 @@ PyTorch `torch.add()`方法为输入张量的每个元素添加一个常量值�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -32,7 +32,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 0.2403
  1.3826
 -0.1763
@@ -52,7 +52,7 @@ print(b)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -68,7 +68,7 @@ print(b) 
 
 **输出:**
 
-```
+```py
  1
   3
   8

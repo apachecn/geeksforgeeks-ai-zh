@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`numpy.copyto()`方法，我们正在复制目标数组中的元素。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,14 +27,14 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [4 5 6]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[4 5 6]
  [7 8 9]]
 

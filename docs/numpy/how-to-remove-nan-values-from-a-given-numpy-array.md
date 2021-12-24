@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 # create a 1D array
@@ -54,7 +54,7 @@ print("2D array converted to 1D after removing nan values   ", d)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 # create a 2D array

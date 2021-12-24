@@ -20,7 +20,7 @@
 
 **示例#1:**
 
-```
+```py
 # import factorint() method from sympy
 from sympy import factorint
 
@@ -35,7 +35,7 @@ print("Dictionary containing factors of {} with respective multiplicities : {}".
 
 **输出:**
 
-```
+```py
 Dictionary containing factors of 10125000 
 with respective multiplicities : {2: 3, 3: 4, 5: 6}
 
@@ -43,7 +43,7 @@ with respective multiplicities : {2: 3, 3: 4, 5: 6}
 
 **例 2:**
 
-```
+```py
 # import factorint() method from sympy
 from sympy import factorint
 
@@ -58,7 +58,7 @@ print("Dictionary containing factors of {} with respective multiplicities : {}".
 
 **输出:**
 
-```
+```py
 Dictionary containing factors of 16848 
 with respective multiplicities : {2: 4, 3: 4, 13: 1}
 

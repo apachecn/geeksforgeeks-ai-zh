@@ -20,7 +20,7 @@ Pandas `**Series.product()**`函数返回给定 Series 对象中底层数据的�
 
 **示例#1:** 使用`Series.product()`函数在给定的 Series 对象中查找底层数据的乘积。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.product()`函数来寻找给定系列对象中元素的乘积。
 
-```
+```py
 # return the product of all elements
 result = sr.product()
 
@@ -59,7 +59,7 @@ print(result)
 
 **示例#2 :** 使用`Series.product()`函数在给定的 Series 对象中查找底层数据的乘积。给定的序列对象中包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.product()`函数来寻找给定系列对象中元素的乘积。我们将跳过缺失的值。
 
-```
+```py
 # return the product of all elements
 result = sr.product(skipna = True)
 

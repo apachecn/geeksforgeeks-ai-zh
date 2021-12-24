@@ -8,7 +8,7 @@
 
 **下面是图像翻译的 Python 代码:**
 
-```
+```py
 import cv2
 import numpy as np
 

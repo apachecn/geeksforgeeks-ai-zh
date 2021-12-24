@@ -50,7 +50,7 @@ matplotlib.pyplot.xcorr()函数绘制两个数组列表之间的互相关。
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib library
 import matplotlib.pyplot as plt
 import numpy as np
@@ -90,7 +90,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib library
 import matplotlib.pyplot as plt
 import numpy as np

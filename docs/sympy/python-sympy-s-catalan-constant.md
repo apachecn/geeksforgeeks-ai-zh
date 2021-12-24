@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用**加泰罗尼亚**常量的 singleton 值，我们能够得到加泰罗尼亚常量的值。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

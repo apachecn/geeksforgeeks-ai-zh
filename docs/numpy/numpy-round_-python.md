@@ -15,14 +15,14 @@
 
 **返回:**
 
-```
+```py
 An array with all array elements being
 rounded off, having same type as input. 
 ```
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # round_() function
 import numpy as np
@@ -48,7 +48,7 @@ print ("\nRounded values : \n", round_off_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0.5, 1.5, 2.5, 3.5, 4.5, 10.1]
 
@@ -70,7 +70,7 @@ Rounded values :
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # round_() function
 import numpy as np
@@ -96,7 +96,7 @@ print ("\nRounded values upto 3: \n", round_off_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [1, 4, 7, 9, 12]
 

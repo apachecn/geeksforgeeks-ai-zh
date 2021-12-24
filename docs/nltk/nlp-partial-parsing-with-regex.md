@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 chunker = RegexpParser(r'''
                        NP:
                            # chunk optional determiner with nouns
@@ -35,7 +35,7 @@ print ("Accuracy : ", score.accuracy())
 
 **输出:**
 
-```
+```py
 Accuracy : 0.6148573545757688
 
 ```
@@ -44,7 +44,7 @@ Accuracy : 0.6148573545757688
 
 **代码#2:使用树库 _ 组块**
 
-```
+```py
 from nltk.corpus import treebank_chunk
 
 treebank_score = chunker.evaluate(
@@ -55,7 +55,7 @@ print ("Accuracy : ", treebank_score.accuracy()
 
 **输出:**
 
-```
+```py
 Accuracy : 0.49033970276008493
 
 ```
@@ -67,7 +67,7 @@ Accuracy : 0.49033970276008493
 ![](img/ddf5d3af065da33b9ce5d9f4b4545a2b.png)
 **代码#3:组块得分度量**
 
-```
+```py
 print ("Precision : ", score.precision())
 
 print ("\nRecall : ", score.recall())
@@ -83,7 +83,7 @@ print ("\nLength for guessed one : ", len(score.guessed()))
 
 **输出:**
 
-```
+```py
 Precision : 0.60201948127375
 
 Recall : 0.606072502505847

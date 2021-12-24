@@ -7,13 +7,13 @@
 如果 arr.ndim <重复，则通过预先待定的新轴将代表提升为 arr.ndim。
 **语法:**
 
-```
+```py
 numpy.tile(arr, repetitions)
 ```
 
 **参数:**
 
-```
+```py
 array       : [array_like]Input array. 
 repetitions : No. of repetitions of arr along each axis. 
 
@@ -21,14 +21,14 @@ repetitions : No. of repetitions of arr along each axis.
 
 **返回:**
 
-```
+```py
 An array with repetitions of array - arr as per d, number of times we want to repeat arr  
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.tile()
 
@@ -49,7 +49,7 @@ print("\nRepeating arr 3 times : \n", geek.tile(arr, repetitions))
 
 **输出:**
 
-```
+```py
 arr : 
  [0 1 2 3 4]
 Repeating arr 2 times : 
@@ -62,7 +62,7 @@ Repeating arr 3 times :
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.tile()
 
@@ -92,7 +92,7 @@ print("arr Shape : \n", geek.tile(arr, repetitions).shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [0 1 2]
 
@@ -119,7 +119,7 @@ arr Shape :
 
 **代码 3:(重复== arr.ndim) == 0**
 
-```
+```py
 # Python Program illustrating
 # numpy.tile()
 
@@ -149,7 +149,7 @@ print("arr Shape : \n", geek.tile(arr, repetitions).shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [[0 1]
  [2 3]]

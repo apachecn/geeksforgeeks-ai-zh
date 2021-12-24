@@ -6,7 +6,7 @@
 
 **代码#1:用空格连接树中的单词。**
 
-```
+```py
 # Loading library    
 from nltk.corpus import treebank_chunk
 
@@ -23,7 +23,7 @@ print ("\nSentence from tree : \n", ' '.join(
 
 **输出:**
 
-```
+```py
 Tree : 
  (S
   (NP Pierre/NNP Vinken/NNP), /,
@@ -51,7 +51,7 @@ Sentence from tree :
 
 **代码#2 : `chunk_tree_to_sent()`功能改进代码 1**
 
-```
+```py
 import re
 
 # defining regex expression
@@ -65,7 +65,7 @@ def chunk_tree_to_sent(tree, concat =' '):
 
 **代码#3:评估组块 _ 树 _ to _ send()**
 
-```
+```py
 # Loading library    
 from nltk.corpus import treebank_chunk
 from transforms import chunk_tree_to_sent
@@ -82,7 +82,7 @@ print ("Tree to sentence : ", chunk_tree_to_sent(tree))
 
 **输出:**
 
-```
+```py
 Tree : 
  (S
   (NP Pierre/NNP Vinken/NNP), /,
@@ -113,7 +113,7 @@ Pierre Vinken, 61 years old, will join the board as a nonexecutive director Nov.
 
 **代码#4 :**
 
-```
+```py
 def transform_chunk(
         chunk, chain = [filter_insignificant, 
                         swap_verb_phrase, swap_infinitive_phrase, 
@@ -129,7 +129,7 @@ def transform_chunk(
 
 **代码#5:评估转换 _ 区块**
 
-```
+```py
 from transforms import transform_chunk
 
 chunk = [('the', 'DT'), ('book', 'NN'), ('of', 'IN'), 
@@ -142,7 +142,7 @@ print ("\nTransformed Chunk : \n", transform_chunk(chunk))
 
 **输出:**
 
-```
+```py
 Chunk :  
 [('the', 'DT'), ('book', 'NN'), ('of', 'IN'), ('recipes', 'NNS'), 
 ('is', 'VBZ'), ('delicious', 'JJ')]

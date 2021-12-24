@@ -8,7 +8,7 @@
 
 **解决方案#1:** 实现这一点的一种方法是使用`StringIO()`功能。它将充当包装器，并帮助使用`pd.read_csv()`函数读取数据。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 **解决方案 2 :** 另一个神奇的方法是使用熊猫`pd.read_clipboard()`功能。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ StringData ="""Date;Event;Cost
 
 现在我们将使用熊猫`pd.read_clipboard()`函数将数据读入数据帧
 
-```
+```py
 # Read data 
 df = pd.read_clipboard(sep = ';')
 

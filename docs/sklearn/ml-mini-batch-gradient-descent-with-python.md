@@ -38,7 +38,7 @@
 
 **步骤#1:** 第一步是导入依赖关系，生成线性回归的数据，并将生成的数据可视化。我们已经生成了 8000 个数据示例，每个示例都有 2 个属性/特征。这些数据示例进一步分为训练集(X_train，y_train)和测试集(X_test，y_test)，分别有 7200 个和 800 个示例。
 
-```
+```py
 # importing dependencies
 import numpy as np
 import matplotlib.pyplot as plt
@@ -75,7 +75,7 @@ print("Number of examples in testing set = % d"%(X_test.shape[0]))
 **步骤#2:** 接下来，我们编写使用小批量梯度下降实现线性回归的代码。
 `gradientDescent()`是主要驱动函数，其他函数是辅助函数，用于进行预测–`hypothesis()`、计算梯度–`gradient()`、计算误差–`cost()`和创建小批量–`create_mini_batches()`。驱动函数初始化参数，计算模型的最佳参数集，并在参数更新时返回这些参数以及包含错误历史的列表。
 
-```
+```py
 # linear regression using "mini-batch" gradient descent
 # function to compute hypothesis / predictions
 def hypothesis(X, theta):
@@ -131,7 +131,7 @@ def gradientDescent(X, y, learning_rate = 0.001, batch_size = 32):
 
 调用`gradientDescent()`函数计算模型参数(θ)并可视化误差函数的变化。
 
-```
+```py
 theta, error_list = gradientDescent(X_train, y_train)
 print("Bias = ", theta[0])
 print("Coefficients = ", theta[1:])
@@ -150,7 +150,7 @@ plt.show()
 
 **步骤#3 :** 最后，我们对测试集进行预测，并计算预测的平均绝对误差。
 
-```
+```py
 # predicting output for X_test
 y_pred = hypothesis(X_test, theta)
 plt.scatter(X_test[:, 1], y_test[:, ], marker = '.')

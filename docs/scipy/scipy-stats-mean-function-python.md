@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Arithmetic Mean 
 
 import scipy
@@ -27,14 +27,14 @@ print("Arithmetic Mean is :", arr1) 
 
 **Output:**
 
-```
+```py
 Arithmetic Mean is : 10.3333333333
 
 ```
 
 **代码#2:** 多维数据
 
-```
+```py
 # Arithmetic Mean 
 
 from scipy import mean
@@ -57,7 +57,7 @@ print("\nArithmetic Mean is with default axis = 1 : \n", 
 
 **Output:**
 
-```
+```py
 Arithmetic Mean is : 6.41666666667
 
 Arithmetic Mean is with default axis = 0 : 

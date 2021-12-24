@@ -25,7 +25,7 @@ OpenCV 是一个巨大的开源库，用于计算机视觉、机器学习和图�
 
 **示例:**
 
-```
+```py
 import numpy as np
 import cv2
 

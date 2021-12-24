@@ -18,7 +18,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing cv2 module
 import cv2
 
@@ -38,7 +38,7 @@ print("The key code is:"+str(full_key_code))
 
 **输出:**
 
-```
+```py
 The key code is:13
 ```
 
@@ -50,7 +50,7 @@ The key code is:13
 
 ## 计算机编程语言
 
-```
+```py
 # importing cv2 module
 import cv2
 
@@ -70,6 +70,6 @@ print("The key code is:"+str(full_key_code))
 
 **输出:**
 
-```
+```py
 The key code is:-1
 ```

@@ -4,13 +4,13 @@
 
 **numpy.compress()** 函数返回沿所述轴的数组的选定切片，该切片满足一个轴。
 
-```
+```py
 Syntax: numpy.compress(condition, array, axis = None, out = None)
 ```
 
 **参数:**
 
-```
+```py
 condition : [array_like]Condition on the basis of which user extract elements. 
       Applying condition on input_array, if we print condition, it will return an arra
       filled with either True or False. Array elements are extracted from the Indices having 
@@ -25,13 +25,13 @@ out       : [optional, ndarray]Output_array with elements of input_array,
 
 **返回:**
 
-```
+```py
 Copy of array with elements of input_array,
 that satisfies condition and along given axis
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.compress method
 
@@ -49,7 +49,7 @@ print("\nSliced array : \n", a)
 
 **输出:**
 
-```
+```py
 Original array : 
  [[0 1]
  [2 3]

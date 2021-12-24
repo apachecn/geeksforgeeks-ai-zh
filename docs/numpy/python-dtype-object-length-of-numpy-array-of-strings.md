@@ -8,7 +8,7 @@
 
 **解决方案:**我们将使用`numpy.dtype`属性来检查给定对象的数据类型。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -24,7 +24,7 @@ print(arr)
 
 现在我们将检查给定数组对象的数据类型，该对象的基础数据是字符串类型。
 
-```
+```py
 # Print the dtype
 print(arr.dtype)
 ```
@@ -35,7 +35,7 @@ print(arr.dtype)
 
 让我们通过检查给定对象中最长字符串的长度来验证这一点。
 
-```
+```py
 # Use vectorize function of numpy
 length_checker = np.vectorize(len)
 
@@ -57,7 +57,7 @@ print(arr_len.max())
 
 **解决方案:**我们将使用`numpy.dtype`属性来检查给定对象的数据类型。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -73,7 +73,7 @@ print(arr)
 
 现在我们将检查给定数组对象的数据类型，该对象的基础数据是字符串类型。
 
-```
+```py
 # Print the dtype
 print(arr.dtype)
 ```
@@ -84,7 +84,7 @@ print(arr.dtype)
 
 让我们通过检查给定对象中最长字符串的长度来验证这一点。
 
-```
+```py
 # Use vectorize function of numpy
 length_checker = np.vectorize(len)
 

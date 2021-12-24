@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的**更新()方法**用于从字典道具中�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -55,7 +55,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np  

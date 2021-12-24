@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = [['A', 10], ['B', 15], ['C', 14], ['D', 12]] 

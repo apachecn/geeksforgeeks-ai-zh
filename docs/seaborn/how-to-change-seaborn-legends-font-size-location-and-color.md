@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import seaborn as sns
 import matplotlib.pylab as plt
@@ -50,7 +50,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import seaborn as sns
 import matplotlib.pylab as plt
@@ -76,7 +76,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import seaborn as sns
 import matplotlib.pylab as plt
@@ -104,7 +104,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.pyplot as plt
 import numpy as np

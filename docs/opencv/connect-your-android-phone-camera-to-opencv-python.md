@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import essential libraries
 import requests
 import cv2

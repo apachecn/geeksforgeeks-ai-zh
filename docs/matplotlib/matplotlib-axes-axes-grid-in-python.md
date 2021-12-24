@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的 **Axes.grid()函数**用于配置网格线�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function   
 import matplotlib.pyplot as plt
 import numpy as np
@@ -40,7 +40,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

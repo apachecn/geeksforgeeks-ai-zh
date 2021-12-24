@@ -12,7 +12,7 @@
 
 **代码#1 : RGS_enum()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_enum()
 
@@ -36,7 +36,7 @@ print ("no. of strings possible for size  9: ", q)
 
 **代码#2 : RGS_enum()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_enum()
 

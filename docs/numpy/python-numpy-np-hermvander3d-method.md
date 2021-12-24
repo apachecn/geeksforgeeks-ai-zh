@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermvander3d()`方法，我们能够利用这个方法得到埃尔米特级数的三维伪范德蒙矩阵。
 
-```
+```py
 # import numpy and hermvander3d
 import numpy as np
 from numpy.polynomial.hermite import hermvander3d
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermvander3d
 import numpy as np
 from numpy.polynomial.hermite import hermvander3d

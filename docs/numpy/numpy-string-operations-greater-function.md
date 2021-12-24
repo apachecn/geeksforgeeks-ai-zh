@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.greater() method 
 
@@ -33,7 +33,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  numpy
 2nd Input array :  nump
 Output array:  True
@@ -42,7 +42,7 @@ Output array:  True
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.greater() method 
 
@@ -63,7 +63,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  ['Geeks' 'for' 'Geek' 'numpy']
 2nd Input array :  ['Geek' 'for' 'Geek' 'Numpy']
 Output array:  [ True False False  True]
@@ -72,7 +72,7 @@ Output array:  [ True False False  True]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.greater() method 
 
@@ -93,7 +93,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  ['10' '11' '122' '15']
 2nd Input array :  ['10' '13' '121' '14']
 Output array:  [False False  True  True]

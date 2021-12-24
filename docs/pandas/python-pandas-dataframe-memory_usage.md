@@ -16,7 +16,7 @@ Pandas**data frame . memory _ usage()**函数返回每列的内存使用情况�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find memory use of each
 # column along with the index
 # even if we do not set index = True,
@@ -49,7 +49,7 @@ df.memory_usage(index = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

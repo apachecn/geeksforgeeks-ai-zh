@@ -16,7 +16,7 @@ Pandas `**Series.size**`属性返回给定系列对象的基础数据中的元�
 
 **示例#1:** 使用`Series.size`属性查找给定序列对象的基础数据中的元素数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.size`属性来查找给定 Series 对象的底层数据中的元素数量。
 
-```
+```py
 # return the number of elements
 sr.size
 ```
@@ -47,7 +47,7 @@ sr.size
 
 **例 2 :** 使用`Series.size`属性查找给定序列对象的底层数据中的元素个数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(sr)
 ![](img/a519278b0c944bba68cf9df8e3566a3b.png)
 现在我们将使用`Series.size`属性来查找给定 Series 对象的底层数据中的元素数量。
 
-```
+```py
 # return the number of elements
 sr.size
 ```

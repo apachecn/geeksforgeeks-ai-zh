@@ -12,7 +12,7 @@
 
 **代码#1:节点()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.nodes()
 
@@ -36,7 +36,7 @@ print ("Prufer a nodes : ", a.nodes)
 
 **代码#2:节点()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.nodes()
 

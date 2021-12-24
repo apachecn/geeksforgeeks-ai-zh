@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the seaborn library
 import seaborn as sns
 
@@ -35,7 +35,7 @@ df.head()
 
 **语法:**
 
-```
+```py
 barplot([x, y, hue, data, order, hue_order, …])
 ```
 
@@ -43,7 +43,7 @@ barplot([x, y, hue, data, order, hue_order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 # set the background style of the plot
 sns.set_style('darkgrid')
 
@@ -74,7 +74,7 @@ countplot 基本上对类别进行计数，并返回它们出现的次数。这�
 
 **语法:**
 
-```
+```py
 countplot([x, y, hue, data, order, …])
 ```
 
@@ -82,7 +82,7 @@ countplot([x, y, hue, data, order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.countplot(x ='sex', data = df)
 ```
 
@@ -99,7 +99,7 @@ sns.countplot(x ='sex', data = df)
 
 **语法:**
 
-```
+```py
 boxplot([x, y, hue, data, order, hue_order, …])
 ```
 
@@ -107,7 +107,7 @@ boxplot([x, y, hue, data, order, hue_order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.boxplot(x ='day', y ='total_bill', data = df, hue ='smoker')
 ```
 
@@ -124,7 +124,7 @@ x 取范畴列，y 为数值列。因此，我们可以看到每天花费的总�
 
 **语法:**
 
-```
+```py
 violinplot([x, y, hue, data, order, …])
 ```
 
@@ -132,7 +132,7 @@ violinplot([x, y, hue, data, order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.violinplot(x ='day', y ='total_bill', data = df, hue ='sex', split = True)
 ```
 
@@ -151,7 +151,7 @@ sns.violinplot(x ='day', y ='total_bill', data = df, hue ='sex', split = True)
 
 **语法:**
 
-```
+```py
 stripplot([x, y, hue, data, order, …])
 ```
 
@@ -159,7 +159,7 @@ stripplot([x, y, hue, data, order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.stripplot(x ='day', y ='total_bill', data = df,
               jitter = True, hue ='smoker', dodge = True)
 ```
@@ -181,7 +181,7 @@ sns.stripplot(x ='day', y ='total_bill', data = df,
 
 **语法:**
 
-```
+```py
 swarmplot([x, y, hue, data, order, …])
 ```
 
@@ -189,7 +189,7 @@ swarmplot([x, y, hue, data, order, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.swarmplot(x ='day', y ='total_bill', data = df)
 ```
 
@@ -201,7 +201,7 @@ sns.swarmplot(x ='day', y ='total_bill', data = df)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.violinplot(x ='day', y ='total_bill', data = df)
 sns.swarmplot(x ='day', y ='total_bill', data = df, color ='black')
 ```
@@ -216,7 +216,7 @@ sns.swarmplot(x ='day', y ='total_bill', data = df, color ='black')
 
 **语法:**
 
-```
+```py
 sns.factorplot([x, y, hue, data, row, col, …])
 ```
 
@@ -224,7 +224,7 @@ sns.factorplot([x, y, hue, data, row, col, …])
 
 ## 蟒蛇 3
 
-```
+```py
 sns.factorplot(x ='day', y ='total_bill', data = df, kind ='bar')
 ```
 

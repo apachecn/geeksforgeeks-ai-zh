@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过提供索引号和项目，我们可以借助方法`matrix.itemset()`来设置项目。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[6 1]
  [5 3]]
 
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 1  2  3]
  [ 4  5  6]
  [10  8  9]]

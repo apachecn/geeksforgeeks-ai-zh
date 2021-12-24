@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.trapz() function
 
@@ -33,14 +33,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 7.5
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.trapz() function
 
@@ -57,14 +57,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 7.5
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.trapz() function
 
@@ -80,7 +80,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 15.0
 
 ```

@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.week`属性找出给定周期对象所在的周。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.week`属性来查找 prd 对象所在的周。
 
-```
+```py
 # return the week value
 prd.week
 ```
@@ -43,7 +43,7 @@ prd.week
 
 **例 2:** 使用`Period.week`属性找出给定期间对象所在的周。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(prd)
 ![](img/7752883a0d3bbe6723b83c640e79cd94.png)
 现在我们将使用`Period.week`属性来查找 prd 对象所在的周。
 
-```
+```py
 # return the week value
 prd.week
 ```

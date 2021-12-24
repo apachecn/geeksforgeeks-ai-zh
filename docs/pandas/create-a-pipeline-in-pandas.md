@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to find mean
 def mean_age_by_group(dataframe, col):
 
@@ -60,7 +60,7 @@ def uppercase_column_name(dataframe):
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a pipeline that applies both the functions created above
 pipeline = df.pipe(mean_age_by_group, col='gender').pipe(uppercase_column_name)
 

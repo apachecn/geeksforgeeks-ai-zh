@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.mean() method 
 
@@ -85,7 +85,7 @@ print("\nMean of int record array, axis = 1 : ", out_arr6)
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3.,  6) (  6., 10)]
  [(  9.,  1) (  5.,  4) (-12.,  7)]]
 Record array of float:  [[  5\.   3\.   6.]

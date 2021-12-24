@@ -31,14 +31,14 @@
 
 你应该已经安装了 **PyTorch > =1.1** 和 **Python > =3.6** 。要在蟒蛇上安装 PyTorch，请运行以下命令-
 
-```
+```py
 conda install -c pytorch pytorch
 
 ```
 
 要安装 flair，请运行–
 
-```
+```py
 pip install flair
 
 ```
@@ -56,7 +56,7 @@ Flair 提供两种类型的对象。它们是:
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 
@@ -75,7 +75,7 @@ print(s)
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 from flair.models import SequenceTagger
@@ -108,7 +108,7 @@ for entity in s.get_spans('ner'):
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 from flair.embeddings import WordEmbeddings
@@ -138,7 +138,7 @@ for token in s:
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 from flair.embeddings import FlairEmbeddings
@@ -168,7 +168,7 @@ for token in s:
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 from flair.embeddings import FlairEmbeddings, WordEmbeddings
@@ -216,7 +216,7 @@ for token in s:
 
 ## 蟒蛇 3
 
-```
+```py
 import flair
 from flair.data import Sentence
 from flair.embeddings import WordEmbeddings, DocumentPoolEmbeddings
@@ -249,7 +249,7 @@ print(s.embedding)
 
 ## 蟒蛇 3
 
-```
+```py
 from flair.data import Corpus
 from flair.datasets import TREC_6
 from flair.embeddings import WordEmbeddings, FlairEmbeddings, DocumentRNNEmbeddings

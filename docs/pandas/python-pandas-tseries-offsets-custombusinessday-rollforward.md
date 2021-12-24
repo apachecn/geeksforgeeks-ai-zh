@@ -17,7 +17,7 @@
 
 **示例#1:** 如果给定的时间戳不在偏移量上，使用`pandas.tseries.offsets.CustomBusinessDay.rollforward()`函数向前滚动。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(cbd)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。如果给定的时间戳不在偏移量上，我们也将前滚。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbd
 
@@ -67,7 +67,7 @@ print(result)
 
 **示例#2:** 如果给定的时间戳不在偏移量上，使用`pandas.tseries.offsets.CustomBusinessDay.rollforward()`函数向前滚动。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(cbd)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。如果给定的时间戳不在偏移量上，我们也将前滚。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbd
 

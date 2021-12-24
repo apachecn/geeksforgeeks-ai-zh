@@ -5,7 +5,7 @@
 函数 is _ collinear()使我们能够检查给定点(坐标)是否共线
 。
 
-```
+```py
 Syntax: 
 
 Parameters:  x, y, z are coordinates.
@@ -17,7 +17,7 @@ Return: True : if points are collinear, otherwise False.
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and geometry module
 from sympy import *
 from sympy.geometry import *
@@ -34,7 +34,7 @@ print(isTrue)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -42,7 +42,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and geometry module
 from sympy import *
 from sympy.geometry import *
@@ -59,6 +59,6 @@ print(isTrue)
 
 **输出:**
 
-```
+```py
 False
 ```

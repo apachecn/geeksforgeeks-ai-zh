@@ -6,7 +6,7 @@
 
 **代码#1:** 检查列位置中的 PG 值
 
-```
+```py
 # importing pandas 
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(df1)
 
 **代码#2:** 获取满足条件的行
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(df1)
 
 **代码#3:** 筛选团队包含“波士顿”或学院包含“麻省理工”的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -85,7 +85,7 @@ print(df1)
 
 **代码#4:** 过滤行检查团队名称包含“波士顿和职位必须是 PG。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -101,7 +101,7 @@ df1
 
 **代码#5:** 筛选行检查位置包含 PG，学院必须包含类似 UC。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

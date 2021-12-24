@@ -4,7 +4,7 @@
 
 借助 **sympy.powdenest()** 方法，我们可以使用以下等式转换数学表达式–
 
-```
+```py
  (x<sup>a</sup>)<sup>b</sup> = x<sup>ab</sup>
 ```
 
@@ -19,7 +19,7 @@
 **例#1:**
 在这个例子中我们可以看到，通过使用 **sympy.powdenest()** 方法，我们可以用幂来转换一个数学表达式。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -36,7 +36,7 @@ print("After Conversion : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Conversion : (x**a)**b
 After Conversion : x**(a*b)
 
@@ -44,7 +44,7 @@ After Conversion : x**(a*b)
 
 **例 2:**
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -61,7 +61,7 @@ print("After Conversion : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Conversion : (x**(a + b))**(a - b)
 After Conversion : x**((a - b)*(a + b))
 

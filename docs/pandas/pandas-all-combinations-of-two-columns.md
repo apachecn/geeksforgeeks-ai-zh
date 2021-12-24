@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing pandas module for the  
 # data frame
 import pandas as pd

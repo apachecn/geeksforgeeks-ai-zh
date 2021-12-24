@@ -29,14 +29,14 @@
 
 安装 Bokeh 有几种不同的方法。如果您使用的是 Anaconda 发行版，请使用 conda 包管理器，如下所示？
 
-```
+```py
 conda install bokeh
 
 ```
 
 这将安装所有需要运行 Bokeh 的依赖项。如果安装了上述所有依赖项，如 NumPy、Pandas 和 Redis，那么您可以在命令行使用 pip 从 PyPI 安装 bokeh 包:
 
-```
+```py
 pip install bokeh
 
 ```

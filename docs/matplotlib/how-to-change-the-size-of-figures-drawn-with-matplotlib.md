@@ -26,7 +26,7 @@ figsize 属性是函数 fig()的一个参数。它是一个可选属性，默认
 
 ## 蟒蛇 3
 
-```
+```py
 # We start by importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -64,7 +64,7 @@ jupyter 笔记本，那你就不会用了，plt.show()。相反，您可以在
 
 ## 蟒蛇 3
 
-```
+```py
 # We start by importing matplotlib
 import matplotlib.pyplot as plt
 

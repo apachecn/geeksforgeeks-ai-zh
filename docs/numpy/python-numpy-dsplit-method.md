@@ -12,7 +12,7 @@
 
 在这个例子中，我们可以看到使用`Numpy.expand_dims()`方法，我们能够使用这个方法得到分裂的维度。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -41,7 +41,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

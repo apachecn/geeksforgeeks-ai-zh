@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing networkx
 import networkx as nx
 

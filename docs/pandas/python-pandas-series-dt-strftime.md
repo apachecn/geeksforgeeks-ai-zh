@@ -13,7 +13,7 @@
 
 **示例#1:** 使用`Series.dt.strftime()`函数将给定序列对象中的日期转换为指定的日期格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.dt.strftime()`函数将给定序列对象中的日期转换为指定的格式。
 
-```
+```py
 # convert to the given date format
 result = sr.dt.strftime('% B % d, % Y, % r')
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.strftime()`函数将给定序列对象中的日期转换为指定的日期格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.dt.strftime()`函数将给定序列对象中的日期转换为指定的格式。
 
-```
+```py
 # convert to the given date format
 result = sr.dt.strftime('% d % m % Y, % r')
 

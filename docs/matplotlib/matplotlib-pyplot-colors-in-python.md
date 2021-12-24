@@ -23,7 +23,7 @@
 
 **实施例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Define the Color
@@ -39,7 +39,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4]

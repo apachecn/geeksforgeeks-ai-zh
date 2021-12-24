@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`interpolate()`函数使用线性方法填充缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ df
 
 让我们使用线性方法对缺失值进行插值。请注意，线性方法忽略索引，并将值视为等距。
 
-```
+```py
 # to interpolate the missing values
 df.interpolate(method ='linear', limit_direction ='forward')
 ```
@@ -53,7 +53,7 @@ df.interpolate(method ='linear', limit_direction ='forward')
 
 **示例#2:** 使用`interpolate()`函数，使用线性方法在向后方向内插缺失值，并限制可填充的连续`Na`值的最大数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

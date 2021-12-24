@@ -11,7 +11,7 @@
 
 这里，我们取一个数据框，数据框由学生证、姓名、分数和成绩组成。让我们创建数据框
 
-```
+```py
 # importing packages
 import pandas as pd
 

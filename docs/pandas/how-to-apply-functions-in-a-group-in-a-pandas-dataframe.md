@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import libraries
 import pandas as pd
 
@@ -39,7 +39,7 @@ data_df
 
 ## 蟒蛇 3
 
-```
+```py
 # finding rolling mean
 rolling_mean = data_df.groupby("Student House")["Points"].apply(
     lambda x: x.rolling(center=False, window=2).mean())
@@ -56,7 +56,7 @@ print(rolling_mean)
 
 ## 蟒蛇 3
 
-```
+```py
 # finding mean
 mean = data_df.groupby("Student House")["Points"].apply(
   lambda x: x.mean())
@@ -73,7 +73,7 @@ print(mean)
 
 ## 蟒蛇 3
 
-```
+```py
 # finding sum
 sum = data_df.groupby("Student House")["Points"].apply(
   lambda x: x.sum())

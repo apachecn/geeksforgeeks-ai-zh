@@ -8,7 +8,7 @@
 
 **所需模块:**
 
-```
+```py
 pip install numpy
 pip install pandas
 pip install matplotlib
@@ -19,7 +19,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the necessary libraries to read
 # dataset and work on that
 import pandas as pd
@@ -46,7 +46,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Subplots as having two types of quality
 fig, ax = plt.subplots()
 

@@ -9,7 +9,7 @@ Numpy 是一个 Python 库，用于用 C 和 Python 编写的数组处理。nump
 
 **代码:**
 
-```
+```py
 # Importing numpy library
 import numpy as gfg
 
@@ -50,7 +50,7 @@ print(f"Product of the array: {p}")
 
 **输出:**
 
-```
+```py
 Actual array: ['1' '2' '3' 'geeks' 'for' 'geeks' '4' '5']
 Array after changes: [ 1\.  2\.  3\. nan nan nan  4\.  5.]
 Mean of the array: 3.0

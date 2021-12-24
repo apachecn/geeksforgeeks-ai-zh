@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_contains()函数**用于为艺术
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -71,7 +71,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D

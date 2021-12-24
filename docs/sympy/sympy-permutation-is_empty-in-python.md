@@ -10,7 +10,7 @@
 
 **代码#1 : is_Empty()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Empty()
 
@@ -36,7 +36,7 @@ print ("Permutation b - is_Empty form : ", b.is_Empty)
 
 **代码#2 : is_Empty()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Empty()
 

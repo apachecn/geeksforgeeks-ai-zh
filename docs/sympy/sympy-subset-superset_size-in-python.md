@@ -12,7 +12,7 @@
 
 **代码#1:超集 _ 大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.superset_size()
 
@@ -36,7 +36,7 @@ print ("Subset a superset_size : ", a.superset_size)
 
 **代码#2:超集 _ 大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.superset_size()
 

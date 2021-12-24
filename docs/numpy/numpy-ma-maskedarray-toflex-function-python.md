@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.toflex() function
 
@@ -29,7 +29,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[(1, False) (2,  True) (3, False)]
  [(4,  True) (5, False) (6,  True)]
  [(7, False) (8,  True) (9, False)]]
@@ -38,7 +38,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.toflex() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[(11, False) (12,  True) (13,  True)]
  [(14,  True) (15,  True) (16,  True)]
  [(17,  True) (18,  True) (19,  True)]]

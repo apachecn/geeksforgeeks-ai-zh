@@ -25,7 +25,7 @@
 
 下面是相同的 Python 实现。
 
-```
+```py
 import numpy as np 
 import pandas as pd 
 import matplotlib.pyplot as plt 

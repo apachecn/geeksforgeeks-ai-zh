@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，名称列被设置为索引列，稍后使用 rename()方法更改其名称。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -46,7 +46,7 @@ data
 
 在本例中，通过传递字典来更改多个列名。稍后将结果与使用返回的数据帧进行比较。列方法。在比较之前删除空值，因为 NaN==NaN 将返回 false。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legfromroots() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-68.66666667  56.6         -9.33333333   0.4       ]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legfromroots() method 
 
@@ -62,7 +62,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ -1.98000000e+02   3.25428571e+02  -1.58571429e+02   3.44444444e+01
   -3.42857143e+00   1.26984127e-01]
 

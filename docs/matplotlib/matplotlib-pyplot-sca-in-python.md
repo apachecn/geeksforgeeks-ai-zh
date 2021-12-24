@@ -22,7 +22,7 @@ matplotlib 库的 **sca()方法** pyplot 模块用于将当前轴设置为 a。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from scipy import sin, cos
@@ -50,7 +50,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

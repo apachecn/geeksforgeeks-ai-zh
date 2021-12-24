@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Library functions for prime
 import sympy
 

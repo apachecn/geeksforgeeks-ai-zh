@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **set()方法**是一个属性批量设置
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib 
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np 

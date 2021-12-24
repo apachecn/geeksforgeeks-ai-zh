@@ -10,7 +10,7 @@
 
 ## python 3
 
-```
+```py
 # importing the required libraries
 import matplotlib.pyplot as plt
 import numpy as np

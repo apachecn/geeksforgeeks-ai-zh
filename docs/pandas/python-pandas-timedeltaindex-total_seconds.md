@@ -14,7 +14,7 @@ Pandas `**TimedeltaIndex.total_seconds()**`功能用于查找以秒为单位表�
 
 **示例#1:** 使用`TimedeltaIndex.total_seconds()`函数找出给定时间增量索引对象的每个元素的总持续时间，以秒为单位。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.total_seconds()`函数来查找 tidx 对象每个元素的总秒数。
 
-```
+```py
 # time duration of each element expressed in seconds
 tidx.total_seconds()
 ```
@@ -44,7 +44,7 @@ tidx.total_seconds()
 
 **示例 2:** 使用`TimedeltaIndex.total_seconds()`函数找出给定时间增量索引对象的每个元素的总持续时间，以秒为单位。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.total_seconds()`函数来查找 tidx 对象每个元素的总秒数。
 
-```
+```py
 # time duration of each element expressed in seconds
 tidx.total_seconds()
 ```

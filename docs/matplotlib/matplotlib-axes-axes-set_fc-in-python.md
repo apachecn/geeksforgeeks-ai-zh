@@ -21,7 +21,7 @@ matplotlib 库的 axes 模块中的 **Axes.set_fc()函数**用于设置 Axes 的
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -43,7 +43,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

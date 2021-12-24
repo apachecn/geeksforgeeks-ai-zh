@@ -25,7 +25,7 @@ cv2.arrowedLine()方法用于绘制从起点指向终点的箭头线段。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.arrowedLine() method
 
 # importing cv2
@@ -71,7 +71,7 @@ cv2.imshow(window_name, image)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.arrowedLine() method
 
 # importing cv2

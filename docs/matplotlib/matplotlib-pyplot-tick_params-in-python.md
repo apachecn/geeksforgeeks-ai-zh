@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.tick_params(axis='both', **kwargs)
 ```
 
@@ -29,7 +29,7 @@ matplotlib.pyplot.tick_params(axis='both', **kwargs)
 
 **示例#1:** 默认图
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt 
 
@@ -49,7 +49,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, ScalarFormatter

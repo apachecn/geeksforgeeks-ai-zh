@@ -23,7 +23,7 @@ Pandas **`str.index()`** 方法用于搜索并返回序列中每个字符串的�
 
 在本例中，“e”作为子字符串传递。因为“e”存在于所有 5 个字符串中，所以返回它出现的最少索引。在应用任何操作之前，使用。dropna()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -51,7 +51,7 @@ short_data
 
 在本例中，搜索前 5 行中的“a”。由于“a”不存在于每个字符串中，因此将返回值错误。若要处理错误，请尝试使用和 except。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

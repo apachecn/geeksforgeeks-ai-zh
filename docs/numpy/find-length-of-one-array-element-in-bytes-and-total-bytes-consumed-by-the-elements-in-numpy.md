@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 array = np.array([1,3,5], dtype=np.float64)
@@ -34,7 +34,7 @@ print(array.nbytes)
 
 **输出:**
 
-```
+```py
 3
 8
 24
@@ -44,7 +44,7 @@ print(array.nbytes)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 array = np.array([20, 34, 56, 78, 1, 9], dtype=np.float64)
@@ -62,7 +62,7 @@ print(array.nbytes)
 
 **输出:**
 
-```
+```py
 6
 8
 48

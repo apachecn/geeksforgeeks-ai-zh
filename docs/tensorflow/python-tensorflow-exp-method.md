@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -36,7 +36,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input type: Tensor("Const:0", shape=(5, ), dtype=float32)
 Input: [-0.5 -0.1  0\.   0.1  0.5]
 Return type: Tensor("exp:0", shape=(5, ), dtype=float32)
@@ -47,7 +47,7 @@ Output: [0.60653067 0.9048374  1\.         1.105171   1.6487212 ]
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -78,7 +78,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input: [-10\.  -9\.  -8\.  -7\.  -6\.  -5\.  -4\.  -3\.  -2\.  -1\.   0\.   1\.   2\.   3.
    4\.   5\.   6\.   7\.   8\.   9\.  10.]
 Output: [4.53999298e-05 1.23409804e-04 3.35462628e-04 9.11881966e-04

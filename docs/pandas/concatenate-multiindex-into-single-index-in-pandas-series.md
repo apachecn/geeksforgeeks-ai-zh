@@ -8,7 +8,7 @@
 
 创建一个样本系列:
 
-```
+```py
 # importing pandas module
 import pandas as pd
 import numpy as np

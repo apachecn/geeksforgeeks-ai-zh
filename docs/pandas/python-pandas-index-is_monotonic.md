@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.is_monotonic`属性找出给定索引对象中的底层数据是否单调增加。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,14 +27,14 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Int64Index([100, 200, 420, 888, 924], dtype='int64')
 
 ```
 
 现在我们将使用`Index.is_monotonic`属性来找出给定 Index 对象中的底层数据是否单调递增。
 
-```
+```py
 # check if the values in the Index
 # are monotonically increasing
 result = idx.is_monotonic
@@ -45,7 +45,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -53,7 +53,7 @@ True
 
 **示例#2 :** 使用`Index.is_monotonic`属性找出给定索引对象中的底层数据是否单调增加。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,14 +66,14 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Index(['2012-12-12', None, '2002-1-10', None], dtype='object')
 
 ```
 
 现在我们将使用`Index.is_monotonic`属性来找出给定 Index 对象中的底层数据是否单调递增。
 
-```
+```py
 # check if the values in the Index
 # are monotonically increasing
 result = idx.is_monotonic
@@ -84,7 +84,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 False
 ```
 

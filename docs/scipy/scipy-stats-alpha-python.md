@@ -17,7 +17,7 @@
 
 **代码#1:创建阿尔法连续随机变量**
 
-```
+```py
 # Python code to demonstrate scipy.alpha()
 from scipy.stats import alpha
 
@@ -29,7 +29,7 @@ rv = alpha(a)
 
 **代码#2 :**
 
-```
+```py
 # Python code to demonstrate scipy.alpha()
 import numpy as np
 import matplotlib.pyplot as plt

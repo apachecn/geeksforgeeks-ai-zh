@@ -28,7 +28,7 @@ Bokeh 为我们提供 [Matplotlib](https://matplotlib.org/examples/color/colorma
 
 **示例:**我们将使用 [vbar()](https://www.geeksforgeeks.org/python-bokeh-plotting-vertical-bar-graphs/) 功能绘制多个竖线来演示 Matplotlib 调色板。
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import Magma, Inferno, Plasma, Viridis, Cividis
@@ -92,7 +92,7 @@ Bokeh 为我们提供 [D3](https://github.com/d3/d3-3.x-api-reference/blob/maste
 
 **示例:**我们将使用 [vbar()](https://www.geeksforgeeks.org/python-bokeh-plotting-vertical-bar-graphs/) 功能绘制多个竖线来演示 D3 调色板。
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import Category10, Category20, Category20b, Category20c
@@ -180,7 +180,7 @@ Bokeh 为我们提供 [ColorBrewer](https://colorbrewer2.org/) 调色板。有 3
 
 **示例:**我们将使用 [vbar()](https://www.geeksforgeeks.org/python-bokeh-plotting-vertical-bar-graphs/) 功能绘制多个竖线来演示 ColorBrewer 调色板。
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import BrBG, PiYG, RdGy, RdYlGn, YlGnBu
@@ -238,7 +238,7 @@ Bokeh 为我们提供了一个调色板，对色弱或色盲的人很有用。
 
 **示例:**我们将使用 [vbar()](https://www.geeksforgeeks.org/python-bokeh-plotting-vertical-bar-graphs/) 功能绘制多个竖线来演示可用性调色板。
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import Colorblind
@@ -276,7 +276,7 @@ show(graph)
 
 **示例:**我们将使用 [vbar()](https://www.geeksforgeeks.org/python-bokeh-plotting-vertical-bar-graphs/) 功能绘制多个竖线来演示大型调色板。
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import Greys256, Inferno256, Magma256, Plasma256

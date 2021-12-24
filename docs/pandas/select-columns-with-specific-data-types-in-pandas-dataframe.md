@@ -15,7 +15,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import pandas as pd
 
@@ -27,7 +27,7 @@ df = pd.read_csv("train.csv")*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# display description
 # of the dataset
 df.info()*
@@ -41,7 +41,7 @@ df.info()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# store columns with specific data type
 integer_columns = df.select_dtypes(include=['int64']).columns
 float_columns = df.select_dtypes(include=['float64']).columns
@@ -52,7 +52,7 @@ object_columns = df.select_dtypes(include=['object']).columns*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# display columns
 print('\nint64 columns:\n', integer_columns)
 print('\nfloat64 columns:\n', float_columns)
@@ -67,7 +67,7 @@ print('\nobject columns:\n', object_columns)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import pandas as pd
 
@@ -95,7 +95,7 @@ print('\nobject columns:\n',object_columns)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import pandas as pd
 from vega_datasets import data
@@ -115,7 +115,7 @@ df.sample(10)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required module
 import pandas as pd
 from vega_datasets import data

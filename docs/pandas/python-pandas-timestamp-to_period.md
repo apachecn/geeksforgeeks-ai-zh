@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.to_period()`函数将给定的时间戳转换为周期对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_period()`函数将给定的时间戳转换为周期。
 
-```
+```py
 # convert to period
 # we have applied monthly frequency
 ts.to_period(freq ='M')
@@ -47,7 +47,7 @@ ts.to_period(freq ='M')
 
 **示例 2:** 使用`Timestamp.to_period()`函数将给定的时间戳转换为周期对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_period()`函数将给定的时间戳转换为周期。
 
-```
+```py
 # convert to period
 # we have applied minutely frequency
 ts.to_period(freq ='T')

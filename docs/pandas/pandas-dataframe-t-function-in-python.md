@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas module
 import pandas as pd
 
@@ -43,7 +43,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Transposing the data frame 
 # using dataframe.T property
 df_trans = df.T

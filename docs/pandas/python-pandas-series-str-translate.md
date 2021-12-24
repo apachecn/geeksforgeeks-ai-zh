@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在本例中，通过字典创建翻译表。字典以 a、b 和 c 为键，X、Y 和 Z 分别为值。创建转换表，分别用 X、Y 和 Z 替换 a、b 和 c。此表被传递给 str.translate()方法以进行相应的更改。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

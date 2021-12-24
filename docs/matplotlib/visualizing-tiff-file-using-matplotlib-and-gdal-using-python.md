@@ -6,7 +6,7 @@ Tiff 文件格式用于存储光栅图像。一个名为 GDAL-地理空间数据
 
 要安装此模块，请在您的终端上运行此命令。
 
-```
+```py
 pip install GDAL
 
 ```
@@ -29,7 +29,7 @@ tiff 文件可以从[这里](https://drive.google.com/file/d/1Zjxa5iD-L8RjP1U2gK
 
 ## 蟒蛇 3
 
-```
+```py
 from osgeo import gdal
 import matplotlib.pyplot as plt
 
@@ -40,13 +40,13 @@ dataset = gdal.Open(r'land_shallow_topo_2048.tif')
 
 ## 蟒蛇 3
 
-```
+```py
 print(dataset.RasterCount)
 ```
 
 **输出:**
 
-```
+```py
 3
 
 ```
@@ -58,7 +58,7 @@ print(dataset.RasterCount)
 
 ## 蟒蛇 3
 
-```
+```py
 # since there are 3 bands
 # we store in 3 different variables
 band1 = dataset.GetRasterBand(1) # Red channel
@@ -72,7 +72,7 @@ GDAL 提供了 ReadAsArray()方法，将波段转换为 numpy 数组并返回。
 
 ## 蟒蛇 3
 
-```
+```py
 b1 = band1.ReadAsArray()
 b2 = band2.ReadAsArray()
 b3 = band3.ReadAsArray()
@@ -84,7 +84,7 @@ b3 = band3.ReadAsArray()
 
 ## 蟒蛇 3
 
-```
+```py
 img = np.dstack((b1, b2, b3))
 f = plt.figure()
 plt.imshow(img)

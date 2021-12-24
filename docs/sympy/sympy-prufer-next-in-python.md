@@ -12,7 +12,7 @@
 
 **代码#1:下一个()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.next()
 
@@ -36,7 +36,7 @@ print ("Prufer a next : ", a.next(1))
 
 **代码#2:下一个()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.next()
 

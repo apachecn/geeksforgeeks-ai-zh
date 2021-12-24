@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # alen() function
 
@@ -29,7 +29,7 @@ print ("Length of the first dimension of arr: ", out_dim)
 
 **Output:**
 
-```
+```py
 Input array :  [[2, 0, 7], [0, 5, 9]]
 Length of the first dimension of arr:  2
 
@@ -37,7 +37,7 @@ Length of the first dimension of arr:  2
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # alen() function
 
@@ -53,7 +53,7 @@ print ("Length of the first dimension of arr: ", out_dim)
 
 **Output:**
 
-```
+```py
 Input array : 
  [[[0 1 2]
   [3 4 5]

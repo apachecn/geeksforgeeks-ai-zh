@@ -11,7 +11,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -24,14 +24,14 @@ print("Prime Numbers up to 50 : {}".format(prime_list))  
 
 **输出:**
 
-```
+```py
 Prime Numbers up to 50 : array('l', [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47])
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -44,7 +44,7 @@ print("Prime Numbers up to 100 : {}".format(prime_list))  
 
 **输出:**
 
-```
+```py
 Prime Numbers up to 100 : array('l', [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97])
 
 ```

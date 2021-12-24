@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.drop_duplicates()`函数删除给定时间增量索引对象中的所有重复值。只保留第一次出现。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 ![](img/28f3941dae3e0e6c97eb6f522a2780b8.png)
 现在我们将使用`TimedeltaIndex.drop_duplicates()`功能删除所有重复值，同时保留第一次出现的值。
 
-```
+```py
 # drop all duplicates and keep the first occurrence
 tidx.drop_duplicates(keep ='first')
 ```
@@ -46,7 +46,7 @@ tidx.drop_duplicates(keep ='first')
 
 **示例 2:** 使用`TimedeltaIndex.drop_duplicates()`函数删除给定时间增量索引对象中的所有重复值。保留最后一个重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 ![](img/a24b4daffc7e190937bcc717e1b77a62.png)
 现在我们将使用`TimedeltaIndex.drop_duplicates()`功能删除所有重复值，同时保留最后一次出现的值。
 
-```
+```py
 # drop all duplicates and keep the first occurrence
 tidx.drop_duplicates(keep ='last')
 ```

@@ -12,7 +12,7 @@
 
 **代码# 1:get _ 邻接 _ 距离()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_adjacency_distance()
 
@@ -41,7 +41,7 @@ print ("b - get_adjacency_distance form c: ", b.get_adjacency_distance(c))
 
 **代码# 2:get _ 邻接 _ 距离()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_adjacency_distance()
 

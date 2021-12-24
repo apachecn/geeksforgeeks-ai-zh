@@ -10,7 +10,7 @@ Matplotlib 是一个全面的库，用于在 python 中创建交互式、静态�
 
 **语法:**
 
-```
+```py
 loglog(X,Y)
 ```
 
@@ -22,7 +22,7 @@ x 和 Y 分别指 x 和 Y 坐标。
 
 **语法:**
 
-```
+```py
 np.linspace(start, stop, num, endpoint, retstep, dtype, axis)
 ```
 
@@ -40,7 +40,7 @@ np.linspace(start, stop, num, endpoint, retstep, dtype, axis)
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -62,7 +62,7 @@ plt.plot(x_input, y_input)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 import matplotlib.pyplot as plt
 import numpy as np

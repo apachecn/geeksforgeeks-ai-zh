@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.setdiff1d() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [4 5 6]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.setdiff1d() function
 
@@ -56,7 +56,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [2 4 6 8]
 
 ```

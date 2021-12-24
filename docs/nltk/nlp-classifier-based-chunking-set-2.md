@@ -6,7 +6,7 @@
 
 **代码#1 :**
 
-```
+```py
 # loading libraries
 from chunkers import ClassifierChunker
 from nltk.corpus import treebank_chunk
@@ -31,7 +31,7 @@ print ("\nRecall of ClassifierChunker : ", r)
 
 **输出:**
 
-```
+```py
 Accuracy of ClassifierChunker : 0.9721733155838022
 
 Precision of ClassifierChunker : 0.9258838793383068
@@ -42,7 +42,7 @@ Recall of ClassifierChunker : 0.9359016393442623
 
 **代码#2:我们来对比一下 conll_train** 的表现
 
-```
+```py
 chunker = ClassifierChunker(conll_train)
 score = chunker.evaluate(conll_test)
 
@@ -57,7 +57,7 @@ print ("\nRecall of ClassifierChunker : ", r)
 
 **输出:**
 
-```
+```py
 Accuracy of ClassifierChunker : 0.9264622074002153
 
 Precision of ClassifierChunker : 0.8737924310910219
@@ -77,7 +77,7 @@ ClassifierChunker 类使用一个内部的 ClassifierBasedTagger 和 prev_next_p
 
 **代码#3:不同的分类器构建器**
 
-```
+```py
 # loading libraries
 from chunkers import ClassifierChunker
 from nltk.corpus import treebank_chunk
@@ -105,7 +105,7 @@ print ("\nRecall of ClassifierChunker : ", r)
 
 **输出:**
 
-```
+```py
 Accuracy of ClassifierChunker : 0.9743204362949285
 
 Precision of ClassifierChunker : 0.9334423548650859

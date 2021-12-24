@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`mad()`函数找到指数轴上值的平均绝对偏差。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 我们用`dataframe.mad()`函数求平均绝对偏差。
 
-```
+```py
 # find the mean absolute deviation 
 # over the index axis
 df.mad(axis = 0)
@@ -47,7 +47,7 @@ df.mad(axis = 0)
 
 **示例#2:** 使用`mad()`函数查找列轴上值的平均绝对偏差，该列轴中有一些`Na`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

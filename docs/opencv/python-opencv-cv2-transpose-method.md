@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to explain cv2.transpose() method
 
 # importing cv2

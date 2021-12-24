@@ -10,7 +10,7 @@
 
 **代码#1 : is_even()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_even()
 
@@ -36,7 +36,7 @@ print ("Permutation b - is_even form : ", b.is_even)
 
 **代码#2 : is_even()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_even()
 

@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.argsort() method 
 
@@ -43,7 +43,7 @@ print ("output array of indices: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 4  2  3 -1  5]
 Masked array :  [4 2 -- -1 5]
 output array of indices:  [3 1 0 4 2]
@@ -52,7 +52,7 @@ output array of indices:  [3 1 0 4 2]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.argsort() method 
 
@@ -78,7 +78,7 @@ print ("output array of indices: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [  5  -5   0 -10   2]
 Masked array :  [-- -5 -- -10 2]
 output array of indices:  [3 1 0 2 4]

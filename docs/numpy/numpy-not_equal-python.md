@@ -5,14 +5,14 @@
 **numpy.not_equal()** 检查两个元素是否相等。
 **语法:**
 
-```
+```py
 numpy.not_equal(x1, x2[, out])
 
 ```
 
 **参数:**
 
-```
+```py
 x1, x2 : [array_like]Input Array whose elements we want to check
 out    : [ndarray, optional]Output array that returns True/False.
     A placeholder the same shape as x1 to store the result.
@@ -21,14 +21,14 @@ out    : [ndarray, optional]Output array that returns True/False.
 
 **返回:**
 
-```
+```py
 Boolean array 
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.not_equal() method
 
@@ -43,7 +43,7 @@ print("Not equal : \n", b, "\n")
 
 **输出:**
 
-```
+```py
 Not equal : 
  [False  True] 
 
@@ -55,7 +55,7 @@ Not equal :
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.not_equal() method
 
@@ -71,13 +71,13 @@ print("Comparing complex with int using .not_equal() : ", d)
 
 **输出:**
 
-```
+```py
 Comparing complex with int using .not_equal() :  [ True False]
 ```
 
 **代码 3 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.not_equal() method
 
@@ -93,7 +93,7 @@ print("\nComparing float with int using .not_equal() : ", d)
 
 **输出:**
 
-```
+```py
  Comparing float with int using .not_equal() :  [ True  True]
 ```
 

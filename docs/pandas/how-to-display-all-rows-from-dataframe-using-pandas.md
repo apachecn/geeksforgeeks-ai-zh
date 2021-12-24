@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing numpy library
 import pandas as pd
 

@@ -23,7 +23,7 @@ dataframe 在 order_id 和 customer_id 列中包含重复值。以下是基于�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -56,7 +56,7 @@ display(newdf)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

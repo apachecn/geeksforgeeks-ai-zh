@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime, date
 
 born='26/01/2000'
@@ -34,7 +34,7 @@ print("Age :",
 
 **输出:**
 
-```
+```py
 Born : 26/01/2000
 Age : 21
 ```
@@ -45,7 +45,7 @@ Age : 21
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from datetime import datetime, date
 

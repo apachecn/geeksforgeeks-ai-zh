@@ -53,7 +53,7 @@ bokeh 库绘图模块中的**环形 _ 楔形()功能**用于给图形添加环�
 以下示例说明了 bokeh .标绘中的 bokeh .标绘. figure .环形 _ 楔形()函数:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -77,7 +77,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

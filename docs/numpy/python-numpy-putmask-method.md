@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.putmask()`方法，我们能够在给定条件和值的帮助下获得新数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -27,7 +27,7 @@ print(arr)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的 **Axes.autoscale_view()函数**用于使用�
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import numpy as np
 from basic_units import cm, inch
@@ -71,7 +71,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import matplotlib.pyplot as plt
 from matplotlib import collections, colors, transforms

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # irr() function
 
@@ -33,6 +33,6 @@ print("Solution - Internal Rate of Return : ", Solution)
 
 **输出:**
 
-```
+```py
 Solution - Internal Rate of Return :  -0.5296447721512683 
 ```

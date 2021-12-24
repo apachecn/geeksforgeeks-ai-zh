@@ -14,7 +14,7 @@ Pandas `**Timestamp.tzname()**`函数返回 self.tzinfo.tzname(self)，即给定
 
 **示例#1:** 使用`Timestamp.tzname()`函数返回给定时间戳对象设置到的时区名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tzname()`函数返回时区的名称。
 
-```
+```py
 # return the timezone info
 ts.tzname()
 ```
@@ -45,7 +45,7 @@ ts.tzname()
 
 **的“中央标准时间”列表示例#2:** 使用`Timestamp.tzname()`函数返回给定时间戳对象已设置到的时区名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tzname()`函数返回时区的名称。
 
-```
+```py
 # return the timezone info
 ts.tzname()
 ```

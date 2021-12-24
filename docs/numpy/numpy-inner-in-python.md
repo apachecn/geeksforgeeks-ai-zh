@@ -5,7 +5,7 @@
 **`numpy.inner(arr1, arr2)` :** 计算两个数组的内积。
 ![](img/f6645ba405c774af2abf62623663fc08.png)
 
-```
+```py
 Parameters : 
 arr1, arr2 : array to be evaluated.
 
@@ -14,7 +14,7 @@ Return:  Inner product of the two arrays.
 
 **代码#1 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.inner() method 
 
@@ -34,7 +34,7 @@ print("inner Product : ", product) 
 
 **输出:**
 
-```
+```py
 inner Product of scalar values :  20
 inner Product :  (-7+22j)
 
@@ -42,7 +42,7 @@ inner Product :  (-7+22j)
 
 **代码#2 :** 正常矩阵乘法
 
-```
+```py
 # Python Program illustrating 
 # numpy.inner() method 
 
@@ -61,7 +61,7 @@ print("\ninner Product : \n", product) 
 
 **输出:**
 
-```
+```py
 inner Product : 
  [[18 13]
  [34 37]]

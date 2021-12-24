@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.fromiter() function 
 
@@ -42,7 +42,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.fromiter() function 
 

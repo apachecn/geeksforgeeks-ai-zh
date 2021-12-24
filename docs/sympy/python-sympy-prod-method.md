@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.prod()`方法，我们能够找到两个整数的乘积，并且我们能够找到 list 和整数的乘积，然后它将返回乘积的和。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

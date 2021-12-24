@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.chebmulx()`方法，我们能够使用该方法获得切比雪夫级数与自变量 x 的乘积。
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C

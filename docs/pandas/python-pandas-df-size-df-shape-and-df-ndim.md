@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，首先存储大小和形状的输出。由于`.size`返回元素总数，所以通过 shape 方法返回的行和列相乘进行比较。之后，还使用`.ndim`检查数据框和系列的尺寸
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -53,7 +53,7 @@ format(df_ndim, series_ndim))
 
 **输出:**
 
-```
+```py
 Size = 4122
 Shape=(458, 9)
 Shape[0] x Shape[1] = 4122

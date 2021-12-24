@@ -22,7 +22,7 @@
 
 **代码# 1–构建树**
 
-```
+```py
 from nltk.chunk import RegexpParser
 chunker = RegexpParser(r'''
 NP:
@@ -38,7 +38,7 @@ chunker.parse(sent)
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('NP', [('the', 'DT'), ('sushi', 'NN'), ('roll', 'NN')]), 
 Tree('NP', [('was', 'VBD'), ('filled', 'VBN'), ('with', 'IN')]), 
 Tree('NP', [('the', 'DT'), ('fish', 'NN')])])
@@ -47,7 +47,7 @@ Tree('NP', [('the', 'DT'), ('fish', 'NN')])])
 
 **代码# 2–拆分合并**
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkString, ChunkRule, ChinkRule
 from nltk.tree import Tree
@@ -82,7 +82,7 @@ chunk_string.to_chunkstruct()
 
 **输出:**
 
-```
+```py
 Chunk String :   <DT>  <NN>  <NN>  <VBD>  <VBN>  <IN>  <DT>  <NN> 
 
 Applied ChunkRule :  {<DT>  <NN>  <NN>  <VBD>  <VBN>  <IN>  <DT>  <NN>}

@@ -7,7 +7,7 @@ T3】例 1:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 evenNumbers = [2, 4, 6, 8, 10]
@@ -30,7 +30,7 @@ print(type(evenNumbersDs.tolist()))
 
 ## **蟒蛇 3**
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -55,7 +55,7 @@ print(type(series.tolist()))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Series from dictionary
 import pandas as pd
 import numpy as np
@@ -80,7 +80,7 @@ print(type(series.tolist()))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Get First 3 student marks and
 # convert as list
 import pandas as pd

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到`matrix.conjugate()`方法用于共轭矩阵。记住字符串类型的矩阵在这里不起作用。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1.-2.j  2.-3.j]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1.-2.j  2.-3.j  3.+2.j]
  [ 1.+4.j  2.+3.j  7.-8.j]]
 

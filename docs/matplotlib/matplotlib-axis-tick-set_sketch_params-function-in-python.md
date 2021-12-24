@@ -22,7 +22,7 @@ matplotlib 库的轴模块中的 **Tick.set_sketch_params()函数**用于设置�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -59,7 +59,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  

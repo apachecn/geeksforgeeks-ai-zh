@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plot
 import numpy as np
 
@@ -43,7 +43,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

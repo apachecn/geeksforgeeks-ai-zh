@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.get_values()`函数以数组形式返回给定时间增量索引对象的基础数据。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(tidx)
 ![](img/7d3de5b21d4bb4033f6290dd3d245349.png)
 现在我们使用`TimedeltaIndex.get_values()`函数返回 tidx 的数据作为数组
 
-```
+```py
 # return data as an ndarray
 tidx.get_values()
 ```
@@ -42,7 +42,7 @@ tidx.get_values()
 
 **示例 2:** 使用`TimedeltaIndex.get_values()`函数返回给定时间增量索引对象的底层数据作为数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(tidx)
 ![](img/99af06b6e7d9ef26ec02fae9c63a14c1.png)
 现在我们使用`TimedeltaIndex.get_values()`函数返回 tidx 的数据作为数组
 
-```
+```py
 # return data as an ndarray
 tidx.get_values()
 ```

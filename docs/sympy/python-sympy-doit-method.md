@@ -4,7 +4,7 @@
 
 使用 simpy 模块中的`doit()`方法，我们可以评估默认不评估的对象，如极限、积分、求和和乘积。请注意，所有这类对象都将被递归计算。
 
-```
+```py
 Syntax : sympy.doit(x)
 
 Return : evaluated object 
@@ -14,7 +14,7 @@ Return : evaluated object
 
 借助下面的例子，我们可以清楚地理解，使用`sympy.doit()`方法，我们可以评估默认不评估的对象。
 
-```
+```py
 # importing sympy library
 from sympy import * from sympy.abc import x
 
@@ -26,13 +26,13 @@ print(geek)
 
 **输出:**
 
-```
+```py
 x**2
 ```
 
 **代码#2:**
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -46,6 +46,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 3*a + b*log(a) + log(a)*log(1/b) + log(b)
 ```

@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.tplquad()`方法，我们能够利用这个方法得到一个多项式从极限 a 到极限 b 的三重积分值。
 
-```
+```py
 # import scipy.integrate.tplquad
 from scipy import integrate
 
@@ -30,7 +30,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import scipy.integrate.tplquad
 from scipy import integrate
 gfg = lambda z, y, x: x**2 + y**2 + z**2 + 1

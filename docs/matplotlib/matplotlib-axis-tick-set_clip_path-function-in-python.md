@@ -25,7 +25,7 @@ matplotlib 库的轴模块中的 **Tick.set_clip_path()函数**用于设置艺�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -58,7 +58,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  

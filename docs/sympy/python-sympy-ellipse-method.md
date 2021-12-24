@@ -16,7 +16,7 @@ In sympy, the function `Ellipse()` is used to create ellipse from a center and t
 
 **示例#1:使用中心和半径**
 
-```
+```py
 # import sympy and geometry module 
 from sympy.geometry import Point, Ellipse
 
@@ -28,13 +28,13 @@ print(e1.hradius,e1.vradius)
 
 **输出:**
 
-```
+```py
 (5,1)
 ```
 
 **例 2:使用中心、半径和偏心**
 
-```
+```py
 # import sympy and geometry module 
 from sympy.geometry import Point, Ellipse, Rational
 
@@ -46,13 +46,13 @@ print(e2)
 
 **输出:**
 
-```
+```py
 Ellipse(Point2D(3, 1), 3, 9/5)
 ```
 
 **例#3:使用中心、虚拟和偏心**
 
-```
+```py
 # import sympy and geometry module 
 from sympy.geometry import Point, Ellipse, Rational
 
@@ -64,6 +64,6 @@ print(e2)
 
 **输出:**
 
-```
+```py
 Ellipse(Point2D(3, 1), 5, 3)
 ```

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # initialise data of lists.
@@ -51,7 +51,7 @@ display(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 # selecting old value
 a = df1['first_set'][4]
 
@@ -74,7 +74,7 @@ display(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Display the Output
 display(df)
 display(df1)
@@ -101,7 +101,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 #selected value
 a = df['first_set'][4]
 b = df1['second_set'][1]
@@ -126,7 +126,7 @@ display(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 # replace column of one DataFrame with
 # the column of another DataFrame
 df['second_set'] = df1.replace(df['first_set'],df['second_set'])
@@ -142,7 +142,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # replaceing value of DataFrame
 df1.first_set[df1.first_set == '66'] = 'DF1'
 df2.first_set[df2.first_set == 'g'] = 'DF2'
@@ -166,7 +166,7 @@ display(df2)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating dataframe
@@ -220,7 +220,7 @@ display(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating dataframe

@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -34,7 +34,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -65,7 +65,7 @@ new_df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -97,7 +97,7 @@ new_df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to returns x*x
 def squareData(x):
     return x * x
@@ -133,7 +133,7 @@ new_df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to returns x*X
 def squareData(x):
     return x * x
@@ -170,7 +170,7 @@ new_df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to returns x+y
 def addData(x, y):
     return x + y

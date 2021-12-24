@@ -13,7 +13,7 @@
 
 **示例#1:** 使用`Series.dt.day_name()`函数返回给定序列对象中基础日期时间数据的日期名称。用英语返回当天的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.dt.day_name()`函数返回给定系列对象中每个时间戳的日期名称。
 
-```
+```py
 # return day name in english
 result = sr.dt.day_name(locale = 'English')
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.day_name()`函数返回给定序列对象中基础日期时间数据的日期名称。用法语返回当天的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.dt.day_name()`函数返回给定系列对象中每个时间戳的日期名称。
 
-```
+```py
 # return day name in french
 result = sr.dt.day_name(locale = 'French')
 

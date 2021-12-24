@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的 **gca()函数**用于获取当前图形上与
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.tri import Triangulation

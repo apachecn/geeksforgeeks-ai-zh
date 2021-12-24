@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.rename()`函数重命名给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.rename()`函数来重命名 tidx 对象。
 
-```
+```py
 # rename the tidx object
 tidx.rename(name ='New_object')
 ```
@@ -47,7 +47,7 @@ tidx.rename(name ='New_object')
 
 **示例 2:** 使用`TimedeltaIndex.rename()`函数重命名给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.rename()`函数来重命名 tidx 对象。
 
-```
+```py
 # rename the tidx object
 tidx.rename(name ='New_object')
 ```

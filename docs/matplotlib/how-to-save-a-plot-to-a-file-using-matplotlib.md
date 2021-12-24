@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Creating data

@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.daysinmonth`属性在序列对象中查找给定日期当月的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.dt.daysinmonth`属性来查找给定日期的月份天数。
 
-```
+```py
 # find the number of 
 # days in the month
 result = sr.dt.daysinmonth
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.daysinmonth`属性在序列对象中查找给定日期当月的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.dt.daysinmonth`属性来查找给定日期的月份天数。
 
-```
+```py
 # find the number of 
 # days in the month
 result = sr.dt.daysinmonth

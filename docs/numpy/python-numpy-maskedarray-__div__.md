@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都用 MaskedArray 方法中作为参数给出的值进行了划分。__div__()。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,14 +24,14 @@ print(gfg.__div__(11)) 
 
 **Output:**
 
-```
+```py
 [2.0 3.0 4.0 5.0 7.0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -45,7 +45,7 @@ print(gfg.__div__(5)) 
 
 **Output:**
 
-```
+```py
 [[2.0 4.0 6.0 8.0 10.0]
  [2.2 4.4 6.6 8.8 11.0]]
 

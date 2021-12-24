@@ -36,7 +36,7 @@ matplotlib 库 pyplot 模块中的 **imshow()函数**用于将数据显示为图
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -64,7 +64,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

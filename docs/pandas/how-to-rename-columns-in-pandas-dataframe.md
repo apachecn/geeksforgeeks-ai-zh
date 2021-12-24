@@ -20,7 +20,7 @@
 
 **重命名单个列。**
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -49,7 +49,7 @@ print("\nAfter modifying first column:\n", rankings_pd.columns)
 
 **重命名多列。**
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(rankings_pd.columns)
 
 也可以通过将包含新名称的列表直接分配给我们想要重命名列的 dataframe 对象的`columns`属性来重命名列。这种方法的缺点是，我们需要为所有的列提供新的名称，即使我们只想重命名一些列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 

@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the union
 tidx1.union(tidx2)
 ```
@@ -59,7 +59,7 @@ tidx1.union(tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the union
 tidx1.union(tidx2)
 ```

@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.dblquad()`方法，我们能够利用这个方法得到一个多项式从极限 a 到极限 b 的二重积分。
 
-```
+```py
 # import scipy.integrate.dblquad
 from scipy import integrate
 
@@ -29,7 +29,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import scipy.integrate.dblquad
 from scipy import integrate
 gfg = lambda y, x: x * y**2 + 2 * x*y + 4

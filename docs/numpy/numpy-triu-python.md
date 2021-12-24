@@ -5,7 +5,7 @@
 **numpy.triu(a，k = 0) :** 返回三角形上部的数组副本**k**
 T5】参数:
 
-```
+```py
 a : input array
 k : [int, optional, 0 by default]
           Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
@@ -14,11 +14,11 @@ k : [int, optional, 0 by default]
 
 **返回:**
 
-```
+```py
 Upper triangle of a, having same shape and data-type as a.
 ```
 
-```
+```py
 # Python Programming illustrating
 # numpy. triu method
 
@@ -38,7 +38,7 @@ print("Main Diagonal elements : \n", geek. triu(a, -1))
 
 **输出:**
 
-```
+```py
 Main Diagonal elements : 
  [[  1  21  30]
  [  0 434   3]

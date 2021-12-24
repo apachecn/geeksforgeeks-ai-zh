@@ -13,7 +13,7 @@
 我们可以使用嵌套循环的[和一些 if 条件来做同样的事情，但是使用 Python 的 numpy 库，我们可以导入一个二维矩阵，并使用切片来获得棋盘模式。
 W2 将使用以下 python 函数打印图案:](https://www.geeksforgeeks.org/loops-in-python/)
 
-```
+```py
 [x = np.zeros((n, n), dtype=int)](https://www.geeksforgeeks.org/numpy-zeros-python/)
 ```
 
@@ -25,7 +25,7 @@ W2 将使用以下 python 函数打印图案:](https://www.geeksforgeeks.org/loo
 **NP . zero 的函数((n，n)，dtype=int) :** 通常，数组的元素最初是未知的，但其大小是已知的。因此，NumPy 提供了几个函数来创建带有初始占位符内容的数组。这使得增长阵列的必要性最小化，而增长阵列是一项昂贵的操作。使用 dtype 参数用 int 数据类型初始化所有值。
 例如:NP . 0，NP . 1 等。
 
-```
+```py
 # Python program to print nXn
 # checkerboard pattern using numpy
 
@@ -56,7 +56,7 @@ printcheckboard(n)
 
 输出:
 
-```
+```py
 Checkerboard pattern:
 0 1 0 1 0 1 0 1 
 1 0 1 0 1 0 1 0 
@@ -71,7 +71,7 @@ Checkerboard pattern:
 
 **基于棋盘格始终为偶数 nXn 即 n 为偶数**假设的改进源代码
 
-```
+```py
 # Python program to print nXn Assuming that n 
 # is always even as a checkerboard was
 
@@ -89,7 +89,7 @@ printcheckboard(n)
 
 输出:
 
-```
+```py
 Checkerboard pattern:
 [[0 1 0 1 0 1 0 1]
  [1 0 1 0 1 0 1 0]

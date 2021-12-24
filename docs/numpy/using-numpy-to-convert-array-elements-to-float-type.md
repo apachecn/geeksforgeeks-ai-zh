@@ -6,7 +6,7 @@
 
 **方法 1 :** 这里，我们可以利用 NumPy 提供的`**astype()**`功能。这个函数用指定的数据类型创建初始数组的另一个副本，在这种情况下是 float，然后我们可以将这个副本分配给一个特定的标识符，这个标识符就是 convertedArray。注意数据类型是用 NumPy 来指定的，主要是因为 NumPy `astype()`函数的约束，它只会把 NumPy 类型作为参数。
 
-```
+```py
 # Process utilizing astype() function
 
 # Import NumPy Library
@@ -37,7 +37,7 @@ print("Final type: " + str(type(convertedArray[0])))
 
 **输出:**
 
-```
+```py
 Our initial array:  ['1.1', '2.2', '3.3', '4.4']
 Original type: <class 'numpy.str_'>
 Our final array:  [1.1 2.2 3.3 4.4]
@@ -47,7 +47,7 @@ Final type: <class 'numpy.float64'>
 
 **方法二:**这里，我们将利用 NumPy 提供的 **`[asarray()](https://www.geeksforgeeks.org/numpy-asarray-in-python/#:~:text=asarray()%20in%20Python,-Last%20Updated%3A%2029&text=29%2D11%2D2018-,numpy.,tuples%20of%20lists%20and%20ndarrays.)`** 功能。
 
-```
+```py
 # Process utilizing asarray() function
 
 # Import NumPy Library
@@ -74,7 +74,7 @@ print("Final type: " + str(type(finalArray[0])))
 
 **输出:**
 
-```
+```py
 Our initial array:  ['1.1', '2.2', '3.3', '4.4']
 Original type: <class 'numpy.str_'>
 Our final array:  [1.1 2.2 3.3 4.4]

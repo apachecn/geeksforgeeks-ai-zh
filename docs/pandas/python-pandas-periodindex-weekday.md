@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.weekday**`属性返回一个包含一周中某一天的 In
 
 **示例#1:** 使用`PeriodIndex.weekday`属性找出给定 PeriodIndex 对象中每个周期元素的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.weekday`属性为 pidx 对象中的每个周期元素查找星期几。
 
-```
+```py
 # return the day of the week
 pidx.weekday
 ```
@@ -43,7 +43,7 @@ pidx.weekday
 
 **示例 2:** 使用`PeriodIndex.weekday`属性找出给定 PeriodIndex 对象中每个周期元素的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.weekday`属性为 pidx 对象中的每个周期元素查找星期几。
 
-```
+```py
 # return the day of the week
 pidx.weekday
 ```

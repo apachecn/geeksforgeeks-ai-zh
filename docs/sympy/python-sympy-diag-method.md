@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`sympy.diag()`方法，我们能够创建一个矩阵，该矩阵的维数 nxn 全部用传入参数的对角线上的数字填充。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -28,7 +28,7 @@ print(mat)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

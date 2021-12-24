@@ -23,7 +23,7 @@ y =符号(x) = -1 如果 x < 0; 0 if x == 0; 1 if x >为 0。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -42,7 +42,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([ 0\.  1\. -2\.  3\. -4.], shape=(5, ), dtype=float64)
 Result:  tf.Tensor([ 0\.  1\. -1\.  1\. -1.], shape=(5, ), dtype=float64)
 ```
@@ -51,7 +51,7 @@ Result:  tf.Tensor([ 0\.  1\. -1\.  1\. -1.], shape=(5, ), dtype=float64)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -70,7 +70,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([ 1.-5.j -2.+3.j -3.-7.j -4.+8.j], shape=(4, ), dtype=complex128)
 Result:  tf.Tensor(
 [ 0.19611614-0.98058068j -0.5547002 +0.83205029j -0.3939193 -0.91914503j

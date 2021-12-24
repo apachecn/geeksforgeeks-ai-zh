@@ -16,7 +16,7 @@ In Simpy, the function `Circle()` is used to make circle from a center and a rad
 
 **示例#1:使用中心和半径**
 
-```
+```py
 # import sympy and geometry module
 from sympy.geometry import Point, Circle
 
@@ -28,13 +28,13 @@ print(c1.hradius, c1.vradius, c1.radius)
 
 **输出:**
 
-```
+```py
 (5, 5, 5)
 ```
 
 **例 2:使用三点序列**
 
-```
+```py
 # import sympy and geometry module
 from sympy.geometry import Point, Circle
 
@@ -46,13 +46,13 @@ print(c2.hradius, c2.vradius, c2.radius)
 
 **输出:**
 
-```
+```py
 (sqrt(2)/2, sqrt(2)/2, sqrt(2)/2)
 ```
 
 **例#3:利用圆的方程**
 
-```
+```py
 # import sympy and geometry module
 from sympy.geometry import Point, Circle 
 from sympy import Eq
@@ -65,6 +65,6 @@ print(c3)
 
 **输出:**
 
-```
+```py
 Circle(Point2D(0, 0), 5)
 ```

@@ -17,7 +17,7 @@
 
 **代码:解方程得到**y = x–1+2(e^-x)**作为解**
 
-```
+```py
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt

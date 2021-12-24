@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的**极坐标()函数**用于制作极坐标图�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
@@ -42,7 +42,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms

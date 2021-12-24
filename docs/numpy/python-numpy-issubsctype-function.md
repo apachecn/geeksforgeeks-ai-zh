@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubsctype() function
 
@@ -32,14 +32,14 @@ print ("Is the first argument subclass of the second argument: ", out_val) 
 
 **Output :**
 
-```
+```py
 Is the first argument subclass of the second argument:  False
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubsctype() function
 
@@ -58,7 +58,7 @@ print ("Is the first argument subclass of the second argument: ", out_val) 
 
 **Output :**
 
-```
+```py
 Is the first argument subclass of the second argument:  True
 
 ```

@@ -23,7 +23,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.CustomBusinessHour()`功能创建您自己的自定义营业时间偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -49,7 +49,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 
@@ -65,7 +65,7 @@ print(new_timestamp)
 
 **示例 2:** 使用`pandas.tseries.offsets.CustomBusinessHour()`功能创建您自己的自定义营业时间偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 

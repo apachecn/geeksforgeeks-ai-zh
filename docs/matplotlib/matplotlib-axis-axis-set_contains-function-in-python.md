@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_contains()函数**用于为艺术
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -76,7 +76,7 @@ plt.show() 
 
 **点击图:**
 
-```
+```py
 onpick1 text: ylabel
 onpick1 patch: Path(array([[0., 0.],
        [1., 0.],
@@ -95,7 +95,7 @@ onpick1 patch: Path(array([[0., 0.],
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  

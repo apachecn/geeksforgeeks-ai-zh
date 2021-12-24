@@ -22,7 +22,7 @@ Bokeh 是一个用于现代网络浏览器的交互式数据绘图可视化库�
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.plotting import figure, show
 from bokeh.models import Legend
 
@@ -61,7 +61,7 @@ show(plot)
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.plotting import figure, show
 from bokeh.models import Legend
 from math import sin

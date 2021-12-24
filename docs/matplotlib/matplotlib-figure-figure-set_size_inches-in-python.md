@@ -20,7 +20,7 @@ matplotlib 库的 **set_size_inches()方法**图形模块用于设置以英寸�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure

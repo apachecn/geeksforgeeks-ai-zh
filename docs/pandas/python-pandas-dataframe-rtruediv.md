@@ -18,7 +18,7 @@ pandas**dataframe . rtruediv()**函数用于寻找 data frame 和其他元素的
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ sr
 
 ## 蟒蛇 3
 
-```
+```py
 # equivalent to sr / df
 df.rtruediv(sr, axis = 1)
 ```

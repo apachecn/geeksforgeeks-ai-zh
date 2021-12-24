@@ -66,7 +66,7 @@ C) angle: the angle of rotation of the symbol  |
 
 **注意:**需要注意的是，下面两行代码是等价的，
 
-```
+```py
 # line 1
 plt.plot([1, 2, 3], marker = 9)
 
@@ -78,7 +78,7 @@ plt.plot([1, 2, 3], marker = matplotlib.markers.CARETRIGHTBASE)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -118,7 +118,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2 as cv
 import numpy as np
 ```
@@ -27,7 +27,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # change it with your absolute path for the image
 image = cv.imread("shape.png")
 gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
@@ -44,13 +44,13 @@ ret, thresh = cv.threshold(blur, 200, 255,
 
 ## 蟒蛇 3
 
-```
+```py
 cv.imwrite("thresh.png",thresh)
 ```
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -64,7 +64,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 contours, hierarchies = cv.findContours(
     thresh, cv.RETR_LIST, cv.CHAIN_APPROX_SIMPLE)
 ```
@@ -73,7 +73,7 @@ contours, hierarchies = cv.findContours(
 
 ## 蟒蛇 3
 
-```
+```py
 blank = np.zeros(thresh.shape[:2],
                  dtype='uint8')
 
@@ -85,7 +85,7 @@ cv.imwrite("Contours.png", blank)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -109,7 +109,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 for i in contours:
     M = cv.moments(i)
     if M['m00'] != 0:
@@ -126,13 +126,13 @@ for i in contours:
 
 ## 蟒蛇 3
 
-```
+```py
 cv.imwrite("image.png", image)
 ```
 
 **输出:**
 
-```
+```py
 True
 ```
 

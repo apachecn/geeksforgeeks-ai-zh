@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # stats.binned_statistic() method 
 import numpy as np
 from scipy import stats
@@ -32,7 +32,7 @@ print("\nbinned_statistic for median : \n", stats.binned_statistic(
 
 **输出:**
 
-```
+```py
 arr : 
  [20, 2, 7, 1, 34]
 
@@ -45,7 +45,7 @@ binnumber=array([3, 1, 1, 1, 4], dtype=int64))
 
 **代码#2 :**
 
-```
+```py
 # stats.binned_statistic() method 
 import numpy as np
 from scipy import stats
@@ -58,7 +58,7 @@ print("\nbinned_statistic for mean : \n", stats.binned_statistic(
 
 **输出:**
 
-```
+```py
 binned_statistic for mean : 
  BinnedStatisticResult(statistic=array([2., 2.]), 
 bin_edges=array([ 1., 17.5, 34\. ]), 

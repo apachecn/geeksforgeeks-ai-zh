@@ -21,7 +21,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python3 code demonstrate clip() function
 
 # importing the numpy
@@ -36,14 +36,14 @@ print ("Output array : ", out_array)
 
 **输出:**
 
-```
+```py
 Input array :  [1, 2, 3, 4, 5, 6, 7, 8]
 Output array :  [2 2 3 4 5 6 6 6]
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python3 code demonstrate clip() function
 
 # importing the numpy
@@ -59,7 +59,7 @@ print ("Output array : ", out_array)
 
 **输出:**
 
-```
+```py
 Input array :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Output array :  [3 4 3 4 5 6 7 8 9 9]
 

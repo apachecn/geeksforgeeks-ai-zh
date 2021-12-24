@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```py
 # importing the matplotlib library
 import matplotlib.pyplot as plt
 
@@ -44,7 +44,7 @@ fig.tight_layout()
 
 **例 2:**
 
-```
+```py
 # importing the matplotlib library
 import matplotlib.pyplot as plt
 

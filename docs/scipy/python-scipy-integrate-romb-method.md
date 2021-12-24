@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`scipy.integrate.romb()`方法，我们能够通过使用该方法使用从极限 a 到极限 b 的函数样本来获得龙贝格积分。
 
-```
+```py
 # import numpy and scipy.integrate
 import numpy as np
 from scipy import integrate
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and scipy.integrate
 import numpy as np
 from scipy import integrate

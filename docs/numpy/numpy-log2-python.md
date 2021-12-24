@@ -7,7 +7,7 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object.
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
            placed with result.
@@ -21,7 +21,7 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with Base-2 logarithmic value of x; 
 where x belongs to all elements of input array. 
 
@@ -29,7 +29,7 @@ where x belongs to all elements of input array.
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # log2() function
 import numpy as np
@@ -46,7 +46,7 @@ print("np.log2(2**8) : ", np.log2(2**8))
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 256]
 Output array :  [ 0\.          1.5849625   2.32192809  8\.        ]
 
@@ -57,7 +57,7 @@ np.log2(2**8) :  8.0
 
 **代码 2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation of 
 # log2() function
@@ -81,7 +81,7 @@ plt.show()  
 
 **输出:**
 
-```
+```py
 out_array :  [ 0\.          0.26303441  0.48542683  0.67807191  0.84799691  1\.        ]
 ```
 

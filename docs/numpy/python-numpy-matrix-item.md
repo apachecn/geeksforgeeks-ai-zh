@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过提供索引号，我们能够借助方法`matrix.item()`获得该物品。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 2
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 7
 
 ```

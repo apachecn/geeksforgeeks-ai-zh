@@ -8,7 +8,7 @@
 
 这可以通过 for-loop 轻松完成。列的数据可以从现有的数据框或任何数组中获取。
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -49,7 +49,7 @@ print(df)
 
 **Output:**
 
-```
+```py
     Voter_name  Voter_age     Voter
 0      Geek1         15        No
 1      Geek2         23       Yes

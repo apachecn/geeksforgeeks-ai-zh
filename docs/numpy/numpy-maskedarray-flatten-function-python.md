@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.flatten() method 
 
@@ -39,7 +39,7 @@ print ("Output flattened masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 10  20]
  [-10  40]]
 Masked array :  [[-- 20]
@@ -50,7 +50,7 @@ Output flattened masked array :  [-- 20 -10 40]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.flatten() method 
 
@@ -76,7 +76,7 @@ print ("Output flattened masked array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[[ 2.e+08  3.e-05]]
 
  [[-4.e-06  2.e+05]]]

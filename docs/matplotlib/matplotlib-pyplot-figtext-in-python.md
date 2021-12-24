@@ -10,7 +10,7 @@ Figtext 用于在图形上的任何位置向图形添加文本。您甚至可以
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.figtext(x, y, s, *args, **kwargs)
 ```
 
@@ -21,7 +21,7 @@ matplotlib.pyplot.figtext(x, y, s, *args, **kwargs)
 
 **示例#1:** 演示 figtext 使用的示例。
 
-```
+```py
 # importing required modules 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -45,7 +45,7 @@ plt.show()
 
 **示例#2:** 我们也可以通过调整 x 和 y 的值，将文本放置在图中的相对位置。
 
-```
+```py
 # importing required modules 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -72,7 +72,7 @@ plt.show()
 
 **示例#3:** 我们还可以使用 bbox 参数在文本周围添加一个边界框。
 
-```
+```py
 # importing required modules 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -100,7 +100,7 @@ plt.show()
 **示例#4:** 我们还可以使用*args 和**kwargs 向我们的图中添加文本属性。*args 和**kwargs 用于向函数传递多个参数或关键字参数。
 **注:**更多信息参考文章:[* Python 中的 args 和* * kwargs](https://www.geeksforgeeks.org/args-kwargs-python/)
 
-```
+```py
 # importing required properties
 import numpy as np
 import matplotlib.pyplot as plt

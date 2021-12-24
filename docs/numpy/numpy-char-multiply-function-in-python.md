@@ -18,7 +18,7 @@ NumPy 模块中 char 类的乘法()方法用于元素方式的 字符串多重�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import numpy as np
 

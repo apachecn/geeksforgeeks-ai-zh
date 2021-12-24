@@ -8,7 +8,7 @@
 
 matplotlib 库的 Axis 模块中的 **Axis.properties()函数**用于获取艺术家所有属性的字典。
 
-```
+```py
 Syntax: Axis.properties(self) 
 
 Parameters: This method does not accepts any parameters. Return value: This method return dictionary of all the properties of the artist. 
@@ -19,7 +19,7 @@ Parameters: This method does not accepts any parameters. Return value: This met
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np   
@@ -47,7 +47,7 @@ plt.show() 
 
 ![](img/a6844d1338e8f4ec43db0c19638140b2.png)
 
-```
+```py
 Display all Properties
 adjustable : box 
 agg_filter : None 
@@ -205,7 +205,7 @@ zorder : 0 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -236,7 +236,7 @@ plt.show() 
 
 ![](img/4f67bdf8ef102915b54c15eabf98b038.png)
 
-```
+```py
 Display all Properties
 adjustable : box 
 agg_filter : None 

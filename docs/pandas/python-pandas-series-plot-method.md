@@ -9,7 +9,7 @@
 
 **Example #1 :**In this example we can see that by using `Series.plot()` method, we are able to get the plot of pandas series.
 
-```
+```py
 # import Series and matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -27,7 +27,7 @@ plt.show()
 
 **例 2 :**
 
-```
+```py
 # import Series and matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt

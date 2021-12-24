@@ -12,7 +12,7 @@ Seaborn 是一个基于 matplotlib 的 Python 数据可视化库。它用于绘�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt

@@ -8,11 +8,11 @@
 
 首先我们需要导入 OpenCV 库。所有关于图像处理的功能都存在于这个库中。为了存储图像的路径，我们将在可变路径中处理。
 
-```
+```py
 import cv2
 ```
 
-```
+```py
 # path ="C:/Users/Personal/Downloads/black dot.jpg"
 path ="black dot.jpg"
 ```
@@ -22,13 +22,13 @@ path ="black dot.jpg"
 
 以灰度模式加载图像。通过灰度模式，图像被转换为由灰色阴影组成的黑白图像。
 
-```
+```py
 gray = cv2.imread(path, 0)
 ```
 
 功能`cv2.threshold` 的工作原理是，如果像素值大于阈值，则为其分配一个值(可以是白色)，否则为其分配另一个值(可以是黑色)。第一个参数是源图像，它应该是灰度图像(以前做过)。第二个参数是阈值，用于对像素值进行分类。对于阈值，只需传递零。然后算法找到最佳阈值，并返回你作为第二个输出，th。如果不使用大津阈值，这与您使用的阈值相同。
 
-```
+```py
 # threshold
 th, threshed = cv2.threshold(gray, 100, 255,
        cv2.THRESH_BINARY_INV|cv2.THRESH_OTSU)
@@ -38,7 +38,7 @@ th, threshed = cv2.threshold(gray, 100, 255,
 
 它主要连接图像的黑点进行计数–
 
-```
+```py
 # findcontours
 cnts = cv2.findContours(threshed, cv2.RETR_LIST,
                     cv2.CHAIN_APPROX_SIMPLE)[-2]
@@ -46,7 +46,7 @@ cnts = cv2.findContours(threshed, cv2.RETR_LIST,
 
 `cv2.contourArea()`可以计算出物体的轮廓面积。这里的对象是黑点。当它得到一个黑点时，它将计算面积，如果它满足最小面积被算作一个点的条件，那么它将把它的面积值推到列表 xcnts。
 
-```
+```py
 # filter by area
 s1 = 3
 s2 = 20
@@ -58,13 +58,13 @@ for cnt in cnts:
 
 最后，我们不需要这些区域。如果它被认为是一个点，那么它的面积包括在列表 xcnts 中。所以如果我们计算列表的长度，我们会得到点的数量。
 
-```
+```py
 print("\nDots number: {}".format(len(xcnts)))
 ```
 
 **输出:**
 
-```
+```py
 23
 ```
 
@@ -75,7 +75,7 @@ print("\nDots number: {}".format(len(xcnts)))
 输入图像:
 ![](img/c0606662589266914c63524127bfbd6b.png)
 
-```
+```py
 import cv2
 path ="white dot.png"
 
@@ -105,7 +105,7 @@ print("\nDots number: {}".format(len(xcnts)))
 
 **输出:**
 
-```
+```py
 583
 ```
 

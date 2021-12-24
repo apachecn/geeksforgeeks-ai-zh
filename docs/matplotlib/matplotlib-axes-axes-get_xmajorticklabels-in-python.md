@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的**Axis . get _ xmajorticklabels()函数**用�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -77,7 +77,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

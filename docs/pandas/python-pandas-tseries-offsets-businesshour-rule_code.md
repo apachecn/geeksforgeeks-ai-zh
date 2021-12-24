@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.BusinessHour.rule_code**`属性将应用于给定偏�
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessHour.rule_code`属性以字符串形式返回应用于给定偏移的频率的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还将把应用于给定偏移的频率的 rule_code 打印为字符串。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 
@@ -63,7 +63,7 @@ print(bh.name)
 
 **示例#2:** 使用`pandas.tseries.offsets.BusinessHour.rule_code`属性以字符串形式返回应用于给定偏移的频率的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(bh)
 
 现在，我们将业务时间偏移量添加到给定的时间戳对象中，以增加日期时间值。我们还将把应用于给定偏移的频率的 rule_code 打印为字符串。
 
-```
+```py
 # Adding the Business hour offset to the given timestamp
 new_timestamp = ts + bh
 

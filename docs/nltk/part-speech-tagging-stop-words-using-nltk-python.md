@@ -14,7 +14,7 @@
 将弹出一个图形用户界面，然后选择下载所有软件包的“全部”，然后单击“下载”。这将为您提供所有的标记器、分块器、其他算法和所有的语料库，所以这就是为什么安装将花费相当长的时间。
 示例:
 
-```
+```py
 import nltk
 nltk.download()
 
@@ -27,7 +27,7 @@ nltk.download()
 
 在语料库语言学中，**词性标注** ( **词性标注**或**词性标注**或 **POST** ，也称**语法标注**或**词类消歧**。
 
-```
+```py
 Input: Everything is all about money.
 Output: [('Everything', 'NN'), ('is', 'VBZ'), 
           ('all', 'DT'),('about', 'IN'), 
@@ -59,7 +59,7 @@ Output: [('Everything', 'NN'), ('is', 'VBZ'),
 文本可能包含停止词，如“the”、“is”、“are”。可以从要处理的文本中过滤出停止词。在 nlp 研究中没有通用的停止词列表，但是 nltk 模块包含一个停止词列表。
 可以添加自己的 Stop 字。去你的 NLTK 下载**目录路径** - > **语料库**->**stop words**->更新 stop words**文件**取决于你使用的语言。这里我们使用英语(stopwords.words('english ')。
 
-```
+```py
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
@@ -97,7 +97,7 @@ for i in tokenized:
 
 输出:
 
-```
+```py
 [('Sukanya', 'NNP'), ('Rajib', 'NNP'), ('Naba', 'NNP'), ('good', 'JJ'), ('friends', 'NNS')]
 [('Sukanya', 'NNP'), ('getting', 'VBG'), ('married', 'VBN'), ('next', 'JJ'), ('year', 'NN')]
 [('Marriage', 'NN'), ('big', 'JJ'), ('step', 'NN'), ('one', 'CD'), ('’', 'NN'), ('life', 'NN')]

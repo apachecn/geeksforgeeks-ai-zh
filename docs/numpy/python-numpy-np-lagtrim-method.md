@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.lagtrim()`方法，我们能够通过使用该方法移除尾随值来获得多项式的修剪值。
 
-```
+```py
 # import numpy and lagtrim
 import numpy as np
 from numpy.polynomial.laguerre import lagtrim
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and lagtrim
 import numpy as np
 from numpy.polynomial.laguerre import lagtrim

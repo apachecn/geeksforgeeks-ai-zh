@@ -38,7 +38,7 @@ matplotlib 库 pyplot 模块中的 **csd()函数**用于绘制交叉光谱密度
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 #Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

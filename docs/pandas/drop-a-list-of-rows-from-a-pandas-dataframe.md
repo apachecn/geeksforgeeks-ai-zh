@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import pandas as pd
 

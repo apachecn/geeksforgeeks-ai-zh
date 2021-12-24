@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.lookfor()`方法，我们能够获得关于模块的信息。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(np.lookfor("isin"))
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

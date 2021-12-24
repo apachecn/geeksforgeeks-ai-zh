@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.hasnans`属性检查给定的序列对象中是否有任何缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.hasnans`属性来检查 sr 对象中缺少的值。
 
-```
+```py
 # check for missing values.
 sr.hasnans
 ```
@@ -48,7 +48,7 @@ sr.hasnans
 
 **示例 2 :** 使用`Series.hasnans`属性检查给定的序列对象中是否有任何缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(sr)
 
 现在我们将使用`Series.hasnans`属性来检查 sr 对象中缺少的值。
 
-```
+```py
 # check for missing values.
 sr.hasnans
 ```

@@ -10,7 +10,7 @@ WordNet 表面上类似于一个同义词库，因为它根据单词的含义将
 *   首先，WordNet 不仅链接单词形式——字母串——还链接单词的特定含义。结果，在网络中发现的彼此非常接近的单词在语义上被消除了歧义。
 *   其次，WordNet 标注单词之间的语义关系，而词库中的单词分组除了意义相似性之外，不遵循任何明确的模式。
 
-```
+```py
 # First, you're going to need to import wordnet:
 from nltk.corpus import wordnet
 
@@ -38,7 +38,7 @@ print(syns[0].examples())
 
 接下来，我们如何辨别一个单词的同义词和反义词？引理将是同义词，然后你可以使用。反义词找到引理的反义词。因此，我们可以填充一些列表，如:
 
-```
+```py
 import nltk
 from nltk.corpus import wordnet
 synonyms = []
@@ -59,7 +59,7 @@ print(set(antonyms))
 
 **现在我们来对比任意两个单词的相似度指数**
 
-```
+```py
 import nltk
 from nltk.corpus import wordnet
 # Let's compare the noun of "ship" and "boat:"
@@ -72,7 +72,7 @@ print(w1.wup_similarity(w2))
 输出:
 0.857142857143
 
-```
+```py
 w1 = wordnet.synset('ship.n.01')
 w2 = wordnet.synset('boat.n.01') # n denotes noun
 print(w1.wup_similarity(w2))

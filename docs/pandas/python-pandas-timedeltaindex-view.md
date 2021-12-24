@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.view()`函数可视化给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.view()`功能来查看 tidx 对象
 
-```
+```py
 # print the TimedeltaIndex object 
 tidx.view()
 ```
@@ -44,7 +44,7 @@ tidx.view()
 
 **示例 2:** 使用`TimedeltaIndex.view()`函数可视化给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.view()`功能来查看 tidx 对象
 
-```
+```py
 # print the TimedeltaIndex object 
 tidx.view()
 ```

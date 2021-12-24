@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 from array import *
 
 arr = array('i', [25, 16, 3])

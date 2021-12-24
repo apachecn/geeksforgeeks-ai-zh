@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import primepi() method from sympy
 from sympy import primepi
 
@@ -27,14 +27,14 @@ print("The number of prime numbers less than or equal to {} is {}".format(n, cou
 
 **输出:**
 
-```
+```py
 The number of prime numbers less than or equal to 10 is 4
 
 ```
 
 **例 2:**
 
-```
+```py
 # import primepi() method from sympy
 from sympy import primepi
 
@@ -48,7 +48,7 @@ print("The number of prime numbers less than or equal to {} is {}".format(n, cou
 
 **输出:**
 
-```
+```py
 The number of prime numbers less than or equal to 150 is 35
 
 ```

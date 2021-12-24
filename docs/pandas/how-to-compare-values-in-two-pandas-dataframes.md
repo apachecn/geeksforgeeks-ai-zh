@@ -6,7 +6,7 @@
 
 **步骤 1 数据框创建:**可以使用以下代码创建两个数据集的数据框:
 
-```
+```py
 import pandas as pd
 
 # elements of first dataset
@@ -45,7 +45,7 @@ print (df2)
 *   如果价格 1 等于价格 2，则赋值为真
 *   否则，请指定值“假”。
 
-```
+```py
 # add the Price2 column from 
 # df2 to df1
 df1['Price_2'] = df2['Price_2'] 

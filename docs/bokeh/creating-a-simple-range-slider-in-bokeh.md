@@ -50,7 +50,7 @@ javaScript 的链接是通过使用 link_js()函数将 RangeSlider 生成的值�
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.plotting import figure, show
 
 from bokeh.layouts import layout

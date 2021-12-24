@@ -12,7 +12,7 @@
 
 **代码#1 : next_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_gray()
 
@@ -36,7 +36,7 @@ print ("Subset a next_gray : ", a.next_gray().subset)
 
 **代码#2 : next_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_gray()
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -39,7 +39,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 1-D arrays:
 [6 2]
 [2 5]
@@ -53,7 +53,7 @@ Outer Product of the two array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -72,7 +72,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 2-D matrix:
 [[1 3]
  [2 6]]
@@ -90,7 +90,7 @@ Outer Product of the two matrix is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -109,7 +109,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 3-D matrix:
 [[2 8 2]
  [3 4 8]

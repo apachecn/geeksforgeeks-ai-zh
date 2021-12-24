@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import python library
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # sort the dataframe
 # based on age and grade
 df.sort_values(['age', 'grade'],
@@ -53,7 +53,7 @@ df.sort_values(['age', 'grade'],
 
 ## 蟒蛇 3
 
-```
+```py
 # sort the dataframe based 
 # on name and favorite_colr
 df.sort_values(['name', 'favorite_color'], 
@@ -69,7 +69,7 @@ df.sort_values(['name', 'favorite_color'], 
 
 ## 蟒蛇 3
 
-```
+```py
 df.sort_values(["grade", "favorite_color"], 
                axis = 0, ascending = True, 
                inplace = True,

@@ -22,14 +22,14 @@
 
 **使用画中画:**
 
-```
+```py
 !pip install contractions
 
 ```
 
 **在朱皮特笔记本中:**
 
-```
+```py
 import sys  
 !{sys.executable} -m pip install contractions
 
@@ -39,7 +39,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import contractions
 # contracted text
@@ -60,7 +60,7 @@ print('Expanded_text: ' + expanded_text)
 
 **输出:**
 
-```
+```py
 Original text: I'll be there within 5 min. Shouldn't you be there too? 
           I'd love to see u there my dear. It's awesome to meet new friends.
           We've been waiting for this day for so long.
@@ -76,7 +76,7 @@ Expanded_text: I will be there within 5 min. should not you be there too?
 
 ## 蟒 3
 
-```
+```py
 text = '''She'd like to know how I'd done that! 
           She's going to the park and I don't think I'll be home for dinner.
           Theyre going to the zoo and she'll be home for dinner.'''
@@ -86,7 +86,7 @@ contractions.fix(text)
 
 **输出:**
 
-```
+```py
 'she would like to know how I would done that! 
  she is going to the park and I do not think I will be home for dinner.
  they are going to the zoo and she will be home for dinner.'

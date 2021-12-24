@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.is_unique`属性检查给定序列对象中的基础数据是否唯一。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.is_unique`属性来检查给定 Series 对象中的基础数据是唯一的还是包含一些重复的值。
 
-```
+```py
 # check if underlying data is
 # is unique or not
 sr.is_unique
@@ -49,7 +49,7 @@ sr.is_unique
 
 **示例 2 :** 使用`Series.is_unique`属性检查给定序列对象中的基础数据是否唯一。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.is_unique`属性来检查给定 Series 对象中的基础数据是唯一的还是包含一些重复的值。
 
-```
+```py
 # check if underlying data is
 # is unique or not
 sr.is_unique

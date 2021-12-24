@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 DataFrame.to_pickle(self, path,
                     compression='infer',
                     protocol=4)
@@ -29,7 +29,7 @@ DataFrame.to_pickle(self, path,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -61,7 +61,7 @@ data.to_pickle('pickle_file')
 
 **输出:**
 
-```
+```py
    ID     Name  Marks Grade
 0  23      Ram     89     B
 1  43     Deep     97     A
@@ -79,7 +79,7 @@ data.to_pickle('pickle_file')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -97,7 +97,7 @@ data.to_pickle('pickle_file')
 
 **输出:**
 
-```
+```py
    f1  b1
 0   0   6
 1   1   7

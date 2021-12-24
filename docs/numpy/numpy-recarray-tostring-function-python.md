@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.tostring() method 
 
@@ -79,7 +79,7 @@ print ("Output Python bytes of int record array in fortan order ", out_arr) 
 
 我们将`numpy.recarray.tostring()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.tostring() method 
 

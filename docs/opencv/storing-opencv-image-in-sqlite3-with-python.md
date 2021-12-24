@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 import cv2
 import sqlite3
@@ -27,7 +27,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # connect to database
 conn = sqlite3.connect("gfg.db")
 ```
@@ -36,7 +36,7 @@ conn = sqlite3.connect("gfg.db")
 
 ## 蟒蛇 3
 
-```
+```py
 cursorObject = conn.cursor()
 ```
 
@@ -44,7 +44,7 @@ cursorObject = conn.cursor()
 
 ## 蟒蛇 3
 
-```
+```py
 # create a table
 cursorObject.execute("CREATE TABLE imgfg(id string, img blob)")
 conn.commit()
@@ -54,7 +54,7 @@ conn.commit()
 
 ## 蟒蛇 3
 
-```
+```py
 im = open( 'gfg.png', 'rb' ).read()
 ```
 
@@ -62,7 +62,7 @@ im = open( 'gfg.png', 'rb' ).read()
 
 ## 蟒蛇 3
 
-```
+```py
 # open the image you want to store in read more
 im = open('gfg.png', 'rb').read()
 conn.execute("INSERT INTO imgfg VALUES(?,?)",
@@ -75,7 +75,7 @@ conn.execute("INSERT INTO imgfg VALUES(?,?)",
 
 ## 蟒蛇 3
 
-```
+```py
 conn.commit()
 ```
 
@@ -83,7 +83,7 @@ conn.commit()
 
 ## 蟒蛇 3
 
-```
+```py
 # Use pandas to create a dataframe from
 # the table and save it as a csv
 table = pd.read_sql_query("SELECT * FROM imgfg", conn)
@@ -96,7 +96,7 @@ table.to_csv("imgfg" + '.csv', index_label='index')
 
 ## 蟒蛇 3
 
-```
+```py
 # display table
 print(table)
 ```
@@ -105,7 +105,7 @@ print(table)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 import cv2
 import sqlite3

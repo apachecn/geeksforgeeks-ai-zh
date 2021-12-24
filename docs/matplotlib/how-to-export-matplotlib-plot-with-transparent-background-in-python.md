@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```py
 savefig('plot_name.png', transparent=True)
 ```
 
@@ -21,7 +21,7 @@ savefig('plot_name.png', transparent=True)
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -61,7 +61,7 @@ plt.savefig('image.png', transparent=True)
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 

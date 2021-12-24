@@ -19,7 +19,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 Program demonstrate
 # numpy.geomspace() function
 
@@ -34,7 +34,7 @@ print("A\n", geek.sin(point))
 
 **输出:**
 
-```
+```py
 B
  [ 2\.          2.21336384  2.44948974  2.71080601  3\.        ] 
 
@@ -48,7 +48,7 @@ A
 
 ## 计算机编程语言
 
-```
+```py
 # Graphical Representation of numpy.geomspace()
 import numpy as geek
 import pylab as p

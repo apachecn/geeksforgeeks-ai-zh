@@ -5,17 +5,17 @@
 **numpy.cos(x[，out]) = ufunc 'cos') :** 这个数学函数帮助用户计算所有 x(作为数组元素)的三角余弦。
 **参数:**
 
-```
+```py
 array  : [array_like]elements are in radians. 
 ```
 
-```
+```py
 2pi Radians = 360 degrees
 ```
 
 **返回:**
 
-```
+```py
 An array with trigonometric cosine 
 of x for all x i.e. array elements 
 ```
@@ -24,7 +24,7 @@ of x for all x i.e. array elements
 
 ## 计算机编程语言
 
-```
+```py
 # Python program explaining
 # cos() function
 
@@ -40,7 +40,7 @@ print ("\nCosine values : \n", cos_Values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0, 1.5707963267948966, 1.0471975511965976, 3.141592653589793]
 
@@ -52,7 +52,7 @@ Cosine values :
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # Graphical representation of
 # cos() function
@@ -76,7 +76,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 in_array :  [-6.28318531 -5.62179738 -4.96040945 -4.29902153 -3.6376336  -2.97624567
  -2.31485774 -1.65346982 -0.99208189 -0.33069396  0.33069396  0.99208189
   1.65346982  2.31485774  2.97624567  3.6376336   4.29902153  4.96040945

@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.has_data()函数**用于检查是否�
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -50,14 +50,14 @@ plt.show()
 
 ![](img/1a58110d58e772fce05728930638f4a6.png)
 
-```
+```py
 Value Return by has_data() : True
 
 ```
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -102,7 +102,7 @@ plt.show()
 
 ![](img/33f9a96344400f66138f72f2b3690456.png)
 
-```
+```py
 Value Return by has_data() : True
 
 ```

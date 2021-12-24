@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`stats.halfgennorm.pdf()`方法，我们能够使用该方法获得概率密度函数的值。
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 1
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 4

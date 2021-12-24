@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding a Y-Axis Label to the Secondary Y-Axis in Matplotlib
 # importing the libraries
 import numpy as np
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding a Y-Axis Label to the
 # Secondary Y-Axis in Matplotlib
 # importing the libraries

@@ -37,7 +37,7 @@ pyplot 提供的众多功能中，有一个是 stackplot，这将在本文中讨
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # List of Days
@@ -75,7 +75,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # List of 7-days

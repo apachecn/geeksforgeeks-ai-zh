@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,6 +57,6 @@ sr
 
 ## 蟒蛇 3
 
-```
+```py
 df.rfloordiv(sr, axis = 1)
 ```

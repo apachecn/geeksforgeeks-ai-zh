@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.ranf() function
 
@@ -27,14 +27,14 @@ print ("Output random float value : ", out_val) 
 
 **Output :**
 
-```
+```py
 Output random float value :  0.0877051588430926
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.ranf() function
 
@@ -48,7 +48,7 @@ print ("Output 2D Array filled with random floats : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 2D Array filled with random floats :  [[ 0.14186407]
  [ 0.58068259]]
 
@@ -56,7 +56,7 @@ Output 2D Array filled with random floats :  [[ 0.14186407]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.ranf() function
 
@@ -70,7 +70,7 @@ print ("Output 3D Array filled with random floats : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 3D Array filled with random floats :  [[[ 0.11013584  0.67844746]
   [ 0.84691569  0.09467084]
   [ 0.69918864  0.12137178]]

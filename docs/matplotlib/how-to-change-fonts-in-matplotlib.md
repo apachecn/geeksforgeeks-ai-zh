@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plot
 import numpy as np
@@ -43,7 +43,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plot
 
 x = [1, 2, 3, 4, 5, 6]
@@ -67,7 +67,7 @@ plot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plot
 
 x = [1, 2, 3, 4, 5, 6]

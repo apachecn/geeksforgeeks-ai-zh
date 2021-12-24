@@ -14,7 +14,7 @@ Pandas `**Timestamp.isocalendar()**`函数返回一个三元组，包含给定�
 
 **示例#1:** 使用`Timestamp.isocalendar()`函数返回基于 ISO 日历的给定时间戳对象的日期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isocalendar()`函数返回基于 ISO 日历的 ts 对象中的日期。
 
-```
+```py
 # return the date as an ISO calendar
 ts.isocalendar()
 ```
@@ -45,7 +45,7 @@ ts.isocalendar()
 
 **示例 2:** 使用`Timestamp.isocalendar()`函数返回基于 ISO 日历的给定 Timestamp 对象的日期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isocalendar()`功能返回基于 ISO 日历的 ts 对象中的日期
 
-```
+```py
 # return the date as an ISO calendar
 ts.isocalendar()
 ```

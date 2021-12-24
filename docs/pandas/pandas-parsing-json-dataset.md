@@ -17,7 +17,7 @@ JSON 解析器将 JSON 文本转换成另一种表示，必须接受符合 JSON 
 
 操纵 JSON 是使用 Python 数据分析库(称为熊猫)完成的。
 
-```
+```py
 import pandas as pd
 ```
 
@@ -25,7 +25,7 @@ import pandas as pd
 
 > **pandas . read _ JSON**(path _ or _ buf =None，orient = None，typ='frame '，dtype=True，convert_axes=True，convert _ dates = True，keep _ default _ dates = True，numpy=False，precise_float=False，date_unit=None，编码= None，行数=False，chunksize=None，压缩= '推断')
 
-```
+```py
 import pandas as pd
 # Creating Dataframe 
 df = pd.DataFrame([['a', 'b'], ['c', 'd']],
@@ -40,7 +40,7 @@ print(df.to_json(orient ='index'))
 
 **Output:**
 
-```
+```py
 {"columns":["col 1", "col 2"],
  "index":["row 1", "row 2"],
  "data":[["a", "b"], ["c", "d"]]}
@@ -56,7 +56,7 @@ print(df.to_json(orient ='index'))
 
 **直接从数据集读取 JSON 文件:**
 
-```
+```py
 import pandas as pd
 
 data = pd.read_json('http://api.population.io/1.0/population/India/today-and-tomorrow/?format = json')
@@ -65,7 +65,7 @@ print(data)
 
 **Output:**
 
-```
+```py
 total_population
 0  {'date': '2019-03-18', 'population': 1369169250}
 1  {'date': '2019-03-19', 'population': 1369211502}
@@ -80,7 +80,7 @@ total_population
 **代码#1:**
 让我们将 works 列解包为一个独立的数据帧。我们还会抓住扁平的柱子。
 
-```
+```py
 import json 
 import pandas as pd 
 from pandas.io.json import json_normalize 
@@ -101,7 +101,7 @@ nycphil.head(3)
 **代码#2:**
 让我们使用 [json_normaliz](http://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) 将 works 列解包到一个独立的数据框中。
 
-```
+```py
 works_data = json_normalize(data = d['programs'],
                             record_path ='works', 
                             meta =['id', 'orchestra', 'programID', 'season'])
@@ -115,7 +115,7 @@ works_data.head(3)
 
 让我们通过传递一个列表来展平“独奏家”的数据。因为独奏者是嵌套在作品中的。
 
-```
+```py
 soloist_data = json_normalize(data = d['programs'],
                               record_path =['works', 'soloists'],
                               meta =['id'])

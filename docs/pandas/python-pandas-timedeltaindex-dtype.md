@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.dtype`属性查找给定时间增量索引对象的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(tidx)
 ![](img/866c50f3d2f4d26644ad715e5c073707.png)
 现在我们要找出给定 TimedeltaIndex 对象的数据类型。
 
-```
+```py
 # return the data type of the 
 # values in the given object
 tidx.dtype
@@ -40,7 +40,7 @@ tidx.dtype
 
 **示例 2:** 使用`TimedeltaIndex.dtype`属性查找给定 TimedeltaIndex 对象的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们想找出给定的时间增量索引对象的数据类型。
 
-```
+```py
 # return the data type of the
 #  values in the given object
 tidx.dtype

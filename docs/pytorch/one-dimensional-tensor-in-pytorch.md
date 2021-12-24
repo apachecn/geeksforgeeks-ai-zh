@@ -21,7 +21,7 @@ Pytorch 用于处理张量。张量是多维数组。PyTorch 加速了张量的�
 
 **语法** :
 
-```
+```py
 import pytorch
 ```
 
@@ -31,7 +31,7 @@ import pytorch
 
 **语法:**
 
-```
+```py
 torch.tensor([element1,element2,.,element n])
 ```
 
@@ -41,7 +41,7 @@ torch.tensor([element1,element2,.,element n])
 
 T5】Python 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -56,7 +56,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 tensor([10, 20, 30, 40, 50])
 tensor([10.1200, 20.5600, 30.0000, 40.3000, 50.4000])
 ```
@@ -67,7 +67,7 @@ tensor([10.1200, 20.5600, 30.0000, 40.3000, 50.4000])
 
 **语法:**
 
-```
+```py
 tensor_name([index])
 ```
 
@@ -80,7 +80,7 @@ tensor_name([index])
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -102,7 +102,7 @@ print(a[-2])
 
 **输出:**
 
-```
+```py
 tensor(10) tensor(20)
 tensor(50)
 tensor(20)
@@ -113,7 +113,7 @@ tensor(40)
 
 **语法:**
 
-```
+```py
 tensor([start_index:end_index])
 ```
 
@@ -123,7 +123,7 @@ tensor([start_index:end_index])
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -142,7 +142,7 @@ print(a[-1:])
 
 **输出:**
 
-```
+```py
 tensor([20, 30, 40])
 tensor([50])
 tensor([50])
@@ -154,7 +154,7 @@ tensor([50])
 
 **语法:**
 
-```
+```py
 tensor.size()
 ```
 
@@ -162,7 +162,7 @@ tensor.size()
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -181,7 +181,7 @@ print(b.size())
 
 **输出:**
 
-```
+```py
 torch.Size([5])
 torch.Size([8])
 ```
@@ -192,7 +192,7 @@ torch.Size([8])
 
 **语法:**
 
-```
+```py
 tensor_vector.dtype
 ```
 
@@ -202,7 +202,7 @@ tensor_vector.dtype
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -221,7 +221,7 @@ print(b.dtype)
 
 **输出:**
 
-```
+```py
 torch.int64
 torch.float32
 ```
@@ -232,7 +232,7 @@ torch.float32
 
 **语法:**
 
-```
+```py
 tensor.view(no_of_rows,no_of_columns)
 ```
 
@@ -246,7 +246,7 @@ tensor.view(no_of_rows,no_of_columns)
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -262,7 +262,7 @@ print(a.view(2, 5))
 
 **输出:**
 
-```
+```py
 tensor([[10., 20.],
        [30., 40.],
        [50.,  1.],
@@ -278,7 +278,7 @@ tensor([[10., 20., 30., 40., 50.],
 
 **语法** :
 
-```
+```py
 torch.FloatTensor([element1,element 2,.,element n])
 ```
 
@@ -286,7 +286,7 @@ torch.FloatTensor([element1,element 2,.,element n])
 
 ## 蟒 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -306,7 +306,7 @@ print(a[4:])
 
 **输出:**
 
-```
+```py
 torch.float32
 tensor([10., 20., 30.])
 tensor([50.])

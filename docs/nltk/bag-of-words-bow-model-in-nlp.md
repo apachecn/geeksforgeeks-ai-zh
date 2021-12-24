@@ -18,7 +18,7 @@
 *   *删除所有非单词字符。*
 *   *删除所有标点符号。*
 
-```
+```py
 *# Python3 code for preprocessing text
 import nltk
 import re
@@ -45,7 +45,7 @@ for i in range(len(dataset)):
 
 *   我们声明用字典来装我们的单词包。*   接下来，我们将每个句子标记为单词。*   现在对于句子中的每个单词，我们检查这个单词是否存在于我们的词典中。*   If it does, then we increment its count by 1\. If it doesn’t, we add it to our dictionary and set its count as 1.
 
-    ```
+    ```py
     # Creating the Bag of Words model
     word2count = {}
     for data in dataset:
@@ -65,7 +65,7 @@ for i in range(len(dataset)):
 
     在我们的模型中，我们总共有 118 个单词。然而，当处理大型文本时，字数可能达到数百万。我们不需要使用所有这些词。因此，我们选择了一些最常用的词。为了实现这一点，我们使用:
 
-    ```
+    ```py
     import heapq
     freq_words = heapq.nlargest(100, word2count, key=word2count.get)
     ```
@@ -80,7 +80,7 @@ for i in range(len(dataset)):
     在这一步中，我们构建一个向量，它将告诉我们每个句子中的一个单词是否是一个常用单词。如果一个句子中的一个词是常用词，我们将其设置为 1，否则我们将其设置为 0。
     这可以通过以下代码来实现:
 
-    ```
+    ```py
     X = []
     for data in dataset:
         vector = []

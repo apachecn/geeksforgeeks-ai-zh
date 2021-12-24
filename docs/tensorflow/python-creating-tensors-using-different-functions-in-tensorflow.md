@@ -16,7 +16,7 @@ Tensorflow 是一个开源的机器学习框架，用于复杂的数值计算。
 
 在张量流中创建张量最流行的函数是`constant()`函数。我们需要给出值或值列表作为创建张量的参数。如果给定的值是整数类型，那么 **int32** 是默认的数据类型。如果给定的值是浮点型的，则`float32`是默认的数据类型。
 
-```
+```py
 # Program to create tensor
 # using the constant() function
 
@@ -58,7 +58,7 @@ print(sess.run(t5))
 
 `zeros()`函数用于创建张量，其所有元素为零。张量的`shape`是唯一需要的参数。
 
-```
+```py
 # Program to create tensor using the zeros() function
 
 import tensorflow as tf
@@ -88,7 +88,7 @@ print(sess.run(zero_3d))
 
 `ones()`函数基本上和`zeros()`函数做同样的事情，但是在这种情况下元素是 1 而不是 0。
 
-```
+```py
 # Program to create tensor using the ones() function
 
 import tensorflow as tf
@@ -118,7 +118,7 @@ print(sess.run(one_3d))
 
 `fill()`函数用于创建张量，张量中的所有元素都具有相同的值。元素的值将作为参数传递，数据类型取决于传递的值。
 
-```
+```py
 # Program to create tensor using the fill() function
 
 import tensorflow as tf
@@ -153,7 +153,7 @@ print(sess.run(fill_3d))
 
 `linspace()`函数用于创建张量，在张量中，我们指定起始值、结束值和元素数量作为自变量，张量的元素根据自变量改变其值。
 
-```
+```py
 # Program to create tensor using the linspace() function
 
 import tensorflow as tf
@@ -178,7 +178,7 @@ print(sess.run(linspace_dec))
 
 `range()`函数与 linspace()函数几乎相同。唯一不同的是，在 range()函数中，我们指定了一个名为`delta`的值，用来计算张量的连续元素，而不是`linspace()`函数中的元素数量。
 
-```
+```py
 # Program to create tensor using the range() function
 
 import tensorflow as tf

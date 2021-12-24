@@ -41,7 +41,7 @@
 ![\kern 6pc \mathbf{L\left ( \left \{  p_{i}\right \}, \left \{  t_{i}\right \} \right ) = 1\div N_{cls}(\sum_{i} L_{cls}\left (  p_{i}, p_{i}^{*}\right )) + \lambda \div N_{reg}(\sum_{i} p_{i}^{*} \times  L_{reg}\left (t_{i}, t_{i}^{*}\right ))}](img/625b81aa5361e7c78bf4523851cb5b32.png "Rendered by QuickLaTeX.com")
 </center>
 
-```
+```py
 where, 
 pi = predicted probability of anchors contains an object or not.
 pi* = ground truth value of anchors contains and object or not.

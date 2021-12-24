@@ -20,7 +20,7 @@ Pandas `**Index.get_loc()**`函数为请求的标签返回整数位置、切片�
 
 **示例#1:** 使用`Index.get_loc()`函数查找传递值的位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ idx
 
 让我们找出“拉萨”在索引中的位置。
 
-```
+```py
 # Print the location of the passed value..
 idx.get_loc('Lhasa)
 ```
@@ -48,7 +48,7 @@ idx.get_loc('Lhasa)
 
 **例 2:** 使用`Index.get_loc()`函数查找传递值的位置。如果传递的值不在索引中，则返回刚好小于传递值的前一个值的位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ idx
 
 让我们找到值 33 在索引中的位置。
 
-```
+```py
 # Find the position of 33 in the index.
 # If it is not present then we forward 
 # fill and return the position of previous value.

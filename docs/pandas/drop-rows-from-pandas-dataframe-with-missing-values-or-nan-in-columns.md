@@ -21,7 +21,7 @@
 
 **代码#1:** 删除至少有 1 个空值的行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ df
 ![](img/2502ebbb98975e0050de5b47b6e7aae8.png)
 现在我们删除至少有一个 Nan 值(空值)的行
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ df.dropna()
 ![](img/d4fabe4eac10d52905d696d228779c83.png)
 **代码#2:** 如果该行中的所有值都丢失，则丢弃该行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -89,7 +89,7 @@ df
 ![](img/6bcb2c993fba3a18da275fc886a36ce1.png)
 现在我们删除所有数据缺失或包含空值(NaN)的行
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -113,7 +113,7 @@ df.dropna(how = 'all')
 
 **代码#3:** 删除至少有 1 个空值的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -135,7 +135,7 @@ df
 ![](img/31e9a66cac9a64dad6971d7f755a4087.png)
 现在我们删除至少有 1 个缺失值的列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -162,7 +162,7 @@ df.dropna(axis = 1)
 
 **注意:**这里我们使用的是 CSV 文件，要下载使用的 CSV 文件，点击[这里](https://media.geeksforgeeks.org/wp-content/uploads/employees.csv)。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -179,7 +179,7 @@ new_data
 ![](img/98e6518ab7f9caffcee768efc7cfc988.png)
 现在我们比较数据帧的大小，这样我们就可以知道有多少行至少有 1 个空值
 
-```
+```py
 print("Old data frame length:", len(data))
 print("New data frame length:", len(new_data)) 
 print("Number of rows with at least 1 NA value: ",
@@ -188,7 +188,7 @@ print("Number of rows with at least 1 NA value: ",
 
 **输出:**
 
-```
+```py
 Old data frame length: 1000
 New data frame length: 764
 Number of rows with at least 1 NA value:  236

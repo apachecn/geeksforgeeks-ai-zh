@@ -16,7 +16,7 @@ OpenCV 是一个开源的计算机视觉库。因此，计算机视觉是一种�
 
 要安装 openCV 库，请在命令提示符下编写以下命令。
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -57,7 +57,7 @@ ORB 检测器首先使用 FAST 算法，该 FAST 算法找到关键点，然后�
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 
@@ -262,7 +262,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 
@@ -346,7 +346,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 
@@ -427,7 +427,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing openCV library
 import cv2
 

@@ -4,13 +4,13 @@
 
 函数的作用是:在不改变数组数据的情况下，对数组进行整形。
 
-```
+```py
 Syntax: numpy.reshape(array, shape, order = 'C')
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array
 shape : [int or tuples of int] e.g. if we are aranging an array with 10 elements then shaping
         it like numpy.reshape(4, 8) is wrong; we can do numpy.reshape(2, 5) or (5, 2)
@@ -25,13 +25,13 @@ order  : [C-contiguous, F-contiguous, A-contiguous; optional]
 
 **返回:**
 
-```
+```py
 Array which is reshaped without changing the data.
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.reshape() method
 
@@ -56,7 +56,7 @@ print("\nOriginal array reshaped to 3D : \n", array4)
 
 **输出:**
 
-```
+```py
 Original array : 
  [0 1 2 3 4 5 6 7]
 

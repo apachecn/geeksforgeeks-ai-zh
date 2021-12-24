@@ -34,7 +34,7 @@ and
 
 **Code : Python code to implement LRAP**
 
-```
+```py
 # import numpy and scikit-learn libraries
 import numpy as np
 from sklearn.metrics import label_ranking_average_precision_score
@@ -54,7 +54,7 @@ print(label_ranking_average_precision_score(
 
 **输出:**
 
-```
+```py
 0.777
 ```
 

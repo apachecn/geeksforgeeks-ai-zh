@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 pandas.DataFrame(dictionary)
 ```
 
@@ -24,7 +24,7 @@ pandas.DataFrame(dictionary)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas
 
@@ -50,7 +50,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas
 
@@ -80,7 +80,7 @@ data
 
 **语法:**
 
-```
+```py
 pandas.DataFrame.from_dict(dictionary)
 ```
 
@@ -90,7 +90,7 @@ pandas.DataFrame.from_dict(dictionary)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas
 

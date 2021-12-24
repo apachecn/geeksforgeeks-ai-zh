@@ -15,7 +15,7 @@ PyTorch `torch.ceil()`方法返回一个新的张量，该张量具有输入元�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -31,7 +31,7 @@ print(out)
 
 **输出:**
 
-```
+```py
   1.3000
  -5.6000
   7.9000
@@ -47,7 +47,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -63,7 +63,7 @@ print(out) 
 
 **输出:**
 
-```
+```py
  1.0000
  -5.6990
   7.1000

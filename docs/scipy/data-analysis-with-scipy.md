@@ -6,7 +6,7 @@
 
 在 Python 中使用 SciPy 库制作 ML 模型的好处是，它还提供了一种强大的编程语言，可用于开发不太复杂的程序和应用程序。
 
-```
+```py
 # import numpy library
 import numpy as np
 A = np.array([[1,2,3],[4,5,6],[7,8,8]])
@@ -16,7 +16,7 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
 
 1.  **矩阵的行列式**
 
-    ```
+    ```py
     # importing linalg function from scipy
     from scipy import linalg
 
@@ -24,7 +24,7 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
     linalg.det(A)
     ```
 
-    ```
+    ```py
     Output :
     2.999999999999997
 
@@ -36,7 +36,7 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
     A = P L U
     其中 P 为置换矩阵，L 为单位对角元素的下三角，U 为上三角。
 
-    ```
+    ```py
     P, L, U = linalg.lu(A)
     print(P)
     print(L)
@@ -45,7 +45,7 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
     print(np.dot(L,U))
     ```
 
-    ```
+    ```py
     Output :
     array([[ 0.,  1.,  0.],
            [ 0.,  0.,  1.],
@@ -67,13 +67,13 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
 
 3.  **该矩阵的特征值和特征向量**
 
-    ```
+    ```py
     eigen_values, eigen_vectors = linalg.eig(A)
     print(eigen_values)
     print(eigen_vectors)
     ```
 
-    ```
+    ```py
     Output :
     array([ 15.55528261+0.j,  -1.41940876+0.j,  -0.13587385+0.j])
 
@@ -85,14 +85,14 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
 
 4.  **解线性方程组也可以**
 
-    ```
+    ```py
     v = np.array([[2],[3],[5]])
     print(v)
     s = linalg.solve(A,v)
     print(s)
     ```
 
-    ```
+    ```py
     Output :
     array([[2],
            [3],
@@ -109,7 +109,7 @@ A = np.array([[1,2,3],[4,5,6],[7,8,8]])
 SciPy 有一些计算稀疏矩阵和潜在的非常大的矩阵的例程。必要的工具在子模块 scipy.sparse.
 **我们来看看如何构造一个大的稀疏矩阵:**
 
-```
+```py
 # import necessary modules
 from scipy import sparse
 # Row-based linked list sparse matrix
@@ -122,7 +122,7 @@ A.setdiag(np.random.rand(1000))
 print(A)
 ```
 
-```
+```py
 Output :
 <1000x1000 sparse matrix of type ''
     with 0 stored elements in LInked List format>
@@ -134,7 +134,7 @@ Output :
 
 1.  **稀疏矩阵线性代数**
 
-    ```
+    ```py
     from scipy.sparse import linalg
 
     # Convert this matrix to Compressed Sparse Row format.
@@ -147,7 +147,7 @@ Output :
     print(ans)
     ```
 
-    ```
+    ```py
     Output :
     array([-2.53380006e+03, -1.25513773e+03,  9.14885544e-01,  2.74521543e+00,
             5.99942835e-01,  4.57778093e-01,  1.87104209e-01,  2.15228367e+00,
@@ -171,7 +171,7 @@ Output :
     The parameters of quad is scipy.integrate.quad(f, a, b), Where ‘f’ is the function to be integrated. Whereas, ‘a’ and ‘b’ are the lower and upper ranges of x limit. Let us see an example of integrating ![$e^{-x^2}$](img/d3a9fab0f1cf2f74c8606be791fbd1f2.png "Rendered by QuickLaTeX.com") over the **range of 0 and 1 with respect to dx**.
     We will first define the function f(x)=e^(-x^2) , this is done using a lambda expression and then use quad routine.
 
-    ```
+    ```py
     import scipy.integrate
     f= lambda x:np.exp(-x**2)
     # print results
@@ -179,7 +179,7 @@ Output :
     print(i)
     ```
 
-    ```
+    ```py
     (0.7468241328124271, 8.291413475940725e-15)
 
     ```
@@ -191,7 +191,7 @@ Output :
     ![ \newcommand{\Int}{\int\limits} \displaystyle \Int_{0}^{1} \Int_{0}^{2} x*y^2 \,dx\,dy ](img/380b9200b865ab1e0dfde26ace846ebd.png "Rendered by QuickLaTeX.com")
     我们使用λ表达式定义函数 f、g 和 h。请注意，即使 g 和 h 是常数，因为它们在许多情况下可能是常数，它们也必须被定义为函数，就像我们在这里对下限所做的那样。
 
-    ```
+    ```py
     from scipy import integrate
     f = lambda y, x: x*y**2
     i = integrate.dblquad(f, 0, 2, lambda x: 0, lambda x: 1)
@@ -199,7 +199,7 @@ Output :
     print(i)
     ```
 
-    ```
+    ```py
     Output :
      (0.6666666666666667, 7.401486830834377e-15)
 

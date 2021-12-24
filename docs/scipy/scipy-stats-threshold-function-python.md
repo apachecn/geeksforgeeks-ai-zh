@@ -14,7 +14,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # stats.threshold() method  
 import numpy as np
 from scipy import stats
@@ -29,7 +29,7 @@ print ("\nclipped arr1 : \n", stats.threshold(
 
 **输出:**
 
-```
+```py
 arr1 :  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 clipped arr1 : 

@@ -16,7 +16,7 @@ Pandas `head()`方法用于返回数据帧或序列的前 n 行(默认为 5 行)
 
 **让我们创建一个数据框**
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -50,7 +50,7 @@ details
 
 **例 1:**
 
-```
+```py
 # Show first 5 rows of the details dataframe
 # from top
 details.head()
@@ -62,7 +62,7 @@ details.head()
 
 **例 2:**
 
-```
+```py
 # display top 3 rows of the dataframe
 details.head(3)
 ```
@@ -73,7 +73,7 @@ details.head(3)
 
 **例 3:**
 
-```
+```py
 # display top 2 rows of the specific columns
 details[['Name', 'Age']].head(2)
 ```
@@ -94,7 +94,7 @@ Pandas `tail()`方法用于返回数据帧或序列的底部 n 行(默认为 5 �
 
 **例 1:**
 
-```
+```py
 # Show bottom 5 rows of the dataframe
 details.tail()
 ```
@@ -105,7 +105,7 @@ details.tail()
 
 **例 2:**
 
-```
+```py
 # Show bottom 3 rows of the dataframe
 details.tail(3)
 ```
@@ -116,7 +116,7 @@ details.tail(3)
 
 **例 3:**
 
-```
+```py
 # Show bottom 2 rows of the specific
 # columns from dataframe
 details[['Name', 'Age']].tail(2)

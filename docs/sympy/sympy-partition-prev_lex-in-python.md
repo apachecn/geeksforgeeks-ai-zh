@@ -12,7 +12,7 @@
 
 **代码#1 : prev_lex()示例**
 
-```
+```py
 ]
 
 # Python code explaining
@@ -37,7 +37,7 @@ print('\nPrevious Integrer : ', p.prev_lex())
 
 **代码#2 : prev_lex()示例**
 
-```
+```py
 ]
 
 # Python code explaining

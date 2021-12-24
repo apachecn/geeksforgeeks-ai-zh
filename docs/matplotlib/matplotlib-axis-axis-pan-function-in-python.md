@@ -23,7 +23,7 @@ matplotlib 库的轴模块中的 **Axis.pan()函数**用于通过 numsteps 进�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -50,7 +50,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 

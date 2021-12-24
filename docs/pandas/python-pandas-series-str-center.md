@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.str.center()`函数，用“*”符号填充给定序列对象的基础数据中字符串的左侧和右侧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们使用`Series.str.center()`函数在字符串的左右两边填充“*”符号。
 
-```
+```py
 # fill '*' in the left and right side of string
 result = sr.str.center(width = 13, fillchar = '*')
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2 :** 使用`Series.str.center()`函数，用“*”符号填充给定序列对象的基础数据中字符串的左侧和右侧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们使用`Series.str.center()`函数在字符串的左右两边填充“*”符号。
 
-```
+```py
 # fill '*' in the left and right side of string
 # width after filling should be 5
 result = sr.str.center(width = 5, fillchar = '*')

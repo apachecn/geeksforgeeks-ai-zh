@@ -21,7 +21,7 @@ Pandas `**Series.sort_index()**`功能用于给定系列对象的索引标签排
 
 **示例#1:** 使用`Series.sort_index()`函数对给定系列对象的索引标签进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(sr)
 
 现在我们将使用`Series.sort_index()`函数对给定序列对象的索引标签进行排序。
 
-```
+```py
 # sort the index labels
 sr.sort_index()
 ```
@@ -57,7 +57,7 @@ sr.sort_index()
 
 **示例 2:** 使用`Series.sort_index()`函数对给定系列对象的索引标签进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.sort_index()`函数对给定序列对象的索引标签进行排序。
 
-```
+```py
 # sort the index labels
 sr.sort_index()
 ```

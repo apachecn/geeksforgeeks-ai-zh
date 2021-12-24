@@ -14,7 +14,7 @@
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -30,7 +30,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 -30587.265625
  4.555761437366413e-41
  3.906847023468105e-37
@@ -44,7 +44,7 @@ True
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -60,7 +60,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 0.4837 -0.3108  0.5945 -0.5967  1.0831  0.0967
 -0.0174  0.4937  0.9900 -0.0532 -0.4830 -0.4711
  1.3607 -1.0815  0.4421 -0.2668 -0.5778 -0.0482

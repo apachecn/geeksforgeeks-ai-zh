@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(table)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import pandas as pd
 import matplotlib.pyplot as plt

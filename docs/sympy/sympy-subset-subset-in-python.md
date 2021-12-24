@@ -12,7 +12,7 @@
 
 **代码#1:子集()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.subset()
 
@@ -36,7 +36,7 @@ print ("Subset a subset : ", a.subset)
 
 **代码#2:子集()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.subset()
 

@@ -12,7 +12,7 @@
 
 在这个例子中我们可以看到，通过使用`np.logseries()`方法，我们能够通过使用这个方法得到一个对数序列的数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

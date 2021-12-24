@@ -10,13 +10,13 @@
 
 安装 PyTorch 非常类似于任何其他 python 库。我们可以使用 pip 或 conda 安装 PyTorch:-
 
-```
+```py
 pip install torch torchvision
 ```
 
 该命令将安装 PyTorch 和 torchvision，后者为计算机视觉提供各种数据集、模型和变换。要使用 conda 安装，您可以使用以下命令:-
 
-```
+```py
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
 
@@ -24,7 +24,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 
 在本教程中，我们将使用 torchvision 库中提供的 MNIST 数据集。在深度学习中，我们通常以一定大小的批次训练神经网络，数据加载器是 PyTorch 中的一个数据加载实用程序，它在这些批次的数据集上创建一个可迭代的。让我们从加载数据开始
 
-```
+```py
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, random_split
 
@@ -35,14 +35,14 @@ transforms = transforms.Compose([
 
 在上面的代码中，我们声明了一个名为 transform 的变量，它本质上帮助我们以定义的格式转换原始数据。在这里，我们的转换只是简单地获取原始数据，并将其转换为张量。张量是描述 n 维矩阵的一种奇特方式。
 
-```
+```py
 train = datasets.MNIST('', train = True, transform = transforms, download = True)
 train, valid = random_split(train,[50000,10000])
 ```
 
 现在，我们正在下载原始数据，并对其应用转换以将其转换为张量， **train** 告知正在加载的数据是训练数据还是测试数据。最后，我们将训练张量分成 2 个 50000 和 10000 个数据点的张量，它们成为我们的训练张量和有效张量。
 
-```
+```py
 trainloader = DataLoader(train, batch_size=32)
 validloader = DataLoader(valid, batch_size=32)
 ```
@@ -53,7 +53,7 @@ validloader = DataLoader(valid, batch_size=32)
 
 在 PyTorch 中，我们有两种方法可以创建神经网络，即使用*顺序()*方法或使用类方法。我们将使用类方法来创建我们的神经网络，因为它提供了对数据流的更多控制。使用类方法创建神经网络的格式如下
 
-```
+```py
 from torch import nn
 
 class model(nn.Module):
@@ -66,7 +66,7 @@ class model(nn.Module):
 
 因此，在 __init__()方法中，我们定义了我们的层和其他变量，在 forward()方法中，我们定义了我们的正向传递，即数据如何流过层。
 
-```
+```py
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -108,7 +108,7 @@ if torch.cuda.is_available():
 
 标准是您希望最小化的损失，在这种情况下是 CrossEntropyLoss()，它是 log_softmax()和 NLLLoss()的组合。
 
-```
+```py
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr = 0.01)
 ```
@@ -131,7 +131,7 @@ PyTorch 中的训练步骤几乎每次训练都是一样的。但是在实现之
 
 验证和测试步骤也是相似的，但你只需向前传递并计算损失。没有验证的简单训练循环如下所示
 
-```
+```py
 epochs = 5
 
 for e in range(epochs):
@@ -159,7 +159,7 @@ for e in range(epochs):
 
 如果您添加验证循环，它将是相同的，但只有向前传递和损失计算。但是可能发生的情况是，你的最后一次迭代并没有给你最少的验证损失。为了解决这个问题，我们可以设置一个最大有效损失，它可以是 ***np.inf*** ，如果当前有效损失小于，我们可以保存模型的**状态字典**，我们可以稍后加载，就像一个检查点。 **state_dict** 是一个 OrderedDict 对象，它将每个层映射到它的参数张量。
 
-```
+```py
 import numpy as np
 epochs = 5
 min_valid_loss = np.inf
@@ -204,7 +204,7 @@ for e in range(epochs):
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 from torch import nn
 import torch.nn.functional as F

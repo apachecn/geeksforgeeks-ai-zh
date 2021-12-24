@@ -58,7 +58,7 @@ OpenCV 是一个开源库，主要用于处理图像和视频，以识别形状�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt

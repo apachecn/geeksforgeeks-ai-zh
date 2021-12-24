@@ -22,7 +22,7 @@ RobustScaler 使用四分位数范围，因此对异常值具有鲁棒性。因�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np

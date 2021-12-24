@@ -14,7 +14,7 @@ Pandas **Period.hour** 属性返回一个整数值，表示给定 Period 对象�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(prd)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the hour value
 prd.hour
 ```
@@ -48,7 +48,7 @@ prd.hour
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(prd)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the hour value
 prd.hour
 ```

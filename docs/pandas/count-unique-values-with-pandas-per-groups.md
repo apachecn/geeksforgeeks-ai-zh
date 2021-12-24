@@ -30,7 +30,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -73,7 +73,7 @@ car_df
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import pandas as pd
 

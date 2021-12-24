@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -65,7 +65,7 @@ plt.show()
 
 ![](img/3bc5734588680a85f497fbab6296e094.png)
 
-```
+```py
 List of the child Artists of this Artist 
 
 Rectangle(xy=(0, 0), width=1, height=1, angle=0)
@@ -75,7 +75,7 @@ AxesSubplot(0.125, 0.11;0.775x0.77)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -113,7 +113,7 @@ plt.show()
 
 ![](img/f904de7b9eb2de58ec9b789ebd209b88.png)
 
-```
+```py
 List of the child Artists of this Artist 
 
 Rectangle(xy=(0, 0), width=1, height=1, angle=0)

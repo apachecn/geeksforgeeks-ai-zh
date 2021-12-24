@@ -5,14 +5,14 @@
 **numpy.less() :** 检查 x1 是否小于 x2。
 **语法:**
 
-```
+```py
 numpy.less(x1, x2[, out])
 
 ```
 
 **参数:**
 
-```
+```py
 x1, x2 : [array_like]Input arrays. If x1.shape != x2.shape, they must be 
              broadcastable to a common shape 
 out    : [ndarray, boolean]Array of bools, or a single bool if x1 and x2 are scalars.
@@ -21,14 +21,14 @@ out    : [ndarray, boolean]Array of bools, or a single bool if x1 and x2 are sca
 
 **返回:**
 
-```
+```py
 Boolean array indicating results, whether x1 is lesser than x2 or not.
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.less() method
 
@@ -48,7 +48,7 @@ print("Is a lesser than b : ", a < b)
 
 **输出:**
 
-```
+```py
 Not equal : 
  [False  True] 
 
@@ -62,7 +62,7 @@ Is a lesser than b :  [ True False]]
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.less() method
 
@@ -82,7 +82,7 @@ print("\n Comparing complex with int  .less() : ", d)
 
 **输出:**
 
-```
+```py
 Comparing complex with int :  [ True False]
 
  Comparing complex with int  .less() :  [ True False]
@@ -91,7 +91,7 @@ Comparing complex with int :  [ True False]
 
 **代码 3 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.less() method
 
@@ -111,7 +111,7 @@ print("\n Comparing float with int using  .less() : ", d)
 
 **输出:**
 
-```
+```py
 Comparing float with int :  [False  True]
 
  Comparing float with int using  .less() :  [False  True]

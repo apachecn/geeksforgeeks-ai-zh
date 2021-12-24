@@ -25,7 +25,7 @@ numpy.loadtxt()的默认数据类型(dtype)参数是 float。
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Text file data converted to integer data type
@@ -35,7 +35,7 @@ print(File_data)
 
 **输出:**
 
-```
+```py
 [[ 1  2]
 [ 3  4]
 [ 5  6]
@@ -49,7 +49,7 @@ print(File_data)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # skipping first row
@@ -60,7 +60,7 @@ print(data)
 
 **输出:**
 
-```
+```py
 [['2' 'Bunty']
 ['3' 'Tinku']
 ['4' 'Rina']]
@@ -74,7 +74,7 @@ NumPy 数组中的索引从 0 开始。因此，文本文件中的 Roll 列是 0
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # only column1 data is imported into numpy
@@ -87,7 +87,7 @@ for each in data:
 
 **输出:**
 
-```
+```py
 Ankit
 Bunty
 Tinku
@@ -109,7 +109,7 @@ Rajesh
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 Data = np.genfromtxt("example4.txt", dtype=str,
@@ -119,7 +119,7 @@ print(Data)
 
 **输出:**
 
-```
+```py
 [['a' 'b' 'c' 'd']
 ['e' 'f' 'g' 'h']]
 ```
@@ -130,7 +130,7 @@ print(Data)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # skipping last line in the file
@@ -141,7 +141,7 @@ print(Data)
 
 **输出:**
 
-```
+```py
 [['This' 'is' 'GeeksForGeeks' 'Website']
 ['How' 'are' 'You' 'Geeks?']
 ['Geeks' 'for' 'Geeks' 'GFG']]

@@ -12,7 +12,7 @@
 
 **代码#1 : rank_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_binary()
 
@@ -36,7 +36,7 @@ print ("Subset a rank_binary : ", a.rank_binary)
 
 **代码#2 : rank_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_binary()
 

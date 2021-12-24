@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -55,7 +55,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Using dataframe.xs() function
 # to get values of a specific index 
 df.xs('Reptiles')

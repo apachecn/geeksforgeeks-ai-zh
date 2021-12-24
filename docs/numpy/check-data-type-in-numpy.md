@@ -18,7 +18,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing numpy library
 import numpy as np
 
@@ -33,7 +33,7 @@ print('Datatype:', arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [  1   2   3  23  56 100]
 Datatype: int32
 ```
@@ -42,7 +42,7 @@ Datatype: int32
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # creating and initializing array of string
@@ -56,7 +56,7 @@ print('Datatype:', arr_1.dtype)
 
 **输出:**
 
-```
+```py
 Array: ['a' 'b' 'c' 'd']
 Datatype: <U1
 ```
@@ -69,7 +69,7 @@ Datatype: <U1
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # Creating and initializing array with datatype
@@ -82,7 +82,7 @@ print("Datatype:", arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [b'1' b'2' b'3' b'8' b'7' b'5']
 Datatype: |S1
 ```
@@ -93,7 +93,7 @@ Datatype: |S1
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # creating and initialising array along
@@ -107,7 +107,7 @@ print('Datatype:', arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [1 2 3 4 8 9 5]
 Datatype: int32
 ```
@@ -118,7 +118,7 @@ Datatype: int32
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # creating and initialising array along
@@ -132,7 +132,7 @@ print('Datatype:', arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [1 2 3 4 8 9 7]
 Datatype: int64
 ```
@@ -143,7 +143,7 @@ Datatype: int64
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # creating and initialising array along
@@ -157,7 +157,7 @@ print('Datatype:', arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [1\. 2\. 3\. 4\. 8\. 9\. 7.]
 Datatype: float32
 ```
@@ -168,7 +168,7 @@ Datatype: float32
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # creating and initialising array along
@@ -182,7 +182,7 @@ print('Datatype:', arr.dtype)
 
 **输出:**
 
-```
+```py
 Array: [b'1' b'2' b'3' b'4' b'8' b'9' b'7']
 Datatype: |S2
 ```

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Pandas Library
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Filling null values
 # with 0
 df.fillna(value = 0,

@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =[5, 7, 8, 7, 2, 17, 2, 9,
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # dataset-1

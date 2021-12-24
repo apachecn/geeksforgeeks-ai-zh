@@ -71,13 +71,13 @@ Bokeh 由 **CPython 3.6 和更老的**支持，包括标准分布和蟒蛇分布
 
 Bokeh 可以使用 conda 包管理器和 pip 来安装。要使用 conda 安装它，请在终端中键入以下命令。
 
-```
+```py
 conda install bokeh
 ```
 
 这将安装所有依赖项。如果安装了所有的依赖项，那么您可以使用 pip 从 PyPI 安装 bokeh。在终端中键入以下命令。
 
-```
+```py
 pip install bokeh
 ```
 
@@ -105,7 +105,7 @@ Bokeh 易于使用，因为它为数据科学家提供了一个简单的界面�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -139,7 +139,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -193,7 +193,7 @@ Bokeh 中的图例可以使用以下属性进行自定义。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -240,7 +240,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -281,7 +281,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -310,7 +310,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -346,7 +346,7 @@ show(graph)
 
 **语法:**
 
-```
+```py
 scatter(parameters)
 ```
 
@@ -354,7 +354,7 @@ scatter(parameters)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 from bokeh.palettes import magma
@@ -394,7 +394,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 from bokeh.palettes import magma
@@ -436,7 +436,7 @@ show(graph)
 
 ## 计算机编程语言
 
-```
+```py
 # Implementation of bokeh function
 import numpy as np
 from bokeh.plotting import figure, output_file, show
@@ -461,7 +461,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np

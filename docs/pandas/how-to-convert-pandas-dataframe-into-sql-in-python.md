@@ -6,7 +6,7 @@
 
 为了用 python 处理 SQL，我们需要通过在 cmd 中运行下面提到的命令来安装 sqlalchemy 库:
 
-```
+```py
  pip install sqlalchemy 
 ```
 
@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(dataset)
 
 **输出:**
 
-```
+```py
      Names         DOB
 0  Abhinav  10/01/2009
 1    Aryan  24/03/2009
@@ -41,7 +41,7 @@ print(dataset)
 
 ## 蟒蛇 3
 
-```
+```py
 #importing sql library
 from sqlalchemy import create_engine
 
@@ -63,7 +63,7 @@ print(engine.execute("SELECT * FROM Employee_Data").fetchall())
 
 **输出:**
 
-```
+```py
 [(0, 'Abhinav', '10/01/2009'), (1, 'Aryan', '24/03/2009'), 
 (2, 'Manthan', '28/02/2009')]
 ```
@@ -72,7 +72,7 @@ print(engine.execute("SELECT * FROM Employee_Data").fetchall())
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a dataframe
 # object from dictionary
 df1 = pd.DataFrame({'Names' : ['Sonia', 'Priya'],
@@ -90,7 +90,7 @@ print(engine.execute("SELECT * FROM Employee_Data").fetchall())
 
 **输出:**
 
-```
+```py
 [(0, 'Abhinav', '10/01/2009'), (1, 'Aryan', '24/03/2009'),
  (2, 'Manthan', '28/02/2009'), (0, 'Sonia', '18/10/2009'),
   (1, 'Priya', '14/06/2009')]
@@ -100,7 +100,7 @@ print(engine.execute("SELECT * FROM Employee_Data").fetchall())
 
 ## 蟒蛇 3
 
-```
+```py
 # reading the sql database
 # with index "Names"
 df2 = pd.read_sql('Employee_Data',
@@ -119,7 +119,7 @@ print(type(df2))
 
 **输出:**
 
-```
+```py
  id        DOB
 Names               
 Sonia   0 2009-10-18
@@ -130,7 +130,7 @@ Priya   1 2009-06-14
 
 ## 蟒蛇 3
 
-```
+```py
 # acccesing only a particular
 # column from the database
 df3 = pd.read_sql('Employee_Data',
@@ -142,7 +142,7 @@ print(df3)
 
 **输出:**
 
-```
+```py
 Names
 0  Sonia
 1  Priya
@@ -152,7 +152,7 @@ Names
 
 ## 蟒蛇 3
 
-```
+```py
 # get a particular column
 # from a database in the
 # form of list
@@ -166,7 +166,7 @@ print(df4)
 
 **输出:**
 
-```
+```py
 Empty DataFrame
 Columns: []
 Index: [Sonia, Priya]
@@ -178,7 +178,7 @@ Index: [Sonia, Priya]
 
 ## 蟒蛇 3
 
-```
+```py
 # run a sql query in the database
 # and store result in a dataframe
 df5 = pd.read_sql_query('Select DOB from Employee_Data',
@@ -190,7 +190,7 @@ print(df5)
 
 **输出:**
 
-```
+```py
    DOB
 0 2009-10-18
 1 2009-06-14

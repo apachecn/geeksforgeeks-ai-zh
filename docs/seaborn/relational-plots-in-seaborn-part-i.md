@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import seaborn as sns
 
@@ -23,7 +23,7 @@ print(data.head())
 
 **输出:**
 
-```
+```py
    total_bill   tip     sex smoker  day    time  size
 0       16.99  1.01  Female     No  Sun  Dinner     2
 1       10.34  1.66    Male     No  Sun  Dinner     3
@@ -44,7 +44,7 @@ print(data.head())
 
 **语法:**
 
-```
+```py
 seaborn.relplot(x=None, y=None, data=None, **kwargs) 
 ```
 
@@ -79,7 +79,7 @@ seaborn.relplot(x=None, y=None, data=None, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import seaborn as sns
 
@@ -101,7 +101,7 @@ sns.relplot(x ="total_bill", y ="tip", data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import seaborn as sns
 
@@ -125,7 +125,7 @@ sns.relplot(x="total_bill",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import seaborn as sns
 
@@ -151,7 +151,7 @@ sns.relplot(x="total_bill",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import seaborn as sns
 

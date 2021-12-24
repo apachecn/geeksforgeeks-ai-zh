@@ -6,7 +6,7 @@
 
 **方法#1:天真法**
 
-```
+```py
 # Python code to demonstrate
 # to replace negative value with 0
 import numpy as np
@@ -25,7 +25,7 @@ print("New resulting array: ", ini_array1)
 
 **输出:**
 
-```
+```py
 initial array [ 1  2 -3  4 -5 -6]
 New resulting array:  [1 2 0 4 0 0]
 

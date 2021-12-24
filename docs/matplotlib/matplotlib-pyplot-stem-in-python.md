@@ -43,7 +43,7 @@
 
 Stem 绘制从基线到 y 坐标的垂直线，并在尖端放置标记。
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -61,7 +61,7 @@ plt.show()
 **示例#2:**
 基线的位置可以使用*底部*进行调整。参数 *linefmt、markerfmt* 和 *basefmt* 控制图的基本格式属性。然而，与`plot`相反，并非所有属性都可以通过关键字参数进行配置。对于更高级的控制，调整`pyplot`返回的线对象。
 
-```
+```py
 # importing libraries
 import random
 import matplotlib.pyplot as plt

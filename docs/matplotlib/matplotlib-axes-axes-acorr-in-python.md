@@ -33,7 +33,7 @@ matplotlib 库的 Axes 模块中的 **Axes.acorr()函数**用于绘制 x 的自�
 
 ***例 1:***
 
-```
+```py
 *# Implementation of matplotlib function
 
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ plt.show()*
 
 ***例 2:***
 
-```
+```py
 *# Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

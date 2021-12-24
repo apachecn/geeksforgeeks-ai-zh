@@ -21,7 +21,7 @@ Pandas `**dataframe.melt()**`函数将数据帧从宽格式取消固定为长格
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to unpivot the dataframe
 df.melt(id_vars =['A'], value_vars =['B'])
 ```
@@ -53,7 +53,7 @@ df.melt(id_vars =['A'], value_vars =['B'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # function to unpivot the dataframe
 # We will also provide a customized name to the value and variable column
 

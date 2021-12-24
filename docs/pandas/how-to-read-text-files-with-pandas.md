@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Read Text Files with Pandas using read_csv()
 
 # importing pandas
@@ -50,7 +50,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Read Text Files with Pandas using read_csv()
 
 # importing pandas
@@ -74,7 +74,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Read Text Files with Pandas using read_csv()
 
 # importing pandas
@@ -99,7 +99,7 @@ print(df)
 
 **语法:**
 
-```
+```py
 data=pandas.read_table('filename.txt', delimiter = ' ')
 ```
 
@@ -107,7 +107,7 @@ data=pandas.read_table('filename.txt', delimiter = ' ')
 
 ## 蟒蛇 3
 
-```
+```py
 # Read Text Files with Pandas using read_table()
 
 # importing pandas
@@ -130,7 +130,7 @@ read_fwf()函数中的 fwf 代表固定宽度的线条。我们可以使用这�
 
 **语法:**
 
-```
+```py
 data=pandas.read_fwf('filename.txt')
 ```
 
@@ -138,7 +138,7 @@ data=pandas.read_fwf('filename.txt')
 
 ## 蟒蛇 3
 
-```
+```py
 # Read Text Files with Pandas using read_fwf()
 
 # importing pandas

@@ -10,7 +10,7 @@
 
 **代码#1:旋转()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.rotate()
 
@@ -40,7 +40,7 @@ print ("\nPolyhedron - rotate form : ", a.array_form)
 
 **代码#2:旋转()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.rotate()
 

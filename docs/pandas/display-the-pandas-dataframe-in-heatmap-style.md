@@ -13,7 +13,7 @@
 **方法 1:通过使用熊猫库**
 在该方法中，熊猫库将用于为其生成数据帧和热图。热图的单元格将显示与数据框相对应的值。下面是实现。
 
-```
+```py
 # Python program to generate a heatmap
 # which displays the value in each cell 
 # corresponding to the given dataframe 
@@ -45,7 +45,7 @@ df.style.background_gradient(cmap ='viridis')\
 **方法 2:通过使用 matplotlib 库**
 在该方法中，熊猫数据帧将显示为热图，其中热图的单元将根据数据帧中的值进行颜色编码。除了热图之外，还会出现一个颜色条，作为图形的图例。下面是实现。
 
-```
+```py
 # Python program to generate a heatmap  
 # which represents panda dataframe
 # in colour coding schemes
@@ -92,7 +92,7 @@ plt.show()
 **方法 3:通过使用 Seaborn 库**
 在该方法中，将从 Panda 数据帧生成热图，其中热图的单元将包含与数据帧相对应的值，并将被颜色编码。除了热图之外，还会出现一个颜色条，作为图形的图例。下面是实现。
 
-```
+```py
 # Python program to generate heatmap which 
 # represents panda dataframe in color-coding schemes
 # along with values mentioned in each cell
@@ -127,7 +127,7 @@ sns.heatmap(df, cmap ='RdYlGn', linewidths = 0.30, annot = True)
 
 > 如果输出图形的最上面和最下面的行没有以适当的高度出现，那么在上面代码的最后一行之后添加下面两行。
 > 
-> ```
+> ```py
 > bottom, top = ax.get_ylim()
 > ax.set_ylim(bottom + 0.5, top - 0.5)
 > ```
@@ -135,7 +135,7 @@ sns.heatmap(df, cmap ='RdYlGn', linewidths = 0.30, annot = True)
 **方法 4:使用熊猫库**
 生成相关矩阵相关矩阵是一种特殊的热图，显示数据帧的一些见解。此热图的单元格显示相关系数，这是数据框变量之间的线性历史关系。在该方法中，仅使用熊猫库来生成相关矩阵。下面是实现。
 
-```
+```py
 # Python program to generate heatmap  
 # which represents correlation between  
 # columns of panda dataframe
@@ -169,7 +169,7 @@ corr.style.background_gradient(cmap ='coolwarm')
 **方法五:使用 Seaborn 库生成相关矩阵**
 相关矩阵也可以使用 Seaborn 库生成。生成的热图的单元将包含相关系数，但是这些值是四舍五入的，不像熊猫库生成的热图。下面是实现。
 
-```
+```py
 # Python program to generate a heatmap  
 # which represents the correlation between  
 # columns of panda dataframe
@@ -205,7 +205,7 @@ sn.heatmap(corr, annot = True)
 
 如果输出图形的最上面和最下面的行没有以适当的高度出现，那么在上面代码的最后一行之后添加下面两行。
 
-```
+```py
 bottom, top = ax.get_ylim()
 ax.set_ylim(bottom + 0.5, top - 0.5)
 ```

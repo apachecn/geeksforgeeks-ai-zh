@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Performing skewtest
 from scipy.stats import skewtest
 import numpy as np 
@@ -31,7 +31,7 @@ print( '\nSkewness test for given data :\n', skewtest(y1))
 
 **输出:**
 
-```
+```py
 
 Skewness test for given data :
  SkewtestResult(statistic=11.874007880556805, pvalue=1.6153913086650964e-32)
@@ -40,7 +40,7 @@ Skewness test for given data :
 
 **代码#2:**
 
-```
+```py
 # Performing skewtest
 from scipy.stats import skewtest
 import numpy as np 
@@ -56,7 +56,7 @@ print( '\nSkewness for data :\n', skewtest(y1))
 
 **输出:**
 
-```
+```py
 
 Skewness for data :
  SkewtestResult(statistic=16.957642860709516, pvalue=1.689888374767126e-64)

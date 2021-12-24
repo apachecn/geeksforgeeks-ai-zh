@@ -5,7 +5,7 @@
 [NumPy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)(numeric Python)是一个 Python 库，由多维数组和众多函数组成，用于对数组执行各种数学和逻辑操作。NumPy 还由各种函数组成，用于执行线性代数运算和生成随机数。NumPy 经常与 SciPy 和 Matplotlib 等软件包一起用于技术计算。
 n 维(多维)数组具有固定的大小，并且包含相同类型的项目。多维数组的内容可以根据需要通过对数组进行索引和切片来访问和修改。为了访问数组的元素，我们需要首先导入库:
 
-```
+```py
 import numpy as np
 ```
 
@@ -14,7 +14,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # 1-dimensional array
 array1D = np.array([1, 2, 3, 4, 5])
 
@@ -33,7 +33,7 @@ print("using negative index :" +str(array1D[-1]))
 
 **输出:**
 
-```
+```py
 [1 2 3 4 5]
 
 using positive index :1
@@ -47,7 +47,7 @@ using negative index :1
 
 ## 蟒蛇 3
 
-```
+```py
 # 2-dimensional array
 array2D = np.array([[93,  95],
                     [84, 100],
@@ -66,7 +66,7 @@ print("slicing using negative indices :" +str(array2D[:, -1]))
 
 **输出:**
 
-```
+```py
 [[ 93  95]
  [ 84 100]
  [ 99  87]]
@@ -84,7 +84,7 @@ slicing using negative indices :[ 95 100  87]
 
 ## 蟒蛇 3
 
-```
+```py
 # 3-dimensional array
 array3D = np.array([[[ 0,  1,  2],
                      [ 3,  4,  5],
@@ -109,7 +109,7 @@ print("accessing sub part of an array :" +str(array3D[1]))
 
 **输出:**
 
-```
+```py
 [[[ 0  1  2]
   [ 3  4  5]
   [ 6  7  8]]

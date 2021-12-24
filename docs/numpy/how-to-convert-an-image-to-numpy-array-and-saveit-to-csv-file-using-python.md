@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from PIL import Image
 import numpy as gfg
@@ -29,7 +29,7 @@ print(imageToMatrice.shape)
 
 **输出:**
 
-```
+```py
 (251, 335, 3)
 ```
 
@@ -41,7 +41,7 @@ print(imageToMatrice.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from matplotlib.image import imread
 
@@ -54,7 +54,7 @@ print(imageToMatrice.shape)
 
 **输出:**
 
-```
+```py
 (251, 335, 3)
 ```
 
@@ -77,7 +77,7 @@ print(imageToMatrice.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as gfg
 import matplotlib.image as img
@@ -135,7 +135,7 @@ if((imageMat == loaded_mat).all()):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as gfg
 import matplotlib.image as img

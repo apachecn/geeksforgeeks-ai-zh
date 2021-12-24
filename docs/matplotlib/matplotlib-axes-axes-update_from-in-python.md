@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.update_from()函数**用于将属性�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt

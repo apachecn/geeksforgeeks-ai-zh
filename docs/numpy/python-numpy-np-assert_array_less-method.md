@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，使用`np.assert_array_less()`方法，如果两个类似数组的对象不相等，则我们能够得到断言错误。
 
-```
+```py
 # import numpy and assert_array_less
 import numpy as np
 import numpy.testing as npt
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and assert_array_less
 import numpy as np
 import numpy.testing as npt

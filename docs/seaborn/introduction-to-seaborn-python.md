@@ -20,14 +20,14 @@ Seaborn 旨在让可视化成为探索和理解数据的核心部分。它提供
 
 对于 python 环境:
 
-```
+```py
 pip install seaborn
 
 ```
 
 对于 conda 环境:
 
-```
+```py
 conda install seaborn
 
 ```
@@ -47,7 +47,7 @@ conda install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 import seaborn as sns
@@ -75,7 +75,7 @@ sns.distplot(d, kde=True, color="m")
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 sns.set(style="dark")
@@ -98,7 +98,7 @@ sns.lineplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 sns.set(style="ticks")

@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.angle() function
 # when we want answer in radian
@@ -31,7 +31,7 @@ print ("output angle in radians : ", out_angle) 
 
 **输出:**
 
-```
+```py
 Input  list :  [2.0, 1j, (1+1j)]
 output angle in radians :  [ 0\.          1.57079633  0.78539816]
 
@@ -39,7 +39,7 @@ output angle in radians :  [ 0\.          1.57079633  0.78539816]
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # numpy.angle() function
 # when we want answer in degrees
@@ -55,7 +55,7 @@ print ("output angle in degrees : ", out_angle) 
 
 **输出:**
 
-```
+```py
 Input  list :  [2.0, 1j, (1+1j)]
 output angle in degrees :  [  0\.  90\.  45.]
 

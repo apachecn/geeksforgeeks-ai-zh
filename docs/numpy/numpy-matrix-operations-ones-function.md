@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.ones() function
 
@@ -30,7 +30,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  Output matrix :  [[ 1\.  1\.  1\.  1.]
  [ 1\.  1\.  1\.  1.]
  [ 1\.  1\.  1\.  1.]]
@@ -39,7 +39,7 @@ Output matrix :  Output matrix :  [[ 1\.  1\.  1\.  1.]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.ones() function
 
@@ -54,7 +54,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[1 1 1 1 1]]
 
 ```

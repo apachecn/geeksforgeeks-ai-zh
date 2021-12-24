@@ -5,19 +5,19 @@
 **numpy.tan(array[，out])= ufunc ' tan ':**这个数学函数帮助用户计算所有 x(作为数组元素)的三角正切。
 T3】参数:
 
-```
+```py
 array    : [array_like]elements are in radians.
 out      : [optional]shape same as array.  
 ```
 
-```
+```py
 2pi Radians = 360 degrees
 tan(x) = sin(x) / cos(x)
 ```
 
 **返回:**
 
-```
+```py
 An array with trigonometric sine
 of x for all x i.e. array elements 
 ```
@@ -26,7 +26,7 @@ of x for all x i.e. array elements
 
 ## 计算机编程语言
 
-```
+```py
 # Python program explaining
 # tan() function
 
@@ -42,7 +42,7 @@ print ("\nTan values : \n", tan_Values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0, 0.7853981633974483, 4.71238898038469, 0.5235987755982988]
 
@@ -54,7 +54,7 @@ Tan values :
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # Graphical representation of
 # tan() function
@@ -78,7 +78,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 in_array :  [ 0\.          0.28559933  0.57119866  0.856798    1.14239733  1.42799666
   1.71359599  1.99919533  2.28479466  2.57039399  2.85599332  3.14159265]
 

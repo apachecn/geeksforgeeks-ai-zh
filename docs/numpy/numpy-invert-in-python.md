@@ -18,7 +18,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # invert() function
 
@@ -32,7 +32,7 @@ print ("inversion of 10 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 inversion of 10 :  -11
 
@@ -40,7 +40,7 @@ inversion of 10 :  -11
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # invert() function
 
@@ -55,7 +55,7 @@ print ("Output array after inversion: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [2, 0, 25]
 Output array after inversion:  [ -3  -1 -26]
 
@@ -63,7 +63,7 @@ Output array after inversion:  [ -3  -1 -26]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # invert() function
 
@@ -78,7 +78,7 @@ print ("Output array after inversion: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [True, False]
 Output array after inversion:  [False  True]
 

@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的 **get_figlabels()方法**用于获取已有�
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -50,7 +50,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import matplotlib.patches as patches

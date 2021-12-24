@@ -12,7 +12,7 @@
 
 **代码#1 : tree_repr()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.tree_repr()
 
@@ -38,7 +38,7 @@ print ("Prufer a tree_repr : ", a.tree_repr)
 
 **代码#2 : tree_repr()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.tree_repr()
 

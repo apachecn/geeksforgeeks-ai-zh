@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`eq()`函数查找数据框和常数之间的比较结果。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 现在找到 dataframe 元素与值 2 的比较。
 
-```
+```py
 # To find the comparison result
 df.eq(2)
 ```
@@ -47,7 +47,7 @@ df.eq(2)
 
 **示例 2:** 使用`eq()`函数测试数据框对象和序列对象之间的相等性
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ df
 
 **注意:**如果数据框和系列对象的索引轴的尺寸不相同，则会出现错误。
 
-```
+```py
 # Creating a pandas series object
 series_object = pd.Series([11, 3, 4, 8])
 
@@ -79,7 +79,7 @@ series_object
 
 现在，沿着索引轴查找 dataframe 对象和 series 对象之间的比较。系列的尺寸和用于比较的数据框轴应该相同。
 
-```
+```py
 # To find the comparison between 
 # dataframe and the series object.
 df.eq(series_object, axis = 0)

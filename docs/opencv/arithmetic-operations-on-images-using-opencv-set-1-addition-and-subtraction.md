@@ -8,7 +8,7 @@
 
 我们可以使用功能 **cv2.add()** 添加两幅图像。这直接将两幅图像中的图像像素相加。
 
-```
+```py
 Syntax: cv2.add(img1, img2)
 ```
 
@@ -33,7 +33,7 @@ Syntax: cv2.add(img1, img2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # addition of two images
@@ -68,7 +68,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 就像加法一样，我们可以减去两幅图像中的像素值，并借助 cv2 .减法()将其合并。图像的大小和深度应该相等。
 
-```
+```py
 Syntax:  cv2.subtract(src1, src2)
 ```
 
@@ -85,7 +85,7 @@ Syntax:  cv2.subtract(src1, src2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # subtraction of pixels of two images

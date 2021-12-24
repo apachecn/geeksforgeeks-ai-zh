@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们能够使用`matrix.std()`方法找到矩阵的标准差。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(geek)
 
 **Output:**
 
-```
+```py
 4.18330013267
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 3.3993463424
 
 ```

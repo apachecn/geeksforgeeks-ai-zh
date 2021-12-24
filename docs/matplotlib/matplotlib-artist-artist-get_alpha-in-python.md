@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_alpha()方法**用于获取用于混
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib 
@@ -60,7 +60,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 

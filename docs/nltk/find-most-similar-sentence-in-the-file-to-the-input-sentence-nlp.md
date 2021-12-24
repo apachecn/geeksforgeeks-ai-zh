@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 File content:
 "This is movie."
 "This is romantic movie"
@@ -34,7 +34,7 @@ Similar sentence to input:
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize, sent_tokenize
 import nltk

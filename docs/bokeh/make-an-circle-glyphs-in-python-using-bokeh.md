@@ -31,7 +31,7 @@
 
 **示例:**
 
-```
+```py
 # Implementation of bokeh function 
 
 import numpy as np  
@@ -64,7 +64,7 @@ show(plot) 
 
 **示例:**
 
-```
+```py
 # Implementation of bokeh function 
 
 import numpy as np  
@@ -97,7 +97,7 @@ show(plot) 
 
 **示例:**
 
-```
+```py
 # Implementation of bokeh function 
 
 import numpy as np  

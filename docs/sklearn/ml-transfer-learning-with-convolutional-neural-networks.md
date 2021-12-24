@@ -19,7 +19,7 @@ ResNet 最初是作为一种解决消失梯度问题的方法而设计的。这�
 
 **代码:**为了正确评估，我们还需要将数据拆分为训练集和测试集。这里，我们需要在每个类别中进行划分，以确保测试集中的适当表示。
 
-```
+```py
 TEST_SPLIT = 0.2
 VALIDATION_SPLIT = 0.2
 
@@ -45,7 +45,7 @@ for cat in os.listdir("101_ObjectCategories/"):
 
 **输出:**
 
-```
+```py
 This above code creates the file structure:
 
 101_ObjectCategories/
@@ -63,7 +63,7 @@ caltech_test/
 
 第一个文件夹包含列车图像，第二个包含测试图像。每个子文件夹都包含属于该类别的图像。为了输入数据，我们将使用 Keras 的 ImageDataGenerator 类。ImageDataGenerator 允许轻松处理图像数据，并具有增强选项。
 
-```
+```py
 # make sure to match original model's preprocessing function
 from keras.applications.resnet50 import preprocess_input 
 from keras.preprocessing.image import ImageDataGenerator
@@ -93,7 +93,7 @@ test_flow = test_gen.flow_from_directory("caltech_test", 
 **模型构建**
 **代码:**添加基础预训练模型。
 
-```
+```py
 from keras.applications.resnet50 import ResNet50
 from keras.layers import GlobalAveragePooling2D, Dense
 from keras.layers import BatchNormalization, Dropout
@@ -113,7 +113,7 @@ res = ResNet50(weights ='imagenet', include_top = False, 
 
 分割后，该数据集相对较小，约为 5628 幅图像，大多数类别只有 50 幅图像，因此微调卷积层可能会导致过度拟合。我们的新数据集与 ImageNet 数据集非常相似，因此我们可以确信许多预先训练的权重也具有正确的特征。因此，我们可以冻结那些经过训练的卷积层，这样当我们训练分类器的其余部分时，它们就不会改变。如果您有一个与原始数据集明显不同的较小数据集，微调可能仍会导致过度拟合，但后面的图层不会包含正确的要素。因此，您可以再次冻结卷积层，但只使用早期层的输出，因为这些层包含更一般的特征。对于大数据集，您不需要担心过度拟合，因此您可以经常微调整个网络。
 
-```
+```py
 from keras.applications.resnet50 import ResNet50
 from keras.layers import GlobalAveragePooling2D, Dense
 from keras.layers import BatchNormalization, Dropout
@@ -133,7 +133,7 @@ res = ResNet50(weights ='imagenet', include_top = False, 
 
 现在，我们可以添加剩余的分类器。这将从预先训练的卷积层获得输出，并将其输入到单独的分类器中，该分类器在新的数据集上进行训练。
 
-```
+```py
 # get the output from the loaded model
 x = res.output 
 
@@ -173,13 +173,13 @@ model.summary() 
 
 **代码:**训练模型
 
-```
+```py
 model.fit_generator(train_flow, epochs = 5, validation_data = valid_flow)
 ```
 
  **输出:**
 
-```
+```py
 Epoch 1/5
 176/176 [==============================] - 27s 156ms/step - loss: 1.6601 - acc: 0.6338 - val_loss: 0.3799 - val_acc: 0.8922
 Epoch 2/5
@@ -195,7 +195,7 @@ Epoch 5/5
 
 **代码:评估测试集**
 
-```
+```py
 result = model.evaluate(test_flow)
 
 print('The model achieved a loss of %.2f and,'
@@ -204,7 +204,7 @@ print('The model achieved a loss of %.2f and,'
 
 **输出:**
 
-```
+```py
 53/53 [==============================] - 5s 95ms/step
 The model achieved a loss of 0.23 and accuracy of 92.80%.
 

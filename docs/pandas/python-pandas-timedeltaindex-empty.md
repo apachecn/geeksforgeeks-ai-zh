@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.empty`属性检查给定的时间增量索引对象是否为空。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(tidx)
 ![](img/866c50f3d2f4d26644ad715e5c073707.png)
 现在我们来检查给定的 TimedeltaIndex 对象是否为空。
 
-```
+```py
 # check if tidx is empty or not
 tidx.empty
 ```
@@ -38,7 +38,7 @@ tidx.empty
 
 **示例 2:** 使用`TimedeltaIndex.empty`属性检查给定的时间增量索引对象是否为空。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(tidx)
 
 现在我们将检查给定的时间增量索引对象是否为空。
 
-```
+```py
 # check if tidx is empty or not
 tidx.empty
 ```

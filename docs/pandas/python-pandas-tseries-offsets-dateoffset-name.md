@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.DateOffset.name**`属性允许您在函数中使用偏
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.name`属性返回应用于给定日期偏移对象的频率名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以从给定的日期向前滚动日期。还返回应用于给定日期偏移对象的频率名称。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -66,7 +66,7 @@ print(do.name)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.name`属性返回应用于给定 DateOffset 对象的关键字参数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以从给定的日期向前滚动日期。还返回应用于给定日期偏移对象的频率名称。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

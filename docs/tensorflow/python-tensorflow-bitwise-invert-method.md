@@ -16,7 +16,7 @@
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 import tensorflow as tf 
 
 # A constant a 
@@ -36,7 +36,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_40:0", shape=(), dtype=int32)
 6
 Output:  Tensor("Invert_4:0", shape=(), dtype=int32)
@@ -46,7 +46,7 @@ Output:  Tensor("Invert_4:0", shape=(), dtype=int32)
 
 **例 2:**
 
-```
+```py
 import tensorflow as tf 
 
 # A constant a 
@@ -66,7 +66,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_39:0", shape=(3, ), dtype=int32)
 [1 4 7]
 Output:  Tensor("Invert_3:0", shape=(3, ), dtype=int32)

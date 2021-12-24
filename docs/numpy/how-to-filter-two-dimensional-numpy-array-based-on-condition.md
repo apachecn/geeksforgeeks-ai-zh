@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 # 2-D Array also called as arrays 

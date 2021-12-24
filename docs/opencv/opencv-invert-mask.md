@@ -8,7 +8,7 @@
 
 例如，如果我们考虑一个面具:
 
-```
+```py
 [ 0 1 0
   0 0 0
   0 1 0 ]
@@ -16,7 +16,7 @@
 
 现在，为了反转这个掩码，我们对每个值执行按位“非”运算，也就是说，0 变为 1，反之亦然:
 
-```
+```py
 [ 1 0 1
   1 1 1
   1 0 1 ]
@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # mask inversion on a b/w image.
 
@@ -100,7 +100,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # mask inversion on a RGB image.
 

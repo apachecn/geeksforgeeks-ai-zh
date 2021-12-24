@@ -35,7 +35,7 @@ Tensorflow 也可以下载安装在不同的操作系统上:
 
 这可以通过使用以下命令来完成:
 
-```
+```py
 pip install --user virtualenv
 ```
 
@@ -43,7 +43,7 @@ pip install --user virtualenv
 
 **步骤 6:** 设置好虚拟环境后，使用以下命令安装 Tensorflow pip 包:
 
-```
+```py
 pip install --upgrade tensorflow 
 ```
 

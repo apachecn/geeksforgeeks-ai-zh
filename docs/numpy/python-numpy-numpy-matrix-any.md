@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.any()`方法，我们能够比较任何两个具有不同维度的矩阵，如果找到任何匹配，则返回 true。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,14 +27,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 True
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 True
 
 ```

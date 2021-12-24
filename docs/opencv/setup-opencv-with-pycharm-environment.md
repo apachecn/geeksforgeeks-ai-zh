@@ -36,7 +36,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 ## 蟒蛇 3
 
-```
+```py
 pip install opencv-python
 ```
 
@@ -48,7 +48,7 @@ pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 print("GeeksForGeeks")
 print("Your OpenCV version is: " + cv2.__version__)
@@ -56,7 +56,7 @@ print("Your OpenCV version is: " + cv2.__version__)
 
 #### 输出:
 
-```
+```py
 GeeksForGeeks
 Your OpenCV version is: 4.4.0
 

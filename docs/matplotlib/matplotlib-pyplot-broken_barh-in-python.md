@@ -26,7 +26,7 @@
 举例说明 matplotlib . pyplot . break _ barh()函数如下:
 **例 1:**
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 
@@ -59,7 +59,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 

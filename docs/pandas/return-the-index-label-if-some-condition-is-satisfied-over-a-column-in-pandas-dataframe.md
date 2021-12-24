@@ -6,7 +6,7 @@
 
 **解决方案#1:** 我们可以使用简单的索引操作来选择列中满足给定条件的所有值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(df)
 
 现在，我们要找出所有‘Updated _ Price’大于 1000 的项目的索引标签。
 
-```
+```py
 # Select all the rows which satisfies the criteria
 # convert the collection of index labels to list.
 Index_label = df[df['Updated Price']>1000].index.tolist()
@@ -45,7 +45,7 @@ print(Index_label)
 
 **解决方案#2:** 我们可以使用 Pandas `Dataframe.query()`函数来选择给定列上满足某个条件的所有行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(df)
 
 现在，我们要找出所有‘Updated _ Price’大于 1000 的项目的索引标签。
 
-```
+```py
 # Select all the rows which satisfies the criteria
 # convert the collection of index labels to list.
 Index_label = df.query('Updated_Price > 1000').index.tolist()

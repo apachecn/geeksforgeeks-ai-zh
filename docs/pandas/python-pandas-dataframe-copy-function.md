@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 #Create Series
@@ -43,7 +43,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 #Assign df to variable_copy
 variable_copy = df
 
@@ -64,7 +64,7 @@ print(variable_copy)
 
 ## 蟒蛇 3
 
-```
+```py
 res = df.copy(deep=True)
 print(res)
 ```

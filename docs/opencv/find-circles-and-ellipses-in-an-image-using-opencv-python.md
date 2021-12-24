@@ -12,7 +12,7 @@ OpenCV 提供了一种方便的方法来检测斑点，并根据不同的特征�
 
 *   **按圆形过滤–**这有助于我们识别更像圆形的形状。
 
-```
+```py
 Circularity = . 
 ```
 
@@ -32,7 +32,7 @@ Circularity = .
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 

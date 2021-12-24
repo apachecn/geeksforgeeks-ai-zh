@@ -6,7 +6,7 @@
 
 矩阵的逆只是矩阵的倒数，就像我们在普通算术中对一个数所做的那样，这个数被用来解方程以找到未知变量的值。矩阵的逆矩阵是与原矩阵相乘后得到的单位矩阵。矩阵的逆只有在矩阵为**非奇异时才存在，即行列式不应为 0** 。利用行列式和伴随式，我们可以很容易地用下面的公式求出方阵的逆矩阵，
 
-```
+```py
 if det(A) != 0
     A-1 = adj(A)/det(A)
 else
@@ -44,7 +44,7 @@ else
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Library
 import numpy as np
 
@@ -85,7 +85,7 @@ print(inverse_array)
 
 **输出:**
 
-```
+```py
 Inverse array is 
 [[-1.5   0.5 ]
  [ 1.25 -0.25]]
@@ -110,7 +110,7 @@ Inverse array is
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required package 
 import numpy as np 
 
@@ -125,7 +125,7 @@ print(np.linalg.inv(A))
 
 **输出:**
 
-```
+```py
 [[[-2\.    1\.  ]
   [ 1.5  -0.5 ]]
 

@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rtruediv()`函数以标量元素方式对给定的 Series 对象执行反向分割。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 ![](img/b56407c43d0d96f5ff21655cb4bc6036.png)
 现在我们将使用`Series.rtruediv()`函数用标量对给定的 Series 对象执行元素式的反向浮动除法。
 
-```
+```py
 # perform reverse floating division with 1000
 selected_items = sr.rtruediv(other = 1000)
 
@@ -52,7 +52,7 @@ print(selected_items)
 
 **示例#2 :** 使用`Series.rtruediv()`函数以标量元素方式对给定的 Series 对象执行反向划分。给定的 Series 对象还包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.rtruediv()`函数对给定的带有标量的 Series 对象执行元素级的反向浮动除法。我们用 100 替换所有缺失的值。
 
-```
+```py
 # perform reverse floating division with 1000
 # Fill all the missing values with 100
 selected_items = sr.rtruediv(other = 1000, fill_value = 100)

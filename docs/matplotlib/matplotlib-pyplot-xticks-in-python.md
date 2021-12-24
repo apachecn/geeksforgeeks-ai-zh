@@ -12,7 +12,7 @@ matplotlib 库 pyplot 模块中的**批注()功能**用于获取和设置 x 轴�
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.xticks(ticks=None, labels=None, **kwargs)
 > ```
 > 
@@ -33,7 +33,7 @@ matplotlib 库 pyplot 模块中的**批注()功能**用于获取和设置 x 轴�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.xticks()
 # function
 
@@ -64,7 +64,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.xticks()
 # function
 

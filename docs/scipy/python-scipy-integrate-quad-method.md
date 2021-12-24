@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.quad()`方法，我们能够通过使用这个方法得到一个多项式从极限 a 到极限 b 的积分。
 
-```
+```py
 # import scipy.integrate.quad
 from scipy import integrate
 gfg = lambda x: x**2
@@ -28,7 +28,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import scipy.integrate.quad
 from scipy import integrate
 gfg = lambda x: x**2 + x + 1

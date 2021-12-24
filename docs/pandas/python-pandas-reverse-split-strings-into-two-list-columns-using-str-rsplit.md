@@ -29,7 +29,7 @@ Pandas 提供了一种方法来围绕传递的分隔符或定界符拆分字符�
 
 在本例中，“团队”列中的字符串在每次出现“t”时都会被拆分。n 参数保持为 1，因此同一字符串中的最大拆分数为 1。由于使用了 rsplit()，字符串将从右侧分开。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -56,7 +56,7 @@ data
 
 n 参数保持为 1，因为也可以有中间名(字符串中不止一个空格)。在这种情况下，rsplit()很有用，因为它从右侧计数，因此中间名字符串将包含在名字列中，因为最大分色数保持为 1。
 
-```
+```py
 # importing pandas module  
 import pandas as pd 
 

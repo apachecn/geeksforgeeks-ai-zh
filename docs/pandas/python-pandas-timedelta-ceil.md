@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 import datetime
@@ -30,13 +30,13 @@ print(td.ceil('S'))
 
 **输出:**
 
-```
+```py
 0 days 00:00:06
 ```
 
 **代码#2:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 import datetime
@@ -51,13 +51,13 @@ print(td.ceil('H'))
 
 **输出:**
 
-```
+```py
  0 days 14:00:00
 ```
 
 **代码#3:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 from datetime import datetime
@@ -72,6 +72,6 @@ print(td.ceil('D'))
 
 **输出:**
 
-```
+```py
  8 days 00:00:00
 ```

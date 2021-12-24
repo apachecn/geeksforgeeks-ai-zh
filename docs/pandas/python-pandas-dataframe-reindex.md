@@ -24,7 +24,7 @@ Pandas `**dataframe.reindex()**`函数通过可选的填充逻辑使数据帧符
 **示例#1:** 使用`reindex()`功能重新索引数据帧。默认情况下，新索引中在 dataframe 中没有相应记录的值被分配给 NaN。
 **注意:**我们可以通过向关键字 fill_value 传递一个值来填充缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ df
 
 让我们使用`dataframe.reindex()`函数来重新索引数据帧
 
-```
+```py
 # reindexing with new index values
 df.reindex(["first", "dues", "trois", "fourth", "fifth"])
 ```
@@ -52,7 +52,7 @@ df.reindex(["first", "dues", "trois", "fourth", "fifth"])
 ![](img/01a71892c1676b3f95fab30f9d83696b.png)
 注意输出，新的索引填充了`NaN`值，我们可以使用参数 fill_value 来填充缺失的值
 
-```
+```py
 # filling the missing values by 100
 df.reindex(["first", "dues", "trois", "fourth", "fifth"], fill_value = 100)
 ```
@@ -62,7 +62,7 @@ df.reindex(["first", "dues", "trois", "fourth", "fifth"], fill_value = 100)
 
 **示例 2:** 使用`reindex()`功能重新索引列轴
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ df.reindex(columns =["A", "B", "D", "E"])
 ![](img/7ec4b40f5a74a0fe2f431e17a67a1189.png)
 注意，我们在重新索引后的新列中有`NaN`值，我们可以在重新索引时处理丢失的值。通过向函数传递参数`fill_value` 。
 
-```
+```py
 # reindex the columns
 # fill the missing values by 25
 df.reindex(columns =["A", "B", "D", "E"], fill_value = 25)

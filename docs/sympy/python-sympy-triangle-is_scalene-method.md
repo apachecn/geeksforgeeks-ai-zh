@@ -4,7 +4,7 @@
 
 In Sympy, the function `Triangle.is_scalene()` is used to check whether the given triangle is Scalene Triangle or not. Scalene Triangle is the triangle in which all the sides are of different lengths.
 
-```
+```py
 Syntax: Triangle.is_scalene()
 
 Returns: 
@@ -14,7 +14,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -28,13 +28,13 @@ print(isScalene)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -48,6 +48,6 @@ print(isScalene)
 
 **输出:**
 
-```
+```py
 False
 ```

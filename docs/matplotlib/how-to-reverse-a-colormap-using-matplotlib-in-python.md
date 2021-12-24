@@ -42,7 +42,7 @@ Matplotlib 有许多内置的彩色地图。颜色映射只是将整数数据/�
 
 ## 计算机编程语言
 
-```
+```py
 # importing the necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np 
@@ -81,7 +81,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np 
@@ -128,7 +128,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt 
@@ -164,7 +164,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt 

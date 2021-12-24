@@ -8,7 +8,7 @@
 
 让我们使用`nba.csv`创建一个数据帧。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -30,7 +30,7 @@ data_top
 
 **方法#1:**
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -48,7 +48,7 @@ data.head()
 
 **方法 2:** 使用λ配合`upper()`方法
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 

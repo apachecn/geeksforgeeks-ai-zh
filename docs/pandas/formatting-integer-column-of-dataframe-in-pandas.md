@@ -8,7 +8,7 @@
 
 **代码#1 :** 将列值四舍五入到两位小数。
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print('\nResult :\n', dataframe)
 
 **代码#2 :** 用逗号格式化“费用”列，并四舍五入到两位小数。
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print('\nResult :\n', dataframe)
 
 **代码#3 :** 用逗号和带两位小数的美元符号格式化“费用”列。
 
-```
+```py
 # import pandas lib as pd
 import pandas as pd
 

@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.count() method 
 
@@ -32,7 +32,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Sayantan' ' Sayan ' 'Sayansubhra']
 Output array:  [2 1 1]
 
@@ -40,7 +40,7 @@ Output array:  [2 1 1]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.count() method 
 
@@ -58,7 +58,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Sayantan' ' Sayan ' 'Sayansubhra']
 Output array:  [3 2 2]
 

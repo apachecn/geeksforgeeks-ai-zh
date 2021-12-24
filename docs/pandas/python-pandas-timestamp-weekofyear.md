@@ -14,7 +14,7 @@ Pandas `**Timestamp.weekofyear**`属性返回一个整数值，该整数值是�
 
 **示例#1:** 使用`Timestamp.weekofyear`属性查找给定 Timestamp 对象的日期所在的周的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekofyear`属性来查找周的序数
 
-```
+```py
 # return the week number
 ts.weekofyear
 ```
@@ -45,7 +45,7 @@ ts.weekofyear
 
 **示例#2:** 使用`Timestamp.weekofyear`属性查找给定 Timestamp 对象的日期所在的周的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekofyear`属性来查找周的序数
 
-```
+```py
 # return the week number
 ts.weekofyear
 ```

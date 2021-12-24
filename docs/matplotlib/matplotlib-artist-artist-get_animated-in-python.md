@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_animated()方法**用于获取动画
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import numpy as np 
@@ -51,13 +51,13 @@ plt.show()
 **输出:**
 ![](img/e8951b6d0c17c24075f7fd48163a6c01.png)
 
-```
+```py
 True
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import numpy as np 
@@ -98,6 +98,6 @@ plt.show()
 **输出:**
 ![](img/e562bd41c1ced497062fe8035efb3127.png)
 
-```
+```py
 False
 ```

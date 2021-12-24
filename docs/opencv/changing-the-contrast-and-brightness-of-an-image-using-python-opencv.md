@@ -19,7 +19,7 @@
 
 安装:
 
-```
+```py
 pip install openCV
 ```
 
@@ -44,7 +44,7 @@ pip install openCV
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     # The function imread loads an
     # image from the specified file and returns it.
@@ -90,7 +90,7 @@ cv2.waitKey(0)
 
 ## 蟒蛇 3
 
-```
+```py
 def BrightnessContrast(brightness=0):
 
     # getTrackbarPos returns the
@@ -136,7 +136,7 @@ def BrightnessContrast(brightness=0):
 
 ## 蟒蛇 3
 
-```
+```py
 def controller(img, brightness=255, contrast=127):
     brightness = int((brightness - 0) * (255 - (-255)) / (510 - 0) + (-255))
 
@@ -190,7 +190,7 @@ def controller(img, brightness=255, contrast=127):
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 def BrightnessContrast(brightness=0):

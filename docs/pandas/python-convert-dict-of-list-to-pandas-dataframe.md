@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 pandas.DataFrame.from_dict(dictionary)
 ```
 
@@ -20,7 +20,7 @@ pandas.DataFrame.from_dict(dictionary)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -44,7 +44,7 @@ pd.DataFrame.from_dict(data)
 
 **语法**:
 
-```
+```py
 pd.DataFrame.from_dict(data,orient='index')
 ```
 
@@ -52,7 +52,7 @@ pd.DataFrame.from_dict(data,orient='index')
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -79,7 +79,7 @@ pd.DataFrame.from_dict(data, orient='index')
 
 **语法:**
 
-```
+```py
 pd.DataFrame({ key: pd.Series(val) for key, val in dictionary.items() })
 ```
 
@@ -92,7 +92,7 @@ pd.DataFrame({ key: pd.Series(val) for key, val in dictionary.items() })
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

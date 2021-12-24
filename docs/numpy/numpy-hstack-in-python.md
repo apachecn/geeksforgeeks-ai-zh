@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # hstack() function
 
@@ -33,7 +33,7 @@ print ("Output horizontally stacked array:\n ", out_arr)
 
 **Output:**
 
-```
+```py
 1st Input array : 
  [1 2 3]
 2nd Input array : 
@@ -45,7 +45,7 @@ Output horizontally stacked array:
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # hstack() function
 
@@ -65,7 +65,7 @@ print ("Output stacked array :\n ", out_arr)
 
 **Output:**
 
-```
+```py
 1st Input array : 
  [[ 1  2  3]
  [-1 -2 -3]]

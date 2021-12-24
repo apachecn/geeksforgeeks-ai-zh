@@ -6,7 +6,7 @@ Pandas insert 方法允许用户在数据框或系列(一维数据框)中插入�
 例如，连列位置都无法确定，因此插入的列总是插入到最后一个位置。
 **语法:**
 
-```
+```py
 DataFrameName.insert(loc, column, value, allow_duplicates = False)
 ```
 
@@ -23,7 +23,7 @@ DataFrameName.insert(loc, column, value, allow_duplicates = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -42,7 +42,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -67,7 +67,7 @@ data.head()
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

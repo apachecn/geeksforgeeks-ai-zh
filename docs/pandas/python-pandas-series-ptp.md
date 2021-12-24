@@ -20,7 +20,7 @@
 
 **示例#1:** 使用`Series.ptp()`函数返回给定 Series 对象中基础数据的最大值和最小值之间的差值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.ptp()`函数来查找给定序列对象中最大值和最小值之间的差异。
 
-```
+```py
 # return the difference between the 
 # maximum and the minimum value
 result = sr.ptp()
@@ -60,7 +60,7 @@ print(result)
 
 **示例#2:** 使用`Series.ptp()`函数返回给定 Series 对象中基础数据的最大值和最小值之间的差值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.ptp()`函数来查找给定序列对象中最大值和最小值之间的差异。
 
-```
+```py
 # return the difference between the 
 # maximum and the minimum value
 result = sr.ptp()
@@ -94,7 +94,7 @@ print(result)
 
 **示例#3:** 使用`Series.ptp()`函数返回给定 Series 对象中基础数据的最大值和最小值之间的差值。给定的序列对象中包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -111,7 +111,7 @@ print(sr)
 
 现在我们将使用`Series.ptp()`函数来查找给定序列对象中最大值和最小值之间的差异。我们将跳过计算中缺失的值。
 
-```
+```py
 # return the difference between the 
 # maximum and the minimum value
 result = sr.ptp(skipna = True)

@@ -6,7 +6,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -32,7 +32,7 @@ display(series.mode());
 
 **例 2 :** 将除最频繁元素外的所有元素替换为无。
 
-```
+```py
 # importing the module
 import pandas as pd
 

@@ -6,7 +6,7 @@
 
 **例:**我们举一个由学生考试成绩数据组成的数据框架的例子。
 
-```
+```py
 # importing pandas 
 import pandas as pd
 result_data = {'name': ['Katherine', 'James', 'Emily',
@@ -35,7 +35,7 @@ print("Number of Columns: ", cols)
 
 **示例:**我们举一个由产品销售数据组成的数据框架的例子。
 
-```
+```py
 # importing pandas 
 import pandas as pd
 
@@ -63,7 +63,7 @@ print("Number of Columns: ", len(df.axes[1]))
 
 **示例:**这里，我们将尝试一种不同的方法来计算导入的 csv 文件的数据帧的行和列。
 
-```
+```py
 # importing pandas
 import pandas as pd
 

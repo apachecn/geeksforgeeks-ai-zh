@@ -7,7 +7,7 @@
 一个**信号**是一个电磁场或者电流来传输数据。信号有各种成分，如频率、振幅、波长、相位、角频率和描述它的周期。
 周期信号可以用下面的正弦函数表示:
 
-```
+```py
 y = A sin(w*t + Q)
 
 ```
@@ -19,7 +19,7 @@ y = A sin(w*t + Q)
 在 Python 中，Python `matplotlib`库的`pyplot`模块中的`magnitude_spectrum()`方法绘制周期信号的幅度谱。下面是一些演示使用`magnitude_spectrum()`方法来可视化不同周期信号的幅度谱的程序。
 **例 1:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 
@@ -52,7 +52,7 @@ pyplot.show()
 
 **例 2:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 
@@ -85,7 +85,7 @@ pyplot.show()
 
 **例 3:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 

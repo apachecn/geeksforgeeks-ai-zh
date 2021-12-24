@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to multpliply two 
 # csc matrices using multiply()
 
@@ -64,7 +64,7 @@ print("Product Sparse Matrix:\n",
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to multpliply two 
 # csr matrices using multiply()
 
@@ -111,7 +111,7 @@ print("Product Sparse Matrix:\n",sparseMatrix_AB.toarray() )
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to multpliply  
 # csc and csr matrices using multiply()
 

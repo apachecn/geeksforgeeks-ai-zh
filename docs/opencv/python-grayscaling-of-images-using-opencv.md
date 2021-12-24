@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import opencv
 import cv2
 
@@ -47,7 +47,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import opencv
 import cv2
 
@@ -70,7 +70,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import opencv
 import cv2
 

@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -46,7 +46,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # shift index axis by two periods in positive direction
 # axis = 0 is set by default
 df.shift(2, axis = 0)
@@ -60,7 +60,7 @@ df.shift(2, axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # shift index axis by two periods in negative direction
 # axis = 0 is set by default
 df.shift(-2, axis = 0)
@@ -74,7 +74,7 @@ df.shift(-2, axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -102,7 +102,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # shift column axis by two periods in positive direction
 df.shift(2, axis = 1)
 ```
@@ -113,7 +113,7 @@ df.shift(2, axis = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # shift column axis by two periods in negative direction
 df.shift(-2, axis = 1)
 ```

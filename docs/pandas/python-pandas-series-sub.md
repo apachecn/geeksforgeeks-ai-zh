@@ -23,7 +23,7 @@ Python **`Series.sub()`** 是用来从调用者序列中减去序列或者列表
 
 在本例中，前 5 行使用存储在新变量中。head()方法。之后，创建一个相同长度的列表，并使用。sub()方法
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -52,7 +52,7 @@ short_data
 
 在本例中，从“薪资”列中减去“年龄”列。由于薪资列也包含空值，默认情况下，无论减去什么，它都会返回 NaN。在本例中，传递 20，用 20 替换空值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

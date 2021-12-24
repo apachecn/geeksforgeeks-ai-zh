@@ -11,7 +11,7 @@
 
 **代码#1:它是如何工作的？**
 
-```
+```py
 # Loading Libraries
 from nltk.tag import DefaultTagger
 
@@ -24,7 +24,7 @@ tagging.tag(['Hello', 'Geeks'])
 
 **输出:**
 
-```
+```py
 [('Hello', 'NN'), ('Geeks', 'NN')]
 
 ```
@@ -40,7 +40,7 @@ tagging.tag(['Hello', 'Geeks'])
 
 **代码#2:标注句子**
 
-```
+```py
 # Loading Libraries
 from nltk.tag import DefaultTagger
 
@@ -52,7 +52,7 @@ tagging.tag_sents([['welcome', 'to', '.'], ['Geeks', 'for', 'Geeks']])
 
 **输出:**
 
-```
+```py
 [[('welcome', 'NN'), ('to', 'NN'), ('.', 'NN')],
  [('Geeks', 'NN'), ('for', 'NN'), ('Geeks', 'NN')]]
 
@@ -62,14 +62,14 @@ tagging.tag_sents([['welcome', 'to', '.'], ['Geeks', 'for', 'Geeks']])
 
 **代码#3:说明如何卸载。**
 
-```
+```py
 from nltk.tag import untag
 untag([('Geeks', 'NN'), ('for', 'NN'), ('Geeks', 'NN')])
 ```
 
 **输出:**
 
-```
+```py
 ['Geeks', 'for', 'Geeks']
 
 ```

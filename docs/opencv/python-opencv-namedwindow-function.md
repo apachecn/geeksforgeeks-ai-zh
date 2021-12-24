@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.namedWindow() method
 
 # Importing OpenCV
@@ -72,7 +72,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to explain namedWindow() method
 
 # Importing OpenCV

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以说通过使用`DataFrame.to_latex()`方法，我们能够获得 latex 文档形式的数据帧。
 
-```
+```py
 # import DataFrame
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(gfg.to_latex(index = True, multirow = True))
 
 **例 2 :**
 
-```
+```py
 # import DataFrame
 import pandas as pd
 

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.WhitespaceTokenizer()`方法，我们能够从单词流中提取标记。
 
-```
+```py
 # import WhitespaceTokenizer() method from nltk
 from nltk.tokenize import WhitespaceTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import WhitespaceTokenizer() method from nltk
 from nltk.tokenize import WhitespaceTokenizer
 

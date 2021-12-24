@@ -4,7 +4,7 @@
 
 In Sympy, the function `perpendicular_bisector()` is used to find the perpendicular bisector of the given segment. If no point is specified or the point specified is not on the bisector then the bisector is returned as a Line. Otherwise, a Segment is returned that joins the point specified and the intersection of the bisector and the segment.
 
-```
+```py
 Syntax: Segment.perpendicular_bisector(p=None)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Segment
 from sympy import Point, Segment
 
@@ -32,13 +32,13 @@ print(perpendicularBisector)
 
 **输出:**
 
-```
+```py
 Line2D(Point2D(3, 3), Point2D(-3, 9))
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Segment
 from sympy import Point, Segment
 
@@ -53,6 +53,6 @@ print(perpendicularBisector)
 
 **输出:**
 
-```
+```py
 Segment2D(Point2D(5, 1), Point2D(3, 3))
 ```

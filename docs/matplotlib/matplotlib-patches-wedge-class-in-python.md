@@ -65,7 +65,7 @@ kwargs 属性如下表所示:
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 from matplotlib.patches import Circle, Wedge, Polygon
 from matplotlib.collections import PatchCollection
@@ -127,7 +127,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

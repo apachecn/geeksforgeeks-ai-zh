@@ -10,14 +10,14 @@
 
 要安装软件包，请在 ubuntu/Linux 的终端或窗口命令提示符下编写以下代码。
 
-```
+```py
 pip install matplotlib
 pip install seaborn
 ```
 
 **数据集的属性信息:**
 
-```
+```py
 Attribute Information:
    -> sepal length in cm
    -> sepal width in cm
@@ -48,7 +48,7 @@ Class Distribution: 33.3% for each of 3 classes.
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ print (data.head(10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 iris = pd.read_csv("Iris.csv")
@@ -81,7 +81,7 @@ plt.show
 
 ## 蟒蛇 3
 
-```
+```py
 iris.plot(kind ="scatter",
           x ='SepalLengthCm',
           y ='PetalLengthCm')
@@ -94,7 +94,7 @@ plt.grid()
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 iris = sns.load_dataset('iris')

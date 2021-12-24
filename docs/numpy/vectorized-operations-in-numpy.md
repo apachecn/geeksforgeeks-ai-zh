@@ -8,7 +8,7 @@ Numpy 数组本质上是同构的，这意味着它是一个只包含单一类�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import numpy as np
 import timeit

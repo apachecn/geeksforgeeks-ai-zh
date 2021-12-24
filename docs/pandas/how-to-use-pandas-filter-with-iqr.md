@@ -4,7 +4,7 @@
 
 **IQR 或四分位数区间**是用于测量给定数据可变性的统计测量值。用天真的话来说，它告诉我们大部分数据位于什么范围内。它可以通过取数据集中第三个四分位数和第一个四分位数之间的差值来计算。
 
-```
+```py
 IQR = Q3 - Q1
 ```
 
@@ -18,7 +18,7 @@ IQR = Q3 - Q1
 
 ## 计算机编程语言
 
-```
+```py
 # Importing important libraries
 import numpy as np
 import pandas as pd
@@ -31,7 +31,7 @@ plt.style.use('seaborn')
 
 ## 计算机编程语言
 
-```
+```py
 # Reading the dataset
 data = pd.read_csv('Dataset.csv')
 print("The shape of the dataframe is: ", data.shape)
@@ -39,7 +39,7 @@ print("The shape of the dataframe is: ", data.shape)
 
 **输出:**
 
-```
+```py
  The shape of the dataframe is:  (20, 4)
 ```
 
@@ -49,7 +49,7 @@ print("The shape of the dataframe is: ", data.shape)
 
 ## 计算机编程语言
 
-```
+```py
 print(data)
 ```
 
@@ -61,7 +61,7 @@ print(data)
 
 ## 计算机编程语言
 
-```
+```py
 data.describe()
 ```
 
@@ -75,7 +75,7 @@ data.describe()
 
 ## 计算机编程语言
 
-```
+```py
 plt.figure(figsize=(6,4))
 sns.boxplot(data['Height (in cm)'])
 plt.show()

@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的**Axis . get _ ymjorticklabels()函数**用�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
@@ -47,7 +47,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

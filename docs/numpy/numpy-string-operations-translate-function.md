@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.core.defchararray.translate() method 
 
@@ -36,7 +36,7 @@ print ("Output translated array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input original array :  ['Weeks' 'our' 'Weeks']
 Output translated array:  ['Geeks' 'for' 'Geeks']
 

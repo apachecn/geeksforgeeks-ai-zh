@@ -49,7 +49,7 @@
 3.  使用`merge()`功能将它们组合起来。
 4.  使用`to_excel()`功能，创建结果文件。
 
-```
+```py
 # importing the module
 import pandas
 

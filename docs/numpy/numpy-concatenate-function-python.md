@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.concatenate() function
 
@@ -30,7 +30,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[2 4]
  [6 8]
  [3 5]
@@ -40,7 +40,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.concatenate() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[2 4 3 5]
  [6 8 7 9]]
 
@@ -65,7 +65,7 @@ print (gfg)
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.concatenate() function
 
@@ -82,7 +82,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [2 4 6 8 3 5 7 9]
 
 ```

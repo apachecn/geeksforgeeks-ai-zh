@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.select()`功能从给定的系列对象中选择其索引标签以偶数结尾的所有城市的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.select()`函数选择所有那些城市的名称，这些城市的索引标签以偶数整数值结束。
 
-```
+```py
 # Define a function to  Select those cities whose index
 # label's last character is an even integer
 def city_even(city):
@@ -64,7 +64,7 @@ print(selected_cities)
 
 **示例 2:** 使用`Series.select()`功能从给定的系列对象中选择“可口可乐”和“雪碧”的销售额。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(sr)
 
 现在我们将使用`Series.select()`功能从给定的 Series 对象中选择所列饮料的销量。
 
-```
+```py
 # Function to select the sales of 
 # Coca Cola and Sprite
 def show_sales(x):

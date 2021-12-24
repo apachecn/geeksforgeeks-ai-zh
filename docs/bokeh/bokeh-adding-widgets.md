@@ -31,7 +31,7 @@ Bokeh 是一个 Python 数据可视化库，用于创建交互式图表和绘图
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import Button
@@ -59,7 +59,7 @@ show(widgetbox(b1))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import Dropdown
@@ -90,7 +90,7 @@ show(widgetbox(dropdown_menu))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import CheckboxButtonGroup
@@ -118,7 +118,7 @@ show(widgetbox(cbg))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import RadioButtonGroup
@@ -148,7 +148,7 @@ show(widgetbox(radio_button))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import Select
@@ -177,7 +177,7 @@ show(widgetbox(select))
 
 ## 蟒蛇 3
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.layouts import widgetbox
 from bokeh.models.widgets import Slider

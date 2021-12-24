@@ -22,7 +22,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # maximum() function
 
@@ -39,7 +39,7 @@ print ("maximum of 10 and 21 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  21
 maximum of 10 and 21 :  21
@@ -48,7 +48,7 @@ maximum of 10 and 21 :  21
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # maximum() function
 
@@ -66,7 +66,7 @@ print ("Output array after selecting maximum: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 15]
 Output array after selecting maximum:  [  3   8 125]
@@ -75,7 +75,7 @@ Output array after selecting maximum:  [  3   8 125]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # maximum() function
 
@@ -93,7 +93,7 @@ print ("Output array after selecting maximum: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [nan, 0, nan]
 Input array2 :  [nan, nan, 0]
 Output array after selecting maximum:  [ nan  nan  nan]

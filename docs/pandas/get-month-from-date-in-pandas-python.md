@@ -6,7 +6,7 @@
 
 **例 1**
 
-```
+```py
 import pandas as pd
 
 dti = pd.date_range('2020-07-01', periods = 4, freq ='M')
@@ -15,7 +15,7 @@ print(dti.month)
 
 **输出:**
 
-```
+```py
 Int64Index([7, 8, 9, 10], dtype='int64')
 
 ```

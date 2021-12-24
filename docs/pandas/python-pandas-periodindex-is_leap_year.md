@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.is_leap_year**`属性返回对应于 PeriodIndex 对象中
 
 **示例#1:** 使用`PeriodIndex.is_leap_year`属性检查给定周期索引对象中的每个元素，无论它是否是闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.is_leap_year`属性来检查给定的年份是否是闰年。
 
-```
+```py
 # check for leap year
 pidx.is_leap_year
 ```
@@ -43,7 +43,7 @@ pidx.is_leap_year
 
 **示例 2:** 使用`PeriodIndex.is_leap_year`属性检查给定 PeriodIndex 对象中的每个元素，无论它是否是闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.is_leap_year`属性来检查给定的年份是否是闰年。
 
-```
+```py
 # check for leap year
 pidx.is_leap_year
 ```

@@ -6,7 +6,7 @@ Matplotlib 是一个用 Python 创建交互式可视化的库。matplotlib 中�
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.legend(*args, **kwargs)
 ```
 
@@ -24,7 +24,7 @@ matplotlib.pyplot.legend(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

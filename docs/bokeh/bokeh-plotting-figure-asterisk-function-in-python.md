@@ -50,7 +50,7 @@ bokeh 库绘图模块中的**星号()功能**用于配置星号字形并添加�
 以下示例说明了 bokeh .标绘中的 bokeh .标绘.图.星号()函数:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -68,7 +68,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

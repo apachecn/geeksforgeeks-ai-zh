@@ -18,7 +18,7 @@
 
 **示例#1:** 顺时针旋转 90 度
 
-```
+```py
 # Python program to explain cv2.rotate() method
 
 # importing cv2
@@ -48,7 +48,7 @@ cv2.waitKey(0)
 
 **例 2:** 顺时针旋转 180 度
 
-```
+```py
 # Python program to explain cv2.rotate() method
 
 # importing cv2
@@ -78,7 +78,7 @@ cv2.waitKey(0)
 
 **例 3:** 顺时针旋转 270 度
 
-```
+```py
 # Python program to explain cv2.rotate() method
 
 # importing cv2

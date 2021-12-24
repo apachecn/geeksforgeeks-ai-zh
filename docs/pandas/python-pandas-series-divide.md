@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.divide()`函数用标量对给定的序列对象执行浮点除法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.divide()`函数用标量对给定的序列对象执行浮点除法。
 
-```
+```py
 # perform floating division
 result = sr.divide(other = 2)
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2 :** 使用`Series.divide()`函数对给定的序列对象执行标量的浮点除法。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.divide()`函数用标量对给定的序列对象执行浮点除法。我们将在所有缺少值的地方填充 50。
 
-```
+```py
 # perform floating division
 # fill 50 at the place of missing values
 result = sr.divide(other = 2, fill_value = 50)

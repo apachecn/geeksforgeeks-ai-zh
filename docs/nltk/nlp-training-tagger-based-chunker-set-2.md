@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.chunk.util import tree2conlltags, conlltags2tree
 from nltk.tree import Tree
 
@@ -39,7 +39,7 @@ print ("\nconll_tag_chunnks for tree : \n", conll_tag_chunks([t]))
 
 **输出:**
 
-```
+```py
 Tree2conlltags : 
 [('the', 'DT', 'B-NP'), ('book', 'NN', 'I-NP')]
 
@@ -54,7 +54,7 @@ conll_tag_chunnks for tree :
 
 ## 蟒蛇 3
 
-```
+```py
 from chunkers import TagChunker
 from nltk.corpus import conll2000
 
@@ -79,7 +79,7 @@ print ("\nRecall of TagChunker : ", r)
 
 **输出:**
 
-```
+```py
 Accuracy of TagChunker : 0.8950545623403762
 
 Precision of TagChunker : 0.8114841974355675
@@ -93,7 +93,7 @@ Recall of TagChunker : 0.8644191676944863
 
 ## 蟒蛇 3
 
-```
+```py
 # loading libraries
 from chunkers import TagChunker
 from nltk.tag import UnigramTagger
@@ -110,7 +110,7 @@ print ("Accuracy of TagChunker : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of TagChunker : 0.9674925924335466
 ```
 

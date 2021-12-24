@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.pop()`函数从给定的序列对象中弹出一个元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.pop()`函数弹出给定系列对象中“精灵”的条目。
 
-```
+```py
 # pop the passed index label from
 # series object
 result = sr.pop(item = 'Sprite')
@@ -60,7 +60,7 @@ print(sr)
 
 **示例 2 :** 使用`Series.pop()`函数从给定的序列对象中弹出一个元素。给定的序列对象中包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.pop()`函数弹出给定 Series 对象中第一个索引标签对应的条目。
 
-```
+```py
 # pop the passed index label from
 # series object
 result = sr.pop(item = 1)

@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.values`属性将给定序列对象中的值作为数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(sr)
 
 现在我们将使用`Series.values`属性返回给定序列对象的值作为数组。
 
-```
+```py
 # return an ndarray
 sr.values
 ```
@@ -47,7 +47,7 @@ sr.values
 
 **示例 2 :** 使用`Series.values`属性将给定序列对象中的值作为数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们将使用`Series.values`属性返回给定序列对象的值作为数组。
 
-```
+```py
 # return an ndarray
 sr.values
 ```

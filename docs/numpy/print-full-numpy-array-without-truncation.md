@@ -10,7 +10,7 @@ Numpy 是 python 的基础库，用于执行科学计算。它提供高性能多
 
 打印从 0 到 1000 的数字
 
-```
+```py
 import numpy as np
 arr = np.arange(1001)
 print(arr)

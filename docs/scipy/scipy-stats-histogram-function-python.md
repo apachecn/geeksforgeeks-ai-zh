@@ -19,7 +19,7 @@
 
 **代码#1:**
 
-```
+```py
 # building the histogram 
 import scipy
 import numpy as np 
@@ -40,7 +40,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 No. of points in each bin :  [0 2 4 1]
 Size of the bins          :  [0 1 2 3 4]
 

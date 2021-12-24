@@ -30,7 +30,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 
 prog_langs = ['python', 'c++', 'java', 'ruby']
@@ -54,7 +54,7 @@ print(np.random.choice(prog_langs, size=10,
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 
 samples = 5
@@ -82,7 +82,7 @@ print(np.random.choice(samples, size=15,
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 
 prog_langs = ['python', 'c++', 'java', 'ruby']
@@ -104,7 +104,7 @@ print(np.random.choice(prog_langs, size=(10, 2),
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 
 samples = 5

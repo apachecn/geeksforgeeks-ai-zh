@@ -19,7 +19,7 @@ matplotlib 库的轴模块中的 **Axis.get_units()函数**用于获取轴的单
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import random
@@ -64,7 +64,7 @@ plt.show()
 
 ![](img/d5b2888ac6375ee2a55a5d071818f0d5.png)
 
-```
+```py
 Value return by get_units() : centimeters
 
 ```
@@ -73,7 +73,7 @@ Value return by get_units() : centimeters
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np
@@ -105,7 +105,7 @@ plt.show()
 
 ![](img/56a83c176fae6280e56d8576c8008a94.png)
 
-```
+```py
 Value return by get_units() : seconds
 
 ```

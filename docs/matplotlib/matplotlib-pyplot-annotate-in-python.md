@@ -28,7 +28,7 @@ matplotlib 库 pyplot 模块中的**注释()功能**用于用文本 s 注释点 
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.annotate()
 # function
 
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.annotate()
 # function
 

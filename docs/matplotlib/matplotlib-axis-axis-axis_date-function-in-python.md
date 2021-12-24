@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的 **Axis.axis_date()函数**用于设置将沿
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import datetime as dt
@@ -49,7 +49,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from datetime import datetime 

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required library
 import seaborn as sns 
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Since the above data is in wide
 # form we convert it into long
 # form using melt function
@@ -59,7 +59,7 @@ print(data_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Create boxplot and add palette
 # with predefined values like Paired, Set1, etc
 sns.boxplot(x="Pulses", y="Tons Consumed",
@@ -74,7 +74,7 @@ sns.boxplot(x="Pulses", y="Tons Consumed",
 
 ## 蟒蛇 3
 
-```
+```py
 sns.boxplot(x="Pulses", y="Tons Consumed",
             data=data_df, palette="Set1")
 ```
@@ -113,7 +113,7 @@ sns.boxplot(x="Pulses", y="Tons Consumed",
 
 ## 蟒蛇 3
 
-```
+```py
 #create your own color array
 my_colors = ["#9b59b6", "#3498db", 
              "#2ecc71", "#006a4e"]

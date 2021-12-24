@@ -19,7 +19,7 @@
 
 **代码#1:创建β素连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import betaprime
 
@@ -32,7 +32,7 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000029482FCC438>
 
@@ -40,7 +40,7 @@ RV :
 
 **代码# 2:β素随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -55,7 +55,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 1.59603917  1.92408727  1.2120992   0.34064091  2.68681773 22.99956678
   1.45523032  2.93360219 23.93717261 18.04203815]
@@ -68,7 +68,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -80,7 +80,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
  0.6122449  0.71428571 0.81632653 0.91836735 1.02040816 1.12244898
@@ -97,7 +97,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 from scipy.stats import arcsine
 import matplotlib.pyplot as plt
 import numpy as np

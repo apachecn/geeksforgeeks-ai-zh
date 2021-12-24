@@ -19,7 +19,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ravel_multi_index() function
 
@@ -35,14 +35,14 @@ print(gfg) 
 
 **输出:**
 
-```
+```py
 [22 41 37]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ravel_multi_index() function
 
@@ -58,14 +58,14 @@ print(gfg) 
 
 **输出:**
 
-```
+```py
 [31 41 13]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.ravel_multi_index() function
 
@@ -81,7 +81,7 @@ print(gfg) 
 
 **输出:**
 
-```
+```py
 [22 41 37]
 
 ```

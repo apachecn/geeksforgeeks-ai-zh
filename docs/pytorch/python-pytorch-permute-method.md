@@ -18,7 +18,7 @@ PyTorch **torch.permute()** 根据所需的排序重新排列原始张量，并�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pytorch library
 import torch
 
@@ -41,7 +41,7 @@ print(input_var)
 
 **输出:**
 
-```
+```py
 torch.Size([2, 4])
 tensor([[ 0.9801,  0.5296,  0.5449, -1.1481],
         [-0.6762, -0.1161,  0.6360, -0.5371]])
@@ -56,7 +56,7 @@ tensor([[ 0.9801, -0.6762],
 
 ## 蟒蛇 3
 
-```
+```py
 # import pytorch library
 import torch
 
@@ -80,7 +80,7 @@ print(input_var)
 
 **输出:**
 
-```
+```py
 torch.Size([3, 5, 2])
 tensor([[[ 0.2059, -0.7165],
          [-1.1305,  0.5886],

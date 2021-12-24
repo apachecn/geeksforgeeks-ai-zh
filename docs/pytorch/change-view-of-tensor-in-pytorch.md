@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -35,7 +35,7 @@ print(a.view(2, 5))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 

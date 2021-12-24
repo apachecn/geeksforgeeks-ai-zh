@@ -12,7 +12,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -25,14 +25,14 @@ print("Prime numbers for the range of numbers [1, 10) : {}".format(prime_list))�
 
 **输出:**
 
-```
+```py
 Prime numbers for the range of numbers [1, 10) : [2, 3, 5, 7]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import sieve
 
@@ -45,7 +45,7 @@ print("Prime numbers for the range of numbers [8, 50) : {}".format(prime_list))�
 
 **输出:**
 
-```
+```py
 Prime numbers for the range of numbers [8, 50) : [11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
 
 ```

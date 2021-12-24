@@ -11,7 +11,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`pandas.to_markdown()`方法，我们能够使用该方法从给定的数据帧中获得减价表。
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 |    |   A |   B |
 |:---|----:|----:|
 | a  |   1 | 1.1 |
@@ -38,7 +38,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -54,7 +54,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 |     |   A | B   |
 |:----|----:|:----|
 | I   |   3 | c   |

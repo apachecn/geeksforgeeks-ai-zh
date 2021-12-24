@@ -13,7 +13,7 @@
 
 **注意:**在安装 scikit-image 之前，请确保 NumPy 和 SciPy 已预安装。现在，安装 scikit-image 最简单的方法是使用`pip`:
 
-```
+```py
 pip install -U scikit-image
 
 ```
@@ -22,7 +22,7 @@ pip install -U scikit-image
 
 **代码#1 :**
 
-```
+```py
 # Python3 program to process 
 # images using skikit-image
 
@@ -40,7 +40,7 @@ print(camera.shape)
 
 输出:
 
-```
+```py
 numpy.ndarray
 (512, 512)
 
@@ -48,7 +48,7 @@ numpy.ndarray
 
 **代码# 2:**skip age . data 子模块提供了一组返回示例图像的函数。
 
-```
+```py
 # Python3 program to process 
 # images using skikit-image
 
@@ -68,14 +68,14 @@ print(threshold_value)
 
 输出:
 
-```
+```py
 107
 
 ```
 
 **代码#3 :** 从图像文件中加载自己的图像作为 NumPy 数组。
 
-```
+```py
 # Python3 program to process 
 # images using skikit-image
 import os

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy package for arrays and stuff
 import numpy as np 
 
@@ -43,7 +43,7 @@ import pandas as pd 
 
 ## 蟒蛇 3
 
-```
+```py
 # import dataset
 # dataset = pd.read_csv('Data.csv') 
 # alternatively open up .csv file to read data
@@ -71,7 +71,7 @@ print(dataset) 
 
 **输出:**
 
-```
+```py
 [['Asset Flip' '100' '1000']
  ['Text Based' '500' '3000']
  ['Visual Novel' '1500' '5000']
@@ -92,7 +92,7 @@ print(dataset) 
 
 ## 蟒蛇 3
 
-```
+```py
 # select all rows by : and column 1
 # by 1:2 representing features
 X = dataset[:, 1:2].astype(int) 

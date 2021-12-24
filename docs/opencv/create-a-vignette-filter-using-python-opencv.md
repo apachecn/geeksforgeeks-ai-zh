@@ -26,7 +26,7 @@ OpenCV 提供了一个名为 **getGaussianKernel** 的函数，我们将使用�
 
 函数的第一个参数，即 **ksize:** 决定内核的大小，我们通常更喜欢奇数，正值。函数的第二个参数，即**σ:**是高斯的标准偏差，它控制明亮中心图像的半径。该函数计算并返回第一个参数中指定大小的矩阵，并包含**高斯滤波器系数**。
 
-```
+```py
 Mask = (scale size) * (Normalized kernel matrix )
 ```
 
@@ -34,7 +34,7 @@ Mask = (scale size) * (Normalized kernel matrix )
 
 下面是实现。
 
-```
+```py
 import numpy as np
 import cv2
 

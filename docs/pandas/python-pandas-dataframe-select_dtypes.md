@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`select_dtypes()`功能选择所有具有浮动数据类型的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ df
 
 让我们使用`dataframe.select_dtypes()`函数选择数据框中所有具有浮点数据类型的列。
 
-```
+```py
 # select all columns having float datatype
 df.select_dtypes(include ='float64')
 ```
@@ -42,7 +42,7 @@ df.select_dtypes(include ='float64')
 
 **示例 2:** 使用`select_dtypes()`功能选择数据框中的所有列，浮动数据类型的列除外。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

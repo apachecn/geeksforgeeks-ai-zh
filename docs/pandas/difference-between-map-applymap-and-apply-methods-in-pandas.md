@@ -15,7 +15,7 @@
 **熊猫`[apply()](https://www.geeksforgeeks.org/python-pandas-apply/)`方法:**
 这种方法既可以用在熊猫的数据框上，也可以用在系列上。作为参数传递的函数通常在行/列上工作。下面的代码说明了`apply()`方法如何在熊猫数据帧上工作。
 
-```
+```py
 # Importing pandas library with an alias pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print("Transformed dataframe:\n" + \
 
 下面的代码说明了熊猫系列的`apply()`方法:
 
-```
+```py
 # Importing pandas library with an alias pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print("Transformed series:\n" + \
 **熊猫 [`applymap()`](https://www.geeksforgeeks.org/python-pandas-dataframe-applymap/) 方法:**
 此方法可用于熊猫数据框。作为参数传递的函数通常对数据框的元素起作用`applymap()`通常用于元素操作。下面的代码说明了`applymap`方法如何在熊猫数据帧上工作:
 
-```
+```py
 # Importing pandas library with an alias pd
 import pandas as pd
 
@@ -96,7 +96,7 @@ print("Transformed dataframe:\n" + \
 **熊猫`[map()](https://www.geeksforgeeks.org/python-pandas-map/)`方法:**
 该方法用于串联函数，列表和字典作为参数传递。此方法通常用于映射同一列中两个系列的值。下面的代码说明了`map`方法如何在熊猫系列上工作:
 
-```
+```py
 # Importing pandas library with an alias pd
 import pandas as pd
 

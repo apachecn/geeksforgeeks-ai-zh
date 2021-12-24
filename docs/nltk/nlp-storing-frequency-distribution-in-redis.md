@@ -27,7 +27,7 @@ T3】什么是 Redis？**
 
 **代码:解释工作**
 
-```
+```py
 from rediscollections import RedisHashMap
 
 class RedisHashFreqDist(RedisHashMap):
@@ -51,7 +51,7 @@ class RedisHashFreqDist(RedisHashMap):
 
 **代码:**
 
-```
+```py
 from redis import Redis
 from redisprob import RedisHashFreqDist
 
@@ -68,7 +68,7 @@ print (len(rhfd))
 
 **输出:**
 
-```
+```py
 0
 1
 1

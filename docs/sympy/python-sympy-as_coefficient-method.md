@@ -10,7 +10,7 @@
 **例#1 :**
 在这里我们可以看到，通过使用`sympy.as_coefficient()`方法，我们能够得到作为参数传递的任何元素的系数值。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg.as_coefficient(x))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

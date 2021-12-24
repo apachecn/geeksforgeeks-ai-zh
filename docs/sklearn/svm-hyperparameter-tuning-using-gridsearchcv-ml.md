@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 from sklearn.metrics import classification_report, confusion_matrix

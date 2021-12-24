@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # stats.zscore() method  
 import numpy as np
 from scipy import stats
@@ -36,7 +36,7 @@ print ("\nZ-score for arr1 : \n", stats.zscore(arr1, axis = 1))
 
 **输出:**
 
-```
+```py
 arr1 :  [[20, 2, 7, 1, 34], [50, 12, 12, 34, 4]]
 
 arr2 :  [[50, 12, 12, 34, 4], [12, 11, 10, 34, 21]]
@@ -53,7 +53,7 @@ Z-score for arr1 :
 
 **代码#2 : Z 评分**
 
-```
+```py
 import numpy as np
 from scipy import stats
 
@@ -66,7 +66,7 @@ print ("\nZ-score for arr2 : \n", stats.zscore(arr2, axis = 1))
 
 **输出:**
 
-```
+```py
 
 Z-score for arr2 : 
  [[ 1\.  1\.  1\. nan -1.]

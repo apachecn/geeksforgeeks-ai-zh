@@ -20,7 +20,7 @@ matplotlib 库的轴模块中的 **Axis.cla()函数**用于清除该轴。
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis 
 from matplotlib.artist import Artist  
@@ -51,7 +51,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  

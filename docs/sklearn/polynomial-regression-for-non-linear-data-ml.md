@@ -19,7 +19,7 @@
 *多项式回归是遇到二次、三次或更高次非线性关系存在的情况的有力技术。多项式回归的基本概念是将每个独立属性的幂作为新属性相加，然后在这个扩展的特征集合上训练线性模型。
 我们用一个例子来说明多项式回归的用法。考虑一种情况，其中因变量 y 相对于自变量 x 按照关系变化*
 
-```
+```py
 *y = 13x<sup>2</sup> + 2x + 7*
 ```
 
@@ -29,7 +29,7 @@
 
 ***步骤 1:导入库，生成随机数据集。***
 
-```
+```py
 *# Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ y = 13 * x*x + 2 * x + 7 *
 
 ***步骤 2:绘制数据点。***
 
-```
+```py
 *# data points
 plt.scatter(x, y, s = 10)
 plt.xlabel('x')
@@ -58,7 +58,7 @@ plt.title('Non Linear Data')*
 
 **第三步:首先尝试用线性模型拟合数据。***
 
-```
+```py
 *# Model initialization
 regression_model = LinearRegression()
 # Fit the data(train the model)
@@ -71,14 +71,14 @@ y_predicted = regression_model.predict(x1)*
 
 ***输出:***
 
-```
+```py
 *Slope of the line is [[14.87780012]]
 Intercept value is [58.31165769]* 
 ```
 
 ***第四步:绘制数据点和直线。***
 
-```
+```py
 *# data points
 plt.scatter(x, y, s = 10)
 plt.xlabel("$x{content}quot;, fontsize = 18)
@@ -92,13 +92,13 @@ plt.plot(x, y_predicted, color ='g')*
 ***输出:**
 ![](img/dc76d6bed6fa492532d27100df2c536f.png)*
 
-```
+```py
 *Equation of the linear model is y = 14.87x + 58.31* 
 ```
 
 ***第五步:**根据均方误差、均方根误差和 r2 得分计算模型的性能。*
 
-```
+```py
 *# model evaluation
 mse = mean_squared_error(y, y_predicted)
 
@@ -114,7 +114,7 @@ print('R2 score of Linear model: ', r2)*
 
 ***输出:***
 
-```
+```py
 *MSE of Linear model 2144.8229656677095
 R2 score of Linear model:  0.3019970606151057* 
 ```
@@ -123,7 +123,7 @@ R2 score of Linear model:  0.3019970606151057*
 
 ***第六步:**为了提高性能，我们需要把模型做得复杂一点。所以，让我们拟合一个 2 次多项式，然后进行线性回归。*
 
-```
+```py
 *poly_features = PolynomialFeatures(degree = 2, include_bias = False)
 x_poly = poly_features.fit_transform(x1)
 x[3]*
@@ -131,23 +131,23 @@ x[3]*
 
 ***输出:***
 
-```
+```py
 *Out[]:array([-2.84314447])*
 ```
 
-```
+```py
 *x_poly[3]*
 ```
 
 ***输出:***
 
-```
+```py
  *Out[]:array([-2.84314447,  8.08347046])* 
 ```
 
  ***除了 x 列，还引入了一列，即实际数据的平方。现在我们继续简单的线性回归***
 
-```
+```py
 *lin_reg = LinearRegression()
 lin_reg.fit(x_poly, y)
 print('Coefficients of x are', lin_reg.coef_)
@@ -156,7 +156,7 @@ print('Intercept is', lin_reg.intercept_)*
 
 ***输出:***
 
-```
+```py
 *Coefficients of x are [[ 2\. 13.]]
 Intercept is [7.]* 
 ```
@@ -165,7 +165,7 @@ Intercept is [7.]*
 
 ***第七步:绘制得到的二次方程。***
 
-```
+```py
 *x_new = np.linspace(-3, 4, 100).reshape(100, 1)
 x_new_poly = poly_features.transform(x_new)
 y_new = lin_reg.predict(x_new_poly)
@@ -183,7 +183,7 @@ plt.show()*
 
 ***第八步:计算多项式回归得到的模型的性能。***
 
-```
+```py
 *y_deg2 = lin_reg.predict(x_poly)
 # model evaluation
 mse_deg2 = mean_squared_error(y, y_deg2)
@@ -199,7 +199,7 @@ print('R2 score of Linear model: ', r2_deg2)*
 
 ***输出:***
 
-```
+```py
 *MSE of Polyregression model 7.668437973562934e-28
 R2 score of Linear model:  1.0* 
 ```

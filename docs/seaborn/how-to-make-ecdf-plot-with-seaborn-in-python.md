@@ -18,13 +18,13 @@
 
 要安装 Seaborn 库，请在命令提示符下编写以下命令。
 
-```
+```py
 pip install seaborn
 ```
 
 此 ECDF 绘图和显示()功能仅在 0.11.0 版或更高版本的 Seaborn 中可用。如果已经安装了 Seaborn，请编写以下命令进行升级。
 
-```
+```py
 pip install seaborn==0.11.0
 ```
 
@@ -71,7 +71,7 @@ pip install seaborn==0.11.0
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import seaborn as sns
 
@@ -90,7 +90,7 @@ print(excr)
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -114,7 +114,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -138,7 +138,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -167,7 +167,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import seaborn as sns
 
@@ -186,7 +186,7 @@ print(diam)
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -211,7 +211,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import seaborn as sns
 import matplotlib.pyplot as plt

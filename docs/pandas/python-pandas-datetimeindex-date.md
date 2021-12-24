@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.date`属性查找 DatetimeIndex 对象的日期部分。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中存在的所有日期值。
 
-```
+```py
 # find all the date values present in the object
 didx.date
 ```
@@ -41,7 +41,7 @@ didx.date
 
 **示例#2:** 使用`DatetimeIndex.date`属性查找 DatetimeIndex 对象的日期部分。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中存在的所有日期值。
 
-```
+```py
 # find all the date values present in the object
 didx.date
 ```

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy
 from matplotlib import pyplot
@@ -47,7 +47,7 @@ pyplot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy
 from matplotlib import pyplot

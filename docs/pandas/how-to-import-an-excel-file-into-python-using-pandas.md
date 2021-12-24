@@ -6,7 +6,7 @@
 
 在开始之前，我们需要安装几个库。
 
-```
+```py
 pip install pandas
 pip install xlrd
 
@@ -28,7 +28,7 @@ pip install xlrd
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_excel("sample.xlsx")
@@ -43,7 +43,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Here 0th column will be extracted
@@ -61,7 +61,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_excel('sample.xlsx',
@@ -77,7 +77,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_excel('sample.xlsx', 
@@ -94,7 +94,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 df = pd.read_excel('sample.xlsx', 
                    na_values =['item1', 

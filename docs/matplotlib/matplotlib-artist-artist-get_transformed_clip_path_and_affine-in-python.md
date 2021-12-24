@@ -22,7 +22,7 @@ matplotlib 库的 artist 模块中的**get _ transformed _ clip _ path _ and _ a
 
 ![](img/f56044d4fdcc7b4c549fd206195c0f65.png)
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np 
@@ -101,7 +101,7 @@ plt.show()
 
 ![](img/c429b4d59319f29082bf79b76a0a3550.png)
 
-```
+```py
 Value Return by get_transformed_clip_path_and_affine(): 
 Path(array([[ 0.,  1.],
        [ 1.,  0.],

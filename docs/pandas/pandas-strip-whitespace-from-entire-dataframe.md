@@ -8,7 +8,7 @@
 
 在上图中，我们观察到在“姓名”、“年龄”、“血型”和“性别”列中，数据是不规则的。在特定列的大多数单元格中，额外的空白出现在值的前导部分。因此，我们的目标是移除所有多余的空白，并以系统的方式组织它。我们将使用不同的方法，这将有助于我们消除细胞的所有额外空间。不同的方法有:
 
-```
+```py
 Using Strip() function
 Using Skipinitialspace 
 Using replace function 
@@ -31,7 +31,7 @@ Using Converters
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -86,7 +86,7 @@ print(df)
 
 使用 replace()函数，我们还可以从数据帧中移除额外的空白。熊猫提供预定义方法**“熊猫。Series.str.replace()"** 删除空白。它的程序将与 strip()方法程序相同，唯一的区别是，这里我们将在 strip()的地方使用 replace 函数。
 
-```
+```py
 Syntax : pandas.Series.str.replace(' ', '')
 ```
 
@@ -94,7 +94,7 @@ Syntax : pandas.Series.str.replace(' ', '')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -130,7 +130,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import pandas as pd
 
@@ -151,7 +151,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required libraries
 import pandas as pd
 

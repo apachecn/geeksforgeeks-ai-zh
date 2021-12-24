@@ -9,7 +9,7 @@
 最近邻插值是最简单的插值方式。该方法简单地确定“最近的”相邻像素，并假定其强度值。
 假设 p > m 和 q > n，考虑一个小图像，它的像素宽为“w ”,高为“h ”,我们希望将它的像素宽重新调整为“p ”,高为“q”。现在，我们需要两个缩放常数:
 
-```
+```py
 scale_x = p/w
 scale_y = q/h
 ```
@@ -24,7 +24,7 @@ scale_y = q/h
 
 ## 蟒蛇 3
 
-```
+```py
 # using matplotlib and numpy
 
 import matplotlib.image as img
@@ -78,7 +78,7 @@ img.imsave('scaled.png', newImage);
 
 ## 蟒蛇 3
 
-```
+```py
 # using numpy
 import numpy as npy
 
@@ -131,7 +131,7 @@ img.imsave('grayedImage.png', newImage)
 
 ## 蟒蛇 3
 
-```
+```py
 # using matplotlib and numpy
 import matplotlib.image as img
 import numpy as npy

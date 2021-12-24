@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Index(['Harry', 'Mike', 'Arther', 'Nick', 'Harry', 'Arther'], dtype='object', name='Student')
 ```
 
@@ -40,14 +40,14 @@ Index(['Harry', 'Mike', 'Arther', 'Nick', 'Harry', 'Arther'], dtype='object', na
 
 ## 蟒蛇 3
 
-```
+```py
 # find the count of unique values in the index
 idx.value_counts()
 ```
 
 **输出:**
 
-```
+```py
 Harry     2
 Arther    2
 Nick      1
@@ -61,7 +61,7 @@ Name: Student, dtype: int64
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Int64Index([21, 10, 30, 40, 50, 10, 50], dtype='int64')
 ```
 
@@ -82,7 +82,7 @@ Int64Index([21, 10, 30, 40, 50, 10, 50], dtype='int64')
 
 ## 蟒蛇 3
 
-```
+```py
 # for finding the count of all
 # unique values in the index.
 idx.value_counts()
@@ -90,7 +90,7 @@ idx.value_counts()
 
 **输出:**
 
-```
+```py
 10    2
 50    2
 30    1

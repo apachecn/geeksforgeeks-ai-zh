@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.is_even()函数来测试给定的数字 n 是否为偶数。
 
-```
+```py
 Syntax:  sympy.is_even(n)
 Parameter:  n; number to be tested
 Return:  bool value result 
@@ -14,7 +14,7 @@ Return:  bool value result
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check even number
 # using sympy.is_even() method
 
@@ -31,7 +31,7 @@ print(geek2)
 
 输出:
 
-```
+```py
 True
 False
 ```
@@ -40,7 +40,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check even number
 # using sympy.is_even() method
 
@@ -55,6 +55,6 @@ print(geek)
 
 输出:
 
-```
+```py
 True
 ```

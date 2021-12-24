@@ -5,13 +5,13 @@
 这个数学函数帮助用户计算直角三角形的斜边，给定它的边和垂线。按元素计算，结果相当于 *sqrt(x1**2 + x2**2)* 。
 **语法:**
 
-```
+```py
 numpy.exp2(arr1, arr2[, out]) = ufunc 'hypot') : 
 ```
 
 **参数:**
 
-```
+```py
 arr1, arr2  : *[array_like]* Legs(side and perpendicular) of triangle
 out         : *[ndarray, optional]* Output array with result.
 
@@ -19,14 +19,14 @@ out         : *[ndarray, optional]* Output array with result.
 
 **返回:**
 
-```
+```py
 An array having hypotenuse of the right triangle.
 
 ```
 
 **代码#1:工作**
 
-```
+```py
 # Python3 program explaining
 # hypot() function
 
@@ -45,7 +45,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 leg1 array :  [12, 3, 4, 6]
 leg2 array :  [5, 4, 3, 8]
 
@@ -56,7 +56,7 @@ Hypotenuse is as follows :
 
 **代码#2:使用 2D 阵**
 
-```
+```py
 # Python3 program explaining
 # hypot() function
 
@@ -75,7 +75,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 leg1 array : 
  [[ 0.57520509  0.12043366  0.50011671  0.13800957]
  [ 0.0528084   0.17827692  0.44236813  0.87758732]
@@ -93,7 +93,7 @@ Hypotenuse is as follows :
 
 **代码 3:相当于 sqrt(x1**2 + x2**2)，元素方面。**
 
-```
+```py
 # Python3 program explaining
 # hypot() function
 
@@ -112,7 +112,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 leg1 array : 
  [[ 0.7015073   0.89047987  0.1595603   0.27557254]
  [ 0.67249153  0.16430312  0.70137114  0.48763522]

@@ -13,7 +13,7 @@
 **输入附属数据集:[Ames _ housing _ Dataset](https://media.geeksforgeeks.org/wp-content/uploads/20190722201330/Ames_hosuing_dataset.csv)** 
 **代码:**
 
-```
+```py
 # SparkSession is now the entry point of Spark
 # SparkSession can also be construed as gateway to spark libraries
 import pyspark
@@ -28,7 +28,7 @@ df_train = spark.read.csv(r'D:\python coding\pyspark_tutorial\Linear regression'
 
 **代码:**
 
-```
+```py
 # identifying the columns having less meaningful data on the basis of datatypes
 l_int =[]
 for item in df_train.dtypes:
@@ -45,7 +45,7 @@ print(l_str)
 
 **输出**
 
-```
+```py
 Integer Datatypes:
 ['Id', 'MSSubClass', 'LotArea', 'OverallQual', 'OverallCond', 'YearBuilt', 
 'YearRemodAdd', 'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', 
@@ -68,7 +68,7 @@ String Datatypes:
 
 **代码:**
 
-```
+```py
 # identifying integer column records having less meaningful data
 # identifying integer column records having less meaningful data
 for i in df_train.columns:
@@ -83,7 +83,7 @@ for i in df_train.columns:
 
 **输出零的百分比:**
 
-```
+```py
 total count/zeros count/zeros_percent OpenPorchSF 1460 / 656 / 44.93150684931507
 total count/zeros count/zeros_percent EnclosedPorch 1460 / 1252 / 85.75342465753425
 total count/zeros count/zeros_percent 3SsnPorch 1460 / 1436 / 98.35616438356163
@@ -100,7 +100,7 @@ total count/zeros count/zeros_percent YrSold 1460 / 0 / 0.0
 
 **代码:**
 
-```
+```py
 # above calculation gives us an insight about the useful features
 # now drop the columns having zeros or NA % more than 75 % 
 
@@ -114,7 +114,7 @@ df_new = df_new.drop(*['Id'])
 
 **代码:**
 
-```
+```py
 # converting string to numeric feature
 from pyspark.ml.feature import StringIndexer
 from pyspark.ml import Pipeline
@@ -185,13 +185,13 @@ train_data, test_data = final_data.randomSplit([0.7, 0.3])
 
 **代码:**
 
-```
+```py
 train_data.describe().show()
 ```
 
 ![](img/ce373bb80de0c36d2e56215ee97a49d6.png)
 
-```
+```py
 test_data.describe().show()
 ```
 
@@ -199,7 +199,7 @@ test_data.describe().show()
 
 **代码:**
 
-```
+```py
 from pyspark.ml.regression import LinearRegression
 house_lr = LinearRegression(featuresCol ='features', labelCol ='SalePrice')
 trained_house_model = house_lr.fit(train_data)
@@ -226,7 +226,7 @@ unlabeled_data.show()
 
 **代码:**
 
-```
+```py
 predictions = trained_house_model.transform(unlabeled_data)
 predictions.show()
 ```

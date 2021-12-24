@@ -16,7 +16,7 @@ Pandas `**Timestamp.isoformat()**`功能用于将给定的 Timestamp 对象转�
 
 **示例#1:** 使用`Timestamp.isoformat()`函数将给定时间戳对象中的日期转换为 ISO 格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isoformat()`函数将给定时间戳对象中的日期转换为 ISO 格式。
 
-```
+```py
 # convert to ISO format
 ts.isoformat()
 ```
@@ -47,7 +47,7 @@ ts.isoformat()
 
 **示例#2:** 使用`Timestamp.isoformat()`函数将给定时间戳对象中的日期转换为 ISO 格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(ts)
 
 现在我们将使用`Timestamp.isoformat()`函数将给定时间戳对象中的日期转换为 ISO 格式。
 
-```
+```py
 # convert to ISO format
 ts.isoformat()
 ```

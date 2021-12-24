@@ -10,7 +10,7 @@ Pandas Dataframe 提供了更改列值数据类型的自由。我们可以将它
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting the float to datetime format 
 df['Dates'] = pd.to_datetime(df['Dates'], format='%Y%m%d') 
 
@@ -64,7 +64,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -97,7 +97,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting the float to datetime format 
 df['Dates'] = pd.to_datetime(df['Dates'], format='%y%m%d') 
 
@@ -118,7 +118,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -150,7 +150,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting the float to datetime format 
 df['Dates'] = pd.to_datetime(df['Dates'], format='%Y%m%d%H%M%S') 
 
@@ -171,7 +171,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 

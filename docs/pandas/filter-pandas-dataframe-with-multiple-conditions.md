@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -39,7 +39,7 @@ display(dataFrame)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -70,7 +70,7 @@ display(dataFrame.loc[(dataFrame['Salary']>=100000) & (dataFrame['Age']< 40) & (
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 import numpy as np
@@ -104,7 +104,7 @@ display(dataFrame.loc[filtered_values])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 

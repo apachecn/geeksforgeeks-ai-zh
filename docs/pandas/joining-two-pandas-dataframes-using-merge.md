@@ -27,7 +27,7 @@
 
 **示例 1 :** 合并两个元素数量相同的数据帧:
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -53,7 +53,7 @@ pd.merge(df1, df2, on = "fruit", how = "inner")
 
 **示例 2 :** 合并具有不同元素数量的两个数据帧:
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -82,7 +82,7 @@ pd.merge(df1, df2, on = "fruit", how = "inner")
 
 如果我们使用`how = "Outer"`，它将返回 df1 和 df2 中的所有元素，但是如果元素列为空，那么它将返回 NaN 值。
 
-```
+```py
 pd.merge(df1, df2, on = "fruit", how = "outer")
 ```
 
@@ -91,7 +91,7 @@ pd.merge(df1, df2, on = "fruit", how = "outer")
 
 如果我们使用`how = "left"`，它会返回左侧数据框中存在的所有元素。
 
-```
+```py
 pd.merge(df1, df2, on = "fruit", how = "left")
 ```
 
@@ -100,7 +100,7 @@ pd.merge(df1, df2, on = "fruit", how = "left")
 
 如果我们使用`how = "right"`，它会返回出现在正确数据框中的所有元素。
 
-```
+```py
 pd.merge(df1, df2, on = "fruit", how = "right")
 ```
 

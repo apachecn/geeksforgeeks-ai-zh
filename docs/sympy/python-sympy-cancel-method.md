@@ -10,7 +10,7 @@
 **示例#1 :**
 在给定的示例中，我们可以看到，通过使用`sympy.cancel()`方法，我们可以找到任意有理数的范式，即(p/q)。
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 gfg_exp = (x**2 + 2 * x + 1)/(x**2 + x)
@@ -27,7 +27,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 gfg_exp = 1 / x + (3 * x / 2 - 2)/(x - 4)

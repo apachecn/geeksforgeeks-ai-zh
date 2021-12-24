@@ -33,7 +33,7 @@
 
 **Example 1 :**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -64,7 +64,7 @@ print('\nCSV String:\n', gfg_csv_data)
 
 **示例 2 :** 转换为没有索引的 CSV 文件。如果我们不希望包括索引，那么在`index` 参数中分配值`False`。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -87,7 +87,7 @@ print('\nCSV String:\n', gfg_csv_data)
 
 **示例 3 :** 转换为没有行标题的 CSV 文件。如果我们不想包含标题，那么在`header`参数中分配值`False`。
 
-```
+```py
 # importing the module
 import pandas as pd
 

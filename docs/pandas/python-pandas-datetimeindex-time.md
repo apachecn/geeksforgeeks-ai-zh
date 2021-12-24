@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.time`属性查找 DatetimeIndex 对象的时间部分。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在我们想找到 DatetimeIndex 对象的所有时间部分。
 
-```
+```py
 # find all the time values present in the object
 didx.time
 ```
@@ -43,7 +43,7 @@ didx.time
 
 **示例#2:** 使用`DatetimeIndex.time`属性查找 DatetimeIndex 对象的时间部分。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(didx)
 
 现在我们想找到 DatetimeIndex 对象的所有时间部分。
 
-```
+```py
 # find all the time values present in the object
 didx.time
 ```

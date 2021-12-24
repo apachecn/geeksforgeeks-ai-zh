@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -28,14 +28,14 @@ print(weekNumber)
 
 **输出:**
 
-```
+```py
 0    25
 Name: Date, dtype: int64
 ```
 
 **示例 2:** 我们也可以通过在‘Date’对象中添加更多的日期来对多个日期进行同样的操作。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -75,11 +75,11 @@ print(weekNumber)
 
     **语法:**
 
-    ```
+    ```py
     Index.to_series(self, index, name)
     ```
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -102,11 +102,11 @@ series.dt.week
 **熊猫。Series():** 用于创建带有轴标签的一维数组。
 **语法:**
 
-```
+```py
 pandas.Series(data, index, dtype, name, copy, fastpath)
 ```
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 

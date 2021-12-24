@@ -18,7 +18,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.cumsum() function
 import numpy as geek
@@ -33,7 +33,7 @@ print ("cumulative sum of input number : ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 cumulative sum of input number :  [10]
 
@@ -41,7 +41,7 @@ cumulative sum of input number :  [10]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.cumsum() function
 
@@ -57,7 +57,7 @@ print ("cumulative sum of array elements: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[2 4 6]
  [1 3 5]]
 cumulative sum of array elements:  [ 2  6 12 13 16 21]
@@ -66,7 +66,7 @@ cumulative sum of array elements:  [ 2  6 12 13 16 21]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.cumsum() function
 
@@ -82,7 +82,7 @@ print ("cumulative sum of array elements taking axis 1: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[2 4 6]
  [1 3 5]]
 cumulative sum of array elements taking axis 1:  [[ 2  6 12]

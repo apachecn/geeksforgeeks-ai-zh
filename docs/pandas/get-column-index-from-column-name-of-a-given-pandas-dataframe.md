@@ -16,7 +16,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import pandas library
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(df)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import pandas library
 import pandas as pd
 
@@ -73,7 +73,7 @@ print("Index of {} column in given dataframe is : {}".format(col_name, index_no)
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import pandas library
 import pandas as pd
 

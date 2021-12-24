@@ -18,7 +18,7 @@
 
 **代码#1:创建吉尔布雷特连续随机变量**
 
-```
+```py
 from scipy.stats import gilbrat 
 
 numargs = gilbrat .numargs
@@ -30,7 +30,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E39A3B4AC8>
 
@@ -38,7 +38,7 @@ RV :
 
 **代码#2:吉尔布雷特随机变量和概率分布**
 
-```
+```py
 import numpy as np
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.66090031 1.39027118 1.33876164 1.50366592 5.21419497 5.24225463
  3.98547687 0.30586938 9.11346685 0.93014057]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

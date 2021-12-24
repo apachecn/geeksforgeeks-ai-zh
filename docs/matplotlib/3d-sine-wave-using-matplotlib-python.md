@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -50,7 +50,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt

@@ -30,7 +30,7 @@ Matplotlib 包含多种有助于执行不同任务的函数，其中之一就是
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstration of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstration of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

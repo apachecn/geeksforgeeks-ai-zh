@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -34,7 +34,7 @@ print(td.components)
 
 **代码#2:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -54,7 +54,7 @@ print(td.components)
 
 **代码#3:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 import datetime

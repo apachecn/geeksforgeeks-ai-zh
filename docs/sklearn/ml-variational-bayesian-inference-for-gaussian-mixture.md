@@ -10,7 +10,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ from sklearn.decomposition import PCA
 
 **第二步:加载和清理数据**
 
-```
+```py
 # Changing the working location to the location of the data
 cd "C:\Users\Dev\Desktop\Kaggle\Credit_Card"
 
@@ -41,7 +41,7 @@ X.head()
 
 **第三步:数据预处理**
 
-```
+```py
 # Scaling the data to bring all the attributes to a comparable level
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -63,7 +63,7 @@ X_normalized.head()
 
 **第四步:降低数据的维度，使其可视化**
 
-```
+```py
 # Reducing the dimensions of the data
 pca = PCA(n_components = 2)
 X_principal = pca.fit_transform(X_normalized)
@@ -92,7 +92,7 @@ X_principal.head()
 
 a) **协方差 _type = 'full'**
 
-```
+```py
 # Building and training the model
 vbgm_model_full = BayesianGaussianMixture(n_components = 5, covariance_type ='full')
 vbgm_model_full.fit(X_normalized)
@@ -104,7 +104,7 @@ print(set(labels_full))
 
 <center>![](img/e6d0c02efdae10f41a20d2a6a7b9eda8.png)</center>
 
-```
+```py
 colours = {}
 colours[0] = 'r'
 colours[1] = 'g'
@@ -131,7 +131,7 @@ plt.show()
 
 b) **协方差 _type = '并列'**
 
-```
+```py
 # Building and training the model
 vbgm_model_tied = BayesianGaussianMixture(n_components = 5, covariance_type ='tied')
 vbgm_model_tied.fit(X_normalized)
@@ -143,7 +143,7 @@ print(set(labels_tied))
 
 <center>![](img/75ba8debd067ffb09b3e37dc67f2a51a.png)</center>
 
-```
+```py
 colours = {}
 colours[0] = 'r'
 colours[2] = 'g'
@@ -170,7 +170,7 @@ plt.show()
 
 c) **协方差 _type = 'diag'**
 
-```
+```py
 # Building and training the model
 vbgm_model_diag = BayesianGaussianMixture(n_components = 5, covariance_type ='diag')
 vbgm_model_diag.fit(X_normalized)
@@ -182,7 +182,7 @@ print(set(labels_diag))
 
 <center>![](img/a2f148df47fcb455bdc1868962019916.png)</center>
 
-```
+```py
 colours = {}
 colours[0] = 'r'
 colours[2] = 'g'
@@ -207,7 +207,7 @@ plt.show()
 
 d) **协方差 _type = '球形'**
 
-```
+```py
 # Building and training the model
 vbgm_model_spherical = BayesianGaussianMixture(n_components = 5,
                                               covariance_type ='spherical')
@@ -220,7 +220,7 @@ print(set(labels_spherical))
 
 <center>![](img/6eab069251d8b7073db76dd73d35b353.png)</center>
 
-```
+```py
 colours = {}
 colours[2] = 'r'
 colours[3] = 'b'

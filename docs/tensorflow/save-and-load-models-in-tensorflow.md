@@ -53,7 +53,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import tensorflow
 
@@ -71,7 +71,7 @@ model.save_weights(path)
 
 *   **检查点:**是一个人类可读的文件，包含以下文本，
 
-```
+```py
 model_checkpoint_path: "Weights"
 all_model_checkpoint_paths: "Weights"
 ```
@@ -95,7 +95,7 @@ all_model_checkpoint_paths: "Weights"
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import tensorflow as tf
 import numpy as np
@@ -111,7 +111,7 @@ from tensorflow.keras.models import load_model
 
 ## 蟒蛇 3
 
-```
+```py
 # Load in the data
 cifar10 = tf.keras.datasets.cifar10
 
@@ -134,7 +134,7 @@ y_train, y_test = y_train.flatten(), y_test.flatten()
 
 ## 蟒蛇 3
 
-```
+```py
 # number of classes
 K = len(set(y_train))
 # calculate total number of classes for output layer
@@ -183,7 +183,7 @@ model.summary()
 
 ## 蟒蛇 3
 
-```
+```py
 # saving and loading the .h5 model
 
 # save model
@@ -203,7 +203,7 @@ savedModel.summary()
 
 ## 蟒蛇 3
 
-```
+```py
 # saving and loading the model weights
 
 # save model
@@ -223,7 +223,7 @@ print('Model Loaded!')
 
 ## 蟒蛇 3
 
-```
+```py
 # saving and loading the .h5 model
 
 # save model

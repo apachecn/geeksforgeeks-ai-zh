@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import pandas as pd
@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # creating dataset
 df = pd.DataFrame({
     'Ice-cream': np.random.normal(57, 5, 100),
@@ -55,7 +55,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # plot th data into boxplot
 
 sns.boxplot(data=df)

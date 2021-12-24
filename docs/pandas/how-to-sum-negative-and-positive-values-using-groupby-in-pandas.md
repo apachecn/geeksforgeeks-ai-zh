@@ -12,14 +12,14 @@
 
 **步骤 1:** 创建 lambda 函数来计算正和与负和值。
 
-```
+```py
 pos = lambda col : col[col > 0].sum()
 neg = lambda col : col[col < 0].sum()
 ```
 
 **第二步:**我们将使用 groupby()方法，并应用 lambda 函数来计算总和。
 
-```
+```py
 d = df.groupby(df['Alphabet'])
 print(d['Frequency'].agg([('negative_values', neg),
                          ('positive_values', pos)
@@ -37,7 +37,7 @@ print(d['Bandwidth'].agg([('negative_values', neg),
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Necessary Libraries
 import pandas as pd
 import numpy as np
@@ -88,7 +88,7 @@ print(d['Bandwidth'].agg([('negative_values', neg),
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Necessary Libraries
 import pandas as pd
 import numpy as np
@@ -148,7 +148,7 @@ y 输出
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Necessary Libraries
 import pandas as pd
 import numpy as np

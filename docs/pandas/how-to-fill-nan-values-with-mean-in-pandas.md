@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -116,7 +116,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -140,7 +140,7 @@ print(X)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.impute import SimpleImputer
 import pandas as pd
 import numpy as np

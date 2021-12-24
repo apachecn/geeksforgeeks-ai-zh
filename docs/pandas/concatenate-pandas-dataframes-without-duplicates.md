@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -47,7 +47,7 @@ new_dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 

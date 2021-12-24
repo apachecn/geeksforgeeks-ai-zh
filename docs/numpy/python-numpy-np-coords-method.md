@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.coords()`方法，我们能够使用该方法获得下一个迭代器的坐标。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg.coords)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

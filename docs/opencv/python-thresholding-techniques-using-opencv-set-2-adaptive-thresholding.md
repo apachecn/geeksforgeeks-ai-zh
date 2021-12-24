@@ -23,7 +23,7 @@
 
 下面是 Python 实现:
 
-```
+```py
 # Python program to illustrate 
 # adaptive thresholding type on an image
 

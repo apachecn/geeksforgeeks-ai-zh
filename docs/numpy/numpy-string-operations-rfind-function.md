@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rfind() method 
 
@@ -32,7 +32,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['aAaAaA' 'baA' 'abBABba']
 Output array:  [5 2 3]
 
@@ -40,7 +40,7 @@ Output array:  [5 2 3]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rfind() method 
 
@@ -58,7 +58,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['aAaAaA' 'aA' 'abBABba']
 Output array:  [ 4 -1  6]
 

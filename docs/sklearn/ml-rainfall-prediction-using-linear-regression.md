@@ -17,7 +17,7 @@
 
 用 Python 清理数据:
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -47,7 +47,7 @@ data.to_csv('austin_final.csv')
 
 我们将使用 Scikit-learn 的线性回归模型来训练我们的数据集。一旦模型被训练好，我们就可以为各种列给出我们自己的输入，如温度、露点、压力等。根据这些属性来预测天气。
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -130,7 +130,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 The precipitation in inches for the input is: [[1.33868402]]
 
 The precipitation trend graph:

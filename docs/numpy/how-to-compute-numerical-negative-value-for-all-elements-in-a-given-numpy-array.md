@@ -8,7 +8,7 @@
 
 如果我们把一个数当作 4，那么-4 就是它的负数，因为当我们把-4 加到 4 时，我们得到的和是 0。现在让我们再举一个例子，假设我们取一个数字-6，当我们加上+6 时，总和为零。因此+6 是-6 的负值。现在假设我们有一组数字:
 
-```
+```py
 A = [1,2,3,-1,-2,-3,0]
 So, the negative value of A is 
 A'=[-1,-2,-3,1,2,3,0].
@@ -26,7 +26,7 @@ A'=[-1,-2,-3,1,2,3,0].
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy as np
 
@@ -47,7 +47,7 @@ print("Printing the negative value of the given array:",
 
 **输出:**
 
-```
+```py
 Printing the Original array: [-1 -2 -3  1  2  3  0] 
 Printing the negative value of the given array: [ 1  2  3 -1 -2 -3  0] 
 
@@ -57,7 +57,7 @@ Printing the negative value of the given array: [ 1  2  3 -1 -2 -3  0] 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy as np
 
@@ -78,7 +78,7 @@ print("Printing the negative value of the given array:\n",
 
 **输出:**
 
-```
+```py
 Printing the Original array Content:
 [[1 2]
 [2 3]]

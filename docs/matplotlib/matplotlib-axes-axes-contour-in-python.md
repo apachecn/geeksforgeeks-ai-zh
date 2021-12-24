@@ -12,7 +12,7 @@ matplotlib 库中的 **Axes.contour()函数**用于绘制等高线。**等高线
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.contour(self, *args, data=None, **kwargs)
 > contour([X, Y, ] Z, [levels], **kwargs)
 > ```
@@ -31,7 +31,7 @@ matplotlib 库中的 **Axes.contour()函数**用于绘制等高线。**等高线
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np

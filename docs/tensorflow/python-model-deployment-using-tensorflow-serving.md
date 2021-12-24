@@ -30,13 +30,13 @@ TensorFlow Serving 以 RESTful API 的形式支持两种类型的客户端请求
 
 这里，我们将使用预测应用编程接口，其网址格式为:
 
-```
+```py
 POST http://{host}:{port}/v1/models/${MODEL_NAME}[/versions/${VERSION}|/labels/${LABEL}]:predict
 ```
 
 请求主体包含一个 JSON 对象，其形式为:
 
-```
+```py
 {
   // (Optional) Serving signature to use.
   // default : 'serving-default'
@@ -61,7 +61,7 @@ POST http://{host}:{port}/v1/models/${MODEL_NAME}[/versions/${VERSION}|/labels/$
 
 ## 蟒蛇 3
 
-```
+```py
 # General import
 !pip install -Uq grpcio==1.26.0
 import numpy as np
@@ -124,7 +124,7 @@ model.fit(
     validation_data=(x_test, y_test),
 ```
 
-```
+```py
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -227,7 +227,7 @@ Epoch 100/100
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 MODEL_DIR = tempfile.gettempdir()
@@ -262,7 +262,7 @@ print('\nSaved model:')
 
 ## 蟒蛇 3
 
-```
+```py
 # Install TensorFlow Serving using Aptitude [For Debian]
 !echo "deb http://storage.googleapis.com/tensorflow-serving-apt"
 "stable tensorflow-model-server tensorflow-model-server-universal" |
@@ -284,7 +284,7 @@ nohup tensorflow_model_server \
   --model_base_path="${MODEL_DIR}" >server.log 2>&1
 ```
 
-```
+```py
 Starting job # 0 in a separate thread.
 ```
 
@@ -298,7 +298,7 @@ Starting job # 0 in a separate thread.
 
 ## 蟒蛇 3
 
-```
+```py
 # To TensorFlow Image from Docker Hub
 !docker pull tensorflow/serving
 # Run our model
@@ -313,7 +313,7 @@ Starting job # 0 in a separate thread.
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 import requests
 import sys
@@ -377,7 +377,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import grpc
 from grpc.beta import implementations

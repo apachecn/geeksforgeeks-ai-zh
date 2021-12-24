@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.cumprod()`方法，我们能够找到给定矩阵的累积积。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 6 12 36]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[  1   2   6  24 120 720]]
 
 ```

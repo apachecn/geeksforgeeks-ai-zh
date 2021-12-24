@@ -6,7 +6,7 @@
 
 **样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -35,7 +35,7 @@ matplotlib 库 pyplot 模块中的**紧 _layout()函数**用于自动调整子�
 
 **示例-1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -65,7 +65,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import EngFormatter

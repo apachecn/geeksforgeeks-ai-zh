@@ -13,7 +13,7 @@
     *   参数`freq`设置为 W-SUN，其中 W 指每周，SUN 指周日。
 3.  打印取出的`DateTimeIndex`对象。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sundays)
 
 如果我们想取周日以外的任何一天，我们可以通过将参数`freq`更改为所需的日期来调整上述程序。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(days)
 
 我们可以将`DateTimeIndex`对象转换为 Series 对象，以获得要提取的日期列表。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -96,7 +96,7 @@ print(days)
 
 **输出:**
 
-```
+```py
 0    2020-01-01
 1    2020-01-08
 2    2020-01-15

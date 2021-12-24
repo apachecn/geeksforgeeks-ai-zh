@@ -5,13 +5,13 @@
 **numpy.isnan()** 函数逐元素测试它是否是 nan，并将结果作为布尔数组返回。
 **语法:**
 
-```
+```py
 numpy.isnan(array [, out])
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array or object whose elements, we need to test for infinity
 out   : [ndarray, optional]Output array placed with result.
       Its type is preserved and it must be of the right shape to hold the output.
@@ -20,7 +20,7 @@ out   : [ndarray, optional]Output array placed with result.
 
 **返回:**
 
-```
+```py
 boolean array containing the result. For scalar input, the result is a new boolean with value
 True if the input is positive or negative infinity; otherwise the value is False.
 For array input, the result is a boolean array with the same shape as the input and the values
@@ -31,7 +31,7 @@ elsewhere the values are False.
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isnan() method
 
@@ -57,7 +57,7 @@ print("Checking for NaN : ", geek.isnan(x, y))
 
 **输出:**
 
-```
+```py
 Is NaN :  False 
 
 Is NaN :  False 
@@ -74,7 +74,7 @@ Checking for NaN :  [0 0 0]
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isnan() method
 
@@ -93,7 +93,7 @@ print("\nIs NaN(Not a Number) : \n", geek.isnan(b))
 
 **输出:**
 
-```
+```py
  [[ 0  1  2  3]
  [ 4  5  6  7]
  [ 8  9 10 11]

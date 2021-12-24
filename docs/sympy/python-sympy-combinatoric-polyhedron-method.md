@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and Polyhedron
 from sympy.combinatorics import Polyhedron
 from sympy.abc import a, b, c, d, e
@@ -34,7 +34,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and Polyhedron
 from sympy.combinatorics import Polyhedron
 

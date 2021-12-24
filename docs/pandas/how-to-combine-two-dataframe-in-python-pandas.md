@@ -12,7 +12,7 @@ pandas 中的 concat()函数用于将一个数据帧中的列或行追加到另�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 # First DataFrame
 df1 = pd.DataFrame({'id': ['A01', 'A02', 'A03', 'A04'],
@@ -47,7 +47,7 @@ display(result)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df1 = pd.DataFrame({'id': ['A01', 'A02', 'A03', 'A04'],

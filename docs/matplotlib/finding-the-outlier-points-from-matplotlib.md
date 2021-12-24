@@ -10,7 +10,7 @@
 
 上面是创建的箱线图，用于显示数据值的汇总及其*中值、第一个四分位数、* *第三个四分位数、最小值和最大值*。下胡须和上胡须的数据点是异常值。在晶须的第一个和第三个四分点之间是*四分点之间的区域*，在该区域上方有一条被称为中值的垂直线通过。更多细节请参考博客[使用 python 的方块图](https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/)。以下是从箱线图中查找异常值的方法:
 
-```
+```py
 1.Visualizing through matplotlib boxplot using *plt.boxplot().*
 2.Using 1.5 IQR rule.
 ```
@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding libraries
 import numpy as np
 import pandas as pd
@@ -42,7 +42,7 @@ print('Thus the array becomes{}'.format(arr1))
 
 ## 蟒蛇 3
 
-```
+```py
 plt.boxplot(arr1)
 fig = plt.figure(figsize =(10, 7))
 plt.show()
@@ -64,7 +64,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # finding the 1st quartile
 q1 = np.quantile(arr1, 0.25)
 

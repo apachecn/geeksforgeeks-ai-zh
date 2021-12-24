@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating a data frame along with column name
@@ -42,7 +42,7 @@ itr
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating a data frame

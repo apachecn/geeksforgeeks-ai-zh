@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #  Code to change the interval of ticks of axes using xticks() and yticks()
 
 # Importing libraries
@@ -82,7 +82,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #  Code to change the interval of ticks of axes
 # using set_ticks() method
 
@@ -152,7 +152,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #  Code to change the interval of ticks of axes
 # using set_xticks() and set_yticks() methods
 

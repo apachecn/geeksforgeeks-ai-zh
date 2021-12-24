@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.slice_locs()`函数计算给定时间增量索引对象中传递的标签的切片位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.slice_locs()`函数为传递的标签找到切片位置值。
 
-```
+```py
 # # find the slice location for the passed label
 tidx.slice_locs('11 days 22:15:20.001124')
 ```
@@ -46,7 +46,7 @@ tidx.slice_locs('11 days 22:15:20.001124')
 
 **示例 2:** 使用`TimedeltaIndex.slice_locs()`函数计算给定时间增量索引对象中传递的标签的切片位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.slice_locs()`函数为传递的标签找到切片位置值。
 
-```
+```py
 # find the slice location for the passed label
 tidx.slice_locs('3 days 12:20:56')
 ```

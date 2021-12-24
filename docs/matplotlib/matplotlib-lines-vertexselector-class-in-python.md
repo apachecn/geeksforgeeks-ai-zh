@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.lines as lines
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.lines as lines
 from matplotlib.collections import PathCollection

@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.pickable()函数**用于返回艺术�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 np.random.seed(19680801)
@@ -60,7 +60,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook

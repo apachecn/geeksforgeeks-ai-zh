@@ -9,7 +9,7 @@ Matplotlib 是一个神奇的 Python 可视化库，用于数组的 2D 图。Mat
 
 **代码#1:** 使用 Matplotlib 读取 PNG 图像
 
-```
+```py
 # importing pyplot and image from matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -28,7 +28,7 @@ plt.imshow(im)
 
 伪彩色有助于增强图像的对比度。
 
-```
+```py
 # importing pyplot and image from matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -49,7 +49,7 @@ plt.imshow(lum)
 
 **代码#3:** 我们可以用 colorbar 为 colormap 提供另一个值。
 
-```
+```py
 # importing pyplot and image from matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -71,7 +71,7 @@ plt.colorbar()
 
 **代码# 4:** 插值
 
-```
+```py
 # importing PIL and matplotlib
 from PIL import Image 
 import matplotlib.pyplot as plt
@@ -89,7 +89,7 @@ imgplot = plt.imshow(img)
 
 **代码#6:** 这里使用‘双三次’值进行插值。
 
-```
+```py
 # importing pyplot from matplotlib
 import matplotlib.pyplot as plt
 
@@ -110,7 +110,7 @@ imgplot = plt.imshow(img, interpolation ='bicubic')
 
 **代码# 7:**“sinc”值用于插值。
 
-```
+```py
 # importing PIL and matplotlib
 from PIL import Image 
 import matplotlib.pyplot as plt

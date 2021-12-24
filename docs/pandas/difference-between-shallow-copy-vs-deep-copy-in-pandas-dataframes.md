@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # porgam to depict shallow copy
 # in pandas dataframe
 
@@ -64,7 +64,7 @@ print('\nOriginal Dataframe after operation:\n', df)
 
 ## 蟒蛇 3
 
-```
+```py
 # porgam to depict deep copy
 # in pandas dataframe
 

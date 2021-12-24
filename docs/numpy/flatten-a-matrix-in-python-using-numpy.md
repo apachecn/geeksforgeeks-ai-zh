@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -32,7 +32,7 @@ print(flat_gfg)
 
 **输出:**
 
-```
+```py
 [2 3 4 5]
 
 ```
@@ -41,7 +41,7 @@ print(flat_gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -54,7 +54,7 @@ gfg.flatten()
 
 **输出:**
 
-```
+```py
 array([ 6,  9,  8,  5, 18, 21])
 
 ```
@@ -63,7 +63,7 @@ array([ 6,  9,  8,  5, 18, 21])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -77,7 +77,7 @@ print(flat_gfg)
 
 **输出:**
 
-```
+```py
 [ 6,  9, 12,  8,  5,  2, 18, 21, 24]
 
 ```

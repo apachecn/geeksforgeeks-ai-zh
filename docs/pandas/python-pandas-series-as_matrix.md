@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.as_matrix()`函数返回给定序列对象的 numpy 数组表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -45,7 +45,7 @@ dtype: object
 
 现在我们将使用`Series.as_matrix()`函数返回给定序列对象的 numpy 数组表示。
 
-```
+```py
 # return numpy array representation
 result = sr.as_matrix()
 
@@ -55,7 +55,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 ['New York' 'Chicago' 'Toronto' 'Lisbon' 'Rio']
 
 ```
@@ -64,7 +64,7 @@ print(result)
 
 **示例 2 :** 使用`Series.as_matrix()`函数返回给定序列对象的 numpy 数组表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -101,7 +101,7 @@ Freq: A-DEC, dtype: float64
 
 现在我们将使用`Series.as_matrix()`函数返回给定序列对象的 numpy 数组表示。
 
-```
+```py
 # return numpy array representation
 result = sr.as_matrix()
 
@@ -111,7 +111,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 [ 11\.  21\.   8\.  18\.  65\.  18\.  32\.  10\.   5\.  32\.  nan]
 ```
 

@@ -18,7 +18,7 @@
 **代码#1 :**
 在这段代码中，您会看到我们正在取一些整数值的简单序列，并尝试基于不同的排序算法方法进行排序，如**快速排序**、**合并排序**和**堆排序**，但默认情况下，它将假设为快速排序。让我们看看下面的代码和下面的输出。
 
-```
+```py
 # importing pandas 
 import pandas as pd  
 
@@ -38,7 +38,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 0    180.0
 1    235.0
 3    185.0
@@ -58,7 +58,7 @@ Name: Weight, dtype: int64
 
 **代码#2 :**
 
-```
+```py
 # importing pandas 
 import pandas as pd  
 
@@ -78,7 +78,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 0    180.0
 1    235.0
 3    185.0
@@ -96,7 +96,7 @@ Name: Weight, dtype: int64
 
 **代码#3 :**
 
-```
+```py
 # importing pandas 
 import pandas as pd  
 
@@ -116,7 +116,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 0    180.0
 1    235.0
 3    185.0
@@ -136,7 +136,7 @@ Name: Weight, dtype: int64
 
 如上所述，如果我们想要处理丢失的值，那么在**无**的地方，它将给出-1 的输出。
 
-```
+```py
 import pandas as pd
 
 # importing pandas 
@@ -156,7 +156,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 450    226.0
 451    206.0
 452    234.0

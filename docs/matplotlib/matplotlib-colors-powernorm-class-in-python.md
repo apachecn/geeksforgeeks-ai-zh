@@ -16,7 +16,7 @@ matplotlib . colors . powernorm 类用于将值线性映射到–的范围，然
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 import numpy as np
@@ -67,7 +67,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors

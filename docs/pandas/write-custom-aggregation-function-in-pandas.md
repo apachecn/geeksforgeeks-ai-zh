@@ -19,7 +19,7 @@ python 中的 [**Pandas**](https://www.geeksforgeeks.org/pandas-tutorial/) 广�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -46,7 +46,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.agg(['sum', 'min'])
 ```
 
@@ -58,7 +58,7 @@ df.agg(['sum', 'min'])
 
 ## 蟒蛇 3
 
-```
+```py
 df.agg(['sum', 'min', 'max'])
 ```
 
@@ -72,7 +72,7 @@ df.agg(['sum', 'min', 'max'])
 
 ## 蟒蛇 3
 
-```
+```py
 df.agg({'Col_A' : ['sum', 'min'], 
         'Col_B' : ['min', 'max']})
 ```

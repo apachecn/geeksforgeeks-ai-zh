@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论如何在 Pandas 中选择单个数据列作为系列。
 
-```
+```py
 For example, Suppose we have a data frame :
 Name Age  MotherTongue
 Akash 21   Hindi
@@ -17,7 +17,7 @@ Ayush   21 Punjabi
 
 现在，当我们选择“母语”列作为系列时，我们会得到以下输出:
 
-```
+```py
 Hindi Marathi Bhojpuri Nepali Punjabi
 
 ```
@@ -26,7 +26,7 @@ Hindi Marathi Bhojpuri Nepali Punjabi
 
 **步骤 1:** 创建数据帧:
 
-```
+```py
 # importing pandas as library
 import pandas as pd
 
@@ -49,7 +49,7 @@ df
 
 **步骤 2:** 使用数据框选择列。列名:
 
-```
+```py
 print("Selecting Single column value using dataframe.column name")
 series_one = pd.Series(df.Age)
 print(series_one)
@@ -64,7 +64,7 @@ print(type(series_one))
 
 **步骤 3:** 使用数据框[列名]选择列
 
-```
+```py
 # using [] method
 print("Selecting Single column value using dataframe[column name]")
 series_one = pd.Series(df['Age'])

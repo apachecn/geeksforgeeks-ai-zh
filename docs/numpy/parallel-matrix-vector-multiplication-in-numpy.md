@@ -14,7 +14,7 @@
 
 ![](img/cd004af552ef092dea6871881624b6ae.png)
 
-```
+```py
 # a and b are matrices
 prod = numpy.matmul(a,b)
 ```
@@ -23,7 +23,7 @@ prod = numpy.matmul(a,b)
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 
 a = np.array([[1, 2, 3, 13],
@@ -47,7 +47,7 @@ print("Product of a and b =",
 
 **我们用点积做矩阵-矩阵乘法。我们也将为此使用相同的函数。**
 
-```
+```py
 prod = numpy.matmul(a,b)  # a and b are matrices
 ```
 
@@ -60,7 +60,7 @@ prod = numpy.matmul(a,b)  # a and b are matrices
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 
 a = np.array([[1, 2, 3],

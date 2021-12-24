@@ -5,7 +5,7 @@
 **什么是面具？**
 一个布尔数组，用于为一个操作只选择某些元素
 
-```
+```py
 # A mask example
 import numpy as np
 x = np.arange(5)
@@ -18,7 +18,7 @@ print(x)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4]
 [False False False  True  True]
 [ 0  1  2 -1 -1]
@@ -34,7 +34,7 @@ print(x)
 **示例#1 :**
 我们可以看到通过 MaskedArray 传递的值。__mod__()方法用于对数组的每个元素执行 mod 操作。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -47,14 +47,14 @@ print(gfg.__mod__(2)) 
 
 **Output:**
 
-```
+```py
 [1.0 0.5 1.0 0.7999999999999998 1.0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -68,7 +68,7 @@ print(gfg.__mod__(3)) 
 
 **Output:**
 
-```
+```py
 [[1.0 2.0 0.0 1.4500000000000002 2.0]
  [0.0 2.5 1.0 0.0 2.62]]
 

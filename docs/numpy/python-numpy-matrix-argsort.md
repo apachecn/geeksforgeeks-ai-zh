@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，借助`matrix.argsort()`方法，我们能够在给定的矩阵中找到排序的元素，并给出作为排序数组索引的输出。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[3 1 0 2]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[0 1 2]
  [1 0 2]
  [1 0 2]]

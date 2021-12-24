@@ -14,7 +14,7 @@ Pandas `**Timestamp.timestamp()**`函数返回自 1970 年 1 月 1 日以来经�
 
 **示例#1:** 使用`Timestamp.timestamp()`函数返回给定时间戳对象从零时刻开始经过的秒数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timestamp()`功能来查找已经过去的秒数。
 
-```
+```py
 # return the number of seconds
 ts.timestamp()
 ```
@@ -45,7 +45,7 @@ ts.timestamp()
 
 **示例#2:** 使用`Timestamp.timestamp()`函数返回给定时间戳对象自零时刻以来经过的秒数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timestamp()`功能来查找已经过去的秒数。
 
-```
+```py
 # return the number of seconds
 ts.timestamp()
 ```

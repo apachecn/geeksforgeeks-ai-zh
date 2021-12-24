@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library from 
 # python
 import pandas as pd
@@ -59,7 +59,7 @@ pd.MultiIndex.from_arrays([arrays,age,marks], names=('names', 'age','marks'))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library from
 # python
 import pandas as pd
@@ -87,7 +87,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # creating multiple indexes from 
 # the dataframe
 pd.MultiIndex.from_frame(df)
@@ -105,7 +105,7 @@ pd.MultiIndex.from_frame(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -138,7 +138,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 print(df.index)
 ```
 
@@ -166,7 +166,7 @@ print(df.index)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import numpy as np
 
@@ -198,7 +198,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Grouping with only status 
 grouped1 = df.groupby("Status")
 
@@ -210,7 +210,7 @@ grouped3 = df.groupby(["Temperature", "Status"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Finding the mean of the
 # patients reports according to
 # the status
@@ -223,7 +223,7 @@ grouped1.mean()
 
 ## 蟒蛇 3
 
-```
+```py
 # Grouping temperature and status together 
 # results in giving us the index values of
 # the particular patient

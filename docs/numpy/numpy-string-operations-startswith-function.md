@@ -20,7 +20,7 @@ numpy . core . defchararray . start swith()函数返回一个布尔数组，如�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining 
 # numpy.char.startswith() function 
 
@@ -43,7 +43,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining 
 # numpy.char.startswith() function 
 

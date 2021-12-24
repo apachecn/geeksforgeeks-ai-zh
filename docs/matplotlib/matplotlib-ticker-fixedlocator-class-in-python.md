@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.ticker

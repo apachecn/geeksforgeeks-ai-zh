@@ -19,7 +19,7 @@ matplotlib 库的 Axes 模块中的 **Axes.can_zoom()函数**用于检查轴是�
 以下示例说明 matplotlib.axes.Axes.can_zoom()函数在 matplotlib.axes:
 **示例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -44,7 +44,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们能够使用`matrix.sum()`方法找到矩阵中值的总和。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(geek)
 
 **Output:**
 
-```
+```py
 20
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[14]
  [16]
  [15]]

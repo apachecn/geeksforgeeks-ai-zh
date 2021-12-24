@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.copy()`函数复制给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.copy()`函数来复制 tidx 对象，并将复制对象的名称设置为“New_koala”。
 
-```
+```py
 # make a copy and set the name
 tidx_copy = tidx.copy(name ='New_koala')
 
@@ -48,7 +48,7 @@ print(tidx_copy)
 
 **示例 2:** 使用`TimedeltaIndex.copy()`功能检查通过的标签是否出现在索引中。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.copy()`函数来复制 tidx 对象，并将复制对象的名称设置为“New_koala”。我们还将把对象的数据类型改为字符串。
 
-```
+```py
 # make a copy, set the name and change the dtype
 tidx_copy = tidx.copy(dtype ='str', name ='New_koala')
 

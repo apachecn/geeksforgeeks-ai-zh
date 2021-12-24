@@ -12,7 +12,7 @@
 
 **代码#1 : get_positional_distance()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_positional_distance()
 
@@ -41,7 +41,7 @@ print ("b - get_positional_distance form c: ", b.get_positional_distance(c))
 
 **代码#2 : get_positional_distance()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_positional_distance()
 

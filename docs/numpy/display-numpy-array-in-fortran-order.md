@@ -10,7 +10,7 @@ Fortran 顺序/数组是一种特殊情况，其中数组的所有元素都以�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -29,7 +29,7 @@ for num_array in np.nditer(num_array, order="F"):
 
 **输出:**
 
-```
+```py
 Array:
 [[ 0  1  2  3]
 [ 4  5  6  7]
@@ -44,7 +44,7 @@ Elements of the array in Fortan array:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package 
 import numpy as np
 
@@ -63,7 +63,7 @@ for num_array in np.nditer(num_array, order="F"):
 
 **输出:**
 
-```
+```py
 Array:
 [[ 0  1  2  3  4  5]
 [ 6  7  8  9 10 11]]
@@ -77,7 +77,7 @@ Elements of the array in Fortan array:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package 
 import numpy as np
 

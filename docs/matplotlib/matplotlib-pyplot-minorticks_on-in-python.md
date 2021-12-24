@@ -10,7 +10,7 @@ matplotlib 库 pyplot 模块中的**minarticks _ on()函数**用于显示轴上�
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.minorticks_on()
 > 
 > ```
@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的**minarticks _ on()函数**用于显示轴上�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

@@ -29,7 +29,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate erosion and
 # dilation of images.
 import cv2

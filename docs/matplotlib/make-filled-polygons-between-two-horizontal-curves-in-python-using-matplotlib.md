@@ -16,7 +16,7 @@
 
 下面是实现。
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x_inp= input("Enter values of X array:  ").split()
@@ -36,7 +36,7 @@ plt.show()
 
 **输入:**
 
-```
+```py
 Enter values of X array:  1 2 3
 Enter values of Y1 array:  1 2 1
 Enter values of Y2 array:  1 4 1
@@ -49,7 +49,7 @@ Enter color:  red
 
 **输入:**
 
-```
+```py
 Enter values of X array:  1 2 3 4 5
 Enter values of Y1 array:  1 2 3 2 1
 Enter values of Y2 array:  3 5 7 5 3

@@ -16,7 +16,7 @@ Pandas `**Period.to_timestamp()**`函数在指定的周期结束(方式)时，�
 
 **示例#1:** 使用`Period.to_timestamp()`函数以指定的频率将给定的周期对象作为时间戳对象返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(prd)
 
 现在我们将使用`Period.to_timestamp()`函数返回给定的周期对象作为时间戳对象。
 
-```
+```py
 # return as a timestamp in the specified frequency.
 # 'M' represents monthly frequency
 prd.to_timestamp(freq ='M')
@@ -47,7 +47,7 @@ prd.to_timestamp(freq ='M')
 
 **示例 2:** 使用`Period.to_timestamp()`函数以指定的频率将给定的周期对象作为时间戳对象返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(prd)
 
 现在我们将使用`Period.to_timestamp()`函数返回给定的周期对象作为时间戳对象。
 
-```
+```py
 # return as a timestamp in the specified frequency.
 # 'T' represents minutely frequency
 prd.to_timestamp(freq ='T')

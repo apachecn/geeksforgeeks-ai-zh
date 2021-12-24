@@ -19,7 +19,7 @@ Pandas `**MultiIndex.sortlevel()**`函数在请求的级别对多索引进行排
 
 **示例#1:** 使用`MultiIndex.sortlevel()`函数按降序对多索引的第 0 级进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(midx)
 
 现在让我们以降序对多索引的第 0 级进行排序。
 
-```
+```py
 # sort the 0th level in descending order.
 midx.sortlevel(level = 0, ascending = False)
 ```
@@ -48,7 +48,7 @@ midx.sortlevel(level = 0, ascending = False)
 
 **示例 2:** 使用`MultiIndex.sortlevel()`功能按递增顺序对多索引的第一级进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(midx)
 
 现在让我们按照递增的顺序对多索引的第一级进行排序。
 
-```
+```py
 # sort the 1st level of the MultiIndex in increasing order.
 midx.sortlevel(level = 1, ascending = True)
 ```

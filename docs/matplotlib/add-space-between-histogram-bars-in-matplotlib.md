@@ -9,7 +9,7 @@ Matplotlib 是 python 编程语言中的绘图库，默认情况下，它是 Pyt
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 values = [1, 2, 3, 3, 4, 5, 6, 6, 7, 8]

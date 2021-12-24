@@ -52,7 +52,7 @@ bokeh 库绘图模块中的 **bezier()函数**用于配置 bezier 字形并添�
 以下示例说明了 bokeh . ploting . figure . bezier()函数在 bokeh . ploting:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -74,7 +74,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -47,7 +47,7 @@ print(data['column1'].corr(data['column3']))
 
 **输出:**
 
-```
+```py
  column1  column2  column3
 0       12       67       34
 1       23       54       23
@@ -62,7 +62,7 @@ print(data['column1'].corr(data['column3']))
 
 **语法:**
 
-```
+```py
 dataset.corr()
 ```
 
@@ -70,7 +70,7 @@ dataset.corr()
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(data.corr())
 
 **输出**:
 
-```
+```py
           column1   column2  column3
 column1  1.000000 -0.997048  0.00000
 column2 -0.997048  1.000000  0.07347

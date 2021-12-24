@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import hankel_transform
 from sympy import hankel_transform, inverse_hankel_transform
 from sympy import gamma, exp, sinh, cosh
@@ -38,7 +38,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import hankel_transform
 from sympy import hankel_transform, inverse_hankel_transform
 from sympy import gamma, exp, sinh, cosh

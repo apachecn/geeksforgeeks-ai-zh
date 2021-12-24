@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.pyplot as mp
 import pandas as pd
@@ -65,7 +65,7 @@ mp.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import matplotlib.pyplot as mp
 import pandas as pd

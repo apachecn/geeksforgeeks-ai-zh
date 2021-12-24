@@ -5,13 +5,13 @@
 在+ve 整数数组中，numpy.bincount()方法计算每个元素的出现次数。每个 bin 值都是其索引的出现。人们也可以相应地设置箱子的大小。
 **语法:**
 
-```
+```py
 numpy.bincount(arr, weights = None, min_len = 0)
 ```
 
 **参数:**
 
-```
+```py
 arr     : [array_like, 1D]Input array, having positive numbers
 weights : [array_like, optional]same shape as that of arr
 min_len : Minimum number of bins we want in the output array
@@ -20,7 +20,7 @@ min_len : Minimum number of bins we want in the output array
 
 **返回:**
 
-```
+```py
 Output array with no. of occurrence of index value of bin in input - arr. 
 Output array, by default is of the length max element of arr + 1\. 
 Here size of the output array would be max(input_arr)+1.
@@ -29,7 +29,7 @@ Here size of the output array would be max(input_arr)+1.
 
 **代码 1:NumPy**中 bincount()的工作
 
-```
+```py
 # Python Program explaining 
 # working of numpy.bincount() method
 
@@ -56,7 +56,7 @@ print("size of bin : ", len(bin1), "\n")
 
 **输出:**
 
-```
+```py
 Bincount output  : 
   [0 4 2 0 0 0 1]
 size of bin :  7 
@@ -73,7 +73,7 @@ size of bin :  10
 
 **代码 2:我们可以按 bincount()权重**的元素进行加法运算
 
-```
+```py
 # Python Program explaining 
 # working of numpy.bincount() method
 
@@ -95,7 +95,7 @@ print("Summation element-wise : \n", bin)
 
 **输出:**
 
-```
+```py
 Summation element-wise : 
  [  0\.  16\.  10\.  17.]
 ```

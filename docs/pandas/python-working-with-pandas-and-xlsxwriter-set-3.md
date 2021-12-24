@@ -12,7 +12,7 @@ Python Pandas 是一个数据分析库。它可以读取、过滤和重新排列
 
 **代码#1 :** 使用 Pandas 和 XlsxWriter 绘制柱形图。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ writer_object.save()
 
 **代码#2 :** 使用 Pandas 和 XlsxWriter 绘制折线图。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -169,7 +169,7 @@ writer_object.save()
 
 **代码#3 :** 使用 Pandas 和 XlsxWriter 绘制散点图。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 

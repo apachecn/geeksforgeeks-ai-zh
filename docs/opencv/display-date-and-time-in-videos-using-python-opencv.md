@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy
 import cv2

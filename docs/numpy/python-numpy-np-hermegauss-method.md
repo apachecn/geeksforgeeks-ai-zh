@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermegauss()`方法，我们能够利用这个方法得到高斯 hermiteE 级数的求积。
 
-```
+```py
 # import numpy as np
 import numpy as np
 from numpy.polynomial.hermite_e import hermegauss
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy as np
 import numpy as np
 from numpy.polynomial.hermite_e import hermegauss

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.eigvals()`方法，我们能够使用该方法获得矩阵的特征值。
 
-```
+```py
 # import numpy
 from numpy import linalg as LA
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 from numpy import linalg as LA
 

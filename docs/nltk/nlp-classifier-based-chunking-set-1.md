@@ -8,7 +8,7 @@
 
 **代码#1:我们来了解一下**
 
-```
+```py
 # Loading Libraries
 from nltk.chunk import ChunkParserI
 from nltk.chunk.util import tree2conlltags, conlltags2tree
@@ -29,7 +29,7 @@ def chunk_trees2train_chunks(chunk_sents):
 
 **代码#2:探测器功能**
 
-```
+```py
 def prev_next_pos_iob(tokens, index, history):
 
     word, pos = tokens[index]
@@ -58,7 +58,7 @@ def prev_next_pos_iob(tokens, index, history):
 
 **代码#3 :**
 
-```
+```py
 class ClassifierChunker(ChunkParserI):
     def __init__(self, train_sents, 
                  feature_detector = prev_next_pos_iob, **kwargs):

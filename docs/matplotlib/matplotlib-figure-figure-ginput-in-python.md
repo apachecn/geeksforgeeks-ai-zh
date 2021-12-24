@@ -25,7 +25,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,7 +51,7 @@ plt.show()
 
 ![](img/935de96158d776c33b53b9c8d626abba.png)
 
-```
+```py
 After 3 clicks :
 [(5.370117187499999, 0.12683733876216197), 
 (5.370117187499999, 0.12683733876216197),
@@ -61,7 +61,7 @@ After 3 clicks :
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -87,7 +87,7 @@ plt.show()
 
 ![](img/8828876c8f6417faf64a34fffe3f1216.png)
 
-```
+```py
 After 2 clicks :
 [(29.90151515151514, 65.65854978354977),
 (29.90151515151514, 65.65854978354977)]

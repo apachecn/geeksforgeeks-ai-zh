@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_clip_on()方法**用于获取艺术�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -51,14 +51,14 @@ plt.show()
 **输出:**
 ![](img/6f7d8a9a2dc4bafac5729eaa5ca71896.png)
 
-```
+```py
 Value Return by get_clip_on() :  True
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -103,7 +103,7 @@ plt.show()
 **输出:**
 ![](img/5999b52e5c7e34612938446b2af72b94.png)
 
-```
+```py
 Value Return by get_clip_on() :  False
 
 ```

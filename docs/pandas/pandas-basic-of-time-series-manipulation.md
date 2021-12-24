@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from datetime import datetime
 import numpy as np
@@ -29,7 +29,7 @@ print(range_date)
 
 **Output:** 
 
-```
+```py
 DatetimeIndex(['2019-01-01 00:00:00', '2019-01-01 00:01:00',
                '2019-01-01 00:02:00', '2019-01-01 00:03:00',
                '2019-01-01 00:04:00', '2019-01-01 00:05:00',

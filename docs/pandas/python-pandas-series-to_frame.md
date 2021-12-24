@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.to_frame()`函数将给定的序列对象转换为数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.to_frame()`函数将给定的序列对象转换为数据帧。
 
-```
+```py
 # convert to dataframe
 sr.to_frame()
 ```
@@ -52,7 +52,7 @@ sr.to_frame()
 
 **示例#2:** 使用`Series.to_frame()`函数将给定的序列对象转换为数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.to_frame()`函数将给定的序列对象转换为数据帧。
 
-```
+```py
 # convert to dataframe
 sr.to_frame()
 ```

@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.start_time**`属性返回一个 DatetimeIndex 对象，该
 
 **示例#1:** 使用`PeriodIndex.start_time`属性找出给定周期索引对象中每个周期的开始时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.start_time`属性找出 pidx 对象中每个周期的开始时间。
 
-```
+```py
 # return the start time
 pidx.start_time
 ```
@@ -43,7 +43,7 @@ pidx.start_time
 
 **例 2:** 使用`PeriodIndex.start_time`属性找出给定周期索引对象中每个周期的开始时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.start_time`属性找出 pidx 对象中每个周期的开始时间。
 
-```
+```py
 # return the start time
 pidx.start_time
 ```

@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **分类前–**
 
-```
+```py
 #importing pandas package
 import pandas as pd
 
@@ -41,7 +41,7 @@ data
 
 **排序后–**
 
-```
+```py
 #importing pandas package
 import pandas as pd
 
@@ -65,7 +65,7 @@ data
 如上面的示例所示，通过将列表传递给“by”参数，可以针对多列对数据框进行排序。我们还可以向“升序”参数传递一个列表，告诉熊猫该如何对哪一列进行排序。
 “升序”参数中布尔型的索引应与“by”参数中列名的索引相同。
 
-```
+```py
 #importing pandas package
 import pandas as pd
 
@@ -88,7 +88,7 @@ data
 
 在以下示例中，同一数据框按团队名称排序。对于每个团队，数据框按年龄排序，对于每个相同的年龄，数据框按身高排序。本示例将解释多参数排序在数据框中是如何工作的。
 
-```
+```py
 #importing pandas package
 import pandas as pd
 

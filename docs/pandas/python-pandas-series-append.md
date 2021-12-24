@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.append()`函数将传递的序列对象追加到该序列对象的末尾。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ print(sr2)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -66,7 +66,7 @@ dtype: object
 
 现在我们使用`Series.append()`函数在 sr1 系列的末尾追加 sr2。
 
-```
+```py
 # append sr2 at the end of sr1
 result = sr1.append(sr2)
 
@@ -76,7 +76,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 City 1     New York
 City 2      Chicago
 City 3      Toronto
@@ -94,7 +94,7 @@ dtype: object
 
 **示例 2:** 使用`Series.append()`函数将传递的系列对象追加到该系列对象的末尾。忽略两个系列对象的原始索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -125,7 +125,7 @@ print(sr2)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -143,7 +143,7 @@ dtype: object
 
 现在我们使用`Series.append()`函数在 sr1 系列的末尾追加 sr2。我们将忽略给定序列对象的索引。
 
-```
+```py
 # append sr2 at the end of sr1
 # ignore the index
 result = sr1.append(sr2, ignore_index = True)
@@ -154,7 +154,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 0    New York
 1     Chicago
 2     Toronto

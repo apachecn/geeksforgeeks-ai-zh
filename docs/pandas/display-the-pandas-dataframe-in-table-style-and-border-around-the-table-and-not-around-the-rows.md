@@ -15,7 +15,7 @@
 
 **例 1 :**
 
-```
+```py
 # import the module
 import pandas as pd 
 
@@ -38,7 +38,7 @@ df.style.set_table_styles([{'selector' : '',
 
 **例 2 :**
 
-```
+```py
 # import the module
 import pandas as pd 
 

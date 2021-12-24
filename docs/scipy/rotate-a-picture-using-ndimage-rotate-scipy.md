@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage, misc
 from matplotlib import pyplot as plt
 ```
@@ -27,7 +27,7 @@ from matplotlib import pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage, misc
 from matplotlib import pyplot as plt
 
@@ -50,7 +50,7 @@ panda = misc.face()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage, misc
 from matplotlib import pyplot as plt
 panda = misc.face()
@@ -65,7 +65,7 @@ panda_rotate = ndimage.rotate(panda, 135, mode = 'constant')
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage, misc
 from matplotlib import pyplot as plt
 
@@ -85,7 +85,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage, misc
 from matplotlib import pyplot as plt
 

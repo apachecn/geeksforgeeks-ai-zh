@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.csd(x, y)
 ```
 
@@ -24,7 +24,7 @@ matplotlib.pyplot.csd(x, y)
 
 **示例 1:** 绘制信号 1
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -43,7 +43,7 @@ plt.show()
 
 **示例 2:** 绘制信号 2
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -62,7 +62,7 @@ plt.show()
 
 **实施例 3:** 绘制交叉光谱密度
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -86,7 +86,7 @@ plt.show()
 
 **示例 4:** 使用离散列表或数组
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

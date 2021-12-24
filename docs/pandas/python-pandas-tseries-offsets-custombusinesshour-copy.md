@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.CustomBusinessHour.copy()`功能创建给定偏移对象的副本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还将创建给定偏移对象的副本。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 
@@ -66,7 +66,7 @@ print(cbh_copy is cbh)
 
 **示例 2:** 使用`pandas.tseries.offsets.CustomBusinessHour.copy()`功能创建给定偏移对象的副本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -91,7 +91,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还将创建给定偏移对象的副本。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 

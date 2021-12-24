@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import numpy as np
 import pandas as pd
@@ -27,7 +27,7 @@ boston = load_boston()
 
 ## 蟒蛇 3
 
-```
+```py
 boston.data.shape
 ```
 
@@ -35,7 +35,7 @@ boston.data.shape
 
 ## 蟒蛇 3
 
-```
+```py
 boston.feature_names
 ```
 
@@ -45,7 +45,7 @@ boston.feature_names
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.DataFrame(boston.data)
 data.columns = boston.feature_names
 

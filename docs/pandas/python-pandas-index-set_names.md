@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.set_names()`函数创建一个匿名索引，并使用名称参数设置其名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ pd.Index(['Beagle', 'Pug', 'Labrador', 'Pug',
 
 **示例 2:** 使用`Index.set_names()`功能重置多索引的名称属性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ midx
 ![](img/a597ea13be61ee4f8f03679073bb8688.png)
 在输出中我们可以看到，midx 多索引的名称属性设置为‘Name’和‘Age’。让我们将这些名字重新设置为“学生姓名”和“学生年龄”
 
-```
+```py
 # to reset the name of the midx
 midx.set_names(['Student_Name', 'Student_Age'])
 ```

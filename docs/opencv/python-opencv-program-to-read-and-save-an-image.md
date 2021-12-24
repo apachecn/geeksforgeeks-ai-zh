@@ -20,7 +20,7 @@ OpenCV(开源计算机视觉)是一个主要针对实时计算机视觉的编程
 
 下面是 Python 实现:
 
-```
+```py
 # Python Program To Read And Save image 
 import numpy as np
 import cv2

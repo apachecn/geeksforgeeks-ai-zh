@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing useful libraries
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -41,7 +41,7 @@ print(df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # to plot a boxplot of
 # age vs survived feature
 plt.figure(figsize=(10, 8))
@@ -63,7 +63,7 @@ plt.title("Titanic Dataset", size=18)
 
 ## 蟒蛇 3
 
-```
+```py
 # boxplot with showmeans
 plt.figure(figsize=(10, 8))
 sns.boxplot(x='survived',
@@ -85,7 +85,7 @@ plt.title("Titanic Dataset", size=18)
 
 ## 蟒蛇 3
 
-```
+```py
 # customizing using meanprops
 plt.figure(figsize=(10, 8))
 sns.boxplot(x='survived',

@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.default_fill_value() method 
 
@@ -41,7 +41,7 @@ print ("Default filled value : ", out_val) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -54,7 +54,7 @@ Default filled value :  999999
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.default_fill_value() method 
 
@@ -84,7 +84,7 @@ print ("Default filled value : ", out_val) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1.+2.j  2.+3.j]
  [ 3.-2.j -1.+2.j]
  [ 5.-4.j -3.-3.j]]

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助方法`matrix.put()`，我们可以将中的值放入给定的矩阵中。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[45 45]
  [12  3]]
 
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 1  2 43]
  [ 4  5  6]
  [ 7  8 -9]]

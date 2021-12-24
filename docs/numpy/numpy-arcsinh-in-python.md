@@ -28,7 +28,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # arcsinh() function
 
@@ -43,7 +43,7 @@ print ("\nInverse hyperbolic sine values of input array : \n", arcsinh_Values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [2, 1, 10, 100]
 
@@ -53,7 +53,7 @@ Inverse hyperbolic sine values of input array :
 
 **代码#2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation  
 # of arcsinh() function % matplotlib inline 
@@ -81,7 +81,7 @@ plt.ylabel("Y")
 
 **输出:**
 
-```
+```py
 
 in_array :  [ 1\.          1.12597604  1.25195208  1.37792812  1.50390415  1.62988019
   1.75585623  1.88183227  2.00780831  2.13378435  2.25976038  2.38573642

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df2)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 

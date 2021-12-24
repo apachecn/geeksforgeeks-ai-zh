@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # PROGRAM TO FIND RECIPROCAL OF EACH 
 # ELEMENT OF NUMPY ARRAY
 import numpy as np
@@ -30,7 +30,7 @@ print(reciprocal_arr)
 
 ## 计算机编程语言
 
-```
+```py
 # PROGRAM TO FIND RECIPROCAL OF EACH
 # ELEMENT OF NUMPY ARRAY
 import numpy as np
@@ -54,7 +54,7 @@ Numpy 库还提供了一个简单的方法来寻找数组中每个元素的倒�
 
 ## 蟒蛇 3
 
-```
+```py
 #  program to compute the Reciprocal
 # for all elements in a given array
 # with the help of numpy.reciprocal()
@@ -74,7 +74,7 @@ print(reciprocal_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 #  program to compute the Reciprocal for
 # all elements in a given array with the
 # help of numpy.reciprocal()

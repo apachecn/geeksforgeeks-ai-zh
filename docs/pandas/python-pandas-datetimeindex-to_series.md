@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.to_series()`函数从给定的日期时间索引对象创建一个序列对象。同时设置序列的索引值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(didx)
 
 现在我们想用 DatetimeIndex 对象构造一个序列。
 
-```
+```py
 # construct the series
 didx.to_series(index =['A', 'B', 'C', 'D', 'E'])
 ```
@@ -45,7 +45,7 @@ didx.to_series(index =['A', 'B', 'C', 'D', 'E'])
 
 **示例#2:** 使用`DatetimeIndex.to_series()`函数从给定的 DatetimeIndex 对象创建一个系列对象。同时设置序列的索引值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(didx)
 
 现在我们想用 DatetimeIndex 对象构造一个序列。
 
-```
+```py
 # construct the series
 didx.to_series(index =['First', 'Second', 'Third', 'Fourth', 'Fifth'])
 ```

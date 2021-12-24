@@ -20,7 +20,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required libraries
 import cv2
 import numpy as np
@@ -36,7 +36,7 @@ cap = cv2.VideoCapture(0)
 
 ## 计算机编程语言
 
-```
+```py
 # creating the SIFT algorithm
 sift = cv2.xfeatures2d.SIFT_create()
 
@@ -57,7 +57,7 @@ flann = cv2.FlannBasedMatcher(index_params, search_params)
 
 ## 计算机编程语言
 
-```
+```py
 # reading the frame
 _, frame = cap.read()
 
@@ -86,7 +86,7 @@ for m, n in matches:
 
 ## 计算机编程语言
 
-```
+```py
 # maintaining list of index of descriptors
 # in query descriptors
 query_pts = np.float32([kp_image[m.queryIdx]
@@ -110,7 +110,7 @@ matches_mask = mask.ravel().tolist()
 
 ## 计算机编程语言
 
-```
+```py
 # initializing height and width of the image
 h, w = img.shape
 
@@ -126,7 +126,7 @@ dst = cv2.perspectiveTransform(pts, matrix)
 
 ## 计算机编程语言
 
-```
+```py
 # using drawing function for the frame
 homography = cv2.polylines(frame, [np.int32(dst)], True, (255, 0, 0), 3)
 

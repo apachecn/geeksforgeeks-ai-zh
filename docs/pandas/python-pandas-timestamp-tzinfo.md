@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.tzinfo`属性查找给定时间戳对象的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tzinfo`属性来查找给定对象的时区。
 
-```
+```py
 # return the timezone
 ts.tzinfo
 ```
@@ -45,7 +45,7 @@ ts.tzinfo
 
 **示例 2:** 使用`Timestamp.tzinfo`属性查找给定时间戳对象的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tzinfo`属性来查找给定对象的时区。
 
-```
+```py
 # return the timezone
 ts.tzinfo
 ```

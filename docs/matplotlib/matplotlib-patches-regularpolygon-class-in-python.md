@@ -63,7 +63,7 @@ matplotlib . patches . regular polygon 类用于添加正多边形面片。
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import RegularPolygon
 import numpy as np
@@ -135,7 +135,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import RegularPolygon
 from matplotlib.collections import PatchCollection

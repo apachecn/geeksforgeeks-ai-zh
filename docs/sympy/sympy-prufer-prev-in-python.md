@@ -12,7 +12,7 @@
 
 **代码#1 : prev()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prev()
 
@@ -36,7 +36,7 @@ print ("Prufer a prev : ", a.prev(1))
 
 **代码#2 : prev()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prev()
 

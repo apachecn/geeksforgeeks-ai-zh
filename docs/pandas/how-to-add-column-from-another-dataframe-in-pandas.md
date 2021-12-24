@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df1 = pd.DataFrame({"Col1": [1, 2, 3], 
@@ -61,7 +61,7 @@ display(df2)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df1 = pd.DataFrame({"Col1": [1, 2, 3],

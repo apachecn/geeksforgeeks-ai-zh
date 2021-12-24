@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.month_name()`函数返回 DatetimeIndex 对象中每个条目的月份名称。返回法语地区的月份名称
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在我们想要返回法语地区的月份名称。
 
-```
+```py
 # return the names of the month in French
 didx.month_name(locale ='French')
 ```
@@ -43,7 +43,7 @@ didx.month_name(locale ='French')
 
 **示例 2:** 使用`DatetimeIndex.month_name()`函数返回 DatetimeIndex 对象中每个条目的月份名称。返回德语地区的月份名称
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(didx)
 
 现在我们想返回德语地区的月份名称。
 
-```
+```py
 # return the names of the month in German
 didx.month_name(locale ='German')
 ```

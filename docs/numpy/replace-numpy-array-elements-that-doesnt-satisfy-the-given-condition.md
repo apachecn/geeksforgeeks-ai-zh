@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -38,7 +38,7 @@ print(n_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -65,7 +65,7 @@ print(n_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -98,7 +98,7 @@ print(n_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -126,7 +126,7 @@ print(np.where(n_arr >= 25, 0, n_arr))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 

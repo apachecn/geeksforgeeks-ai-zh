@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Required Libraries
 import cv2
 import numpy as np
@@ -75,7 +75,7 @@ print("Images resized Successfully")
 
 在保存 Python 脚本的文件夹中打开终端，并键入以下命令。
 
-```
+```py
 python resize.py --image path/to/images/folder/
 ```
 

@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.FisherZ()`方法，我们能够使用该方法获得代表费希尔 Z 分布的连续随机变量。
 
-```
+```py
 # Import sympy and FisherZ
 from sympy.stats import FisherZ, density
 from sympy import Symbol
@@ -42,7 +42,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and FisherZ
 from sympy.stats import FisherZ, density
 from sympy import Symbol

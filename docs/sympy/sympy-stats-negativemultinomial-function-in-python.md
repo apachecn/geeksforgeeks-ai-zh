@@ -4,7 +4,7 @@
 
 借助**方法，我们可以创建一个具有负多项式分布的离散随机变量。**
 
-```
+```py
 **Syntax:** sympy.stats.NegativeMultinomial(syms, k, p)
 
 **Parameters:** 
@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import sympy, NegativeMultinomia, density, symbols
 from sympy.stats import density
 from sympy.stats.joint_rv_types import NegativeMultinomial

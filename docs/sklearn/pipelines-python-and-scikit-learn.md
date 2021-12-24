@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -54,7 +54,7 @@ print(accuracy_score(y_test, pipe.predict(X_test)))
 
 **输出:**
 
-```
+```py
 [Pipeline] ............... (step 1 of 3) Processing pca, total=   0.0s
 [Pipeline] ............... (step 2 of 3) Processing std, total=   0.0s
 [Pipeline] ..... (step 3 of 3) Processing Decision_tree, total=   0.0s
@@ -65,7 +65,7 @@ print(accuracy_score(y_test, pipe.predict(X_test)))
 
 *   **pipe . named _ steps:**pipe . named _ steps 是一个字典，存储链接到管道中各个对象的名称键。例如:
 
-```
+```py
 pipe.named_steps['decision_tree'] # returns a decision tree classifier object  
 ```
 
@@ -75,7 +75,7 @@ pipe.named_steps['decision_tree'] # returns a decision tree classifier object
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -99,7 +99,7 @@ pipe.get_params()
 
 **输出:**
 
-```
+```py
 {'memory': None,
  'steps': [('pca',
    PCA(copy=True, iterated_power='auto', n_components=2, random_state=None,

@@ -22,7 +22,7 @@ matplotlib 库的轴模块中的 **Axis.set_units()功能**用于设置轴的单
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import random
@@ -72,7 +72,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np

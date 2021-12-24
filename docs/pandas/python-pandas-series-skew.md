@@ -19,7 +19,7 @@
 
 **示例#1 :** 使用`Series.skew()`函数查找给定 Series 对象的数据中的偏斜度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.skew()`函数来查找数据中的偏斜度。
 
-```
+```py
 # find skewness
 sr.skew()
 ```
@@ -49,7 +49,7 @@ sr.skew()
 
 **示例#2 :** 使用`Series.skew()`函数查找给定 Series 对象的数据中的偏斜度。我们的系列对象中有一些丢失的值，所以跳过这些丢失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(sr)
 
 现在我们将使用`Series.skew()`函数来查找数据中的偏斜度。
 
-```
+```py
 # find skewness
 sr.skew(skipna = True)
 ```

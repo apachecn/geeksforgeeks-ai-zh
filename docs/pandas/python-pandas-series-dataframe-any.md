@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，通过将字典传递给 Pandas `DataFrame()`方法创建了一个示例数据框。使用 Numpy `np.nan`将空值传递给一些索引，以检查空值的行为。因为在本例中，方法是在索引上实现的，所以 axis 参数保持为 0(代表行)。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -50,7 +50,7 @@ result
 
 在本例中，通过将字典传递给 Pandas `DataFrame()`方法创建了一个样本数据框，就像上面的例子一样。但是，不是将 0 传递给 axis 参数，而是将 1 传递给每个列中的每个值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

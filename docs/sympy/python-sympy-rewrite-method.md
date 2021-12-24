@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -30,7 +30,7 @@ print("Expression in terms of sin() : {}".format(expr_in_terms_of_sin))  
 
 **输出:**
 
-```
+```py
 Expression = tan(x)
 Expression in terms of sin() : 2*sin(x)**2/sin(2*x)
 
@@ -38,7 +38,7 @@ Expression in terms of sin() : 2*sin(x)**2/sin(2*x)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -54,7 +54,7 @@ print("Expression in terms of gamma() : {}".format(expr_in_terms_of_gamma))  
 
 **输出:**
 
-```
+```py
 Expression = factorial(x)
 Expression in terms of gamma() : gamma(x + 1)
 

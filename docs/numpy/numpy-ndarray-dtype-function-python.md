@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.dtype() function
 
@@ -28,13 +28,13 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 int64
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.dtype() function
 
@@ -50,7 +50,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 float64
 
 ```

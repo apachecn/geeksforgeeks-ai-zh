@@ -16,7 +16,7 @@ Pandas `**MultiIndex.from_arrays()**`函数用于将数组转换为 MultiIndex�
 
 **示例#1:** 使用`MultiIndex.from_arrays()`函数从数组构建多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(array)
 
 现在让我们使用这个数组创建多索引
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_arrays(array,
             names =('Number', 'Names'))
@@ -47,7 +47,7 @@ print(midx)
 
 **示例 2:** 使用`MultiIndex.from_arrays()`函数从数组中构建多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(array)
 
 现在让我们使用这个数组创建多索引
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_arrays(array, 
    names =('Ranking', 'Names', 'Profession'))

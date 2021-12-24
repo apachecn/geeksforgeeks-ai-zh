@@ -28,7 +28,7 @@ Scipy 是 Python 的科学计算模块，在许多著名的数学函数上提供
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.integrate import quad
 
 def f(x):
@@ -53,7 +53,7 @@ print(err)
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.integrate import dblquad
 
 area = dblquad(lambda x, y: x*y, 0, 0.5, 
@@ -74,7 +74,7 @@ print(area)
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.integrate import nquad
 
 def f(x, y, z):
@@ -96,7 +96,7 @@ print(I)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy.integrate
 from scipy import integrate
 
@@ -121,7 +121,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy.integrate.
 from scipy import integrate
 

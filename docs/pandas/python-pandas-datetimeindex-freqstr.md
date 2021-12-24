@@ -12,7 +12,7 @@ Pandas `**DatetimeIndex.freqstr**`属性如果在 DatetimeIndex 对象中设置�
 
 **示例#1:** 使用`DatetimeIndex.freqstr`属性将频率对象作为给定日期时间索引对象的字符串返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(didx)
 ![](img/83edcb931a1a0699837fe183d00d6eb9.png)
 现在我们要找到给定 DatetimeIndex 对象的频率字符串值。
 
-```
+```py
 # find the value of frequency object as string
 didx.freqstr
 ```
@@ -40,7 +40,7 @@ didx.freqstr
 
 **示例#2:** 使用`DatetimeIndex.freqstr`属性为给定的 DatetimeIndex 对象查找作为字符串的频率对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(didx)
 
 现在，我们想要为给定的 DatetimeIndex 对象找到频率的字符串值。
 
-```
+```py
 # find the value of frequency object as string
 didx.freqstr
 ```

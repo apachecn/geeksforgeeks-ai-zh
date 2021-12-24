@@ -23,7 +23,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_title()函数**用于设置轴的
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import os
 from matplotlib import font_manager as fm, rcParams
@@ -48,7 +48,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

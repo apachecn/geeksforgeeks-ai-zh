@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.values`属性返回表示给定索引对象中数据的数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(idx)
 
 现在我们将使用`Index.values`属性返回一个数组，该数组表示给定索引对象中的数据。
 
-```
+```py
 # return an array
 result = idx.values
 
@@ -45,7 +45,7 @@ print(result)
 
 **示例#2 :** 使用`Index.values`属性返回一个数组，该数组表示给定索引对象中的数据。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(idx)
 
 现在我们将使用`Index.values`属性返回一个数组，该数组表示给定索引对象中的数据。
 
-```
+```py
 # return an array
 result = idx.values
 

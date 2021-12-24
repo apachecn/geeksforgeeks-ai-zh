@@ -15,7 +15,7 @@ Pandas `**dataframe.bfill()**`用于向后填充数据集中缺失的值。它�
 
 **示例#1:** 使用`bfill()`函数跨行填充数据框中缺失的值`na`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 当`axis='rows'`时，则当前`na`单元格中的值从下一行的相应值开始填充。如果下一行也是`na`值，那么它不会被填充。
 
-```
+```py
 # Fill across the row
 df.bfill(axis ='rows')
 ```
@@ -45,7 +45,7 @@ df.bfill(axis ='rows')
 
 当`axis='columns'`时，当前`na`单元格将从同一行下一列的值开始填充。如果下一列也是`na`单元格，则不会被填充。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

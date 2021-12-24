@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -32,7 +32,7 @@ print(vec_norm)
 
 **输出:**
 
-```
+```py
 Vector norm:
 16.881943016134134
 ```
@@ -42,7 +42,7 @@ Vector norm:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -59,7 +59,7 @@ print(mat_norm)
 
 **输出:**
 
-```
+```py
 Matrix norm:
 9.539392014169456
 ```
@@ -70,7 +70,7 @@ Matrix norm:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -86,7 +86,7 @@ print(mat_norm)
 
 **输出:**
 
-```
+```py
 Matrix norm along particular axis :
 [3.74165739 8.77496439]
 ```
@@ -96,7 +96,7 @@ Matrix norm along particular axis :
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -121,7 +121,7 @@ print(mat_norm)
 
 **输出:**
 
-```
+```py
 Vector norm:
 14.2828568570857
 Matrix norm:

@@ -15,7 +15,7 @@
 
 ![](img/965ae6ae8524e1228f9baa7f37aa77a5.png)
 
-```
+```py
 # Importing OpenCV 
 import cv2
 
@@ -50,7 +50,7 @@ cv2.waitKey(5000)
 
 ![](img/8ace879bb7ebec799dacb5c32be5aeb6.png)
 
-```
+```py
 # Importing OpenCV and numpy
 import cv2
 

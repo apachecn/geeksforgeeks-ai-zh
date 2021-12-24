@@ -21,7 +21,7 @@
 
 **稳定版:**
 
-```
+```py
 pip install tflearn
 ```
 
@@ -29,7 +29,7 @@ pip install tflearn
 
 **最新版本:**
 
-```
+```py
 pip install git+https://github.com/tflearn/tflearn.git
 ```
 
@@ -41,7 +41,7 @@ pip install git+https://github.com/tflearn/tflearn.git
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing tflearn library 
 import tflearn
 from tflearn.layers.conv import conv_2d, max_pool_2d, input_data

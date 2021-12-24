@@ -12,7 +12,7 @@
 
 在这个例子中我们可以看到，通过使用`numpy.getmask()`方法，我们能够得到一个数组的掩码矩阵。
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 
@@ -29,7 +29,7 @@ print(ma.getmask(gfg))
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 

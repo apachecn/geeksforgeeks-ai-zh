@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # percentileofscore
 from scipy import stats
 import numpy as np
@@ -33,7 +33,7 @@ print ("\nPercentile of 2  : ", stats.percentileofscore(arr, 2))
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 7, 7, 34]
 
 Percetile of 7  :  57.1428571429

@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.components**`属性返回时间增量的组成部分(�
 
 **示例#1:** 使用`TimedeltaIndex.components`属性返回时间增量组件的数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们想要返回 tidx 对象组件的数据帧。
 
-```
+```py
 # return a dataframe constructed from
 # the components of the Timedelta
 tidx.components
@@ -41,7 +41,7 @@ tidx.components
 
 **示例 2:** 使用`TimedeltaIndex.components`属性返回时间增量的组件的数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(tidx)
 
 现在我们想要返回 tidx 对象组件的数据帧。
 
-```
+```py
 # return a dataframe constructed from
 # the components of the Timedelta
 tidx.components

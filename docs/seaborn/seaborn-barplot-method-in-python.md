@@ -48,7 +48,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -74,7 +74,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -101,7 +101,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -129,7 +129,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required library
 import seaborn as sns
 import matplotlib.pyplot as plt

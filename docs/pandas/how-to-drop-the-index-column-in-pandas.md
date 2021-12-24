@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -36,7 +36,7 @@ print("Memory size of numpy array in bytes:",
 
 **输出:**
 
-```
+```py
 Size of the array:  3
 Memory size of one array element in bytes:  4
 Memory size of numpy array in bytes: 12
@@ -47,7 +47,7 @@ Memory size of numpy array in bytes: 12
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -68,7 +68,7 @@ print("Memory size of numpy array in bytes:",
 
 **输出:**
 
-```
+```py
 Size of the array:  6
 Length of one array element in bytes:  4
 Memory size of numpy array in bytes: 24
@@ -85,7 +85,7 @@ Memory size of numpy array in bytes: 24
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -98,7 +98,7 @@ print("Memory size of a NumPy array:",
 
 **输出:**
 
-```
+```py
 Memory size of a NumPy array: 12
 
 ```
@@ -107,7 +107,7 @@ Memory size of a NumPy array: 12
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -121,7 +121,7 @@ print("Memory size of a NumPy array:",
 
 **输出:**
 
-```
+```py
 Memory size of a NumPy array: 24
 
 ```

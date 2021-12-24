@@ -80,7 +80,7 @@ J(\Theta) = \frac{1}{2m} \sum_{i = 1}^{m} \frac{1}{2} [h_{\Theta}(x^{(i)}) – y
 
 ## 蟒蛇 3
 
-```
+```py
 # This code may not run on GFG IDE
 # as required modules not found.
 
@@ -109,7 +109,7 @@ y=y.reshape(100,1)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 
 # Adding x0=1 to each instance
@@ -122,7 +122,7 @@ theta_best_values=np.linalg.inv(x_new.T.dot(x_new)).dot(x_new.T).dot(y)
 print(theta_best_values)
 ```
 
-```
+```py
 [[ 0.52804151]
  [30.65896337]]
 ```
@@ -131,7 +131,7 @@ print(theta_best_values)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 
 # sample data instance.
@@ -145,7 +145,7 @@ print("Before adding x0:\n",x_sample)
 print("After adding x0:\n",x_sample_new)
 ```
 
-```
+```py
 Before adding x0:
  [[-2]
  [ 4]]
@@ -156,14 +156,14 @@ After adding x0:
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # predict the values for given data instance.
 predict_value=x_sample_new.dot(theta_best_values)
 print(predict_value)
 ```
 
-```
+```py
 [[-60.78988524]
  [123.16389501]]
 ```
@@ -172,7 +172,7 @@ print(predict_value)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 
 # Plot the output.
@@ -191,7 +191,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 
 # Verification.
@@ -206,7 +206,7 @@ print("Best value of theta:",lr.intercept_,lr.coef_,sep='\n')
 print("predicted value:",lr.predict(x_sample),sep='\n')
 ```
 
-```
+```py
 Best value of theta:
 [0.52804151]
 [[30.65896337]]

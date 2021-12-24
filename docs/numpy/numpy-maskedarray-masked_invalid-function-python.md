@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_invalid() method 
 
@@ -37,7 +37,7 @@ print ("Masked array : ", mask_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1\.  2\. nan -1\. inf]
 Masked array :  [1.0 2.0 -- -1.0 --]
 
@@ -45,7 +45,7 @@ Masked array :  [1.0 2.0 -- -1.0 --]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_invalid() method 
 
@@ -66,7 +66,7 @@ print ("Masked array : ", mask_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [5.e+08 3.e-05    nan 4.e+04 5.e+02]
 Masked array :  [500000000.0 3e-05 -- 40000.0 500.0]
 

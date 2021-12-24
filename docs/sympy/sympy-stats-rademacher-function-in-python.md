@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.Rademacher()`方法，我们能够使用该方法获得拉德马赫分布的随机变量。
 
-```
+```py
 # Import sympy and Rademacher
 from sympy.stats import Rademacher, density
 
@@ -24,14 +24,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 {1: 1/2, -1: 1/2}
 
 ```
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Rademacher
 from sympy.stats import Rademacher, density, P
 
@@ -44,7 +44,7 @@ print(P(gfg >= 0))
 
 **输出:**
 
-```
+```py
 1/2
 
 ```

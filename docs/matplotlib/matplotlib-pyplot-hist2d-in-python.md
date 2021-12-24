@@ -31,7 +31,7 @@ matplotlib 库 pyplot 模块中的 **hist2d()函数**用于制作 2d 直方图�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib import colors
 from matplotlib.ticker import PercentFormatter
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 #Implementation of matplotlib function
 from matplotlib import colors
 import numpy as np

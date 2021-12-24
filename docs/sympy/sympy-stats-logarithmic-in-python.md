@@ -12,7 +12,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Logarithmic()`方法，我们能够通过使用这个方法得到代表对数分布的随机变量。
 
-```
+```py
 # Import sympy and logarithmic
 from sympy.stats import Logarithmic, density, E, variance
 from sympy import Symbol, S
@@ -32,7 +32,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and logarithmic
 from sympy.stats import Logarithmic, density, E, variance
 from sympy import Symbol, S

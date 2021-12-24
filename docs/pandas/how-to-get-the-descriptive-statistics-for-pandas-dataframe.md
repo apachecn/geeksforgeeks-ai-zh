@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```py
 # Import package
 from pandas import DataFrame
 
@@ -39,7 +39,7 @@ print(stats)
 ![](img/fc3b5d4041064f9160e348930fb6885b.png)
 **例 2:**
 
-```
+```py
 # Import package
 from pandas import DataFrame
 
@@ -63,7 +63,7 @@ print(stats)
 ![](img/5bc514c2a8e46bc9f4e8925c7dfbfc60.png)
 **例 3:**
 
-```
+```py
 # Import package
 from pandas import DataFrame
 
@@ -88,7 +88,7 @@ print(stats)
 **例 4:**
 在本例中，我们单独打印所有的描述性统计数据。
 
-```
+```py
 from pandas import DataFrame
 
 # Create DataFrame

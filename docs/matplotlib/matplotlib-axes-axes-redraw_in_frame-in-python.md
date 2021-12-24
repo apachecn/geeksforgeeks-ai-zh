@@ -20,7 +20,7 @@ matplotlib 库的 axes 模块中的 **Axes.redraw_in_frame()函数**用于高效
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 
@@ -42,7 +42,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 import numpy as np

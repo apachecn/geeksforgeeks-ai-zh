@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn
 
@@ -41,7 +41,7 @@ seaborn.lmplot(x="total_bill",
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn
 
@@ -64,7 +64,7 @@ seaborn.lmplot(x="total_bill",
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn
 

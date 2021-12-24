@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.prod() method 
 
@@ -62,7 +62,7 @@ print ("Output product of int array elements array along default axis: ", out_ar
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]

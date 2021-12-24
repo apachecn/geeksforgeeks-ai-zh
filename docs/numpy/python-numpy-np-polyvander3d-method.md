@@ -14,7 +14,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.polyvander3d()`方法，我们能够使用该方法获得伪范德蒙矩阵。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.polynomial as geek
@@ -37,7 +37,7 @@ print(ans)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.polynomial as geek

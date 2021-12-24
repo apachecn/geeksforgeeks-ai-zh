@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 在 nba.csv 文件中将球队“波士顿凯尔特人”替换为“欧米茄勇士”
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ df[:10]
 
 我们将在“df”数据框中用“欧米茄勇士”替换“波士顿凯尔特人”队
 
-```
+```py
 # this will replace "Boston Celtics" with "Omega Warrior"
 df.replace(to_replace ="Boston Celtics",
                  value ="Omega Warrior")
@@ -54,7 +54,7 @@ df.replace(to_replace ="Boston Celtics",
 
 我们将在“df”数据框中用“欧米茄战士”替换“波士顿凯尔特人”和“德克萨斯”队。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ df.replace(to_replace =["Boston Celtics", "Texas"], 
 
 **示例#3:** 将数据框中的 Nan 值替换为-99999 值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -24,7 +24,7 @@ matplotlib 库的 **text()方法**图形模块用于给图形添加文本。
 
 **例 1:**
 
-```
+```py
 #Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -50,7 +50,7 @@ fig.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

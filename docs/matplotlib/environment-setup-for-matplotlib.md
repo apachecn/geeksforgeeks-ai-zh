@@ -24,19 +24,19 @@
 
 *   使用 brew 安装 libpng 和 Freetype:
 
-    ```
+    ```py
     brew install libpng freetype pkg-config
     ```
 
 *   如果您正在使用 MacPorts，请执行以下命令:
 
-    ```
+    ```py
     port install libpng freetype pkgconfig
     ```
 
 *   现在使用
 
-    ```
+    ```py
     python -mpip install 
     ```
 
@@ -45,6 +45,6 @@
 **在 Linux 上**
 这是在 Ubuntu 上最容易得到的，因为你只需使用下面的命令就可以得到所有的依赖项:
 
-```
+```py
 sudo apt-get build-dep python-matplotlib
 ```

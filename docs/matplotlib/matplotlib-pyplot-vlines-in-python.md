@@ -10,7 +10,7 @@
 
 matplotlib.pyplot.vlines()是用于绘制数据集的函数。在 matplotlib.pyplot.vlines()中， **vlines** 是垂直线的缩写，这个函数的作用从扩展形式中非常清楚，它说这个函数处理垂直线穿过轴的绘制。
 
-```
+```py
 Syntax: vlines(x, ymin, ymax, colors, linestyles)
 ```
 
@@ -18,7 +18,7 @@ Syntax: vlines(x, ymin, ymax, colors, linestyles)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -41,7 +41,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.vlines((1, 3, 5,), 0, 10, colors = ("r", "g", "b"),

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -44,7 +44,7 @@ print("\nMinimum Value:",
 
 **输出:**
 
-```
+```py
 Given Array:
 [[0 1]
 [2 3]]
@@ -58,7 +58,7 @@ Minimum Value: [0 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -83,7 +83,7 @@ print("\nMinimum value along the second axis:",
 
 **输出:**
 
-```
+```py
 Given array:
 [[10 34 45]
 [22 -3 46]

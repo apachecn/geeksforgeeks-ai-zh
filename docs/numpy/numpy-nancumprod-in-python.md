@@ -20,7 +20,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.nancumprod() function
 
@@ -35,7 +35,7 @@ print ("cumulative product of input number : ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 cumulative product of input number :  [10]
 
@@ -43,7 +43,7 @@ cumulative product of input number :  [10]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nancumprod() function
 
@@ -59,7 +59,7 @@ print ("cumulative product of array elements: ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 cumulative product of array elements:  [  2\.   4\.   8\.  16\.  32\.  32.]
@@ -68,7 +68,7 @@ cumulative product of array elements:  [  2\.   4\.   8\.  16\.  32\.  32.]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.nancumprod() function
 
@@ -84,7 +84,7 @@ print ("cumulative product of array elements taking axis 1: ", out_prod) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 cumulative product of array elements taking axis 1:  [[ 2\.  4\.  8.]

@@ -18,7 +18,7 @@
 
 现在，让我们创建一个示例数据帧:
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -51,7 +51,7 @@ details
 
 **示例 1:** 基于单个列对数据框行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ rslt_df
 
 **示例 2:** 基于多列对数据框行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -128,7 +128,7 @@ rslt_df
 
 **示例 3:** 按降序对基于列的数据框行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -166,7 +166,7 @@ rslt_df
 
 **示例 4:** 基于原地列对数据框行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -204,7 +204,7 @@ details
 
 **让我们看看另一个简单的数据框架，在这个框架上，我们可以根据行对列进行排序。**
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -236,7 +236,7 @@ details
 
 **示例 1:** 基于单行对数据框的列进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -273,7 +273,7 @@ rslt_df
 
 **示例 2:** 根据单行按降序对数据框的列进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -309,7 +309,7 @@ rslt_df
 
 **示例 3:** 基于多行对数据框的列进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 

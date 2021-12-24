@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_autoscale_on()函数**用于设�
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt

@@ -15,7 +15,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到通过在`ndarray.item()`方法中指定参数，我们可以拥有元素，如果它存在于这个索引上的话。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -28,14 +28,14 @@ print(gfg.item(2))
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(gfg.item((1, 2)))
 
 **Output:**
 
-```
+```py
 4
 
 ```

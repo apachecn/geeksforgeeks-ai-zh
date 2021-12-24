@@ -48,7 +48,7 @@ OpenCV Python 只不过是原始 C++库与 Python 一起使用的包装类。使
 
 ## 蟒蛇 3
 
-```
+```py
 sudo chmod a+x getModels.sh
 ./getModels.sh
 ```
@@ -66,7 +66,7 @@ sudo chmod a+x getModels.sh
 
 ## 蟒蛇 3
 
-```
+```py
 # Specify the paths for the 2 files
 protoFile = "pose/mpi/pose_deploy_linevec_faster_4_stages.prototxt"
 weightsFile = "pose/mpi/pose_iter_160000.caffemodel"
@@ -82,7 +82,7 @@ net = cv2.dnn.readNetFromCaffe(protoFile, weightsFile)
 
 ## 蟒蛇 3
 
-```
+```py
 # Read image
 frame = cv2.imread("single.jpg")
 
@@ -102,7 +102,7 @@ net.setInput(inpBlob)
 
 ## 蟒蛇 3
 
-```
+```py
 output = net.forward()
 ```
 
@@ -117,7 +117,7 @@ output = net.forward()
 
 ## 蟒蛇 3
 
-```
+```py
 H = out.shape[2]
 W = out.shape[3]
 # Empty list to store the detected keypoints
@@ -161,7 +161,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 for pair in POSE_PAIRS:
     partA = pair[0]
     partB = pair[1]

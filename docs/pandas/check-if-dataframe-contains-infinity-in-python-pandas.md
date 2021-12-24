@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```py
 isinf(array [, out])
 ```
 
@@ -31,7 +31,7 @@ isinf(array [, out])
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 
 import pandas as pd
@@ -86,7 +86,7 @@ print(r)
 
 ******语法:******
 
-```
+```py
 **isfinite(array [, out])**
 ```
 
@@ -94,7 +94,7 @@ print(r)
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import required libraries
 
 import pandas as pd

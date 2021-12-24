@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.to_clipboard()`功能将给定的序列对象复制到系统剪贴板。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.to_clipboard()`函数将给定的序列对象复制到系统剪贴板。
 
-```
+```py
 # copy to clipboard
 sr.to_clipboard()
 ```
@@ -54,7 +54,7 @@ sr.to_clipboard()
 
 **示例 2:** 使用`Series.to_clipboard()`功能将给定的序列对象复制到系统剪贴板。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(sr)
 
 现在我们将使用`Series.to_clipboard()`函数将给定的序列对象复制到系统剪贴板。
 
-```
+```py
 # copy to clipboard
 sr.to_clipboard()
 ```

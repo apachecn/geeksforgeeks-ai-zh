@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.dayofyear`属性在给定的 Timestamp 对象中查找一年中的某一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.dayofyear`属性在给定的 Timestamp 对象中找出一年中的某一天。
 
-```
+```py
 # return day of the year
 ts.dayofyear
 ```
@@ -44,7 +44,7 @@ ts.dayofyear
 
 **示例#2:** 使用`Timestamp.dayofyear`属性在给定的 Timestamp 对象中查找一年中的某一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.dayofyear`属性在给定的 Timestamp 对象中找出一年中的某一天。
 
-```
+```py
 # return day of the year
 ts.dayofyear
 ```

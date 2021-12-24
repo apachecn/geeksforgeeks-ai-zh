@@ -10,7 +10,7 @@
 
 **代码:使用带三个选项的 remote_tag.py 模块**
 
-```
+```py
 import pickle
 
 if __name__ == '__channelexec__':
@@ -40,7 +40,7 @@ Execnet 可以做的更多，比如开放多通道增加并行处理，以及通
 
 **代码:**
 
-```
+```py
 import itertools
 
 gw1 = execnet.makegateway()
@@ -72,7 +72,7 @@ gw2.exit()
 
 **输出:**
 
-```
+```py
 Length : 4
 ```
 

@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.blocks`属性返回包含不同数据类型块中数据的字典。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(df)
 
 现在我们将使用`DataFrame.blocks`属性返回给定数据帧的块表示。
 
-```
+```py
 # return a dictionary
 result = df.blocks
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.blocks`属性返回包含不同数据类型块中数据的字典。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(df)
 
 现在我们将使用`DataFrame.blocks`属性返回给定数据帧的块表示。
 
-```
+```py
 # return a dictionary
 result = df.blocks
 

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermediv()`方法，我们能够利用这个方法得到两个 hermiteE 级数的除法。
 
-```
+```py
 # import numpy and hermediv
 import numpy as np
 from numpy.polynomial.hermite_e import hermediv
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermediv
 import numpy as np
 from numpy.polynomial.hermite_e import hermediv

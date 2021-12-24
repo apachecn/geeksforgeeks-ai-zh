@@ -23,7 +23,7 @@ Python **`Series.add()`** 是用来给调用者系列添加系列或者列表一
 
 在本例中，前 5 行使用存储在新变量中。head()方法。之后，创建一个相同长度的列表，并使用`.add()`方法将其添加到工资列中
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -52,7 +52,7 @@ short_data
 
 在本例中，“年龄”列被添加到“薪资”列中。由于工资列也包含空值，默认情况下，无论添加什么，它都会返回 NaN。在本例中，传递 5 是为了用 5 替换空值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

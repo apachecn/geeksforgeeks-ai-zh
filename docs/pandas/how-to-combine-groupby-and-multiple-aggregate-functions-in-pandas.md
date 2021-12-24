@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 # import library
 import pandas as pd
 
@@ -25,7 +25,7 @@ df.head()
 
 **例 2:**
 
-```
+```py
 # Find the average of each continent
 # by grouping the data  
 # based on the "continent".
@@ -41,7 +41,7 @@ Pandas `[dataframe.agg()](https://www.geeksforgeeks.org/python-pandas-dataframe-
 
 **示例:**
 
-```
+```py
 # here sum, minimum and maximum of column 
 # beer_servings is calculatad
 df.beer_servings.agg(["sum", "min", "max"])
@@ -54,7 +54,7 @@ df.beer_servings.agg(["sum", "min", "max"])
 
 **示例:**
 
-```
+```py
 # find an aggregation of column "beer_servings"
 # by grouping the "continent" column.
 df.groupby(df["continent"]).beer_servings.agg(["min",

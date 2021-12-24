@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import prime
 
@@ -27,14 +27,14 @@ print("The {}th prime is {}".format(n, nth_prime))  
 
 **输出:**
 
-```
+```py
 The 5th prime is 11
 
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import prime
 
@@ -48,7 +48,7 @@ print("The {}rd prime is {}".format(n, nth_prime))        
 
 **输出:**
 
-```
+```py
 The 23rd prime is 83
 
 ```

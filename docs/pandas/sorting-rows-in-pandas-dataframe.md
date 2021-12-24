@@ -8,7 +8,7 @@ Pandas DataFrame 是一个二维可变大小的、潜在异构的表格数据结
 
 **代码#1:** 按*科学*排序行
 
-```
+```py
 # import modules
 import pandas as pd
 
@@ -28,7 +28,7 @@ print("Sorting rows by Science:\n \n", a)
 
 **Output:**
 
-```
+```py
 Sorting rows by Science:
 
     English  Maths  Science    name
@@ -42,7 +42,7 @@ Sorting rows by Science:
 
 **代码#2:** 先按数学再按英语对行进行排序。
 
-```
+```py
 # import modules
 import pandas as pd
 
@@ -62,7 +62,7 @@ print("Sort rows by Maths and then by English: \n\n", b)
 
 **Output:**
 
-```
+```py
 Sort rows by Maths and then by English: 
 
     English  Maths  Science    name
@@ -76,7 +76,7 @@ Sort rows by Maths and then by English:
 
 **代码#3:** 如果你想先缺值。
 
-```
+```py
 import pandas as pd
 
 # create dataframe
@@ -92,7 +92,7 @@ print(a)
 
 **Output:**
 
-```
+```py
 English  Maths  Science    name
 3        6      9        4    Alex
 2        7      6        5  Gaurav

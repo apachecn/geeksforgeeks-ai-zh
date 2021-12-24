@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的**matplotlib . py plot . semicology()函数**�
 以下示例说明了 matplotlib . pyplot . semicology()函数在 matplotlib.pyplot:
 **示例#1:**
 
-```
+```py
 # importing necessary libraries
 import matplotlib.pyplot as plot
 import numpy as np
@@ -67,7 +67,7 @@ plot.show()
 
 **例 2:**
 
-```
+```py
 # importing necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -89,7 +89,7 @@ ax[1, 1].hist(np.random.randn(1000));
 
 **示例#3:**
 
-```
+```py
 # importing necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np

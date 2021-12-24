@@ -6,13 +6,13 @@
 
 **安装:**
 
-```
+```py
 pip install pandas-profiling
 ```
 
 **示例:**
 
-```
+```py
 #import the packages
 import pandas as pd
 import pandas_profiling

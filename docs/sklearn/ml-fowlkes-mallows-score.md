@@ -50,7 +50,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -59,7 +59,7 @@ from sklearn.metrics import fowlkes_mallows
 
 **第二步:加载和清理数据**
 
-```
+```py
 #Changing the working location to the location of the file
 cd C:\Users\Dev\Desktop\Kaggle\Credit Card Fraud
 
@@ -79,7 +79,7 @@ X.head()
 
 下面的代码步骤包括构建不同的 K-Means 聚类模型，每个模型都有不同的参数 n_clusters 值，然后使用 fowlks-mallos 评分来评估每个单独的性能。
 
-```
+```py
 #List of Fowlkes-Mallows Scores for different models
 fms_scores = []
 
@@ -89,7 +89,7 @@ N_Clusters = [2,3,4,5,6]
 
 a) **n_clusters = 2**
 
-```
+```py
 #Building the clustering model
 kmeans2 = KMeans(n_clusters=2)
 
@@ -105,7 +105,7 @@ fms_scores.append(fms(y,labels2))
 
 b) **n_clusters = 3**
 
-```
+```py
 #Building the clustering model
 kmeans3 = KMeans(n_clusters=3)
 
@@ -121,7 +121,7 @@ fms_scores.append(fms(y,labels3))
 
 c) **n_clusters = 4**
 
-```
+```py
 #Building the clustering model
 kmeans4 = KMeans(n_clusters=4)
 
@@ -137,7 +137,7 @@ fms_scores.append(fms(y,labels4))
 
 d) **n_clusters = 5**
 
-```
+```py
 #Building the clustering model
 kmeans5 = KMeans(n_clusters=5)
 
@@ -153,7 +153,7 @@ fms_scores.append(fms(y,labels5))
 
 e) **n_clusters = 6**
 
-```
+```py
 #Building the clustering model
 kmeans6 = KMeans(n_clusters=6)
 
@@ -167,7 +167,7 @@ labels6 = kmeans6.predict(X)
 fms_scores.append(fms(y,labels6))
 ```
 
-```
+```py
 print(fms_scores)
 ```
 
@@ -175,7 +175,7 @@ print(fms_scores)
 
 **第四步:可视化和比较结果**
 
-```
+```py
 #Plotting a Bar Graph to compare the models
 plt.bar(N_Clusters,fms_scores)
 plt.xlabel('Number of Clusters')

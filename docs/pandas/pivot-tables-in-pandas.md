@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 
@@ -52,7 +52,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 
@@ -86,7 +86,7 @@ print(pd.pivot_table(df, index = ["ID"]))
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 
@@ -121,7 +121,7 @@ display(pd.pivot_table(df, 
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import numpy as np

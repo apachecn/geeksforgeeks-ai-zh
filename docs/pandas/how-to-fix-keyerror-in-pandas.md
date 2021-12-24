@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -26,7 +26,7 @@ df = pd.read_csv('data.csv')
 
 ## 蟒蛇 3
 
-```
+```py
 # intentionally passing wrong spelling of
 # the key present in dataset
 df['country']
@@ -34,7 +34,7 @@ df['country']
 
 **输出:**
 
-```
+```py
 KeyError: 'country'
 ```
 
@@ -46,7 +46,7 @@ KeyError: 'country'
 
 ## 蟒蛇 3
 
-```
+```py
 # printing all columns of the dataframe
 print(df.columns.tolist())
 ```

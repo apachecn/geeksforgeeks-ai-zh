@@ -20,7 +20,7 @@ matplotlib 库的 **set_constrained_layout()方法**图形模块用于设置绘�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -56,7 +56,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import matplotlib.pyplot as plt

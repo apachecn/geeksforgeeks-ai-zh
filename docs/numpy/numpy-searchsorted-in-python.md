@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # searchsorted() function
 
@@ -36,7 +36,7 @@ print ("Output indices to maintain sorted array : ", out_ind)
 
 **输出:**
 
-```
+```py
 Input array :  [2, 3, 4, 5, 6]
 The number which we want to insert :  4
 Output indices to maintain sorted array :  2
@@ -45,7 +45,7 @@ Output indices to maintain sorted array :  2
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # searchsorted() function
 
@@ -65,7 +65,7 @@ print ("Output indices to maintain sorted array : ", out_ind)
 
 **输出:**
 
-```
+```py
 Input array :  [2, 3, 4, 5, 6]
 The number which we want to insert :  4
 Output indices to maintain sorted array :  3
@@ -74,7 +74,7 @@ Output indices to maintain sorted array :  3
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # searchsorted() function
 
@@ -94,7 +94,7 @@ print ("Output indices to maintain sorted array : ", out_ind)
 
 **输出:**
 
-```
+```py
 Input array :  [2, 3, 4, 5, 6]
 The number which we want to insert :  [4, 8, 0]
 Output indices to maintain sorted array :  [2 5 0]

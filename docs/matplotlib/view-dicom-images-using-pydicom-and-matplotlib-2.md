@@ -54,7 +54,7 @@ pydicom 使我们能够处理 dicom 文件，在本文中我们将讨论使用 p
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > import matplotlib.pyplot as plt
 > import pydicom
 > import pydicom.data

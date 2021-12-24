@@ -17,7 +17,7 @@ Pandas `**tseries.offsets.BusinessDay.rollback()**`功能仅在不偏移的情�
 
 **示例#1:** 如果不在偏移上，使用`pandas.tseries.offsets.BusinessDay.rollback()`功能将提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。如果不在偏移上，我们也将把提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 
@@ -67,7 +67,7 @@ print(date)
 
 **示例 2 :** 如果不在偏移上，使用`pandas.tseries.offsets.BusinessDay.rollback()`功能将提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。如果不在偏移上，我们也将把提供的日期向后滚动到下一个偏移。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 

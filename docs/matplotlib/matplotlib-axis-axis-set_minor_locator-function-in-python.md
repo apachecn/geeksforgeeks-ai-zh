@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_minor_locator()函数**用于设�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -50,7 +50,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import datetime 

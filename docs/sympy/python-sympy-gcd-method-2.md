@@ -4,7 +4,7 @@
 
 函数`gcd()`提供了计算多项式最大公约数的直接方法。也就是说，对于多项式 f 和 g，它计算 GCD。
 
-```
+```py
 Syntax: sympy.gcd(f, g)
 
 Return: GCD of given polynomials
@@ -13,7 +13,7 @@ Return: GCD of given polynomials
 
 **例#1:**
 
-```
+```py
 # import sympy  
 from sympy import * f = (12 * x + 12)*x
 g = 32 * x**2
@@ -26,13 +26,13 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 4*x
 ```
 
 **例#2:**
 
-```
+```py
 # import sympy  
 from sympy import * f = 3 * x**2 / 2
 g = 9 * x / 4
@@ -45,6 +45,6 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 x
 ```

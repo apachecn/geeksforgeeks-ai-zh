@@ -16,7 +16,7 @@ pandas**PeriodIndex . freqstr**属性将频率对象作为字符串返回(如果
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the frequency object as a string
 pidx.freqstr
 ```
@@ -51,7 +51,7 @@ pidx.freqstr
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the frequency object as a string
 pidx.freqstr
 ```

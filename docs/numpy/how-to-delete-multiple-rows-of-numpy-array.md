@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as geek
 
 # Defining the array

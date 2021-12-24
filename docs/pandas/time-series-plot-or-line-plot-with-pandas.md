@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create a list of data to be represented in x-axis
@@ -61,7 +61,7 @@ df_days_calories
 
 ## 蟒蛇 3
 
-```
+```py
 # use plot() method on the dataframe
 df_days_calories.plot( 'day' , 'calories' )
 
@@ -83,7 +83,7 @@ df_days_calories.plot( 'day' , 'calories' )
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create a list of data to
@@ -116,7 +116,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # use plot() method on the dataframe. 
 # No parameters are passed so it uses
 # variables given in the dataframe
@@ -131,7 +131,7 @@ df.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 

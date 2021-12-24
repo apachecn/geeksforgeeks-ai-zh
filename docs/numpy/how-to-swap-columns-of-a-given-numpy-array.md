@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Module
 import numpy as np
 
@@ -35,7 +35,7 @@ print(my_array)
 
 **输出:**
 
-```
+```py
 Original array:
 [[ 0  1  2]
  [ 3  4  5]
@@ -52,7 +52,7 @@ After swapping arrays the last column and first column:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Module
 import numpy as np
 
@@ -73,7 +73,7 @@ print(my_array)
 
 **输出:**
 
-```
+```py
 Original Array : 
 [[ 0  1  2]
  [ 3  4  5]

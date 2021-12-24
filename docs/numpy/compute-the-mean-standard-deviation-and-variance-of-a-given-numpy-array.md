@@ -8,7 +8,7 @@
 
 ## Python
 
-```
+```py
 import numpy as np
 
 # Original array

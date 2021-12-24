@@ -14,7 +14,7 @@ Pandas `**Period.end_time**`属性返回一个包含给定周期对象结束时�
 
 **示例#1:** 使用`Period.end_time`属性查找给定周期对象的结束时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.end_time`属性来查找 prd 对象的结束时间。
 
-```
+```py
 # return the end time
 prd.end_time
 ```
@@ -44,7 +44,7 @@ prd.end_time
 
 **示例#2:** 使用`Period.end_time`属性查找给定周期对象的结束时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(prd)
 
 现在我们将使用`Period.end_time`属性来查找 prd 对象的结束时间。
 
-```
+```py
 # return the end time
 prd.end_time
 ```

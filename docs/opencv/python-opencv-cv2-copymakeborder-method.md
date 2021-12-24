@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.copyMakeBorder() method
 
 # importing cv2
@@ -62,7 +62,7 @@ cv2.imshow(window_name, image)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.copyMakeBorder() method
 
 # importing cv2

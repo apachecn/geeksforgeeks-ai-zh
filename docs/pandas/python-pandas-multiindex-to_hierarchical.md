@@ -16,7 +16,7 @@ Pandas `**MultiIndex.to_hierarchical()**`函数返回一个多索引，该索引
 
 **示例#1:** 使用`MultiIndex.to_hierarchical()`功能重复多索引中的标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(midx)
 
 现在让我们重复多索引的标签两次。
 
-```
+```py
 # repeat the labels in the MultiIndex 2 times.
 midx.to_hierarchical(n_repeat = 2)
 ```
@@ -45,7 +45,7 @@ midx.to_hierarchical(n_repeat = 2)
 
 **示例 2:** 使用`MultiIndex.to_hierarchical()`功能重复并重新排列多索引中的标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(midx)
 
 现在，让我们重复和重新洗牌的标签的多重索引 2 次。
 
-```
+```py
 # resetting the labels the MultiIndex
 midx.to_hierarchical(n_repeat = 2, n_shuffle = 2)
 ```

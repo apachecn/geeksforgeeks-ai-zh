@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy package
 import numpy as np
 
@@ -40,7 +40,7 @@ print( "q=\n", q, "\nr=\n", r)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy package
 import numpy as np
 
@@ -63,7 +63,7 @@ print( "q=\n", q, "\nr=\n", r)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy package
 import numpy as np
 

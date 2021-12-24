@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.month` 属性在给定的 Period 对象中查找月份值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(prd)
 
 现在我们将使用`Period.month`属性找出 prd 对象中月份的值。
 
-```
+```py
 # return value of month
 prd.month
 ```
@@ -45,7 +45,7 @@ prd.month
 
 **示例#2:** 使用`Period.month`属性查找给定周期对象中月份的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(prd)
 
 现在我们将使用`Period.month`属性找出 prd 对象中月份的值。
 
-```
+```py
 # return value of month
 prd.month
 ```

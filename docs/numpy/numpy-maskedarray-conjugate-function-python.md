@@ -22,7 +22,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.conjugate() method 
 
@@ -48,7 +48,7 @@ print ("conjugate of masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1.+2.j  2.+3.j]
  [ 3.-2.j -1.+2.j]
  [ 5.-4.j -3.-3.j]]

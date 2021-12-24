@@ -17,7 +17,7 @@ Pandas 系列在独立处理各种分析操作或作为 pandas 数据框架的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -51,7 +51,7 @@ Pandas iloc 用于通过指定其整数索引来检索数据。在 python 中，
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library and time
 import pandas as pd
 import time

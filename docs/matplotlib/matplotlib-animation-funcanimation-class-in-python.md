@@ -51,7 +51,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import numpy as np
@@ -111,7 +111,7 @@ anim.save('growingCoil.mp4', writer = 'ffmpeg', fps = 30)
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import pyplot as plt
 import numpy as np
 from matplotlib.animation import FuncAnimation

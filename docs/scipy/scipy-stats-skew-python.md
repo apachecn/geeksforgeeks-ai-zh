@@ -4,7 +4,7 @@
 
 `**scipy.stats.skew(array, axis=0, bias=True)**`函数计算数据集的偏斜度。
 
-```
+```py
 skewness = 0 : normally distributed.
 skewness > 0 : more weight in the left tail of the distribution.
 skewness < 0 : more weight in the right tail of the distribution. 
@@ -23,7 +23,7 @@ skewness < 0 : more weight in the right tail of the distribution.
 
 **代码#1:**
 
-```
+```py
 # Graph using numpy.linspace() 
 # finding Skewness
 
@@ -41,7 +41,7 @@ print( '\nSkewness for data : ', skew(y1))
 
 **输出:**
 
-```
+```py
 
 Skewness for data : 1.1108237139164436
 
@@ -49,7 +49,7 @@ Skewness for data : 1.1108237139164436
 
 **代码#2:**
 
-```
+```py
 # Graph using numpy.linspace() 
 # finding Skewness
 
@@ -67,7 +67,7 @@ print( '\nSkewness for data : ', skew(y1))
 
 **输出:**
 
-```
+```py
 
 Skewness for data : 1.917677776148478
 
@@ -75,7 +75,7 @@ Skewness for data : 1.917677776148478
 
 **代码#3:** 随机数据
 
-```
+```py
 # finding Skewness
 
 from scipy.stats import skew
@@ -91,7 +91,7 @@ print('\nSkewness for data : ', skew(x))
 
 **输出:**
 
-```
+```py
 X : 
  [ 0.03255323 -6.18574775 -0.58430139 ...  3.22112446  1.16543279
   0.84083317]

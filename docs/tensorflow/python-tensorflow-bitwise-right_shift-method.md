@@ -17,7 +17,7 @@ Tensorflow `bitwise.right_shift()`方法对由输入 b 定义的输入 a 执行 
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_57:0", shape=(), dtype=int32)
 256
 Input 2 Tensor("Const_58:0", shape=(), dtype=int32)
@@ -53,7 +53,7 @@ Output:  Tensor("RightShift_3:0", shape=(), dtype=int32)
 
 **例 2:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -77,7 +77,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_53:0", shape=(3, ), dtype=int32)
 [ 8 16 32]
 Input 2 Tensor("Const_54:0", shape=(3, ), dtype=int32)

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # check if 25 is present
 # in the series
 result = sr.isin([25])
@@ -59,7 +59,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # check if 21 and 10 is present
 # in the series
 result = sr.isin([21, 10])

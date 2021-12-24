@@ -9,7 +9,7 @@
 **使用时间戳:**
 时间戳相当于 Python 的 Datetime，在大多数情况下可以互换。它表示一个特定的时间点。让我们看看如何创建时间戳。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -25,7 +25,7 @@ print(ts)
 
 只有时间戳不是很有用，除非我们用它创建一个索引。我们使用时间戳创建的索引属于`**DatetimeIndex**`类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(df)
 
 现在我们将看到由各个时间戳组成的数据帧索引的类型。
 
-```
+```py
 # Check the type
 print(type(df.index))
 ```
@@ -61,7 +61,7 @@ print(type(df.index))
 
 **使用周期:**与代表时间点的时间戳不同，周期代表一段时间。可能是一个月、一天、一年、一小时等等..让我们看看如何在熊猫中创建周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(pr)
 
 只有周期对象在用作数据框或系列中的索引时才非常有用。由句点组成的索引称为`**PeriodIndex**`。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -106,7 +106,7 @@ print(df)
 
 现在，我们将看到由单个句点组成的数据框索引的类型。
 
-```
+```py
 # Check the type
 print(type(df.index))
 ```

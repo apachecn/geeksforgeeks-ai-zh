@@ -13,7 +13,7 @@
 
 **步骤 1:** 验证 python 版本:
 
-```
+```py
 $ python3 --version
 ```
 
@@ -21,7 +21,7 @@ $ python3 --version
 
 **步骤 2:** 验证是否安装了 brew:
 
-```
+```py
 $ brew --version
 ```
 
@@ -29,7 +29,7 @@ $ brew --version
 
 **步骤 3:** 创建虚拟环境:
 
-```
+```py
 $ brew install virtualenv
 ```
 
@@ -37,7 +37,7 @@ $ brew install virtualenv
 
 **第四步:**创建新的虚拟环境后，创建一个./pytonev 目录保存。
 
-```
+```py
 $ virtualenv --system-site-packages -p python3 ./pythonenv
 ```
 
@@ -45,19 +45,19 @@ $ virtualenv --system-site-packages -p python3 ./pythonenv
 
 **第五步:**进去。/pytonev
 
-```
+```py
 $ cd ./pythonenv
 ```
 
 **步骤 6:** 激活虚拟环境
 
-```
+```py
 source bin/activate
 ```
 
 **步骤 7：** 安装张量流。
 
-```
+```py
 brew install tensorflow
 ```
 
@@ -67,13 +67,13 @@ brew install tensorflow
 
 **步骤 9:** 运行文件:
 
-```
+```py
 $ python3 tfdemofile.py
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tensorflow
 import tensorflow as tf
 

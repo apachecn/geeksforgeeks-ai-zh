@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Standard Deviation 
 
 from scipy import stats
@@ -33,7 +33,7 @@ print("\nTrimmed Standard Deviation by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Standard Deviation : 5.9160797831
 
 Trimmed Standard Deviation by setting limit :  2.73861278753
@@ -42,7 +42,7 @@ Trimmed Standard Deviation by setting limit :  2.73861278753
 
 **代码#2:** 多维数据，轴()工作
 
-```
+```py
 # Trimmed Standard Deviation 
 
 from scipy import stats
@@ -60,7 +60,7 @@ print("Trimmed Standard Deviation is with default axis = 0 : \n", 
 
 **Output:**
 
-```
+```py
 Trimmed Standard Deviation is with default axis = 0 : 
  94.0423824505
 

@@ -33,7 +33,7 @@ matplotlib 库 pyplot 模块中的**星等 _ 谱()函数**用于绘制星等谱�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -62,7 +62,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

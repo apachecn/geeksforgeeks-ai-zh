@@ -71,7 +71,7 @@ SimCSE 的工作原理
 
 ## 蟒蛇 3
 
-```
+```py
 # Install PyTorch
 ! pip install torch==1.7.1+cu110 -f https://download.pytorch.org/whl/torch_stable.html
 # clone the repo

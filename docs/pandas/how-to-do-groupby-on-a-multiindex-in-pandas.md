@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library 
 # as alias pd
 import pandas as pd
@@ -49,7 +49,7 @@ print(df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # using pandas columns attribute.
 col = df.columns
 

@@ -8,7 +8,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **语法:**
 
-```
+```py
 DataFrame.nlargest(n, columns, keep='first')
 ```
 
@@ -26,7 +26,7 @@ DataFrame.nlargest(n, columns, keep='first')
 
 参考[排序 _ 值](https://www.geeksforgeeks.org/python-pandas-dataframe-sort_values-set-1/)和 [dropna()](https://www.geeksforgeeks.org/python-pandas-dataframe-dropna/) 功能。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -48,7 +48,7 @@ large5
 
 **代码#2:** 按 sort_values()排序
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

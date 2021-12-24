@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # We can run this Python code on a Jupyter notebook
 # to automatically install the correct version of
 # PyTorch.
@@ -26,7 +26,7 @@ accelerator = 'cu80' if path.exists('/opt / bin / nvidia-smi') else 'cpu'
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 from torch.autograd import Variable
 ```
@@ -35,7 +35,7 @@ from torch.autograd import Variable
 
 ## 蟒蛇 3
 
-```
+```py
 x_data = Variable(torch.Tensor([[1.0], [2.0], [3.0]]))
 y_data = Variable(torch.Tensor([[2.0], [4.0], [6.0]]))
 ```
@@ -49,7 +49,7 @@ y_data = Variable(torch.Tensor([[2.0], [4.0], [6.0]]))
 
 ## 蟒蛇 3
 
-```
+```py
 class LinearRegressionModel(torch.nn.Module):
 
     def __init__(self):
@@ -66,7 +66,7 @@ class LinearRegressionModel(torch.nn.Module):
 
 ## 蟒蛇 3
 
-```
+```py
 # our model
 our_model = LinearRegressionModel()
 ```

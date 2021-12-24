@@ -10,7 +10,7 @@ Numpy 为我们提供了使用 [**NumPy .直方图()**](https://www.geeksforgeek
 
 ## 蟒蛇 3
 
-```
+```py
 # import Numpy and matplotlib
 from matplotlib import pyplot as plt
 import numpy as np
@@ -42,7 +42,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import Numpy and matplotlib
 from matplotlib import pyplot as plt
 import numpy as np

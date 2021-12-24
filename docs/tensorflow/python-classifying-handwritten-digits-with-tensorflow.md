@@ -8,19 +8,19 @@
 **所需模块:**
 [NumPy](https://www.geeksforgeeks.org/python-numpy/) :
 
-```
+```py
 $ pip install numpy 
 ```
 
 [Matplotlib](https://www.geeksforgeeks.org/python-introduction-matplotlib/) :
 
-```
+```py
 $ pip install matplotlib 
 ```
 
 [张量流](https://www.geeksforgeeks.org/introduction-to-tensorflow/) ：
 
-```
+```py
 $ pip install tensorflow 
 ```
 
@@ -30,7 +30,7 @@ $ pip install tensorflow
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
@@ -45,7 +45,7 @@ tf.logging.set_verbosity(tf.logging.ERROR)
 
 ## 蟒蛇 3
 
-```
+```py
 mnist = learn.datasets.load_dataset('mnist')
 data = mnist.train.images
 labels = np.asarray(mnist.train.labels, dtype=np.int32)
@@ -56,7 +56,7 @@ test_labels = np.asarray(mnist.test.labels, dtype=np.int32)
 在此步骤之后，将下载 mnist 数据集。
 **输出:**
 
-```
+```py
 Extracting MNIST-data/train-images-idx3-ubyte.gz
 Extracting MNIST-data/train-labels-idx1-ubyte.gz
 Extracting MNIST-data/t10k-images-idx3-ubyte.gz
@@ -67,7 +67,7 @@ Extracting MNIST-data/t10k-labels-idx1-ubyte.gz
 
 ## 蟒蛇 3
 
-```
+```py
 max_examples = 10000
 data = data[:max_examples]
 labels = labels[:max_examples]

@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.autocorr()`函数计算给定序列对象的基础数据的滞后-N 自相关。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 ![](img/9f979e7f2c34fcbcb85b4ceaa1228411.png)
 现在我们将使用`Series.autocorr()`函数来计算给定序列对象的底层数据的 lag-n 自相关。
 
-```
+```py
 # return the auto correlation
 result = sr.autocorr()
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2 :** 使用`Series.autocorr()`函数计算给定序列对象的基础数据的滞后-N 自相关。取滞后值等于 3。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.autocorr()`函数来计算给定序列对象的底层数据的滞后 n 自相关。
 
-```
+```py
 # return the auto correlation
 # by lag-3
 result = sr.autocorr(lag = 3)

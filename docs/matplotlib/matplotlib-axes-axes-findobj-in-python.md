@@ -23,7 +23,7 @@ matplotlib 库的 Axes 模块中的 **Axes.findobj()函数**用于查找艺术�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -67,7 +67,7 @@ plt.show()
 **输出:**
 ![](img/3eb17ab9c5148590857254c986c303e9.png)
 
-```
+```py
 Value return : 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.815228, angle=0)
@@ -178,7 +178,7 @@ AxesSubplot(0.125, 0.11;0.775x0.77)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -206,7 +206,7 @@ plt.show()
 **输出:**
 ![](img/98bc5ab62c22904efe3a4ce0afb2912a.png)
 
-```
+```py
 Value return : 
 
 Circle(xy=(0.5, 0.5), radius=0.25)

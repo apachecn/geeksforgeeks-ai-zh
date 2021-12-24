@@ -15,7 +15,7 @@
 
 在这个例子中，我们可以看到我们仅仅通过使用`ndarray.__array__()`方法就改变了新数组的**数据类型**。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -30,14 +30,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [ 1\.  2\.  3\.  4\.  5.]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -53,7 +53,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4 5]
  [6 5 4 3 2]]
 

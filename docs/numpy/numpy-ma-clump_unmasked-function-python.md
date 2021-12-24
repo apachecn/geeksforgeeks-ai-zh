@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.clump_unmasked() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [slice(3, 6, None), slice(7, 8, None)]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.clump_unmasked() function
 
@@ -58,7 +58,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [slice(3, 6, None), slice(7, 8, None)]
 
 ```

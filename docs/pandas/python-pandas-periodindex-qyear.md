@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.qyear**`属性返回一个 Index 对象，该对象包含�
 
 **示例#1:** 使用`PeriodIndex.qyear`属性找出给定周期索引对象中每个周期所在的会计年度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.qyear`属性找出 pidx 中每个期间的会计年度。
 
-```
+```py
 # return the fiscal year of the period
 pidx.qyear
 ```
@@ -42,7 +42,7 @@ pidx.qyear
 
 **示例#2:** 使用`PeriodIndex.qyear`属性找出给定 PeriodIndex 对象中每个期间所在的会计年度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.qyear`属性找出 pidx 中每个期间的会计年度。
 
-```
+```py
 # return the fiscal year of the period
 pidx.qyear
 ```

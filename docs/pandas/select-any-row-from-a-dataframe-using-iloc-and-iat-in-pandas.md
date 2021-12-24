@@ -8,7 +8,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 
 # Create the dataframe
@@ -32,7 +32,7 @@ print(Row_list[:3])
 
 **输出:**
 
-```
+```py
 [[10000, '10/2/2011', 'Music'], [5000, '11/2/2011', 'Poetry'],
       [15000, '12/2/2011', 'Theatre']
 ```
@@ -41,7 +41,7 @@ print(Row_list[:3])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(Row_list[:3])
 
 **输出:**
 
-```
+```py
 [[10000, '10/2/2011', 'Music'], [5000, '11/2/2011', 'Poetry'], 
       [15000, '12/2/2011', 'Theatre']]
 ```

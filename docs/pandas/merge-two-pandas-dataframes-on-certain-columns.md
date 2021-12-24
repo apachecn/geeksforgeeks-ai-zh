@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pd
 
@@ -46,7 +46,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # applying merge
 df1.merge(df2[['Name', 'Grade', 'Rank']])
 ```
@@ -63,7 +63,7 @@ df1.merge(df2[['Name', 'Grade', 'Rank']])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pd
 
@@ -104,7 +104,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pd
 

@@ -15,7 +15,7 @@ PyTorch `torch.trunc()`方法在去掉数字的小数部分后，返回一个带
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -31,7 +31,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1.1257
  0.4493
 -0.7309
@@ -51,7 +51,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -67,7 +67,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1.5000
  3.9000
 -6.9000

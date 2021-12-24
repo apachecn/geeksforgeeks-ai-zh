@@ -12,7 +12,7 @@
 
 **代码#1 : next_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_binary()
 
@@ -36,7 +36,7 @@ print ("Subset a next_binary : ", a.next_binary().subset)
 
 **代码#2 : next_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_binary()
 

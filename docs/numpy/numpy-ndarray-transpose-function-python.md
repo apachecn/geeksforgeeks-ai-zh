@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.transpose() function
 
@@ -32,7 +32,7 @@ print( gfg )
 
 **输出:**
 
-```
+```py
 [[5 7]
  [6 8]]
 
@@ -40,7 +40,7 @@ print( gfg )
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.transpose() function
 
@@ -56,7 +56,7 @@ print( gfg )
 
 **输出:**
 
-```
+```py
 [[5 7]
  [6 8]]
 

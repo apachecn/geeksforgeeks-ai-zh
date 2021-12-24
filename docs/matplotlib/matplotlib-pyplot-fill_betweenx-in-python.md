@@ -87,7 +87,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -109,7 +109,7 @@ plt.plot(a, b)
 
 ## 蟒蛇 3
 
-```
+```py
 import pylab as plt
 import numpy as np
 

@@ -19,7 +19,7 @@
 
 **示例#1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # setting x values
@@ -41,7 +41,7 @@ plt.plot(x, y)
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =['Geeks', 'for', 'geeks', 'tutorials']
@@ -60,7 +60,7 @@ plt.plot(x, y)
 
 **示例#3:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =['Geeks', 'for', 'geeks', 'tutorials']

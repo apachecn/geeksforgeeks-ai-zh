@@ -7,7 +7,7 @@
 
 **代码:**
 
-```
+```py
 from nltk.probability import ConditionalFreqDist
 from rediscollections import encode_key
 
@@ -38,7 +38,7 @@ class RedisConditionalHashFreqDist(ConditionalFreqDist):
 这个类的一个实例可以通过传入一个 Redis 连接和一个基名称来创建。之后，它就像 ConditionalFreqDist 一样工作，如下面的代码所示:
 **代码:**
 
-```
+```py
 from redis import Redis
 from redisprob import RedisConditionalHashFreqDist
 
@@ -62,7 +62,7 @@ rchfd.clear()
 
  **输出:**
 
-```
+```py
 0
 []
 1

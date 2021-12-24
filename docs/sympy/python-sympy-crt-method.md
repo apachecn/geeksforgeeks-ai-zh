@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import crt() method from sympy
 from sympy.ntheory.modular import crt
 
@@ -29,14 +29,14 @@ print("Result of the Chinese Remainder Theorem = {} ".format(crt_m_v[0]))
 
 **输出:**
 
-```
+```py
 Result of the Chinese Remainder Theorem = 31 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import crt() method from sympy
 from sympy.ntheory.modular import crt
 
@@ -51,7 +51,7 @@ print("Result of the Chinese Remainder Theorem = {} ".format(crt_m_v[0]))
 
 **输出:**
 
-```
+```py
 Result of the Chinese Remainder Theorem = 639985 
 
 ```

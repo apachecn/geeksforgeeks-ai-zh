@@ -10,7 +10,7 @@
 
 **代码#1:最大值()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.max()
 
@@ -36,7 +36,7 @@ print ("Permutation b - max form : ", b.max())
 
 **代码#2 : max()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.max()
 

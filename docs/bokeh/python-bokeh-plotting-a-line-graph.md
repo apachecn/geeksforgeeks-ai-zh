@@ -53,7 +53,7 @@ Bokeh 可用于**绘制线图**。可以使用`plotting`模块的`line()`方法�
 
 **示例 1 :** 在本例中，我们将使用默认值绘制图表。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -79,7 +79,7 @@ show(graph)
 
 **示例 2 :** 在本例中，我们将绘制一个线图，虚线与其他参数并列。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -127,7 +127,7 @@ show(graph)
 
 **例 3 :** 现在我们来看看如何在同一个图中绘制多条线。我们将使用`random()`函数生成点。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 import random

@@ -10,7 +10,7 @@
 
 **代码#1:列表()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.list()
 
@@ -36,7 +36,7 @@ print ("Permutation b - list form : ", b.list())
 
 **代码#2 : list()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.list()
 

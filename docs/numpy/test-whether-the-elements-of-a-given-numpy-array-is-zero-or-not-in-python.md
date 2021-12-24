@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -35,7 +35,7 @@ print(np.all(x))
 
 **输出:**
 
-```
+```py
 [34,56,89,23,69,980,567]
 True
 
@@ -45,7 +45,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -65,7 +65,7 @@ print(np.all(x))
 
 **输出:**
 
-```
+```py
 False
 
 ```

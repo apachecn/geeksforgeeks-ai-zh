@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在此示例中，从 Python 列表创建了一个系列。该列表还包含一个空值，`skipna` 参数保持默认值，即真。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -39,7 +39,7 @@ cummin
 
 **输出:**
 
-```
+```py
 0    3.0
 1    3.0
 2    NaN
@@ -51,7 +51,7 @@ dtype: float64
 
 **说明:** Cummin 是当前值与之前值的比较。第一个元素总是等于调用者系列的第一个。
 
-```
+```py
 3
 3  (3<4)
 NaN (Since NaN cannot be compared to integer values)
@@ -65,7 +65,7 @@ NaN (Since NaN cannot be compared to integer values)
 
 在此示例中，创建了一个系列，就像上面的示例一样。但是 skipna 参数保持为 False。因此，空值不会被忽略，每次出现时都会进行比较。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -87,7 +87,7 @@ cummin 
 
 **输出:**
 
-```
+```py
 0    12.0
 1     4.0
 2     4.0

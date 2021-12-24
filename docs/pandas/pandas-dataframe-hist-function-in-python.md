@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -53,7 +53,7 @@ hist = values.hist(bins=5)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -79,7 +79,7 @@ hist = values.hist(bins=12)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 

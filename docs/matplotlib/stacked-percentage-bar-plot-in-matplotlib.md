@@ -16,7 +16,7 @@ A **堆叠百分比条形图**是一个简单的堆叠形式的条形图，其�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ df.plot(
 
 **输出:**
 
-```
+```py
     Name   Studied     Slept      Other
 0    Ram  4.855064  9.639962   9.504974
 1   Yash  8.625440  0.058927  15.315634
@@ -56,7 +56,7 @@ df.plot(
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import numpy as np
@@ -88,7 +88,7 @@ for n in df_rel:
 
 **输出:**
 
-```
+```py
      Name   Studied     Slept      Other
 0    Ram  4.855064  9.639962   9.504974
 1   Yash  8.625440  0.058927  15.315634
@@ -106,7 +106,7 @@ for n in df_rel:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import numpy as np
@@ -138,7 +138,7 @@ for n in df_rel:
 
 **输出:**
 
-```
+```py
     Name   Studied     Slept      Other
 0    Ram  4.855064  9.639962   9.504974
 1   Yash  8.625440  0.058927  15.315634

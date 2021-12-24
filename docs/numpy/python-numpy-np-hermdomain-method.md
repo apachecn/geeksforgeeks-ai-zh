@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermdomain()`方法，我们能够使用该方法获得埃尔米特级数中的**数组([-1，1])** 的过滤器。
 
-```
+```py
 # import numpy and hermdomain
 import numpy as np
 from numpy.polynomial.hermite import hermdomain
@@ -31,7 +31,7 @@ for i in range(5):
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermdomain
 import numpy as np
 from numpy.polynomial.hermite import hermdomain

@@ -24,7 +24,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_label_text()函数**用于设置�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np

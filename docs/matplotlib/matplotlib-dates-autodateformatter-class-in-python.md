@@ -20,7 +20,7 @@ matplotlib . date . autodate formatter 类用于计算日期的最佳格式。�
 
 该字典中大于或等于当前比例的键由该算法选取，并用于格式化字符串。本词典也可以如下定制:
 
-```
+```py
 locator = AutoDateLocator()
 formatter = AutoDateFormatter(locator)
 
@@ -42,7 +42,7 @@ formatter.scaled[1/(24.*60.)] = '%H:%M'
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import matplotlib.pyplot as plt
 from matplotlib.dates import AutoDateLocator, AutoDateFormatter, date2num
@@ -84,7 +84,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates

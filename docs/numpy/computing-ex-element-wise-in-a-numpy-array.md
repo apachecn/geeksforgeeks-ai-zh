@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 3, 5, 7]
 Output : [2.7182817, 20.085537, 148.41316, 1096.6332]
 
@@ -22,7 +22,7 @@ e^7 = 1096.6332
 
 **例 1 :**
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -39,7 +39,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 Original array: 
 [1 3 5 7]
 
@@ -50,7 +50,7 @@ Printing e ^ x, element-wise of the said:
 
 **例 2 :** 我们也可以用 [math.exp()](https://www.geeksforgeeks.org/python-math-library-exp-method/) 方法求指数。虽然不会一次占用整个 NumPy 数组，但是我们必须一次传递一个元素。
 
-```
+```py
 # importing the module
 import numpy as np
 import math
@@ -70,7 +70,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 Original array: 
 [1 3 5 7]
 

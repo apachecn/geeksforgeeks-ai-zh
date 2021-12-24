@@ -11,7 +11,7 @@ T3】
 
 **示例#1:** 获取“B”列的唯一值
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -35,7 +35,7 @@ df.B.unique()
 
 **例 2:** 获取‘E’列的唯一值
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -59,7 +59,7 @@ df.E.unique()
 
 **示例#3:** 获取一列中唯一值的数量
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 

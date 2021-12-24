@@ -16,7 +16,7 @@
 **示例#1:**
 在这个示例中，我们可以看到，通过使用 **sympy.lambdify()** 方法，我们可以从数学表达式中获得λ函数。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -31,14 +31,14 @@ print("Using lambda function in SymPy to evaluate sin(90) : {}".format(f(90))) 
 
 **输出:**
 
-```
+```py
 Using lambda function in SymPy to evaluate sin(90) : 0.893996663601
 ```
 
 **例 2:**
 我们可以通过**sympy _ name:numeric _ function pair**的字典，对它不知道的数值库使用 lambdify。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -56,7 +56,7 @@ print("Using lambda function in SymPy to evaluate squared function : {}".format(
 
 **输出:**
 
-```
+```py
 Using lambda function in SymPy to evaluate squared function : 100
 
 ```

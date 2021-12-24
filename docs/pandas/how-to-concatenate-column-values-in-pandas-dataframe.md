@@ -6,7 +6,7 @@
 
 **示例 1:** 在本例中，我们将把两列名姓组合成一个列名。为了实现这一点，我们将使用地图功能。
 
-```
+```py
 import pandas as pd
 from pandas import DataFrame 
 
@@ -32,7 +32,7 @@ print(df)
 
 **示例 2:** 同样，我们可以在一个数据帧中连接任意数量的列。让我们通过另一个例子来看看如何在一个单独的日期列中连接日、月和年这三个不同的列。
 
-```
+```py
 import pandas as pd
 from pandas import DataFrame 
 
@@ -62,7 +62,7 @@ print (df)
 
 我们可以更进一步，从多个不同的数据帧中连接多个列。在本例中，我们将数据帧 df1 和 df2 的列组合成一个数据帧。
 
-```
+```py
 import pandas as pd
 from pandas import DataFrame 
 

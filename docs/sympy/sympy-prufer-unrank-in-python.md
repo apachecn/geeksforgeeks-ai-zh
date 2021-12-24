@@ -12,7 +12,7 @@
 
 **代码#1:未链接()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.unrank()
 
@@ -38,7 +38,7 @@ print ("Prufer a unrank : ", a.unrank(2, 5))
 
 **代码#2:未链接()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.unrank()
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import torch
 from torch.autograd import Variable
@@ -39,7 +39,7 @@ print('Z value is:', z)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import torch
 from torch.autograd import Variable

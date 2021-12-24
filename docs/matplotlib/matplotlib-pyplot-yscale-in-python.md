@@ -24,7 +24,7 @@ matplotlib 库中 pyplot 模块中的 matplotlib.pyplot.yscale() **功能** 用�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -67,7 +67,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

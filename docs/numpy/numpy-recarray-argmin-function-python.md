@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.argmin() method 
 
@@ -50,7 +50,7 @@ print ("Output array along axis 0: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(5.0, 2) (3.0, 4) (6.0, 9)]
  [(9.0, 1) (5.0, 4) (-12.0, -7)]]
 Record array of float:  [[  5\.   3\.   6.]
@@ -66,7 +66,7 @@ Output array along axis 0:  [1 0 1]
 
 如果我们将`numpy.recarray.argmin()`应用于整个记录数组，那么它将给出`Type error`
 
-```
+```py
 # Python program explaining
 # numpy.recarray.argmin() method 
 

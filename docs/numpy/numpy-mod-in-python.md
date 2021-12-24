@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.mod() function
 
@@ -37,7 +37,7 @@ print ("Remainder : ", out_num) 
 
 **Output :**
 
-```
+```py
 Dividend :  6
 Divisor :  4
 Remainder :  2
@@ -46,7 +46,7 @@ Remainder :  2
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.mod() function
 
@@ -64,7 +64,7 @@ print ("Output remainder array: ", out_arr) 
 
 **Output :**
 
-```
+```py
 Dividend array :  [ 2 -4  7]
 Divisor array :  [2 3 4]
 Output remainder array:  [0 2 3]

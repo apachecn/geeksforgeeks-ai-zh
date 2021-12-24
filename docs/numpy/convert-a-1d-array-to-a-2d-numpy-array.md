@@ -16,7 +16,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 # 1-D array having elements [1 2 3 4 5 6 7 8]
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
@@ -43,7 +43,7 @@ print ('\n')
 
 ****输出:****
 
-```
+```py
 Before reshaping:
 [1 2 3 4 5 6 7 8]
 After reshaping having dimension 4x2:
@@ -60,7 +60,7 @@ After reshaping having dimension 2x4:
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 # 1-D array having elements [1 2 3 4 5 6 7 8]
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
@@ -87,7 +87,7 @@ print('\n')
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 # 1-D array having elements [1 2 3 4 5 6 7 8]
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
@@ -105,7 +105,7 @@ print('\n')
 
 ****输出:****
 
-```
+```py
 Before reshaping:
 [1 2 3 4 5 6 7 8]
 After reshaping:

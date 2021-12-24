@@ -32,7 +32,7 @@ M = ![\begin{bmatrix} \alpha & \beta & (1-\alpha)\cdot c_x-\beta \cdot c_y\\ -\b
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Reading the image
@@ -68,7 +68,7 @@ cv2.imwrite('rotated_image.jpg', rotated_image)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Reading the image
@@ -101,7 +101,7 @@ cv2.imwrite('rotated_image.jpg', rotated_image)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Reading the image
@@ -135,7 +135,7 @@ cv2.imwrite('rotated_image.jpg', rotated_image)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Reading the image

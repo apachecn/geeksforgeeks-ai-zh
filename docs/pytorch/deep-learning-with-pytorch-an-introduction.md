@@ -15,14 +15,14 @@ PyTorch 在很多方面表现得像我们喜欢的 Numpy 的数组。这些 Nump
 
 是时候探索如何使用 PyTorch 构建一个简单的神经网络了。
 
-```
+```py
 # First, import PyTorch
 import torch
 ```
 
 定义激活函数(sigmoid)来计算线性输出
 
-```
+```py
 def activation(x):
     """ Sigmoid activation function 
 
@@ -33,7 +33,7 @@ def activation(x):
     return 1/(1 + torch.exp(-x))
 ```
 
-```
+```py
 # Generate some data 
 # Features are 3 random normal variables
 features = torch.randn((1, 5))
@@ -53,7 +53,7 @@ bias = torch.randn((1, 1))
 
 现在我们使用矩阵乘法计算网络的输出。
 
-```
+```py
 y = activation(torch.mm(features, weights.view(5, 1)) + bias)
 ```
 
@@ -61,7 +61,7 @@ y = activation(torch.mm(features, weights.view(5, 1)) + bias)
 
 我们定义了神经网络的结构，并初始化了权重和偏差。
 
-```
+```py
 # Features are 3 random normal variables
 features = torch.randn((1, 3))
 
@@ -85,7 +85,7 @@ B2 = torch.randn((1, n_output))
 
 现在，我们可以使用权重 W1 和 W2 以及偏差 B1 和 B2 来计算这个多层网络的输出。
 
-```
+```py
 h = activation(torch.mm(features, W1) + B1)
 output = activation(torch.mm(h, W2) + B2)
 print(output)

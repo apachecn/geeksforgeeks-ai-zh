@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -41,7 +41,7 @@ plt.plot(x_data, y_data, 'ro')   
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -78,7 +78,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt % matplotlib inline
 
@@ -106,7 +106,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt % matplotlib inline
 
@@ -134,7 +134,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt % matplotlib inline
 

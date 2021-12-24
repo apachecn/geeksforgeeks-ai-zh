@@ -6,7 +6,7 @@
 第一个数组中的数组元素被提升为第二个元素中的元素的幂(都是按元素进行的)。arr1 和 arr2 必须具有相同的形状，并且 arr1 中的每个元素必须从 arr2 提升到相应的+ve 值；否则将会产生一个**值错误**。
 **参数:**
 
-```
+```py
 arr1     : [array_like]Input array or object which works as base.
 arr2     : [array_like]Input array or object which works as exponent. 
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
@@ -21,14 +21,14 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with elements of arr1 raised to exponents in arr2
 
 ```
 
 **代码 1 : arr1 升至 arr2**
 
-```
+```py
 # Python program explaining
 # power() function
 import numpy as np
@@ -46,7 +46,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 2, 2, 2, 2]
 arr2         :  [2, 3, 4, 5, 6]
 
@@ -56,7 +56,7 @@ Output array :  [ 4  8 16 32 64]
 
 **代码 arr1 的元素提升到指数 2**
 
-```
+```py
 # Python program explaining
 # power() function
 import numpy as np
@@ -73,7 +73,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [0 1 2 3 4 5 6 7]
 
 Output array :  [ 0  1  4  9 16 25 36 49]
@@ -81,7 +81,7 @@ Output array :  [ 0  1  4  9 16 25 36 49]
 
 **代码 3:如果 arr2 有-ve 元素**会出错
 
-```
+```py
 # Python program explaining
 # power() function
 import numpy as np
@@ -99,7 +99,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 2, 2, 2, 2]
 arr2         :  [2, -3, 4, -5, 6]
 <font color="red">ValueError:</font> Integers to negative integer powers are not allowed.

@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to explain cv2.flip() method
 
 # importing cv2

@@ -19,7 +19,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.any() method 
 
@@ -48,7 +48,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [(5.0, 2) (3.0, 4)]
 Record array of float:  [ 5\.  3.]
 Output array:  True
@@ -62,7 +62,7 @@ Output array:  True
 
 如果我们将`numpy.recarray.any()`应用于整个记录数组，那么它将给出*类型错误*，因为数组是灵活的或混合类型的。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.any() method 
 
@@ -86,7 +86,7 @@ print ("Output array: ", out_arr)  
 
 **Output:**
 
-```
+```py
 TypeError: cannot perform reduce with flexible type
 
 ```

@@ -13,7 +13,7 @@
 **步骤 1 :** 使用 0 和 1 的 numpy 数组创建数据集。
 由于图像是矩阵中像素值的集合，我们将为 A、B、C 创建这些像素矩阵
 
-```
+```py
 using 0 and 1
 #A
 0 0 1 1 0 0
@@ -46,7 +46,7 @@ C=[0, 0, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating data set
 
 # A
@@ -78,7 +78,7 @@ y =[[1, 0, 0],
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 # visualizing the data, ploting A.
@@ -94,7 +94,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # converting data and labels into numpy array
 
 """
@@ -114,7 +114,7 @@ print(x, "\n\n", y)
 
 **输出:**
 
-```
+```py
 [array([[0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1]]), 
  array([[0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0]]),
  array([[0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]])] 
@@ -126,7 +126,7 @@ print(x, "\n\n", y)
 
 **步骤 4 :** 定义深层神经网络的架构或结构。这包括决定层数和每层中的节点数。我们的神经网络将具有以下结构。
 
-```
+```py
 1st layer: Input layer(1, 30)
 2nd layer: Hidden layer (1, 5)
 3rd layer: Output layer(3, 3)
@@ -139,7 +139,7 @@ print(x, "\n\n", y)
 
 ## 蟒蛇 3
 
-```
+```py
 # activation function
 
 def sigmoid(x):
@@ -237,7 +237,7 @@ def predict(x, w1, w2):
 
 ## 蟒蛇 3
 
-```
+```py
 w1 = generate_wt(30, 5)
 w2 = generate_wt(5, 3)
 print(w1, "\n\n", w2)
@@ -245,7 +245,7 @@ print(w1, "\n\n", w2)
 
 **输出:**
 
-```
+```py
 [[ 0.75696605 -0.15959223 -1.43034587  0.17885107 -0.75859483]
  [-0.22870119  1.05882236 -0.15880572  0.11692122  0.58621482]
  [ 0.13926738  0.72963505  0.36050426  0.79866465 -0.17471235]
@@ -288,7 +288,7 @@ print(w1, "\n\n", w2)
 
 ## 蟒蛇 3
 
-```
+```py
 """The arguments of train function are data set list x,
 correct labels y, weights w1, w2, learning rate = 0.1,
 no of epochs or iteration.The function will return the
@@ -300,7 +300,7 @@ acc, losss, w1, w2 = train(x, y, w1, w2, 0.1, 100)
 
 **输出:**
 
-```
+```py
 epochs: 1 ======== acc: 59.24962411875523
 epochs: 2 ======== acc: 63.68540644266716
 epochs: 3 ======== acc: 68.23850165512243
@@ -407,7 +407,7 @@ epochs: 100 ======== acc: 93.42842117607569
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt1
 
 # ploting accuraccy
@@ -429,14 +429,14 @@ plt1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # the trained weigths are
 print(w1, "\n", w2)
 ```
 
 **输出:**
 
-```
+```py
 [[-0.23769169 -0.1555992   0.81616823  0.1219152  -0.69572168]
  [ 0.36399972  0.37509723  1.5474053   0.85900477 -1.14106725]
  [ 1.0477069   0.13061485  0.16802893 -1.04450602 -2.76037811]
@@ -478,7 +478,7 @@ print(w1, "\n", w2)
 
 ## 蟒蛇 3
 
-```
+```py
 """
 The predict function will take the following arguments:
 1) image matrix
@@ -490,7 +490,7 @@ predict(x[1], w1, w2)
 
 **输出:**
 
-```
+```py
 Image is of letter B.
 ```
 

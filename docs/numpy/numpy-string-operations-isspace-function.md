@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isspace() method 
 
@@ -29,7 +29,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['Geeksforgeeks' 'Codechef']
 Output array:  [False False]
 
@@ -37,7 +37,7 @@ Output array:  [False False]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isspace() method 
 
@@ -53,7 +53,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['Geeks\nfor\ngeeks' 'Code\tchef']
 Output array:  [False False]
 
@@ -61,7 +61,7 @@ Output array:  [False False]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isspace() method 
 
@@ -77,7 +77,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['\n' '\t' ' ' '\n\t ']
 Output array:  [ True  True  True  True]
 

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.Permutation().array_form`方法，我们能够从矩阵或多维数组中获得线性数组。
 
-```
+```py
 # import sympy and Permutation
 from sympy.combinatorics.permutations import Permutation
 from sympy import * 
@@ -30,7 +30,7 @@ print(gfg.array_form)
 
 **例 2 :**
 
-```
+```py
 # import sympy and Permutation
 from sympy.combinatorics.permutations import Permutation
 from sympy import * 

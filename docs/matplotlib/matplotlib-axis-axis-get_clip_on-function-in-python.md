@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_clip_on()函数**用于获取艺�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -55,7 +55,7 @@ plt.show()
 
 ![](img/94872efdd281049b89eea94c79c285d0.png)
 
-```
+```py
 Value Return by get_clip_on() :  True
 
 ```
@@ -64,7 +64,7 @@ Value Return by get_clip_on() :  True
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -110,7 +110,7 @@ plt.show()
 
 ![](img/60c61e37029b968126ee1adec39023f8.png)
 
-```
+```py
 Value Return by get_clip_on() :  False
 
 ```

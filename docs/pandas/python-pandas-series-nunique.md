@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:** 使用 nunique()
 在本例中，nunique()方法用于获取 Team 列中所有唯一值的数量。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -35,14 +35,14 @@ print(unique_value)
 **输出:**
 返回唯一值个数的输出。
 
-```
+```py
 10
 ```
 
 **示例#2:** 空值处理
 在此示例中，将 unique()方法返回的数组长度与 nunique()方法返回的整数进行比较。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -62,6 +62,6 @@ print(len(arr), unique_value)
 **输出:**
 两种情况下的输出都不相同，因为 dropna 参数设置为真，因此在计算唯一值时排除了空值。
 
-```
+```py
 11 10
 ```

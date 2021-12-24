@@ -12,7 +12,7 @@
 
 **代码# 1:unlank _ binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.unrank_binary()
 
@@ -36,7 +36,7 @@ print ("Subset a unrank_binary : ", a.subset)
 
 **代码# 2:unlank _ binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.unrank_binary()
 

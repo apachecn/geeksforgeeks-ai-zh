@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Install TensorFlow 2.0 by using the following command
 # For CPU installation
 # pip install -q tensorflow == 2.0
@@ -28,7 +28,7 @@ print(tf.__version__)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import sklearn.preprocessing as prep
 import tensorflow.keras.layers as layers
@@ -48,7 +48,7 @@ def get_random_block_from_data(data, batch_size):
 
 ## 蟒蛇 3
 
-```
+```py
 class Encoder(tf.keras.layers.Layer):
     '''Encodes a digit from the MNIST dataset'''
 
@@ -88,7 +88,7 @@ class Decoder(tf.keras.layers.Layer):
 
 ## 蟒蛇 3
 
-```
+```py
 class Autoencoder(tf.keras.Model):
     '''Vanilla Autoencoder for MNIST digits'''
 
@@ -111,7 +111,7 @@ class Autoencoder(tf.keras.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 mnist = tf.keras.datasets.mnist
 
 (X_train, _), (X_test, _) = mnist.load_data()
@@ -130,7 +130,7 @@ TensorFlow 的最佳实践是使用 ***tf.data.Dataset*** 从数据集快速获�
 
 ## 蟒蛇 3
 
-```
+```py
 train_data = tf.data.Dataset.from_tensor_slices(
         X_train).batch(128).shuffle(buffer_size = 1024)
 test_data = tf.data.Dataset.from_tensor_slices(
@@ -150,7 +150,7 @@ loss_metric = tf.keras.metrics.Mean()
 
 ## 蟒蛇 3
 
-```
+```py
 ae = Autoencoder([200, 392, 784])
 ae.compile(optimizer = tf.optimizers.Adam(0.01),
            loss ='categorical_crossentropy')

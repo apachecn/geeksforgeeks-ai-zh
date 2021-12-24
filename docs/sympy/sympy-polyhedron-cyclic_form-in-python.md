@@ -12,7 +12,7 @@
 
 **代码#1:循环形式()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.cyclic_form()
 
@@ -40,7 +40,7 @@ print ("\nPolyhedron - cyclic_form form : ", a.cyclic_form)
 
 **代码#2:循环形式()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.cyclic_form()
 

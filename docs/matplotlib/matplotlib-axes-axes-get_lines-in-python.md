@@ -18,7 +18,7 @@ matplotlib 库的 axes 模块中的 **Axes.get_lines()函数**用于返回 Axes 
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib import colors
 from matplotlib.ticker import PercentFormatter
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Dataframe class
 # from pandas library
 from pandas import DataFrame
@@ -47,7 +47,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # import Dataframe class
 # from pandas library
 from pandas import DataFrame
@@ -92,7 +92,7 @@ roundplaces
 
 ## 蟒蛇 3
 
-```
+```py
 # import Dataframe from 
 # pandas library
 from pandas import DataFrame
@@ -132,7 +132,7 @@ roundUp
 
 ## 蟒蛇 3
 
-```
+```py
 # import Dataframe class 
 # from pandas library
 from pandas import DataFrame

@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.equals()`函数检查两个给定系列对象中的底层数据是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ print(sr2)
 
 现在我们将使用`Series.equals()`函数来检查两个给定系列对象中的底层数据是否相同。
 
-```
+```py
 # check for equality
 result = sr1.equals(other = sr2)
 
@@ -63,7 +63,7 @@ print(result)
 
 **示例 2:** 使用`Series.equals()`功能检查两个给定系列对象中的底层数据是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -95,7 +95,7 @@ print(sr2)
 
 现在我们将使用`Series.equals()`函数来检查两个给定系列对象中的底层数据是否相同。
 
-```
+```py
 # check for equality
 result = sr1.equals(other = sr2)
 

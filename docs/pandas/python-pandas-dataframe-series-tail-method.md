@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在此示例中，返回数据框的最后 5 行，并将其存储在一个新变量中。没有参数传递给 `.tail()`方法，因为默认情况下是 5。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -43,7 +43,7 @@ data_bottom
 
 在本例中。在自定义输入 n 个参数的序列上调用 tail()方法，返回序列的最后 12 行。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

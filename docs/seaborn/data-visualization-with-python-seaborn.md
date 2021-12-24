@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 
 import pandas as pd
@@ -42,7 +42,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas
 
@@ -65,13 +65,13 @@ Seaborn 是一个用 Python 绘制统计图形的惊人可视化库。它建立�
 
 对于 python 环境:
 
-```
+```py
 pip install seaborn
 ```
 
 对于 conda 环境:
 
-```
+```py
 conda install seaborn
 ```
 
@@ -79,7 +79,7 @@ conda install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 import seaborn as sns
@@ -135,7 +135,7 @@ Seaborn 有助于可视化统计关系，为了理解数据集中的变量如何
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 import pandas
@@ -155,7 +155,7 @@ sns.lineplot( data['Age'], data['Weight'])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 import pandas
@@ -188,7 +188,7 @@ sns.lineplot(data['Age'],data['Weight'], hue =data["Position"])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn
 import pandas
@@ -208,7 +208,7 @@ seaborn.scatterplot(data['Age'],data['Weight'])
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 import pandas
 data = pandas.read_csv("nba.csv")
@@ -249,7 +249,7 @@ seaborn.scatterplot( data['Age'], data['Weight'], hue =data["Position"])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 import pandas
@@ -267,7 +267,7 @@ sns.boxplot( data['Age'] )
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 import pandas
@@ -298,7 +298,7 @@ sns.boxplot( data['Age'], data['Weight'])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 import pandas
@@ -316,7 +316,7 @@ sns.violinplot(data['Age'])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn
 
@@ -348,7 +348,7 @@ seaborn.violinplot(x ="Age", y ="Weight",data = data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn
 
@@ -367,7 +367,7 @@ seaborn.swarmplot(x = data["Age"])
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn
 

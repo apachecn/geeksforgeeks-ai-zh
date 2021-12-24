@@ -27,7 +27,7 @@
 
 **代码 1:解释 poly1d()及其参数**
 
-```
+```py
 # Python code explaining
 # numpy.poly1d()
 
@@ -60,7 +60,7 @@ print ("Order / Degree of P2 : ", p2.order)
 
 **输出:**
 
-```
+```py
 P1 :   
 1 x + 2
 
@@ -83,7 +83,7 @@ Order / Degree of P2 :  3
 
 **代码 2:多项式的基本数学运算**
 
-```
+```py
 # Python code explaining
 # numpy.poly1d()
 
@@ -110,7 +110,7 @@ print ("\nMultiplying two polynimials : \n", 
 
 **输出:**
 
-```
+```py
 P1 :   
 1 x + 2
 

@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib.widgets import RectangleSelector
 import matplotlib.pyplot as plt
 

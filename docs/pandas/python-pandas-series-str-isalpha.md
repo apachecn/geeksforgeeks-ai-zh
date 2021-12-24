@@ -18,7 +18,7 @@ Pandas `**str.isalpha()**`方法用于检查序列中每个字符串中的所有
 **示例#1:**
 在此示例中，isalpha()方法应用于 College 列。在此之前，使用移除空行。方法来避免错误。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -42,7 +42,7 @@ data
 **示例#2:**
 在此示例中，isalpha()方法在 Name 列上应用了两次。首先为原始名称列创建一个 bool 系列，然后使用 [str.replace()](https://www.geeksforgeeks.org/python-pandas-series-str-replace-to-replace-text-in-a-series/) 方法删除空格，然后再次创建一个新的 bool_series。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

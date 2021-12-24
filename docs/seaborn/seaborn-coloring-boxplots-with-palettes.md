@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn as sns 
 import matplotlib.pyplot as plt
@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # loading dataset
 ds = sns.load_dataset('iris')
 ```
@@ -29,7 +29,7 @@ ds = sns.load_dataset('iris')
 
 ## 蟒蛇 3
 
-```
+```py
 # create boxplot object
 ax = sns.boxplot(data=tips, orient="h")
 ```
@@ -38,7 +38,7 @@ ax = sns.boxplot(data=tips, orient="h")
 
 ## 蟒蛇 3
 
-```
+```py
 # use palette method
 ax = sns.boxplot(data=ds, orient="h", palette="Set1")
 ```
@@ -47,7 +47,7 @@ ax = sns.boxplot(data=ds, orient="h", palette="Set1")
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import seaborn as sns
 import matplotlib.pyplot as plt

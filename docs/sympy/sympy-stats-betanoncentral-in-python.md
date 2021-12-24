@@ -16,7 +16,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.BetaNoncentral()`方法，我们能够通过使用这个方法得到代表非中心β分布的连续随机变量。
 
-```
+```py
 # Import sympy and betanoncentral
 from sympy.stats import BetaNoncentral, density
 from sympy import Symbol, pprint
@@ -44,7 +44,7 @@ pprint(gfg, use_unicode = False)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and betanoncentral
 from sympy.stats import BetaNoncentral, density
 from sympy import Symbol, pprint

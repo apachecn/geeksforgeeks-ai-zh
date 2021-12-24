@@ -18,7 +18,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.tz_convert()`函数转换给定数据框的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(df)
 
 现在我们将使用`DataFrame.tz_convert()`功能将给定数据帧的时区转换为“欧洲/柏林”。
 
-```
+```py
 # Let's find out the current timezone
 # of the given dataframe
 print(df.index)
@@ -64,7 +64,7 @@ print(df.index) 
 
 **示例 2 :** 使用`DataFrame.tz_convert()`函数转换给定数据帧的时区。给定数据帧的索引是多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ print(df)
 
 现在，我们将使用`DataFrame.tz_convert()`函数将给定数据帧中多索引级别 1 的时区转换为“欧洲/柏林”。
 
-```
+```py
 # Let's find out the current timezone
 # of the Level 1 of the given dataframe
 print(df.index[1])

@@ -33,7 +33,7 @@ Pytorch 安装页面截图
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 print(f"Is CUDA supported by this system? 
@@ -73,7 +73,7 @@ CUDA 版本
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 # Creating a test tensor
@@ -103,7 +103,7 @@ assert torch.equal(res_cpu, res_gpu.cpu())
 
 **输出:**
 
-```
+```py
 cpu
 cuda : 0
 ```
@@ -122,7 +122,7 @@ Pytorch 的一个很好的做法是生成设备无关的代码，因为有些系
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 import torchvision.models as models
 

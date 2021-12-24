@@ -6,7 +6,7 @@ Pandas 基本上是 Python 中用于数据分析和操作的库。要在数据�
 
 **举个例子吧！**
 
-```
+```py
 # Python program to illustrate
 # Add a new column  in Pandas 
 
@@ -21,7 +21,7 @@ print (data_frame)
 
 **输出:**
 
-```
+```py
   data 
 0  0
 1  1
@@ -38,7 +38,7 @@ print (data_frame)
 
 让我们介绍以字典形式键入的可变周数据，其中包括一周中的天数。
 
-```
+```py
 # Python program to illustrate
 # Add a new column  in Pandas 
 # Data Frame Using a Dictionary
@@ -58,7 +58,7 @@ print (data_frame)
 
 **输出:**
 
-```
+```py
   data  new_data_1
 0  0  Sunday
 1  1  Monday

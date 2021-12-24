@@ -6,7 +6,7 @@
 
 但是在我们深入探讨这个话题之前，我们要么应该使用谷歌 colab，要么应该使用本地设备代码编辑器。如果我们在谷歌 colab 工作，那么我们可以直接进入下面的实现。但是如果我们使用本地设备，那么我们应该确保我们的设备中已经预装了 bokeh，否则我们也可以安装它。打开命令提示符并写入
 
-```
+```py
 pip install bokeh
 ```
 
@@ -20,7 +20,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing show from
 # bokeh.io to show the plot
 from bokeh.io import show
@@ -108,7 +108,7 @@ show(fig)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing show from
 # bokeh.io to show the plot
 from bokeh.io import show

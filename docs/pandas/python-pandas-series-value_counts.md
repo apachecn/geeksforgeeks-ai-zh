@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.value_counts()`函数查找给定序列对象中每个元素的唯一值计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.value_counts()`函数来查找给定 Series 对象中每个唯一值的值计数。
 
-```
+```py
 # find the value counts
 sr.value_counts()
 ```
@@ -51,7 +51,7 @@ sr.value_counts()
 
 **示例#2:** 使用`Series.value_counts()`函数查找给定序列对象中每个元素的唯一值计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们将使用`Series.value_counts()`函数来查找给定 Series 对象中每个唯一值的值计数。
 
-```
+```py
 # find the value counts
 sr.value_counts()
 ```

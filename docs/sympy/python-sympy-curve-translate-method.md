@@ -14,7 +14,7 @@ In Sympy, the function `Curve.translate()` is used translate the given curve by 
 
 **示例#1:**
 
-```
+```py
 # import Curve, parameter and interpolate
 from sympy.geometry.curve import Curve
 from sympy.abc import t
@@ -31,7 +31,7 @@ print(C2)
 
 **输出:**
 
-```
+```py
 Curve((t, t**2), (t, 0, 1))  
 Curve((t + 2, t**2 + 3), (t, 0, 1))
 
@@ -39,7 +39,7 @@ Curve((t + 2, t**2 + 3), (t, 0, 1))
 
 **例 2:**
 
-```
+```py
 # import Curve and parameter
 from sympy.geometry.curve import Curve
 from sympy.abc import x
@@ -55,7 +55,7 @@ print(C2)
 
 **输出:**
 
-```
+```py
 Curve((x, x), (x, 0, 1))  
 Curve((x + 1, x + 2), (x, 0, 1))
 

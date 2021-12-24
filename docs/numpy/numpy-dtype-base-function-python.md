@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.base() function
 
@@ -26,14 +26,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 int16
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.base() function
 
@@ -49,7 +49,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 float32
 
 ```

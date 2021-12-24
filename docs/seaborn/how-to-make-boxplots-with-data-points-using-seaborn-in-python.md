@@ -40,7 +40,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -63,7 +63,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import seaborn as sns
 import matplotlib.pyplot as plt

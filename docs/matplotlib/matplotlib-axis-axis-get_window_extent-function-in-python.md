@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_window_extent()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 
@@ -53,7 +53,7 @@ plt.show() 
 
 ![](img/d41a99fc2c48e349def1556de2af7c59.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
@@ -63,7 +63,7 @@ Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -94,7 +94,7 @@ plt.show() 
 
 ![](img/9cb9825a26ad896d36bbe4e011a89168.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 

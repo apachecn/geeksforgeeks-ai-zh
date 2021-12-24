@@ -22,7 +22,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing required libraries
 import pandas as pd
 
@@ -53,7 +53,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing required libraries
 import pandas as pd
 
@@ -95,7 +95,7 @@ print(rest_part_50)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing required libraries
 import pandas as pd
 

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy 
 from sympy import *
 
@@ -24,7 +24,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 0.36
 
 ```
@@ -33,7 +33,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy 
 from sympy import *
 
@@ -45,7 +45,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 2 / 5
 
 ```

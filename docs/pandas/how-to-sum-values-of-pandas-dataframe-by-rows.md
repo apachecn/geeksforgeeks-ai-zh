@@ -14,7 +14,7 @@ Pandas **dataframe.sum()** 函数返回所请求轴的值之和。
 
 **每行之和:**
 
-```
+```py
 df.sum(axis=1)
 ```
 
@@ -24,7 +24,7 @@ df.sum(axis=1)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module as pd
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -104,7 +104,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

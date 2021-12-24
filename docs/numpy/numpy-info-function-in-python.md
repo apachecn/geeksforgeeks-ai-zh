@@ -22,7 +22,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 print(np.info(np.add))

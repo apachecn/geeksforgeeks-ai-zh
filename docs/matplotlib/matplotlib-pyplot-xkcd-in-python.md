@@ -35,7 +35,7 @@ xkcd()中的三个参数都是可选的。
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -60,7 +60,7 @@ with plt.xkcd():
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

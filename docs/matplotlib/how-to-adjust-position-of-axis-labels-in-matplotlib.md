@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 ```
@@ -25,7 +25,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 from random import sample
 data = sample(range(1, 1000), 100)
 ```
@@ -36,7 +36,7 @@ data = sample(range(1, 1000), 100)
 
 ## 蟒蛇 3
 
-```
+```py
 fig, ax = plt.subplots() 
 ax.hist( data, bins = 100, alpha = 0.6) 
 ax.set_xlabel("X-Label" , fontsize = 16)
@@ -55,7 +55,7 @@ ax.set_ylabel("Y-label" , fontsize = 16)
 
 ## 蟒蛇 3
 
-```
+```py
 fig, ax = plt.subplots() 
 ax.hist( data, bins = 100, alpha = 0.6) 
 ax.set_xlabel("X-Label",
@@ -75,7 +75,7 @@ ax.set_ylabel("Y-Label", 
 
 ## 蟒蛇 3
 
-```
+```py
 fig, ax = plt.subplots() 
 ax.hist( data, bins = 100, alpha = 0.6) 
 ax.set_xlabel("X-Label", 

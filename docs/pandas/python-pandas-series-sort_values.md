@@ -19,7 +19,7 @@ Pandas `**Series.sort_values()**`功能用于按照某种标准对给定的序�
 
 **示例#1:** 使用`Series.sort_values()`函数按照字典顺序对给定序列对象的元素进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.sort_values()`函数对给定序列对象的元素进行升序排序。
 
-```
+```py
 # sort the values in ascending order
 sr.sort_values()
 ```
@@ -56,7 +56,7 @@ sr.sort_values()
 
 **例 2:** 使用`Series.sort_values()`函数对给定序列对象的元素进行降序排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们使用`Series.sort_values()`函数对给定序列对象的元素进行降序排序。
 
-```
+```py
 # sort the values in descending order
 sr.sort_values(ascending = False)
 ```

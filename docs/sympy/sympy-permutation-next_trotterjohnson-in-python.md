@@ -10,7 +10,7 @@
 
 **代码#1 : next_trotterjohnson()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_trotterjohnson()
 
@@ -37,7 +37,7 @@ print ("Permutation b - next_trotterjohnson form : ", b.next_trotterjohnson())
 
 **代码#2 : next_trotterjohnson()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.next_trotterjohnson()
 

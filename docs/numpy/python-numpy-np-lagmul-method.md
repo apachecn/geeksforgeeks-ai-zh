@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagmul() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [  54\.  -86\.  266\. -348\.  240.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagmul() method 
 
@@ -64,7 +64,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [   1100\.   -1600\.   10400\.  -36000\.   90600\. -152400\.  169400\. -112000.
    35000.]
 

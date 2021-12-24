@@ -23,7 +23,7 @@ Scikit-learn 需要:
 
 在安装 scikit-learn 之前，请确保您已经安装了 NumPy 和 SciPy。一旦您安装了 NumPy 和 SciPy，安装 scikit-learn 的最简单方法就是使用 pip:
 
-```
+```py
 pip install -U scikit-learn
 ```
 
@@ -39,7 +39,7 @@ pip install -U scikit-learn
 **加载样本数据集:** scikit-learn 加载了一些示例数据集，如用于分类的[虹膜](https://en.wikipedia.org/wiki/Iris_flower_data_set)和[数字](http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits)数据集以及用于回归的[波士顿房价](http://archive.ics.uci.edu/ml/datasets/Housing)数据集。
 下面给出了如何加载样本数据集的示例:
 
-```
+```py
 # load the iris dataset as an example
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -65,7 +65,7 @@ print("\nFirst 5 rows of X:\n", X[:5])
 
 输出:
 
-```
+```py
 Feature names: ['sepal length (cm)','sepal width (cm)',
                 'petal length (cm)','petal width (cm)']
 Target names: ['setosa' 'versicolor' 'virginica']
@@ -84,7 +84,7 @@ First 5 rows of X:
 
 要安装熊猫，请使用以下 pip 命令:
 
-```
+```py
 pip install pandas 
 ```
 
@@ -96,7 +96,7 @@ pip install pandas
 
 注意:下面例子中使用的 CSV 文件可以从这里下载: [weather.csv](http://www.sharecsv.com/dl/327fb8f66f90a98c2ed4454665efae9d/weather.csv)
 
-```
+```py
 import pandas as pd
 
 # reading csv file
@@ -121,7 +121,7 @@ print("\nResponse vector:\n", y.head())
 
 输出:
 
-```
+```py
 Shape: (14, 5)
 
 Features: Index([u'Outlook', u'Temperature', u'Humidity', 
@@ -168,7 +168,7 @@ Name: Play, dtype: object
 
 考虑下面的例子:
 
-```
+```py
 # load the iris dataset as an example
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -192,7 +192,7 @@ print(y_test.shape)
 
 输出:
 
-```
+```py
 (90L, 4L)
 (60L, 4L)
 (90L,)
@@ -215,7 +215,7 @@ print(y_test.shape)
 
 现在，考虑下面的例子:
 
-```
+```py
 # load the iris dataset as an example
 from sklearn.datasets import load_iris
 iris = load_iris()
@@ -253,7 +253,7 @@ joblib.dump(knn, 'iris_knn.pkl')
 
 输出:
 
-```
+```py
 kNN model accuracy: 0.983333333333
 Predictions: ['versicolor', 'virginica']
 
@@ -263,45 +263,45 @@ Predictions: ['versicolor', 'virginica']
 
 *   我们使用
 
-    ```
+    ```py
     knn = KNeighborsClassifier(n_neighbors=3) 
     ```
 
     创建一个 knn 分类器对象
 *   使用 X_train 数据训练分类器。这个过程被称为**拟合**。我们传递特征矩阵和相应的响应向量。
 
-    ```
+    ```py
     knn.fit(X_train, y_train) 
     ```
 
 *   现在，我们需要在 X_test 数据上测试我们的分类器。 **knn.predict** 法就是为此目的而使用的。它返回预测响应向量 **y_pred** 。
 
-    ```
+    ```py
     y_pred = knn.predict(X_test) 
     ```
 
 *   现在，我们有兴趣通过比较 **y_test** 和 **y_pred** 来找到我们模型的准确性。这是使用度量模块的方法**准确度分数** :
 
-    ```
+    ```py
     print(metrics.accuracy_score(y_test, y_pred)) 
     ```
 
     完成的
 *   当你想让你的模型对样本数据中的**进行预测时，考虑这种情况。然后，可以像传递任何特征矩阵一样简单地传递样本输入。
 
-    ```
+    ```py
     sample = [[3, 5, 4, 2], [2, 3, 5, 4]]
     preds = knn.predict(sample) 
     ```** 
 *   如果你对反复训练你的分类器并使用预训练的分类器不感兴趣，你可以使用 **joblib** 保存他们的分类器。你需要做的就是:
 
-    ```
+    ```py
     joblib.dump(knn, 'iris_knn.pkl') 
     ```
 
 *   如果要加载已经保存的分类器，使用以下方法:
 
-    ```
+    ```py
     knn = joblib.load('iris_knn.pkl')
     ```
 

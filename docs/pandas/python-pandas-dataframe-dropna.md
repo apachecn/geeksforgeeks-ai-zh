@@ -8,7 +8,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **语法:**
 
-```
+```py
 DataFrameName.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
 ```
 
@@ -26,7 +26,7 @@ DataFrameName.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
 
 读取数据框，并删除所有具有空值的行。比较新旧数据框的大小，看看有多少行至少有 1 个空值。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -44,7 +44,7 @@ print("Old data frame length:", len(data), "\nNew data frame length:", 
 
 **输出:**
 
-```
+```py
 Old data frame length:  458 
 New data frame length:  364 
 Number of rows with at least 1 NA value:  94
@@ -57,7 +57,7 @@ Number of rows with at least 1 NA value:  94
 
 制作了两个数据帧。所有值都=无的列将被添加到新的数据框中。验证列名以查看是否正确插入了空列。然后比较删除 NaN 值前后的列数。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -87,7 +87,7 @@ print("\nColumn number after dropping Null column\n",
 
 **输出:**
 
-```
+```py
 ['Name' 'Team' 'Number' 'Position' 'Age' 'Height' 'Weight' 'College'
  'Salary'] 
  ['Name' 'Team' 'Number' 'Position' 'Age' 'Height' 'Weight' 'College'

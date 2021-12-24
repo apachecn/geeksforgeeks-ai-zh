@@ -11,7 +11,7 @@
 求向量和矩阵的内积，可以用 NumPy 的 [**【内积()**](https://www.geeksforgeeks.org/numpy-inner-in-python/) 方法。
 **语法:**
 
-```
+```py
 numpy.inner(arr1, arr2)
 ```
 
@@ -19,7 +19,7 @@ numpy.inner(arr1, arr2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program illustrating
 # numpy.inner() method
 import numpy as np
@@ -58,7 +58,7 @@ print(np.inner(x, y))
 向量和矩阵的外积可以用 NumPy 的 [**【外()**](https://www.geeksforgeeks.org/numpy-outer-function-python/) 方法求出。
 **语法:**
 
-```
+```py
 numpy.outer(a, b, out = None)
 ```
 
@@ -66,7 +66,7 @@ numpy.outer(a, b, out = None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program illustrating 
 # numpy.outer() method 
 import numpy as np
@@ -106,7 +106,7 @@ print(np.outer(x, y))
 
 **语法:**
 
-```
+```py
 numpy.cross(a, b)
 ```
 
@@ -114,7 +114,7 @@ numpy.cross(a, b)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program illustrating 
 # numpy.cross() method 
 import numpy as np

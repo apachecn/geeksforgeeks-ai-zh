@@ -8,7 +8,7 @@
 
 **解决方案:**我们将使用`numpy.astype()`函数来更改给定 numpy 数组的底层数据的数据类型。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -25,7 +25,7 @@ print(arr)
 
 现在我们将检查给定数组对象的数据类型。
 
-```
+```py
 # Print the dtype
 print(arr.dtype)
 ```
@@ -36,7 +36,7 @@ print(arr.dtype)
 
 正如我们在输出中看到的，给定数组对象的当前数据类型是“int32”。现在我们将把它改为“float64”型。
 
-```
+```py
 # change the dtype to 'float64'
 arr = arr.astype('float64')
 
@@ -58,7 +58,7 @@ print(arr.dtype)
 
 **解决方案:**我们将使用`numpy.astype()`函数来更改给定 numpy 数组的底层数据的数据类型。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -75,7 +75,7 @@ print(arr)
 
 现在我们将检查给定数组对象的数据类型。
 
-```
+```py
 # Print the dtype
 print(arr.dtype)
 ```
@@ -86,7 +86,7 @@ print(arr.dtype)
 
 正如我们在输出中看到的，给定数组对象的当前数据类型是“int32”。现在我们将把它改为“complex128”类型。
 
-```
+```py
 # change the dtype to 'complex128'
 arr = arr = arr.astype('complex128')
 

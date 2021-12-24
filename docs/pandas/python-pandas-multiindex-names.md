@@ -10,7 +10,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.names`属性查找多索引中的级别名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -26,7 +26,7 @@ print(array)
 
 现在让我们使用这个数组创建多索引
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_arrays(array, names =('Number', 'Names'))
 
@@ -39,7 +39,7 @@ print(midx)
 
 现在我们将在多索引中找到所有级别的名称。
 
-```
+```py
 # Print the names of the level in MultiIndex
 midx.names
 ```
@@ -50,7 +50,7 @@ midx.names
 
 **示例 2:** 使用`MultiIndex.names`属性查找给定多索引中的级别名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(array)
 
 现在让我们使用这个数组创建多索引
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_arrays(array, 
    names =('Ranking', 'Names', 'Profession'))
@@ -81,7 +81,7 @@ print(midx)
 
 现在我们将在多索引中找到所有级别的名称。
 
-```
+```py
 # Print the names of the level in MultiIndex
 midx.names
 ```

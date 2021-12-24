@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the necessary modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ plt.figlegend()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the necessary modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -69,7 +69,7 @@ plt.figlegend((line1),('Cos'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the necessary modules
 import numpy as np
 import matplotlib.pyplot as plt

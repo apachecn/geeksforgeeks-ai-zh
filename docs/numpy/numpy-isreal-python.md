@@ -5,21 +5,21 @@
 **numpy.isreal(数组):**逐元素测试它是否为实数(不是无穷大也不是数字)，并将结果作为布尔数组返回。
 T3】参数:
 
-```
+```py
 array : [array_like] Input array whose element we want to test
 
 ```
 
 **返回:**
 
-```
+```py
 boolean array containing the result
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isreal() method
 
@@ -32,7 +32,7 @@ print("Is Real : ", geek.isreal([1, 0]), "\n")
 
 **输出:**
 
-```
+```py
 Is Real :  [False  True] 
 
 Is Real :  [ True  True] 
@@ -41,7 +41,7 @@ Is Real :  [ True  True]
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isreal() method
 
@@ -59,7 +59,7 @@ print("\nIs Real : ", geek.isreal(a))
 
 **输出:**
 
-```
+```py
 Is Real : 
  [[ True  True  True  True]
  [ True  True  True  True]

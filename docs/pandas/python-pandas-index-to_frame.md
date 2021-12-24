@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.to_frame()`函数将索引转换为数据帧。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ idx
 
 让我们把索引转换成数据帧。
 
-```
+```py
 # convert the index into a dataframe
 idx.to_frame()
 ```
@@ -43,7 +43,7 @@ idx.to_frame()
 
 **示例#2:** 使用`Index.to_frame()`函数将索引转换为数据帧，以便创建的数据帧使用新的索引值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ idx
 
 让我们把索引转换成数据帧。
 
-```
+```py
 # convert the index into a dataframe
 idx.to_frame(index = False)
 ```

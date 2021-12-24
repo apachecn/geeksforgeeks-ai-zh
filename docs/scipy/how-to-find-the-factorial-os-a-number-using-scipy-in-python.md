@@ -26,7 +26,7 @@ SciPy 是一个开源的 Python 库，用于解决科学和数学问题。它建
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from scipy.special import factorial
 

@@ -23,7 +23,7 @@ matplotlib 库的 Axis 模块中的 **Axis.update_units()函数**用于为 units
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -60,7 +60,7 @@ plt.show()
 
 ![](img/90599693b33b14bbb2b94284e442974a.png)
 
-```
+```py
 False
 
 ```
@@ -69,7 +69,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np   
@@ -95,7 +95,7 @@ plt.show()
 
 ![](img/2548a242bc0da44efef70acb54ce32fa.png)
 
-```
+```py
 False
 
 ```

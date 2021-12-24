@@ -16,7 +16,7 @@ Pandas `**Series.axes**`属性返回给定系列对象的行轴标签列表。
 
 **示例#1:** 使用`Series.axes`属性返回给定系列对象的行轴标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.axes`属性返回给定序列对象的行轴标签列表。
 
-```
+```py
 # return the element at the first position
 sr.axes
 ```
@@ -47,7 +47,7 @@ sr.axes
 
 **示例 2 :** 使用`Series.axes`属性返回给定 Series 对象的行轴标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们将使用`Series.axes`属性返回给定序列对象的行轴标签列表。
 
-```
+```py
 # return the element at the first position
 sr.axes
 ```

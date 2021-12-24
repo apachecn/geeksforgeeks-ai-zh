@@ -27,7 +27,7 @@
 
 **要直接安装 matplotlib colorbar，请在 Jupyter 笔记本或 Visual Studio Code 上执行以下命令以获取结果，Matplotlib-colorbar 包是为了使用 colorbar 参数生成而安装的。这里 **matplotlib.pyplot** 用于以更简单的方式创建一个 colorbar。**
 
-```
+```py
 pip install matplotlib-colorbar
 ```
 
@@ -39,7 +39,7 @@ Matplotlib Colorbar 安装**
 
 ## **蟒蛇 3**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -65,7 +65,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import packages necessary to create colorbar
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.show()
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#import matplotlib.pyplot to create chart
 import matplotlib.pyplot as plt
 import numpy as np
@@ -119,7 +119,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -151,7 +151,7 @@ plt.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -181,7 +181,7 @@ plt.show()**
 
 ## **蟒蛇 3**
 
-```
+```py
 # import matplotlib packages
 import matplotlib.pyplot as plt
 import numpy as np; np.random.seed(1)
@@ -204,7 +204,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # import matplotlib packages
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -237,7 +237,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable

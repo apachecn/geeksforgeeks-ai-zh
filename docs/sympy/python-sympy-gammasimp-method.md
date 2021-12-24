@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * x = symbols('x')
 expr = gamma(x)*gamma(1 - x)
@@ -27,7 +27,7 @@ print("Simplified Expression : {}".format(simple_expr))  
 
 **输出:**
 
-```
+```py
 Expression = gamma(x)*gamma(1 - x)
 Simplified Expression : pi/sin(pi*x)
 
@@ -35,7 +35,7 @@ Simplified Expression : pi/sin(pi*x)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * x = symbols('x')
 expr = gamma(x + 1)/gamma(x - 1)
@@ -49,7 +49,7 @@ print("Simplified Expression : {}".format(simple_expr))  
 
 **输出:**
 
-```
+```py
 Expression = gamma(x + 1)/gamma(x - 1)
 Simplified Expression : x*(x - 1)
 

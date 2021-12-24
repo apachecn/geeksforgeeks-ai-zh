@@ -19,7 +19,7 @@ matplotlib 库的 Axes 模块中的**axes . set _ navive()函数**用于检查�
 以下示例说明了 matplotlib . axes . axes . set _ navigate()函数在 matplotlib.axes:
 **示例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import SubplotZero
@@ -42,7 +42,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

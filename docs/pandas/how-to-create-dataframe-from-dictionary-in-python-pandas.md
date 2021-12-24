@@ -8,7 +8,7 @@
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -59,7 +59,7 @@ df
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -85,7 +85,7 @@ df
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -111,7 +111,7 @@ df
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -138,7 +138,7 @@ df
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 

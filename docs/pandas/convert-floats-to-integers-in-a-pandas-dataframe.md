@@ -8,7 +8,7 @@
 
 首先，我们将创建一个数据帧:
 
-```
+```py
 # importing the library
 import pandas as pd
 
@@ -29,7 +29,7 @@ display(df)
 
 **示例 1 :** 使用 **`DataFrame.astype()`** 将**一个**列从浮点转换为整数
 
-```
+```py
 # displaying the datatypes
 display(df.dtypes)
 
@@ -45,7 +45,7 @@ display(df.dtypes)
 
 **示例 2:** 使用`DataFrame.astype()`将多个列从浮点转换为整数
 
-```
+```py
 # displaying the datatypes
 display(df.dtypes)
 
@@ -63,7 +63,7 @@ display(df.dtypes)
 
 首先，我们将创建一个数据框架。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -82,7 +82,7 @@ display(df)
 
 **示例 1:** 使用`DataFrame.apply(np.int64)`将**单个**列从浮点转换为整数
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -101,7 +101,7 @@ display(df.dtypes)
 
 **示例 2:** 使用`DataFrame.apply(np.int64)`将多个列从浮点转换为整数
 
-```
+```py
 # displaying the datatypes
 display(df.dtypes)
 

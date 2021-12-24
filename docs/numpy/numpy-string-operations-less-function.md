@@ -13,7 +13,7 @@ numpy . core . defchararray . less(arr 1，arr2)是 NumPy 中做字符串运算�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.char.less() method
 
@@ -34,7 +34,7 @@ print ("Output array: ", out_arr)
 
 **Output:** 
 
-```
+```py
 1st Input array :  numpy
 2nd Input array :  number
 Output array:  False
@@ -44,7 +44,7 @@ Output array:  False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.char.less() method
 
@@ -65,7 +65,7 @@ print ("Output array: ", out_arr)
 
 **Output:** 
 
-```
+```py
 1st Input array :  ['Geeks' 'for' 'Geek' 'Numpy']
 2nd Input array :  ['Geek' 'for' 'geek' 'numpy']
 Output array:  [False False  True  True]
@@ -75,7 +75,7 @@ Output array:  [False False  True  True]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.char.less() method
 
@@ -96,7 +96,7 @@ print ("Output array: ", out_arr)
 
 **Output:** 
 
-```
+```py
 1st Input array :  ['10' '11' '122' '15']
 2nd Input array :  ['10' '13' '121' '141']
 Output array:  [False  True False False]

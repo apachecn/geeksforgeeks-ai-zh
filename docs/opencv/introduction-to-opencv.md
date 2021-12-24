@@ -22,7 +22,7 @@ OpenCV 是最受欢迎的计算机视觉库之一。如果你想开始你在计�
 
 **读取图像**
 
-```
+```py
 # Importing the OpenCV library
 import cv2
 # Reading the image using imread() function
@@ -39,7 +39,7 @@ print("Height = {},  Width = {}".format(h, w))
 
 **提取像素的 RGB 值**
 
-```
+```py
 # Extracting RGB values. 
 # Here we have randomly chosen a pixel
 # by passing in 100, 100 for height and width.
@@ -56,7 +56,7 @@ print("B = {}".format(B))
 
 **提取感兴趣区域**
 
-```
+```py
 # We will calculate the region of interest 
 # by slicing the pixels of the image
 roi = image[100 : 500, 200 : 700]
@@ -66,7 +66,7 @@ roi = image[100 : 500, 200 : 700]
 
 **调整图像大小**
 
-```
+```py
 # resize() function takes 2 parameters, 
 # the image and the dimensions
 resize = cv2.resize(image, (800, 800))
@@ -76,7 +76,7 @@ resize = cv2.resize(image, (800, 800))
 
 这种方法的问题是不能保持图像的纵横比。所以我们需要做一些额外的工作，以保持适当的长宽比。
 
-```
+```py
 # Calculating the ratio
 ratio = 800 / w
 
@@ -91,7 +91,7 @@ resize_aspect = cv2.resize(image, dim)
 
 **旋转图像**
 
-```
+```py
 # Calculating the center of the image
 center = (w // 2, h // 2)
 
@@ -128,7 +128,7 @@ rotated = cv2.warpAffine(image, matrix, (w, h))
 
     warpAffine 函数使用旋转矩阵变换源图像:
 
-    ```
+    ```py
     dst(x, y) = src(M11X + M12Y + M13, M21X + M22Y + M23)
 
     ```
@@ -139,7 +139,7 @@ rotated = cv2.warpAffine(image, matrix, (w, h))
     **绘制矩形**
     这是一个原地操作。
 
-    ```
+    ```py
     # We are copying the original image, 
     # as it is an in-place operation.
     output = image.copy()
@@ -162,7 +162,7 @@ rotated = cv2.warpAffine(image, matrix, (w, h))
     **显示文字**
     也是原地操作
 
-    ```
+    ```py
     # Copying the original image
     output = image.copy()
 

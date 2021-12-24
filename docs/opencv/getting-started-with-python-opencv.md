@@ -16,7 +16,7 @@ Python OpenCV 是最流行的计算机视觉库。通过使用它，人们可以
 
 安装 Python 和 PIP 后，在终端中键入以下命令。
 
-```
+```py
 pip3 install opencv-python
 ```
 
@@ -34,7 +34,7 @@ pip3 install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to read image
 import cv2
 
@@ -47,7 +47,7 @@ print(img)
 
 **输出:**
 
-```
+```py
 [[[ 87 157  14]
   [ 87 157  14]
   [ 87 157  14]
@@ -107,7 +107,7 @@ print(img)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to read image
 import cv2
 
@@ -145,7 +145,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.imwrite() method
 
 # importing cv2
@@ -184,7 +184,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.rotate() method
 
 # importing cv2
@@ -219,7 +219,7 @@ cv2.waitKey(0)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -261,7 +261,7 @@ OpenCV 为我们提供了几种调整图像大小的插值方法。选择调整�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -301,7 +301,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.cvtColor() method
 
 # importing cv2
@@ -350,7 +350,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # addition of two images
@@ -387,7 +387,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # subtraction of pixels of two images
@@ -441,7 +441,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise AND of two images
@@ -479,7 +479,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise OR of two images
@@ -517,7 +517,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise XOR of two images
@@ -555,7 +555,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise NOT on input image
@@ -603,7 +603,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -638,7 +638,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 FILE_NAME = 'geeks.png'
@@ -665,7 +665,7 @@ cv2.destroyAllWindows()
 
 在计算机视觉中，这种阈值技术是在灰度图像上完成的。所以最初，图像必须在灰度颜色空间中转换。
 
-```
+```py
 If f (x, y) < T
   then f (x, y) = 0
 else
@@ -690,7 +690,7 @@ T = Threshold Value.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # simple thresholding type on an image
 
@@ -743,7 +743,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # adaptive thresholding type on an image
 
@@ -791,7 +791,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Otsu thresholding type on an image
 
@@ -840,7 +840,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import cv2
 import numpy as np
@@ -883,7 +883,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Read the image
@@ -911,7 +911,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -981,7 +981,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate erosion and
 # dilation of images.
 import cv2
@@ -1021,7 +1021,7 @@ ORB 使用了简要描述符，但是简要描述符在循环中表现不佳。�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 
@@ -1087,7 +1087,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to draw rectangle
 # shape on solid image
 import numpy as np
@@ -1128,7 +1128,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # OpenCV program to detect face in real time
 # import libraries of python OpenCV
 # where its functionality resides

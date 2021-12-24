@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkString, ChunkRule, ChinkRule
 from nltk.tree import Tree
@@ -55,7 +55,7 @@ chunk_string.to_chunkstruct()
 
 **输出:**
 
-```
+```py
 Chunk String :   <<DT>  <NN>  <VBZ>  <JJ>  <NNS> 
 
 Applied ChunkRule :  {<DT>  <NN>  <VBZ>  <JJ>  <NNS>}
@@ -72,7 +72,7 @@ Tree('S', [Tree('CHUNK', [('the', 'DT'), ('book', 'NN')]),
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkString, ChunkRule, ChinkRule
 from nltk.tree import Tree
@@ -95,7 +95,7 @@ chunker.parse(tree)
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('CHUNK', [('the', 'DT'), ('book', 'NN')]), 
     ('has', 'VBZ'), Tree('CHUNK', [('many', 'JJ'), ('chapters', 'NNS')])])
 ```
@@ -104,7 +104,7 @@ Tree('S', [Tree('CHUNK', [('the', 'DT'), ('book', 'NN')]),
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkString, ChunkRule, ChinkRule
 from nltk.tree import Tree
@@ -127,7 +127,7 @@ chunker.parse(tree)
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('CP', [('the', 'DT'), ('book', 'NN')]), ('has', 'VBZ'), 
           Tree('CP', [('many', 'JJ'), ('chapters', 'NNS')])])
 ```

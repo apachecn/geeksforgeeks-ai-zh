@@ -9,7 +9,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 *   对于系列，行标签带有前缀。
 *   对于数据框，列标签带有前缀。
 
-```
+```py
 Syntax:  DataFrame.add_prefix(prefix)
 
 Parameters:
@@ -23,7 +23,7 @@ Returns: with_prefix: type of caller
 
 **示例#1:** 在数据框的每一列中添加前缀`col_`
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ df[:10]
 
 ![](img/836ed1d13f8962a28804f881cfca5a18.png)
 
-```
+```py
 # Using add_prefix() function 
 # to add 'col_' in each column label
 df = df.add_prefix('col_')
@@ -53,7 +53,7 @@ df 
 
 `add_prefix()`在序列的情况下改变行索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

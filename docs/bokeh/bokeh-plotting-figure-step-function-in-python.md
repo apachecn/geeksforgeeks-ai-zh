@@ -46,7 +46,7 @@ bokeh 库绘图模块中的 **step()功能**用于配置和添加 step 字形到
 以下示例说明了 bokeh . ploting . figure . step()函数在 bokeh . ploting:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -71,7 +71,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

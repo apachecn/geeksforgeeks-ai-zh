@@ -16,7 +16,7 @@
 
 **示例#1:**
 
-```
+```py
 # import multiplicity() method from sympy
 from sympy import multiplicity
 
@@ -32,14 +32,14 @@ print("{} is the largest integer such that {}^{} divides {}.".
 
 **输出:**
 
-```
+```py
 6 is the largest integer such that 2^6 divides 64.
 
 ```
 
 **例 2:**
 
-```
+```py
 # import multiplicity() method from sympy
 from sympy import multiplicity
 
@@ -55,7 +55,7 @@ print("{} is the largest integer such that {}^{} divides {}.".
 
 **输出:**
 
-```
+```py
 1 is the largest integer such that 3^1 divides 111.
 
 ```

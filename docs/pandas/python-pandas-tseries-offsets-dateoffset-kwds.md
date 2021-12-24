@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.kwds`属性返回应用于给定 DateOffset 对象的关键字参数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的 timestamp 对象中，以从给定的日期创建一个 2 天的偏移量。还返回应用于给定日期偏移量对象的关键字参数。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -63,7 +63,7 @@ print(do.kwds)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.kwds`属性返回应用于给定 DateOffset 对象的关键字参数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的时间戳对象中，以从给定的日期创建一个 10 天 2 小时的偏移量。还返回应用于给定日期偏移量对象的关键字参数。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

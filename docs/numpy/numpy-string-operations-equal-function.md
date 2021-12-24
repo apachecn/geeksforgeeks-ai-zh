@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.equal() method 
 
@@ -33,7 +33,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  numpy
 2nd Input array :  numpy
 Output array:  True
@@ -42,7 +42,7 @@ Output array:  True
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.equal() method 
 
@@ -63,7 +63,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  ['Geeks' 'for' 'Geeks']
 2nd Input array :  ['Geek' 'for' 'Geek']
 Output array:  [False  True False]
@@ -72,7 +72,7 @@ Output array:  [False  True False]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.equal() method 
 
@@ -93,7 +93,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  ['10' '11' '12']
 2nd Input array :  ['10' '11' '121']
 Output array:  [ True  True False]

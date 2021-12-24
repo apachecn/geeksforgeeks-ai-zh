@@ -19,7 +19,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.argmax() method 
 
@@ -44,7 +44,7 @@ print ("Index of max element in masked array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  5]
 Masked array :  [1 2 -- -1 5]
 Index of max element in masked array :  4
@@ -53,7 +53,7 @@ Index of max element in masked array :  4
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.argmax() method 
 
@@ -79,7 +79,7 @@ print ("Index of max element in masked array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 10  20  30 -10  50]
 Masked array :  [-- 20 -- -10 50]
 Index of max element in masked array :  0

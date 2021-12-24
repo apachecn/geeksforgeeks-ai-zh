@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.weekday_name`属性在 Timestamp 对象中查找给定日期的工作日名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekday_name`属性来查找工作日名称。
 
-```
+```py
 # return the name of the weekday
 ts.weekday_name
 ```
@@ -45,7 +45,7 @@ ts.weekday_name
 
 **示例#2:** 使用`Timestamp.weekday_name`属性在 Timestamp 对象中查找给定日期的工作日名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.weekday_name`属性来查找工作日名称。
 
-```
+```py
 # return the name of the weekday
 ts.weekday_name
 ```

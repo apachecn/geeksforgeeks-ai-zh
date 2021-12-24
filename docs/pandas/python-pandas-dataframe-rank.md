@@ -25,7 +25,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在下面的示例中，创建了一个新的排名列，对每个玩家的姓名进行排名。*名称*列中的所有值都是唯一的，因此不需要描述方法。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -58,7 +58,7 @@ data
 
 在下面的例子中，数据帧首先根据*队名*进行排序，并且首先该方法是默认的(即平均)，因此同一队球员的排名是平均的。之后，min 方法也用于查看输出。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

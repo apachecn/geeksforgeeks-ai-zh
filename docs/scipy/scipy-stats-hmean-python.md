@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Harmonic Mean 
 
 from scipy.stats.mstats import hmean 
@@ -27,14 +27,14 @@ print("Harmonic Mean is :", arr1) 
 
 **Output:**
 
-```
+```py
 Harmonic Mean is : 2.18918918919
 
 ```
 
 **代码#2:** 多维数据
 
-```
+```py
 # Harmonic Mean 
 
 from scipy.stats.mstats import hmean
@@ -56,7 +56,7 @@ print("\nHarmonic Mean is with default axis = 1 : \n", 
 
 **Output:**
 
-```
+```py
 Harmonic Mean is : [ 2.21052632  4.36363636  6.04195804]
 
 Harmonic Mean is with default axis = 0 : 

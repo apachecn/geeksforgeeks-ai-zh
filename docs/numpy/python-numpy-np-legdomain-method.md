@@ -9,7 +9,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legdomain() method 
 
@@ -33,7 +33,7 @@ for i in range(5):
 
 **例 2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legdomain() method 
 

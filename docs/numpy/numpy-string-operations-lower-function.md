@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.lower() function 
 
@@ -26,7 +26,7 @@ print ("output lowercased array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['P4Q R' '4Q RP' 'Q RP4' 'RP4Q']
 output lowercased array : ['p4q r' '4q rp' 'q rp4' 'rp4q']
 
@@ -34,7 +34,7 @@ output lowercased array : ['p4q r' '4q rp' 'q rp4' 'rp4q']
 
 **代码#2:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.lower() function 
 
@@ -50,7 +50,7 @@ print ("output lowercased array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['GEEKS' 'FOR' 'GEEKS']
 output lowercased array : ['geeks' 'for' 'geeks']
 

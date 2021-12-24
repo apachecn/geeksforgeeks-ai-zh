@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import numpy as np
@@ -52,7 +52,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import numpy as np

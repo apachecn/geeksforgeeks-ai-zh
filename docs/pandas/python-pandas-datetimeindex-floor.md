@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.floor()`功能将 DatetimeIndex 对象的数据拖到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在，我们希望将 DatetimeIndex 对象的第二个频率限制为分钟频率
 
-```
+```py
 # convert to the passed frequency
 # 'T' represents minute based frequency
 didx.floor('T')
@@ -45,7 +45,7 @@ didx.floor('T')
 
 **示例#2:** 使用`DatetimeIndex.floor()`函数将 DatetimeIndex 对象的数据拖到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(didx)
 
 现在，我们希望将 DatetimeIndex 对象基于分钟的频率限制为基于小时的频率
 
-```
+```py
 # floor minute based frequency to hour based frequency
 didx.floor('H')
 ```

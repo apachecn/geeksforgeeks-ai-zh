@@ -9,7 +9,7 @@
 *   用于搜索引擎等综合检索系统。
 *   用于紧凑索引
 
-```
+```py
 Examples of lemmatization:
 
 -> rocks : rock
@@ -22,7 +22,7 @@ Examples of lemmatization:
 
 ## 蟒蛇 3
 
-```
+```py
 # import these modules
 from nltk.stem import WordNetLemmatizer
 
@@ -37,7 +37,7 @@ print("better :", lemmatizer.lemmatize("better", pos ="a"))
 
 **输出:**
 
-```
+```py
 rocks : rock
 corpora : corpus
 better : good

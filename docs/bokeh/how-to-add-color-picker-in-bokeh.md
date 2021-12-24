@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # displaying the chart
 from bokeh.io import show
 from bokeh.layouts import column

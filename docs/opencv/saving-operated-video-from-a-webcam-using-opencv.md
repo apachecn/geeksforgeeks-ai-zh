@@ -10,7 +10,7 @@
 
 然后， [cv2。使用了 VideoWriter()](https://docs.opencv.org/3.4/dd/d9e/classcv_1_1VideoWriter.html) 功能。
 
-```
+```py
 cv2.VideoWriter( filename, fourcc, fps, frameSize )
 
 ```
@@ -22,7 +22,7 @@ cv2.VideoWriter( filename, fourcc, fps, frameSize )
 3.  **fps:** 输出视频流的定义帧速率
 4.  **帧大小:**视频帧的大小
 
-```
+```py
 # Python program to illustrate 
 # saving an operated video
 
@@ -78,7 +78,7 @@ cv2.destroyAllWindows()
 
 输入视频也可以在其他颜色空间操作，如**灰度**
 
-```
+```py
 # Python program to illustrate 
 # saving an operated video
 

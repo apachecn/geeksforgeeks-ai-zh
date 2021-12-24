@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.ndim**`属性返回底层数据的维数，定义为 1�
 
 **示例#1:** 使用`TimedeltaIndex.ndim`属性找出给定时间增量索引对象的维度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找到 tidx 对象的维度。
 
-```
+```py
 # return the dimension of the tidx object
 tidx.ndim
 ```
@@ -41,7 +41,7 @@ tidx.ndim
 
 **示例 2:** 使用`TimedeltaIndex.ndim`属性找出给定时间增量索引对象的维度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(tidx)
 
 现在我们将找到 tidx 对象的维度。
 
-```
+```py
 # return the dimension of the tidx object
 tidx.ndim
 ```

@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_label_text()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -45,7 +45,7 @@ plt.show()
 
 ![](img/1f00b06ec03049c679b5bcef97c37e77.png)
 
-```
+```py
 Text of the Label : X - Label
 
 ```
@@ -54,7 +54,7 @@ Text of the Label : X - Label
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -88,7 +88,7 @@ plt.show()
 
 ![](img/86963ec0f66487299b890f10891c40b2.png)
 
-```
+```py
 Text of Label in Axes 1 : Default
 Text of Label in Axes 2 : Adjusted
 

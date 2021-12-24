@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -38,7 +38,7 @@ print('Complex Conjugate: ',res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([1.+5.j 3.+2.j 4.+1.j], shape=(3,), dtype=complex128)
 Complex Conjugate:  tf.Tensor([1.-5.j 3.-2.j 4.-1.j], shape=(3,), dtype=complex128)
 
@@ -48,7 +48,7 @@ Complex Conjugate:  tf.Tensor([1.-5.j 3.-2.j 4.-1.j], shape=(3,), dtype=complex1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -67,7 +67,7 @@ print('Complex Conjugate: ',res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([1\. 2\. 3.], shape=(3,), dtype=float64)
 Complex Conjugate:  tf.Tensor([1\. 2\. 3.], shape=(3,), dtype=float64)
 

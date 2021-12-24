@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # pandas package is required
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(list(data_frame.columns))
 
 ## 蟒蛇 3
 
-```
+```py
 # pandas package is required
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(list(data_frame_new.columns))
 
 ## 蟒蛇 3
 
-```
+```py
 # pandas package is required
 import pandas as pd
 

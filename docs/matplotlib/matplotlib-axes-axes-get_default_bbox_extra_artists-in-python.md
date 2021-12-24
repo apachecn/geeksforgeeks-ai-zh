@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的**axes . get _ default _ bbox _ extra _ artis
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -68,7 +68,7 @@ plt.show()
 
 ![](img/3729fa081f56d3396b21111f65a13b6e.png)
 
-```
+```py
 Value Return by get_default_bbox_extra_artists() :
 Line2D(_line0)
 Line2D(_line1)
@@ -87,7 +87,7 @@ Rectangle(xy=(0, 0), width=1, height=1, angle=0)
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -122,7 +122,7 @@ plt.show()
 
 ![](img/d90b5273a63833b3157d2036866fed99.png)
 
-```
+```py
 Value Return by get_default_bbox_extra_artists() :
 Line2D(_line0)
 Spine

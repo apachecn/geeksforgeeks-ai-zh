@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.common_fill_value() method 
 
@@ -47,7 +47,7 @@ print ("common filled value : ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -66,7 +66,7 @@ common filled value :  5
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.common_fill_value() method 
 
@@ -100,7 +100,7 @@ print ("common filled value : ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]

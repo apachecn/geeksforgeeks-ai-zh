@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.is_leap_year`属性检查 DatetimeIndex 对象中的日期是否属于闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(didx)
 
 现在我们想知道给定的 DatetimeIndex 对象中包含的日期是否属于闰年。
 
-```
+```py
 # find if the dates belong to leap year
 didx.is_leap_year
 ```
@@ -39,7 +39,7 @@ didx.is_leap_year
 
 **示例#2:** 使用`DatetimeIndex.is_leap_year`属性检查 DatetimeIndex 对象中的日期是否属于闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(didx)
 
 现在我们想知道给定的 DatetimeIndex 对象中包含的日期是否属于闰年。
 
-```
+```py
 # find if the dates belong to leap year
 didx.is_leap_year
 ```

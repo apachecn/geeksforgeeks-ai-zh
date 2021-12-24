@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_clip_box()方法**用于获取剪贴
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -51,7 +51,7 @@ plt.show()
 **输出:**
 ![](img/c5e0674b2597804b5c2e5e95e88795dd.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),
@@ -139,7 +139,7 @@ TransformedBbox(
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -181,7 +181,7 @@ plt.show()
 **输出:**
 ![](img/776a1680c8f806bd343f73c16eb9ca18.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),

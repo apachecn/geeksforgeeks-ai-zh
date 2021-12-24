@@ -42,7 +42,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -71,7 +71,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -101,7 +101,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 
@@ -134,7 +134,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 
@@ -168,7 +168,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 

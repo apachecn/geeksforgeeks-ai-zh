@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,7 +54,7 @@ plt.xlim(-5, 5)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -84,7 +84,7 @@ plt.ylim(0, 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np

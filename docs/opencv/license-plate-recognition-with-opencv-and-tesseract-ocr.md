@@ -9,7 +9,7 @@ Py-宇宙魔方是一款针对 Python 的光学字符识别(OCR)工具。也就�
 
 **安装:**
 
-```
+```py
 pip install pytesseract
 
 ```
@@ -19,7 +19,7 @@ OpenCV 是一个开源的计算机视觉库。该库有 2500 多种优化算法�
 
 **安装:**
 
-```
+```py
 pip install opencv-python
 
 ```
@@ -29,7 +29,7 @@ pip install opencv-python
 
 **Procedure:**
 
-```
+```py
 # Loading the required python modules
 import pytesseract # this is tesseract module
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ import os
 
 **编码:使用镶嵌引擎对车牌进行光学字符识别**
 
-```
+```py
 # specify path to the license plate images folder as shown below
 path_for_license_plates = os.getcwd() + "/license-plates/**/*.jpg"
 list_license_plates = []
@@ -78,7 +78,7 @@ for path_to_license_plate in glob.glob(path_for_license_plates, recursive = True
 
 现在我们已经预测了板块，但是我们还没有看到什么是预测，所以为了查看数据和预测，我们做了一些可视化，如下所示。我们也在不使用任何内置函数的情况下计算预测的准确性。
 
-```
+```py
 print("Actual License Plate", "\t", "Predicted License Plate", "\t", "Accuracy")
 print("--------------------", "\t", "-----------------------", "\t", "--------")
 
@@ -108,7 +108,7 @@ We see that the Tesseract OCR engine mostly predicts all of the license plates c
 
 **代码:图像处理技术**
 
-```
+```py
 # Read the license plate file and display it
 test_license_plate = cv2.imread(os.getcwd() + "/license-plates / GWT2180.jpg")
 plt.imshow(test_license_plate)
@@ -124,7 +124,7 @@ plt.title('GWT2180 license plate')
 
     使用 cv2 将图像文件在水平和垂直方向上的大小调整两倍
 
-    ```
+    ```py
     resize_test_license_plate = cv2.resize(
         test_license_plate, None, fx = 2, fy = 2, 
         interpolation = cv2.INTER_CUBIC)
@@ -132,7 +132,7 @@ plt.title('GWT2180 license plate')
 
 *   **转换为灰度:**接下来，我们将调整后的图像文件转换为灰度，以优化检测并大幅减少图像中存在的颜色数量，这将有助于轻松检测车牌。
 
-    ```
+    ```py
     grayscale_resize_test_license_plate = cv2.cvtColor(
         resize_test_license_plate, cv2.COLOR_BGR2GRAY)
     ```
@@ -140,14 +140,14 @@ plt.title('GWT2180 license plate')
 *   **Denoising the Image:**
     Gaussian Blur is a technique for denoising images. it makes the edges more clearer and smoother which in-turn makes the characters more readable.
 
-    ```
+    ```py
     gaussian_blur_license_plate = cv2.GaussianBlur(
         grayscale_resize_test_license_plate, (5, 5), 0)
     ```
 
     现在，将转换后的车牌文件传递给宇宙魔方光学字符识别引擎，并查看预测结果。
 
-    ```
+    ```py
     new_predicted_result_GWT2180 = pytesseract.image_to_string(gaussian_blur_license_plate, lang ='eng',
     config ='--oem 3 -l eng --psm 6 -c tessedit_char_whitelist = ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789')
     filter_new_predicted_result_GWT2180 = "".join(new_predicted_result_GWT2180.split()).replace(":", "").replace("-", "")
@@ -156,7 +156,7 @@ plt.title('GWT2180 license plate')
 
     **输出:**
 
-    ```
+    ```py
     GWT2180 
     ```
 

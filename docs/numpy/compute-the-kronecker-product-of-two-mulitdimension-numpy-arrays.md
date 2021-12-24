@@ -4,7 +4,7 @@
 
 给定一个 m×n 矩阵 a 和一个 p×q 矩阵 b，它们的 Kronecker 积是一个⊗ B，也叫它们的矩阵直积，是一个(m*p) X (n*q)矩阵。
 
-```
+```py
 A = | (a00)  (a01) |
     | (a10)  (a11) |
 
@@ -21,7 +21,7 @@ A ⊗ B = | (a00)*(b00)  (a00)*(b01)  (a01)*(b00)  (a01)*(b00) |
 
 **语法:**
 
-```
+```py
 numpy.kron(array1, array2)
 ```
 
@@ -31,7 +31,7 @@ numpy.kron(array1, array2)
 
 ## 蟒 3
 
-```
+```py
 # Importing required modules
 import numpy
 
@@ -50,7 +50,7 @@ print(kroneckerProduct)
 
 **输出:**
 
-```
+```py
 Array1:
  [[1 2]
  [3 4]]
@@ -70,7 +70,7 @@ Array1 ⊗ Array2:
 
 ## 蟒 3
 
-```
+```py
 # Importing required modules
 import numpy
 
@@ -89,7 +89,7 @@ print(kroneckerProduct)
 
 **输出:**
 
-```
+```py
 Array1:
  [[1 2 3]]
 
@@ -104,7 +104,7 @@ Array1 ⊗ Array2:
 
 ## 蟒 3
 
-```
+```py
 # Importing required modules
 import numpy
 
@@ -123,7 +123,7 @@ print(kroneckerProduct)
 
 **输出:**
 
-```
+```py
 Array1:
  [[1 2 3]
  [4 5 6]]

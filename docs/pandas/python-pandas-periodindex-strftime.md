@@ -15,7 +15,7 @@ Pandas `**PeriodIndex.strftime()**`函数返回由 date_format 指定的格式�
 
 **示例#1:** 使用`PeriodIndex.strftime()`功能以指定的 date_format 打印给定的 PeriodIndex 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.strftime()`函数以(' %b. %d，%Y 是%A ')格式返回每个周期元素。
 
-```
+```py
 # return the PeriodIndex in specified format
 pidx.strftime('% b. % d, % Y was a % A')
 ```
@@ -48,7 +48,7 @@ pidx.strftime('% b. % d, % Y was a % A')
 
 **示例 2:** 使用`PeriodIndex.strftime()`功能以指定的 date_format 打印给定的 PeriodIndex 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.strftime()`函数以(' %b-%Y ')格式返回每个周期元素。
 
-```
+```py
 # return the PeriodIndex in specified format
 pidx.strftime('% b-% Y')
 ```

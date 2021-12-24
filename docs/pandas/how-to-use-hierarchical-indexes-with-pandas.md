@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing pandas library as alias pd 
 import pandas as pd
 

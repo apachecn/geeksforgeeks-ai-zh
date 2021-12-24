@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minorticklabels()函数**用于�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/e893ba1aa29d7677f23510b0cb1e266b.png)
 
-```
+```py
 Value of get_minorticklabels() :
 Text(0, 0, '')
 Text(0, 0, '')
@@ -74,7 +74,7 @@ Text(0, 0, '')
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -100,7 +100,7 @@ plt.show()
 
 ![](img/7c098aea1fab68d319f91df8993dd664.png)
 
-```
+```py
 Value of get_minorticklabels() :
 Text(0, 0, '')
 Text(0, 0, '')

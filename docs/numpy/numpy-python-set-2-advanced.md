@@ -12,7 +12,7 @@
     *   **np.column_stack:** 将一维数组作为列堆叠成二维数组。
     *   **np.concatenate:** 沿指定轴堆叠数组(轴作为参数传递)。
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([[1, 2],
@@ -38,7 +38,7 @@
 
     输出:
 
-    ```
+    ```py
     Vertical stacking:
      [[1 2]
      [3 4]
@@ -63,7 +63,7 @@
     *   **np.vsplit:** 沿纵轴拆分数组。
     *   **np.array_split:** 沿指定轴拆分数组。
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([[1, 3, 5, 7, 9, 11],
@@ -78,7 +78,7 @@
 
     输出:
 
-    ```
+    ```py
     Splitting along horizontal axis into 2 parts:
      [array([[1, 3, 5],
            [2, 4, 6]]), array([[ 7,  9, 11],
@@ -98,13 +98,13 @@
 
     让我们看一些例子:
 
-    ```
+    ```py
     A(2-D array): 4 x 3
     B(1-D array):     3
     Result      : 4 x 3 
     ```
 
-    ```
+    ```py
     A(4-D array): 7 x 1 x 6 x 1
     B(3-D array):     3 x 1 x 5
     Result      : 7 x 3 x 6 x 5 
@@ -112,7 +112,7 @@
 
     但这是不匹配的:
 
-    ```
+    ```py
     A: 4 x 3
     B:     4 
     ```
@@ -120,7 +120,7 @@
     最简单的广播示例发生在数组和标量值在操作中组合的时候。
     考虑下面给出的例子:
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([1.0, 2.0, 3.0])
@@ -136,7 +136,7 @@
 
     输出:
 
-    ```
+    ```py
     [ 2\.  4\.  6.]
     [ 2\.  4\.  6.]
     ```
@@ -151,7 +151,7 @@
 
     现在，让我们看一个例子，两个数组都被拉伸了。
 
-    ```
+    ```py
     import numpy as np
 
     a = np.array([0.0, 10.0, 20.0, 30.0])
@@ -162,7 +162,7 @@
 
     输出:
 
-    ```
+    ```py
     [[  0\.   1\.   2.]
      [ 10\.  11\.  12.]
      [ 20\.  21\.  22.]
@@ -176,7 +176,7 @@
 4.  **Working with datetime:** Numpy has core array data types which natively support datetime functionality. The data type is called “datetime64”, so named because “datetime” is already taken by the datetime library included in Python.
     Consider the example below for some examples:
 
-    ```
+    ```py
     import numpy as np
 
     # creating a date
@@ -201,7 +201,7 @@
 
     输出:
 
-    ```
+    ```py
     Date is: 2017-02-12
     Year is: 2017
 
@@ -229,7 +229,7 @@
 
     考虑下面的例子，它解释了我们如何使用 NumPy 来做一些矩阵运算。
 
-    ```
+    ```py
     import numpy as np
 
     A = np.array([[6, 1, 1],
@@ -249,7 +249,7 @@
 
     输出:
 
-    ```
+    ```py
     Rank of A: 3
 
     Trace of A: 11
@@ -269,14 +269,14 @@
 
     让我们假设我们想要求解这个线性方程组:
 
-    ```
+    ```py
     x + 2*y = 8
     3*x + 4*y = 18 
     ```
 
     这个问题可以用 **linalg.solve** 方法解决，如下例所示:
 
-    ```
+    ```py
     import numpy as np
 
     # coefficients
@@ -289,7 +289,7 @@
 
     输出:
 
-    ```
+    ```py
     Solution of linear equations: [ 2\.  3.]
     ```
 
@@ -301,7 +301,7 @@
 
     让我们看看下面的例子:
 
-    ```
+    ```py
     import numpy as np
     import matplotlib.pyplot as plt
 

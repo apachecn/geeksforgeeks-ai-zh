@@ -25,7 +25,7 @@ Meanshift 是跟踪视频中特定对象的非常有用的方法。Meanshift 可
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # meanshift
 

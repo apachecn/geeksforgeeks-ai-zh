@@ -23,7 +23,7 @@
 
 现在让我们创建两个数据帧，然后尝试使用 inner 合并它们。
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -50,7 +50,7 @@ pd.merge(left, right, how ='inner', on ='Sr.no') 
 
 ![](img/280a0d9aa65aabf9d58d2223caef8bbc.png)
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -77,7 +77,7 @@ pd.merge(left, right, how ='outer', on ='Sr.no')
 
 ![](img/f14ae059d6e26de0679b7672df8e926d.png)
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -106,7 +106,7 @@ pd.merge(left, right, how ='left', on ='Sr.no')
 
 ![](img/8bfa39370afdbf5da70e9ff5781122b5.png)
 
-```
+```py
 import numpy as np
 import pandas as pd
 

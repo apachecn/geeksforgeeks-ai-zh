@@ -32,7 +32,7 @@ matplotlib 库 pyplot 模块中的 **hexbin()函数**用于制作点 x，y.
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -56,7 +56,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 import numpy as np 

@@ -23,7 +23,7 @@ Ranking Loss can be calculated as :
 
 **代码:使用 scikit-learn 库实现 Ranking Loss 的 Python 代码。**
 
-```
+```py
 # import sklearn and numpy libraries
 import numpy as np
 from sklearn.metrics import label_ranking_loss
@@ -42,7 +42,7 @@ print(label_ranking_loss(y_true, y_pred_score ))
 
 **输出:**
 
-```
+```py
 0.5
 0
 ```

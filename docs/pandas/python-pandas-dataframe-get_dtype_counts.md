@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`get_dtype_counts()`函数查找熊猫数据帧对象的数据类型计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ df
 
 现在应用`get_dtype_counts()`功能。找出数据框中每种数据类型的出现频率。
 
-```
+```py
 # applying get_dtype_counts() function 
 df.get_dtype_counts()
 ```
@@ -41,7 +41,7 @@ df.get_dtype_counts()
 
 **示例#2:** 仅在选定数量的数据框列上使用`get_dtype_counts()`功能。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ df[["Salary", "Name", "Team"]].get_dtype_counts()
 
 注意，输出是一个 pandas 系列对象，包含数据帧中每个数据类型的计数。我们可以使用`dataframe.info()`函数来验证所有这些结果。
 
-```
+```py
 # Find out the types of all columns in the dataframe
 df.info()
 ```

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.Function()`方法，我们能够在数学运算中找到函数。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

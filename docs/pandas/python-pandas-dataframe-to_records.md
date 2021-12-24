@@ -18,7 +18,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.to_records()`函数将给定的数据帧转换为 numpy 记录数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(df)
 
 现在我们将使用`DataFrame.to_records()`函数将给定的数据帧转换为 numpy 记录数组表示。
 
-```
+```py
 # convert to numpy record array
 result = df.to_records()
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.to_records()`函数将给定的数据帧转换为 numpy 记录数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(df)
 
 现在我们将使用`DataFrame.to_records()`函数将给定的数据帧转换为 numpy 记录数组表示。
 
-```
+```py
 # convert to numpy record array
 result = df.to_records()
 

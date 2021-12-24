@@ -14,7 +14,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.YuleSimon()`方法，我们能够使用该方法获得 Yule-Simon 分布。
 
-```
+```py
 # Import sympy and Yule-Simon
 from sympy.stats import YuleSimon, density, E, variance
 from sympy import Symbol, simplify
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Yule-Simon
 from sympy.stats import YuleSimon, density, E, variance
 from sympy import Symbol, simplify

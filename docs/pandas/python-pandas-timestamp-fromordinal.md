@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.fromordinal()`函数根据传递的序号值翻译给定的时间戳对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(ts)
 
 现在我们将使用`Timestamp.fromordinal()`函数转换给定的 Timestamp 对象。
 
-```
+```py
 # convert the given Timestamp object
 # based on the passed ordinal value
 ts.fromordinal(ordinal = 733829)
@@ -52,7 +52,7 @@ ts.fromordinal(ordinal = 733829)
 
 **示例#2:** 使用`Timestamp.fromordinal()`函数根据传递的序号值翻译给定的时间戳对象。还要设置时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(ts)
 
 现在我们将使用`Timestamp.fromordinal()`函数转换给定的 Timestamp 对象。
 
-```
+```py
 # convert the given Timestamp object
 # based on the passed ordinal value
 ts.fromordinal(ordinal = 634816, tz = 'Asia / Calcutta')

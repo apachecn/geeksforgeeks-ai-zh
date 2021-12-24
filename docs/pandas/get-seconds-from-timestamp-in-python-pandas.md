@@ -5,7 +5,7 @@
 在这个程序中，我们的任务是用 python 创建一个程序，从给定的时间戳中提取秒。我们将使用 DataTime 对象的 s 属性来提取第二个。
 **示例:**如果我们有一个包含 5 个不同时间戳的数据帧，例如:
 
-```
+```py
 Timestamp
 2012-12-11 04:12:01
 2013-10-13 04:12:04
@@ -16,7 +16,7 @@ Timestamp
 
 我们的任务是从给定的时间戳中提取秒。所以这里的输出将是:
 
-```
+```py
 seconds
 1
 4
@@ -29,7 +29,7 @@ seconds
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -55,7 +55,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

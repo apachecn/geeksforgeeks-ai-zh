@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legsub() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 1\.  1\.  3.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legub() method 
 
@@ -64,7 +64,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [  8\.  16\.  24\.  32\.  40.]
 
 ```

@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.swapaxes() method 
 
@@ -49,7 +49,7 @@ print ("Output int array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]
@@ -69,7 +69,7 @@ Output int array :  [[ 2  1]
 
 我们将`numpy.recarray.swapaxes()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.swapaxes() method 
 
@@ -96,7 +96,7 @@ print ("Output record array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[( 5.,  2) ( 3.,  4) ( 6., -7)]
  [( 9.,  1) ( 6.,  4) (-2., -7)]]
 Output record array :  [[( 5.,  2) ( 9.,  1)]

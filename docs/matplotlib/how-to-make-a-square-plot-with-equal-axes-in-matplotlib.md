@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 # import required modules
 import numpy as np
@@ -48,13 +48,13 @@ plt.show()
 
 当两个战斧的射程相等时，上面的例子可能会产生一个方形图。为了在整体情况下生成方形图，我们需要使用附带的顺序物理设置视点比例:
 
-```
+```py
 axes.set_aspect(1./axes.get_data_ratio())
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import matplotlib.pyplot as plt

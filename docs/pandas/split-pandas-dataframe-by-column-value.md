@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -44,7 +44,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -77,7 +77,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 df2 = df[df['Age'] < 37]
 
 # printing df2
@@ -94,7 +94,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -131,7 +131,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # printing df2
 df2
 ```
@@ -150,7 +150,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -183,7 +183,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # printing df2
 df2
 ```

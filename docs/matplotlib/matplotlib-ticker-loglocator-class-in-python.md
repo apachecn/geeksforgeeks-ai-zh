@@ -25,7 +25,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator, LogLocator
 
@@ -62,7 +62,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import LogLocator

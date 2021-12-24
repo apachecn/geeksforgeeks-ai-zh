@@ -5,7 +5,7 @@
 **numpy.bmat(obj，l_dict = None，g_dict = None) :** 从嵌套对象返回专门化的二维矩阵，这些嵌套对象可以是类似字符串或类似数组的。
 T3】参数:
 
-```
+```py
 
 object : array-like or string 
 l_dict  : (dict, optional) replaces local operands,
@@ -17,11 +17,11 @@ A dictionary that replaces global operands in current frame.
 
 **返回:**
 
-```
+```py
 2-D matrix from nested objects
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.bmat
 
@@ -42,7 +42,7 @@ print("Via bmat string like input : \n", s)
 
 **输出:**
 
-```
+```py
 Via bmat array like input : 
  [[ 4  1  5  2]
  [22  1  5  2]

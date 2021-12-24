@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.tz_convert()`函数将给定的知晓时间戳对象转换为“亚洲/加尔各答”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tz_convert()`函数将 ts 对象的时区转换为“亚洲/加尔各答”。
 
-```
+```py
 # convert to 'Asia / Kolkata'
 ts.tz_convert(tz = 'Asia/Kolkata')
 ```
@@ -46,7 +46,7 @@ ts.tz_convert(tz = 'Asia/Kolkata')
 
 **示例#2:** 使用`Timestamp.tz_convert()`函数将给定的知晓时间戳对象转换为“美国/太平洋”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(ts)
 
 现在我们将使用`Timestamp.tz_convert()`函数将 ts 对象的时区转换为“美国/太平洋”。
 
-```
+```py
 # convert to 'US / Pacific'
 ts.tz_convert(tz = 'US/Pacific')
 ```

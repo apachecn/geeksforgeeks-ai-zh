@@ -4,7 +4,7 @@
 
 在 Simpy 中，函数`equation()`用于制作给定圆的方程。
 
-```
+```py
 Syntax : equation(x='x', y='y')
 
 Parameters:
@@ -17,7 +17,7 @@ Returns : SymPy expression
 
 **例#1:**
 
-```
+```py
 # import sympy, Point and Circle
 from sympy import Point, Circle
 
@@ -30,13 +30,13 @@ print(c2)
 
 **输出:**
 
-```
+```py
 x**2 + y**2 - 25
 ```
 
 **例#2:**
 
-```
+```py
 # import sympy, Point and Circle
 from sympy import Point, Circle
 
@@ -49,6 +49,6 @@ print(c4)
 
 **输出:**
 
-```
+```py
 (x - 1)**2 + (y - 2)**2 - 25
 ```

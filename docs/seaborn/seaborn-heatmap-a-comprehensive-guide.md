@@ -32,7 +32,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing the modules
 import numpy as np
 import seaborn as sn
@@ -55,7 +55,7 @@ plt.show()*
 
 ***输出:***
 
-```
+```py
 *The data to be plotted:
 
 [[46 30 55 86 42 94 31 56 21  7]
@@ -80,7 +80,7 @@ plt.show()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing the modules
 import numpy as np
 import seaborn as sn
@@ -115,7 +115,7 @@ plt.show()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing the modules
 import numpy as np
 import seaborn as sn
@@ -148,7 +148,7 @@ plt.show()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing the modules
 import numpy as np
 import seaborn as sn

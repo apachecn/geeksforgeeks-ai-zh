@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 scipy.stats.gmean(array, axis=0, dtype=None)
 ```
 
@@ -29,7 +29,7 @@ scipy.stats.gmean(array, axis=0, dtype=None)
 
 ## 计算机编程语言
 
-```
+```py
 # importing module
 import pandas as pd
 import numpy as np
@@ -55,7 +55,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating empty column in DataFrame
 df['Geometric Mean'] = None
 df
@@ -69,7 +69,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Computing geometric mean
 # Storing into a DataFrame column
 df['Geometric Mean'] = stats.gmean(df.iloc[:, 1:3], axis=1)

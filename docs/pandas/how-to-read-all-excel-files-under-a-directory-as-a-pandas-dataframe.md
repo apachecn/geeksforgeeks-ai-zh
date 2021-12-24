@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import necessary libraries
 import pandas as pd
 import os

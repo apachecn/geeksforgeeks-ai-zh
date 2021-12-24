@@ -10,7 +10,7 @@
 
 **代码#1:面()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.faces()
 
@@ -38,7 +38,7 @@ print ("\nPolyhedron - faces form : ", a.faces)
 
 **代码#2:面()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.faces()
 

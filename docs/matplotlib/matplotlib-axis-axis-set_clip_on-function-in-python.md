@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_clip_on()功能**用于设置艺�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -57,7 +57,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  

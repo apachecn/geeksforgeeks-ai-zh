@@ -8,7 +8,7 @@
 
 **Example #1:**
 
-```
+```py
 # importing matplotlib library
 import matplotlib.pyplot as plt
 
@@ -36,7 +36,7 @@ plt.show()
 
 在第一个例子中，一切都非常清楚，但是有一件事需要关注，“设置画布的大小”，这基本上意味着设置您想要在其上绘制图形的图形的大小，语法如下。
 
-```
+```py
 add_axes([left, bottom, width, height])
 ```
 
@@ -44,7 +44,7 @@ add_axes([left, bottom, width, height])
 
 **例 2:**
 
-```
+```py
 # importing matplotlib library
 import matplotlib.pyplot as plt
 

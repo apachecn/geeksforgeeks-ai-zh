@@ -12,7 +12,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 **# importing module
 import matplotlib.pyplot as plt
 
@@ -41,7 +41,7 @@ plt.title("ReLU Function",
 
 ## **蟒蛇 3**
 
-```
+```py
 **# importing modules
 from matplotlib import pyplot as plt
 
@@ -71,7 +71,7 @@ plt.title("Society Food Preference",
 
 ## **蟒蛇 3**
 
-```
+```py
 **# importing modules
 from matplotlib import pyplot
 import numpy

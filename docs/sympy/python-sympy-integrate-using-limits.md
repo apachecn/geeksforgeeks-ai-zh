@@ -11,7 +11,7 @@
 
 在这个例子中我们可以看到，通过使用`sympy.integrate(expression, limits)`方法，我们可以找到使用极限与变量的数学表达式的积分。这里我们也使用`symbols()`方法将变量声明为符号。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -34,7 +34,7 @@ print("After Integration : {}".format(intr))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

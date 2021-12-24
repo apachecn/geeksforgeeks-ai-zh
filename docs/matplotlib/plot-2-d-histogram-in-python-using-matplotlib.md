@@ -13,7 +13,7 @@ Matplotlib 库提供了一个内置函数`matplotlib.pyplot.hist2d()`，用于�
 这里`(x, y)`指定数据变量的坐标，X 数据和 Y 变量的长度应该相同。箱的数量可以通过属性`bins=(nx, ny)`来指定，其中`nx`和`ny`分别是要在水平和垂直方向上使用的箱的数量。`cmap=value`用于设置色标。`range=None`是一个可选参数，用于设置矩形区域，在该区域中数据值被计算用于绘图。`density=value`是可选参数，接受用于归一化直方图的布尔值。
 下面的代码使用具有一些随机 x 和 y 值的`matplotlib.pyplot.hist2d()`函数创建了一个简单的 2D 直方图:
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +40,7 @@ plot.show()
 
 `matplotlib.pyplot.hist2d()`功能有多种方法，我们可以使用这些方法来定制和创建绘图，以便更好地查看和理解。
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ plot.show()
 
 #### 改变箱柜秤
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -104,7 +104,7 @@ plot.show()
 
 #### 更改色标并添加颜色条:-
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -145,7 +145,7 @@ plot.show()
 
 #### 过滤数据:-
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -192,7 +192,7 @@ plot.show()
 
 #### 使用 matplotlib hexbin 函数:-
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt

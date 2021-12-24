@@ -14,7 +14,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axis()函数**是获取或设置一�
 > 
 > *   **xmin、xmax、ymin、ymax :** 这些参数是要设置的轴限制。
 >     
->     ```
+>     ```py
 >     axis([xmin, xmax, ymin, ymax])
 >     ```
 >     
@@ -30,7 +30,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axis()函数**是获取或设置一�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches

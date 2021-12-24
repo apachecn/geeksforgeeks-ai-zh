@@ -16,7 +16,7 @@
 
 我们可以将样本相对于单个连续属性的概率分布可视化。
 
-```
+```py
 # importing the required libraries
 from sklearn import datasets
 import pandas as pd
@@ -50,7 +50,7 @@ plt.ylabel('Probability Density')
 
 我们还可以在单个图中可视化多个样本的概率分布。
 
-```
+```py
 # Plotting the KDE Plot
 sns.kdeplot(iris_df.loc[(iris_df['Target']=='Iris_Setosa'),
             'Sepal_Length'], color='r', shade=True, Label='Iris_Setosa')
@@ -69,7 +69,7 @@ plt.ylabel('Probability Density')
 
 我们可以将样本相对于多个连续属性的概率分布可视化。
 
-```
+```py
 # Setting up the samples
 iris_setosa = iris_df.query("Target=='Iris_Setosa'")
 iris_virginica = iris_df.query("Target=='Iris_Virginica'")
@@ -86,7 +86,7 @@ sns.kdeplot(iris_setosa['Sepal_Length'], 
 
 我们还可以在单个图中可视化多个样本的概率分布。
 
-```
+```py
 # Plotting the KDE Plot
 sns.kdeplot(iris_setosa['Sepal_Length'],
             iris_setosa['Sepal_Width'],

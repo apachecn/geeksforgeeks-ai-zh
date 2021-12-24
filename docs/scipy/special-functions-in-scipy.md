@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.special import cbrt
 
 # cube root of 64
@@ -40,7 +40,7 @@ print(cbrt(128))
 
 **输出:**
 
-```
+```py
 4.0
 4.272658681697917
 5.039684199579493
@@ -50,7 +50,7 @@ print(cbrt(128))
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.special import cbrt
 
 # cube root of elements in an array
@@ -75,7 +75,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # import combinations
 from scipy.special import comb
 
@@ -85,7 +85,7 @@ print(comb(4,1))
 
 **输出:**
 
-```
+```py
 4.0
 ```
 
@@ -93,7 +93,7 @@ print(comb(4,1))
 
 ## 蟒蛇 3
 
-```
+```py
 # import combinations module
 from scipy.special import comb
 
@@ -108,7 +108,7 @@ print([comb(6,1),comb(6,2),comb(6,3),
 
 **输出:**
 
-```
+```py
 [4.0, 6.0, 4.0, 1.0, 0.0]
 [6.0, 15.0, 20.0, 15.0, 6.0]
 ```
@@ -125,7 +125,7 @@ print([comb(6,1),comb(6,2),comb(6,3),
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.special import exp10
 
 # 10 to the power of 2
@@ -134,7 +134,7 @@ print(exp10(2))
 
 **输出:**
 
-```
+```py
 100.0
 ```
 
@@ -142,7 +142,7 @@ print(exp10(2))
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.special import exp10
 
 # exponent raise to power 10 
@@ -153,7 +153,7 @@ for i in range(1,10):
 
 **输出:**
 
-```
+```py
 10.0
 100.0
 1000.0
@@ -175,7 +175,7 @@ for i in range(1,10):
 
 ## 蟒蛇 3
 
-```
+```py
 # import exprel
 from scipy.special import exprel
 
@@ -185,7 +185,7 @@ print(exprel(0))
 
 **输出:**
 
-```
+```py
 1.0
 ```
 
@@ -193,7 +193,7 @@ print(exprel(0))
 
 ## 蟒蛇 3
 
-```
+```py
 # import exprel
 from scipy.special import exprel
 
@@ -219,7 +219,7 @@ print(list(map(exprel,arr)))
 
 ## 蟒蛇 3
 
-```
+```py
 # import gamma function
 from scipy.special import gamma
 
@@ -228,7 +228,7 @@ print(gamma(56))
 
 **输出:**
 
-```
+```py
 1.2696403353658278e+73
 ```
 
@@ -236,7 +236,7 @@ print(gamma(56))
 
 ## 蟒蛇 3
 
-```
+```py
 # import gamma function
 from scipy.special import gamma
 
@@ -246,7 +246,7 @@ print([gamma(56), gamma(156), gamma(0),
 
 **输出:**
 
-```
+```py
 [1.2696403353658278e+73, 4.789142901463394e+273, inf, 1.0, 24.0]
 ```
 
@@ -260,7 +260,7 @@ print([gamma(56), gamma(156), gamma(0),
 
 ## 蟒蛇 3
 
-```
+```py
 # import lambert function
 from scipy.special import lambertw
 

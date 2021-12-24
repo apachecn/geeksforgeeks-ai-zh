@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import Pandas package
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Pandas package
 import pandas as pd
 
@@ -70,7 +70,7 @@ filtered_df
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Pandas package
 import pandas as pd
 
@@ -111,7 +111,7 @@ print(filtered_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Pandas package
 import pandas as pd
 

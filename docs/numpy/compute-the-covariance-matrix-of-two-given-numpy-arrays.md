@@ -10,7 +10,7 @@
 
 ## 蟒蛇
 
-```
+```py
 import numpy as np
 
 array1 = np.array([0, 1, 1])

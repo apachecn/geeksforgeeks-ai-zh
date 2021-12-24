@@ -6,7 +6,7 @@ Matplotlib 通过查找轴上的极值(即最小值和最大值)来设置轴的�
 
 **语法:**
 
-```
+```py
 For setting range of x-axis:
 matplotlib.pyplot.xlim(limit_range)
 For setting range of y-axis: 
@@ -19,7 +19,7 @@ For setting range of y-axis:
 
 ## 计算机编程语言
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -49,7 +49,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -82,7 +82,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -115,7 +115,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np

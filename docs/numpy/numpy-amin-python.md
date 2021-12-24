@@ -24,7 +24,7 @@
 
 **代码–**
 
-```
+```py
 # Python Program illustrating
 # numpy.amin() method
 
@@ -53,7 +53,7 @@ print("Min of arr, axis = 1 : ", geek.amin(arr, axis = 1))   
 
 **输出–**
 
-```
+```py
 arr :  [0 1 2 3 4 5 6 7]
 Min of arr :  0
 

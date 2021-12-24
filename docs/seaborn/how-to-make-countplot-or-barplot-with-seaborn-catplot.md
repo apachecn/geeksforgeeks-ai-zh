@@ -12,7 +12,7 @@ Countplot 使用条形图直观地显示每个类别中的观察计数。这不�
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -33,7 +33,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # plot for count of passengers belonging
 # to each gender
 sns.catplot(x='sex', kind='count', data=data)
@@ -49,7 +49,7 @@ plt.ylabel("Count")
 
 ## 蟒蛇 3
 
-```
+```py
 # Grouped Countplot/Barplot
 # Count of passengers who survived
 # or didn't of each gender
@@ -68,7 +68,7 @@ plt.ylabel("Count")
 
 ## 蟒蛇 3
 
-```
+```py
 # Plotting horizontally
 sns.catplot(y='sex', hue='survived', 
             kind='count', data=data)

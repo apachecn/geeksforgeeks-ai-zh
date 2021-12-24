@@ -8,7 +8,7 @@
 
 首先，我们将导入模块:
 
-```
+```py
 from matplotlib import style
 ```
 
@@ -16,7 +16,7 @@ from matplotlib import style
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import style
 
 print(plt.style.available)
@@ -44,7 +44,7 @@ print(plt.style.available)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all the necessary packages
 import numpy as np
 import matplotlib.pyplot as plt
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all the necessary packages
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,7 +102,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all the necessary packages
 import numpy as np
 import matplotlib.pyplot as plt

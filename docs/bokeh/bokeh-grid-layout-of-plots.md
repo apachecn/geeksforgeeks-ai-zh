@@ -10,7 +10,7 @@
 
 **如何安装 bokeh :**
 
-```
+```py
 pip install bokeh
 ```
 
@@ -32,7 +32,7 @@ pip install bokeh
 
 **语法:**
 
-```
+```py
 output_file("GFG.html")
 currentList = list(range(7))
 
@@ -48,7 +48,7 @@ show(gridplot([[f1, f2], [f3, None]], plot_width=200, plot_height=200))
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for bokeh grid layout
 from bokeh.io import output_file, show
 from bokeh.layouts import gridplot
@@ -102,7 +102,7 @@ show(gridplot([[f1, f2], [f3, None]], plot_width=200, plot_height=200))
 
 **语法:**
 
-```
+```py
 output_file("GFG.html")
 currentList = list(range(7))
 
@@ -118,7 +118,7 @@ show( gridplot([[f1, f2], [f3, None]], plot_width=200, plot_height=200))
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for bokeh grid layout
 from bokeh.io import output_file, show
 from bokeh.layouts import gridplot

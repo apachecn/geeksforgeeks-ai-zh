@@ -5,13 +5,13 @@
 **numpy.repeat()** 函数重复数组的元素–arr。
 **语法:**
 
-```
+```py
 numpy.repeat(arr, repetitions, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array       : [array_like]Input array. 
 repetitions : No. of repetitions of each array elements along the given axis.
 axis        : Axis along which we want to repeat values. By default, it returns 
@@ -21,7 +21,7 @@ axis        : Axis along which we want to repeat values. By default, it returns
 
 **返回:**
 
-```
+```py
 An array with repetitions of array - arr elements as per repetitions, number of times 
 we want to repeat arr  
 
@@ -29,7 +29,7 @@ we want to repeat arr
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.repeat()
 
@@ -54,7 +54,7 @@ print("Shape : ", a.shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [0 1 2 3 4]
 
@@ -70,7 +70,7 @@ Shape :  (15,)
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.repeat()
 
@@ -94,7 +94,7 @@ print("arr Shape : \n", geek.repeat(arr, repetitions).shape)
 
 **输出:**
 
-```
+```py
 arr : 
  [[0 1 2]
  [3 4 5]]

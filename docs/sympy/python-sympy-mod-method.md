@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.Mod()`方法，我们能够找到给定参数的模数。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.LineTokenizer()`方法，我们能够将句子流中的标记提取为小行。
 
-```
+```py
 # import LineTokenizer() method from nltk
 from nltk.tokenize import LineTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import LineTokenizer() method from nltk
 from nltk.tokenize import LineTokenizer
 

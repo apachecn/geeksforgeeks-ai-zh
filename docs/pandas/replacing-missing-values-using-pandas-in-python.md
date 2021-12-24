@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # replacing missing values in quantity
 # column with mean of that column
 data['quantity'] = data['quantity'].fillna(data['quantity'].mean())

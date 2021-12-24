@@ -8,7 +8,7 @@
 
 顺序色彩映射示例:
 
-```
+```py
 sns.palplot(sns.color_palette("Greens",12))
 
 ```
@@ -17,7 +17,7 @@ sns.palplot(sns.color_palette("Greens",12))
 
 顺序调色板
 
-```
+```py
 sns.palplot(sns.color_palette("Blues",12))
 
 ```
@@ -32,7 +32,7 @@ sns.palplot(sns.color_palette("Blues",12))
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import numpy as np
 
@@ -58,7 +58,7 @@ ax = sns.heatmap(data, cmap=colormap)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import numpy as np
 
@@ -84,7 +84,7 @@ ax = sns.heatmap(data, cmap="Greens")
 
 以下是一些在海鸟身上呈现的不同颜色图:
 
-```
+```py
 sns.palplot(sns.color_palette("PiYG", 12))
 
 ```
@@ -93,7 +93,7 @@ sns.palplot(sns.color_palette("PiYG", 12))
 
 发散调色板
 
-```
+```py
 sns.palplot(sns.color_palette("coolwarm", 12))
 ```
 
@@ -103,7 +103,7 @@ sns.palplot(sns.color_palette("coolwarm", 12))
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import numpy as np
 

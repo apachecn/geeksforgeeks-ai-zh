@@ -8,7 +8,7 @@
 
 这种方法适用于熊猫。系列对象。由于每个 DataFrame 对象都是 Series 对象的集合，因此我们可以应用此方法来获取一列中值的频率计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(count)
 
 此方法可用于计算单个列上对象的频率。将一个数据框对象分组到一列后，我们可以对结果*分组对象*应用`count()`方法，以获得包含频率计数的数据框对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(count)
 
 此方法可用于计算单列或多列上对象的频率。将一个数据框对象分组到一列或多列后，我们可以对生成的*组对象*应用`size()`方法，以获得包含频率计数的序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

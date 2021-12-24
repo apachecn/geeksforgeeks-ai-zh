@@ -13,7 +13,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # stats.trimboth() method   
 import numpy as np
 from scipy import stats
@@ -28,7 +28,7 @@ print ("\nclipped arr1 : \n", stats.trimboth(arr1, proportiontocut = .1))
 
 **输出:**
 
-```
+```py
 arr1 :  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 clipped arr1 : 
@@ -41,7 +41,7 @@ clipped arr1 :
 
 **代码#2:**
 
-```
+```py
 # stats.trimboth() method   
 import numpy as np
 from scipy import stats
@@ -66,7 +66,7 @@ print ("\nclipped arr1 : \n", 
 
 **输出:**
 
-```
+```py
 arr1 :  [[0, 12, 21, 3, 14], [53, 16, 37, 85, 39]]
 
 clipped arr1 : 

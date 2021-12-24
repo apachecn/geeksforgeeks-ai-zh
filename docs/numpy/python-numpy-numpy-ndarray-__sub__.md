@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都被减去了方法`ndarray.__sub__()`中作为参数给出的值。记住一件事，它不会为双**类型值工作。**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__sub__(5))
 
 **Output:**
 
-```
+```py
 [-4 -3 -2 -1  0]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__sub__(5))
 
 **Output:**
 
-```
+```py
 [[-4 -3 -2 -1  0]
  [ 1  0 -1 -2 -3]]
 

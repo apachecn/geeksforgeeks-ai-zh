@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.BusinessDay.rule_code**`属性属性允许您在函数
 
 **示例#1:** 使用`pandas.tseries.offsets.BusinessDay.rule_code`属性返回应用于给定偏移对象的频率的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。我们还将打印应用于给定偏移对象的频率规则代码。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 
@@ -63,7 +63,7 @@ print(bd.rule_code)
 
 **示例 2 :** 使用`pandas.tseries.offsets.BusinessDay.rule_code`属性返回应用于给定偏移对象的频率的规则代码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(bd)
 
 现在，我们将向给定的时间戳对象添加工作日偏移量，以增加日期时间值。我们还将打印应用于给定偏移对象的频率规则代码。
 
-```
+```py
 # Adding the Business day offset to the given timestamp
 new_timestamp = ts + bd
 

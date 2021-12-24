@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的 **remove_callback()方法**用于添加一
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 from random import randint, choice 
 import time 

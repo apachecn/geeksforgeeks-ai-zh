@@ -11,7 +11,7 @@
 
 附数据集:[邮轮信息](https://media.geeksforgeeks.org/wp-content/uploads/20190708145230/cruise_ship_info.csv)
 
-```
+```py
 import pyspark
 from pyspark.sql import SparkSession
 #SparkSession is now the entry point of Spark
@@ -28,7 +28,7 @@ df.show(10)
 
 **输出:**
 
-```
+```py
 +-----------+-----------+---+------------------+----------+------+------+-----------------+----+
 |  Ship_name|Cruise_line|Age|           Tonnage|passengers|length|cabins|passenger_density|crew|
 +-----------+-----------+---+------------------+----------+------+------+-----------------+----+
@@ -46,7 +46,7 @@ df.show(10)
 
 ```
 
-```
+```py
 #prints structure of dataframe along with datatype
 df.printSchema()
 ```
@@ -54,7 +54,7 @@ df.printSchema()
 **输出:**
 ![](img/6b790ba18af53feda0d78291d7ac1eeb.png)
 
-```
+```py
 #In our predictive model, below are the columns
 df.columns
 ```
@@ -62,7 +62,7 @@ df.columns
 **输出:**
 ![](img/63843c9a4266beb86f7902043792759b.png)
 
-```
+```py
 #columns identified as features are as below:
 #['Cruise_line','Age','Tonnage','passengers','length','cabins','passenger_density']
 #to work on the features, spark MLlib expects every value to be in numeric form
@@ -84,7 +84,7 @@ for item in indexed.head(5):
 
 **输出:**
 
-```
+```py
 Row(Ship_name='Journey', Cruise_line='Azamara', Age=6, 
 Tonnage=30.276999999999997, passengers=6.94, length=5.94, 
 cabins=3.55, passenger_density=42.64, crew=3.55, cruise_cat=16.0)
@@ -107,7 +107,7 @@ cabins=13.21, passenger_density=38.36, crew=10.0, cruise_cat=1.0)
 
 ```
 
-```
+```py
 from pyspark.ml.linalg import Vectors
 from pyspark.ml.feature import VectorAssembler
 #creating vectors from features
@@ -127,7 +127,7 @@ output.select('features','crew').show(5)
 **输出:**
 ![](img/e2f38dd17f65d167431fdcfebe242d97.png)
 
-```
+```py
 #final data consist of features and label which is crew.
 final_data=output.select('features','crew')
 #splitting data into train and test
@@ -138,14 +138,14 @@ train_data.describe().show()
 **输出:**
 ![](img/58077604b1bbda54d32bcd915e12fbbc.png)
 
-```
+```py
 test_data.describe().show()
 ```
 
 **输出:**
 ![](img/36cdd920e860c30b680262c3c2457017.png)
 
-```
+```py
 #import LinearRegression library
 from pyspark.ml.regression import LinearRegression
 #creating an object of class LinearRegression
@@ -164,7 +164,7 @@ print('Rsquared Error :',ship_results.r2)
 **输出:**
 ![](img/08656cc917342fe77cfda9271b7f610e.png)
 
-```
+```py
 #testing Model on unlabeled data
 #create unlabeled data from test_data
 #testing model on unlabeled data
@@ -175,7 +175,7 @@ unlabeled_data.show(5)
 **输出:**
 ![](img/f839a0c9be04e9b87036fe8ca32884a2.png)
 
-```
+```py
 predictions=trained_ship_model.transform(unlabeled_data)
 predictions.show()
 #below are the results of output from test data

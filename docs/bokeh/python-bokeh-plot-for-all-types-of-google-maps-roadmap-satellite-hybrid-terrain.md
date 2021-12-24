@@ -22,7 +22,7 @@ Bokeh 是一个 Python 交互式数据可视化工具。它使用 HTML 和 JavaS
 
 这将显示默认的路线图视图。在这种类型的地图中，地形被平滑，道路被高亮显示。它适用于在车辆中导航某个区域。这是默认的地图类型。
 
-```
+```py
 # importing the required modules
 from bokeh.plotting import gmap
 from bokeh.models import GMapOptions
@@ -59,7 +59,7 @@ show(google_map)
 
 这显示了谷歌地球卫星视图。这是没有任何图形的鸟瞰图。
 
-```
+```py
 # importing the required modules
 from bokeh.plotting import gmap
 from bokeh.models import GMapOptions
@@ -96,7 +96,7 @@ show(google_map)
 
 顾名思义，这显示了路线图和卫星地图的组合。卫星地图上覆盖着道路图形。
 
-```
+```py
 # importing the required modules
 from bokeh.plotting import gmap
 from bokeh.models import GMapOptions
@@ -133,7 +133,7 @@ show(google_map)
 
 这将显示基于地形信息的物理地图。
 
-```
+```py
 # importing the required modules
 from bokeh.plotting import gmap
 from bokeh.models import GMapOptions

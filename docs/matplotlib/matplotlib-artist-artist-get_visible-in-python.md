@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_visible()方法**用于获取可见�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 
@@ -41,7 +41,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import numpy as np 
@@ -77,7 +77,7 @@ plt.show()
 **输出:**
 ![](img/a5a4d94094277b2046cdb1aa416aab69.png)
 
-```
+```py
 Visibilities of Axis
 Bottom : False 
 Top : False 

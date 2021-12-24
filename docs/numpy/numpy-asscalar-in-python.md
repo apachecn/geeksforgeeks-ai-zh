@@ -13,7 +13,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.asscalar() function
 
@@ -29,7 +29,7 @@ print ("output scalar from input array : ", out_scalar) 
 
 **输出:**
 
-```
+```py
 Input  array :  [8]
 output scalar from input array :  8
 
@@ -37,7 +37,7 @@ output scalar from input array :  8
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.asscalar() function
 import numpy as geek
@@ -57,7 +57,7 @@ print ("output scalar from input list : ", scalar) 
 
 **输出:**
 
-```
+```py
 Input  array from list :  [2]
 output scalar from input list :  2
 

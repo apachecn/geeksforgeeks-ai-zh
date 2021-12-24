@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 import pandas as pd;
 import re;
@@ -45,7 +45,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # Create column for Time
 data['New time'] = None
 data
@@ -59,7 +59,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # set index
 index_set = data.columns.get_loc('Description')
 index_time = data.columns.get_loc('New time')
@@ -69,7 +69,7 @@ print(index_set, index_time)
 
 **输出:**
 
-```
+```py
 1 2
 
 ```
@@ -78,14 +78,14 @@ print(index_set, index_time)
 
 时间格式的正则表达式:
 
-```
+```py
 [0-24]{2}\:[0-60]{2}\:[0-60]{2}.
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # define time pattern
 time_pattern = r'([0-24]{2}\:[0-60]{2}\:[0-60]{2})'
 ```
@@ -96,7 +96,7 @@ time_pattern = r'([0-24]{2}\:[0-60]{2}\:[0-60]{2})'
 
 ## 蟒蛇 3
 
-```
+```py
 # searching the entire DataFrame
 # with Time pattern
 for row in range(0, len(data)):
@@ -118,7 +118,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 import pandas as pd;
 import re;

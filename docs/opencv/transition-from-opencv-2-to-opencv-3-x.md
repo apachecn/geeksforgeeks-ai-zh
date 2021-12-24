@@ -12,7 +12,7 @@ OpenCV 是最受欢迎和使用最多的计算机视觉库之一。它包含执�
 
 **SIFT :** 创建 SIFT 特征检测器对象。
 
-```
+```py
 # OpenCV 2.4
 sift = cv2.SIFT()
 
@@ -22,7 +22,7 @@ sift = cv2.xfeatures2d.SIFT_create()
 
 ****SURF:****创建 SURF 特征检测器对象
 
-```
+```py
 # OpenCV 2.4
 surf = cv2.SURF()
 
@@ -32,7 +32,7 @@ surf = cv2.xfeatures2d.SURF_create()
 
 **T21】FAST:**创建 FAST 检测器对象
 
-```
+```py
 # OpenCV 2.4
 fast = cv2.FastFeatureDetector()
 
@@ -42,7 +42,7 @@ fast = cv2.FastFeatureDetector_create()
 
 ****ORB**:**创建 ORB 检测器对象
 
-```
+```py
 # OpenCV 2.4
 orb = cv2.ORB()
 
@@ -52,7 +52,7 @@ orb = cv2.ORB_create()
 
 **简单斑点检测器**
 
-```
+```py
 # OpenCV 2.4
 detector = cv2.SimpleBlobDetector()
 
@@ -64,7 +64,7 @@ T35】CIRCLE DETECTION
 
 OpenCV 使用
 
-```
+```py
 # OpenCV 3.4.1
 circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 4, 10)
 ```
@@ -75,7 +75,7 @@ circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 4, 10)
 
 最初`findContours()`函数在 OpenCV 2.4 中只返回了两个参数。在 OpenCV 3.2 之后，该函数被修改以返回三个参数，即修改后的图像、轮廓和层次。
 
-```
+```py
 # OpenCV 2.4
 contours, hierarchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 

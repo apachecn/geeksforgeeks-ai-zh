@@ -18,7 +18,7 @@ matplotlib 库的艺术家模块中的 **get_transform()方法**用于获取该�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np  
@@ -60,7 +60,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 
@@ -107,7 +107,7 @@ plt.show()
 
 ![](img/0e361ab2aee8d7eccdc0832b105b7368.png)
 
-```
+```py
 Value Return by get_transform() :
  Affine2D(
     [[1.38888889 0\.         0\.        ]

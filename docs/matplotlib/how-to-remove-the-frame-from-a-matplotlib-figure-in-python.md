@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the Library
 
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize=(4, 3))
 
 plt.plot(x, y)

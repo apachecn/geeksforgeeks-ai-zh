@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing cursor widget from matplotlib
 from matplotlib.widgets import Cursor
 import matplotlib.pyplot as plt
@@ -60,7 +60,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import MultiCursor from matplotlib
 from matplotlib.widgets import MultiCursor
 import matplotlib.pyplot as plt
@@ -91,7 +91,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib.widgets import MultiCursor
 import matplotlib.pyplot as plt
 import numpy as np

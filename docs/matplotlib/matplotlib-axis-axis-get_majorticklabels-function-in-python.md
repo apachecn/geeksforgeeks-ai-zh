@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ majoticlabels()函数**用于�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/87a41e0e3e6fc0f724364f214b7c6fe1.png)
 
-```
+```py
 Value of get_majorticklabels() :
 Text(0, 0, '')
 Text(0, 0, '')
@@ -67,7 +67,7 @@ Text(0, 0, '')
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist  
@@ -107,7 +107,7 @@ plt.show()
 
 ![](img/c53d91bf9338dd04f3ab775ff4c8d5d0.png)
 
-```
+```py
 Value of get_majorticklabels() :
 Text(0, 0, 'A')
 Text(0, 0, 'B')

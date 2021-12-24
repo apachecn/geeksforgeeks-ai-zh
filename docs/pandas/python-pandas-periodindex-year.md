@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.year**`属性返回一个 Index 对象，该对象包含�
 
 **示例#1:** 使用`PeriodIndex.year`属性找出给定周期索引对象中每个元素的周期年份。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.year`属性找出给定 PeriodIndex 对象中每个周期元素的年值。
 
-```
+```py
 # return the year of each period
 pidx.year
 ```
@@ -44,7 +44,7 @@ pidx.year
 
 **示例 2:** 使用`PeriodIndex.year`属性找出给定周期索引对象中每个元素的周期年份。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.year`属性找出给定 PeriodIndex 对象中每个周期元素的年值。
 
-```
+```py
 # return the year of each period
 pidx.year
 ```

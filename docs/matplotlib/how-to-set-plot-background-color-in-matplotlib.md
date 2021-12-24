@@ -25,7 +25,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -58,7 +58,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 

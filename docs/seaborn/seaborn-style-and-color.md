@@ -22,7 +22,7 @@ Seaborn 是 python 中的一个统计绘图库。它有漂亮的默认样式。�
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -44,7 +44,7 @@ sns.countplot(x ='sex', data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -63,7 +63,7 @@ sns.countplot(x ='sex', data = tips, palette = 'deep')
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -85,7 +85,7 @@ sns.countplot(x ='sex', data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -107,7 +107,7 @@ sns.countplot(x ='sex', data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -126,7 +126,7 @@ sns.despine()
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -143,7 +143,7 @@ sns.countplot(x ='sex', data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -170,7 +170,7 @@ sns.lmplot(x ='total_bill', y ='tip', size = 2, aspect = 4, data = tips)
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -187,7 +187,7 @@ sns.countplot(x ='sex', data = tips, palette ='coolwarm')
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 

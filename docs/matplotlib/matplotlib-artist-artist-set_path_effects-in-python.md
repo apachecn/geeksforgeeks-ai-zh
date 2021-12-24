@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的 **set_path_effects()方法**用于设置�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 
@@ -52,7 +52,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 

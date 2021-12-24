@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助方法`matrix.repeat()`，我们能够从给定的矩阵中获得重复值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[64 64  1  1 12 12  3  3]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1  1  1  2  2  2  3  3  3  4  4  4  5  5  5  6  6  6  7  7  7  8  8  8
   -9 -9 -9]]
 

@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`cummax()`功能，沿指数轴查找累计最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 现在找到索引轴上的累积最大值
 
-```
+```py
 # To find the cumulative max
 df.cummax(axis = 0)
 ```
@@ -45,7 +45,7 @@ df.cummax(axis = 0)
 
 **例 2:** 使用`cummax()`函数，沿列轴查找累计最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ df.cummax(axis = 1)
 
 **示例#3:** 使用`cummax()`函数在具有`NaN`值的数据框中，沿索引轴查找累积最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

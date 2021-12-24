@@ -21,7 +21,7 @@ trigrammatagger 子类使用前两个标签作为其上下文的一部分。
 
 **代码# 1:Bigram tagger 的工作**
 
-```
+```py
 # Loading Libraries 
 from nltk.tag import DefaultTagger 
 from nltk.tag import BigramTagger
@@ -41,14 +41,14 @@ tag1.evaluate(test_data)
 
 **输出:**
 
-```
+```py
 0.11318799913662854
 
 ```
 
 **代码#2:三元标记器**的工作
 
-```
+```py
 # Loading Libraries 
 from nltk.tag import DefaultTagger 
 from nltk.tag import TrigramTagger
@@ -68,14 +68,14 @@ tag1.evaluate(test_data)
 
 **输出:**
 
-```
+```py
 0.06876753723289446
 
 ```
 
 **代码#3:集体使用 Unigram、Bigram 和 Trigram tagger。**
 
-```
+```py
 # Loading Libraries
 
 from nltk.tag import TrigramTagger
@@ -96,7 +96,7 @@ tag.evaluate(test_sents)
 
 **输出:**
 
-```
+```py
 0.8806820634578028
 
 ```
@@ -111,7 +111,7 @@ tag.evaluate(test_sents)
 
 **代码#4:证明**
 
-```
+```py
 print (tagger._taggers[-1] == backoff)
 
 print ("\n", isinstance(tagger._taggers[0], TrigramTagger))
@@ -121,7 +121,7 @@ print ("\n", isinstance(tagger._taggers[1], BigramTagger))
 
 **输出:**
 
-```
+```py
 True
 
 True

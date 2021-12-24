@@ -27,7 +27,7 @@ date_sample_data.xlsx
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd;
 import re;
@@ -47,7 +47,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # Create column for Date
 data['new_Date']= None
 data

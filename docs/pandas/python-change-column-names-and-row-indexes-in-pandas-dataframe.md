@@ -16,7 +16,7 @@ Pandas Dataframe 类型有两个称为“列”和“索引”的属性，可用
 
 **使用字典创建数据框。**
 
-```
+```py
 # first import the libraries
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
     为了更改列名，我们提供了一个包含列名`df.columns= ['First_col', 'Second_col', 'Third_col', .....]`的 Python 列表。
     为了改变行索引，我们还提供了一个 python 列表给它`df.index=['row1', 'row2', 'row3', ......]`。
 
-    ```
+    ```py
     # Let's rename already created dataFrame.
 
     # Check the current column names
@@ -57,7 +57,7 @@ df
 
 2.  **Method #2:** Using `**rename()**` function with dictionary to change a single column
 
-    ```
+    ```py
     # let's change the first column name
     # from "A" to "a" using rename() function
     df = df.rename(columns = {"Col_1":"Mod_col"})
@@ -69,7 +69,7 @@ df
 
     同时更改多个列名–
 
-    ```
+    ```py
     # We can change multiple column names by 
     # passing a dictionary of old names and 
     # new names, to the rename() function.
@@ -84,7 +84,7 @@ df
 
     lambda 函数是一个小型匿名函数，可以接受任意数量的参数，但只能有一个表达式。使用 lambda 函数，我们可以一次修改所有的列名。让我们使用 lambda 函数在每个列名的末尾添加“x”
 
-    ```
+    ```py
     df = df.rename(columns=lambda x: x+'x')
 
     # this will modify all the column names
@@ -97,7 +97,7 @@ df
 
     我们可以直接在要更改名称的列上使用 values 属性。
 
-    ```
+    ```py
     df.columns.values[1] = 'Student_Age'
 
     # this will modify the name of the first column
@@ -108,7 +108,7 @@ df
 
     让我们使用 Lambda 函数更改行索引。
 
-    ```
+    ```py
     # To change the row indexes
     df = pd.DataFrame({"A":['Tom','Nick','John','Peter'],
                        "B":[25,16,27,18]})
@@ -123,7 +123,7 @@ df
 
     现在，如果我们想同时更改行索引和列名，那么可以使用`rename()`函数并同时传递列和索引属性作为参数来实现。
 
-    ```
+    ```py
     df = df.rename(index = lambda x: x + 5,
                    columns = lambda x: x +'x')
 

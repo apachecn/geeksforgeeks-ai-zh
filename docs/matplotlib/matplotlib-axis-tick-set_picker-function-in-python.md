@@ -20,7 +20,7 @@ matplotlib 库的 axis 模块中的 **Tick.set_picker()函数**用于定义艺�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  
@@ -59,7 +59,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  

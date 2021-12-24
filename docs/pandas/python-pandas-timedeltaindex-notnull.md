@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.notnull()`函数检测给定时间增量索引对象中所有未丢失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.notnull()`函数来检测 tidx 对象中所有未丢失的值。
 
-```
+```py
 # find all non-missing values
 tidx.notnull()
 ```
@@ -42,7 +42,7 @@ tidx.notnull()
 
 **示例 2:** 使用`TimedeltaIndex.notnull()`函数检测给定时间增量索引对象中所有未缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.notnull()`函数来检测 tidx 对象中所有未丢失的值。
 
-```
+```py
 # find all non-missing values
 tidx.notnull()
 ```

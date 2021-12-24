@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.Interval().intersect()`方法，我们能够获得两个集合的交集。
 
-```
+```py
 # import sympy, Interval
 from sympy import Interval
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy, Interval
 from sympy import Interval
 

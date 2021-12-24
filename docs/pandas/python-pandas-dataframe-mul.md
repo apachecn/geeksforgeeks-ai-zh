@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ sr
 
 ## 蟒蛇 3
 
-```
+```py
 # find multiplication over the index axis
 df1.mul(sr, axis = 0)
 ```
@@ -68,7 +68,7 @@ df1.mul(sr, axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # fill the missing values with 100
 df1.mul(df2, fill_value = 100)
 ```

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -39,7 +39,7 @@ print("Numpy Array in python :",
 
 **输出:**
 
-```
+```py
 List in python :  [1, 2, 3, 4]
 Numpy Array in python :  [1 2 3 4]
 ```
@@ -48,7 +48,7 @@ Numpy Array in python :  [1 2 3 4]
 
 ## 蟒蛇 3
 
-```
+```py
 print(type(list_1))
 
 print(type(sample_array))
@@ -56,7 +56,7 @@ print(type(sample_array))
 
 **输出:**
 
-```
+```py
 <class 'list'>
 <class 'numpy.ndarray'>
 ```
@@ -73,7 +73,7 @@ print(type(sample_array))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 

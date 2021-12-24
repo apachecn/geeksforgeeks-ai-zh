@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.tobytes() function
 
@@ -29,14 +29,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 b'\x00\x00\x01\x00\x02\x00\x03\x00'
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.tobytes() function
 
@@ -52,7 +52,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 b'\x00\x00\x02\x00\x01\x00\x03\x00'
 
 ```

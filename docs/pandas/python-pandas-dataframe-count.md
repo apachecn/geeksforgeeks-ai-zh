@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`count()`函数查找行轴上非 NA/null 值的数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ df
 
 现在，请找出行轴上非数值的计数
 
-```
+```py
 # axis = 0 indicates row
 df.count(axis = 0)
 ```
@@ -44,7 +44,7 @@ df.count(axis = 0)
 
 **例 2:** 使用`count()`函数查找跨列的非 NA/null 值的个数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

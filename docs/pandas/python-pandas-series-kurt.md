@@ -19,7 +19,7 @@ Pandas `**Series.kurt()**`函数使用费希尔峰度定义(正态峰度== 0.0)�
 
 **例#1:** 使用`Series.kurt()`函数求给定序列对象底层数据的峰度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.kurt()`函数来寻找给定序列对象的底层数据的峰度。
 
-```
+```py
 # return kurtosis
 result = sr.kurt()
 
@@ -55,7 +55,7 @@ print(result)
 
 **例 2 :** 使用`Series.kurt()`函数求给定序列对象底层数据的峰度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.kurt()`函数来寻找给定序列对象的底层数据的峰度。
 
-```
+```py
 # return kurtosis
 result = sr.kurt()
 

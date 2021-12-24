@@ -10,7 +10,7 @@ NumPy 建立在成功的数值数组对象之上(并且是其后继对象)。它
 
 **解决方案:**我们将使用`numpy.vectorize()`函数来查找给定 numpy 数组对象中每个元素的长度。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -27,7 +27,7 @@ print(arr)
 
 现在我们将使用`numpy.vectorize()`函数来查找给定 numpy 数组对象中每个元素的长度。
 
-```
+```py
 # Use vectorize function of numpy
 length_checker = np.vectorize(len)
 
@@ -48,7 +48,7 @@ print(arr_len)
 
 **解决方案:**我们将使用 List 理解技术来找到给定 numpy 数组对象中每个元素的长度。
 
-```
+```py
 # importing the numpy library as np
 import numpy as np
 
@@ -65,7 +65,7 @@ print(arr)
 
 现在我们将使用列表理解技术来找到给定 numpy 数组对象中每个元素的长度。
 
-```
+```py
 # Find the length of each element
 arr_len = [len(i) for i in arr]
 

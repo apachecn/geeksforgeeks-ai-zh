@@ -18,7 +18,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -34,7 +34,7 @@ print("Rising factorial rf(x, k) : {}".format(rf_x_k))  
 
 **输出:**
 
-```
+```py
 Value of x = x and k = 5
 Rising factorial rf(x, k) : x*(x + 1)*(x + 2)*(x + 3)*(x + 4)
 
@@ -42,7 +42,7 @@ Rising factorial rf(x, k) : x*(x + 1)*(x + 2)*(x + 3)*(x + 4)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -58,7 +58,7 @@ print("Rising factorial rf(x, k) : {}".format(rf_x_k))  
 
 **输出:**
 
-```
+```py
 Value of x = 7 and k = 5
 Rising factorial rf(x, k) : 55440
 

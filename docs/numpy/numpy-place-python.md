@@ -5,13 +5,13 @@
 **numpy.place()** 方法根据参数–条件和值对数组进行更改(根据用户设置的掩码，使用前 N 个值放入数组)。它的工作原理与 [numpy.extract()](https://www.geeksforgeeks.org/numpy-extract-python/) 相反。
 **语法:**
 
-```
+```py
 numpy.place(array, mask, vals) 
 ```
 
 **参数:**
 
-```
+```py
 array : [ndarray] Input array, we need to make changes into
 mask  : [array_like]Boolean that must have same size as that of the input array
 value : Values to put into the array. Based on the mask condition it adds only N-elements
@@ -21,12 +21,12 @@ value : Values to put into the array. Based on the mask condition it adds only N
 
 **返回:**
 
-```
+```py
 Array with change elements i.e. new elements being put
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.place() method
 
@@ -49,7 +49,7 @@ print("\nPutting new elements to array1 : \n", array1)
 
 **输出:**
 
-```
+```py
 Original array : 
  [[ 0  1  2  3]
  [ 4  5  6  7]

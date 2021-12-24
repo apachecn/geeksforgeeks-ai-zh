@@ -27,7 +27,7 @@
 
 **示例#1**
 
-```
+```py
 #Python program to explain
 # matplotlib.pyplot.quiver method
 
@@ -50,7 +50,7 @@ plt.quiver(x, y, x_dir, y_dir, scale=1)
 **示例#2**
 使用`quiver`方法在图形上绘制多个箭头
 
-```
+```py
 # Python program to explain 
 # matplotlib.pyplot.quiver method
 

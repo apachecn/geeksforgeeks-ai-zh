@@ -14,7 +14,7 @@ p 和 q 代表 n 个作业。优先度量计算在 p 和 q 中作业 n 前面有
 
 **代码# 1:get _ preference _ matrix()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_precedence_matrix()
 
@@ -54,7 +54,7 @@ print ("b - get_precedence_matrix : \n", b.get_precedence_matrix())
 
 **代码# 2:get _ preference _ matrix()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_precedence_matrix()
 

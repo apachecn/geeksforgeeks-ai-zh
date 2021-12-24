@@ -38,7 +38,7 @@ matplotlib 库的 Axes 模块中的 **Axes.bxp()函数**用于对 x 的每一列
 
 **示例-1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook
@@ -70,7 +70,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook

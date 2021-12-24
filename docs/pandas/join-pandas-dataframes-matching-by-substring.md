@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 dataFrame1 = pd.DataFrame([['PQR', 'B1'], ['QRS', 'B2'], ['RDE', 'B3']], 

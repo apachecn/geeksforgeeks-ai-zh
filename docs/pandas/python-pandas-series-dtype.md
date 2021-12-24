@@ -16,7 +16,7 @@ Pandas `**Series.dtype**`属性返回给定序列对象的基础数据的数据�
 
 **示例#1:** 使用`Series.dtype`属性查找给定序列对象的基础数据的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.dtype`属性来查找给定 Series 对象的数据类型。
 
-```
+```py
 # return the data type
 sr.dtype
 ```
@@ -49,7 +49,7 @@ sr.dtype
 
 **示例#2 :** 使用`Series.dtype`属性查找给定序列对象的基础数据的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(sr)
 
 现在我们将使用`Series.dtype`属性来查找给定 Series 对象的数据类型。
 
-```
+```py
 # return the data type
 sr.dtype
 ```

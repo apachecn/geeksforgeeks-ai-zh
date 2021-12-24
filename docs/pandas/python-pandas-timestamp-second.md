@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.second`属性在给定的时间戳对象中查找秒的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.second`属性来查找给定对象中第二个的值。
 
-```
+```py
 # return the value of second
 ts.second
 ```
@@ -43,7 +43,7 @@ ts.second
 
 **示例#2:** 使用`Timestamp.second`属性在给定的时间戳对象中查找秒的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(ts)
 
 现在我们将使用`Timestamp.second`属性来查找给定对象中第二个的值。
 
-```
+```py
 # return the value of second
 ts.second
 ```

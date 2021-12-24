@@ -19,7 +19,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minor_locator()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -45,7 +45,7 @@ plt.show()
 
 ![](img/a3bc87fbf005ac3cc4c23a5ab8ea1768.png)
 
-```
+```py
 <matplotlib.ticker.NullLocator object at 0x086D8C30>
 
 ```
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -81,7 +81,7 @@ plt.show()
 
 ![](img/1e11205046a008990f12451e7ecc547f.png)
 
-```
+```py
 <matplotlib.ticker.NullLocator object at 0x08AE9830>
 
 ```

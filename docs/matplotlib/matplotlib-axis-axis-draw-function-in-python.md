@@ -22,7 +22,7 @@ matplotlib 库的轴模块中的 **Axis.draw()函数**用于绘制轴线、网�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 from mpl_toolkits.mplot3d import axes3d   
@@ -51,7 +51,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 from mpl_toolkits.mplot3d import axes3d   

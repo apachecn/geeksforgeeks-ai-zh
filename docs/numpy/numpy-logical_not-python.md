@@ -15,14 +15,14 @@
 
 **返回:**
 
-```
+```py
 An array with Boolean results of NOT arr (element-wise).  
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # logical_not() function
 import numpy as np
@@ -41,7 +41,7 @@ print ("Output Array 2 : ", out_arr2)
 
 **输出:**
 
-```
+```py
 Output Array 1 :  [False False  True False]
 Output Array 2 :  [False  True False  True]
 
@@ -49,7 +49,7 @@ Output Array 2 :  [False  True False  True]
 
 **代码 2:可以检查条件**
 
-```
+```py
 # Python program explaining
 # logical_not() function
 import numpy as np
@@ -68,7 +68,7 @@ print ("\n Boolean Output : \n", out_arr1)
 
 **输出:**
 
-```
+```py
 Output : 
  [ 0\.    0.25  0.5   0.75  1\.    1.25  1.5   1.75]
 

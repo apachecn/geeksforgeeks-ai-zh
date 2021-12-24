@@ -8,7 +8,7 @@
 
 **代码#1:了解 Synset**
 
-```
+```py
 from nltk.corpus import wordnet
 syn = wordnet.synsets('hello')[0]
 
@@ -23,7 +23,7 @@ print ("\nSynset example : ", syn.examples())
 
 **输出:**
 
-```
+```py
 Synset name :   hello.n.01
 
 Synset meaning :  an expression of greeting
@@ -42,7 +42,7 @@ Synset example :  ['every morning they exchanged polite hellos']
 
 **代码#2:理解超音和次音**
 
-```
+```py
 from nltk.corpus import wordnet
 syn = wordnet.synsets('hello')[0]
 
@@ -60,7 +60,7 @@ print ("\nSynset root hypernerm :  ", syn.root_hypernyms())
 
 **输出:**
 
-```
+```py
 Synset name :   hello.n.01
 
 Synset abstract term :   [Synset('greeting.n.01')]
@@ -78,7 +78,7 @@ Synset root hypernerm :   [Synset('entity.n.01')]
 
 **代码# 3:Synset 中的词性(POS)。**
 
-```
+```py
 syn = wordnet.synsets('hello')[0]
 print ("Syn tag : ", syn.pos())
 
@@ -94,7 +94,7 @@ print ("Syn tag : ", syn.pos())
 
 **输出:**
 
-```
+```py
 Syn tag :  n
 Syn tag :  v
 Syn tag :  a

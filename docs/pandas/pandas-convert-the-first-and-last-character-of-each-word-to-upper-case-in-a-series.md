@@ -8,7 +8,7 @@
 
 **示例:**让我们创建熊猫系列
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd
 
@@ -28,7 +28,7 @@ series
 
 **示例:**
 
-```
+```py
 # Apply the lambda function to
 # capitalize first and last 
 # character to each word

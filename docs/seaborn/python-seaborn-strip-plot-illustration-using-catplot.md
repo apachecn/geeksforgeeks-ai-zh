@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pnd
 import matplotlib.pyplot as plt
@@ -25,7 +25,7 @@ import seaborn as sbn
 
 ## 蟒蛇 3
 
-```
+```py
 # fetching data from the url
 url_data='http://bit.ly/2cLzoxH'
 
@@ -38,7 +38,7 @@ input_data=pnd.read_csv(url_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # head() function helps to see the first n rows of data
 # by default n is 5 in head function
 input_data.head(5)
@@ -52,7 +52,7 @@ input_data.head(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # using seaborn module to show the relation betwwen 
 # categorical variables and numerical variables
 sbn.catplot(x='continent', y='lifeExp', data=input_data)
@@ -66,7 +66,7 @@ sbn.catplot(x='continent', y='lifeExp', data=input_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pnd
 import matplotlib.pyplot as plt

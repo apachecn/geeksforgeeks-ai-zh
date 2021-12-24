@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.summary()`函数查找给定时间增量索引对象的摘要。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.summary()`函数返回 tidx 对象的摘要。
 
-```
+```py
 # find summary of tidx
 tidx.summary()
 ```
@@ -45,7 +45,7 @@ tidx.summary()
 
 **示例 2:** 使用`TimedeltaIndex.summary()`函数查找给定时间增量索引对象的摘要。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.summary()`函数返回 tidx 对象的摘要。
 
-```
+```py
 # find summary of tidx
 tidx.summary()
 ```

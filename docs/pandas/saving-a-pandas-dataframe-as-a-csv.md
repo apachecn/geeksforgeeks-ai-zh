@@ -10,7 +10,7 @@
 
 **示例#1:** 将 csv 保存到工作目录。
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -33,7 +33,7 @@ df.to_csv('file1.csv')
 
 **例 2:** 保存 CSV 而不保存*表头*和*索引*。
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -56,7 +56,7 @@ df.to_csv('file2.csv', header=False, index=False)
 
 **示例#3:** 将 csv 文件保存到指定位置。
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -79,7 +79,7 @@ df.to_csv(r'C:\Users\Admin\Desktop\file3.csv', index=False)
 
 **示例#4:** 使用制表符分隔符将数据帧写入 CSV 文件。
 
-```
+```py
 import pandas as pd
 import numpy as np
 users = {'Name': ['Amit', 'Cody', 'Drew'],
@@ -95,7 +95,7 @@ print(new_df)
 
 **输出:**
 
-```
+```py
 Original DataFrame:
    Name  Age
 0  Amit   20

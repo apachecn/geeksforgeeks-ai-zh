@@ -35,7 +35,7 @@ T3】
 以下示例说明 matplotlib.pyplot.figure()函数在 matplotlib . axis:
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -61,7 +61,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

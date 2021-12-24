@@ -26,7 +26,7 @@ matplotlib 的各种图，如条形图、折线图都可以使用误差线。误
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib package
 import matplotlib.pyplot as plt
 
@@ -53,7 +53,7 @@ ax.bar(x, height, alpha = 0.1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib package
 import matplotlib.pyplot as plt
 
@@ -95,7 +95,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -137,7 +137,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib package
 import matplotlib.pyplot as plt
 
@@ -195,7 +195,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 

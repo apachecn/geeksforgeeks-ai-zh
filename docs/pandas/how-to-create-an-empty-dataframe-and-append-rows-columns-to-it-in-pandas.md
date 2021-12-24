@@ -6,7 +6,7 @@
 
 **方法#1:** 创建一个没有任何列名或索引的完整的空数据框，然后将列一个接一个地追加到其中。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ df
 
 **方法#2:** 创建一个只有列名的空数据框，然后使用 **`append()`** 方法将行一个接一个地附加到它上面。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ df
 
 **方法#3:** 用列名和索引创建一个空的数据框，然后使用 **`loc[]`** 方法将行一个接一个地追加到其中。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 

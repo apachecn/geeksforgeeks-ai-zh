@@ -10,7 +10,7 @@
 
 **代码#1 :** 训练 UnigramTagger。
 
-```
+```py
 # Loading Libraries
 from nltk.tag import UnigramTagger
 from nltk.corpus import treebank
@@ -18,7 +18,7 @@ from nltk.corpus import treebank
 
 **代码#2 :** 使用树库语料库的前 1000 个标记句子作为数据进行训练。
 
-```
+```py
 # Using data
 train_sents = treebank.tagged_sents()[:1000]
 
@@ -32,7 +32,7 @@ treebank.sents()[0]
 
 **输出:**
 
-```
+```py
 ['Pierre',
  'Vinken',
  ', ',
@@ -56,13 +56,13 @@ treebank.sents()[0]
 
 **代码#3 :** 训练后查找标记结果。
 
-```
+```py
 tagger.tag(treebank.sents()[0])
 ```
 
 **输出:**
 
-```
+```py
 [('Pierre', 'NNP'),
  ('Vinken', 'NNP'),
  (', ', ', '),
@@ -92,7 +92,7 @@ tagger.tag(treebank.sents()[0])
 
 **代码#4 :** 覆盖上下文模型
 
-```
+```py
 tagger = UnigramTagger(model ={'Pierre': 'NN'})
 
 tagger.tag(treebank.sents()[0])
@@ -100,7 +100,7 @@ tagger.tag(treebank.sents()[0])
 
 **输出:**
 
-```
+```py
 [('Pierre', 'NN'),
  ('Vinken', None),
  (', ', None),

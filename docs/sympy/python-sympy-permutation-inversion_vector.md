@@ -13,7 +13,7 @@
 
 **代码#1 : inversion_vector()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.inversion_vector()
 
@@ -39,7 +39,7 @@ print ("Permutation b - inversion_vector form : ", b.inversion_vector())
 
 **代码#2:反转 _ 向量()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.inversion_vector()
 

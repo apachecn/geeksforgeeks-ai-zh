@@ -19,7 +19,7 @@ matplotlib 库的 axis 模块中的 **Tick.remove()函数**用于在可能的情
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt 
@@ -44,7 +44,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  

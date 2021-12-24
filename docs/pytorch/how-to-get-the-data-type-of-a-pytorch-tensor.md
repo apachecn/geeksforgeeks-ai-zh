@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 import pytorch
 ```
 
@@ -20,7 +20,7 @@ import pytorch
 
 **语法:**
 
-```
+```py
 torch.tensor([element1,element2,.,element n],dtype)
 ```
 
@@ -28,7 +28,7 @@ torch.tensor([element1,element2,.,element n],dtype)
 
 *   **数据类型:**指定数据类型。
 
-```
+```py
 dtype=torch.datatype
 ```
 
@@ -36,7 +36,7 @@ dtype=torch.datatype
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -53,7 +53,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 tensor([10, 20, 30, 40, 50])
 tensor([10.1200, 20.5600, 30.0000, 40.3000, 50.4000])
 ```
@@ -81,7 +81,7 @@ vector 支持以下数据类型:
 
 **语法:**
 
-```
+```py
 tensor_name.dtype
 ```
 
@@ -89,7 +89,7 @@ tensor_name.dtype
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch
 import torch
 
@@ -139,7 +139,7 @@ print(a.dtype)
 
 **输出:**
 
-```
+```py
 tensor([100, 200,   2,   3,   4], dtype=torch.uint8)
 torch.uint8
 tensor([ 1,  2, -6, -8,  0], dtype=torch.int8)
@@ -156,7 +156,7 @@ torch.int64
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch
 import torch
 
@@ -181,7 +181,7 @@ print(a.dtype)
 
 **输出:**
 
-```
+```py
 tensor([100., 200.,   2.,   3.,   4.])
 torch.float32
 tensor([ 1.,  2., -6., -8.,  0.], dtype=torch.float64)
@@ -192,7 +192,7 @@ torch.float64
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch
 import torch
 
@@ -217,7 +217,7 @@ print(a.dtype)
 
 **输出:**
 
-```
+```py
 tensor([True, True, True, True, True])
 torch.bool
 tensor([False, False, False,  True,  True])

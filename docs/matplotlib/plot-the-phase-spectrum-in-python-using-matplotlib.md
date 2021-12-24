@@ -7,7 +7,7 @@
 一个**信号**是一个电磁场或者电流来传输数据。信号有各种成分，如频率、振幅、波长、相位、角频率和描述它的周期。
 周期信号可以用下面的正弦函数表示:
 
-```
+```py
 y = A sin(w*t + Q)
 
 ```
@@ -19,7 +19,7 @@ y = A sin(w*t + Q)
 在 Python 中，Python `matplotlib`库的`pyplot`模块中的`phase_spectrum()`方法绘制了周期信号的相位谱。以下是一些演示使用`phase_spectrum()`方法可视化不同周期信号相位谱的程序。
 **例 1:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 
@@ -52,7 +52,7 @@ pyplot.show()
 第一张图表示振幅对时间分量中的信号，第二张图表示相位对频率图中的信号的相位谱，通过对具有从 5 到 10 秒的时间周期、0.25 弧度相位角的信号使用`phase_spectrum()`，从给定的时间周期计算信号的频率，并且使用`numpy`模块中的`sin()`功能计算信号的振幅。
 **例 2:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 
@@ -86,7 +86,7 @@ pyplot.show()
 
 **例 3:**
 
-```
+```py
 # importing modules
 import numpy
 from matplotlib import pyplot 

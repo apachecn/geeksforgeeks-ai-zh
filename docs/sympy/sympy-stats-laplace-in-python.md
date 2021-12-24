@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Laplace()`方法，我们能够用这个方法得到代表拉普拉斯分布的连续随机变量。
 
-```
+```py
 # Import sympy and Laplace
 from sympy.stats import Laplace, density
 from sympy import Symbol, pprint
@@ -40,7 +40,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Laplace
 from sympy.stats import Laplace, density
 from sympy import Symbol, pprint

@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.nanoseconds**`属性返回 TimedeltaIndex 对象中每�
 
 **示例#1:** 使用`TimedeltaIndex.nanoseconds`属性找出时间增量索引对象的每个条目的纳秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将打印对象每个条目中的纳秒数。
 
-```
+```py
 # find nanoseconds number
 tidx.nanoseconds
 ```
@@ -40,7 +40,7 @@ tidx.nanoseconds
 
 **示例 2:** 使用`TimedeltaIndex.nanoseconds`属性找出 TimedeltaIndex 对象每个条目的纳秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将打印对象每个条目中的纳秒数。
 
-```
+```py
 # find nanoseconds number
 tidx.nanoseconds
 ```

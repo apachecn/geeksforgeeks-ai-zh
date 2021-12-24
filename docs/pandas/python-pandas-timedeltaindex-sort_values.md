@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.sort_values()`函数以升序对给定的时间增量索引对象进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 ![](img/9604c4c74471a73ba07f2e2841c19c21.png)
 现在我们使用`TimedeltaIndex.sort_values()`功能对 tidx 对象进行排序。
 
-```
+```py
 # sort the values in the given 
 # object in ascending order
 tidx.sort_values()
@@ -45,7 +45,7 @@ tidx.sort_values()
 
 **示例 2:** 使用`TimedeltaIndex.sort_values()`函数按降序对给定的时间增量索引对象进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.sort_values()`函数对 tidx 对象进行排序。
 
-```
+```py
 # sort the values in the given object in descending order
 tidx.sort_values(ascending = False)
 ```

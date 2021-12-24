@@ -17,7 +17,7 @@ matplotlib . ticker . Funcformatter 类使用用户定义的函数进行格式�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.ticker as tick
 import numpy as np
@@ -46,7 +46,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 

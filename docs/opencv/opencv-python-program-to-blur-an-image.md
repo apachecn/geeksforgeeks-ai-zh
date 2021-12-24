@@ -6,7 +6,7 @@
 
 大家好！我读了一篇**Aditya Prakash**–<u>[OpenCV c++程序模糊一个图像](https://www.geeksforgeeks.org/opencv-c-program-to-blur-an-image/)</u> 的精彩作品，所以我决定想出类似的东西，但这次是用 Python。这是一个非常简单的程序，结果基本相同。
 
-```
+```py
 # Python Program to blur image
 
 # Importing cv2 module
@@ -29,7 +29,7 @@ cv2.destroyAllWindows()
 
 现在，上面的这个程序正在使用一种叫做**平均的图像模糊技术。**还有一些其他选项可用–**高斯模糊、中值模糊、双边滤波。**让我们在程序中添加一些内容，并比较结果。
 
-```
+```py
 # importing opencv CV2 module
 import cv2 
 

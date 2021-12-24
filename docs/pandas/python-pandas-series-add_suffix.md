@@ -15,7 +15,7 @@ Pandas `**Series.add_suffix()**`功能用于在给定系列对象的索引标签
 
 **示例#1:** 使用`Series.add_suffix()`函数在给定序列对象中的每个索引标签的末尾添加后缀。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 Coca Cola    34
 Sprite        5
 Coke         13
@@ -46,7 +46,7 @@ dtype: int64
 
 现在我们将使用`Series.add_suffix()`函数在给定序列对象中的每个索引标签的末尾添加后缀“_IPL 2019”。
 
-```
+```py
 # add '_IPL 2019' to each index labels
 result = sr.add_suffix(suffix = '_IPL 2019')
 
@@ -56,7 +56,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Coca Cola_IPL 2019    34
 Sprite_IPL 2019        5
 Coke_IPL 2019         13
@@ -70,7 +70,7 @@ dtype: int64
 
 **示例 2 :** 使用`Series.add_suffix()`函数在给定系列对象中的每个索引标签的末尾添加后缀。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    51
 2011-12-31 08:45:00    10
 2012-12-31 08:45:00    24
@@ -107,7 +107,7 @@ Freq: A-DEC, dtype: int64
 
 现在我们将使用`Series.add_suffix()`函数在给定序列对象中的每个索引标签的末尾添加后缀“_Date”。
 
-```
+```py
 # add '_Date' to each index labels
 result = sr.add_suffix(suffix = '_Date')
 
@@ -117,7 +117,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00_Date    51
 2011-12-31 08:45:00_Date    10
 2012-12-31 08:45:00_Date    24

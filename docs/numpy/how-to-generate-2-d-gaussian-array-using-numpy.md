@@ -28,7 +28,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing Numpy package
 import numpy as np
 
@@ -62,7 +62,7 @@ print(gauss)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing Numpy package
 import numpy as np
 

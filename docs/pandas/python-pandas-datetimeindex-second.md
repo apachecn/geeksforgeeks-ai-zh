@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.second`属性查找 DatetimeIndex 对象中的秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(didx)
 
 现在我们想要找到 DatetimeIndex 对象中存在的所有秒值。
 
-```
+```py
 <div class="noIdeBtnDiv">
 # find all the second values present in the object
 didx.second

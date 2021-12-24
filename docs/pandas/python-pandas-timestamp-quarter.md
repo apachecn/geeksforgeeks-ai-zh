@@ -14,7 +14,7 @@ Pandas `**Timestamp.quarter**`属性返回一个整数值，代表给定时间�
 
 **示例#1:** 使用`Timestamp.quarter`属性查找给定时间戳对象的日期位于哪个季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.quarter`属性打印 ts 对象中日期所在的季度。
 
-```
+```py
 # find the value of quarter
 ts.quarter
 ```
@@ -44,7 +44,7 @@ ts.quarter
 
 **示例 2:** 使用`Timestamp.quarter`属性查找给定时间戳对象的日期位于哪个季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.quarter`属性打印 ts 对象中日期所在的季度。
 
-```
+```py
 # find the value of quarter
 ts.quarter
 ```

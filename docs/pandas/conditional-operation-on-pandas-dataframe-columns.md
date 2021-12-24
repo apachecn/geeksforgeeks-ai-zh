@@ -6,7 +6,7 @@
 
 **解决方案#1:** 我们可以使用条件表达式来检查列是否存在。如果它不存在，那么我们使用替代列计算价格。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(df)
 
 现在我们将检查是否有更新的价格。如果没有，我们将在“最后价格”栏中应用 10%的折扣来计算最终价格。
 
-```
+```py
 # Check if the updated price is available or not
 if 'Updated Price' in df.columns:
     df['Final cost'] = df['Updated Price'] - (df['Updated Price']*0.1)
@@ -46,7 +46,7 @@ print(df)
 
 现在我们来考虑一个‘更新价格’不可用的场景。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(df)
 
 现在我们将检查是否有更新的价格。如果没有，我们将在“最后价格”栏中应用 10%的折扣来计算最终价格。
 
-```
+```py
 # Check if the updated price is available or not
 if 'Updated Price' in df.columns:
     df['Final cost'] = df['Updated Price'] - (df['Updated Price']*0.1)
@@ -83,7 +83,7 @@ print(df)
 
 **解决方案#2:** 我们可以使用 Python 的`issubset()`函数来检查集合中是否存在所需的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -104,7 +104,7 @@ print(df)
 
 现在我们将检查是否有更新的价格。如果没有，我们将在“最后价格”栏中应用 10%的折扣来计算最终价格。
 
-```
+```py
 # Check if the updated price is available or not
 if {'Updated Price', 'Discount'}.issubset(df.columns):
     df['Final cost'] = df['Updated Price'] - (df['Updated Price']*0.1)
@@ -122,7 +122,7 @@ print(df)
 
 现在让我们考虑一个“更新价格”不可用的情况。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -141,7 +141,7 @@ print(df)
 
 现在我们将检查是否有更新的价格。如果没有，我们将在“最后价格”栏中应用 10%的折扣来计算最终价格。
 
-```
+```py
 # Check if the updated price is available or not
 if {'Updated Price', 'Discount'}.issubset(df.columns):
     df['Final cost'] = df['Updated Price'] - (df['Updated Price']*0.1)

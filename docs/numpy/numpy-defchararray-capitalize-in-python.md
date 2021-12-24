@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.capitalize() method 
 import numpy as np 
@@ -31,7 +31,7 @@ print ("arr2 : ", np.char.capitalize(arr2))
 
 **输出:**
 
-```
+```py
 arr1 :  ['eAAAaeAAAa', 'ttttdsttttds', 'AAtAAt']
 arr2 :  ['11sf', 'sdsf2', '1111f2']
 
@@ -43,7 +43,7 @@ arr2 :  ['11sf' 'Sdsf2' '1111f2']
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.capitalize() method 
 import numpy as np 
@@ -61,7 +61,7 @@ print ("arr2 : ", np.char.capitalize(arr2))
 
 **输出:**
 
-```
+```py
 arr1 :  this is geeks 
 arr2 :  for geeks 
 

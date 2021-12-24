@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_smart_bounds()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 ![](img/8e6000a43b0631dc693ab4e3cb14968b.png)
 
-```
+```py
 Value return by get_smart_bounds() : [ False False ]
 
 ```
@@ -67,7 +67,7 @@ Value return by get_smart_bounds() : [ False False ]
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np
@@ -106,7 +106,7 @@ plt.show()
 
 ![](img/75a82f7b77534b89f0c3a981a6ca6e18.png)
 
-```
+```py
 Value return by get_smart_bounds() : True
 
 ```

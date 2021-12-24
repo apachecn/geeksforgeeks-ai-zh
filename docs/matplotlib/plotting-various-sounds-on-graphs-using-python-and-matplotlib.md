@@ -8,14 +8,14 @@
 
 **1。**[**Matplotlib**](https://www.geeksforgeeks.org/python-introduction-matplotlib/)**:**使用以下命令安装 Matplotlib:
 
-```
+```py
 pip install matplotlib
 
 ```
 
 **2。**[**Numpy**](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)**:**Numpy 安装自动安装 Matplotlib。但是，如果您遇到任何导入错误，请使用下面的命令安装 Numpy
 
-```
+```py
 pip install numpy
 
 ```
@@ -36,7 +36,7 @@ pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import matplotlib.pyplot as plt
 import numpy as np
@@ -104,7 +104,7 @@ if __name__ == "__main__":
 所以，我们完成了编码，现在是关键时刻。让我们看看它是否真的有效。您可以尝试任何音频文件，但要确保它必须是一个 **wav** 文件。如果您有一些其他的文件类型，那么您可以使用 **ffmpeg** 将其转换为 wav 文件。如果你想，那么请随意下载我们将使用的音频文件。你可以使用这个[链接](https://file-examples.com/wp-content/uploads/2017/11/file_example_WAV_1MG.wav)下载，但是也可以尝试其他文件。
 要运行代码，需要在命令行中传递音频文件的路径。为此，请在您的终端中键入以下内容:
 
-```
+```py
 python soundwave.py sample_audio.wav
 
 ```

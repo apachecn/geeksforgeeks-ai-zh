@@ -12,7 +12,7 @@
 4.  Matplotlib 动画将用于可视化数组的比较和交换。
 5.  然后我们将绘制图形，这将返回一个 Poly3dCollection 的对象，使用该对象可以进行进一步的动画制作。
 
-```
+```py
 # import all the modules
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation

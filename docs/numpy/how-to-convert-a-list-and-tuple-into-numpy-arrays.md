@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 numpy.asarray(  a, type = None, order = None ) 
 ```
 
@@ -18,7 +18,7 @@ numpy.asarray(  a, type = None, order = None )
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # list
@@ -47,7 +47,7 @@ print(array2)
 
 **输出:**
 
-```
+```py
 <class 'list'>
 [3, 4, 5, 6]
 
@@ -84,7 +84,7 @@ print(array2)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # list
@@ -119,7 +119,7 @@ print(array3)
 
 **输出:**
 
-```
+```py
 <class 'list'>
 [1, 2, 3]
 

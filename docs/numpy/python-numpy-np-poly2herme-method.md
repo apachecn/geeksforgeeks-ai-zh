@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.poly2herme()`方法，我们能够使用该方法从多项式中获得 hermiteE 级数的系数。
 
-```
+```py
 # import numpy and poly2herme
 import numpy as np
 from numpy.polynomial.hermite_e import poly2herme
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and poly2herme
 import numpy as np
 from numpy.polynomial.hermite_e import poly2herme

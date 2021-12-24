@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import ticker
@@ -66,7 +66,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 from pylab import * 
 import matplotlib
 import matplotlib.ticker as ticker

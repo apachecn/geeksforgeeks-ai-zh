@@ -7,14 +7,14 @@ Pandas.apply 允许用户传递一个函数，并将其应用于 Pandas 系列�
 **安装:**
 使用终端上的以下命令将 Pandas 模块导入 python 文件:
 
-```
+```py
 pip install pandas
 
 ```
 
 要读取 csv 文件并将其压缩成 pandas 系列，可使用以下命令:
 
-```
+```py
 import pandas as pd
 s = pd.read_csv("stock.csv", squeeze=True)
 
@@ -22,7 +22,7 @@ s = pd.read_csv("stock.csv", squeeze=True)
 
 **语法:**
 
-```
+```py
 s.apply(func, convert_dtype=True, args=())
 ```
 
@@ -39,7 +39,7 @@ s.apply(func, convert_dtype=True, args=())
 
 下面的示例传递一个函数，检查序列中每个元素的值，并相应地返回低、正常或高。
 
-```
+```py
 import pandas as pd
 
 # reading csv
@@ -77,7 +77,7 @@ print(new.tail(3))
 
 在下面的示例中，在中创建了一个临时匿名函数。使用 lambda 应用自身。它将序列中的每个值加 5，并返回一个新的序列。
 
-```
+```py
 import pandas as pd
 s = pd.read_csv("stock.csv", squeeze = True)
 
@@ -93,7 +93,7 @@ print('\n\n', s.tail(), '\n', new.tail())
 
 **输出:**
 
-```
+```py
 0    50.12
 1    54.10
 2    54.65

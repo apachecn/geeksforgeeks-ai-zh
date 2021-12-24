@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import pandas as pd
 import numpy as np
@@ -34,7 +34,7 @@ import seaborn as sns
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialize data
 State = ["Rajasthan", "Bihar", "Madhya Pradesh",
          "Gujarat", "Maharashtra"]
@@ -56,7 +56,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # make barplot
 sns.barplot(x='State', y="Growth", data=df)
 ```

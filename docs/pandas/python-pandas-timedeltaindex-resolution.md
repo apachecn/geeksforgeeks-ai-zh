@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.resolution**`属性返回一个字符串，代表给定
 
 **示例#1:** 使用`TimedeltaIndex.resolution`属性找出给定对象可用的最低分辨率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找到给定对象的最低分辨率。
 
-```
+```py
 # return the lowest resolution available for the tidx object
 tidx.resolution
 ```
@@ -40,7 +40,7 @@ tidx.resolution
 
 **示例 2:** 使用`TimedeltaIndex.resolution`属性找出给定对象可用的最低分辨率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找到给定对象的最低分辨率。
 
-```
+```py
 # return the lowest resolution available for the tidx object
 tidx.resolution
 ```

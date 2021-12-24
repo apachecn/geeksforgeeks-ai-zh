@@ -23,7 +23,7 @@ Python **`Series.div()`** 是用来将系列或者类似的对象按照调用者
 
 在本例中，前 5 行使用存储在新变量中。head()方法。之后，创建一个相同长度的列表，并使用。div()方法
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -52,7 +52,7 @@ short_data
 
 在本例中，“工资”列除以“年龄”列。因为工资列也包含空值，所以默认情况下，无论除以什么，它都会返回 NaN。在本例中，传递 200000，用 200000 替换空值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

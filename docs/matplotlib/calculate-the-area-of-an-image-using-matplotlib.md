@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary library
 import matplotlib.pyplot as plt
 
@@ -41,7 +41,7 @@ print("Area of the image is : ", area)
 
 **输出:**
 
-```
+```py
 Area of the image is : 50244
 ```
 
@@ -53,7 +53,7 @@ Area of the image is : 50244
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary library
 import matplotlib.pyplot as plt
 
@@ -72,6 +72,6 @@ print("Area of the image is : ", area)
 
 **输出:**
 
-```
+```py
 Area of the image is : 213200
 ```

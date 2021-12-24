@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.to_series()`函数将索引转换为序列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(idx)
 
 让我们把索引转换成数列。
 
-```
+```py
 # convert the index into a series
 idx.to_series()
 ```
@@ -44,7 +44,7 @@ idx.to_series()
 
 **示例#2:** 使用`Index.to_series()`函数将索引转换为系列，以便创建的系列使用新的索引值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(idx)
 
 让我们把索引转换成数列。
 
-```
+```py
 # convert the index into a series
 idx.to_series(index =['Student 1', 'Student 2', 'Student 3',
                                   'Student 4', 'Student 5'])

@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:** 使用`reindex_axis()`函数在索引轴上重新索引数据框。默认情况下，新索引中在 dataframe 中没有相应记录的值被分配给 NaN。
 **注:**我们可以使用‘ffill’方法填写缺失值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ df
 
 让我们使用`dataframe.reindex_axis()`函数在索引轴上重新索引数据帧
 
-```
+```py
 # reindexing with new index values
 df.reindex_axis(["A1", "A2", "A4", "A7", "A8"], axis = 0)
 ```
@@ -50,7 +50,7 @@ df.reindex_axis(["A1", "A2", "A4", "A7", "A8"], axis = 0)
 ![](img/af125a03b596bfbdd33015252de54992.png)
 注意输出，新的索引填充了`NaN`值，我们可以使用‘ffill’方法来填充缺失的值。
 
-```
+```py
 # filling the missing values using ffill method
 df.reindex_axis(["A1", "A2", "A4", "A7", "A8"], 
                      axis = 0, method ='ffill')
@@ -62,7 +62,7 @@ df.reindex_axis(["A1", "A2", "A4", "A7", "A8"], 
 
 **示例 2:** 使用`reindex_axis()`功能重新索引列轴
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ df.reindex_axis(["A", "B", "D", "E"], axis = 1)
 
 请注意，我们在重新索引后的新列中有`NaN`值，我们可以在重新索引时处理丢失的值。通过使用`ffill` 方法，我们可以向前填充缺失的值。
 
-```
+```py
 # reindex the columns
 # we fill the missing values using ffill method
 df.reindex_axis(["A", "B", "D", "E"], axis = 1, method ='ffill')

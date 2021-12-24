@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`stats.halfgennorm.rvs()`方法，我们能够用这个方法得到广义正态分布的随机变量。
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 1
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 4

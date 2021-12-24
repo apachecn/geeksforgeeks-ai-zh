@@ -66,7 +66,7 @@ Bokeh 可以用来在谷歌地图上绘制字形。字形是一种象形文字�
 6.  在创建的谷歌地图对象上生成字形。
 7.  使用`show()`显示谷歌地图。
 
-```
+```py
 # importing the required modules
 from bokeh.plotting import gmap
 from bokeh.models import ColumnDataSource, GMapOptions

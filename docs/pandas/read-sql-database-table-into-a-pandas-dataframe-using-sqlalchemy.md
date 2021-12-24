@@ -36,7 +36,7 @@
 
 **例 1 :**
 
-```
+```py
 # import the modules
 import pandas as pd 
 from sqlalchemy import create_engine
@@ -54,7 +54,7 @@ print(df)
 
 **例 2 :**
 
-```
+```py
 # import the modules
 import pandas as pd 
 from sqlalchemy import create_engine
@@ -72,7 +72,7 @@ print(df)
 
 **例 3 :**
 
-```
+```py
 # import the modules
 import pandas as pd 
 from sqlalchemy import create_engine

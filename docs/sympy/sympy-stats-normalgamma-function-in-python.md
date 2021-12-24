@@ -4,7 +4,7 @@
 
 借助于**方法，我们可以创建一个具有多元正态伽马分布的二元联合随机变量。**
 
-```
+```py
 **Syntax: ** sympy.stats.NormalGamma(syms, mu, lamda, alpha, beta)
 
 **Parameters:**
@@ -21,7 +21,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import sympy, NormalGamma, density, symbols
 from sympy.stats import density, NormalGamma
 from sympy import symbols, pprint

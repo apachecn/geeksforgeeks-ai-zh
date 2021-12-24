@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(data['subjects'].loc[data.index[3]])
 
 **输出:**
 
-```
+```py
 7058
 7059
 7072
@@ -98,7 +98,7 @@ php/js
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -137,7 +137,7 @@ print(data['subjects'].iloc[3])
 
 **输出:**
 
-```
+```py
 7058
 7059
 sravan
@@ -164,7 +164,7 @@ php/js
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

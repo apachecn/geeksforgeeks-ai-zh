@@ -18,7 +18,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -34,7 +34,7 @@ print("Falling factorial ff(x, k) : {}".format(ff_x_k))  
 
 **输出:**
 
-```
+```py
 Value of x = x and k = 5
 Falling factorial ff(x, k) : x*(x - 4)*(x - 3)*(x - 2)*(x - 1)
 
@@ -42,7 +42,7 @@ Falling factorial ff(x, k) : x*(x - 4)*(x - 3)*(x - 2)*(x - 1)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * x = 7
 k = 5
@@ -56,7 +56,7 @@ print("Falling factorial ff(x, k) : {}".format(ff_x_k))  
 
 **输出:**
 
-```
+```py
 Value of x = 7 and k = 5
 Falling factorial ff(x, k) : 2520
 

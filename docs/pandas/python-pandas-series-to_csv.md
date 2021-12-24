@@ -27,7 +27,7 @@ Pandas `**Series.to_csv()**`函数将给定的序列对象写入逗号分隔值(
 
 **示例#1:** 使用`Series.to_csv()`功能将给定的序列对象转换为 csv 格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -51,7 +51,7 @@ print(sr)
 
 现在我们将使用`Series.to_csv()`函数将给定的 Series 对象转换为逗号分隔的格式。
 
-```
+```py
 # convert to comma-separated
 sr.to_csv()
 ```
@@ -63,7 +63,7 @@ sr.to_csv()
 
 **示例 2:** 使用`Series.to_csv()`功能将给定的序列对象转换为 csv 格式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.to_csv()`函数将给定的 Series 对象转换为逗号分隔的格式。
 
-```
+```py
 # convert to comma-separated
 sr.to_csv()
 ```

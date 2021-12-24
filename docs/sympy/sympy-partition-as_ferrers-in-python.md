@@ -10,7 +10,7 @@
 
 **代码#1 : as_ferrers()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.as_ferrers()
 
@@ -30,7 +30,7 @@ print(IntegerPartition([5, 2, 5]).as_ferrers())
 
 **代码#2 : as_ferrers(char = '*)示例**
 
-```
+```py
 # Python code explaining
 # SymPy.as_ferrers()
 

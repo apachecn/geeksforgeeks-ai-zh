@@ -5,13 +5,13 @@
 **numpy.ravel()** 函数返回连续的扁平数组(包含所有输入数组元素且类型相同的 1D 数组)。只有在需要时才制作副本。
 **语法:**
 
-```
+```py
 numpy.ravel(array, order = 'C')
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array. 
 order : [C-contiguous, F-contiguous, A-contiguous; optional]         
          C-contiguous order in memory(last index varies the fastest)
@@ -24,7 +24,7 @@ order : [C-contiguous, F-contiguous, A-contiguous; optional]
 
 **返回:**
 
-```
+```py
 Flattened array having same type as the Input array and and order as per choice. 
 ```
 
@@ -32,7 +32,7 @@ Flattened array having same type as the Input array and and order as per choice.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.ravel() method
 
@@ -53,7 +53,7 @@ print("Reshaping array : ", array.reshape(-1))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[ 0  1  2  3  4]
  [ 5  6  7  8  9]
@@ -69,7 +69,7 @@ Reshaping array :  [ 0  1  2 ..., 12 13 14]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.ravel() method
 
@@ -99,7 +99,7 @@ print("\nMaintains A Order : ", array2.ravel(order = 'K'))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[ 0  1  2  3  4]
  [ 5  6  7  8  9]

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.notnull()`功能检测给定序列对象中的所有非缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.notnull()`函数来检测序列对象中的非缺失值。
 
-```
+```py
 # detect non-missing value
 result = sr.notnull()
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2:** 使用`Series.notnull()`功能检测给定序列对象中的所有非缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(sr)
 
 现在我们将使用`Series.notnull()`函数来检测序列对象中的非缺失值。
 
-```
+```py
 # detect non-missing value
 result = sr.notnull()
 

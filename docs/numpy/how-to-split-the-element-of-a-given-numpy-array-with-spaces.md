@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Original Array

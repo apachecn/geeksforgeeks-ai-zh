@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 import tensorflow as geek
 
 x = geek.constant([[1, 2, 3, 4],
@@ -28,7 +28,7 @@ transposed_tensor = geek.transpose(x)
 
 **输出:**
 
-```
+```py
 array([[1, 5],
        [2, 6],
        [3, 7],
@@ -40,7 +40,7 @@ array([[1, 5],
 
 当这个参数通过时，张量沿着给定的轴被转置。简单地说，它定义了转置张量的输出形状。
 
-```
+```py
 import tensorflow as geek
 
 x = geek.constant([[[ 1, 2, 3],
@@ -56,7 +56,7 @@ transposed_tensor = geek.transpose(x, perm = [0, 2, 1])
 
 **输出:**
 
-```
+```py
 array([[[ 1,  4],
         [ 2,  5],
         [ 3,  6]],
@@ -78,7 +78,7 @@ shape (4, 3, 2)
 
 形状是(4，3，2)，因为我们的烫发是[0，2，1]。下面是从 perm 到输入张量形状的映射。
 
-```
+```py
 0 => 4
 2 => 3
 1 => 2
@@ -87,7 +87,7 @@ shape (4, 3, 2)
 **例 3:** **现在我们来研究共轭参数**
 当我们的张量中有复变量时，它被设置为 **True** 。
 
-```
+```py
 import tensorflow as geek
 
 x = geek.constant([[1 + 1j, 2 + 2j, 3 + 3j],
@@ -97,7 +97,7 @@ transposed_tensor = geek.transpose(x)
 
 **输出:**
 
-```
+```py
 array([[1 + 1j, 4 + 4j],
        [2 + 2j, 5 + 5j],
        [3 + 3j, 6 + 6j]])

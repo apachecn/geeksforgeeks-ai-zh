@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的**axes . get _ transformed _ clip _ path _ an
 
 ![geek-12](img/d2c81bfaea50c705888549c86e23cf3e.png)
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -50,7 +50,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm
@@ -95,7 +95,7 @@ plt.show()
 
 ![](img/0e9de8600278505df464d2a4b43e6926.png)
 
-```
+```py
 Value Return by get_transformed_clip_path_and_affine(): 
 Path(array([[ 0.,  1.],
        [ 1.,  0.],

@@ -10,7 +10,7 @@
 
 **代码# 1:unlank _ trotterjohnson()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_trotterjohnson()
 
@@ -40,7 +40,7 @@ print ("Permutation b - unrank_trotterjohnson form : ", b.unrank_trotterjohnson(
 
 **代码# 2:unlank _ trotterjohnson()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_trotterjohnson()
 

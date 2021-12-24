@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.is_lexsorted()`功能检查多索引标签是否按字典顺序排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(midx)
 
 现在让我们检查一下多索引中的标签是否按字典顺序排序。
 
-```
+```py
 # check if labels are sorted or not
 midx.is_lexsorted()
 ```
@@ -43,7 +43,7 @@ midx.is_lexsorted()
 
 **示例 2:** 使用`MultiIndex.is_lexsorted()`功能检查多索引标签是否按字典顺序排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(midx)
 
 现在让我们检查一下多索引中的标签是否按字典顺序排序。
 
-```
+```py
 # check if labels are sorted or not
 midx.is_lexsorted()
 ```

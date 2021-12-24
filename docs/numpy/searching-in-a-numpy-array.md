@@ -25,7 +25,7 @@ Numpy 提供了各种方法来搜索不同种类的数值，在本文中，我�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -42,7 +42,7 @@ print("i = {}".format(i))
 
 **输出:**
 
-```
+```py
 arr = [10 32 30 50 20 82 91 45]
 i = (array([2], dtype=int64),)
 
@@ -50,14 +50,14 @@ i = (array([2], dtype=int64),)
 
 如您所见，变量 I 是一个可迭代的变量，我们搜索的值的索引是第一个元素。我们可以通过将最后一个 print 语句替换为
 
-```
+```py
 print("i = {}".format(i[0]))
 
 ```
 
 这会将最终输出更改为
 
-```
+```py
 arr = [10 32 30 50 20 82 91 45]
 i = [2]
 
@@ -80,7 +80,7 @@ i = [2]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -97,7 +97,7 @@ print("right-most index = {}".format(np.searchsorted(arr, 3, side="right")))
 
 **输出:**
 
-```
+```py
 arr = [1, 2, 2, 3, 3, 3, 4, 5, 6, 6]
 left-most index = 3
 right-most index = 6

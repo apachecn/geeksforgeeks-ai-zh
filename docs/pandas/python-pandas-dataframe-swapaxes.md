@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`swapaxes()`功能交换数据框的轴。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 ![](img/84d138d106b2c0b990621bb9cb1a4fb1.png)
 
-```
+```py
 # interchange the index and columns axis
 df.swapaxes("index", "columns")
 ```
@@ -43,7 +43,7 @@ df.swapaxes("index", "columns")
 
 **示例 2:** 使用`swapaxes()`功能相互交换索引轴和列轴。数据框缺少一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ df
 
 ![](img/58f18d3fe5018c6c60d30a07f0fdf5fe.png)
 
-```
+```py
 # interchange the columns and index axis
 
 df.swapaxes("index", "columns")

@@ -16,7 +16,7 @@ Pandas `**Series.nlargest()**`函数返回给定序列对象中基础数据的 n
 
 **示例#1:** 使用`Series.nlargest()`函数返回给定序列对象的第一个 n 大元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.nlargest()`函数找到给定序列对象中的前 2 个最大值。
 
-```
+```py
 # return the first 2 of the largest
 # element
 result = sr.nlargest(n = 2)
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2:** 使用`Series.nlargest()`函数返回给定序列对象的第一个 n 大元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(sr)
 
 现在我们将使用`Series.nlargest()`函数找到给定序列对象中的前 5 个最大值。
 
-```
+```py
 # return the first 5 of the largest
 # element
 result = sr.nlargest(n = 5)

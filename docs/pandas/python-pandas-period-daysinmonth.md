@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.daysinmonth`属性查找给定周期对象中当月的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.daysinmonth`属性来查找给定周期对象中表示的月份中存在的天数。
 
-```
+```py
 # return the number of days
 prd.daysinmonth
 ```
@@ -44,7 +44,7 @@ prd.daysinmonth
 
 **示例#2:** 使用`Period.daysinmonth`属性查找给定周期对象中当月的天数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(prd)
 
 现在我们将使用`Period.daysinmonth`属性来查找给定周期对象中表示的月份中存在的天数。
 
-```
+```py
 # return the number of days
 prd.daysinmonth
 ```

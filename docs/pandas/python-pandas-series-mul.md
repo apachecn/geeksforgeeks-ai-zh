@@ -23,7 +23,7 @@ Python **`Series.mul()`** 用于将数列相乘或列出与调用者数列长度
 
 在本例中，前 5 行使用存储在新变量中。head()方法。之后，创建一个相同长度的列表，并使用乘以年龄列。mul()方法
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -52,7 +52,7 @@ short_data
 
 在本例中，“工资”列与“年龄”列相乘。由于“工资”和“年龄”列中的值都很大，因此产品将以高值返回。因此，仅出于演示目的，在进行乘法之前，年龄列被除以 100。由于工资列也包含空值，默认情况下，无论乘以什么，它都会返回 NaN。在本例中，传递 20，用 20 替换空值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`to_clipboard()`功能将对象以非 excel 格式复制到剪贴板。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 现在我们将以非 excel 格式将此对象复制到剪贴板。
 
-```
+```py
 # copy to clipboard
 df.to_clipboard(excel = False, sep = ', ')
 ```
@@ -44,7 +44,7 @@ df.to_clipboard(excel = False, sep = ', ')
 
 **示例 2:** 使用`to_clipboard()`功能将对象以 excel 格式复制到剪贴板。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ df
 
 现在，我们将以 excel 格式将此对象复制到剪贴板。
 
-```
+```py
 # copy to clipboard
 df.to_clipboard(excel = True)
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 # set the width

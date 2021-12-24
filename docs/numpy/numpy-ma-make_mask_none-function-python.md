@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.make_mask_none() function
 
@@ -31,14 +31,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [False False False False]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.make_mask_none() function
 
@@ -54,7 +54,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [False False False False]
 
 ```

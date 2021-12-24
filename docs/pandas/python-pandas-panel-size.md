@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 import numpy as np 
@@ -33,7 +33,7 @@ print("df2 is - \n\n", df2)
 
 现在，让我们使用 df1 和 df2 的 dict 创建面板，并获得该面板的大小。
 
-```
+```py
 data = {'item1':df1, 'item2':df2} 
 
 # creating Panel  
@@ -48,7 +48,7 @@ print("\nSize of panel['b'] is - ", panel['b'].size) 
 
 **代码#2:**
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 import numpy as np 
@@ -71,7 +71,7 @@ print("\nSize of panel['b'] is - ", panel['b'].size)   
 
 **代码#3:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 

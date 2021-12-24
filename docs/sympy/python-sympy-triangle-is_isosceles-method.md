@@ -4,7 +4,7 @@
 
 In Sympy, the function Triangle.is_isosceles() is used to check whether the given triangle is Isosceles triangle or not. Isosceles Triangle is the triangle in which two or more of the sides are of the same length.
 
-```
+```py
 Syntax: Triangle.is_isosceles()
 
 Returns: 
@@ -14,7 +14,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -28,13 +28,13 @@ print(isIsosceles)
 
 输出:
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -48,6 +48,6 @@ print(isIsosceles)
 
 输出:
 
-```
+```py
 False
 ```

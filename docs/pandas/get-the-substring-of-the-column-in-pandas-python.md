@@ -7,7 +7,7 @@
 **示例 1:**
 我们可以遍历列的范围，计算列中每个值的子串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -34,7 +34,7 @@ df
 
 **示例 2:** 在本例中，我们将使用`[str.slice()](https://www.geeksforgeeks.org/python-pandas-series-str-slice/)`。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -58,7 +58,7 @@ df
 
 **示例 3:** 我们也可以通过使用方括号以不同的方式使用 str 访问器。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -81,7 +81,7 @@ df
 
 **例 4:** 我们也可以使用 **[str.extract](https://www.geeksforgeeks.org/python-pandas-series-str-extract/)** 来完成这个任务。在本例中，我们将在“姓氏”列中存储每个人的姓氏。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 

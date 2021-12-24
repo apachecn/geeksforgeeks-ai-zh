@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import primeomega() method from sympy
 from sympy.ntheory.factor_ import primeomega
 
@@ -27,14 +27,14 @@ print(" Number of prime factors of {} = {} ".format(n, primeomega_n))
 
 **输出:**
 
-```
+```py
 Number of prime factors of 24 = 4 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import primeomega() method from sympy
 from sympy.ntheory.factor_ import primeomega
 
@@ -48,7 +48,7 @@ print(" Number of prime factors of {} = {} ".format(n, primeomega_n))
 
 **输出:**
 
-```
+```py
 Number of prime factors of 120 = 5 
 
 ```

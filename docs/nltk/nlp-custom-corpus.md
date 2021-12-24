@@ -11,7 +11,7 @@ NLTK 已经在 **nltk.data.path** 中定义了数据路径或目录列表。我�
 
 **代码#1:创建自定义目录并验证。**
 
-```
+```py
 # importing libraries
 import os, os.path
 
@@ -31,14 +31,14 @@ print ("\nDoes path exists in nltk : ", 
 
 **输出:**
 
-```
+```py
 Does path exists : True
 Does path exists in nltk : True
 ```
 
 **代码#2:创建单词列表文件。**
 
-```
+```py
 # loading libraries
 import nltk.data
 
@@ -47,7 +47,7 @@ nltk.data.load('corpora/cookbook/word_file.txt', format ='raw')
 
 **输出:**
 
-```
+```py
 b'nltk\n'
 ```
 
@@ -61,7 +61,7 @@ b'nltk\n'
 
 **代码#3:如何加载 YAML 文件**
 
-```
+```py
 import nltk.data
 
 # loading file using the path
@@ -70,6 +70,6 @@ nltk.data.load('corpora/cookbook/synonyms.yaml')
 
 **输出:**
 
-```
+```py
 {'bday': 'birthday'}
 ```

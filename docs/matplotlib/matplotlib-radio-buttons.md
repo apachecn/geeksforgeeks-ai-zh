@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules as numpy,
 # matplotlib and radiobutton widget
 import numpy as np
@@ -66,7 +66,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import RadioButtons
@@ -115,7 +115,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import RadioButtons

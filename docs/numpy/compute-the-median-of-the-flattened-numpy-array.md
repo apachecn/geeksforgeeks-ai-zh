@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```py
 numpy.median(arr, axis = None)
 ```
 
@@ -28,7 +28,7 @@ numpy.median(arr, axis = None)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as library
 import numpy as np
 
@@ -47,7 +47,7 @@ print(med_odd)
 
 **输出:**
 
-```
+```py
 Printing the Original array:
 [1 2 3 4 5 6 7]
 
@@ -60,7 +60,7 @@ Median of the array that contains odd no of elements:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as library
 import numpy as np
 
@@ -79,7 +79,7 @@ print(med_even)
 
 **输出:**
 
-```
+```py
 Printing the Original array:
 [1 2 3 4 5 6 7 8]
 

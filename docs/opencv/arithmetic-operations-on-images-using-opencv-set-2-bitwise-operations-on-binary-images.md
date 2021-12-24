@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise AND of two images
@@ -78,7 +78,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise OR of two images
@@ -123,7 +123,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise XOR of two images
@@ -167,7 +167,7 @@ if cv2.waitKey(0) & 0xff == 27:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # arithmetic operation of
 # bitwise NOT on input image

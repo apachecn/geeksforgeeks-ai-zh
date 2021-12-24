@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as npy
 
 # creating a 2-d array
@@ -37,7 +37,7 @@ print(arr2.shape)
 
 **输出:**
 
-```
+```py
 (2, 4)
 (3, 4)
 
@@ -49,7 +49,7 @@ print(arr2.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as npy
 
 # creating an array of 6 dimension
@@ -66,7 +66,7 @@ print('shape of an array :', arr.shape)
 
 **输出:**
 
-```
+```py
 [[[[[[ 2  4  6  8 10]]]]]]
 shape of an array : (1, 1, 1, 1, 1, 5)
 

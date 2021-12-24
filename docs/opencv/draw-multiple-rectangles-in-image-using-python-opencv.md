@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing OpenCV(cv2) module
 import cv2
 

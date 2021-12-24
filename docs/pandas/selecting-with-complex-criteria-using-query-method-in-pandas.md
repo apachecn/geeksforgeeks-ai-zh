@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame([[10, 20, 30, 40], [70, 14, 21, 80], 
@@ -36,7 +36,7 @@ print(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame([[100, 200, 300], [70, 140, 210], 
@@ -62,7 +62,7 @@ print(df1)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame([[1000, 2000, 3000, 4000], [7000, 1400, 2100, 2800], 

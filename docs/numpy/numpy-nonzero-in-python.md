@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # nonzero() function
 
@@ -39,7 +39,7 @@ print ("Indices of non zero elements : ", out_tpl) 
 
 **代码#2 :**
 
-```
+```py
 # Python program for getting
 # The corresponding non-zero values:
 out_arr = arr[geek.nonzero(arr)]
@@ -49,14 +49,14 @@ print ("Output array of non-zero number: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Output array of non-zero number:  [ 8  7 -5  1]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program for grouping the indices
 # by element, rather than dimension
 
@@ -67,7 +67,7 @@ print ("indices of non-zero number: \n", out_ind) 
 
 **输出:**
 
-```
+```py
 indices of non-zero number: 
  [[0 1]
  [1 0]

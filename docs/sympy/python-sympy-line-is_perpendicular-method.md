@@ -4,7 +4,7 @@
 
 In Sympy, the function `is_perpendicular()` is used to check whether the two linear entities are perpendicular or not.
 
-```
+```py
 Syntax: Line.is_perpendicular(l2)
 
 Parameters:
@@ -18,7 +18,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -34,13 +34,13 @@ print(isPerpendicular)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -56,6 +56,6 @@ print(isPerpendicular)
 
 **输出:**
 
-```
+```py
 False
 ```

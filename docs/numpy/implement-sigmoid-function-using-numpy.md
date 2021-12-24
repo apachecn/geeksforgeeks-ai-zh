@@ -8,7 +8,7 @@
 
 > ![](img/3d218fe234d73e2101382a897affc3d7.png)
 
-```
+```py
 # Import matplotlib, numpy and math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -30,7 +30,7 @@ plt.show()
 
 **示例#1 :**
 
-```
+```py
 # Import matplotlib, numpy and math
 import matplotlib.pyplot as plt
 import numpy as np

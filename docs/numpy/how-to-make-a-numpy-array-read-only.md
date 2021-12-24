@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 array.flags.writable=False
 ```
 
@@ -16,7 +16,7 @@ array.flags.writable=False
 
 ## 蟒蛇
 
-```
+```py
 import numpy as np
 
 a = np.zeros(11)
@@ -34,7 +34,7 @@ a[1] = 7
 
 **输出:**
 
-```
+```py
 Before any change
 [0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0.]
 Before after first change

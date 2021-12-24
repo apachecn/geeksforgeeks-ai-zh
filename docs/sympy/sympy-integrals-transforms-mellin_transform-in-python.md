@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`transforms.mellin_transform()`方法，我们能够计算梅林变换，并返回基本条带和辅助收敛条件。
 
-```
+```py
 # import mellin_transform
 from sympy.integrals.transforms import mellin_transform
 from sympy import exp
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import mellin_transform
 from sympy.integrals.transforms import mellin_transform
 from sympy import exp

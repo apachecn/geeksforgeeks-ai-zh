@@ -10,7 +10,7 @@
 
 **代码#1:换位()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.transpositions()
 
@@ -37,7 +37,7 @@ print ("Permutation b - transpositions form : ", b.transpositions())
 
 **代码#2:换位()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.transpositions()
 

@@ -23,7 +23,7 @@ Pandas `**dataframe.corr()**`用于查找数据帧中所有列的成对相关性
 
 **示例#1:** 使用`corr()`函数，使用“皮尔逊”方法查找数据框中各列之间的相关性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df[:10]
 
 现在使用`corr()`函数找到列之间的相关性。数据框中只有四个数字列。
 
-```
+```py
 # To find the correlation among
 # the columns using pearson method
 df.corr(method ='pearson')
@@ -51,7 +51,7 @@ df.corr(method ='pearson')
 
 **示例#2:** 使用`corr()`函数，使用“肯德尔”方法查找数据框中各列之间的相关性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

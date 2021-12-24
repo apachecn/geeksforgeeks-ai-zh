@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import modules
 import numpy as np
 import urllib.request
@@ -48,7 +48,7 @@ with urllib.request.urlopen(url) as resp:
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary modules
 import numpy as np
 import urllib.request

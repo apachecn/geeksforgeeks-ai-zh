@@ -11,7 +11,7 @@
 
 要安装 bokeh 包，请在终端中运行以下命令:
 
-```
+```py
 pip install bokeh
 ```
 
@@ -20,7 +20,7 @@ pip install bokeh
 **代码#1:** 散点标记
 要创建散点圆形标记，请使用圆形()方法。
 
-```
+```py
 # import modules
 from bokeh.plotting import figure, output_notebook, show
 
@@ -46,7 +46,7 @@ show(p) 
 **代码#2:** 单行
 要创建单行，使用 line()方法。
 
-```
+```py
 # import modules
 from bokeh.plotting import figure, output_notebook, show
 
@@ -70,7 +70,7 @@ show(p)
 **代码#3:** 条形图
 条形图用矩形条表示分类数据。条形的长度与所表示的值成比例。
 
-```
+```py
 # import necessary modules
 import pandas as pd
 from bokeh.charts import Bar, output_notebook, show
@@ -96,7 +96,7 @@ show(p)
 **代码#4:** 箱线图
 箱线图用于表示图中的统计数据。它有助于总结数据中存在的各种数据组的统计属性。
 
-```
+```py
 # import necessary modules
 from bokeh.charts import BoxPlot, output_notebook, show
 import pandas as pd
@@ -122,7 +122,7 @@ show(p)
 **代码#5:** 直方图
 直方图用于表示数值数据的分布。直方图中矩形的高度与类间隔中值的出现频率成正比。
 
-```
+```py
 # import necessary modules
 from bokeh.charts import Histogram, output_notebook, show
 import pandas as pd
@@ -148,7 +148,7 @@ show(p) 
 **代码#6:** 散点图
 散点图用于绘制数据集中两个变量的值。它有助于找到所选的两个变量之间的相关性。
 
-```
+```py
 # import necessary modules
 from bokeh.charts import Scatter, output_notebook, show
 import pandas as pd

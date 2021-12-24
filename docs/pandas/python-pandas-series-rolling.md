@@ -21,7 +21,7 @@
 
 **示例#1:** 使用`Series.rolling()`函数为给定的 Series 对象查找基础数据的滚动窗口总和。滚动窗口的大小应为 2，每个元素的权重应相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.rolling()`函数来查找窗口大小为 2 的底层数据的总和。
 
-```
+```py
 # Find sum over a window size of 2
 result = sr.rolling(2).sum()
 
@@ -57,7 +57,7 @@ print(result)
 
 **示例#2:** 使用`Series.rolling()`函数查找给定 Series 对象的底层数据的滚动窗口和。滚动窗口的大小应为 2，滚动窗口类型应为“三角形”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.rolling()`函数来查找窗口大小为 2 的底层数据的总和。
 
-```
+```py
 # Find sum over a window size of 2
 # We have also provided the window type
 result = sr.rolling(2, win_type ='triang').sum()

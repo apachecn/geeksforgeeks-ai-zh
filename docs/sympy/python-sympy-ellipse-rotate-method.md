@@ -4,7 +4,7 @@
 
 In Sympy, the function `rotate()` is used to rotate the ellipse counterclockwise about the given point by the given angle.
 
-```
+```py
 Syntax: Ellipse.rotate(angle=0, pt=None)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns: rotated ellipse
 
 **示例#1:**
 
-```
+```py
 # import sympy and pi, Ellipse
 from sympy import Ellipse, pi
 
@@ -32,13 +32,13 @@ print(e1)
 
 **输出:**
 
-```
+```py
 Ellipse(Point2D(0, 1), 1, 2)
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and pi, Ellipse
 from sympy import Ellipse, pi
 
@@ -53,6 +53,6 @@ print(e2)
 
 **输出:**
 
-```
+```py
 Ellipse(Point2D(3, 2), 1, 2)
 ```

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.ntheory.primetest.is_square()`方法，我们能够发现作为参数传递的整数是否为完美平方。
 
-```
+```py
 # import sympy
 from sympy.ntheory.primetest import is_square
 
@@ -22,14 +22,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 True
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy.ntheory.primetest import is_square
 
@@ -41,7 +41,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 False
 
 ```

@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，我们能够借助方法`matrix.getI()`得到乘法逆。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 0.1875 -0.0625]
  [-0.125   0.375 ]]
 
@@ -34,7 +34,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ -4.50359963e+15   9.00719925e+15  -4.50359963e+15]
  [  9.00719925e+15  -1.80143985e+16   9.00719925e+15]
  [ -4.50359963e+15   9.00719925e+15  -4.50359963e+15]]

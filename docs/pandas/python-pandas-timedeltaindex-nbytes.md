@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.nbytes**`属性返回时间增量索引对象占用的�
 
 **示例#1:** 使用`TimedeltaIndex.nbytes`属性找出时间增量索引对象占用的字节数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将打印 tidx 对象获取的字节数。
 
-```
+```py
 # find the size of tidx object in bytes
 tidx.nbytes
 ```
@@ -40,7 +40,7 @@ tidx.nbytes
 
 **示例 2:** 使用`TimedeltaIndex.nbytes`属性找出 TimedeltaIndex 对象每个条目的纳秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将打印 tidx 对象获取的字节数。
 
-```
+```py
 # find the size of tidx object in bytes
 tidx.nbytes
 ```

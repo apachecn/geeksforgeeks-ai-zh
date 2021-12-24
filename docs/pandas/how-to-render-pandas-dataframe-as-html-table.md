@@ -13,7 +13,7 @@ Python 中的 Pandas 能够将 Pandas 数据帧转换为 HTML 网页中的表格
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing pandas as pd
 import pandas as pd
 from IPython.display import HTML
@@ -41,14 +41,14 @@ display(df)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *result = df.to_html()
 print(result)*
 ```
 
 ***输出:***
 
-```
+```py
 *<table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -103,7 +103,7 @@ print(result)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *html = df.to_html()
 
 # write html to file
@@ -122,7 +122,7 @@ text_file.close()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *HTML(df.to_html(classes='table table-striped'))*
 ```
 

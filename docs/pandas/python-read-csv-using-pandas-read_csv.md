@@ -5,7 +5,7 @@
 Python 是进行数据分析的优秀语言，主要是因为以数据为中心的 python 包的奇妙生态系统。Pandas 就是其中之一，它让数据的导入和分析变得更加容易。
 **进口熊猫:**
 
-```
+```py
 import pandas as pd
 ```
 
@@ -13,7 +13,7 @@ import pandas as pd
 
 ## PYTHON3
 
-```
+```py
 # Import pandas
 import pandas as pd
 

@@ -11,7 +11,7 @@
 
 In the given example we can see that the `sympy.Matrix().row()` method is used to extract the rows of a matrix.
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 
@@ -27,7 +27,7 @@ print(gfg_val)
 
 **例 2 :**
 
-```
+```py
 from sympy import *
 
 # use the row() method for matrix

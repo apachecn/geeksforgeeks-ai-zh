@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.count_nonzero() function
 
@@ -30,14 +30,14 @@ print (gfg) 
 
 **输出:**
 
-```
+```py
 6
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.count_nonzero() function
 
@@ -53,7 +53,7 @@ print (gfg) 
 
 **输出:**
 
-```
+```py
 7
 
 ```

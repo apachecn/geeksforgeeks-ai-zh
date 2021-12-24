@@ -10,7 +10,7 @@ Python 有很多流行的绘图库，可以轻松实现可视化。其中一些�
 
 ## 计算机编程语言
 
-```
+```py
 # importing required library
 # In case pandas is not installed on your machine
 # use the command 'pip install pandas'. 
@@ -46,14 +46,14 @@ df.head()
 
 为了获得数据帧的散点图，我们所要做的就是通过指定一些参数来调用 **plot()** 方法。
 
-```
+```py
 kind='scatter',x= 'some_column',y='some_colum',color='somecolor'
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # scatter plot
 df.plot(kind = 'scatter',
         x = 'math_marks',
@@ -77,14 +77,14 @@ plt.show()
 
 同样，我们也要为 **plot()** 方法指定一些参数，才能得到条形图。
 
-```
+```py
 kind='bar',x= 'some_column',y='some_colum',color='somecolor'
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # bar plot
 df.plot(kind = 'bar',
         x = 'name',
@@ -110,7 +110,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Get current axis
 ax = plt.gca() 
 

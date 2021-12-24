@@ -34,7 +34,7 @@ Bokeh 是一款 Python 交互数据可视化。它使用 HTML 和 JavaScript 来
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.colors import HSL
@@ -77,7 +77,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.colors import RGB
@@ -132,7 +132,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 from bokeh.colors.groups import purple, yellow, blue

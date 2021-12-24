@@ -14,7 +14,7 @@
 
 **步骤 1:** 为 python venv 模型创建一个虚拟环境。
 
-```
+```py
 sudo apt install python3-venv python3-dev
 ```
 
@@ -22,7 +22,7 @@ sudo apt install python3-venv python3-dev
 
 **步骤 2:** 创建 python 3 虚拟环境。
 
-```
+```py
 mkdir tensor
 cd tensor/
 python3 -m venv <virtual_environment_name>
@@ -32,7 +32,7 @@ python3 -m venv <virtual_environment_name>
 
 **步骤 3:** 现在在虚拟环境中检查 pip 版本。
 
-```
+```py
 pip --version
 ```
 
@@ -40,7 +40,7 @@ pip --version
 
 这里我们的 pip 是 9，因此我们需要使用升级来升级 pip:
 
-```
+```py
 pip install --upgrade pip
 ```
 
@@ -48,7 +48,7 @@ pip install --upgrade pip
 
 **步骤 4:** 使用 pip 安装 TensorFlow:
 
-```
+```py
 pip install --upgrade tensorflow
 ```
 
@@ -56,7 +56,7 @@ pip install --upgrade tensorflow
 
 **第五步:**检查安装是否正确。
 
-```
+```py
 import tensorflow as tf
 print(tf.__version__);
 ```

@@ -8,7 +8,7 @@
 
 在你的电脑上安装 Matplotlib 非常容易，你只需要打开命令提示符，给出如下命令:
 
-```
+```py
 python -m pip install -U matplotlib
 ```
 

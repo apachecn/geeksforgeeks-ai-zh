@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -45,7 +45,7 @@ python 中的 glob 模块用于检索与指定模式匹配的文件或路径名�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import glob
@@ -74,7 +74,7 @@ print(main_dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import glob

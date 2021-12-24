@@ -18,7 +18,7 @@
 **例#1:**
 在这个例子中我们可以看到，通过使用**sympy . powsim()**方法，我们可以使用涉及幂的指数定律来简化任何数学表达式。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -35,7 +35,7 @@ print("After Simplification : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Simplification : x**a*x**b
 After Simplification : x**(a + b)
 
@@ -43,7 +43,7 @@ After Simplification : x**(a + b)
 
 **例 2:**
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -60,7 +60,7 @@ print("After Simplification : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Simplification : x**(-a + b)*x**(2*a + b)
 After Simplification : x**(a + 2*b)
 

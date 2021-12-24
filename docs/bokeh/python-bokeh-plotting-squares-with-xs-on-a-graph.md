@@ -19,7 +19,7 @@ Bokeh 可以用来在图上用 Xs 绘制正方形。使用`plotting`模块的`sq
 
 **示例 1 :** 在本例中，我们将使用默认值绘制图表。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -45,7 +45,7 @@ show(graph)
 
 **示例 2 :** 在本例中，我们将使用各种其他参数绘制多个正方形
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 

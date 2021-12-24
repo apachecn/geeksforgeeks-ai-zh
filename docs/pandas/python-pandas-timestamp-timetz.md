@@ -14,7 +14,7 @@ Pandas `**Timestamp.timetz()**`函数返回时间对象，其时间和 tzinfo �
 
 **示例#1:** 使用`Timestamp.timetz()`函数返回包含给定时间戳对象的时间和时区信息的时间对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timetz()`函数来查找给定时间戳的时间和时区信息。
 
-```
+```py
 # return time object
 ts.timetz()
 ```
@@ -45,7 +45,7 @@ ts.timetz()
 
 **示例#2:** 使用`Timestamp.timetz()`函数返回包含给定时间戳对象的时间和时区信息的时间对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timetz()`函数来查找给定时间戳的时间和时区信息。
 
-```
+```py
 # return time object
 ts.timetz()
 ```

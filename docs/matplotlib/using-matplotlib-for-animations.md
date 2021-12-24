@@ -26,7 +26,7 @@ Matplotlib 中的动画可以通过两种方式使用`Animation`类制作:
 
 **注意:**要将动画保存到电脑，请使用 **`anim.save(filename)`** 或 **`Animation.to_html5_video`** 。
 
-```
+```py
 from matplotlib import pyplot as plt
 import numpy as np
 from matplotlib.animation import FuncAnimation 
@@ -72,7 +72,7 @@ anim.save('continuousSineWave.mp4', 
 
 这是一个非常强大的可视化。需要注意的一点是，当我们查看保存的 gif 时，它将是一个连续的剪辑，不像我们输出中的视频会在几秒钟内终止。让我们再看一个例子。当我们编写程序时，试着猜测输出，因为它会澄清我们的概念。
 
-```
+```py
 import matplotlib.animation as animation 
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -123,13 +123,13 @@ anim.save('growingCoil.mp4', writer = 'ffmpeg', fps = 30)
 
 正如我们可能已经猜到的，正如保存的文件名所示，这是一个不断增长的线圈动画。和以前一样，我们首先导入所有模块。但是这次，我们完全导入了`matplotlib.animation`库
 
-```
+```py
 import matplotlib.animation as animation
 ```
 
 然而，在前面的例子中，我们只从其中导入了`FuncAnimation`函数
 
-```
+```py
 from matplotlib.animation import FuncAnimation
 ```
 

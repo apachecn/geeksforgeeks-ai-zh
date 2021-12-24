@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.to_series()`函数从给定的时间增量索引对象构建一个序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_series()`函数，使用 tidx 构造一个 Series 对象。
 
-```
+```py
 # return a series
 tidx.to_series()
 ```
@@ -46,7 +46,7 @@ tidx.to_series()
 
 **示例 2:** 使用`TimedeltaIndex.to_series()`函数从给定的时间增量索引对象构造一个序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.to_series()`函数，使用 tidx 构造一个 Series 对象。
 
-```
+```py
 # return a series
 tidx.to_series()
 ```

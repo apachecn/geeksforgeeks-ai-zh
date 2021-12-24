@@ -17,7 +17,7 @@
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_67:0", shape=(2, 2), dtype=int32)
 [[1 3]
  [6 7]]
@@ -56,7 +56,7 @@ Output:  Tensor("AccumulateNV2_2:0", shape=(2, 2), dtype=int32)
 
 **例 2:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -80,7 +80,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_73:0", shape=(2, 2), dtype=int32)
 [[2 4]
  [1 3]]

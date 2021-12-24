@@ -19,7 +19,7 @@ sklearn.linear_model。线性回归(拟合截距=真，归一化=假，复制 X 
 
 **代码:**利用线性回归预测公司利润
 
-```
+```py
 # Importing the libraries
 import numpy as np
 import pandas as pd
@@ -37,14 +37,14 @@ print("\nFirst 10 Input Values : \n", x[0:10, :])
 
 ![](img/b00ae603df8c7892b12ffb5a1ead4228.png)
 
-```
+```py
 print ("Dataset Info : \n")
 print (dataset.info())
 ```
 
 ![](img/183347ff192a0535712ae10af387ffd9.png)
 
-```
+```py
 # Input values
 x = dataset.iloc[:, :-1].values
 print("\nFirst 10 Input Values : \n", x[0:10, :])
@@ -58,7 +58,7 @@ print("\n\nFirst 10 Output true value : \n", y1[0:10, :])
 
 ![](img/84a43e056894f5fd98d2ab928c60d38e.png)
 
-```
+```py
 # Dividing input and output data to train and test data
 # Training : Testing = 80 : 20
 from sklearn.cross_validation import train_test_split

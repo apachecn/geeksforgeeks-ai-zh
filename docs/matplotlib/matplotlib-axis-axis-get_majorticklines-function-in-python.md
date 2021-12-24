@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ major clinicnes()函数**用�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -50,7 +50,7 @@ plt.show()
 
 ![](img/abf6222b0e095f7459f93cc7f814689e.png)
 
-```
+```py
 Value of get_majorticklines() :
 Line2D((0,0))
 Line2D()
@@ -71,7 +71,7 @@ Line2D()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -105,7 +105,7 @@ plt.show()
 
 ![](img/f207a1a18c00950fc9a0ce37141995d7.png)
 
-```
+```py
 Value of get_majorticklines() :
 Line2D()
 Line2D()

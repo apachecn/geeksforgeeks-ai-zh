@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.insert()`函数在时间增量索引对象中插入新值。它返回一个新对象，新元素被插入到所需的位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.insert()`函数在第 0 个位置插入一个值
 
-```
+```py
 # insert the passed value at 0th position
 tidx.insert(loc = 0, item ='4 days 06:05:01.000030')
 ```
@@ -45,7 +45,7 @@ tidx.insert(loc = 0, item ='4 days 06:05:01.000030')
 
 **示例 2:** 使用`TimedeltaIndex.insert()`函数在时间增量索引对象中插入新值。它返回一个新对象，新元素被插入到所需的位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.insert()`函数在第 0 个位置插入一个值
 
-```
+```py
 # insert the passed value at 0th position
 tidx.insert(loc = 0, item ='100 days 08:11:01.000030')
 ```

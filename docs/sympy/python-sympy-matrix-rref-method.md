@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -25,7 +25,7 @@ print("The Row echelon form of matrix M and the pivot columns : {}".format(M_rre
 
 **输出:**
 
-```
+```py
 Matrix : Matrix([[1, 0, 1, 3], [2, 3, 4, 7], [-1, -3, -3, -4]]) 
 The Row echelon form of matrix M and the pivot columns : (Matrix([
 [1, 0,   1,   3],
@@ -36,7 +36,7 @@ The Row echelon form of matrix M and the pivot columns : (Matrix([
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -51,7 +51,7 @@ print("The Row echelon form of matrix M and the pivot columns : {}".format(M_rre
 
 **输出:**
 
-```
+```py
 Matrix : Matrix([[14, 0, 11, 3], [22, 23, 4, 7], [-12, -34, -3, -4]]) 
 The Row echelon form of matrix M and the pivot columns : (Matrix([
 [1, 0, 0, 1405/4254],

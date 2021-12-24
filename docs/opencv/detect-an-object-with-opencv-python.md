@@ -22,14 +22,14 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 *   在终端运行以下命令安装 opencv。
 
-    ```
+    ```py
     pip install opencv-python
 
     ```
 
 *   运行以下命令在终端安装 matplotlib。
 
-    ```
+    ```py
     pip install matplotlib
 
     ```
@@ -46,7 +46,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 **打开图像**
 
-```
+```py
 import cv2
 from matplotlib import pyplot as plt
 
@@ -75,7 +75,7 @@ plt.show()
 
 我们将使用 OpenCV 的`detectMultiScale()`功能来识别大标志和小标志:
 
-```
+```py
 # Use minSize because for not 
 # bothering with extra-small 
 # dots that would look like STOP signs
@@ -101,7 +101,7 @@ if amount_found != 0:
 
 **以下是懒人开发者的完整脚本:**
 
-```
+```py
 import cv2
 from matplotlib import pyplot as plt
 

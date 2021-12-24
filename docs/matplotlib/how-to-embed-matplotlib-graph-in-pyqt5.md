@@ -26,7 +26,7 @@
 
 下面是实现
 
-```
+```py
 # importing various libraries
 import sys
 from PyQt5.QtWidgets import QDialog, QApplication, QPushButton, QVBoxLayout

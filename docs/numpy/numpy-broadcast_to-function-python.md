@@ -20,7 +20,7 @@ numpy.broadcast_to()函数将数组广播到新的形状。
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program explaining
 # numpy.broadcast_to() function
 
@@ -48,7 +48,7 @@ print(gfg)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program explaining
 # numpy.broadcast_to() function
 

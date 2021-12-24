@@ -10,7 +10,7 @@
 
 **代码#1:** **创建简单系列**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -22,7 +22,7 @@ print(auth_series)
 
 **输出:**
 
-```
+```py
 0    Jitender
 1     Purnima
 2       Arpit
@@ -33,7 +33,7 @@ dtype: object
 
 **我们来看看系列的类型:**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -45,14 +45,14 @@ print(type(auth_series))
 
 **输出:**
 
-```
+```py
 <class 'pandas.core.series.Series'>
 
 ```
 
 **代码#2:** **从系列**创建数据框
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -71,7 +71,7 @@ print(result)
 
 **输出:**
 
-```
+```py
      Author  Article
 0  Jitender      210
 1   Purnima      211
@@ -85,7 +85,7 @@ print(result)
 
 **代码#3:** **如何在数据框**外部添加系列
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -107,7 +107,7 @@ print(result)
 
 **输出:**
 
-```
+```py
      Author  Article  Age
 0  Jitender      210   21
 1   Purnima      211   21
@@ -121,7 +121,7 @@ print(result)
 
 **代码#4:** **数据框中缺少值**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -143,7 +143,7 @@ print(result)
 
 **输出:**
 
-```
+```py
      Author  Article   Age
 0  Jitender      210  21.0
 1   Purnima      211  21.0
@@ -156,7 +156,7 @@ print(result)
 
 使用`plot.bar()`我们创建了一个条形图。
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 

@@ -8,7 +8,7 @@
 
 **参数:**
 
-```
+```py
 arr1     : [array_like]Input array or object which works as base.
 arr2     : [array_like]Input array or object which works as exponent. 
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
@@ -23,14 +23,14 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with elements of arr1 raised to exponents in arr2
 
 ```
 
 **代码 1 : arr1 升至 arr2**
 
-```
+```py
 # Python program explaining
 # float_power() function
 import numpy as np
@@ -48,7 +48,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 2, 2, 2, 2]
 arr1         :  [2, 3, 4, 5, 6]
 
@@ -58,7 +58,7 @@ Output array :  [  4\.   8\.  16\.  32\.  64.]
 
 **代码 arr1 的元素提升到指数 2**
 
-```
+```py
 # Python program explaining
 # float_power() function
 import numpy as np
@@ -75,7 +75,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [0 1 2 3 4 5 6 7]
 
 Output array :  [  0\.   1\.   4\.   9\.  16\.  25\.  36\.  49.]
@@ -83,7 +83,7 @@ Output array :  [  0\.   1\.   4\.   9\.  16\.  25\.  36\.  49.]
 
 **代码 3:如果 arr2 有-ve 元素**则 float_power 处理结果
 
-```
+```py
 # Python program explaining
 # float_power() function
 import numpy as np
@@ -101,7 +101,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 2, 2, 2, 2]
 arr2         :  [2, -3, 4, -5, 6]
 

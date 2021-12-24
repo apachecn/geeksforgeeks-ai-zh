@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermeval()`方法，我们能够用这个方法来计算 x 上的 hermite 级数。
 
-```
+```py
 # import numpy and hermeval
 import numpy as np
 from numpy.polynomial.hermite import hermeval
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermeval
 import numpy as np
 from numpy.polynomial.hermite_e import hermeval

@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，创建了一个类似于“团队”列的新系列，它在字符串的开头和结尾都有 2 个空格。之后，应用 **`str.lstrip()`** 方法，并对左侧空格被删除的自定义字符串进行检查。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -41,7 +41,7 @@ new.str.lstrip()=="Boston Celtics  "
 
 在本例中，`str.strip()` 方法用于删除字符串左侧和右侧的空格。将创建一个新的团队列副本，在开始和结束处都有 2 个空格。然后在那个系列上调用`str.strip()`方法。之后与“波士顿凯尔特人”、“波士顿凯尔特人”和“波士顿凯尔特人”进行比较，检查两边的空位是否被移除。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -65,7 +65,7 @@ new.str.strip()=="  Boston Celtic  "
 
 在本例中，创建了一个类似于“团队”列的新系列，它在字符串的开头和结尾都有 2 个空格。之后，应用`str.rstrip()`方法，并对照右侧空格已移除的自定义字符串进行检查。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

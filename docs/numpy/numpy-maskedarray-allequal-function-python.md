@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.allequal() method 
 
@@ -48,7 +48,7 @@ print ("Output array : ", out_arr)
 
 **Output:**
 
-```
+```py
 1st Input array :  [ 1.0e+08  1.0e-05 -1.5e+01]
 1st Masked array :  [100000000.0 1e-05 --]
 2nd Input array :  [1.0e+08 1.0e-05 1.5e+01]
@@ -59,7 +59,7 @@ Output array :  False
 
 **代码#2 :**
 
-```
+```py
 # importing numpy as geek 
 # and numpy.ma module as ma
 import numpy as geek
@@ -87,7 +87,7 @@ print ("Output  array : ", out_arr)
 
 **Output:**
 
-```
+```py
 1st Input array :  [ 2.0e+08  3.0e-05 -4.5e+01]
 1st Masked array :  [200000000.0 3e-05 --]
 2nd Input array :  [2.0e+08 3.0e-05 1.5e+01]

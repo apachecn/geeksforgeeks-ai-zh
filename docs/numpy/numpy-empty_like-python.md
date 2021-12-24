@@ -5,7 +5,7 @@
 **numpy.empty_like(a，dtype = None，order = 'K '，subok = True) :** 返回与给定数组具有相同形状和类型的新数组。
 T3】参数:
 
-```
+```py
 shape : Number of rows
 order : C_contiguous or F_contiguous
 dtype : [optional, float(by Default)] Data type of returned array.  
@@ -15,11 +15,11 @@ subok : [bool, optional] to make subclass of a or not
 
 **返回:**
 
-```
+```py
 array with the same shape and type as a given array.
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.empty_like method
 
@@ -34,7 +34,7 @@ print("\nMatrix c : \n", geek.empty_like(c))
 
 **输出:**
 
-```
+```py
 Matrix a : 
  [  16843008 1058682594]
 

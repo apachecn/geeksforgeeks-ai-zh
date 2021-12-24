@@ -40,7 +40,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import SpectralClustering
@@ -51,7 +51,7 @@ from sklearn.metrics import silhouette_score
 
 **第二步:加载和清理数据**
 
-```
+```py
 # Changing the working location to the location of the data
 cd "C:\Users\Dev\Desktop\Kaggle\Credit_Card"
 
@@ -71,7 +71,7 @@ X.head()
 
 **第三步:对数据进行预处理，使数据可视化**
 
-```
+```py
 # Preprocessing the data to make it visualizable
 
 # Scaling the Data
@@ -101,7 +101,7 @@ X_principal.head()
 
 a) **亲和力= 'rbf'**
 
-```
+```py
 # Building the clustering model
 spectral_model_rbf = SpectralClustering(n_clusters = 2, affinity ='rbf')
 
@@ -109,7 +109,7 @@ spectral_model_rbf = SpectralClustering(n_clusters = 2, affinity ='rbf')
 labels_rbf = spectral_model_rbf.fit_predict(X_principal)
 ```
 
-```
+```py
 # Building the label to colour mapping
 colours = {}
 colours[0] = 'b'
@@ -133,7 +133,7 @@ plt.show()
 
 b) **亲和力= '最近邻'**
 
-```
+```py
 # Building the clustering model
 spectral_model_nn = SpectralClustering(n_clusters = 2, affinity ='nearest_neighbors')
 
@@ -145,7 +145,7 @@ labels_nn = spectral_model_nn.fit_predict(X_principal)
 
 **第五步:评估绩效**
 
-```
+```py
 # List of different values of affinity
 affinity = ['rbf', 'nearest-neighbours']
 
@@ -163,7 +163,7 @@ print(s_scores)
 
 **第六步:性能对比**
 
-```
+```py
 # Plotting a Bar Graph to compare the models
 plt.bar(affinity, s_scores)
 plt.xlabel('Affinity')

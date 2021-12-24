@@ -28,7 +28,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing numpy package and other libraries
 import numpy as np
 from bokeh.io import curdoc, show
@@ -112,7 +112,7 @@ show(plot)
 
 ## 计算机编程语言
 
-```
+```py
 # importing numpy package and other libraries
 import numpy as np
 from bokeh.io import curdoc, show

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.is_monotonic_decreasing`属性找出给定索引对象中的底层数据是否单调递减。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.is_monotonic_decreasing`属性来找出给定 Index 对象中的底层数据是否单调递减。
 
-```
+```py
 # check if the values in the Index
 # are monotonically decreasing 
 result = idx.is_monotonic_decreasing
@@ -45,7 +45,7 @@ print(result)
 
 **示例 2 :** 使用`Index.is_monotonic_decreasing`属性找出给定索引对象中的底层数据是否单调递减。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(idx)
 
 现在我们将使用`Index.is_monotonic_decreasing`属性来找出给定 Index 对象中的底层数据是否单调递减。
 
-```
+```py
 # check if the values in the Index
 # are monotonically decreasing 
 result = idx.is_monotonic_decreasing

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import all libraries
 import pandas as pd
 import numpy as np
@@ -44,7 +44,7 @@ from sklearn.preprocessing import StandardScaler
 
 ## 蟒蛇 3
 
-```
+```py
 #import the breast _cancer dataset
 from sklearn.datasets import load_breast_cancer
 data=load_breast_cancer()
@@ -71,7 +71,7 @@ print(data['feature_names'])
 
 ## 蟒蛇 3
 
-```
+```py
 # construct a dataframe using pandas
 df1=pd.DataFrame(data['data'],columns=data['feature_names'])
 
@@ -93,7 +93,7 @@ print(x.shape)
 
 **输出:**
 
-```
+```py
 (569,3)
 ```
 
@@ -103,7 +103,7 @@ principal.components_ 提供一个数组，其中行数表示主成分的数量�
 
 ## 蟒蛇 3
 
-```
+```py
 # Check the values of eigen vectors
 # prodeced by principal components
 principal.components_
@@ -117,7 +117,7 @@ principal.components_
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize=(10,10))
 plt.scatter(x[:,0],x[:,1],c=data['target'],cmap='plasma')
 plt.xlabel('pc1')
@@ -132,7 +132,7 @@ plt.ylabel('pc2')
 
 ## 蟒蛇 3
 
-```
+```py
 # import relevant libraries for 3d graph
 from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure(figsize=(10,10))
@@ -157,13 +157,13 @@ explained _ variation _ ratio 提供了主成分解释多少变化的概念。
 
 ## 蟒蛇 3
 
-```
+```py
 # check how much variance is explained by each principal component
 print(principal.explained_variance_ratio_)
 ```
 
 **输出:**
 
-```
+```py
 array([0.44272026, 0.18971182, 0.09393163])
 ```

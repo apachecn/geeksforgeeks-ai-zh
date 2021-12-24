@@ -5,7 +5,7 @@
 先决条件:[词干入门](https://www.geeksforgeeks.org/introduction-to-stemming/)
 词干是产生词根/基本词的形态变体的过程。词干程序通常被称为词干算法或词干分析器。词干算法将单词“巧克力”、“巧克力”、“巧克力”简化为词根单词，“巧克力”和“检索”、“检索”、“检索”简化为词干“检索”。
 
-```
+```py
 Some more example of stemming for root word "like" include:
 
 -> "likes"
@@ -30,7 +30,7 @@ Some more example of stemming for root word "like" include:
 
 ## 蟒蛇 3
 
-```
+```py
 # import these modules
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
@@ -46,7 +46,7 @@ for w in words:
 
 **输出:**
 
-```
+```py
 program  :  program
 programs  :  program
 programmer  :  program
@@ -58,7 +58,7 @@ programmers  :  program
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
@@ -74,7 +74,7 @@ for w in words:
 
 **输出:**
 
-```
+```py
 Programmers  :  program
 program  :  program
 with  :  with

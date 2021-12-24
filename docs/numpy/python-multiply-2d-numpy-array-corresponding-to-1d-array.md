@@ -6,7 +6,7 @@
 
 **方法#1:使用 np.newaxis()**
 
-```
+```py
 # Python code to demonstrate
 # multiplication of 2d array
 # with 1d array
@@ -28,7 +28,7 @@ print("New resulting array: ", result)
 
 **输出:**
 
-```
+```py
 initial array [[1 2 3]
  [2 4 5]
  [1 2 3]]

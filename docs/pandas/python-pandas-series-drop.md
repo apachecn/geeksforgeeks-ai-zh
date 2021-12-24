@@ -20,7 +20,7 @@
 
 **示例#1:** 使用`Series.drop()`函数删除给定序列对象中与传递的索引标签相对应的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 现在我们将使用`Series.drop()`函数删除给定序列对象中与传递的索引标签相对应的值。
 
-```
+```py
 # drop the passed labels
 result = sr.drop(labels = ['Sprite', 'Dew']) 
 
@@ -57,7 +57,7 @@ print(result)
 
 **示例 2 :** 使用`Series.drop()`函数删除给定序列对象中与传递的索引标签相对应的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.drop()`函数删除给定序列对象中与传递的索引标签相对应的值。
 
-```
+```py
 # drop the passed labels
 result = sr.drop(labels = [pd.Timestamp('2010-12-31'),
                            pd.Timestamp('2011-04-30'), pd.Timestamp('2011-08-31')])

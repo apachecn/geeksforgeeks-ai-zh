@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to draw solid-colored
 # image using numpy.zeroes() function
 import numpy as np
@@ -46,7 +46,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to draw line
 # shape on solid image
 import numpy as np
@@ -77,7 +77,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to draw rectangle
 # shape on solid image
 import numpy as np
@@ -108,7 +108,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to draw circle
 # shape on solid image
 import numpy as np
@@ -139,7 +139,7 @@ cv2.destroyAllWindows()
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 program to write 
 # text on solid image
 import numpy as np

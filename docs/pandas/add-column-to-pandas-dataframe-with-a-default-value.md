@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -53,7 +53,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 new_df = df.assign(profit=[40000, 20000, 30000, 60000, 200000])
 new_df
 ```
@@ -66,7 +66,7 @@ new_df
 
 ## 蟒蛇 3
 
-```
+```py
 new_df = df.assign(profit='NAN')
 new_df
 ```
@@ -81,7 +81,7 @@ new_df
 
 **语法:**
 
-```
+```py
 df[col_name]=value
 
 ```
@@ -90,7 +90,7 @@ df[col_name]=value
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -117,7 +117,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 df['loss'] = [40000, 20000, 30000, 60000, 200000]
 df
 ```
@@ -130,7 +130,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df['loss'] = 'NAN'
 df
 ```
@@ -159,7 +159,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -186,7 +186,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 df.insert(2, "expenditure", 4500, allow_duplicates=False)
 df
 ```

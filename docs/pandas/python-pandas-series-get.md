@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.get()`函数获取给定序列对象中传递的索引标签的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 ![](img/6a30eac27fdf7531f13988ddcf13d3f4.png)
 现在我们将使用`Series.get()`函数返回给定序列对象中传递的索引标签的值。
 
-```
+```py
 # return the value corresponding to
 # the passe index label
 result = sr.get(key = 'City 3')
@@ -51,7 +51,7 @@ print(result)
 
 **示例 2 :** 使用`Series.get()`函数获取给定序列对象中传递的索引标签的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.get()`函数返回给定序列对象中传递的索引标签的值。
 
-```
+```py
 # return the value corresponding to
 # the passe index label
 result = sr.get(key = '2011-03-31')

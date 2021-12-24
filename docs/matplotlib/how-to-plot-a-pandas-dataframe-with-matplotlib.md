@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 # importing matplotlib library
@@ -53,7 +53,7 @@ df.plot(x="Name", y="Age", kind="bar")
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 # importing matplotlib library
@@ -85,7 +85,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 # importing matplotlib library

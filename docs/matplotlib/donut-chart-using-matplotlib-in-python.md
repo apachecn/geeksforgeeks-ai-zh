@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Setting labels for items in Chart
@@ -66,7 +66,7 @@ plt.show()
 
 要添加图例，我们只需编写以下代码。
 
-```
+```py
 plt.legend(labels, loc = "upper right") 
 ```
 
@@ -76,7 +76,7 @@ plt.legend(labels, loc = "upper right")
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Setting size in Chart based on 
@@ -122,7 +122,7 @@ plt.show()
 
 我们可以通过编写以下代码来为圆环图中的图例框添加标题:
 
-```
+```py
 plt.legend(labels, loc = "upper right",title="Fruits Color")
 ```
 
@@ -130,7 +130,7 @@ plt.legend(labels, loc = "upper right",title="Fruits Color")
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Setting size in Chart based on 
@@ -178,7 +178,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # library
 import matplotlib.pyplot as plt
 

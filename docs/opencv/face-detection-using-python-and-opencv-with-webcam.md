@@ -31,7 +31,7 @@ OpenCV 是一个库，用于使用像 python 这样的编程语言进行图像�
 
 ## 计算机编程语言
 
-```
+```py
 # Creating database
 # It captures images and stores them in datasets
 # folder under the folder name of sub_data
@@ -83,7 +83,7 @@ while count < 30:
 
 ## 计算机编程语言
 
-```
+```py
 # It helps in identifying the faces
 import cv2, sys, numpy, os
 size = 4

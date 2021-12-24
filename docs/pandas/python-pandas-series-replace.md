@@ -20,7 +20,7 @@ Pandas `**Series.replace()**`函数用于将 to_replace 中给出的值替换为
 
 **示例#1:** 使用`Series.replace()`函数替换给定序列对象中的一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(sr)
 
 现在我们将使用`Series.replace()`函数用新值替换旧值。
 
-```
+```py
 # replace 3 by 1000
 result = sr.replace(to_replace = 3, value = 1000)
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例 2 :** 使用`Series.replace()`函数替换给定序列对象中的一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(sr)
 
 现在我们将使用`Series.replace()`函数，使用列表用新值替换旧值。
 
-```
+```py
 # replace the old ones in the list with 
 # the new values
 result = sr.replace(to_replace = ['New York', 'Rio'], value = ['London', 'Brisbane'])

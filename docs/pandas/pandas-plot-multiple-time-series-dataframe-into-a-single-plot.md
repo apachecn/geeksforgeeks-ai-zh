@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Libraries
 
 # import pandas as pd
@@ -35,7 +35,7 @@ plt.style.use('default')
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # importing Data
 tesla = pd.read_csv('Tesla_Stock.csv',
@@ -52,7 +52,7 @@ tesla.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # importing data
 ford = pd.read_csv('Ford_Stock.csv',
@@ -69,7 +69,7 @@ ford.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # importing data
 gm = pd.read_csv('GM_Stock.csv',
@@ -87,7 +87,7 @@ gm.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Visualizing The Open Price of all the stocks
 
@@ -122,7 +122,7 @@ plt.legend()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Libraries
 
 # import pandas as pd
@@ -140,7 +140,7 @@ plt.style.use('default')
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 aapl = pd.read_csv('aapl.csv',
                    index_col='Date',
@@ -157,7 +157,7 @@ aapl.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Data
 msft = pd.read_csv('msft.csv', 
                    index_col='Date',
@@ -174,7 +174,7 @@ msft.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # Aligning index
 aapl["MSFT"] = msft.MSFT
 
@@ -192,7 +192,7 @@ aapl.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # Visualizing The Price of the stocks
 # to set the plot size
 plt.figure(figsize=(16, 8), dpi=150)

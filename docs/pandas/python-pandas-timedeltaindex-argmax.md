@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.argmax()`函数查找给定时间增量索引对象中最大值的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们打印 *tidx* 对象中最大值的索引。
 
-```
+```py
 # return the index of maximum value.
 tidx.argmax()
 ```
@@ -43,7 +43,7 @@ tidx.argmax()
 
 **示例 2:** 使用`TimedeltaIndex.argmax()`函数查找给定时间增量索引对象中最大值的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(tidx)
 ![](img/33758e3fb1552aa13211316292a6719a.png)
 现在我们将打印 *tidx* 对象中最大值的索引。
 
-```
+```py
 # return the index of maximum value.
 tidx.argmax()
 ```

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from mpl_toolkits.mplot3d import axes3d
 from matplotlib import pyplot
@@ -33,7 +33,7 @@ pyplot.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from mpl_toolkits import mplot3d
 import numpy

@@ -18,7 +18,7 @@ Bagging 分类器是一个集成元估计器，它将每个基础分类器放在
 
 Bagging 分类器的算法:
 
-```
+```py
 *Classifier generation:*
 
 Let N be the size of the training set.
@@ -38,7 +38,7 @@ return class that was predicted most often.
 
 下面是上面算法的 Python 实现:
 
-```
+```py
 from sklearn import model_selection
 from sklearn.ensemble import BaggingClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -73,7 +73,7 @@ print(results.mean())
 
 **输出:**
 
-```
+```py
 accuracy :
 0.8372093023255814
 

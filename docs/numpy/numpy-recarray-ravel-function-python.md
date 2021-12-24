@@ -23,7 +23,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.ravel() method 
 
@@ -56,7 +56,7 @@ print ("Output flattenrd int array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]
@@ -72,7 +72,7 @@ Output flattenrd int array :  [ 2 -4  9  1  4 -7]
 
 我们将`numpy.recarray.ravel()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.ravel() method 
 
@@ -98,7 +98,7 @@ print ("Output array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[( 5.,  2) ( 3.,  4) ( 6., -7)]
  [( 9.,  1) ( 6.,  4) (-2., -7)]]
 Output array :  [( 5.,  2) ( 3.,  4) ( 6., -7) ( 9.,  1) ( 6.,  4) (-2., -7)]

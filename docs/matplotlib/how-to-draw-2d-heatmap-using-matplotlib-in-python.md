@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot 2-D Heat map
 # using matplotlib.pyplot.imshow() method
 import numpy as np
@@ -39,7 +39,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot 2-D Heat map
 # using seaborn.heatmap() method
 import numpy as np
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot 2-D Heat map
 # using matplotlib.pyplot.pcolormesh() method
 import matplotlib.pyplot as plt

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import all important libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -36,7 +36,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all important libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -75,7 +75,7 @@ plt.ylabel("sepal.width")
 
 ## 蟒蛇 3
 
-```
+```py
 # import all important libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -113,7 +113,7 @@ plt.savefig("Bubble_plot_Seaborn_scatterplot.png",
 
 ## 蟒蛇 3
 
-```
+```py
 # import all important libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -162,7 +162,7 @@ plt.tight_layout()
 
 ## 蟒蛇 3
 
-```
+```py
 # import all important libraries
 import matplotlib.pyplot as plt
 import pandas as pd

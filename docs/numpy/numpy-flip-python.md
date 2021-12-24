@@ -4,13 +4,13 @@
 
 **numpy.flip()** 函数沿指定轴反转数组元素的顺序，保持数组的形状。
 
-```
+```py
 Syntax: numpy.flip(array, axis)
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Array to be input 
 axis  : [integer]axis along which array 
         is reversed.
@@ -19,12 +19,12 @@ axis  : [integer]axis along which array
 
 **返回:**
 
-```
+```py
 reversed array with shape preserved
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.flip() method
 
@@ -38,7 +38,7 @@ print("Flipped array : \n", geek.flip(array, 0)) 
 
 **输出:**
 
-```
+```py
 Original array : 
  [[[0 1]
   [2 3]]

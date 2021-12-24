@@ -6,7 +6,7 @@
 
 创建数据框并为其分配列
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(t.dtypes)
 
 如果我们使用参数`**ignore_index = True**` = >来表示索引值将保持连续，而不是从 0 开始，默认情况下它的值是`**False**`
 
-```
+```py
 # Appending a Data Frame of float and int
 s = pd.DataFrame([[1.3, 9]], columns = ["A", "B"])
 display(s)
@@ -46,7 +46,7 @@ display(t.dtypes)  
 
 当我们将布尔格式数据追加到已经属于浮点列类型的数据框中时，它将相应地更改值，以便只容纳浮点数据类型域中的布尔值。
 
-```
+```py
 # Appending a Data Frame of bool and bool
 u = pd.DataFrame([[True, False]], columns =["A", "B"])
 display(u)
@@ -63,7 +63,7 @@ display(t.dtypes)  # type casted into float and float
 
 在将不同数据类型的数据附加到先前形成的数据框时，得到的数据框列类型将总是更宽范围的数据类型。
 
-```
+```py
 # Appending a Data Frame of object and object
 x = pd.DataFrame([["1.3", "9.2"]], columns = ["A", "B"])
 display(x)
@@ -80,7 +80,7 @@ display(t.dtypes)
 
 如果我们的目标是通过 for 循环创建数据帧，那么最有效的方法如下:
 
-```
+```py
 # Creating a DataFrame using a for loop in efficient manner
 y = pd.concat([pd.DataFrame([[i, i * 10]], columns = ["A", "B"])
                for i in range(7, 10)], ignore_index = True)
@@ -97,7 +97,7 @@ display(t.dtypes)
 
 如果我们试图添加与数据框中不同的列，那么结果如下:
 
-```
+```py
 # Appending Different Columns
 z = pd.DataFrame([["1.3", "9.2"]], columns = ["E", "F"])
 t = t.append(z)

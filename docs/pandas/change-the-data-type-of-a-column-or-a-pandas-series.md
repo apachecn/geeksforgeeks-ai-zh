@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # changing the dataframe 
 # data types to string
 df = df.astype(str)

@@ -19,7 +19,7 @@ Python 中的 **`numpy.load()`** 用于从文本文件中加载数据，目的�
 
 **代码#1:**
 
-```
+```py
 # Python program explaining 
 # loadtxt() function
 import numpy as geek
@@ -35,14 +35,14 @@ print(d)
 
 **输出:**
 
-```
+```py
 [[ 0\.  1\.  2.]
  [ 3\.  4\.  5.]]
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program explaining 
 # loadtxt() function
 import numpy as geek
@@ -61,7 +61,7 @@ print("z is: ", z)
 
 **输出:**
 
-```
+```py
 x is:  [ 1\.  4.]
 y is:  [ 2\.  5.]
 z is:  [ 3\.  6.]
@@ -69,7 +69,7 @@ z is:  [ 3\.  6.]
 
 **代码#3:**
 
-```
+```py
 # Python program explaining 
 # loadtxt() function
 import numpy as geek
@@ -86,7 +86,7 @@ print(e)
 
 **输出:**
 
-```
+```py
 [(b'M', 21,  72.) (b'F', 35,  58.)]
 
 ```

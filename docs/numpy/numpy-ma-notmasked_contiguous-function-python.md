@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.notmasked_contiguous() function
 
@@ -39,7 +39,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.notmasked_contiguous() function
 

@@ -23,7 +23,7 @@ PyTorch 是一个开源的机器学习库，它包含一个张量库，能够创
 
 **语法和参数:**
 
-```
+```py
 data:          data that we want to convert into tensor.
 dtype:         data type of that data whether it is torch32, torch64 etc.
 device:        type of your device whether it is cpu or gpu(cuda).
@@ -35,7 +35,7 @@ requires_grad: if it is True, then gradients of that tensor will be saved in
 
 ## 计算机编程语言
 
-```
+```py
 # vector of int datatype
 t1 = torch.tensor([1, 2, 3, 7, 1])
 
@@ -52,7 +52,7 @@ t3 = torch.tensor([2, 6, 1, 6, 8.], dtype = torch.int32
 
 ## 蟒蛇 3
 
-```
+```py
 t4 = torch.tensor([[3, 6, 8], [2, 6, 8], [0, 7, 4]])
 ```
 
@@ -66,7 +66,7 @@ t4 = torch.tensor([[3, 6, 8], [2, 6, 8], [0, 7, 4]])
 
 ## 蟒蛇 3
 
-```
+```py
 t4 = torch.tensor([[3, 6, 8], [2, 6, 8], [0, 7, 4]])
 ```
 
@@ -87,7 +87,7 @@ fill _ 对角线()用 fill_value 填充主对角线，但是该矩阵应该是 2
 **语法和参数:**
 fill _ 对角线 _(fill_value，wrap=False) - >张量
 
-```
+```py
 fill_value: tensor matrix whose diagonals we want to fill.
 wrap:       it takes boolean, it enables us to work with a non-square matrix.
 ```
@@ -98,7 +98,7 @@ wrap:       it takes boolean, it enables us to work with a non-square matrix.
 
 ## 蟒蛇 3
 
-```
+```py
 a = torch.zeros(3, 3)
 ```
 
@@ -108,7 +108,7 @@ a 是大小为(3，3)的张量，它的所有元素都为零，即 a 是零矩�
 
 ## 蟒蛇 3
 
-```
+```py
 a.fill_diagonal_(fill_value = 4, wrap = False)
 
 print(a)
@@ -126,7 +126,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 b = torch.zeros([9, 4])
 
 # without putting wrap = True
@@ -144,7 +144,7 @@ A = b.fill_diagonal_(5, wrap = False)
 
 ## 蟒蛇 3
 
-```
+```py
 B = b.fill_diagonal_(6, True)
 
 print(B)
@@ -166,7 +166,7 @@ B = b.fill _ 对角线 _(6，真)
 
 ## 蟒蛇 3
 
-```
+```py
 B = b.fill_diagonal_(6, True)
 
 print(B)
@@ -195,7 +195,7 @@ print(B)
 
 **语法和参数:**
 
-```
+```py
 expand(*size)
 ```
 
@@ -204,7 +204,7 @@ expand(*size)
 
 ## 蟒蛇 3
 
-```
+```py
 a = torch.tensor([[5], [3], [8], [4]])
 
 a.size()
@@ -228,7 +228,7 @@ a.expand(4, 8)
 
 ## 蟒蛇 3
 
-```
+```py
 b = torch.tensor([[7], [3], [4]])
 
 b.size()
@@ -242,7 +242,7 @@ b.expand(3, -1)
 
 ## 蟒蛇 3
 
-```
+```py
 c = torch.tensor([[4, 6], [9, 6]])
 
 c.size()  # this matrix didn't any singleton dimension
@@ -266,7 +266,7 @@ c.expand(2, 6)
 
 ## 蟒蛇 3
 
-```
+```py
 self_tensor = torch.zeros(6, 3)
 
 a
@@ -300,7 +300,7 @@ self_tensor.index_copy_(0, i, t)
 
 ## 蟒蛇 3
 
-```
+```py
 a = torch.tensor([[1, 8], [9, 5], [1, 5]])
 
 b = torch.tensor([[3, 5], [9, 0], [2, 2]])
@@ -324,7 +324,7 @@ a.index_copy_(0, i, b)
 
 ## 蟒蛇 3
 
-```
+```py
 a = torch.tensor([[8, 3], [1, 0]])
 
 b = torch.tensor([[3, 9]])

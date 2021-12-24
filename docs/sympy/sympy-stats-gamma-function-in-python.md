@@ -8,7 +8,7 @@
 
 **x 在[0，1]中。**
 
-```
+```py
 Syntax:  sympy.stats.Gamma(name, k, theta)
 
 Parameters:
@@ -23,7 +23,7 @@ Returns: a continuous random variable with a Gamma distribution.
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Gamma, density, Symbol, pprint
 from sympy.stats import Gamma, density
 from sympy import Symbol, pprint
@@ -41,7 +41,7 @@ pprint(gamVar)
 
 **输出:**
 
-```
+```py
                  -z  
                 -----
      -k  k - 1  theta
@@ -54,7 +54,7 @@ theta  *z     *e
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Gamma, density, Symbol, pprint
 from sympy.stats import Gamma, density
 from sympy import Symbol, pprint
@@ -70,7 +70,7 @@ pprint(gamVar)
 
 **输出:**
 
-```
+```py
            -z     
            ---    
    3 ____   45    

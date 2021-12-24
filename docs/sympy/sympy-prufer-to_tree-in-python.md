@@ -12,7 +12,7 @@
 
 **代码#1 : to_tree()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.to_tree()
 
@@ -36,7 +36,7 @@ print ("Prufer a to_tree : ", Prufer.to_tree([0, 2]))
 
 **代码#2 : to_tree()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.to_tree()
 

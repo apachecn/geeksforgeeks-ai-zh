@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.argsort()`函数查找给定时间增量索引对象的元素顺序，该对象将对对象中的基础数据进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将找到元素的顺序，这些元素将对 tidx 对象中的底层数据进行排序。
 
-```
+```py
 # return the ordering of indices
 # which will sort the data
 tidx.argsort()
@@ -44,7 +44,7 @@ tidx.argsort()
 
 **示例 2:** 使用`TimedeltaIndex.argsort()`函数查找给定时间增量索引对象的元素顺序，该对象将对对象中的基础数据进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 
 现在我们将找到元素的顺序，这些元素将对 tidx 对象中的底层数据进行排序。
 
-```
+```py
 # return the ordering of indices 
 # which will sort the data
 tidx.argsort()

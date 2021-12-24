@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的**关闭()功能**用于关闭图形窗口。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

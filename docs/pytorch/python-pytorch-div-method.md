@@ -17,7 +17,7 @@ PyTorch `torch.div()`方法用一个常数划分输入的每个元素，并返�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -33,7 +33,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 1
   4
   6
@@ -53,7 +53,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -69,7 +69,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  -0.8453
 -0.1101
  0.9431

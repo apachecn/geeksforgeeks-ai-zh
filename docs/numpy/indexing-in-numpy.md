@@ -11,7 +11,7 @@ NumPy 或 Numeric Python 是一个在齐次 n 维数组上进行计算的包。�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate a need of NumPy
 
 list1 = [1, 2, 3, 4 ,5, 6]
@@ -23,7 +23,7 @@ print(list1*list2)
 
 **输出:**
 
-```
+```py
 TypeError: can't multiply sequence by non-int of type 'list'
 ```
 
@@ -33,7 +33,7 @@ TypeError: can't multiply sequence by non-int of type 'list'
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the use of NumPy arrays
 import numpy as np
 
@@ -51,7 +51,7 @@ print(a1*a2)
 
 **输出:**
 
-```
+```py
 array([10, 18, 24, 28, 30, 30])
 ```
 
@@ -63,7 +63,7 @@ array([10, 18, 24, 28, 30, 30])
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate
 # the use of index arrays.
 import numpy as np
@@ -79,7 +79,7 @@ print("\n Elements at these indices are:\n",newarr)
 
 **输出:**
 
-```
+```py
 A sequential array with a negative step:
 [10  8  6  4  2]
 
@@ -91,7 +91,7 @@ Elements at these indices are:
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # NumPy array with elements from 1 to 9
@@ -104,7 +104,7 @@ print("\n Elements are : \n",arr)
 
 **输出:**
 
-```
+```py
 Elements are:
 [2 4 7]
 ```
@@ -123,7 +123,7 @@ Elements are:
 
 ## 计算机编程语言
 
-```
+```py
 # Python program for basic slicing.
 import numpy as np
 
@@ -140,7 +140,7 @@ print("\n a[10:] = ",a[10:])
 
 **输出:**
 
-```
+```py
 Array is:
 [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19]
 
@@ -153,7 +153,7 @@ a[10:] = [10 11 12 13 14 15 16 17 18 19]
 
 ## 计算机编程语言
 
-```
+```py
 # Python program for indexing using basic slicing with ellipsis
 import numpy as np
 
@@ -166,7 +166,7 @@ print(b[...,1]) #Equivalent to b[: ,: ,1 ]
 
 **输出:**
 
-```
+```py
 [[ 2  5]
  [ 8 11]]
 ```
@@ -183,7 +183,7 @@ print(b[...,1]) #Equivalent to b[: ,: ,1 ]
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing advanced indexing
 import numpy as np
 
@@ -193,7 +193,7 @@ print(a[[0 ,1 ,2 ],[0 ,0 ,1]])
 
 **输出:**
 
-```
+```py
 [1 3 6]
 ```
 
@@ -202,7 +202,7 @@ print(a[[0 ,1 ,2 ],[0 ,0 ,1]])
 
 ## 计算机编程语言
 
-```
+```py
 # You may wish to select numbers greater than 50
 import numpy as np
 
@@ -212,13 +212,13 @@ print(a[a>50])
 
 **输出:**
 
-```
+```py
 [80 100]
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # You may wish to square the multiples of 40
 import numpy as np
 
@@ -228,13 +228,13 @@ print(a[a%40==0]**2)
 
 **输出:**
 
-```
+```py
 [1600 6400])
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # You may wish to select those elements whose
 # sum of row is a multiple of 10.
 import numpy as np
@@ -246,7 +246,7 @@ print(b[sumrow%10==0])
 
 **输出:**
 
-```
+```py
 array([[ 5, 5], [16, 4]])
 ```
 

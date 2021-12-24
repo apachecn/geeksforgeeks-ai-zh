@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.dt.tz_convert()`函数转换给定序列对象中时间戳的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz_convert()`函数将给定系列对象中的时间戳转换为“欧洲/柏林”。
 
-```
+```py
 # convert to 'Europe / Berlin'
 result = sr.dt.tz_convert(tz = 'Europe / Berlin')
 
@@ -54,7 +54,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.tz_convert()`函数转换给定序列对象中时间戳的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz_convert()`函数将给定序列对象中的时间戳转换为‘亚洲/加尔各答’。
 
-```
+```py
 # convert to 'Asia / Calcutta'
 result = sr.dt.tz_convert(tz = 'Asia / Calcutta')
 

@@ -8,7 +8,7 @@
 
 让我们从列表字典中创建一个数据框架。
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd
@@ -30,7 +30,7 @@ df
 
 **方法#1:**
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd
@@ -52,7 +52,7 @@ df
 
 **方法#2:** 使用带大写()的 lambda 方法
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd

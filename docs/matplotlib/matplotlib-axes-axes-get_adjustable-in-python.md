@@ -18,7 +18,7 @@ matplotlib 库的 axes 模块中的**Axes . get _ 可调()函数**用于获取 A
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

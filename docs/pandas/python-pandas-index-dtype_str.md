@@ -14,7 +14,7 @@ Pandas `**Index.dtype_str**`属性以字符串形式返回给定索引对象的�
 
 **示例#1:** 使用`Index.dtype_str`属性以字符串形式查找给定索引对象的基础数据的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(idx)
 
 现在我们将使用`Index.dtype_str`属性以字符串的形式查找给定序列对象的底层数据的数据类型。
 
-```
+```py
 # return the dtype as a string
 result = idx.dtype_str
 
@@ -47,7 +47,7 @@ print(result)
 
 **示例#2 :** 使用`Index.dtype_str`属性以字符串形式查找给定索引对象的基础数据的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(idx)
 
 现在我们将使用`Index.dtype_str`属性以字符串的形式查找给定序列对象的底层数据的数据类型。
 
-```
+```py
 # return the dtype as a string
 result = idx.dtype_str
 

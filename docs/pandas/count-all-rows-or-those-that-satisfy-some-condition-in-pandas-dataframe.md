@@ -10,7 +10,7 @@
 
 让我们创建一个熊猫数据框。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ details
 
 **代码:**统计所有行
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print('Number of Rows in given dataframe : ',
 
 **输出:**
 
-```
+```py
 Number of Rows in given dataframe :  10
 ```
 
@@ -90,7 +90,7 @@ Number of Rows in given dataframe :  10
 
 **代码:**
 
-```
+```py
 import pandas as pd
 
 # List of Tuples
@@ -124,7 +124,7 @@ print('Number of Rows in given dataframe : ',
 
 **输出:**
 
-```
+```py
 Number of Rows in given dataframe :  10
 ```
 
@@ -134,7 +134,7 @@ Number of Rows in given dataframe :  10
 
 **代码:**
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -174,6 +174,6 @@ print('Number of Rows in dataframe in which College is Geu : ',
 
 **输出:**
 
-```
+```py
 Number of Rows in dataframe in which College is Geu :  4
 ```

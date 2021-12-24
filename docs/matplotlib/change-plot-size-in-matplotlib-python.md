@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the matplotlib library
 import matplotlib.pyplot as plt
 
@@ -58,7 +58,7 @@ figsize()接受两个参数-宽度和高度(以英寸为单位)。默认情况�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # values on x and y axis
@@ -85,7 +85,7 @@ display(plt.plot(x, y))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the matplotlib library
 import matplotlib.pyplot as plt
 

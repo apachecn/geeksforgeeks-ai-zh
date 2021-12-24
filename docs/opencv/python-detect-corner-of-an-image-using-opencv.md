@@ -13,7 +13,7 @@
 **角点检测前的图像:**
 ![](img/e32a4090995fa0d8211b79db8a52d9e1.png)
 
-```
+```py
 # import the required library
 import numpy as np
 import cv2

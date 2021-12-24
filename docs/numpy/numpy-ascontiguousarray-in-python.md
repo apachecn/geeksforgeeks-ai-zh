@@ -14,7 +14,7 @@
 
 **代码#1:列表到数组**
 
-```
+```py
 # Python program explaining
 # numpy.ascontiguousarray() function
 
@@ -29,7 +29,7 @@ print ("output array from input list : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  list :  [100, 200, 300, 400, 500]
 output array from input list :  [ 100\.  200\.  300\.  400\.  500.]
 
@@ -37,7 +37,7 @@ output array from input list :  [ 100\.  200\.  300\.  400\.  500.]
 
 **代码#2:元组到数组**
 
-```
+```py
 # Python program explaining
 # numpy.ascontiguousarray() function
 
@@ -53,7 +53,7 @@ print ("output array from input tuple : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  tuple :  ([2, 6, 10], [8, 12, 16])
 output array from input tuple :  [[ 2  6 10]
  [ 8 12 16]]
@@ -62,7 +62,7 @@ output array from input tuple :  [[ 2  6 10]
 
 **代码#3:标量到数组**
 
-```
+```py
 # Python program explaining
 # numpy.ascontiguousarray() function
 
@@ -79,7 +79,7 @@ print(type(out_arr))
 
 **输出:**
 
-```
+```py
 Input  scalar :  100
 output array from input scalar :  [ 100.]
 class 'numpy.ndarray'

@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install bokeh
 ```
 
@@ -20,7 +20,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package
 import numpy as np
 
@@ -115,7 +115,7 @@ show(fig)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -177,7 +177,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing autompg dataset from bokeh.sampledata.autompg
 from bokeh.sampledata.autompg import autompg
 

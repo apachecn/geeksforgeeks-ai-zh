@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_data_interval()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ plt.show()
 
 ![](img/ef86d3d5e1970dfdddeaa45ae808cd1d.png)
 
-```
+```py
 Value return by get_data_interval() :
 [ 0\.         12.56637061]
 
@@ -61,7 +61,7 @@ Value return by get_data_interval() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt
@@ -91,7 +91,7 @@ plt.show()
 
 ![](img/a6b54d0955ca92606d21ab9a93d6abf0.png)
 
-```
+```py
 Value return by get_data_interval() :
 [-20\.  20.]
 

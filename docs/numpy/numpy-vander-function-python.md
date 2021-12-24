@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.vander() function
 
@@ -29,7 +29,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[  1   1   1   1   1]
  [ 16   8   4   2   1]
  [ 81  27   9   3   1]
@@ -40,7 +40,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.vander() function
 
@@ -57,7 +57,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[ 1  1  1]
  [ 4  2  1]
  [ 9  3  1]
@@ -68,7 +68,7 @@ print (gfg)
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.vander() function
 
@@ -84,7 +84,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[  1   1   1   1   1]
  [  1   2   4   8  16]
  [  1   3   9  27  81]

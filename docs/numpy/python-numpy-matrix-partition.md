@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，我们能够借助方法`matrix.partition()`对给定的矩阵进行划分。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 1  3 12 64]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 3  8 11 16 19 25 29 44 71]]
 
 ```

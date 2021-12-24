@@ -7,7 +7,7 @@
 **其公式:**
 ![](img/024a07b031863a9af052de4e6d45594e.png)
 
-```
+```py
 N   = Number of observations
 Ma  = Mean of the observations 
 SSa = Sum of the squares of observations
@@ -21,7 +21,7 @@ SSa = Sum of the squares of observations
 
 **代码#1:** 工作
 
-```
+```py
 # stats.obrientransform() method   
 import numpy as np
 from scipy import stats

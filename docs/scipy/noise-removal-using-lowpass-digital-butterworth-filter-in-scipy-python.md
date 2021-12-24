@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -39,7 +39,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # Specifications of the filter
 f1 = 25  # Frequency of 1st signal
 f2 = 50  # Frequency of 2nd signal
@@ -56,7 +56,7 @@ sig = np.sin(2*np.pi*f1*t) + np.sin(2*np.pi*f2*t)
 
 ## 蟒蛇 3
 
-```
+```py
 # Display the signal
 fig, (ax1, ax2) = plt.subplots(2, 1, sharex=True)
 ax1.plot(t, sig)
@@ -76,7 +76,7 @@ sos = signal.butter(50, 35, 'lp', fs=1000, output='sos')
 
 ## 蟒蛇 3
 
-```
+```py
 # Filter the signal by the filter using signal.sosfilt
 # Use signal.sosfiltfilt to get output inphase with input
 filtered = signal.sosfiltfilt(sos, sig)
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal

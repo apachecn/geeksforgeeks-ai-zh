@@ -6,7 +6,7 @@
 
 它是β分布的多元推广。
 
-```
+```py
 Syntax: sympy.stats.MultivariateBeta(syms, alpha)
 
 Parameters: 
@@ -20,7 +20,7 @@ Returns: a continuous random variable with multivariate beta distribution.
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, MultivariateBeta, density, Symbol
 from sympy.stats.joint_rv_types import MultivariateBeta
 from sympy.stats import density
@@ -40,7 +40,7 @@ pprint(mvbDist)
 
 **输出:**
 
-```
+```py
  a1 - 1  a2 - 1               
 x      *y      *Gamma(a1 + a2)
 ------------------------------
@@ -51,7 +51,7 @@ x      *y      *Gamma(a1 + a2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, MultivariateBeta, density, Symbol
 from sympy.stats.joint_rv_types import MultivariateBeta
 from sympy.stats import density
@@ -69,7 +69,7 @@ pprint(mvbDist)
 
 **输出:**
 
-```
+```py
   3*x  
 -------
     ___

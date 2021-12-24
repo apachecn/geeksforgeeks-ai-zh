@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.argsort(arr, axis=-1, kind=’quicksort’, order=None)
 ```
 
@@ -14,7 +14,7 @@ numpy.argsort(arr, axis=-1, kind=’quicksort’, order=None)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -29,7 +29,7 @@ print(indices)
 
 **输出:**
 
-```
+```py
 [ 10  52  62  16  16  54 453]
 [0 3 4 1 5 2 6]
 
@@ -39,7 +39,7 @@ print(indices)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -54,7 +54,7 @@ print(indices)
 
 **输出:**
 
-```
+```py
 [1 2 3 4 5]
 [0 1 2 3 4]
 
@@ -64,7 +64,7 @@ print(indices)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np 
 
 # input 2d array 
@@ -81,7 +81,7 @@ print ("\nOutput sorteded array indices along axis 1:\n", out_arr2) 
 
 **输出:**
 
-```
+```py
 Input array :
  [[2 0 1]
  [5 4 3]]

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`stats.halfgennorm.var()`方法，我们能够利用这个方法得到分布的方差值。
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 10
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 beta = 4

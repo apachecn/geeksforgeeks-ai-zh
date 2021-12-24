@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.floor()`功能将给定时间增量索引对象中的所有值计算到每日频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.floor()`函数来计算所有的值。
 
-```
+```py
 # floor the values to daily frequency
 tidx.floor(freq ='D')
 ```
@@ -43,7 +43,7 @@ tidx.floor(freq ='D')
 
 **示例#2:** 使用`TimedeltaIndex.floor()`功能将给定时间增量索引对象中的所有值计算到每小时频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.floor()`函数来计算所有的值。
 
-```
+```py
 # floor the values to hourly frequency
 tidx.floor('H')
 ```

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import matplotlib
 
@@ -50,7 +50,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import matplotlib
 
@@ -76,7 +76,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib
 import numpy

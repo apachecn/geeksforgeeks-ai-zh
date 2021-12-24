@@ -11,7 +11,7 @@ Python 传统上遵循“楼层划分”。无论输入类型如何，真正的�
 
 **参数:**
 
-```
+```py
 arr1     : [array_like]Input array or object which works as numerator.
 arr2     : [array_like]Input array or object which works as denominator. 
 out      : [ndarray, None, optional]Output array with same dimensions as Input array, 
@@ -26,7 +26,7 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 If inputs are scalar then scalar; otherwise array with arr1 / arr2(element- wise) 
 i.e. true division
 
@@ -34,7 +34,7 @@ i.e. true division
 
 **代码 1 : arr1 除以 arr2**
 
-```
+```py
 # Python program explaining
 # true_divide() function
 import numpy as np
@@ -52,7 +52,7 @@ print ("\nOutput array : \n", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [6, 7, 2, 9, 1]
 arr1         :  [2, 3, 4, 5, 6]
 
@@ -63,7 +63,7 @@ Output array :
 
 **代码 arr1 的元素除以除数**
 
-```
+```py
 # Python program explaining
 # true_divide() function
 import numpy as np
@@ -80,7 +80,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 7, 3, 11, 4]
 
 Output array :  [ 0.66666667  2.33333333  1\.          3.66666667  1.33333333]
@@ -88,7 +88,7 @@ Output array :  [ 0.66666667  2.33333333  1\.          3.66666667  1.33333333]
 
 **代码 3:floor _ division(//)和 true-division(/**的比较
 
-```
+```py
 # Python program explaining
 # true_divide() function
 import numpy as np
@@ -111,7 +111,7 @@ print ("\nOutput array with true divide(/)   : \n", arr1/arr2)
 
 **输出:**
 
-```
+```py
 arr1         :  [0 1 2 3 4]
 arr1         :  [2, 3, 4, 5, 6]
 

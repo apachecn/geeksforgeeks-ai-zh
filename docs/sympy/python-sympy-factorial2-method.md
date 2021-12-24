@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -30,7 +30,7 @@ print("Double factorial of n : {}".format(factorial2_n))  
 
 **输出:**
 
-```
+```py
 Value of n = 10
 Double factorial of n : 3840
 
@@ -38,7 +38,7 @@ Double factorial of n : 3840
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -53,7 +53,7 @@ print("Double factorial of n : {}".format(factorial2_n))  
 
 **输出:**
 
-```
+```py
 Value of n = -3
 Double factorial of n : -1
 

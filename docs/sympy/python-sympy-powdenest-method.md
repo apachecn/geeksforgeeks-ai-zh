@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中，我们可以看到，通过使用`sympy.powdenest()`方法，我们能够利用恒等式简化数学表达式的幂，即`(x^a)^b=x^ab`。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -29,7 +29,7 @@ print(fact)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

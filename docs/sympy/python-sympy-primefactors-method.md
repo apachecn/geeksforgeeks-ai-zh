@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import primefactors() method from sympy
 from sympy import primefactors
 
@@ -27,14 +27,14 @@ print("The prime factors of {} : {}".format(n, primefactors_n))
 
 **输出:**
 
-```
+```py
 The prime factors of 2772 : [2, 3, 7, 11]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import primefactors() method from sympy
 from sympy import primefactors
 
@@ -48,7 +48,7 @@ print("The prime factors of {} : {}".format(n, primefactors_n))
 
 **输出:**
 
-```
+```py
 The prime factors of -210 : [2, 3, 5, 7]
 
 ```

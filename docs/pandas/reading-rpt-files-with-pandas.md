@@ -16,7 +16,7 @@ RPT 文件是由 Crystal Reports 创建的报告或输出文件，Crystal Report
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_fwf('sample.rpt', delimiter='|')
@@ -36,7 +36,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv('sample.rpt', delimiter = '|')

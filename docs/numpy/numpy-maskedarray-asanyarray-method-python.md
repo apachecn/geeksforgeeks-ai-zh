@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.asanyarray() function
 import numpy as geek
@@ -30,7 +30,7 @@ print ("output array from input list : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input list :  [1, 4, 8, 7, 2, 5]
 output array from input list :  [1 4 8 7 2 5]
 
@@ -38,7 +38,7 @@ output array from input list :  [1 4 8 7 2 5]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.asanyarray() function
 
@@ -54,7 +54,7 @@ print ("output array from input tuple : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input tuple :  ([1, 4, 8], [7, 2, 5])
 output array from input tuple :  [[1 4 8]
  [7 2 5]]

@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.nanosecond`属性返回给定 Series 对象的基础数据中日期时间的纳秒。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 现在我们将使用`Series.dt.nanosecond`属性返回给定 Series 对象的基础数据中日期时间的纳秒。
 
-```
+```py
 # return the nanosecond
 result = sr.dt.nanosecond
 
@@ -48,7 +48,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.nanosecond`属性返回给定 Series 对象的基础数据中日期时间的纳秒。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(sr)
 
 现在我们将使用`Series.dt.nanosecond`属性返回给定 Series 对象的基础数据中日期时间的纳秒。
 
-```
+```py
 # return the nanosecond
 result = sr.dt.nanosecond
 

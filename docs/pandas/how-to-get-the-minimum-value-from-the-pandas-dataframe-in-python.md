@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.min(axis)
 ```
 
@@ -23,7 +23,7 @@ dataframe.min(axis)
 
 **语法**:
 
-```
+```py
 dataframe.min(axis=1)
 ```
 
@@ -31,7 +31,7 @@ dataframe.min(axis=1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -61,7 +61,7 @@ data.min(axis=1)
 
 **语法:**
 
-```
+```py
 dataframe.min(axis=0)
 ```
 
@@ -69,7 +69,7 @@ dataframe.min(axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -99,7 +99,7 @@ data.min(axis=0)
 
 **语法**:
 
-```
+```py
 dataframe['column_name'].min()
 ```
 
@@ -107,7 +107,7 @@ dataframe['column_name'].min()
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

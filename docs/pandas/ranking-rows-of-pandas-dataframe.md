@@ -8,7 +8,7 @@
 
 在这里，我们将创建一个电影的数据框架，并根据它们的评分对它们进行排名。
 
-```
+```py
 # import the required packages 
 import pandas as pd 
 
@@ -24,7 +24,7 @@ print(df)
 **输出:**
 ![](img/b38218e45d75b23b0e706254de838ddc.png)
 
-```
+```py
 # Create a column Rating_Rank which contains
 # the rank of each movie based on rating
 df['Rating_Rank'] = df['Rating'].rank(ascending = 1)
@@ -37,7 +37,7 @@ print(df)
 **输出:**
 ![](img/bcc778db015e038960dc6638808ab2a4.png)
 
-```
+```py
 # Sort the dataFrame based on the index
 df = df.sort_index()
 print(df)
@@ -49,7 +49,7 @@ print(df)
 **例#2**
 我们举一个 4 个学生得分的例子。我们将根据学生的最高分对他们进行排名。
 
-```
+```py
 # Create a dictionary with student details
 student_details = {'Name':['Raj', 'Raj', 'Raj', 'Aravind', 'Aravind', 'Aravind',
                              'John', 'John', 'John', 'Arjun', 'Arjun', 'Arjun'],
@@ -67,7 +67,7 @@ print(df)
 **输出:**
 ![](img/cd3c14ce3744f01ef748c309df27a507.png)
 
-```
+```py
 # Create a new column with Marks 
 # ranked in descending order
 df['Mark_Rank'] = df['Marks'].rank(ascending = 0)
@@ -80,7 +80,7 @@ print(df)
 **输出:**
 ![](img/94f2fd7898ae17c6765d78218849e40a.png)
 
-```
+```py
 # Sort the DataFrame based on the index 
 df = df.sort_index()
 

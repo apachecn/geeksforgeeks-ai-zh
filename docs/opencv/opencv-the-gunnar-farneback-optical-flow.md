@@ -31,7 +31,7 @@
 它根据一组流动矢量计算光流的大小和方向，即 *(dx/dt，dy/dt)* 。随后，它通过色调可视化流动的角度(方向)，通过 HSV 颜色表示值可视化流动的距离(幅度)。为了使能见度达到最佳，高速公路的强度设置为 255。OpenCV 提供了一个功能**cv2 . calcopticalflowfarneback**来观察密集的光流。
 **语法:**
 
-```
+```py
  cv2.calcOpticalFlowFarneback(prev, next, pyr_scale, levels, winsize, iterations, poly_n, poly_sigma, flags[, flow])
 ```
 
@@ -54,7 +54,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import cv2
 import numpy as np

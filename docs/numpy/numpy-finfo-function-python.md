@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.finfo() function
 
@@ -26,7 +26,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 Machine parameters for float32
 ---------------------------------------------------------------
 precision =   6   resolution = 1.0000000e-06
@@ -41,7 +41,7 @@ nexp =        8   min =        -max
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.finfo() function
 
@@ -55,7 +55,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 Machine parameters for float64
 ---------------------------------------------------------------
 precision =  15   resolution = 1.0000000000000001e-15

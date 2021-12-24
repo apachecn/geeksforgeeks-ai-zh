@@ -31,7 +31,7 @@ PyTorch 中的方法期望输入是张量，PyTorch 和张量可用于矩阵乘�
 
 ## 蟒 3
 
-```
+```py
 import torch as t
 
 mat_1 = torch.tensor([[1, 2, 3],

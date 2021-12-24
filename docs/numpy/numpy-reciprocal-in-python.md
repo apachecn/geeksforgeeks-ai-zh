@@ -24,7 +24,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python3 code demonstrate reciprocal() function
 
 # importing numpy
@@ -39,14 +39,14 @@ print ("Output number : ", out_num)
 
 **输出:**
 
-```
+```py
 Input  number :  2.0
 Output number :  0.5
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python3 code demonstrate reciprocal() function
 
 # importing numpy
@@ -61,14 +61,14 @@ print ("Output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [2.0, 3.0, 8.0]
 Output array :  [ 0.5         0.33333333  0.125     ]
 ```
 
 **代码#3 :** 倒数()函数异常。结果总是零。
 
-```
+```py
 # Python3 code demonstrate Exception in reciprocal() function
 
 # importing numpy
@@ -83,7 +83,7 @@ print ("Output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [2, 3, 8]
 Output array :  [0 0 0]
 

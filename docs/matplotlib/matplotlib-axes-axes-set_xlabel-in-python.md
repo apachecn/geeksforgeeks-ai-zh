@@ -23,7 +23,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_xlabel()函数**用于设置 x �
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -48,7 +48,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

@@ -22,7 +22,7 @@ Pandas**series . to _ latex()**函数将对象渲染到 LaTeX 表格环境表中
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # render to LaTeX tabular environment table.
 sr.to_latex()
 ```
@@ -63,7 +63,7 @@ sr.to_latex()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -82,7 +82,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # render to LaTeX tabular environment table.
 sr.to_latex()
 ```

@@ -18,7 +18,7 @@
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_99:0", shape=(2, 2), dtype=int32)
 [[1 3]
  [2 8]]
@@ -56,7 +56,7 @@ Output:  Tensor("AddN:0", shape=(2, 2), dtype=int32)
 
 **例 2:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -80,7 +80,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_101:0", shape=(2, 2), dtype=int32)
 [[1 1]
  [2 6]]

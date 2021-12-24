@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 import pandas as pd
@@ -46,7 +46,7 @@ print("---Updated Dataframe---\n", 
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -81,7 +81,7 @@ print("\n\n---Updated Dataframe---\n",
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

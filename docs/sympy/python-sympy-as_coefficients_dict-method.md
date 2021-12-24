@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.as_coefficients_dict()`方法，我们可以找到一个数学表达式中的所有系数，并返回它的字典。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg.as_coefficients_dict())
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

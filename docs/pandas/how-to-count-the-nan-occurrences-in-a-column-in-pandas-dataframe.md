@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packages
 import pandas as pd
 import numpy as np
@@ -44,7 +44,7 @@ print("\nNan values in col1:", cnt)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packages
 import pandas as pd
 import numpy as np

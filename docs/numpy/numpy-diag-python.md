@@ -5,7 +5,7 @@
 **numpy.diag(a，k=0) :** 提取并构建对角数组
 **参数:**
 
-```
+```py
 a : array_like 
 k : [int, optional, 0 by default]
           Diagonal we require; k>0 means diagonal above main diagonal or vice versa.
@@ -13,13 +13,13 @@ k : [int, optional, 0 by default]
 
 **返回:**
 
-```
+```py
 ndarray
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.diag method
 
@@ -39,7 +39,7 @@ print("Diagonal below main diagonal : \n", geek.diag(a, -1))
 
 **输出:**
 
-```
+```py
 Main Diagonal elements : 
  [  1 434  56] 
 

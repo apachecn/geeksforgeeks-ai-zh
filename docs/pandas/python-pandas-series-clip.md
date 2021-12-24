@@ -23,7 +23,7 @@ Python **`Series.clip()`** 用于将低于和高于的值裁剪为通过的最�
 **示例**
 在此示例中，`.clip()` 方法在数据的年龄列上调用。最小值 22 传递给下参数，25 传递给上参数。然后，返回的系列存储在新的列“新时代”中。在执行任何操作之前，使用`.dropna()`删除空行以避免错误。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

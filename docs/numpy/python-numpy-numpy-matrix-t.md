@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.T()`方法，我们能够变换任何类型的矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1]
  [2]
  [3]
@@ -36,7 +36,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -51,7 +51,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 4 7]
  [2 5 8]
  [3 6 9]]

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.is_monotonic_decreasing`属性检查时间增量索引对象是否单调递减。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(tidx)
 ![](img/cc552e94ed8d650733d24e3b2d2a08bd.png)
 现在我们来检查 TimedeltaIndex 对象是否单调递减。
 
-```
+```py
 # check if tidx is monotonic decreasing or not
 tidx.is_monotonic_decreasing
 ```
@@ -39,7 +39,7 @@ tidx.is_monotonic_decreasing
 
 **示例 2:** 使用`TimedeltaIndex.is_monotonic_decreasing`属性检查时间增量索引对象是否单调递减。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(tidx)
 
 现在我们将检查时间增量索引对象是否单调递减。
 
-```
+```py
 # check if tidx is monotonic decreasing or not
 tidx.is_monotonic_decreasing
 ```

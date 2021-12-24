@@ -12,7 +12,7 @@ Python 提供了一个强大的模块 **pydicom** 来处理医学图像、报告
 
 在命令提示符下运行以下命令:
 
-```
+```py
 pip install dicom
 pip install matplotlib
 ```
@@ -49,7 +49,7 @@ pydicom 使我们能够处理 dicom 文件，在本文中我们将讨论使用 p
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import pydicom
 import pydicom.data

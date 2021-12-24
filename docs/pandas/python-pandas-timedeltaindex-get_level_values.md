@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.get_level_values()`函数查找给定时间增量索引对象的第 0 级中存在的所有值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.get_level_values()`函数来查找第 0 级的所有值
 
-```
+```py
 # print values in 0th level
 tidx.get_level_values(0)
 ```
@@ -44,7 +44,7 @@ tidx.get_level_values(0)
 
 **示例 2:** 使用`MultiIndex.get_level_values()`函数查找给定多索引对象的第一级中存在的所有值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(midx)
 
 现在我们将使用`MultiIndex.get_level_values()`函数来查找第一级中的所有值
 
-```
+```py
 # print values in 1st level
 midx.get_level_values(1)
 ```

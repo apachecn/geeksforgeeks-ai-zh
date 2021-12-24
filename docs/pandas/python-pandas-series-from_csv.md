@@ -23,7 +23,7 @@ Pandas `**Series.from_csv()**`功能用于将一个 csv 文件读入一个系列
 
 **示例#1:** 使用`Series.from_csv()`功能将给定 CSV 文件中的数据读入熊猫系列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr.head(10))
 
 **示例#2 :** 使用`Series.from_csv()`功能将给定 CSV 文件中的数据读入熊猫系列。使用第一列作为系列对象的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

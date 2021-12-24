@@ -51,7 +51,7 @@ bokeh 库绘图模块中的**环()功能**用于配置环字形并添加到本�
 以下示例说明了 bokeh 绘图中的 bokeh 绘图图环形()函数:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -70,7 +70,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

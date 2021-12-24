@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 import pandas as pd
 
@@ -34,7 +34,7 @@ display(dataframe[dataframe.columns[::-1]])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 import pandas as pd
 

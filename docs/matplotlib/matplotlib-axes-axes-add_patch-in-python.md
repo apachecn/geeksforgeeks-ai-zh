@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.add_patch()函数**用于给轴的面
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.path as mpath
 import matplotlib.patches as mpatches

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.cumtrapz()`方法，我们能够通过使用该方法获得使用梯形规则的 y(x)的累积积分。
 
-```
+```py
 # import numpy and scipy.integrate.cumtrapz
 import numpy as np
 from scipy import integrate
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and scipy.integrate.cumtrapz
 import numpy as np
 from scipy import integrate

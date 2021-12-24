@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import libraries
 import numpy as np
 import pandas as pd
@@ -53,7 +53,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # using the sorting function
 print('SORTED DATAFRAME')
 df.sort_values(by=['Age'], ascending=False)
@@ -69,7 +69,7 @@ df.sort_values(by=['Age'], ascending=False)
 
 ## 蟒蛇 3
 
-```
+```py
 print('SORTED DATAFRAME')
 df.sort_values(by = ['Rank', 'Age'], ascending = [True, False], na_position = 'first')
 ```

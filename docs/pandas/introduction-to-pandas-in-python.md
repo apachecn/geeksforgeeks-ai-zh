@@ -32,7 +32,7 @@ Pandas 是一个开源库，主要用于轻松直观地处理关系数据或标�
 
 熊猫安装到系统后，您需要导入库。该模块通常导入为:
 
-```
+```py
 import pandas as pd
 ```
 
@@ -59,7 +59,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -77,7 +77,7 @@ print(ser)
 
 **输出:**
 
-```
+```py
 Series([], dtype: float64)
 0    g
 1    e
@@ -105,7 +105,7 @@ dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Calling DataFrame constructor
@@ -123,7 +123,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 Empty DataFrame
 Columns: []
 Index: []

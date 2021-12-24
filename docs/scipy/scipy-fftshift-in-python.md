@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy and numpy
 import scipy
 import numpy as np
@@ -34,7 +34,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy and numpy
 import scipy
 import numpy as np

@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.to_pydatetime()`函数将给定的序列对象作为本机 python datetime 对象的数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.dt.to_pydatetime()`函数将数据作为本机 Python datetime 对象的数组返回。
 
-```
+```py
 # return the series data as a 
 # native python datetime data
 result = sr.dt.to_pydatetime() 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.to_pydatetime()`函数将给定的序列对象作为本机 python datetime 对象的数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.dt.to_pydatetime()`函数将数据作为本机 Python datetime 对象的数组返回。
 
-```
+```py
 # return the series data as a 
 # native python datetime data
 result = sr.dt.to_pydatetime() 

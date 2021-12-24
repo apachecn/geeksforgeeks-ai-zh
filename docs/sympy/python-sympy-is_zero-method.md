@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.is_zero()函数来测试给定的数字 n 是否为零。
 
-```
+```py
 Syntax:  sympy.is_zero(n)
 Parameter:  n; number to be tested
 Return:  bool value result 
@@ -14,7 +14,7 @@ Return:  bool value result
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check zero
 # using sympy.is_zero() method
 
@@ -31,7 +31,7 @@ print(geek2)
 
 **输出:**
 
-```
+```py
 False
 True
 ```
@@ -40,7 +40,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check zero number
 # using sympy.is_zero() method
 
@@ -55,6 +55,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 False
 ```

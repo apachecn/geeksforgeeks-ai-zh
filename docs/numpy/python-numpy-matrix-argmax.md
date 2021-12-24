@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，借助`matrix.argmax()`方法，我们能够找到给定矩阵中最大元素的索引。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 8
 
 ```

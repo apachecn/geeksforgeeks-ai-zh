@@ -11,7 +11,7 @@
 ****示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都被**减去**，该值在方法`ndarray.__isub__()`中作为参数给出。请记住，此方法适用于所有类型的数值。**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__isub__(5))
 
 ****Output:**
 
-```
+```py
 [-3.8 -2.4 -2\.  -0.5  0\. ]
 
 ```** 
 
 ****例 2 :****
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__isub__(3))
 
 ****Output:**
 
-```
+```py
 [[-2\.   -0.8   0\.    1\.    2.01]
  [ 3.1   2\.    1.8   0\.   -1\.  ]]
 

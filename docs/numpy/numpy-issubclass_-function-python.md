@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubclass_() function
 
@@ -27,14 +27,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 False
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubclass_() function
 
@@ -48,7 +48,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 True
 
 ```

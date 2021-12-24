@@ -4,7 +4,7 @@
 
 借助`sympy.divmod()`方法，我们可以求出给定值的模和商。
 
-```
+```py
  Syntax: sympy.divmod(val1, val2)
 
  Return: (quotient, modulo)
@@ -13,7 +13,7 @@
 
 **示例#1 :**
 
-```
+```py
 # import sympy 
 from sympy import *
 
@@ -25,13 +25,13 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 (6, 6)
 ```
 
 **示例#2 :**
 
-```
+```py
 # import sympy 
 from sympy import *
 
@@ -43,6 +43,6 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 (6, 6.2)
 ```

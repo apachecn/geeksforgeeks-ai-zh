@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.get_slice_bound()`函数找到传递值的右边界。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ idx
 
 让我们找出传递值的切片界限。
 
-```
+```py
 # Print the right slice bound of the passed value..
 idx.get_slice_bound('Lhasa', side ='right', kind ='getitem')
 ```
@@ -45,7 +45,7 @@ idx.get_slice_bound('Lhasa', side ='right', kind ='getitem')
 
 **例 2:** 使用`Index.get_slice_bound()`函数查找传递值的左切片边界。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ idx
 
 让我们在索引中找到值 69 的左边界。
 
-```
+```py
 # Find the left slice bound of 69 in the Index.
 idx.get_slice_bound(69, side ='left', kind ='getitem')
 ```

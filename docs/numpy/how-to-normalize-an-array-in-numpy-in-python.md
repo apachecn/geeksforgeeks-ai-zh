@@ -8,7 +8,7 @@
 
 假设，我们有一个数组= [1，2，3]，在范围[0，1]内对其进行归一化意味着它会将数组[1，2，3]转换为[0，0.5，1]，因为 1，2 和 3 是等距的。
 
-```
+```py
 Array [1,2,4] -> [0, 0.3, 1]
 ```
 
@@ -16,13 +16,13 @@ Array [1,2,4] -> [0, 0.3, 1]
 
 现在，
 
-```
+```py
 Array [1,2,3] -> [3,5,7]
 ```
 
 和
 
-```
+```py
 Array [1,2,4] -> [3,4.3,7]
 ```
 
@@ -32,7 +32,7 @@ Array [1,2,4] -> [3,4.3,7]
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 
@@ -68,7 +68,7 @@ print("Normalized Array = ",normalized_array_1d)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 
@@ -114,7 +114,7 @@ print("Normalized Array = ", normalized_array_1d)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 
@@ -145,7 +145,7 @@ print("\nSimple Matrix \n", normalized_matrix)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 

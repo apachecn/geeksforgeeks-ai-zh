@@ -5,13 +5,13 @@
 **numpy . is inite()**函数逐元素测试它是否是有限的(不是无穷大也不是数字)，并将结果作为布尔数组返回。
 **语法:**
 
-```
+```py
 numpy.isfinite(array [, out])
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array or object whose elements, 
         we need to test for infinity
 out   : [ndarray, optional]Output array placed with result.
@@ -22,14 +22,14 @@ out   : [ndarray, optional]Output array placed with result.
 
 **返回:**
 
-```
+```py
 boolean array containing the result
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isfinite() method
 
@@ -50,7 +50,7 @@ print("Finite : ", geek.isfinite(geek.NINF), "\n")  
 
 **输出:**
 
-```
+```py
 Finite :  True 
 
 Finite :  True 
@@ -65,7 +65,7 @@ Finite :  False
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.isfinite() method
 
@@ -84,7 +84,7 @@ print("\nIs Finite : \n", geek.isfinite(b))
 
 **输出:**
 
-```
+```py
  [[ 0  1  2  3]
  [ 4  5  6  7]
  [ 8  9 10 11]

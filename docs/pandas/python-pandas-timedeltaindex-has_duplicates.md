@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.has_duplicates`属性检查给定的时间增量索引对象中是否存在任何重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在，我们将检查给定的时间增量索引对象中是否存在任何重复值。
 
-```
+```py
 # check for duplicates
 tidx.has_duplicates
 ```
@@ -40,7 +40,7 @@ tidx.has_duplicates
 
 **示例 2:** 使用`TimedeltaIndex.has_duplicates`属性检查给定的时间增量索引对象中是否存在重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在，我们将检查给定的时间增量索引对象中是否存在任何重复值。
 
-```
+```py
 # check for duplicates
 tidx.has_duplicates
 ```

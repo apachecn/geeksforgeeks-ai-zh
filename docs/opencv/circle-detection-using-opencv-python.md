@@ -19,7 +19,7 @@
 *   **循环通过点:**在图像上选择一个点![x_i](img/8ac565c17d653ce28930ec7ba781fe6f.png "Rendered by QuickLaTeX.com")。
 *   **固定 r 并循环 a 和 b:** 使用双嵌套循环来寻找 r 的值，在给定的范围内改变 a 和 b。
 
-    ```
+    ```py
     for a in range(rows):
         for b in range(cols):
             r = math.sqrt((xi - a)**2 + (yi - b)**2)
@@ -41,7 +41,7 @@ OpenCV 中的`HoughCircles`功能有以下参数，可以根据图像进行更�
 
 下面是使用 OpenCV 在上面的输入图像上寻找圆的代码。
 
-```
+```py
 import cv2
 import numpy as np
 

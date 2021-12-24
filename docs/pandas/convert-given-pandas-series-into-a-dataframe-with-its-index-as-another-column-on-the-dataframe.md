@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -43,7 +43,7 @@ s
 
 ## **蟒蛇 3**
 
-```
+```py
 # using series.to_frame to
 # convert series to dataframe
 df = s.to_frame().reset_index()
@@ -60,7 +60,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # Renaming our index column as 'new_index'
 df.rename(columns = {'index':'new_index'},
           inplace = True)

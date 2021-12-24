@@ -20,7 +20,7 @@
 
 以下伪代码来自算法的[维基百科页面](https://en.wikipedia.org/wiki/OPTICS_algorithm)。
 
-```
+```py
 OPTICS(DB, eps, MinPts)
 
     #Repeating the process for all points in the database
@@ -60,7 +60,7 @@ OPTICS(DB, eps, MinPts)
 
 更新函数的伪代码如下:
 
-```
+```py
 update(Nbrs, pt, Seeds, eps, MinPts)
 
     #Calculating the core distance for the given point

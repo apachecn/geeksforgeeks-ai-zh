@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`min()`函数查找索引轴上的最小值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 让我们使用`dataframe.min()`函数找到索引轴上的最小值
 
-```
+```py
 # find min Even if we do not specify axis = 0, the method 
 # will return the min over the index axis by default
 df.min(axis = 0)
@@ -47,7 +47,7 @@ df.min(axis = 0)
 
 **示例 2:** 对具有`Na`值的数据框使用`min()`功能。还要找到柱轴上的最小值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ df
 
 让我们实现 min 函数。
 
-```
+```py
 # skip the Na values while finding the minimum
 df.min(axis = 1, skipna = True)
 ```

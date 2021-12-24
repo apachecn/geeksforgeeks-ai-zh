@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.add() method 
 import numpy as np 
@@ -31,7 +31,7 @@ print ("\narr2 + arr1\n", np.char.add(arr2, arr1))
 
 **输出:**
 
-```
+```py
 arr1 :  ['vdteteAAAa', 'AAAttttds', 'AAaxtt']
 
 arr2 :  ['1111sfdsf', '1111111sdsf2', '1111111sfsf2']
@@ -46,7 +46,7 @@ arr2 + arr1
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.add() method 
 import numpy as np 
@@ -60,7 +60,7 @@ print ("\narr2 + arr1\n", np.char.add(arr2, arr1))
 
 **输出:**
 
-```
+```py
 arr1 + arr2
  This is geeks for geeks 
 

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert
 # numpy array to image
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 <class 'numpy.ndarray'>
 (737280,)
 (1024, 720)

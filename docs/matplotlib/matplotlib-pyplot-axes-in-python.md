@@ -22,7 +22,7 @@
 
 **例 1:**
 
-```
+```py
 # importing matplot library along 
 # with necessary modules
 import matplotlib.pyplot as plt
@@ -43,7 +43,7 @@ plt.axes()
 
 **例 2:**
 
-```
+```py
 # importing matplot library along 
 # with necessary modules
 import matplotlib.pyplot as plt

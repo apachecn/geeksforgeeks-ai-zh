@@ -32,7 +32,7 @@
 
 **语法:**
 
-```
+```py
 mean(data)
 ```
 
@@ -40,7 +40,7 @@ mean(data)
 
 **语法:**
 
-```
+```py
 stdev(data)
 ```
 
@@ -65,7 +65,7 @@ stdev(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import norm

@@ -12,7 +12,7 @@ TnT 标记器与普通标记器有不同的 API。可以在创建 train()方法�
 
 **代码#1:使用列车()方法**
 
-```
+```py
 from nltk.tag import tnt
 from nltk.corpus import treebank
 
@@ -34,7 +34,7 @@ print ("Accuracy of TnT Tagging : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of TnT Tagging : 0.8756313403842003
 
 ```
@@ -51,7 +51,7 @@ Accuracy of TnT Tagging : 0.8756313403842003
 
 **代码#2:对未知单词使用 tagger 作为‘unk’**
 
-```
+```py
 from nltk.tag import tnt
 from nltk.corpus import treebank
 from nltk.tag import DefaultTagger
@@ -75,7 +75,7 @@ print ("Accuracy of TnT Tagging : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of TnT Tagging : 0.892467083962875
 
 ```
@@ -94,7 +94,7 @@ Accuracy of TnT Tagging : 0.892467083962875
 
 **代码#3:使用 N = 100**
 
-```
+```py
 from nltk.tag import tnt
 from nltk.corpus import treebank
 from nltk.tag import DefaultTagger
@@ -117,7 +117,7 @@ print ("Accuracy of TnT Tagging : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of TnT Tagging : 0.8756313403842003
 
 ```

@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isalpha() method 
 
@@ -27,7 +27,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['abcd' 'ac1bd' 'abdc' 'dcba' 'ab cd']
 Output array:  [ True False  True  True False]
 
@@ -35,7 +35,7 @@ Output array:  [ True False  True  True False]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isalpha() method 
 
@@ -51,7 +51,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['geeks' 'for' 'geeks' 'wow!']
 Output array:  [ True  True  True False]
 

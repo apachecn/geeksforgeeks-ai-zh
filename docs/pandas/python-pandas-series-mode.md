@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.mode()`功能找到给定系列对象的模式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.mode()`函数找到给定系列对象的模式。
 
-```
+```py
 # return the mode
 result = sr.mode()
 
@@ -51,7 +51,7 @@ print(result)
 
 **例 2:** 使用`Series.mode()`功能找到给定序列对象的模式。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们将使用`Series.mode()`函数找到给定系列对象的模式。
 
-```
+```py
 # return the mode
 result = sr.mode()
 

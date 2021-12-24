@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # base_repr() function
 
@@ -34,7 +34,7 @@ print ("binary representation of 10 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 binary representation of 10 :  1010
 
@@ -42,7 +42,7 @@ binary representation of 10 :  1010
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # base_repr() function
 import numpy as geek
@@ -90,7 +90,7 @@ print ("Using padding parameter : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input array :  [5, -8, 21]
 
 binary representation of 5

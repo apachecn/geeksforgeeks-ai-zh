@@ -14,7 +14,7 @@ NumPy 中的 concatenate 函数沿着指定的轴连接两个或多个数组。
 
 **语法:**
 
-```
+```py
 numpy.concatenate((array1, array2, ...), axis=0)
 
 ```
@@ -23,7 +23,7 @@ numpy.concatenate((array1, array2, ...), axis=0)
 
 ## python 3
 
-```
+```py
 import numpy as np
 
 array_1 = np.array([1, 2])
@@ -35,7 +35,7 @@ print(array_new)
 
 **输出:**
 
-```
+```py
 [1 2 4 5]
 
 ```
@@ -44,7 +44,7 @@ print(array_new)
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 array_1 = np.array([[1, 2], [3, 4]])
@@ -56,7 +56,7 @@ print(array_new)
 
 **输出:**
 
-```
+```py
 [[1 2 5 6]
  [3 4 7 8]]
 
@@ -68,7 +68,7 @@ NumPy 的 stack()函数沿着一个新的轴连接两个或多个数组。
 
 **语法:**
 
-```
+```py
 numpy.stack(arrays, axis=0)
 
 ```
@@ -77,7 +77,7 @@ numpy.stack(arrays, axis=0)
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 array_1 = np.array([1, 2, 3, 4])
@@ -89,7 +89,7 @@ print(array_new)
 
 **输出:**
 
-```
+```py
 [[1 5]
  [2 6]
  [3 7]
@@ -105,7 +105,7 @@ numpy.block 用于从嵌套的列表块创建 nd 数组。
 
 **语法:**
 
-```
+```py
 numpy.block(arrays)
 
 ```
@@ -114,7 +114,7 @@ numpy.block(arrays)
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 block_1 = np.array([[1, 1], [1, 1]])
@@ -132,7 +132,7 @@ print(block_new)
 
 **输出:**
 
-```
+```py
 [[1 1 2 2 2]
  [1 1 2 2 2]
  [3 3 4 4 4]

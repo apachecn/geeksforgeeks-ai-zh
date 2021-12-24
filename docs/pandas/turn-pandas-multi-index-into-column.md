@@ -14,7 +14,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import pandas as pd
 
 # Creating index for multi-index dataframe
@@ -39,7 +39,7 @@ print(df)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **reset_df = df.reset_index()
 print(reset_df)**
 ```

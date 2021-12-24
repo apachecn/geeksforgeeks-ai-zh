@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`mean()`函数查找索引轴上所有观测值的平均值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 让我们使用`dataframe.mean()`函数找到指数轴上的平均值。
 
-```
+```py
 # Even if we do not specify axis = 0,
 # the method will return the mean over
 # the index axis by default
@@ -50,7 +50,7 @@ df.mean(axis = 0)
 
 **示例 2:** 对具有`Na`值的数据框使用`mean()`功能。还要找到柱轴上的平均值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -31,7 +31,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating 
 # DataFrame from dict narray / lists 
 # By default addresses.
@@ -57,7 +57,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating 
 # pandas DataFrame with indexed by 
 
@@ -87,7 +87,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate how to create 
 # Pandas DataFrame by lists of dicts.
 import pandas as pd
@@ -111,7 +111,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate to create
 # Pandas DataFrame by passing lists of 
 # Dictionaries and row indices.
@@ -136,7 +136,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate to create a
 # Pandas DataFrame with lists of 
 # dictionaries as well as 
@@ -176,7 +176,7 @@ print (df2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate creating 
 # pandas Datadaframe from lists using zip. 
 
@@ -213,7 +213,7 @@ df 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # Pandas Dataframe from Dicts of series.
 

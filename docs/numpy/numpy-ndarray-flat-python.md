@@ -6,19 +6,19 @@
 它不是 Python 内置迭代器对象的子类，否则它就是一个 **numpy.flatiter** 实例。
 **语法:**
 
-```
+```py
 numpy.ndarray.flat()
 ```
 
 **参数:**
 
-```
+```py
 index : [tuple(int)] index of the values to iterate
 ```
 
 **返回:**
 
-```
+```py
 1-D iteration of array
 ```
 
@@ -26,7 +26,7 @@ index : [tuple(int)] index of the values to iterate
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of ndarray.flat()
 
@@ -45,7 +45,7 @@ print("\n1D representation of array : \n ->", array.flat[0:15])
 
 **输出:**
 
-```
+```py
 2D array : 
  [[ 0  1  2  3  4]
  [ 5  6  7  8  9]
@@ -62,7 +62,7 @@ Using Array :  [2 3 4 5]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of ndarray.flat()
 
@@ -83,7 +83,7 @@ print("Changing values in a range : \n", array)   
 
 **输出:**
 
-```
+```py
 2D array : 
  [[ 0  1  2  3  4]
  [ 5  6  7  8  9]
@@ -107,7 +107,7 @@ flat ITER 迭代器由 x.flat 为任何数组 x 返回。它允许在 N 维数�
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of ndarray.flat()
 
@@ -127,7 +127,7 @@ for i in array.flat:
 
 **输出:**
 
-```
+```py
 2D array : 
  [[ 0  1  2  3  4]
  [ 5  6  7  8  9]

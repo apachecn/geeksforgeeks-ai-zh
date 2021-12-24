@@ -19,7 +19,7 @@
 
 **代码#1:使用“rv_continuous class”。**
 
-```
+```py
 def sample(self, size = 1, random_state = None):
 
         """
@@ -33,7 +33,7 @@ def sample(self, size = 1, random_state = None):
 
 **代码#2:从 rv_continuous 创建高斯分布。**
 
-```
+```py
 from scipy.stats import rv_continuous
 import numpy as np
 
@@ -50,7 +50,7 @@ gaussian._pdf(x)
 
 **输出:**
 
-```
+```py
 0.05399096651318806
 
 ```

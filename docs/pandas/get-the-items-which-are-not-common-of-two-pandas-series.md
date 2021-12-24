@@ -15,7 +15,7 @@ Pandas 不支持执行集合操作的特定方法。但是，我们可以使用�
 5.  找出并集和交集元素之间的区别。使用`isin()`方法获取“并集”和“交集”中出现的项目的布尔列表。
 6.  打印结果
 
-```
+```py
 # import the modules
 import pandas as pd 
 import numpy as np
@@ -39,6 +39,6 @@ print(notcommonseries)
 
 **输出:**
 
-```
+```py
 1, 2, 6, 7
 ```

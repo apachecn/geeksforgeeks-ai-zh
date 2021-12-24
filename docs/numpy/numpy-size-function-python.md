@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.size() method
 
@@ -30,7 +30,7 @@ print(np.size(arr))
 
 **Output:** 
 
-```
+```py
 8
 ```
 
@@ -38,7 +38,7 @@ print(np.size(arr))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.size() method
 
@@ -61,7 +61,7 @@ print(np.size(arr, 1))
 
 **Output:** 
 
-```
+```py
 2
 4
 ```

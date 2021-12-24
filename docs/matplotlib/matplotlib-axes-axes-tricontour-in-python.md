@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的**axes . tricantour()函数**也用于在非�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.tricontour(ax, *args, **kwargs)
 > ```
 > 
@@ -36,7 +36,7 @@ matplotlib 库的 Axes 模块中的**axes . tricantour()函数**也用于在非�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
@@ -66,7 +66,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

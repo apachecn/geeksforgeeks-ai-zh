@@ -28,7 +28,7 @@ matplotlib 库的 Axes 模块中的 **Axes.stem()函数**用于创建 stem 图�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ plt.show()
 ![](img/c50e022aa8269e0b5bff7e96b255f765.png)
 **例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

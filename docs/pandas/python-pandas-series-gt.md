@@ -24,7 +24,7 @@ Pandas **Series.gt()** 用于比较两个系列，并返回每个相应元素的
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -54,7 +54,7 @@ data["Age > Weight"]= data["Age"].gt(other)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -80,7 +80,7 @@ result
 **输出:**
 从输出中可以看出，NaN 值被替换为 5，替换后进行比较，使用新值进行比较。
 
-```
+```py
 0     True
 1     True
 2    False

@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.is_quarter_start`属性检查给定时间戳对象中的日期是否是季度的开始。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_quarter_start`属性来检查 ts 对象中的日期是否是季度的开始。
 
-```
+```py
 # check if the date is start of the quarter
 ts.is_quarter_start
 ```
@@ -44,7 +44,7 @@ ts.is_quarter_start
 
 **示例#2:** 使用`Timestamp.is_quarter_start`属性检查给定时间戳对象中的日期是否是季度开始。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.is_quarter_start`属性来检查 ts 对象中的日期是否是季度的开始。
 
-```
+```py
 # check if the date is start of the quarter
 ts.is_quarter_start
 ```

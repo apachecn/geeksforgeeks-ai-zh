@@ -14,7 +14,7 @@
 
 #### 要求
 
-```
+```py
 opencv-python 3.4.2
 
 imutils 0.5.3
@@ -23,7 +23,7 @@ imutils 0.5.3
 
 要安装上述模块，请在终端中键入以下命令。
 
-```
+```py
 pip install moudle_name
 ```
 
@@ -34,7 +34,7 @@ pip install moudle_name
 **所用图像:**
 ![python-opncv](img/4a028c38c4050095159ff03c5c4e283e.png)
 
-```
+```py
 import cv2
 import imutils
 
@@ -76,7 +76,7 @@ cv2.destroyAllWindows()
 
 **示例 2:** 让我们制作一个程序来检测视频中的行人:
 
-```
+```py
 import cv2
 import imutils
 

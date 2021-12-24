@@ -7,7 +7,7 @@
 **[Matplotlib](https://www.geeksforgeeks.org/python-introduction-matplotlib/)** 是 Python 中的一个库，是 NumPy 库的数值-数学扩展。 **[Pyplot](https://www.geeksforgeeks.org/pyplot-in-matplotlib/)** 是一个基于状态的接口到 **Matplotlib** 模块，它提供了一个类似于 MATLAB 的接口。Pyplot 中可以使用的各种图有线图、等高线图、直方图、散点图、三维图等。
 **#样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -23,7 +23,7 @@ plt.show() 
 matplotlib 库 pyplot 模块中的 **xlim()函数**用于获取或设置当前轴的 x 轴极限。
 **语法:**
 
-```
+```py
 matplotlib.pyplot.xlim(*args, **kwargs)
 ```
 
@@ -41,7 +41,7 @@ matplotlib.pyplot.xlim(*args, **kwargs)
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -64,7 +64,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

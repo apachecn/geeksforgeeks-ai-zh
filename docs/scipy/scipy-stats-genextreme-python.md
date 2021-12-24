@@ -24,7 +24,7 @@ T3】
 
 **代码#1:创建广义极值连续随机变量**
 
-```
+```py
 from scipy.stats import genextreme 
 
 numargs = genextreme .numargs
@@ -36,7 +36,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E399AB5A58>
 
@@ -44,7 +44,7 @@ RV :
 
 **代码#2:广义极值随机变量。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -59,7 +59,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 1.0976659  -4.30499477 -1.30818332  1.54664658  1.44268486  1.80027137
   1.52868675  1.8569798   1.36066713 -1.85945751]
@@ -71,7 +71,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -83,7 +83,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02915452 0.05830904 0.08746356 0.11661808 0.14577259
  0.17492711 0.20408163 0.23323615 0.26239067 0.29154519 0.32069971
@@ -100,7 +100,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

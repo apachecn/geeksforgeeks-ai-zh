@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的 **xscale()函数**用于设置 x 轴比例。
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -51,7 +51,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt 

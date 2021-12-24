@@ -11,7 +11,7 @@
 
 **示例 1 :** 在本例中，我们将使用`**map(str)**`函数将一列整数的每个值转换为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -39,7 +39,7 @@ print(df.dtypes)
 
 **示例 2 :** 在本例中，我们将使用`**astype(str)**` 函数将一列整数的每个值转换为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -68,7 +68,7 @@ print(df.dtypes)
 
 **示例 3 :** 在本例中，我们将使用`**apply(str)**`函数将一列整数的每个值转换为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 
@@ -96,7 +96,7 @@ print(df.dtypes)
 
 **示例 4 :** 我们上面看到的所有方法，都是将一个单独的列从整数转换成字符串。但是我们也可以使用 **`applymap(str)`** 方法将整个数据帧转换成字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd 
 

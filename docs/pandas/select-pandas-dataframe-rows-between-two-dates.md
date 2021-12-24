@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 data = {'Name': ['Tani', 'Saumya',
                  'Ganesh', 'Kirti'],
@@ -64,7 +64,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 data = {'Name': ['Tani', 'Saumya',
                  'Ganesh', 'Kirti'],

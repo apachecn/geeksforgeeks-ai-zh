@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import scipy.ndimage
 
@@ -38,7 +38,7 @@ print(ndarray)
 
 **输出:**
 
-```
+```py
 [[11 12 13 14]
  [21 22 23 24]
  [31 32 33 34]
@@ -55,7 +55,7 @@ print(ndarray)
 
 ## 蟒蛇 3
 
-```
+```py
 print(scipy.ndimage.zoom(
   ndarray, 2, order = 0))
 ```

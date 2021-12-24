@@ -97,7 +97,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.mlab as mlab
@@ -131,7 +131,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.mlab as mlab

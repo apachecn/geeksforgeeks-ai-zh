@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.notnull()()`函数检测给定索引中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ idx
 
 让我们找出索引中所有没有缺失的值
 
-```
+```py
 # to find the non-missing values.
 idx.notnull()
 ```
@@ -41,7 +41,7 @@ idx.notnull()
 
 **示例 2:** 使用`Index.notnull()`函数找出索引中所有未缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ idx
 
 让我们找出索引中所有没有缺失的值
 
-```
+```py
 # to find the non-missing values.
 idx.notnull()
 ```

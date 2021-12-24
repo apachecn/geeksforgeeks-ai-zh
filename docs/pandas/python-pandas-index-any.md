@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.any()`功能检查索引中的所有值是否都为真。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 让我们检查索引中是否有任何值为真，或者是否有所有的假值。
 
-```
+```py
 # to check if there is any false 
 # value present in the index
 df.any()
@@ -47,7 +47,7 @@ df.any()
 
 **示例 2:** 使用`Index.any()`功能检查索引中的任何值是否为真。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ df
 
 让我们检查索引中是否有任何值为真，或者是否有所有的假值。
 
-```
+```py
 # to check if there is any false
 #  value present in the index
 df.any()

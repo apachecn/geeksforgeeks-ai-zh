@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 if the sequence is [1, 2, 3]
 then the scaled sequence is [0, 0.5, 1]
 ```
@@ -31,7 +31,7 @@ then the scaled sequence is [0, 0.5, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -60,7 +60,7 @@ print(pd_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -91,7 +91,7 @@ print(pd_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler

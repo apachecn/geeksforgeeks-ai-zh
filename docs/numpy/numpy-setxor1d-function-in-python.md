@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.setxor1d() function
 
@@ -31,14 +31,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 3 6 8]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.setxor1d() function
 
@@ -55,7 +55,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [-2 -1  0  3  4  5]
 
 ```

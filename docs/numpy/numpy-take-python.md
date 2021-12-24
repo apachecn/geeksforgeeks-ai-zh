@@ -4,13 +4,13 @@
 
 **numpy.take()** 函数返回数组中沿上述轴和索引的元素。
 
-```
+```py
 Syntax: numpy.take(array, indices, axis = None, out = None, mode ='raise')
 ```
 
 **参数:**
 
-```
+```py
 array   : array_like, input array
 indices : index of the values to be fetched
 axis    : [int, optional] axis over which we need to fetch the elements; 
@@ -25,11 +25,11 @@ out     : [ndarray, optional]to place result within array
 
 **返回:**
 
-```
+```py
 ndarray; array has the same type
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.take method
 
@@ -49,7 +49,7 @@ print("\nTaking Indices\n", geek.take(array, [0, 4], axis = 1))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[5, 6, 2, 7, 1], [4, 9, 2, 9, 3]]
 

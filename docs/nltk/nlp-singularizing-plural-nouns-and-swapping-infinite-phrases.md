@@ -11,7 +11,7 @@
 
 **代码#1:奇点 _ 复数 _ 名词()类**
 
-```
+```py
 def singularize_plural_noun(chunk):
 
     nnsidx = first_chunk_index(chunk, tag_equals('NNS'))
@@ -28,13 +28,13 @@ def singularize_plural_noun(chunk):
 
 **代码#2:奇点复数**
 
-```
+```py
 singularize_plural_noun([('recipes', 'NNS'), ('book', 'NN')])
 ```
 
 **输出:**
 
-```
+```py
 [('recipe', 'NN'), ('book', 'NN')]
 
 ```
@@ -46,7 +46,7 @@ singularize_plural_noun([('recipes', 'NNS'), ('book', 'NN')])
 
 **代码#3:我们来了解一下 swap _ infinitive _ 短语()类**
 
-```
+```py
 def swap_infinitive_phrase(chunk):
     def inpred(wt):
         word, tag = wt
@@ -66,7 +66,7 @@ def swap_infinitive_phrase(chunk):
 
 **代码#4:我们来评估一下 swap _ infinitive _ 短语**
 
-```
+```py
 from transforms import swap_infinitive_phrase
 
 swap_infinitive_phrase([('book', 'NN'), 
@@ -75,7 +75,7 @@ swap_infinitive_phrase([('book', 'NN'), 
 
 **输出:**
 
-```
+```py
 [('recipes', 'NNS'), ('book', 'NN')]
 
 ```

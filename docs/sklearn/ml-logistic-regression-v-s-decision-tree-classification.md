@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -37,7 +37,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 ## 蟒蛇 3
 
-```
+```py
 cd C:\Users\Dev\Desktop\Kaggle\Sinking Titanic
 # Changing the working location to the location of the file
 df = pd.read_csv('_train.csv')
@@ -57,7 +57,7 @@ X.fillna(method ='ffill', inplace = True)
 
 ## 蟒蛇 3
 
-```
+```py
 X_train, X_test, y_train, y_test = train_test_split(
             X, y, test_size = 0.3, random_state = 0)
 
@@ -72,7 +72,7 @@ print(lr.score(X_test, y_test))
 
 ## 蟒蛇 3
 
-```
+```py
 criteria = ['gini', 'entropy']
 scores = {}
 

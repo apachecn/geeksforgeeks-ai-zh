@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.as_blocks()`函数将给定的序列对象作为字典返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -45,7 +45,7 @@ dtype: object
 
 现在我们将使用`Series.as_blocks()`函数返回给定的序列对象作为字典。
 
-```
+```py
 # return a dictionary
 result = sr.as_blocks()
 
@@ -55,7 +55,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 {'object': City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -68,7 +68,7 @@ dtype: object}
 
 **例 2 :** 使用`Series.as_blocks()`函数返回给定的序列对象作为字典。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -105,7 +105,7 @@ Freq: A-DEC, dtype: float64
 
 现在我们将使用`Series.as_blocks()`函数返回给定的序列对象作为字典。
 
-```
+```py
 # return a dictionary
 result = sr.as_blocks()
 
@@ -115,7 +115,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 {'float64': 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0

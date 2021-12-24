@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的**axes . annotation()函数**也用于给点 
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.annotate(self, s, xy, *args, **kwargs)
 > ```
 > 
@@ -32,7 +32,7 @@ matplotlib 库的 Axes 模块中的**axes . annotation()函数**也用于给点 
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Number of weekdays in july 2020
@@ -34,7 +34,7 @@ print("Number of weekdays in july 2020:",
 
 **输出:**
 
-```
+```py
 Number of weekdays in july 2020: 23
 
 ```
@@ -43,7 +43,7 @@ Number of weekdays in july 2020: 23
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Number of weekdays in August 2020
@@ -54,7 +54,7 @@ print("Number of saturday in november 2020:",
 
 **输出:**
 
-```
+```py
 Number of saturday in november 2020: 4
 
 ```
@@ -63,7 +63,7 @@ Number of saturday in november 2020: 4
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Number of weekdays in August 2020
@@ -74,7 +74,7 @@ print("Number of Sunday in november 2020:",
 
 **输出:**
 
-```
+```py
 Number of Sunday in november 2020: 5
 
 ```

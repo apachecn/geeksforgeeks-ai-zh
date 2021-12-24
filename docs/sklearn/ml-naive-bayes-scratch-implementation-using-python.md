@@ -11,7 +11,7 @@
 *   假设我们有一个假设( *H* )和证据( *E* )，
     根据贝叶斯定理，在得到表示为 *P(H)* 的证据之前假设的概率和得到表示为 *P(H|E)* 的证据之后假设的概率之间的关系是:
 
-```
+```py
 *P(H|E) = P(E|H)*P(H)/P(E)*
 ```
 
@@ -19,7 +19,7 @@
     T5】后验概率 = *P(H|E)* 为获得证据后的概率
 *   一般情况下，
 
-```
+```py
 *P(class|data) = (P(data|class) * P(class)) / P(data)*
 ```
 
@@ -29,7 +29,7 @@
 由于所有的王都是面牌所以 *P(面|王)= 1*
 一套 *13 张牌中有 *3* 张面牌*总共有 *4 套*所以 *P(面)= 12/52【T15*
 
-```
+```py
 *P(King|face) = P(face|king)*P(king)/P(face) = 1/3*
 ```
 
@@ -39,7 +39,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import math
 import random
@@ -181,7 +181,7 @@ print("Accuracy of your model is: ", accuracy)
 
 **输出:**
 
-```
+```py
 Total number of examples are: 200
 Out of these, training examples are: 140
 Test examples are: 60

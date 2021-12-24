@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.copy()`函数返回给定日期偏移对象的副本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将返回给定日期偏移对象的副本。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -69,7 +69,7 @@ print(do_copy is do)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.copy()`函数返回给定日期偏移对象的副本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -97,7 +97,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以增加 datetime 值。我们还将返回给定日期偏移对象的副本。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

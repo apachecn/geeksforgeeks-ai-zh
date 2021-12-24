@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # Python code explaining 
 # numpy.pandas.CategoricalDtype()
 
@@ -36,7 +36,7 @@ print ("\nType : ", c)
 
 ![](img/a77e94f6b02233e851148bd9d4d1a5d2.png)
 
-```
+```py
 c1 = pd.Series(['a', 'b', 'a', 'e'], dtype = c)
 print ("c1 : \n", c1)
 

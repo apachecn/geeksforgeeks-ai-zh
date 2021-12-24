@@ -22,7 +22,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.nansum() function
 
@@ -37,7 +37,7 @@ print ("sum of array element : ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 sum of array element :  10
 
@@ -45,7 +45,7 @@ sum of array element :  10
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nansum function
 
@@ -61,7 +61,7 @@ print ("sum of array elements: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 sum of array elements:  10.0
@@ -70,7 +70,7 @@ sum of array elements:  10.0
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.nansum function
 
@@ -86,7 +86,7 @@ print ("sum of array elements taking axis 1: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 sum of array elements taking axis 1:  [ 6\.  4.]
@@ -97,7 +97,7 @@ sum of array elements taking axis 1:  [ 6\.  4.]
 
 **代码#4 :**
 
-```
+```py
 # Python program explaining
 # numpy.nansum() function
 
@@ -118,7 +118,7 @@ print ("sum of 2nd array elements: ", out_sum2) 
 
 **输出:**
 
-```
+```py
 1st array elements:  [  2\.  -5\.  nan  inf]
 2nd array elements:  [  1\.   4\.  inf -inf]
 sum of 1st array elements:  inf

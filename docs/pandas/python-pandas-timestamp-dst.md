@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.dst()`函数查找给定时间戳对象的夏令时。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.dst()`函数来查找给定对象的 dst。
 
-```
+```py
 # return the dst
 ts.dst()
 ```
@@ -44,7 +44,7 @@ ts.dst()
 
 **示例 2:** 使用`Timestamp.dst()`函数查找给定时间戳对象的夏令时。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.dst()`函数来查找给定对象的 dst。
 
-```
+```py
 # return the dst
 ts.dst()
 ```

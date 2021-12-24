@@ -8,7 +8,7 @@
 
 **代码#1:让我们理解`shallow_tree()`T2】**
 
-```
+```py
 from nltk.tree import Tree
 
 def shallow_tree(tree):
@@ -25,7 +25,7 @@ def shallow_tree(tree):
 
 **代码#2:评估**
 
-```
+```py
 from transforms import shallow_tree
 from nltk.corpus import treebank
 
@@ -36,7 +36,7 @@ print ("\nShallow Tree : \n", shallow_tree(treebank.parsed_sents()[0]) )
 
 **输出:**
 
-```
+```py
 Deep Tree : 
  (S
   (NP-SBJ
@@ -71,7 +71,7 @@ Tree('VP', [('will', 'MD'), ('join', 'VB'), ('the', 'DT'), ('board', 'NN'),
 
 **代码#3:高度**
 
-```
+```py
 print ("height of tree : ", 
        treebank.parsed_sents()[0].height())
 
@@ -81,7 +81,7 @@ print ("\nheight of shallow tree : ", 
 
 **输出:**
 
-```
+```py
 height of tree : 7
 
 height of shallow tree :3

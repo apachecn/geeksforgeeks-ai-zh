@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import library
 import numpy as np
 
@@ -32,7 +32,7 @@ print(rslt)
 
 **输出**
 
-```
+```py
 [[1\. 1.]
  [1\. 1.]]
 
@@ -42,7 +42,7 @@ print(rslt)
 
 ## 计算机编程语言
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -59,7 +59,7 @@ print(rslt2)
 
 **输出**
 
-```
+```py
 [[ 1\.         -0.98198051]
  [-0.98198051  1\.        ]]
 

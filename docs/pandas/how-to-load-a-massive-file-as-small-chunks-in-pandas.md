@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from pprint import pprint
 
@@ -41,7 +41,7 @@ df.columns
 
 ## 蟒蛇 3
 
-```
+```py
 df.info()
 ```
 
@@ -55,7 +55,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.read_csv("train/train.csv", chunksize=10000)
 print.print(df)
 ```
@@ -68,7 +68,7 @@ print.print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 for data in df:
     pprint(data.shape)
 ```
@@ -81,7 +81,7 @@ for data in df:
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.read_csv("train/train.csv", chunksize=10)
 
 for data in df:

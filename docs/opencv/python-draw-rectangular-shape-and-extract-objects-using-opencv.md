@@ -8,7 +8,7 @@
 
 让我们看看如何在图像上绘制矩形形状，并使用 OpenCV 提取对象。
 
-```
+```py
 # Python program to extract rectangular
 # Shape using OpenCV in Python3
 import cv2
@@ -70,7 +70,7 @@ cv2.destroyAllWindows() 
 *   重新选择提取部分，以防选择错误
 *   从图像中提取特定对象
 
-```
+```py
 # Write Python code here
 # import the necessary packages
 import cv2
@@ -136,7 +136,7 @@ cv2.destroyAllWindows() 
 
 **运行**:将文件保存为***capture _ events . py***并选择位于同一目录的演示图片进行测试。现在，执行以下命令–
 
-```
+```py
 python capture_events.py --image demo.jpg
 ```
 

@@ -8,7 +8,7 @@ Pandas 库对于在 Python 中执行探索性数据分析非常有用。熊猫�
 
 ## 蟒 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict and left aligning
 import pandas as pd

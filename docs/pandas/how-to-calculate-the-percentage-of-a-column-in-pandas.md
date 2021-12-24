@@ -10,7 +10,7 @@ A **百分比**由数值除以所有数值之和再乘以 100 的数学公式计
 
 **公式:**
 
-```
+```py
 df[percent] = (df['column_name'] / df['column_name'].sum()) * 100
 
 ```
@@ -19,7 +19,7 @@ df[percent] = (df['column_name'] / df['column_name'].sum()) * 100
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -54,7 +54,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 

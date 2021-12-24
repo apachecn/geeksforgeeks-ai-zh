@@ -26,7 +26,7 @@ Matplotlib 是一个全面的库，用于在 Python 中创建静态、动画和�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5, 6, 7, 8]
@@ -62,7 +62,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Matplotlib and Numpy Packages
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Matplotlib and Numpy Packages
 import numpy as np
 import matplotlib.pyplot as plt

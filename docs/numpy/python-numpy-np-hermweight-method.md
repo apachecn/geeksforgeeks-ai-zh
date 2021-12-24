@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`np.hermweight()`方法，我们能够通过使用该方法在 hermite 级数中应用权函数来获得 hermite 多项式。
 
-```
+```py
 # import numpy and hermweight
 import numpy as np
 from numpy.polynomial.hermite import hermweight
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermweight
 import numpy as np
 from numpy.polynomial.hermite import hermweight

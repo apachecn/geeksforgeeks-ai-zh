@@ -11,7 +11,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing packages
 import numpy as np
 import matplotlib.pyplot as plt

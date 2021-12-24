@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.prod() method 
 
@@ -46,7 +46,7 @@ print ("product of masked array along default axis : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -59,7 +59,7 @@ product of masked array along default axis :  30
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.prod() method 
 
@@ -88,7 +88,7 @@ print ("product of masked array along 1 axis : ", out_arr2)
 
 **Output:**
 
-```
+```py
 Input array :  [[1 0 3]
 
  [4 1 6]]

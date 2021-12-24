@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to insert row in the dataframe
 def Insert_row(row_number, df, row_value):
     # Starting value of upper half
@@ -94,7 +94,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -115,7 +115,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to insert row in the dataframe
 def Insert_row_(row_number, df, row_value):
     # Slice the upper half of the dataframe

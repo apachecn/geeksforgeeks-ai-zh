@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -39,7 +39,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
     Unnamed: 0  id     diet  pulse    time     kind
 0            0   1  low fat     85   1 min     rest
 1            1   1  low fat     85  15 min     rest
@@ -76,7 +76,7 @@ Name: time, Length: 78, dtype: float64
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -102,7 +102,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -122,7 +122,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Unnamed: 0  id     diet  pulse    time     kind
 0            0   1  low fat     85   1 min     rest
 1            1   1  low fat     85  15 min     rest
@@ -159,7 +159,7 @@ Name: kind, Length: 234, dtype: float64
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 

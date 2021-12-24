@@ -8,7 +8,7 @@
 
 **Example:** (No Copy by Assigning)
 
-```
+```py
 import numpy as np
 
 # creating array
@@ -31,7 +31,7 @@ print("assigned array- ", nc)
 
 **输出:**
 
-```
+```py
 id of arr 26558736
 id of nc 26558736
 original array-  [12  4  6  8 10]
@@ -43,7 +43,7 @@ assigned array-  [12  4  6  8 10]
 
 **示例:**(制作视图并更改原始数组)
 
-```
+```py
 import numpy as np
 
 # creating array
@@ -65,7 +65,7 @@ print("original array- ", arr)
 print("view- ", v)
 ```
 
-```
+```py
 id of arr 30480448
 id of v 30677968
 original array-  [12  4  6  8 10]
@@ -77,7 +77,7 @@ view-  [12  4  6  8 10]
 
 **示例:**(制作副本并更改原始数组)
 
-```
+```py
 import numpy as np
 
 # creating array
@@ -101,7 +101,7 @@ print("copy- ", c)
 
 **输出:**
 
-```
+```py
 id of arr 35406048
 id of c 32095936
 original array-  [12  4  6  8 10]
@@ -113,7 +113,7 @@ copy-  [ 2  4  6  8 10]
 要检查数组是否在视图和副本中拥有它的数据，我们可以使用每个 NumPy 数组都有属性 **base** ，如果数组拥有数据，该属性将返回 **None** 。否则，基本属性指的是原始对象。
 **示例:**
 
-```
+```py
 import numpy as np
 
 # creating array

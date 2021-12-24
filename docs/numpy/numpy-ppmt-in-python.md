@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining 
 # ppmt() function 
 
@@ -43,7 +43,7 @@ print("Solution : ", Solution) 
 
 **输出:**
 
-```
+```py
 Solution :  -0.1195078262827336
 
 ```

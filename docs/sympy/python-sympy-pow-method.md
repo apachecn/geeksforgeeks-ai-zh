@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import Pow() method from sympy
 from sympy import Pow
 
@@ -28,14 +28,14 @@ print("{}^{} = {}".format(a, b, pow_a_b))
 
 **输出:**
 
-```
+```py
 3^3 = 27
 
 ```
 
 **例 2:**
 
-```
+```py
 # import Pow() method from sympy
 from sympy import Pow
 
@@ -50,7 +50,7 @@ print("{}^{} = {}".format(a, b, pow_a_b))
 
 **输出:**
 
-```
+```py
 5^4 = 625
 
 ```

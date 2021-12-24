@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(ps1 != ps2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(ps1 > ps2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -102,7 +102,7 @@ print(ps1 < ps2)
 
 ****语法:****
 
-```
+```py
 Series.equals(othe**r)** 
 ```
 
@@ -110,7 +110,7 @@ Series.equals(othe**r)**
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 
@@ -140,7 +140,7 @@ print(result)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 

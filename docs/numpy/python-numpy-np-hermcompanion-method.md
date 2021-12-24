@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermcompanion()`方法，我们能够使用该方法从 hermite 级数中获得伴随矩阵。
 
-```
+```py
 # import numpy and hermcompanion
 import numpy as np
 from numpy.polynomial.hermite import hermcompanion
@@ -31,7 +31,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermcompanion
 import numpy as np
 from numpy.polynomial.hermite import hermcompanion

@@ -17,14 +17,14 @@
 
 **返回:**
 
-```
+```py
 An array with Boolean results of arr1 and arr2 element-wise(of the same shape).  
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # logical_and() function
 import numpy as np
@@ -41,14 +41,14 @@ print ("Output Array : ", out_arr)
 
 **输出:**
 
-```
+```py
 Output Array :  [ True False False False]
 
 ```
 
 **代码 2:如果输入数组的形状不同，则值错误**
 
-```
+```py
 # Python program explaining
 # logical_and() function
 import numpy as np
@@ -65,7 +65,7 @@ print ("Output Array : ", out_arr)
 
 **输出:**
 
-```
+```py
 <font color="red">ValueError:</font>operands could not be broadcast together with shapes (4,) (5,) 
 ```
 

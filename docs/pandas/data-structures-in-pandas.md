@@ -27,7 +27,7 @@ Pandas 是一个一维标记数组，能够保存任何类型的数据(整数、
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # a simple char list
@@ -46,7 +46,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # a simple int list
@@ -65,7 +65,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 dic = { 'Id': 1013, 'Name': 'MOhe',
@@ -91,7 +91,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -114,7 +114,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict narray / lists
 # By default addresses.
@@ -142,7 +142,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -179,7 +179,7 @@ print(df[['Name', 'Qualification']])
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 
@@ -213,7 +213,7 @@ display (select_prod)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 

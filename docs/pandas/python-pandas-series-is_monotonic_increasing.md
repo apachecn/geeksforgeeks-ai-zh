@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.is_monotonic_increasing`属性检查给定 Series 对象中的基础数据是否单调增加。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.is_monotonic_increasing`属性来检查给定 Series 对象中的底层数据是否单调递增。
 
-```
+```py
 # check if monotonically increasing
 sr.is_monotonic_increasing
 ```
@@ -49,7 +49,7 @@ sr.is_monotonic_increasing
 
 **示例 2 :** 使用`Series.is_monotonic_increasing`属性检查给定 Series 对象中的基础数据是否单调增加。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.is_monotonic_increasing`属性来检查给定 Series 对象中的底层数据是否单调递增。
 
-```
+```py
 # check if monotonically increasing
 sr.is_monotonic_increasing
 ```

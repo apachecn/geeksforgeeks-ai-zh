@@ -22,7 +22,7 @@ Dataframe.aggregate()函数用于跨一列或多列应用某种聚合。使用�
 
 **示例#1:** 在数据框中的所有列上聚合“sum”和“min”函数。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -37,7 +37,7 @@ df[:10]
 
 聚合仅适用于数值类型的列。
 
-```
+```py
 # Applying aggregation across all the columns 
 # sum and min will be found for each 
 # numeric type column in df dataframe
@@ -53,7 +53,7 @@ df.aggregate(['sum', 'min'])
 
 在 Pandas 中，我们还可以跨不同的列应用不同的聚合函数。为此，我们需要传递一个包含列名和值的字典，这些列名和值包含任何特定列的聚合函数列表。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

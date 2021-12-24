@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import trigintegrate
 from sympy import Symbol, sin, cos, tan, sec, csc, cot
 from sympy.integrals.trigonometry import trigintegrate
@@ -34,7 +34,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import trigintegrate
 from sympy import Symbol, sin, cos, tan, sec, csc, cot
 from sympy.integrals.trigonometry import trigintegrate

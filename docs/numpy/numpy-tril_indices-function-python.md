@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.tril_indices() function
 
@@ -27,14 +27,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (array([0, 1, 1, 2, 2, 2]), array([0, 0, 1, 0, 1, 2]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.tril_indices() function
 
@@ -48,7 +48,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (array([0, 0, 0, 1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2, 0, 1, 2]))
 
 ```

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.as_independent()`方法，我们能够基于作为参数传递的自变量来分离数学函数。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

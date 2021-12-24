@@ -10,7 +10,7 @@
 
 **代码#1:下降()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.descents()
 
@@ -36,7 +36,7 @@ print ("Permutation b - descents form : ", b.descents())
 
 **代码#2:下降()示例**–2D 排列
 
-```
+```py
 # Python code explaining
 # SymPy.descents()
 

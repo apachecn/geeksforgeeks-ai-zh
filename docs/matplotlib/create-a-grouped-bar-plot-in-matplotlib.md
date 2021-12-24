@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 import numpy as np
@@ -42,7 +42,7 @@ plt.bar(x+0.2, y2, width)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 import numpy as np
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import matplotlib.pyplot as plt
 import pandas as pd

@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.minute`属性返回给定序列对象的基础数据中日期时间的分钟数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.dt.minute`属性返回给定 Series 对象的基础数据中日期时间的分钟数。
 
-```
+```py
 # return the minutes
 result = sr.dt.minute
 
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.minute`属性返回给定 Series 对象的基础数据中日期时间的分钟数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.dt.minute`属性返回给定 Series 对象的基础数据中日期时间的分钟数。
 
-```
+```py
 # return the minutes
 result = sr.dt.minute
 

@@ -10,37 +10,37 @@
 
 **求矩阵逆的公式:**
 
-```
+```py
 A-1 = ( 1 / det(A) )* Adj(A)      ----(1)
 ```
 
 **Adj(A)是 A 的伴随矩阵，取 A 的辅因子矩阵的转置:**
 
-```
+```py
 Adj(A) = (cofactor(A))T            ----(2)
 ```
 
 **将等式 2 代入等式 1，我们得到如下结果:**
 
-```
+```py
 A-1 = ( 1/det(A) ) *  (cofactor(A))T 
 ```
 
 **将 det(A)发送到等式的另一侧:**
 
-```
+```py
 det(A) * A-1 = (cofactor(A))T 
 ```
 
 移除等式右侧的转置将导致在等式左侧(LHS)应用转置。我们可以在将 A <sup>-1</sup> 乘以 det(A)之后应用转置，但是为了简单起见，我们将转置应用到 A <sup>-1</sup> 然后乘以 det(A)，然而，两个结果是相同的。
 
-```
+```py
 det(A) * (A-1)T = cofactor(A)      
 ```
 
 **最后**、**我们推导出求矩阵辅因子的公式:**
 
-```
+```py
 cofactor(A) = (A-1)T * det(A)
 ```
 
@@ -55,7 +55,7 @@ cofactor(A) = (A-1)T * det(A)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 def matrix_cofactor(matrix):
@@ -77,7 +77,7 @@ print(matrix_cofactor([[1, 2], [3, 4]]))
 
 **输出:**
 
-```
+```py
 [[ 4\. -3.]
  [-2\.  1.]]
 ```
@@ -86,7 +86,7 @@ print(matrix_cofactor([[1, 2], [3, 4]]))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 def matrix_cofactor(matrix):
@@ -110,7 +110,7 @@ print(matrix_cofactor([[1, 9, 3],
 
 **输出:**
 
-```
+```py
 [[ 12\.  -4\.  -1.]
  [-51\.  -1\.  20.]
  [ 21\.   2\. -13.]]

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: month = 2; year = 2016
 Output: 29 days
 
@@ -22,13 +22,13 @@ Output: 31 days
 
 除 12 月以外的所有月份:
 
-```
+```py
 numpy.datetime64('yyyy-N-01') - numpy.datetime64(yyyy-P-01')
 ```
 
 12 月份:
 
-```
+```py
 numpy.datetime64('yyyy-P-31') - numpy.datetime64(yyyy-P-01') + 1
 ```
 
@@ -40,7 +40,7 @@ numpy.datetime64('yyyy-P-31') - numpy.datetime64(yyyy-P-01') + 1
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy
 
@@ -86,7 +86,7 @@ print(calcDays(month, year))
 
 **输出:**
 
-```
+```py
 29 days
 ```
 
@@ -96,7 +96,7 @@ print(calcDays(month, year))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy
 
@@ -142,7 +142,7 @@ print(calcDays(month, year))
 
 **输出:**
 
-```
+```py
 30 days
 ```
 
@@ -152,7 +152,7 @@ print(calcDays(month, year))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy
 
@@ -198,6 +198,6 @@ print(calcDays(month, year))
 
 **输出:**
 
-```
+```py
 31 days
 ```

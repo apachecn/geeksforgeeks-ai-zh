@@ -50,7 +50,7 @@ bokeh 库绘图模块中的 **circle_x()功能**用于配置 circle_x 字形并�
 以下示例说明了 bokeh .标绘中的 bokeh .标绘. figure.circle_x()函数:
 **示例 1:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 
@@ -68,7 +68,7 @@ show(plot)
 
 **例 2:**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np 

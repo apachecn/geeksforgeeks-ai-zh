@@ -19,7 +19,7 @@ TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 import numpy as np
@@ -39,7 +39,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([ 7\.  8\. 13\. 11\. inf], shape=(5, ), dtype=float64)
 Result:  tf.Tensor([False False False False  True], shape=(5, ), dtype=bool)
 ```
@@ -48,7 +48,7 @@ Result:  tf.Tensor([False False False False  True], shape=(5, ), dtype=bool)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 import numpy as np
@@ -68,7 +68,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([ 7\.  8\. 13\. 11\. nan], shape=(5, ), dtype=float64)
 Result:  tf.Tensor([False False False False False], shape=(5, ), dtype=bool)
 ```

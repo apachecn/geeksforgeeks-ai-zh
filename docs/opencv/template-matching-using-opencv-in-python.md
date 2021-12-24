@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # template matching
 import cv2
@@ -76,7 +76,7 @@ cv2.imshow('Detected',img_rgb)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # multiscaling in template matching
 import cv2

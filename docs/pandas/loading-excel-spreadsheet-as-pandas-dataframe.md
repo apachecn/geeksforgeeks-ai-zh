@@ -6,7 +6,7 @@
 
 我们首先需要导入 Pandas 并加载 excel 文件，然后将 excel 文件表解析为 Pandas 数据帧。
 
-```
+```py
 import pandas as pd
 
 # Import the excel file and call it xls_file
@@ -25,7 +25,7 @@ print(df)
 
 也可以使用`read_excel()`方法的“`usecols`”参数读取特定的列。
 
-```
+```py
 # import pandas lib as pd 
 import pandas as pd 
 
@@ -39,7 +39,7 @@ print(required_df) 
 
 **输出:**
 
-```
+```py
         Name  Percentage
 0      Ankit          95
 1      Rahul          90

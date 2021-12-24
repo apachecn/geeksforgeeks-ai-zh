@@ -6,14 +6,14 @@
 
 OpenCV 帮助我们控制和管理不同类型的鼠标事件，并为我们提供操作它们的灵活性。鼠标事件有多种类型。这些事件可以通过运行以下代码段来显示:
 
-```
+```py
 import cv2
 [print(i) for i in dir(cv2) if 'EVENT' in i]
 ```
 
 **输出:**
 
-```
+```py
 EVENT_FLAG_ALTKEY
 EVENT_FLAG_CTRLKEY
 EVENT_FLAG_LBUTTON
@@ -54,7 +54,7 @@ EVENT_RBUTTONUP
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import cv2
 

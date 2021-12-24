@@ -12,7 +12,7 @@
 
 该数据集包含价格和加州地区房屋的其他统计数据。
 
-```
+```py
 import pandas as pd
 
 # loading the dataset
@@ -24,7 +24,7 @@ data.info()
 
 **Output :**
 
-```
+```py
 
 RangeIndex: 20640 entries, 0 to 20639
 Data columns (total 10 columns):
@@ -49,7 +49,7 @@ memory usage: 1.6+ MB
 
 让我们选择三个数字列；*中值 _ 房价*、*住房 _ 中值 _ 年龄*、*中值 _ 收入*，用于标绘。注意熊猫地块依赖 Matplotlib，需要先导入。
 
-```
+```py
 import matplotlib.pyplot as plt
 from pandas.plotting import scatter_matrix
 

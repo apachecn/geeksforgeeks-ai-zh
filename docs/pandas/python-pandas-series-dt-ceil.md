@@ -13,7 +13,7 @@
 
 **示例#1:** 使用`Series.dt.ceil()`函数将给定序列对象的日期时间数据提升到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.dt.ceil()`函数将给定序列对象中的日期时间值上限为每日频率。
 
-```
+```py
 # ceil to daily frequency
 result = sr.dt.ceil(freq = 'D')
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.ceil()`函数将给定序列对象的日期时间数据提升到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.dt.ceil()`函数将给定序列对象中的日期时间值上限为每小时频率。
 
-```
+```py
 # ceil to hourly frequency
 result = sr.dt.ceil(freq = 'H')
 

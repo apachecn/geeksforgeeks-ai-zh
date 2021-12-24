@@ -11,7 +11,7 @@
 matplotlib 库 pyplot 模块中的**秋季()功能**用于将 colormap 设置为“秋季”。
 **语法:**
 
-```
+```py
 matplotlib.pyplot.autumn()
 
 ```
@@ -20,7 +20,7 @@ matplotlib.pyplot.autumn()
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -59,7 +59,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

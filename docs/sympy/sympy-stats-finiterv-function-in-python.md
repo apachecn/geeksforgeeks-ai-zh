@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.FiniteRV()`方法，我们能够使用该方法创建表示密度字典的随机变量。
 
-```
+```py
 # Import sympy and FiniteRV
 from sympy.stats import FiniteRV, P, E
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 2.00000000000000
 0.40000000000000
 
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and FiniteRV
 from sympy.stats import FiniteRV, P, E
 
@@ -49,7 +49,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 2.30000000000000
 0.56000000000000
 

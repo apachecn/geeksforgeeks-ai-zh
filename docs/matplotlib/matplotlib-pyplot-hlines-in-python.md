@@ -26,7 +26,7 @@
 
 **Example 1:**
 
-```
+```py
 from matplotlib import pyplot as plt
 
 plt.hlines(y = 1, xmin = 1, xmax = 4)
@@ -41,7 +41,7 @@ plt.hlines(y = 2, xmin = 2, xmax = 5)
 
 **例 2:**
 
-```
+```py
 from matplotlib import pyplot as plt
 
 plt.hlines(y = 1, xmin = 1, xmax = 4, label ="black line")

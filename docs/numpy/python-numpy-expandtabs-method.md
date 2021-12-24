@@ -12,7 +12,7 @@
 
 在这个例子中，我们可以看到，通过使用`numpy.char.expandtabs()`方法，我们能够通过使用 numpy 获得扩展的选项卡。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

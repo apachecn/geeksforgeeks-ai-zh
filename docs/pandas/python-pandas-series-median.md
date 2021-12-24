@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.median()`函数找到给定序列对象中底层数据的中值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们用`Series.median()`函数求给定级数对象的中值。
 
-```
+```py
 # return the median
 result = sr.median()
 
@@ -55,7 +55,7 @@ print(result)
 
 **例 2:** 使用`Series.median()`函数求给定序列对象中底层数据的中位数。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们用`Series.median()`函数求给定级数对象的中值。在计算给定序列对象的中值时，我们将跳过缺失的值。
 
-```
+```py
 # return the median
 result = sr.median(skipna = True)
 

@@ -16,14 +16,14 @@
 
 **通过管道 3 安装:**
 
-```
+```py
 pip3 install datacompy
 
 ```
 
 **示例:**
 
-```
+```py
 from io import StringIO
 import pandas as pd
 import datacompy

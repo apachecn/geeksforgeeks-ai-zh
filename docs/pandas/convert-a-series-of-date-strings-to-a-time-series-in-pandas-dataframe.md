@@ -11,7 +11,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(pd.to_datetime(dt_series))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(pd.to_datetime(dt_series))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -95,7 +95,7 @@ print(pd.to_datetime(dt_series))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -123,7 +123,7 @@ print(pd.to_datetime(dt_series))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -151,7 +151,7 @@ print(pd.to_datetime(dt_series))
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 

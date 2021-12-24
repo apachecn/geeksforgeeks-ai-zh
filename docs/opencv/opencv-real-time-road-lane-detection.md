@@ -26,7 +26,7 @@
     To install using anaconda, type- “conda install -c conda-forge opencv”, or to install using pip, type-
     “pip install opencv-python” into your command line
 
-    ```
+    ```py
     # Import the required libraries
     import cv2
     import numpy as np
@@ -35,7 +35,7 @@
 
     canny 函数计算 x 和 y 两个方向的导数，根据它，我们可以看到强度值的变化。较大的导数等于高强度(剧烈变化)，较小的导数等于低强度(轻微变化):
 
-    ```
+    ```py
     def canny_edge_detector(image):
 
         # Convert the image color to grayscale
@@ -49,7 +49,7 @@
 
     找到感兴趣的区域后，隐藏我们的精明形象:
 
-    ```
+    ```py
     def region_of_interest(image):
         height = image.shape[0]
         polygons = np.array([
@@ -67,7 +67,7 @@
 
     我们将找到我们道路车道的坐标:
 
-    ```
+    ```py
     def create_coordinates(image, line_parameters):
         slope, intercept = line_parameters
         y1 = image.shape[0]
@@ -79,7 +79,7 @@
 
     分别借助于正斜率和负斜率来区分左车道和右车道，并将它们附加到列表中，如果斜率是负的，则道路车道属于车辆的左侧，如果斜率是正的，则道路车道属于车辆的右侧:
 
-    ```
+    ```py
     def average_slope_intercept(image, lines):
         left_fit = []
         right_fit = []
@@ -104,7 +104,7 @@
 
     将坐标拟合到我们的实际图像中，然后返回带有检测到的线的图像(带有检测到的车道的道路):
 
-    ```
+    ```py
     def display_lines(image, lines):
         line_image = np.zeros_like(image)
         if lines is not None:
@@ -115,7 +115,7 @@
 
     首先，视频文件被读取并解码成帧，并使用霍夫线方法检测穿过图像的直线。然后我们调用所有的函数。
 
-    ```
+    ```py
     # Path of dataset directory
     cap = cv2.VideoCapture("datasets\test2.mp4") 
     while(cap.isOpened()):

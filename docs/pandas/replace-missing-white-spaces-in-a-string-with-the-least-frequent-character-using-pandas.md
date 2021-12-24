@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 String S = "akash loves gfg" 
 here:
 'g' comes: 2 times
@@ -31,7 +31,7 @@ So, the Output String will be: "akashlloveslgfg".
 
 **例 2:**
 
-```
+```py
 string ="goodd noon" 
 here:
 g comes: 1 time 
@@ -47,7 +47,7 @@ replaced by the character g and the output will be:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 

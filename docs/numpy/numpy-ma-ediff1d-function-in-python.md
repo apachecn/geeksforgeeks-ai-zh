@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.ediff1d() function
 
@@ -33,7 +33,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [ 2  3 -4  8]
 
 ```
@@ -42,7 +42,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.ediff1d() function
 
@@ -58,7 +58,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [-23 0 2 3 -4 8 25]
 
 ```

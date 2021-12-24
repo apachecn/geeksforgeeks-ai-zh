@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 data.to_excel( excel_writer, sheet_name='Sheet1', \*\*kwargs )
 
 ```
@@ -34,7 +34,7 @@ data.to_excel( excel_writer, sheet_name='Sheet1', \*\*kwargs )
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages 
 import pandas as pd 
 

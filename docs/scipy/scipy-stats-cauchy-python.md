@@ -18,7 +18,7 @@
 
 **代码#1:创建柯西连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import cauchy
 
@@ -31,7 +31,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000002948548C6D8>
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:柯西随机变量和概率分布函数。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -54,7 +54,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 2.73388202  4.88389383 -4.89271415  4.63864536 -0.36933865  1.51521875
   1.43853452 -0.69619917 -0.68358229  4.13179831]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
@@ -96,7 +96,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

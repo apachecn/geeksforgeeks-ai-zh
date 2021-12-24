@@ -21,7 +21,7 @@
 
 **下面是 Python 代码:**
 
-```
+```py
 # importing libraries
 import cv2
 import numpy as np

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -34,7 +34,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Selects one row randomaly using sample()
 # without give any parameters.
 
@@ -64,7 +64,7 @@ df.sample()
 
 ## 蟒蛇 3
 
-```
+```py
 # To get 3 random rows
 # each time it gives 3 different rows
 

@@ -18,7 +18,7 @@
 
 **示例 1 :** 使用 `display.max_rows`更改要显示的行数。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -50,7 +50,7 @@ display(df)
 
 **示例 2 :** 使用 `display.max_columns`更改要显示的列数。
 
-```
+```py
 # importing the module
 import pandas as pd
 

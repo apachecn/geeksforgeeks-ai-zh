@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ldexp() method
 
@@ -33,7 +33,7 @@ print(geek.ldexp(-3.2, geek.arange(3)))
 
 **Output:** 
 
-```
+```py
 [  6\.  12\.  24\.  48.]
 [ -8\. -16\. -32\. -64.]
 [  5.2  10.4  20.8]
@@ -44,7 +44,7 @@ print(geek.ldexp(-3.2, geek.arange(3)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ldexp() method
 
@@ -57,6 +57,6 @@ print(geek.ldexp(-5 + 9J, geek.arange(4)))
 
 **Output:** 
 
-```
+```py
  TypeError: ufunc 'ldexp' not supported for the input types
 ```

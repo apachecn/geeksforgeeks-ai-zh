@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.min()`函数在给定序列对象的底层数据中寻找最小值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们用`Series.min()`函数求给定数列对象的最小值。
 
-```
+```py
 # return the minimum value in the 
 # series object
 result = sr.min()
@@ -56,7 +56,7 @@ print(result)
 
 **例 2:** 使用`Series.min()`函数在给定序列对象的底层数据中寻找最小值。给定的序列对象也包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们用`Series.min()`函数求给定数列对象的最小值。我们将跳过丢失的值，同时找到最小值。
 
-```
+```py
 # return the minimum value in the 
 # series object
 result = sr.min(skipna = True)

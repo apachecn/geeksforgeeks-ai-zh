@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 arr1    : [array_like]Input array or object whose elements, we need to test.
 arr2    : [array_like]Input array or object whose elements, we need to test.
 
@@ -14,14 +14,14 @@ arr2    : [array_like]Input array or object whose elements, we need to test.
 
 **返回:**
 
-```
+```py
 True, if both arrays have same shape and value; otherwise False
 
 ```
 
 **代码:解释工作**
 
-```
+```py
 # Python program explaining
 # array_equal() function
 import numpy as np
@@ -51,7 +51,7 @@ print ("\nResult : ", np.array_equal(arr1, arr2))
 
 **输出:**
 
-```
+```py
 arr1 :  [0 1 2 3]
 arr2 :  [7, 4, 6, 7]
 

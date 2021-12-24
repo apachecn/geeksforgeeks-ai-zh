@@ -13,7 +13,7 @@
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.vdot() method
 
@@ -29,7 +29,7 @@ print("Dot Product  : ", product)
 
 **输出:**
 
-```
+```py
 Dot Product  :  (23-2j)
 
 ```
@@ -46,7 +46,7 @@ Dot Product  :  (23-2j)
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.vdot() method
 
@@ -72,7 +72,7 @@ array is being flattened
 
 **输出:**
 
-```
+```py
 Dot Product  :  55
 
 Dot Product  :  55

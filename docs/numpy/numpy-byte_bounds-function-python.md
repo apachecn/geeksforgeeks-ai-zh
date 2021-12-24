@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.byte_bounds() function
 
@@ -27,14 +27,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (37062512, 37062528)
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.byte_bounds() function
 
@@ -50,7 +50,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (30421344, 30421376)
 
 ```

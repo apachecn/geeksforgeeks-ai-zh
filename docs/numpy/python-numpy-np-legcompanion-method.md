@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legcompanion() method 
 
@@ -34,7 +34,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [[ 0\.          0.28867513]
  [ 0.57735027 -0.33333333]]
 
@@ -42,7 +42,7 @@ print (res) 
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legcompanion() method 
 
@@ -63,7 +63,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [[ 0\.          0.57735027  0\.         -0.30237158]
  [ 0.57735027  0\.          0.51639778 -0.34914862]
  [ 0\.          0.51639778  0\.          0.10141851]

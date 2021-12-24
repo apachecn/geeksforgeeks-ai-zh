@@ -12,7 +12,7 @@
 
 **代码#1:**
 
-```
+```py
 # FInding statistics of data
 
 from scipy import stats
@@ -31,7 +31,7 @@ print("No. of observations is :\n", desc) 
 
 **代码#2:** 有多维数据
 
-```
+```py
 # FInding statistics of data
 
 from scipy import stats

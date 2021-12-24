@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.assert_almost_equal()`方法，如果两个值不等于一个精度值，我们可以使用该方法获得断言错误。
 
-```
+```py
 # import numpy and assert_almost_equal
 import numpy as np
 import numpy.testing as npt
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and assert_almost_equal
 import numpy as np
 import numpy.testing as npt

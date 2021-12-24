@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.to_xarray()`函数将给定的 Series 对象转换为 xarray 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们使用`Series.to_xarray()`函数将给定的序列对象转换为 xarray 对象。
 
-```
+```py
 # convert to xarray
 sr.to_xarray()
 ```
@@ -53,7 +53,7 @@ sr.to_xarray()
 
 **示例#2:** 使用`Series.to_xarray()`函数将给定的 Series 对象转换为 xarray 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(sr)
 
 现在我们使用`Series.to_xarray()`函数将给定的序列对象转换为 xarray 对象。
 
-```
+```py
 # convert to xarray
 sr.to_xarray()
 ```

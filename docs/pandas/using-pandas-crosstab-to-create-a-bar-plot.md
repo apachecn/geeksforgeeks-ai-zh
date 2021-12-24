@@ -22,7 +22,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -50,7 +50,7 @@ crosstb = pd.crosstab(df.Nationality, df.Handedness)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -78,7 +78,7 @@ barplt = crosstb.plot.bar(rot=0)
 
 ## 计算机编程语言
 
-```
+```py
 # importing the pandas library
 import pandas as pd
 
@@ -102,7 +102,7 @@ pl = crosstb.plot(kind="bar", stacked=True, rot=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

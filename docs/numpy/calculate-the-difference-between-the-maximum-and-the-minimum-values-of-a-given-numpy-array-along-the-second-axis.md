@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -45,7 +45,7 @@ print("difference:\n", max1 - min1)
 
 **输出:**
 
-```
+```py
 given array:
  [[100  20 305]
  [200  40 300]]
@@ -57,7 +57,7 @@ difference:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -81,7 +81,7 @@ print("Difference:\n", max1 - min1)
 
 **输出:**
 
-```
+```py
 original array:
  [[12 13 14 15 16]
  [17 18 19 20 21]]

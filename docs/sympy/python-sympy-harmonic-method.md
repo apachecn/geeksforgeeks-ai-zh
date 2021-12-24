@@ -17,7 +17,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("Value of nth harmonic number : {}".format(nth_harmonic))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth harmonic number : 363/140
 
@@ -51,7 +51,7 @@ Value of nth harmonic number : 363/140
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -67,7 +67,7 @@ print("The nth harmonic number of order m : {}".format(nth_harmonic_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and m = 2
 The nth harmonic number of order m : 5269/3600
 

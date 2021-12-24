@@ -47,7 +47,7 @@
 
 **使用数值中位数的四分位数范围**
 
-```
+```py
 # Import the numpy library as np
 import numpy as np
 
@@ -66,13 +66,13 @@ IQR = Q3 - Q1
 print(IQR)
 ```
 
-```
+```py
 Output: 34.0
 ```
 
 **使用数值百分位的四分位数范围**
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -91,13 +91,13 @@ IQR = Q3 - Q1
 print(IQR)
 ```
 
-```
+```py
 Output: 34.0
 ```
 
 **使用 scipy.stats.iqr 的四分位数范围**
 
-```
+```py
 # Import stats from scipy library
 from scipy import stats
 
@@ -110,7 +110,7 @@ IQR = stats.iqr(data, interpolation = 'midpoint')
 print(IQR)
 ```
 
-```
+```py
 Output: 34.0
 ```
 
@@ -122,7 +122,7 @@ Output: 34.0
 
 **使用数值中位数的四分位数偏差**
 
-```
+```py
 # import the numpy library as np
 import numpy as np
 
@@ -144,6 +144,6 @@ qd = IQR / 2
 print(qd)      
 ```
 
-```
+```py
 Output: 17.0
 ```

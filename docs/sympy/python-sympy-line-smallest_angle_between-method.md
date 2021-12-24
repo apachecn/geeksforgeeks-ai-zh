@@ -4,7 +4,7 @@
 
 In Sympy, the function `smallest_angle_between()` is used to return the non-obtuse angle at the intersection of lines.
 
-```
+```py
 Syntax: smallest_angle_between(l2)
 
 Parameters: 
@@ -17,7 +17,7 @@ Returns: angle [angle in radians]
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line, pi
 from sympy import Point, Line, pi
 
@@ -33,13 +33,13 @@ print(rad)
 
 **输出:**
 
-```
+```py
 pi/4
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Line, pi
 from sympy import Point, Line, pi
 
@@ -55,6 +55,6 @@ print(rad)
 
 **输出:**
 
-```
+```py
 acos(3*sqrt(10)/10)
 ```

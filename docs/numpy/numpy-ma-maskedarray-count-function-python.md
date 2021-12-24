@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.count() function
 
@@ -33,14 +33,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 1 1]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.count() function
 
@@ -59,7 +59,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 3
 
 ```

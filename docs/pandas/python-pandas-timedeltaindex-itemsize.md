@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.itemsize**`属性返回底层数据项的数据类型�
 
 **示例#1:** 使用`TimedeltaIndex.itemsize`属性找出 TimedeltaIndex 对象中底层数据的数据类型大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(tidx)
 
 现在我们将找出底层数据的数据类型的大小。
 
-```
+```py
 # find the size of the dtype of the underlying data
 tidx.itemsize
 ```
@@ -39,7 +39,7 @@ tidx.itemsize
 
 **例 2:** 使用`TimedeltaIndex.itemsize`属性找出 TimedeltaIndex 对象中底层数据的数据类型大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(tidx)
 
 现在我们将找出底层数据的数据类型的大小。
 
-```
+```py
 # find the size of the dtype of the underlying data
 tidx.itemsize
 ```

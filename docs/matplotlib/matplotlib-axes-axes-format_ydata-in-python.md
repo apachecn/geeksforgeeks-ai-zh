@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.format_ydata()函数**用于返回格
 
 **语法:**
 
-```
+```py
 Axes.format_ydata(self, y)
 
 ```
@@ -21,7 +21,7 @@ Axes.format_ydata(self, y)
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

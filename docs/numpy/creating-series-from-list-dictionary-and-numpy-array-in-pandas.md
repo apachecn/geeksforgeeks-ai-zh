@@ -10,7 +10,7 @@
 
 ## 巨蟒
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 

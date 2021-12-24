@@ -16,7 +16,7 @@ Pandas `**Series.shape**`属性返回给定系列对象的基础数据形状的�
 
 **示例#1:** 使用`Series.shape`属性查找给定序列对象的底层数据的形状。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.shape`属性来查找给定 Series 对象的底层数据的形状。
 
-```
+```py
 # return the shape
 sr.shape
 ```
@@ -48,7 +48,7 @@ sr.shape
 
 **例 2 :** 使用`Series.shape`属性找到给定序列对象的底层数据的形状。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们将使用`Series.shape`属性来查找给定 Series 对象的底层数据的形状。
 
-```
+```py
 # return the shape
 sr.shape
 ```

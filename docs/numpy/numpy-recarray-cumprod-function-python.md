@@ -19,7 +19,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.cumprod() method 
 
@@ -51,7 +51,7 @@ print ("Output  array along axis 0: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]

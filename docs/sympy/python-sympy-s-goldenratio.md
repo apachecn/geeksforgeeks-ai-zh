@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用**黄金分割比例**常量的单例值，我们能够得到黄金分割比例常量的值。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

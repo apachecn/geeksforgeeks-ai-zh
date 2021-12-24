@@ -26,7 +26,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # left_shift() function
 
@@ -43,7 +43,7 @@ print ("After left shifting 2 bit  : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  5
 Number of bit shift :  2
 After left shifting 2 bit  :  20
@@ -52,7 +52,7 @@ After left shifting 2 bit  :  20
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # left_shift() function
 
@@ -70,7 +70,7 @@ print ("Output array after left shifting: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [2, 8, 15]
 Number of bit shift :  [3, 4, 5]
 Output array after left shifting:  [ 16 128 480]

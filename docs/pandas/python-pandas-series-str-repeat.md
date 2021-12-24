@@ -21,7 +21,7 @@ Pandas **str.repeat()** 方法用于在传递序列本身的相同位置重复�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -48,7 +48,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

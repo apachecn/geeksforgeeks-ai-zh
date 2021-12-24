@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to save a NumPy array to a text file
 
 # Importing required libraries

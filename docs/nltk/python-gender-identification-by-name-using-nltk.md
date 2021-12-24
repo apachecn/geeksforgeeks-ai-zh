@@ -6,7 +6,7 @@
 
 为了运行下面的 python 程序，您必须安装 NLTK。请遵循安装步骤。
 
-```
+```py
 pip install nltk
 ```
 
@@ -14,12 +14,12 @@ pip install nltk
 
 **示例:**
 
-```
+```py
 Input : gender_features('saurabh')
 Output : {'last_letter': 'h'}
 ```
 
-```
+```py
 def gender_features(word):
      return {'last_letter': word[-1]}
 gender_features('mahavir')
@@ -28,7 +28,7 @@ gender_features('mahavir')
 
 将弹出一个图形用户界面，然后选择下载所有软件包的“全部”，然后单击“下载”。这将为您提供所有的标记器、分块器、其他算法和所有的语料库，所以这就是为什么安装将花费相当长的时间。
 
-```
+```py
 nltk.download()
 ```
 
@@ -54,7 +54,7 @@ nltk.download()
     nltk 的路径:`C:\Users\currentUserName\AppData\Roaming`
     nltk 内部文件的路径:`\nltk_data\corpora\names`
 
-```
+```py
 # importing libraries
 import random
 from nltk.corpus import names
@@ -93,7 +93,7 @@ print(nltk.classify.accuracy(classifier, train_set))
 
 **从分类器获取信息特征:**
 
-```
+```py
 classifier.show_most_informative_features(10)
 # 10 indicates 10 rows
 ```

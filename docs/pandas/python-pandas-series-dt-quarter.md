@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.quarter`属性返回给定序列对象的基础数据中日期的季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在，我们将使用`Series.dt.quarter`属性返回给定序列对象中基于日期时间的数据中日期的四分之一。
 
-```
+```py
 # return the quarter of the date
 result = sr.dt.quarter
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.quarter`属性返回给定 Series 对象的基础数据中日期的季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在，我们将使用`Series.dt.quarter`属性返回给定序列对象中基于日期时间的数据中日期的四分之一。
 
-```
+```py
 # return the quarter of the date
 result = sr.dt.quarter
 

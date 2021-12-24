@@ -6,7 +6,7 @@
 
 二项式分布是实验或调查中重复多次的成功或失败结果的概率。
 
-```
+```py
 Syntax: sympy.stats.Binomial(name, n, p, succ=1, fail=0)
 
 Parameters:
@@ -22,7 +22,7 @@ Parameters:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import sympy, Binomial, density
 from sympy.stats import Binomial, density
 
@@ -35,7 +35,7 @@ print(binDist)
 
 **输出:**
 
-```
+```py
 {0: 16/81, 1: 32/81, 2: 8/27, 3: 8/81, 4: 1/81}
 
 ```
@@ -44,7 +44,7 @@ print(binDist)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import sympy, Binomial, density
 from sympy.stats import Binomial, density
 
@@ -57,7 +57,7 @@ print(binDist)
 
 **输出:**
 
-```
+```py
 {0: 16/81, 1/2: 32/81, 2: 1/81, 3/2: 8/81, 1: 8/27}
 
 ```

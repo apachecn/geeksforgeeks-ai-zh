@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.vsplit() function
 
@@ -29,7 +29,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [array([[ 0.,  1.,  2.],
        [ 3.,  4.,  5.],
        [ 6.,  7.,  8.]])]
@@ -38,7 +38,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.vsplit() function
 
@@ -54,7 +54,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [array([[  0.,   1.,   2.,   3.,   4.,   5.],
        [  6.,   7.,   8.,   9.,  10.,  11.],
        [ 12.,  13.,  14.,  15.,  16.,  17.]]), array([[ 18.,  19.,  20.,  21.,  22.,  23.],

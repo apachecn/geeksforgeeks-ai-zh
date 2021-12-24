@@ -14,7 +14,7 @@
 
 **代码#1:代码如何工作**
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkRule, ExpandLeftRule
 from nltk.chunk.regexp import ExpandRightRule, UnChunkRule
@@ -41,7 +41,7 @@ chunker.parse(sent)
 
 **输出:**
 
-```
+```py
 Tree('S', [('the', 'DT'), ('sushi', 'NN'), ('rolls', 'NNS')])
 ```
 
@@ -60,7 +60,7 @@ Tree('S', [('the', 'DT'), ('sushi', 'NN'), ('rolls', 'NNS')])
 
 **代码#2:解释图表的分步代码。**
 
-```
+```py
 # Loading Libraries
 from nltk.chunk.regexp import ChunkRule, ExpandLeftRule
 from nltk.chunk.regexp import ExpandRightRule, UnChunkRule
@@ -94,7 +94,7 @@ print ("step 4 : ", chunk_string)
 
 **输出:**
 
-```
+```py
 Chunk String :   <DT>  <NN>  <NNS> 
 
 step 1 :   <DT> {<NN>} <NNS> 

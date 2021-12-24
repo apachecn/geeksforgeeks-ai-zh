@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # find the set difference of this Index
 # with the passed array object.
 idx.difference([69, 33, 15, 74, 19])
@@ -52,7 +52,7 @@ idx.difference([69, 33, 15, 74, 19])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(idx1, "\n", idx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # to find the set difference
 idx1.difference(idx2)
 ```

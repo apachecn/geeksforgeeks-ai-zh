@@ -11,7 +11,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 打开**命令行**(在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)。
 现在运行以下命令:*
 
-```
+```py
 *python --version* 
 ```
 
@@ -23,7 +23,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 **PIP** 是一个包管理系统，用于安装和管理用 Python 编写的软件包/库。这些文件存储在一个被称为 Python 包索引(PyPI)的大型“在线存储库中”。
 要检查 PIP 是否已经安装在您的系统上，只需转到命令行并执行以下命令:*
 
-```
+```py
 *pip -V*
 ```
 
@@ -35,7 +35,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 *OpenCV 可以使用 pip(包管理器)直接下载安装。要安装 OpenCV，只需转到命令行并键入以下命令:*
 
-```
+```py
 *pip install opencv-python*
 ```
 
@@ -52,7 +52,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 *要检查 OpenCV 是否正确安装，只需运行以下命令来执行版本检查:*
 
-```
+```py
 *python
 >>>import cv2
 >>>print(cv2.__version__)* 

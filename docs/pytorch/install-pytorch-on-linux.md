@@ -40,7 +40,7 @@ pip 是一个 python 包安装程序，如果你想在你的 python 文件中使
 
 以下命令用于在有图形处理器的系统中安装 PyTorch。确保你有 python 3.6 或 3.7 或 3.8。
 
-```
+```py
 pip3 install torch torchvision torchaudio
 ```
 

@@ -7,20 +7,20 @@
 
 **语法:**
 
-```
+```py
 numpy.nanargmax(array, axis = None) 
 ```
 
 **参数:**
 
-```
+```py
 array : Input array to work on 
 axis  : [int, optional]Along a specified axis like 0 or 1
 ```
 
 **返回:**
 
-```
+```py
 Array of indices into the array with same shape as array.shape
  with the dimension along axis removed.
 ```
@@ -29,7 +29,7 @@ Array of indices into the array with same shape as array.shape
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of nanargmax()
 
@@ -54,7 +54,7 @@ print("\nIndices at axis 1 of array2 : ", geek.nanargmax(array2, axis = 1))
 
 **输出:**
 
-```
+```py
 INPUT ARRAY 1 : 
  [nan, 4, 2, 3, 1]
 
@@ -73,7 +73,7 @@ Indices at axis 1 of array2 :  [1 1]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of nanargmax()
 
@@ -104,7 +104,7 @@ print("\nIndices of max using nanargmax :  : ", geek.nanargmax(array, axis = 0)
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [[8, 13, 5, 0], [16, nan, 5, 3], [nan, 7, 15, 15], [3, 11, 4, 12]]
 

@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.slice_indexer()`函数计算给定时间增量索引对象中传递的标签的切片索引器。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.slice_indexer()`函数为传递的标签找到切片值。
 
-```
+```py
 # find the slice indexer
 tidx.slice_indexer('11 days 22:15:20.001124')
 ```
@@ -49,7 +49,7 @@ tidx.slice_indexer('11 days 22:15:20.001124')
 
 **示例 2:** 使用`TimedeltaIndex.slice_indexer()`函数计算给定时间增量索引对象中传递的标签的切片索引器。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.slice_indexer()`函数为传递的标签找到切片值。
 
-```
+```py
 # find the slice indexer
 tidx.slice_indexer('3 days 12:20:56')
 ```

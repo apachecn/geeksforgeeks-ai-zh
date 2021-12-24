@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.take()`函数返回一个只包含选定值的新的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.take()`功能从 tidx 中选择一些特定的值。
 
-```
+```py
 # select specific values.
 tidx.take([2, 3, 4])
 ```
@@ -48,7 +48,7 @@ tidx.take([2, 3, 4])
 
 **示例 2:** 使用`TimedeltaIndex.take()`函数返回一个只包含选定值的新的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ tidx
 
 现在我们将使用`TimedeltaIndex.take()`功能从 tidx 中选择一些特定的值。
 
-```
+```py
 # select specific values.
 tidx.take([0, 1, 2])
 ```

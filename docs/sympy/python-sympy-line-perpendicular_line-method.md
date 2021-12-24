@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数 vertical _ Line()用于创建一条垂直于给定线性实体的新直线，该直线穿过给定点 p.
 
-```
+```py
 Syntax: Line.perpendicular_line(p)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:line
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -36,7 +36,7 @@ print(isPerpendicular)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -44,7 +44,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy and Point3D, Line3D
 from sympy import Point3D, Line3D
 
@@ -63,6 +63,6 @@ print(isPerpendicular)
 
 **输出:**
 
-```
+```py
 True
 ```

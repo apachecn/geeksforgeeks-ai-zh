@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.count()`函数查找给定序列对象中非缺失值的计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.count()`函数来查找给定序列对象中非缺失值的计数。
 
-```
+```py
 # find the count of non-missing values
 # in the given series object
 result = sr.count()
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2 :** 使用`Series.count()`函数查找给定序列对象中非缺失值的计数。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.count()`函数来查找给定序列对象中非缺失值的计数。
 
-```
+```py
 # find the count of non-missing values
 # in the given series object
 result = sr.count()

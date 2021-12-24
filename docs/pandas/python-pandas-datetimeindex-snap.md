@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.snap()`函数根据输入频率将给定的日期时间索引对象转换为最近的出现频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(didx)
 
 现在，我们希望根据输入将给定的 DatetimeIndex 对象时间戳值转换为最近的频率。
 
-```
+```py
 # snap the timestamp to the nearest frequency 
 didx.snap('MS')
 ```
@@ -44,7 +44,7 @@ didx.snap('MS')
 
 **示例#2:** 使用`DatetimeIndex.snap()`函数根据输入频率将给定的 DatetimeIndex 对象转换为最近的出现频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(didx)
 
 现在，我们希望根据输入将给定的 DatetimeIndex 对象时间戳值转换为最近的频率。
 
-```
+```py
 # snap the timestamp to the nearest frequency 
 didx.snap('Q')
 ```

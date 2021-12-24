@@ -16,7 +16,7 @@ Matplotlib 有各种各样的情节。图表有助于理解趋势，模式，以
 
 **步骤 1:** 导入库。
 
-```
+```py
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D 
 import numpy as np
@@ -24,7 +24,7 @@ import numpy as np
 
 **第二步:**在这一步中，我们选择了维度 X =5，Y=5，Z=5 的 3D 轴，在[NP . one()](https://www.geeksforgeeks.org/numpy-ones-python/)中，我们通过了立方体的维度。
 
-```
+```py
 # Create axis
 axes = [5, 5, 5]
 
@@ -34,7 +34,7 @@ data = np.ones(axes)
 
 **步骤 3:** 在这一步中，我们选择颜色不透明度为 alpha = 0.9(从 0.0–1.0 不等)。在下一步中，我们将在 [np.empty()](https://www.geeksforgeeks.org/numpy-empty-python/) 函数中传递立方体的轴的尺寸(即 5，5，5) +面的数量(即 0-4)，然后我们将传递立方体的每个面的颜色组合和不透明度。
 
-```
+```py
 # controll Tranperency
 alpha = 0.9
 
@@ -56,7 +56,7 @@ colors[4] = [1, 1, 1, alpha] # grey
 
 应当注意，图 add _ 子图(1，1，1)等同于图 add _ 子图(111)。
 
-```
+```py
 # Plot figure
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -64,7 +64,7 @@ ax = fig.add_subplot(111, projection='3d')
 
 **第 5 步:**在最后一步中，体素用于定制尺寸、位置和网格颜色。上面提供了正确的语法。
 
-```
+```py
 # Voxels is used to customizations of the 
 # sizes, positions and colors.
 ax.voxels(data, facecolors=colors, edgecolors='grey')
@@ -76,7 +76,7 @@ ax.voxels(data, facecolors=colors, edgecolors='grey')
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D

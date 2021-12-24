@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的**axes . breaked _ barh()函数**用于绘制
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.broken_barh(self, xranges, yrange, *, data=None, **kwargs)
 > ```
 > 
@@ -30,7 +30,7 @@ matplotlib 库的 Axes 模块中的**axes . breaked _ barh()函数**用于绘制
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

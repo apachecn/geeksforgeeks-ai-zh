@@ -18,7 +18,7 @@
 
 使用方法`Series.to_numpy()`将系列变为*数字阵列*。永远记住，当处理大量数据时，你应该首先清理数据，以获得高精度。虽然在本代码中，我们通过使用`.head()`方法使用了**权重**列的前五个值。
 
-```
+```py
 # importing pandas
 import pandas as pd 
 
@@ -36,7 +36,7 @@ print(type(gfg.to_numpy()))
 
 **输出:**
 
-```
+```py
 [180\. 235\. 185\. 235\. 238.]
 
 ```
@@ -44,7 +44,7 @@ print(type(gfg.to_numpy()))
 **代码#2 :**
 在这段代码中，我们只是在同一个代码中给出了参数。所以我们在这里提供**数据类型**。
 
-```
+```py
 # importing pandas
 import pandas as pd 
 
@@ -62,14 +62,14 @@ print(gfg.to_numpy(dtype ='float32'))
 
 **输出:**
 
-```
+```py
 [180\. 235\. 185\. 235\. 238.]
 
 ```
 
 **代码#3 :** 验证转换后数组的类型。
 
-```
+```py
 # importing pandas 
 import pandas as pd 
 
@@ -87,7 +87,7 @@ print(type(gfg.to_numpy()))
 
 **输出:**
 
-```
+```py
 <class 'numpy.ndarray'>
 
 ```

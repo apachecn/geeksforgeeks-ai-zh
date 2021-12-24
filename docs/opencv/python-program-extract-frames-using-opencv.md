@@ -16,7 +16,7 @@ OpenCv 库可以用来对视频进行多种操作。让我们尝试使用 CV2 �
 
 下面是实现:
 
-```
+```py
 # Program To Read video
 # and Extract Frames
 import cv2

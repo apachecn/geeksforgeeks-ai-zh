@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_animated()函数**用于获取动
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/f1b6faf952d08c11c17bd1db586bccbe.png)
 
-```
+```py
 True
 
 ```
@@ -61,7 +61,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -101,7 +101,7 @@ plt.show()
 
 ![](img/96ab7fb04c63f634461e80df696eea6b.png)
 
-```
+```py
 False
 
 ```

@@ -6,7 +6,7 @@
 
 **方法一:使用`np.where()`**
 
-```
+```py
 # python code to demonstrate
 # finding elements in range
 # in numpy array
@@ -26,7 +26,7 @@ print("resultant_array : ", result)
 
 **Output:**
 
-```
+```py
 initial_array :  [  1   2   3  45   4   7 810   9   6]
 resultant_array :  (array([5, 7, 8]),)
 
@@ -34,7 +34,7 @@ resultant_array :  (array([5, 7, 8]),)
 
 **方法 2:使用`numpy.searchsorted()`**
 
-```
+```py
 # Python code to demonstrate
 # finding elements in range
 # in numpy array
@@ -57,7 +57,7 @@ print("resultant_array : ", result)
 
 **Output:**
 
-```
+```py
 initial_array :  [ 1  2  3 45  4  7  9  6]
 resultant_array :  [5 6 7]
 
@@ -65,7 +65,7 @@ resultant_array :  [5 6 7]
 
 **方法#3:使用***
 
-```
+```py
 # Python code to demonstrate
 # finding elements in range
 # in numpy array
@@ -86,7 +86,7 @@ print("resultant_array : ", result)
 
 **Output:**
 
-```
+```py
 initial_array :  [ 1  2  3 45  4  7  9  6]
 resultant_array :  [7 9]
 

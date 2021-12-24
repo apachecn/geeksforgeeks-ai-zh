@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.shape**`属性返回所考虑对象中存在的底层�
 
 **示例#1:** 使用`TimedeltaIndex.shape`属性找出给定对象中底层数据的形状。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找出给定物体的形状。
 
-```
+```py
 # print the shape of the tidx object
 tidx.shape
 ```
@@ -40,7 +40,7 @@ tidx.shape
 
 **例 2:** 使用`TimedeltaIndex.shape`属性找出给定对象中底层数据的形状。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找出给定物体的形状。
 
-```
+```py
 # print the shape of the tidx object
 tidx.shape
 ```

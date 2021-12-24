@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # creating a pandas dataframe
@@ -86,7 +86,7 @@ print(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 import pandas as pd
 
 # creating a pandas dataframe

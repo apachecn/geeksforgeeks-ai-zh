@@ -6,7 +6,7 @@
 
 **示例–**
 
-```
+```py
 Input: [['akshat', 'nikhil'], ['manjeeet', 'akash']]
 Output:  [['akshat']['manjeeet']]
 
@@ -19,7 +19,7 @@ Output:  [[1 0 1 0][0 2 1 1]]
 
 **方法#1:使用 np.delete()**
 
-```
+```py
 # Python code to demonstrate
 # deletion of columns from numpy array
 
@@ -38,7 +38,7 @@ print ("Resultant Array :"+str(result))
 
 **输出:**
 
-```
+```py
 Resultant Array :[[1 0 1 0]
  [0 2 1 1]]
 
@@ -46,7 +46,7 @@ Resultant Array :[[1 0 1 0]
 
 **方法 2:使用压缩()和逻辑 _ 非()**
 
-```
+```py
 # Python code to demonstrate
 # deletion of columns from numpy array
 
@@ -65,7 +65,7 @@ print ("Resultant Array :"+str(result))
 
 **输出:**
 
-```
+```py
 Resultant Array :[[1 0 1 0]
  [1 0 0 1]]
 
@@ -73,7 +73,7 @@ Resultant Array :[[1 0 1 0]
 
 **方法#3:使用 logical_not()**
 
-```
+```py
 # Python code to demonstrate
 # deletion of columns from numpy array
 
@@ -92,7 +92,7 @@ print ("Resultant Array :"+str(result))
 
 **输出:**
 
-```
+```py
 Resultant Array :[[1 0 1 0]
  [1 0 0 1]]
 

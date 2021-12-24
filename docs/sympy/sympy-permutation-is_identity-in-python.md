@@ -10,7 +10,7 @@
 
 **代码#1 : is_Identity()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Identity()
 
@@ -36,7 +36,7 @@ print ("Permutation b - is_Identity form : ", b.is_Identity)
 
 **代码#2 : is_Identity()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.is_Identity()
 

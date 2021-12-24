@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.partitions.RGS_unrank()`方法，我们能够获得大小为 m 的未链接增长字符串的数组
 
-```
+```py
 # import sympy and RGS_unrank
 from sympy.combinatorics.partitions import RGS_unrank
 from sympy import * 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy and RGS_unrank
 from sympy.combinatorics.partitions import RGS_unrank
 from sympy import * 

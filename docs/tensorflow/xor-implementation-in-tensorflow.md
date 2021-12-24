@@ -35,7 +35,7 @@
 
 **步骤 1:** 导入所有需要的库。这里我们用的是 ***张量*** 和 ***numpy*** 。
 
-```
+```py
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behaviour()
 import numpy as np
@@ -43,21 +43,21 @@ import numpy as np
 
 **步骤 2:** 为输入和输出创建占位符。输入的形状为(4×2)，输出的形状为(4 × 1)。
 
-```
+```py
 X = tf.placeholder(dtype=tf.float32, shape=(4,2))
 Y = tf.placeholder(dtype=tf.float32, shape=(4,1))
 ```
 
 **第三步:**创建训练输入输出。
 
-```
+```py
 INPUT_XOR = [[0,0],[0,1],[1,0],[1,1]]
 OUTPUT_XOR = [[0],[1],[1],[0]]
 ```
 
 **第 4 步:**给出标准学习率和模型应该训练的时期数。
 
-```
+```py
 learning_rate = 0.01
 epochs = 10000
 ```
@@ -84,21 +84,21 @@ epochs = 10000
 
 **步骤 7:** 创建损失/成本函数。这将计算模型在给定数据上进行训练的成本。这里我们做 RMSE 的预测产值和实际产值。RMSE —均方根误差。
 
-```
+```py
 with tf.variable_scope('cost'):
     cost = tf.reduce_mean(tf.squared_difference(Y_estimation, Y))
 ```
 
 **步骤 8:** 创建一个训练变量，以给定的学习速率用 [ADAM Optimizer](https://www.geeksforgeeks.org/intuition-of-adam-optimizer/) 训练具有给定成本/损失函数的模型，以最小化损失。
 
-```
+```py
 with tf.variable_scope('train'):
     train = tf.train.AdamOptimizer(learning_rate).minimize(cost)
 ```
 
 **第 9 步:**现在所有需要的东西都已经初始化，我们将启动 Tensorflow Session，并通过初始化上面声明的所有变量来开始训练。
 
-```
+```py
 with tf.Session() as session:
     session.run(tf.global_variables_initializer())
     print("Training Started")
@@ -106,7 +106,7 @@ with tf.Session() as session:
 
 **步骤 10:** 训练模型并给出预测。这里我们运行关于输入和输出的训练，因为我们正在进行监督学习。然后我们计算每 1000 个时代的成本，最后预测产量，并根据实际产量进行测试。
 
-```
+```py
 log_count_frac = epochs/10
     for epoch in range(epochs):
 
@@ -128,7 +128,7 @@ log_count_frac = epochs/10
 
 ## 蟒蛇 3
 
-```
+```py
 # import tensorflow library
 # Since we'll be using functionalities
 # of tensorflow V1 Let us import Tensorflow v1

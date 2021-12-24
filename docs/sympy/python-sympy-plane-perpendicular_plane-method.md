@@ -6,7 +6,7 @@ In Sympy, the function `Plane.perpendicular_plane()` is used to return a perpend
 
 如果给出的点数少于两个，它们将如下提供:如果没有给出点数，那么 pt1 将是自身的。如果没有给出第二个点，它将是在平行于 z 轴的线上通过 pt1 的点(如果法线还不是 z 轴，否则在平行于 y 轴的线上)。
 
-```
+```py
 Syntax: Plane.perpendicular_plane(pts)
 
 Parameters:
@@ -18,7 +18,7 @@ Returns: Plane
 
 **示例#1:**
 
-```
+```py
 # import sympy, Point3D and Plane, Line3D
 from sympy import Point3D, Plane, Line3D
 
@@ -36,13 +36,13 @@ print(perpendicularPlane)
 
 **输出:**
 
-```
+```py
 Plane(Point3D(0, 0, 0), (2, 2, -2))
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy, Point3D and Plane, Line3D
 from sympy import Point3D, Plane, Line3D
 
@@ -60,6 +60,6 @@ print(perpendicularPlane)
 
 **输出:**
 
-```
+```py
 Plane(Point3D(1, 1, 0), (-1, 0, 0))
 ```

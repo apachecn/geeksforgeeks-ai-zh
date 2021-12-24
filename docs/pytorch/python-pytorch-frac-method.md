@@ -15,7 +15,7 @@ PyTorch `torch.frac()`方法计算输入中每个元素的小数部分。
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -31,7 +31,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 -5.4000
  6.6000
 -7.1099
@@ -48,7 +48,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -64,7 +64,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 -0.5260
 -1.8843
  0.8062

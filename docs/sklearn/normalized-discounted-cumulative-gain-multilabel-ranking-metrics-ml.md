@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required package
 from sklearn.metrics import ndcg_score, dcg_score
 import numpy as np
@@ -67,7 +67,7 @@ print("nDCG score (from function) : ", ndcg_score(
 
 **输出:**
 
-```
+```py
 DCG score :  4.670624189796882
 IDCG score :  4.761859507142915
 nDCG score :  0.980840401274087

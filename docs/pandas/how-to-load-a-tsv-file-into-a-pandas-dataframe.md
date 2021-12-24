@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Data.tsv is stored locally in the 
@@ -37,7 +37,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv('babynames.tsv', sep = '\t')

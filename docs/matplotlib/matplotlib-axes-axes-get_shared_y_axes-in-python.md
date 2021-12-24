@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的**Axis . get _ shared _ y _ axes()函数**用
 
 **语法:**
 
-```
+```py
 Axes.get_shared_y_axes(self)
 
 ```
@@ -19,7 +19,7 @@ Axes.get_shared_y_axes(self)
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -61,7 +61,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

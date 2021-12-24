@@ -12,7 +12,7 @@
 
 **代码# 1:next _ 词典()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_lexicographic()
 
@@ -36,7 +36,7 @@ print ("Subset a next_lexicographic : ", a.next_lexicographic().subset)
 
 **代码# 2:next _ 词典()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.next_lexicographic()
 

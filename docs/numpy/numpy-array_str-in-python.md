@@ -18,7 +18,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # array_str() function
 
@@ -35,7 +35,7 @@ print(type(out_arr))
 
 **输出:**
 
-```
+```py
 Input  array :  [ 4 -8  7]
 class 'numpy.ndarray'
 The string representation of input array :  array([ 4, -8,  7])
@@ -45,7 +45,7 @@ class 'str'
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # array_str() function
 
@@ -62,7 +62,7 @@ print(type(out_arr))
 
 **输出:**
 
-```
+```py
 Input  array :  [  5.00000000e-08   4.00000000e-07   8.00000000e+00  -4.00000000e+00]
 class 'numpy.ndarray'
 The string representation of input array :  array([ 0.,  0.,  8., -4.])

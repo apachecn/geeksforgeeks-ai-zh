@@ -14,7 +14,7 @@ Pandas **PeriodIndex.freq** 属性返回应用于给定 PeriodIndex 对象的时
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the frequency
 pidx.freq
 ```
@@ -49,7 +49,7 @@ pidx.freq
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the frequency
 pidx.freq
 ```

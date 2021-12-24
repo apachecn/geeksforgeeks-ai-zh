@@ -16,7 +16,7 @@
 **方法 1:** 使用`Dataframe.apply()`和`lambda function`。
 **例 1:** 为柱
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -45,7 +45,7 @@ new_df
 
 **例 2:** 为行。
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -76,7 +76,7 @@ new_df
 
 **例 1:** 为柱。
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -104,7 +104,7 @@ df
 
 **例 2:** 为行。
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -133,7 +133,7 @@ df
 **方法三:**使用`numpy.square()`方法和`[ ]`算子。
 **例 1:** 为柱
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -161,7 +161,7 @@ print(df)
 
 **例 2:** 为行。
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -190,7 +190,7 @@ df
 
 **实施例 1:** 对于柱
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np
@@ -219,7 +219,7 @@ new_df
 
 **例 2:** 为行。
 
-```
+```py
 # import pandas and numpy library
 import pandas as pd
 import numpy as np

@@ -13,7 +13,7 @@
 
 ## python 3
 
-```
+```py
 # import cv2 library
 import cv2
 

@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_clip_on()函数**用于获取艺�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,14 +51,14 @@ plt.show()
 
 ![](img/37b14ea79db455e72cc2d11f3f306f2f.png)
 
-```
+```py
 Value Return by get_clip_on() : True
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
@@ -102,7 +102,7 @@ plt.show()
 
 ![](img/857bec1bd44a62d842d9671503dedead.png)
 
-```
+```py
 Value Return by get_clip_on() :  False
 
 ```

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.ma.ids()`方法，我们能够获得目标掩码数组的地址。
 
-```
+```py
 # import numpy.ma
 import numpy.ma as ma
 
@@ -26,7 +26,7 @@ print(gfg.ids())
 
 **例 2 :**
 
-```
+```py
 # import numpy.ma
 import numpy.ma as ma
 

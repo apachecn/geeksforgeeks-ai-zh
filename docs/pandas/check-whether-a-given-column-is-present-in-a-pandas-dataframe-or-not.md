@@ -17,7 +17,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -47,7 +47,7 @@ df
 
 ## 计算机编程语言
 
-```
+```py
 if 'ConsumerId' in df.columns :
   print('ConsumerId column is present')
 

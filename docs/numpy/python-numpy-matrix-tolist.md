@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过传递矩阵，我们可以使用`matrix.tolist()`方法将其转换为列表。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[4, 1, 12, 3]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[4, 1, 9], [12, 3, 1], [4, 5, 6]]
 
 ```

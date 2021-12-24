@@ -8,7 +8,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **方法#1 :** 使用数据框的**索引**属性。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ for ind in df.index:
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88
@@ -52,7 +52,7 @@ Priyanka Biology
 
 **方法 2 :** 使用数据框的**loc【】**功能。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ for i in range(len(df)) :
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88
@@ -96,7 +96,7 @@ Priyanka 18
 
 **方法#3 :** 使用数据框的**iloc【】**功能。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -121,7 +121,7 @@ for i in range(len(df)) :
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88
@@ -140,7 +140,7 @@ Priyanka Biology
 
 **方法#4 :** 使用数据框的**ITER row()**方法。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -165,7 +165,7 @@ for index, row in df.iterrows():
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88
@@ -184,7 +184,7 @@ Priyanka 18
 
 **方法#5 :** 使用数据框的 **itertuples()** 方法。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -209,7 +209,7 @@ for row in df.itertuples(index = True, name ='Pandas'):
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88
@@ -228,7 +228,7 @@ Priyanka 70
 
 **方法#6 :** 使用**应用()**方法的数据框。
 
-```
+```py
 # import pandas package as pd
 import pandas as pd
 
@@ -252,7 +252,7 @@ print(df.apply(lambda row: row["Name"] + " " + str(row["Percentage"]), axis = 1)
 
 **Output:**
 
-```
+```py
 Given Dataframe :
          Name  Age    Stream  Percentage
 0      Ankit   21      Math          88

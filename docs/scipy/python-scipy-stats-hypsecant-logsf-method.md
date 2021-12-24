@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`stats.hypsecant.logsf()`方法，我们能够使用该方法获得生存函数的对数值。
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 1
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 4

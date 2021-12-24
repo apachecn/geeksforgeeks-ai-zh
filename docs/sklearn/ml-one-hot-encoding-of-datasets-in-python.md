@@ -41,7 +41,7 @@ The output after one hot encoding the data is given as follows,
  **代码:一热编码技术的 Python 代码实现**
 **加载数据**
 
-```
+```py
 # Program for demonstration of one hot encoding
 
 # import libraries
@@ -58,14 +58,14 @@ print(data.head())
 
 **检查分类参数**中的标签
 
-```
+```py
 print(data['Gender'].unique())
 print(data['Remarks'].unique())
 ```
 
 **输出:**
 
-```
+```py
 array(['Male', 'Female'], dtype=object)
 array(['Nice', 'Good', 'Great'], dtype=object)
 
@@ -73,14 +73,14 @@ array(['Nice', 'Good', 'Great'], dtype=object)
 
 **检查分类参数**中的标签计数
 
-```
+```py
 data['Gender'].value_counts()
 data['Remarks'].value_counts()
 ```
 
 **输出:**
 
-```
+```py
 Female    7
 Male      5
 Name: Gender, dtype: int64
@@ -94,7 +94,7 @@ Name: Remarks, dtype: int64
 
 **使用 *get_dummies()*** 对分类参数进行一键编码
 
-```
+```py
 one_hot_encoded_data = pd.get_dummies(data, columns = ['Remarks', 'Gender'])
 print(one_hot_encoded_data)
 ```

@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`eval()`函数计算数据框中所有列元素的总和，并将结果列插入数据框中。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 让我们计算所有列的总和，并将结果列添加到数据框中
 
-```
+```py
 # To evaluate the sum over all the columns
 df.eval('D = A + B+C', inplace = True)
 
@@ -51,7 +51,7 @@ df
 
 **注意:**任何表达式都不能超过`NaN`值。所以对应的细胞也会是`NaN`。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ df
 
 我们来评估一下“B”列和“C”列的总和。
 
-```
+```py
 # To evaluate the sum of two columns in the dataframe
 df.eval('D = B + C', inplace = True)
 

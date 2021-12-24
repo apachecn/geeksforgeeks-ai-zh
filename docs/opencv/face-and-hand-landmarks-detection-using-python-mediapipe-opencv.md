@@ -13,7 +13,7 @@
 
 **安装所需的库**
 
-```
+```py
 pip install opencv-python mediapipe msvc-runtime
 ```
 
@@ -23,7 +23,7 @@ pip install opencv-python mediapipe msvc-runtime
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Libraries
 import cv2
 import time
@@ -34,7 +34,7 @@ import mediapipe as mp
 
 ## 蟒蛇 3
 
-```
+```py
 # Grabbing the Holistic Model from Mediapipe and
 # Initializing the Model
 mp_holistic = mp.solutions.holistic
@@ -49,7 +49,7 @@ mp_drawing = mp.solutions.drawing_utils
 
 让我们看看整体模型的参数:
 
-```
+```py
 Holistic(
   static_image_mode=False, 
   model_complexity=1, 
@@ -75,7 +75,7 @@ Holistic(
 
 ## 蟒蛇 3
 
-```
+```py
 # (0) in VideoCapture is used to connect to your computer's default camera
 capture = cv2.VideoCapture(0)
 
@@ -159,7 +159,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Code to access landmarks
 for landmark in mp_holistic.HandLandmark:
     print(landmark, landmark.value)
@@ -167,7 +167,7 @@ for landmark in mp_holistic.HandLandmark:
 print(mp_holistic.HandLandmark.WRIST.value)
 ```
 
-```
+```py
 HandLandmark.WRIST 0
 HandLandmark.THUMB_CMC 1
 HandLandmark.THUMB_MCP 2

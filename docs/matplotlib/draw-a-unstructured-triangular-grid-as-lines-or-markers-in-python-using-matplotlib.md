@@ -16,7 +16,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing modules
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -57,7 +57,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing modules 
 import matplotlib.pyplot as plt
 from matplotlib.tri import Triangulation
@@ -134,7 +134,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import matplotlib.tri as mtri 
 import numpy as np 

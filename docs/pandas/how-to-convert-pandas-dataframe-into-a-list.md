@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd 
 
 # Creating a dictionary to store data
@@ -28,6 +28,6 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.values.tolist()
 ```

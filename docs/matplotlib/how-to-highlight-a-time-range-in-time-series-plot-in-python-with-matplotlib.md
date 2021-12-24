@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import random
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ print(GDP[:10])
 
 ## 蟒蛇 3
 
-```
+```py
 # depict time series
 fig, ax = plt.subplots(figsize=(5,5))
 ymin, ymax = plt. ylim()
@@ -84,7 +84,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # depict illustration
 fig, ax = plt.subplots(figsize=(5, 5))
 ymin, ymax = plt. ylim()
@@ -112,7 +112,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import random
@@ -144,7 +144,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import random
 import matplotlib.pyplot as plt

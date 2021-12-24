@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```py
 Arr = [[1,2,3,4,5], 
       [10,-3,30,4,5], 
       [3,2,5,-4,5], 
@@ -40,7 +40,7 @@ no element is greater than 6 so output is [0, 2].
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy
 
@@ -67,7 +67,7 @@ print("Result:\n", output)
 
 **输出:**
 
-```
+```py
 Given Array:
 [[ 1  2  3  4  5]
 [10 -3 30  4  5]

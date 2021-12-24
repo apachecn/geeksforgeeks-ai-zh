@@ -6,7 +6,7 @@
 
 **示例 1:** 我们可以使用`**dataframe.shape**`来获得行数和列数。`dataframe.shape[0]`和`dataframe.shape[1]`分别给出行数和列数。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -33,7 +33,7 @@ print("Columns: " + str(cols))
 
 **例 2 :** 我们可以用 **`len()`** 的方法得到行和列的计数。`dataframe.axes[0]`代表行，`dataframe.axes[1]`代表列。所以，`dataframe.axes[0]`和`dataframe.axes[1]`分别给出了行数和列数。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -60,7 +60,7 @@ print("Columns: " + str(cols))
 
 **例 3 :** 与例 2 类似，`**dataframe.index**` 代表行， `**dataframe.columns**` 代表列。所以，`len(dataframe.index)`和`len(dataframe.columns)`分别给出了行数和列数。
 
-```
+```py
 # importing the module
 import pandas as pd
 

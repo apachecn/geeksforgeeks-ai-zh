@@ -8,7 +8,7 @@
 
 我们可以使用 **[DataFrame.loc](https://www.geeksforgeeks.org/python-pandas-dataframe-loc/)** 添加一行。我们可以在数据框的最后添加一行。我们可以使用 **len(DataFrame.index)** 获取行数，以确定需要添加新行的位置。
 
-```
+```py
 from IPython.display import display, HTML
 
 import pandas as pd
@@ -36,7 +36,7 @@ display(df)
 
 我们也可以使用**[data frame . append()](https://www.geeksforgeeks.org/python-pandas-dataframe-append/)**函数添加新行
 
-```
+```py
 from IPython.display import display, HTML
 
 import pandas as pd
@@ -65,7 +65,7 @@ display(df)
 
 我们还可以使用 **[pandas.concat()](https://www.geeksforgeeks.org/python-merge-join-and-concatenate-dataframes-using-panda/)** 来添加多行，方法是为我们需要添加的所有行创建一个新的数据框，然后将该数据框追加到原始数据框中。
 
-```
+```py
 from IPython.display import display, HTML
 
 import pandas as pd

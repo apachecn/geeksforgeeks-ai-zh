@@ -17,28 +17,28 @@ NaN 代表 Not A Number，是表示数据中缺失值的常用方法之一。它
 
 *   使用熊猫的一栏:
 
-    ```
+    ```py
     df['DataFrame Column'] = df['DataFrame Column'].fillna(0)
 
     ```
 
 *   对于使用 numpy 的一列:
 
-    ```
+    ```py
     df['DataFrame Column'] = df['DataFrame Column'].replace(np.nan, 0)
 
     ```
 
 *   对于使用熊猫的整个数据帧:
 
-    ```
+    ```py
     df.fillna(0)
 
     ```
 
 *   对于整个数据帧，使用 numpy:
 
-    ```
+    ```py
     df.replace(np.nan, 0)
 
     ```
@@ -47,7 +47,7 @@ NaN 代表 Not A Number，是表示数据中缺失值的常用方法之一。它
 
 **示例:**
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -73,7 +73,7 @@ df
 
 **示例:**
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -102,7 +102,7 @@ df
 
 **示例:**
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -132,7 +132,7 @@ df
 
 **示例:**
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np

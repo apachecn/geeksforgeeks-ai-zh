@@ -10,7 +10,7 @@
 
 **代码#1:基数()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cardinality()
 
@@ -36,7 +36,7 @@ print ("Permutation b - cardinality form : ", b.cardinality)
 
 **代码#2:基数()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cardinality()
 

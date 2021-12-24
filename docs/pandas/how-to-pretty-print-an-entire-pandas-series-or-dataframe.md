@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create a dataframe
@@ -62,7 +62,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 1000)

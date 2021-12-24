@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
@@ -54,7 +54,7 @@ homogeneity_score(y, labels)
 
 **输出:**
 
-```
+```py
 0.00496764949717645
 
 ```
@@ -63,7 +63,7 @@ homogeneity_score(y, labels)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.metrics.cluster import homogeneity_score
 
 # Evaluate the score
@@ -74,7 +74,7 @@ print(hscore)
 
 **输出:**
 
-```
+```py
 1.0
 
 ```
@@ -83,7 +83,7 @@ print(hscore)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.metrics.cluster import homogeneity_score
 
 # Evaluate the score
@@ -94,7 +94,7 @@ print(hscore)
 
 **输出:**
 
-```
+```py
 0.9999999999999999
 
 ```
@@ -103,7 +103,7 @@ print(hscore)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.metrics.cluster import homogeneity_score
 
 # Evaluate the score
@@ -114,7 +114,7 @@ print(hscore)
 
 **输出:**
 
-```
+```py
 0.0
 
 ```

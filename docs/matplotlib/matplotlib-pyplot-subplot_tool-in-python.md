@@ -6,7 +6,7 @@
 
 **样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的**子图 _tool()函数**用于启动一个图�
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.subplot_tool(targetfig=None)
 > 
 > ```
@@ -36,7 +36,7 @@ matplotlib 库 pyplot 模块中的**子图 _tool()函数**用于启动一个图�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

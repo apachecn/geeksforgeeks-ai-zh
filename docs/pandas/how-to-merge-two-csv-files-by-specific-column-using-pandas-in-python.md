@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # reading two csv files
@@ -65,7 +65,7 @@ print(output1)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # reading csv files
@@ -95,7 +95,7 @@ print(output2)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # reading csv files

@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.slice_locs()`功能查找输入值的切片标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ idx
 
 现在我们将找到“哈巴狗”和“獒犬”的切片标签
 
-```
+```py
 # finding the slice labels for the input value.
 idx.slice_locs(start ='Pug', end ='Mastiff')
 ```
@@ -46,7 +46,7 @@ idx.slice_locs(start ='Pug', end ='Mastiff')
 
 **示例#2:** 使用`Index.slice_locs()`函数在日期时间基准索引中查找切片标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ idx
 
 现在，我们将找到输入标签的切片标签。
 
-```
+```py
 # finding the slice labels
 idx.slice_locs(start ='2018-02-01', end ='2018-04-01')
 ```

@@ -8,7 +8,7 @@
 
 我们可以使用 google colab，也可以使用本地设备中的任何文本编辑器来完成上述实现。为了在本地设备上使用文本编辑器，我们需要首先打开命令提示符并编写以下代码。
 
-```
+```py
 pip install bokeh
 ```
 
@@ -20,7 +20,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing figure and show from
 # bokeh.plotting
 from bokeh.plotting import figure, show
@@ -60,7 +60,7 @@ show(fig)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing figure and show from
 # bokeh.plotting
 from bokeh.plotting import figure, show

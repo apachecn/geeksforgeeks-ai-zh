@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 torch.tensor(Data)
 ```
 
@@ -18,7 +18,7 @@ torch.tensor(Data)
 
 ## 蟒 3
 
-```
+```py
 import torch
 
 V_data = [1, 2, 3, 4]
@@ -28,7 +28,7 @@ print(V)
 
 **输出:**
 
-```
+```py
 tensor([1, 2, 3, 4])
 ```
 
@@ -36,7 +36,7 @@ tensor([1, 2, 3, 4])
 
 ## python 3
 
-```
+```py
 import torch
 
 M_data = [[1., 2., 3.], [4, 5, 6]]
@@ -46,7 +46,7 @@ print(M)
 
 **输出:**
 
-```
+```py
 tensor([[1., 2., 3.],
         [4., 5., 6.]])
 ```
@@ -55,7 +55,7 @@ tensor([[1., 2., 3.],
 
 ## python 3
 
-```
+```py
 import torch
 
 T_data = [[[1., 2.], [3., 4.]],

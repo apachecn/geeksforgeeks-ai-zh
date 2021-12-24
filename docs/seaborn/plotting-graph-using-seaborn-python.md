@@ -6,7 +6,7 @@
 
 **安装:**安装 seaborn 最简单的方法就是使用 pip。在终端中键入以下命令:
 
-```
+```py
 pip install seaborn
 ```
 
@@ -18,7 +18,7 @@ pip install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Plotting categorical scatter
 # plots with Seaborn
@@ -62,7 +62,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Stripplot using inbuilt data-set
 # given in seaborn
@@ -106,7 +106,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # plotting using Swarmplot
 
@@ -148,7 +148,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required module
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -183,13 +183,13 @@ A **柱状图**基本上是根据一些方法来聚合分类数据，默认为�
 
 **语法:**
 
-```
+```py
 barplot([x, y, hue, data, order, hue_order, …])
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # import the seaborn library
 import seaborn as sns
 
@@ -218,13 +218,13 @@ countplot 基本上对类别进行计数，并返回它们出现的次数。这�
 
 **语法:**
 
-```
+```py
 countplot([x, y, hue, data, order, …])
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # import the seaborn library
 import seaborn as sns
 

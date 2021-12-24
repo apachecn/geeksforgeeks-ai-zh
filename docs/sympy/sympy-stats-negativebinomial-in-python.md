@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.NegativeBinomial()`方法，我们能够通过使用这个方法得到负二项分布。
 
-```
+```py
 # Import sympy and Negativebinomial
 from sympy.stats import NegativeBinomial, density, E, variance
 from sympy import Symbol, S
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Negativebinomial
 from sympy.stats import NegativeBinomial, density, E, variance
 from sympy import Symbol, S

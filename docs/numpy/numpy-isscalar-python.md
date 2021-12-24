@@ -6,20 +6,20 @@
 
 **参数:**
 
-```
+```py
 num : Input argument of any type and shape.
 ```
 
 **返回:**
 
-```
+```py
 True, if input is scalar; else False
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # isscalar() function
 import numpy as np
@@ -39,7 +39,7 @@ print ("\nisscalar([7]) : ", np.isscalar([7]))
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 4]
 
 Is scalar :  False

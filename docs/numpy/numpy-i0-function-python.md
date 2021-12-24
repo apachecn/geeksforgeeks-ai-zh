@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.i0() function
 
@@ -26,14 +26,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 1.0
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.i0() function
 
@@ -47,7 +47,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ 1.26606588+0.j,  -1.24923489+0.9479838j]
 
 ```

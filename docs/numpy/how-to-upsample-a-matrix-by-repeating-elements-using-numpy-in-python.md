@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 import numpy as np
 
@@ -53,7 +53,7 @@ print(np.repeat(a, 5, axis=1).repeat(3, axis=0))
 
 **语法:**
 
-```
+```py
 np.kron(a ,b)
 ```
 
@@ -66,7 +66,7 @@ np.kron(a ,b)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 import numpy as np
 

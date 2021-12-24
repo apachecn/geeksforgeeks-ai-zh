@@ -20,7 +20,7 @@ matplotlib 库的 **savefig()方法**图形模块用于保存当前图形。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.cm as cm
@@ -45,7 +45,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.cm as cm

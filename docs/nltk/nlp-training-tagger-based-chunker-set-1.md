@@ -12,7 +12,7 @@
 
 **代码#1:让我们了解一下 Chunker 类的训练。**
 
-```
+```py
 from nltk.chunk import ChunkParserI
 from nltk.chunk.util import tree2conlltags, conlltags2tree
 from nltk.tag import UnigramTagger, BigramTagger
@@ -47,14 +47,14 @@ class TagChunker(ChunkParserI):
 
 **输出:**
 
-```
+```py
 Training TagChunker
 
 ```
 
 **代码#2:使用标签分块器。**
 
-```
+```py
 # loading libraries
 from chunkers import TagChunker
 from nltk.corpus import treebank_chunk
@@ -69,7 +69,7 @@ chunker = TagChunker(train_data)
 
 **代码#3:评估标签 Chunker**
 
-```
+```py
 # testing
 score = chunker.evaluate(test_data)
 
@@ -84,7 +84,7 @@ print ("\nRecall of TagChunker : ", r)
 
 **输出:**
 
-```
+```py
 Accuracy of TagChunker : 0.9732039335251428
 
 Precision of TagChunker : 0.9166534370535006

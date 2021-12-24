@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # working of numpy.pad() function
 import numpy as np
@@ -36,7 +36,7 @@ print(pad_arr)
 
 **输出:**
 
-```
+```py
 [6 6 6 1 3 2 5 4 4 4]
 
 ```
@@ -45,7 +45,7 @@ print(pad_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # working of numpy.pad() function
 import numpy as np
@@ -61,7 +61,7 @@ print(pad_arr)
 
 **输出:**
 
-```
+```py
 [-4 -2 -1  1  3  2  5  4  4  5]
 
 ```
@@ -70,7 +70,7 @@ print(pad_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # working of numpy.pad() function
 import numpy as np
@@ -85,7 +85,7 @@ print(pad_arr)
 
 **输出:**
 
-```
+```py
 [9 9 9 1 3 9 5 4 9 9 9]
 
 ```
@@ -94,7 +94,7 @@ print(pad_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain
 # working of numpy.pad() function
 import numpy as np
@@ -109,7 +109,7 @@ print(pad_arr)
 
 **输出:**
 
-```
+```py
 [[1 1 1 1 3 1 1 1]
 [1 1 1 1 3 1 1 1]
 [1 1 1 1 3 1 1 1]

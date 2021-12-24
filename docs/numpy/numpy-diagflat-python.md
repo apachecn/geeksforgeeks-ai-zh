@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 a : array_like input data with diagonal  elements
 strong>k : [int, optional, 0 by default]
           Diagonal we require; k>0 means diagonal  above main diagonal  or vice versa.
@@ -14,13 +14,13 @@ strong>k : [int, optional, 0 by default]
 
 **返回:**
 
-```
+```py
 array with the array_like input as a diagonal to the new output array.
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.diagflat method
 
@@ -36,7 +36,7 @@ print("diagflat above main diagonal : \n", geek.diagflat([1, 7, 6], 1), "\n")
 
 **输出:**
 
-```
+```py
 diagflat use on main diagonal  : 
  [[1 0]
  [0 7]] 

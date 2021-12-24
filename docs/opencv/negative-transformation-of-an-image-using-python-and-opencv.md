@@ -12,7 +12,7 @@
 
 ![Negative-transformation-python-opencv](img/07572cc1f5895441b5f4444260f152be.png)
 
-```
+```py
 # We need cv2 module for image 
 # reading and matplotlib module
 # for plotting
@@ -53,7 +53,7 @@ plt.show()
 
 **第一种方法的 Python 代码:–**
 
-```
+```py
 import cv2
 import matplotlib.pyplot as plt
 
@@ -140,7 +140,7 @@ plt.show()
 
 **第二种方法的 Python 代码:–**
 
-```
+```py
 import cv2
 import matplotlib.pyplot as plt
 

@@ -21,7 +21,7 @@ NumPy 是一个通用的数组处理包。它提供了一个高性能的多维�
 
 *   **Mac** 和 **Linux** 用户可以通过 pip 命令安装 NumPy:
 
-    ```
+    ```py
     pip install numpy
     ```
 
@@ -38,7 +38,7 @@ NumPy 是一个通用的数组处理包。它提供了一个高性能的多维�
 
 **示例:**
 
-```
+```py
 [[ 1, 2, 3],
  [ 4, 2, 5]]
 Here,
@@ -49,7 +49,7 @@ overall shape can be expressed as: (2, 3)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate 
 # basic array characteristics
 import numpy as np
@@ -76,7 +76,7 @@ print("Array stores elements of type: ", arr.dtype)
 
 Output :
 
-```
+```py
 Array is of type:  
 No. of dimensions:  2
 Shape of array:  (2, 3)
@@ -100,7 +100,7 @@ Array stores elements of type:  int64
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # array creation techniques
 import numpy as np
@@ -156,7 +156,7 @@ print ("Fattened array:\n", flarr)
 
 Output :
 
-```
+```py
 Array created using passed list:
  [[ 1\.  2\.  4.]
  [ 5\.  8\.  7.]]
@@ -211,7 +211,7 @@ Fattened array:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # indexing in numpy
 import numpy as np
@@ -240,7 +240,7 @@ print ("\nElements greater than 0:\n", temp)
 
 Output :
 
-```
+```py
 Array with first 2 rows and alternatecolumns(0 and 2):
  [[-1\.  0.]
  [ 4\.  6.]]
@@ -258,7 +258,7 @@ Elements greater than 0:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # basic operations on single array
 import numpy as np
@@ -290,7 +290,7 @@ print ("Transpose of array:\n", a.T)
 
 Output :
 
-```
+```py
 Adding 1 to every element: [2 3 6 4]
 Subtracting 3 from each element: [-2 -1  2  0]
 Multiplying each element by 10: [10 20 50 30]
@@ -312,7 +312,7 @@ Transpose of array:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # unary operators in numpy
 import numpy as np
@@ -341,7 +341,7 @@ print ("Cumulative sum along each row:\n",
 
 输出:
 
-```
+```py
 Largest element is: 9
 Row-wise maximum elements: [6 7 9]
 Column-wise minimum elements: [1 1 2]
@@ -357,7 +357,7 @@ Cumulative sum along each row:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # binary operators in Numpy
 import numpy as np
@@ -379,7 +379,7 @@ print ("Matrix multiplication:\n", a.dot(b))
 
 输出:
 
-```
+```py
 Array sum:
 [[5 5]
  [5 5]]
@@ -397,7 +397,7 @@ Matrix multiplication:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # universal functions in numpy
 import numpy as np
@@ -416,7 +416,7 @@ print ("Square root of array elements:", np.sqrt(a))
 
 Output:
 
-```
+```py
 Sine values of array elements: [  0.00000000e+00   1.00000000e+00   1.22464680e-16]
 Exponent of array elements: [  1\.           2.71828183   7.3890561   20.08553692]
 Square root of array elements: [ 0\.          1\.          1.41421356  1.73205081]
@@ -426,7 +426,7 @@ Square root of array elements: [ 0\.          1\.          1.41421356  1.7320508
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate sorting in numpy
 import numpy as np
 
@@ -465,7 +465,7 @@ print ("Array sorted by grauation year and then cgpa:\n",
 
 Output:
 
-```
+```py
 Array elements in sorted order:
 [-1  0  1  2  3  4  4  5  6]
 Row-wise sorted array:

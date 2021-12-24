@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.char.endswith()`方法，我们能够在与`np.char.endswith()`方法中的字符串值匹配时获得布尔数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

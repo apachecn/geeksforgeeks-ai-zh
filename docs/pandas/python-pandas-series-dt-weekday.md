@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.weekday`属性返回给定序列对象的基础数据中给定日期时间的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.weekday`属性返回给定序列对象的基础数据中给定日期时间的星期几。
 
-```
+```py
 # return the day of week
 result = sr.dt.weekday
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.weekday`属性返回给定 Series 对象的基础数据中给定日期时间的星期几。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.dt.weekday`属性返回给定序列对象的基础数据中给定日期时间的星期几。
 
-```
+```py
 # return the day of week
 result = sr.dt.weekday
 

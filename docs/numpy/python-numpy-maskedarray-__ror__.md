@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到每个元素都是**或**，其值作为参数传递。
 
-```
+```py
 
 # import the important module in python 
 import numpy as np 
@@ -25,14 +25,14 @@ print(gfg.__ror__(2)) 
 
 **Output:**
 
-```
+```py
 [3 2 3 6 7]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -46,7 +46,7 @@ print(gfg.__ror__(1)) 
 
 **Output:**
 
-```
+```py
 [[1 3 3 5 5]
  [7 5 5 3 3]]
 

@@ -24,7 +24,7 @@ Python **`Series.mod()`** 用来返回两个数除后的余数
 
 在本例中，使用`head()`方法提取了 5 行数据帧。使用熊猫`Series()`方法从 Python 列表创建一个系列。在新的短数据帧上调用`mod()`方法，创建的列表作为其他参数传递。
 
-```
+```py
 # importing pandas module  
 import pandas as pd 
 
@@ -54,7 +54,7 @@ short_data 
 
 就像在上面的例子中，同样的步骤被完成，但是这一次一个变量被创建并且一些随机的值被传递给它。该值随后作为 fill_value 参数传递给`mod()`方法。
 
-```
+```py
 # importing pandas module  
 import pandas as pd 
 

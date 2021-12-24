@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagfromroots() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-30\. -18\. -10\.  -6.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagfromroots() method 
 
@@ -62,7 +62,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ -26\.  -64\.  120\. -270\.  240\. -120.]
 
 ```

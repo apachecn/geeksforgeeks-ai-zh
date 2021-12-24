@@ -6,7 +6,7 @@
 
 考虑以下数据帧。
 
-```
+```py
 # importing the modules
 import numpy as np
 import pandas as pd
@@ -31,7 +31,7 @@ display(table)
 
 **例 1 :** 计算单列中的 NaN 值。
 
-```
+```py
 print("Number of null values in column 1 : " + 
        str(table.iloc[:, 1].isnull().sum()))
 print("Number of null values in column 2 : " + 
@@ -40,7 +40,7 @@ print("Number of null values in column 2 : " + 
 
 **输出:**
 
-```
+```py
 Number of null values in column 1 : 2
 Number of null values in column 2 : 3
 
@@ -48,7 +48,7 @@ Number of null values in column 2 : 3
 
 **例 2 :** 计算单行中的 NaN 值。
 
-```
+```py
 print("Number of null values in row 0 : " + 
        str(table.iloc[0, ].isnull().sum()))
 print("Number of null values in row 1 : " + 
@@ -59,7 +59,7 @@ print("Number of null values in row 3 : " + 
 
 **输出:**
 
-```
+```py
 Number of null values in row 0 : 0
 Number of null values in row 1 : 1
 Number of null values in row 3 : 2
@@ -68,21 +68,21 @@ Number of null values in row 3 : 2
 
 **示例 3 :** 计算数据帧中的总 NaN 值。
 
-```
+```py
 print("Total Number of null values in the DataFrame : " + 
        str(table.isnull().sum().sum()))
 ```
 
 **输出:**
 
-```
+```py
 Total Number of null values in the DataFrame : 5
 
 ```
 
 **示例 4 :** 计算所有列中的 NaN 值。
 
-```
+```py
 display(table.isnull().sum())
 ```
 

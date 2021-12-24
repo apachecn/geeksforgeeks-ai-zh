@@ -21,7 +21,7 @@ matplotlib 库的**图例()方法**图形模块用于在图形上放置图例。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 
@@ -56,7 +56,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 np.random.seed(19680801)

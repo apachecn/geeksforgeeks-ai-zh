@@ -8,7 +8,7 @@
 
 **解决方案#1:** 很多时候我们会遇到这样的情况，我们需要编写适合手头任务的自定义函数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df)
 
 现在我们将编写自己的定制函数来解决这个问题。
 
-```
+```py
 def Format_data(df):
     # iterate over all the rows
     for i in range(df.shape[0]):
@@ -50,7 +50,7 @@ print(df)
 
 **解决方案#2 :** 现在我们将看到使用熊猫`DataFrame.apply()`功能的更好、更高效的方法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(df)
 
 让我们使用熊猫`DataFrame.apply()`功能以正确的格式格式化产品名称。在熊猫`DataFrame.apply()`函数中，我们将使用λ函数。
 
-```
+```py
 # Using the df.apply() function on product column
 df['Product'] = df['Product'].apply(lambda x : x.strip().capitalize())
 

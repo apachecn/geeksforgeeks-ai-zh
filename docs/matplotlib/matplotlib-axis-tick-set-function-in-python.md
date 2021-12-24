@@ -19,7 +19,7 @@ matplotlib 库轴模块中的 **Tick.set()函数**是一个属性批量设置器
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib  
@@ -51,7 +51,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  

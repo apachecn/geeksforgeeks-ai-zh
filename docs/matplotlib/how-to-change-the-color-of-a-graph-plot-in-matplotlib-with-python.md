@@ -27,7 +27,7 @@ Python 提供了大量用于绘制图形的库，Matplotlib 就是其中之一�
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import matplotlib
@@ -57,7 +57,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import matplotlib

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 import numpy as np
@@ -51,7 +51,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Define a function for colouring 
 # negative values red and 
 # positive values black
@@ -76,7 +76,7 @@ df.style.apply(highlight_max)
 
 ## 蟒蛇 3
 
-```
+```py
 # Define a function which 
 # returns the list for 
 # df.style.apply() method
@@ -113,7 +113,7 @@ df.style.apply(highlight_max)
 
 ## 蟒蛇 3
 
-```
+```py
 # Define a function for 
 # colouring negative values 
 # red and positive values black
@@ -134,7 +134,7 @@ df.style.applymap(highlight_max)
 
 ## 蟒蛇 3
 
-```
+```py
 # Define a function which 
 # returns string for 
 # applymap() method

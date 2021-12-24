@@ -18,7 +18,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1 :** 使用`DataFrame.truediv()`函数以标量元素方式对给定的数据帧进行分割。同时在所有缺失值的地方填入 100。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df)
 
 现在我们将使用`DataFrame.truediv()`函数对给定的数据帧按元素进行 2 分频。我们将在这个数据框中所有缺失值的地方填充 100。
 
-```
+```py
 # divide by 2 element-wise
 # fill 100 at the place of missing values
 result = df.truediv(other = 2, fill_value = 100)
@@ -58,7 +58,7 @@ print(result)
 
 **示例 2 :** 使用`DataFrame.truediv()`功能使用列表对给定的数据帧进行分割。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(df)
 
 现在我们将使用`DataFrame.truediv()`函数使用列表对给定的数据帧进行分割。
 
-```
+```py
 # divide using a list
 # across the column axis
 result = df.truediv(other = [10, 4, 8, 3], axis = 1)

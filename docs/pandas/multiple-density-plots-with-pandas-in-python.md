@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # creating a dataframe
@@ -32,7 +32,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # converting data into wide-format
 data_wide = df.pivot(columns='continent',
                      values='lifeExp')
@@ -47,7 +47,7 @@ data_wide.head()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # calling density() to make
@@ -72,7 +72,7 @@ plt.xlabel("life_Exp")
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # creating a dataframe
@@ -90,7 +90,7 @@ tips_df
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting to wide dataframe
 data_wide = df.pivot(columns = 'day',
                      values = 'total_bill')

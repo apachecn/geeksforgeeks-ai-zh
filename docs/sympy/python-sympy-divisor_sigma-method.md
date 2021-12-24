@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import divisor_sigma() method from sympy
 from sympy.ntheory import divisor_sigma
 
@@ -29,14 +29,14 @@ print("divisor_sigma({}) =  {} ".format(n, divisor_sigma_n)) 
 
 **输出:**
 
-```
+```py
 divisor_sigma(8) =  15 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import divisor_sigma() method from sympy
 from sympy.ntheory import divisor_sigma
 
@@ -52,7 +52,7 @@ print("divisor_sigma({}, {}) =  {} ".format(n, k, divisor_sigma_n)) 
 
 **输出:**
 
-```
+```py
 divisor_sigma(15, 2) =  260 
 
 ```

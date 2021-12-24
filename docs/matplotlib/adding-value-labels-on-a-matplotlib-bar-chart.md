@@ -10,13 +10,13 @@
 
 *   用于制作条形图
 
-```
+```py
 Syntax: plt.bar(x, height, color)
 ```
 
 *   用于在条形图上添加文本
 
-```
+```py
 Syntax: plt.text(x, y, s, ha, Bbox)
 ```
 
@@ -54,7 +54,7 @@ Syntax: plt.text(x, y, s, ha, Bbox)
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -147,7 +147,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -194,7 +194,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -242,7 +242,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 

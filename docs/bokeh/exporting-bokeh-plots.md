@@ -11,14 +11,14 @@
 
 要使用 [conda](https://www.geeksforgeeks.org/how-to-setup-conda-environment-with-jupyter-notebook/) 安装这两个，请依次运行以下命令:
 
-```
+```py
 conda install selenium geckodriver -c conda-forge
 conda install selenium python-chromedriver-binary -c conda-forge
 ```
 
 **使用 pip:**
 
-```
+```py
 pip install selenium geckodriver firefox
 ```
 
@@ -40,7 +40,7 @@ pip install selenium geckodriver firefox
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 from bokeh.plotting import figure
 from bokeh.plotting import output_file
@@ -73,7 +73,7 @@ show(fig)
 
 **输出:**
 
-```
+```py
 Exporting bokeh_plot.png....
 ```
 
@@ -100,7 +100,7 @@ Exporting bokeh_plot.png....
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 from bokeh.plotting import figure
 from bokeh.plotting import output_file
@@ -133,7 +133,7 @@ show(fig)
 
 **输出:**
 
-```
+```py
 Exporting circle_bokeh.svg.....
 ```
 

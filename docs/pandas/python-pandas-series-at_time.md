@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.at_time()`函数返回给定系列对象中一天中特定时间的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.at_time()`函数返回给定序列对象中一天中特定时间的值。
 
-```
+```py
 # return values at particular time of the day
 result = sr.at_time(time = '13:45:00')
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2 :** 使用`Series.at_time()`函数返回给定系列对象中一天中特定时间的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.at_time()`函数返回给定序列对象中一天中特定时间的值。
 
-```
+```py
 # return values at particular time of the day
 result = sr.at_time(time = '08:45:00')
 

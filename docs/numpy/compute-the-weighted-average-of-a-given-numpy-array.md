@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -27,7 +27,7 @@ print(res1)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4]
 [10 11 12 13 14]
 2.1666666666666665
@@ -38,7 +38,7 @@ print(res1)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -55,7 +55,7 @@ print(res1)
 
 **输出:**
 
-```
+```py
 [2 3 4 5 6]
 [2 3 4 5 6]
 4.5
@@ -68,7 +68,7 @@ print(res1)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -85,7 +85,7 @@ print(res2)
 
 **输出:**
 
-```
+```py
 [2 3 4 5 6]
 [2 3 4 5 6]
 4.5
@@ -96,7 +96,7 @@ print(res2)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 # Original array
@@ -113,7 +113,7 @@ print(res2)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4]
 [10 11 12 13 14]
 2.166666666666667

@@ -16,7 +16,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.GeneralizedMultivariateLogGamma()`方法，我们能够使用该方法获得表示广义多元对数伽马分布的连续联合随机变量。
 
-```
+```py
 # Import sympy and GeneralizedMultivariateLogGamma
 from sympy.stats import density
 from sympy.stats.joint_rv_types import GeneralizedMultivariateLogGamma
@@ -37,7 +37,7 @@ pprint(gfg)
 
 **输出:**
 
-```
+```py
   oo                                                      
 _____                                                     
 \    `                                                    
@@ -56,7 +56,7 @@ n = 0
 
 **例 2 :**
 
-```
+```py
 # Import sympy and GeneralizedMultivariateLogGamma
 from sympy.stats import density
 from sympy.stats.joint_rv_types import GeneralizedMultivariateLogGamma
@@ -77,7 +77,7 @@ pprint(gfg)
 
 **输出:**
 
-```
+```py
    oo                                                                        
 ______                                                                       
 \     `                                                                      

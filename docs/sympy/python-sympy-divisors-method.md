@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import divisors() method from sympy
 from sympy import divisors
 
@@ -28,14 +28,14 @@ print("The divisors of {} : {}".format(n, divisors_n))
 
 **输出:**
 
-```
+```py
 The divisors of 84 : [1, 2, 3, 4, 6, 7, 12, 14, 21, 28, 42, 84]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import divisors() method from sympy
 from sympy import divisors
 
@@ -49,7 +49,7 @@ print("The divisors of {} : {}".format(n, divisors_n))
 
 **输出:**
 
-```
+```py
 The divisors of -210 : [1, 2, 3, 6, 5, 10, 15, 30, 7, 14, 21, 42, 35, 70, 105, 210]
 
 ```

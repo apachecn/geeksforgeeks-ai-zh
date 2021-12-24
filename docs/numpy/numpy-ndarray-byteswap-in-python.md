@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program explaining 
 # byteswap() function 
 import numpy as geek
@@ -27,13 +27,13 @@ print(a.byteswap(True))
 
 **输出:**
 
-```
+```py
 [256  1  25600]
 ```
 
 **代码#2:** `byteswap()`函数不适用于字符串数组。
 
-```
+```py
 # Python program explaining 
 # byteswap() function 
 import numpy as geek
@@ -46,7 +46,7 @@ print(a.byteswap(True))
 
 **输出:**
 
-```
+```py
 ValueError                                Traceback (most recent call last)
  in <module>()
       1 import numpy as geek

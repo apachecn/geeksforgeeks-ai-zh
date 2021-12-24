@@ -10,7 +10,7 @@ Python 代码来创建一个 1D 张量并显示它。
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -26,7 +26,7 @@ a
 
 **输出:**
 
-```
+```py
 torch.Size([8])
 tensor([1, 2, 3, 4, 5, 6, 7, 8])
 ```
@@ -47,7 +47,7 @@ tensor([1, 2, 3, 4, 5, 6, 7, 8])
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -69,7 +69,7 @@ print(a.shape)
 
 **输出:**
 
-```
+```py
 torch.Size([8])
 tensor([1, 2, 3, 4, 5, 6, 7, 8])
 tensor([[1, 2],
@@ -83,7 +83,7 @@ torch.Size([8])
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -105,7 +105,7 @@ print(a.shape)
 
 **输出:**
 
-```
+```py
 torch.Size([8])
 tensor([1, 2, 3, 4, 5, 6, 7, 8])
 tensor([[1, 2],
@@ -119,7 +119,7 @@ torch.Size([8])
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -141,7 +141,7 @@ print(a.shape)
 
 **输出:**
 
-```
+```py
 torch.Size([8])
 tensor([1, 2, 3, 4, 5, 6, 7, 8])
 tensor([[1],
@@ -167,7 +167,7 @@ torch.Size([8])
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -184,7 +184,7 @@ print(torch.flatten(a))
 
 **输出:**
 
-```
+```py
 tensor([[1, 2, 3, 4, 5, 6, 7, 8],
        [1, 2, 3, 4, 5, 6, 7, 8]])
 tensor([1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8])
@@ -194,7 +194,7 @@ tensor([1, 2, 3, 4, 5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7, 8])
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -241,7 +241,7 @@ view()用于更改二维格式 IE 行和列中的张量。我们必须指定要�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -258,7 +258,7 @@ print(a.view(3, 4))
 
 **输出:**
 
-```
+```py
 tensor([[24., 56., 10.],
        [20., 30., 40.],
        [50.,  1.,  2.],
@@ -272,7 +272,7 @@ tensor([[24., 56., 10., 20.],
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -289,7 +289,7 @@ print(a.view(1, 10))
 
 **输出:**
 
-```
+```py
 tensor([[24.],
        [56.],
        [10.],
@@ -320,7 +320,7 @@ tensor([[24., 56., 10., 20., 30., 40., 50.,  1.,  2.,  3.]])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -340,7 +340,7 @@ print(a.resize_(4, 4, 5))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -368,7 +368,7 @@ print(a.resize_(2, 4, 2))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -386,7 +386,7 @@ print(added.shape)
 
 **输出:**
 
-```
+```py
 torch.Size([2, 2])
 torch.Size([1, 2, 2])
 ```
@@ -395,7 +395,7 @@ torch.Size([1, 2, 2])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing torch module
 import torch
 
@@ -418,7 +418,7 @@ print(added.shape)
 
 **输出:**
 
-```
+```py
 torch.Size([5])
 torch.Size([1, 5])
 torch.Size([5, 1])

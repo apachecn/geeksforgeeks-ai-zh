@@ -6,7 +6,7 @@ matplotlib 库中有不同类型的图，可以帮助我们根据您的需要制
 
 使用以下命令安装 matplotlib、pandas 和 numpy:
 
-```
+```py
 pip install matplotlib
 pip install pandas
 pip install numpy 
@@ -18,7 +18,7 @@ pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -40,7 +40,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -66,7 +66,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -94,7 +94,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -124,7 +124,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -148,7 +148,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -169,7 +169,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import pandas as pd

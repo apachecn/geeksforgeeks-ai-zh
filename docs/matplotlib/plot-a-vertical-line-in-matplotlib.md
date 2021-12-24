@@ -21,7 +21,7 @@ Matplotlib 是一个流行的用于绘图的 python 库，它提供了一个面�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -55,7 +55,7 @@ matplotlib.pyplot.vlines()是用于绘制数据集的函数。在 matplotlib . p
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -91,7 +91,7 @@ matplotlib 库 pyplot 模块中的 plot()函数用于绘制 x，y 点的 2D 六�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -118,7 +118,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -149,7 +149,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 import matplotlib.pyplot as plt
 import numpy as np

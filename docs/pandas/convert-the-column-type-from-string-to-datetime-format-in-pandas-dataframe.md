@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # convert the 'Date' column to datetime format
 df['Date']= pd.to_datetime(df['Date'])
 
@@ -53,7 +53,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # convert the 'Date' column to datetime format
 df['Date'] = df['Date'].astype('datetime64[ns]')
 
@@ -96,7 +96,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -120,7 +120,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting the string to datetime format
 df['Dates'] = pd.to_datetime(df['Dates'], format='%y%m%d')
 
@@ -139,7 +139,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -170,7 +170,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting the string to datetime
 # format in multiple columns
 df['Treatment_start'] = pd.to_datetime(

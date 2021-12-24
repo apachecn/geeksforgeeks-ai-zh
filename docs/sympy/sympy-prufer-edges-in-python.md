@@ -14,7 +14,7 @@
 
 **代码#1:边()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.edges()
 
@@ -38,7 +38,7 @@ print ("Prufer a edges : ", a)
 
 **代码#2:边()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.edges()
 

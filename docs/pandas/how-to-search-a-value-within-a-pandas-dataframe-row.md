@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as ps
 import pandas as pd
 
@@ -36,7 +36,7 @@ df = pd.read_csv("data.csv")
 
 ## 蟒蛇 3
 
-```
+```py
 df[df["Purchased"] == "Yes"]
 # This line of code will print all rows
 # which satisfy the condition df["Purchased"] == "Yes"

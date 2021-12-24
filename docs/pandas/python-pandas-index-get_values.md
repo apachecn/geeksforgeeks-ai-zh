@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.get_values()`函数将索引值作为 numpy 数组返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ idx
 
 让我们使用`Index.get_values()`函数将 Index 数据作为 numpy 数组返回。
 
-```
+```py
 # Returns the labels of Index as numpy array
 idx.get_values()
 ```
@@ -40,7 +40,7 @@ idx.get_values()
 
 **示例 2:** 在多索引数组上使用`Index.get_values()`函数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ midx
 
 让我们将索引标签返回到一维 numpy 数组格式。
 
-```
+```py
 # Convert the multi-index into one
 # dimensional numpy array form.
 midx.get_values()

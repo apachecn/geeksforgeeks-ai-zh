@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import matplotlib.pyplot as plt

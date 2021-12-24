@@ -18,7 +18,7 @@ matplotlib 库的艺术家模块中的 **get_gid()方法**用于获取组 id。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np 
@@ -58,14 +58,14 @@ plt.show()
 
 ![](img/e0f6489b94d0cdcba7a093ef08843f0d.png)
 
-```
+```py
 Value Return : patch_ 0
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np 
@@ -128,7 +128,7 @@ plt.show()
 
 ![](img/b81ceb00f1d97a192ffaa5ac414257bb.png)
 
-```
+```py
 Value Return :
 patch_ 0
 patch_ 1

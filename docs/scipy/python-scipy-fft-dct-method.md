@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 scipy.fft.dct(x, type=2)
 
 ```
@@ -19,7 +19,7 @@ scipy.fft.dct(x, type=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -31,7 +31,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [20.00000000  -6.30864406  0.00000000  -0.44834153]
 
 ```
@@ -40,7 +40,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -52,7 +52,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [ -0.50866619  -0.58578644  -0.79439535  -1.34919819  -3.41421356
  -29.34774027]
 

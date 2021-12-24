@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`PeriodIndex.second`属性找出给定周期索引对象中每个周期元素的第二个值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.second`属性找出 pidx 对象中每个周期元素的第二个值。
 
-```
+```py
 # return the second values
 pidx.second
 ```
@@ -45,7 +45,7 @@ pidx.second
 
 **示例 2:** 使用`PeriodIndex.second`属性找出给定周期索引对象中每个周期元素的第二个值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.second`属性找出 pidx 对象中每个周期元素的第二个值。
 
-```
+```py
 # return the second values
 pidx.second
 ```

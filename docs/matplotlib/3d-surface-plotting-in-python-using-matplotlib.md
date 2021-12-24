@@ -9,7 +9,7 @@
 Matplotlib 的 mpl_toolkits.mplot3d toolkit 中的 axes3d 提供了用于创建 3d 曲面图的必要功能。使用 ax.plot_surface()函数创建曲面图。
 **语法:**
 
-```
+```py
 ax.plot_surface(X, Y, Z)
 ```
 
@@ -38,7 +38,7 @@ ax.plot_surface(X, Y, Z)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -76,7 +76,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -119,7 +119,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from mpl_toolkits import mplot3d
 import numpy as np

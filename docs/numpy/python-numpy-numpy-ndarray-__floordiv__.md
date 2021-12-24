@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都用方法`ndarray.__floordiv__()`中作为参数给出的值进行了划分，并给出了数组中被划分的每个元素的 floor 值。此方法对于数组的正、负和浮点值都很有效。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__floordiv__(2))
 
 **Output:**
 
-```
+```py
 [ 0\.  1\.  1\.  2\.  2.]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__floordiv__(3))
 
 **Output:**
 
-```
+```py
 [[ 0\.  0\.  1\.  1\.  1.]
  [ 2\.  1\.  1\.  1\.  0.]]
 

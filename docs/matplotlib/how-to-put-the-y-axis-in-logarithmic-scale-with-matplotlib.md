@@ -19,7 +19,7 @@ yscale()方法将单个值作为一个参数，该参数是刻度的转换类型
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 data = [10**i for i in range(4)]
@@ -36,7 +36,7 @@ plt.plot(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 data = [10**i for i in range(4)]

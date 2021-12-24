@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`scipy.integrate.quadrature()`方法，我们能够利用这个方法得到积分函数从极限 a 到极限 b 的高斯求积逼近。
 
-```
+```py
 # import scipy.integrate.
 from scipy import integrate
 
@@ -29,7 +29,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import scipy.integrate.
 from scipy import integrate
 

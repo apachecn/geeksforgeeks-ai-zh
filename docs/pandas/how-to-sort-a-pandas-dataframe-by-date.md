@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing package
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(data)
 
 ## 计算机编程语言
 
-```
+```py
 # checking datatype
 print(type(data.AdmissionDate[0]))
 
@@ -56,7 +56,7 @@ print(type(data.AdmissionDate[0]))
 
 **输出:**
 
-```
+```py
 <class 'str'>
 <class 'pandas._libs.tslibs.timestamps.Timestamp'>
 ```
@@ -67,7 +67,7 @@ print(type(data.AdmissionDate[0]))
 
 ## 计算机编程语言
 
-```
+```py
 data.sort_values(by='AdmissionDate')
 print(data)
 ```
@@ -80,7 +80,7 @@ print(data)
 
 ## 计算机编程语言
 
-```
+```py
 data.sort_values(by='AdmissionDate',ascending=False)
 print(data)
 ```
@@ -97,7 +97,7 @@ print(data)
 
 ## 计算机编程语言
 
-```
+```py
 # importing package
 import pandas as pd
 
@@ -125,7 +125,7 @@ print(data_1)
 
 ## 计算机编程语言
 
-```
+```py
 data_1[['Mfg. Date','Expiry Date']] = data_1[['Mfg. Date','Expiry Date']].apply(pd.to_datetime)
 ```
 
@@ -133,7 +133,7 @@ data_1[['Mfg. Date','Expiry Date']] = data_1[['Mfg. Date','Expiry Date']].apply(
 
 ## 计算机编程语言
 
-```
+```py
 # sorting DataFrame by giving first priority to Expiry Date and then Mfg. Date
 data_1.sort_values(by=['Expiry Date', 'Mfg. Date'])
 ```

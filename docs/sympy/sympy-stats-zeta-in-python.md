@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.Zeta()`方法，我们能够使用该方法获得 Zeta 分布。
 
-```
+```py
 # Import sympy and Zeta 
 from sympy.stats import Zeta, density, E, variance
 from sympy import Symbol
@@ -32,7 +32,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Zeta 
 from sympy.stats import Zeta, density, E, variance
 from sympy import Symbol

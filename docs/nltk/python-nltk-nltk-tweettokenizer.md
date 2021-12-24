@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，当我们以字符串形式传递音频流时，借助`nltk.TweetTokenizer()`方法，它将从一个长字符串转换为小标记。
 
-```
+```py
 # import TweetTokenizer() method from nltk
 from nltk.tokenize import TweetTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import TweetTokenizer() method from nltk
 from nltk.tokenize import TweetTokenizer
 

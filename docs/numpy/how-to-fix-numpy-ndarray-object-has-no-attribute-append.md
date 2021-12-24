@@ -10,7 +10,7 @@ NumPy 是 Python 编程语言的一个库，增加了对大型多维数组和矩
 
 ## 计算机编程语言
 
-```
+```py
 # Append method on python lists
 
 import numpy
@@ -68,7 +68,7 @@ num py append error(num py append 错误)
 
 ## 计算机编程语言
 
-```
+```py
 # Append method on numpy arrays
 
 # Import the numpy library

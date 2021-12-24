@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.Interval().inf`属性，我们能够获得区间的下确界值。
 
-```
+```py
 # import sympy, Interval
 from sympy import Interval
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy, Interval
 from sympy import Interval
 

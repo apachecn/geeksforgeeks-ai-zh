@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plot
 import numpy as np
@@ -28,7 +28,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 t = np.linspace(0, 1, 1000, endpoint = True)
 ```
 
@@ -48,7 +48,7 @@ t = np.linspace(0, 1, 1000, endpoint = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Plot the square wave
 plot.plot(t, signal.square(2 * np.pi * 5 * t))
 ```
@@ -57,7 +57,7 @@ plot.plot(t, signal.square(2 * np.pi * 5 * t))
 
 ## 蟒蛇 3
 
-```
+```py
 # Give x,y, title axis label
 plot.xlabel('Time')
 plot.ylabel('Amplitude')
@@ -68,7 +68,7 @@ plot.title('Square wave - Geeksforgeeks')
 
 ## 蟒蛇 3
 
-```
+```py
 # Provide x axis and black line color
 plot.axhline(y=0, color='k')
 ```
@@ -77,7 +77,7 @@ plot.axhline(y=0, color='k')
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plot
 import numpy as np

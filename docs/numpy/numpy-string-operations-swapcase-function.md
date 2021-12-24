@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.swapcase() function 
 
@@ -28,7 +28,7 @@ print ("output swapcasecased array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['P4Q R' '4q Rp' 'Q Rp4' 'rp4q']
 output swapcasecased array : ['p4q r' '4Q rP' 'q rP4' 'RP4Q']
 
@@ -36,7 +36,7 @@ output swapcasecased array : ['p4q r' '4Q rP' 'q rP4' 'RP4Q']
 
 **代码#2:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.swapcase() function 
 
@@ -52,7 +52,7 @@ print ("output swapcasecased array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['Geeks' 'For' 'Geeks']
 output swapcasecased array : ['gEEKS' 'fOR' 'gEEKS']
 

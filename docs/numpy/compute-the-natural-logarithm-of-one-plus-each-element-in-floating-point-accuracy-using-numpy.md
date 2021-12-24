@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -31,7 +31,7 @@ print(rslt)
 
 **输出:**
 
-```
+```py
 [1.e-090 1.e-100]
 ```
 
@@ -39,7 +39,7 @@ print(rslt)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -54,7 +54,7 @@ print(rslt)
 
 **输出:**
 
-```
+```py
 [0.69314718 1.09861229 1.38629436 1.60943791]
 ```
 
@@ -62,7 +62,7 @@ print(rslt)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -77,6 +77,6 @@ print(rslt)
 
 **输出:**
 
-```
+```py
 [0.69314718 0.09531018 1.38629436 0.69314718]
 ```

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.size`属性找出给定时间增量索引对象中的元素数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找出 tidx 对象中存在的元素数量。
 
-```
+```py
 # print the number of elements in the tidx object
 tidx.size
 ```
@@ -40,7 +40,7 @@ tidx.size
 
 **示例 2:** 使用`TimedeltaIndex.size`属性找出给定时间增量索引对象中的元素数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找出 tidx 对象中存在的元素数量。
 
-```
+```py
 # print the number of elements in the tidx object
 tidx.size
 ```

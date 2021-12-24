@@ -14,7 +14,7 @@
 
     **代码:解释标量乘法的 Python 代码**
 
-    ```
+    ```py
 
     # importing libraries  
     import numpy as np
@@ -36,7 +36,7 @@
 
     **输出:**
 
-    ```
+    ```py
     w =  [20  5]
     ```
 
@@ -47,7 +47,7 @@
 
     **代码:解释点积乘法的 Python 代码**
 
-    ```
+    ```py
     import numpy as np
     import math
 
@@ -63,7 +63,7 @@
 
     **输出:**
 
-    ```
+    ```py
     4
     ```
 
@@ -72,7 +72,7 @@
 
     **代码:解释叉积的 Python 代码**
 
-    ```
+    ```py
     import numpy as np
     import math
 
@@ -84,6 +84,6 @@
 
     **输出:**
 
-    ```
+    ```py
     [ 12  76 -61]
     ```

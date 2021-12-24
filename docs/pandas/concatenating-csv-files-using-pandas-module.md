@@ -33,7 +33,7 @@ Updated.csv
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 
@@ -101,7 +101,7 @@ gfg2.csv 文件
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 

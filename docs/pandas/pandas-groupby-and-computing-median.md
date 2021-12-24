@@ -18,7 +18,7 @@ Python 中的熊猫被认为是执行数据分析最流行和最强大的工具�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the packages
 import pandas as pd
 
@@ -51,7 +51,7 @@ data.groupby(["continent"])["wine_servings"].median()
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 

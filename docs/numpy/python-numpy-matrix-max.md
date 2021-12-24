@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助方法`matrix.max()`，我们能够从给定的矩阵中获得最大值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 64
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 9
 
 ```

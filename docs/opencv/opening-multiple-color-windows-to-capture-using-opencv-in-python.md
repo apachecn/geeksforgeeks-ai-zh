@@ -12,7 +12,7 @@ OpenCV 是一个开源的计算机视觉库，与许多编程语言一起工作�
 安装 openCV 时，cv2 库会自动安装。要安装 numpy，请在 cmd/linux 终端使用以下命令:
 `pip install numpy`
 
-```
+```py
 # importing the required modules
 import cv2
 import numpy as np

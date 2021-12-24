@@ -31,7 +31,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -56,7 +56,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ plt.show()
 
 **例 3:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -112,7 +112,7 @@ plt.show()
 
 **例 4:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -131,7 +131,7 @@ leg = ax.legend(loc ="lower left");
 
 **例 5:**
 
-```
+```py
 # importing modules
 import numpy as np
 import matplotlib.pyplot as plt

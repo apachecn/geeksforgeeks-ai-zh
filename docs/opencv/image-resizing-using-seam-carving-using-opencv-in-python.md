@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the necessary libraries
 from skimage import transform
 from skimage import filters
@@ -63,7 +63,7 @@ cv2.waitKey(0)
 
 **输出**
 
-```
+```py
 Shape of original Image(667, 1000, 3)
 Shape of Carved image (667, 840, 3)
 

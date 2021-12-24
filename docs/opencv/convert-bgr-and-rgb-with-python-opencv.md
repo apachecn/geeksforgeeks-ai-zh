@@ -35,7 +35,7 @@ OpenCV 使用 BGR 图像格式。因此，当我们使用 cv2.imread()读取图�
 
 ## 蟒 3
 
-```
+```py
 import cv2
 
 image = cv2.imread("/content/gfg.jpeg")

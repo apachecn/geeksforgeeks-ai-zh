@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Minimum 
 
 from scipy import stats
@@ -31,7 +31,7 @@ print("\nTrimmed Minimum by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Minimum : 1
 
 Trimmed Minimum by setting limit :  6
@@ -40,7 +40,7 @@ Trimmed Minimum by setting limit :  6
 
 **代码#2:** 检查不同参数
 
-```
+```py
 # Trimmed Minimum 
 
 from scipy import stats
@@ -71,7 +71,7 @@ print("\nTrimmed Minimum by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Minimum : [1 3 3]
 
 Trimmed Minimum by setting axis :  [1 3 3 3]

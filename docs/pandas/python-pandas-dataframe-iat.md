@@ -23,7 +23,7 @@ Pandas **iat[]** 方法用于在传递的位置返回数据帧中的数据。传
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

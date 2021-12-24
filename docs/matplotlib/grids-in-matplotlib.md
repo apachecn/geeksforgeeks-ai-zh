@@ -20,7 +20,7 @@
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 **示例#2:**
 现在让我们使用额外的线条属性(如颜色、线型和线宽)绘制网格线。
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

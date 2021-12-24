@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们能够使用`Matrix().col_insert()`方法在矩阵中插入一列。
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 
@@ -29,7 +29,7 @@ print(new_mat)
 
 **例 2 :**
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 

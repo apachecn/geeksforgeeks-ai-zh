@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -38,7 +38,7 @@ print("Frequency Values:",
 
 **输出:**
 
-```
+```py
 Unique Values: [ 5  8  9 10 20]
 Frequency Values: [1 2 1 2 2]
 
@@ -48,7 +48,7 @@ Frequency Values: [1 2 1 2 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -72,7 +72,7 @@ print("The values and their frequency are:\n",
 
 **输出:**
 
-```
+```py
 The values and their frequency are:
 [[ 5  8  9 10 20]
 [ 1  2  1  2  2]]
@@ -82,7 +82,7 @@ The values and their frequency are:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -107,7 +107,7 @@ print("The values and their frequency are in transpose form:\n",
 
 **输出:**
 
-```
+```py
 The values and their frequency are in transpose form:
 [[ 5  1]
 [ 8  2]

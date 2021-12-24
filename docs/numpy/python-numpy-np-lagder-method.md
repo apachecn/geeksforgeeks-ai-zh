@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagder() method 
 
@@ -37,14 +37,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-12\.  -8.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.lagder() method 
 
@@ -65,7 +65,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [ 6.5   3.5   1.25]
 
 ```

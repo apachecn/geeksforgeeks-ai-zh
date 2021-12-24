@@ -30,7 +30,7 @@ Pandas sort_values()函数按照传递列的升序或降序对数据框进行排
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -49,7 +49,7 @@ data
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -74,7 +74,7 @@ data
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

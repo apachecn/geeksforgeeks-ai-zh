@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 pd.merge(df1, df2, how)
 ```
 
 **例 1:**
 
-```
+```py
 import pandas as pd
 
 # Creating Data frames
@@ -32,7 +32,7 @@ print(int_df)
 
 **输出:**
 
-```
+```py
    A    B        C
 0  3  efg    Rahul
 1  4  ghi  Shubham
@@ -41,7 +41,7 @@ print(int_df)
 
 **例 2:**
 
-```
+```py
 import pandas as pd
 
 # Creating Data frames
@@ -61,7 +61,7 @@ print(int_df)
 
 **输出:**
 
-```
+```py
    A      B        C
 0  1  Geeks   Nikhil
 1  2    For  Rishabh

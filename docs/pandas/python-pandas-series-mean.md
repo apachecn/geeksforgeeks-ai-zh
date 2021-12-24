@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.mean()`函数找到给定序列对象中底层数据的平均值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们用`Series.mean()`函数求给定级数对象的平均值。
 
-```
+```py
 # return the mean
 result = sr.mean()
 
@@ -55,7 +55,7 @@ print(result)
 
 **例 2:** 用`Series.mean()`函数求给定序列对象中底层数据的均值。给定的序列对象也包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们用`Series.mean()`函数求给定级数对象的平均值。我们将在计算平均值时跳过所有缺失的值。
 
-```
+```py
 # return the mean
 # skip all the missing values
 result = sr.mean(skipna = True)

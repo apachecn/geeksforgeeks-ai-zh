@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import pyplot as plt
 import numpy as np
 
@@ -64,7 +64,7 @@ matplotlib.pyplot.hist()函数本身提供了很多属性，借助这些属性�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import colors
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import colors

@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.set_value()`功能使用索引标签设置给定序列对象中的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.set_value()`函数设置与传递的索引标签对应的值。
 
-```
+```py
 # set the value
 sr.set_value('City 2', 'Dublin')
 ```
@@ -52,7 +52,7 @@ sr.set_value('City 2', 'Dublin')
 
 **示例 2:** 使用`Series.set_value()`功能使用索引标签设置给定序列对象中的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.set_value()`函数来设置给定序列对象中的值。
 
-```
+```py
 # set the value to 1000 of
 # the passed index label
 sr.set_value(3, 1000)

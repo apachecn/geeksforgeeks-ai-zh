@@ -31,7 +31,7 @@ matplotlib . colors . listed color map 类用于从颜色列表中创建 colarma
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as colors

@@ -12,7 +12,7 @@ matplotlib 库 pyplot 模块中的 **pcolormesh()函数**用于创建一个非�
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.pcolormesh(\*args, alpha=None, norm=None, cmap=None, vmin=None, vmax=None, shading='flat', antialiased=False, data=None, \*\*kwargs)
 > 
 > ```
@@ -37,7 +37,7 @@ matplotlib 库 pyplot 模块中的 **pcolormesh()函数**用于创建一个非�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -56,7 +56,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

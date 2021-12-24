@@ -17,7 +17,7 @@ Tribonacci 数是由初始项![T_0 = 0](img/e7a17ef8521d8d7f1a9ac05d74b67ff7.png
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("Value of nth tribonacci number : {}".format(nth_tribonacci))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth tribonacci number : 24
 
@@ -52,7 +52,7 @@ Value of nth tribonacci number : 24
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -68,7 +68,7 @@ print("The nth tribonacci polynomial : {}".format(nth_tribonacci_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and k = x
 The nth tribonacci polynomial : x**8 + 3*x**5 + 3*x**2
 
@@ -76,7 +76,7 @@ The nth tribonacci polynomial : x**8 + 3*x**5 + 3*x**2
 
 **示例#3:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -92,7 +92,7 @@ print("The nth tribonacci polynomial value : {}".format(nth_tribonacci_poly)) �
 
 **输出:**
 
-```
+```py
 Value of n = 6 and k = 3
 The nth tribonacci polynomial value : 68289
 

@@ -12,7 +12,7 @@
 
 **代码#1 : array_form()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.array_form()
 
@@ -40,7 +40,7 @@ print ("\nPolyhedron - array_form form : ", a.array_form)
 
 **代码#2 : array_form()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.array_form()
 

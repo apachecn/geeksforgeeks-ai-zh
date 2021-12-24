@@ -16,7 +16,7 @@ Pandas `**tseries.offsets.CustomBusinessHour.next_bday**`属性用于将给定�
 
 **示例#1:** 使用`pandas.tseries.offsets.CustomBusinessHour.next_bday`属性将给定的时间戳移动到下一个工作日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还会将给定的时间戳移到下一个工作日。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 
@@ -67,7 +67,7 @@ print(result)
 
 **示例 2:** 使用`pandas.tseries.offsets.CustomBusinessHour.next_bday`属性将给定的时间戳移动到下一个工作日。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(cbh)
 
 现在，我们将向给定的时间戳对象添加偏移量，以增加日期时间值。我们还会将给定的时间戳移到下一个工作日。
 
-```
+```py
 # Adding the offset to the given timestamp
 new_timestamp = ts + cbh
 

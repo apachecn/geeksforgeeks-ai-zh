@@ -6,7 +6,7 @@
 
 我们可以使用 [pyplot.plot](https://www.geeksforgeeks.org/matplotlib-pyplot-plot-function-in-python/) 和线型参数函数来绘制虚线。
 
-```
+```py
 matplotlib.pyplot.plot(array1,array2,linestyle='dotted')
 ```
 
@@ -21,7 +21,7 @@ matplotlib.pyplot.plot(array1,array2,linestyle='dotted')
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib
 import matplotlib.pyplot as plt
 
@@ -61,7 +61,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import matplotlib
 import matplotlib.pyplot as plt
 

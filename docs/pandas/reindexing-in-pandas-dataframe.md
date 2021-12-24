@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np
@@ -38,7 +38,7 @@ df1.reindex(['B', 'D', 'A', 'C', 'E']))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np
@@ -68,7 +68,7 @@ print(df1.reindex(new_index))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np
@@ -94,7 +94,7 @@ print(df1.reindex(column, axis='columns'))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np
@@ -122,7 +122,7 @@ print(df1.reindex(column, axis ='columns'))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np
@@ -148,7 +148,7 @@ print(df1.reindex(column, axis ='columns', fill_value = 1.5))
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and pandas module
 import pandas as pd
 import numpy as np

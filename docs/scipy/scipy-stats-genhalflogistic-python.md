@@ -19,7 +19,7 @@
 
 **代码#1:创建广义半逻辑连续随机变量**
 
-```
+```py
 from scipy.stats import genhalflogistic 
 
 numargs = genhalflogistic .numargs
@@ -31,7 +31,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E39A2B2470>
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:广义半逻辑随机变量和概率分布**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.24206874 0.66813269 0.75441313 1.05887305 1.8791025  0.64401048
  2.11419943 0.62545354 1.57690457 1.64762353]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02915452 0.05830904 0.08746356 0.11661808 0.14577259
  0.17492711 0.20408163 0.23323615 0.26239067 0.29154519 0.32069971
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

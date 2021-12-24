@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermvander()`方法，我们能够利用这个方法得到 hermite 级数的伪范德蒙矩阵。
 
-```
+```py
 # import numpy and hermvander
 import numpy as np
 from numpy.polynomial.hermite import hermvander
@@ -35,7 +35,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermvander
 import numpy as np
 from numpy.polynomial.hermite import hermvander

@@ -27,7 +27,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 在本例中，使用 str.replace()
 将年龄列中值为 25.0 的所有值替换为“二十五”，然后创建一个过滤器并将其传递到[中。where()](https://www.geeksforgeeks.org/python-pandas-dataframe-where/) 方法只显示年龄=“二十五”的行。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -53,7 +53,7 @@ data.where(filter).dropna()
 
 在本例中，球队名称*波士顿凯尔特人队*被*新波士顿凯尔特人队*取代。在参数中，不是传递波士顿，而是传递波士顿(小写的“b”)，大小写设置为 False，这意味着不区分大小写。之后，只有球队名称为“新波士顿凯尔特人”的球队才会使用显示。where()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

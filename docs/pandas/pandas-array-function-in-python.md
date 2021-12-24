@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas
 
@@ -31,7 +31,7 @@ print(pd_arr)
 
 **输出:**
 
-```
+```py
 <PandasArray>
 ['1', '2', '3', '4', '5']
 Length: 5, dtype: str32
@@ -42,7 +42,7 @@ Length: 5, dtype: str32
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas
 import numpy
@@ -57,7 +57,7 @@ print(pd_arr)
 
 **输出:**
 
-```
+```py
 <PandasArray>
 [1, 2, 3, 4, 5]
 Length: 5, dtype: int8

@@ -14,7 +14,7 @@ Pandas **TimedeltaIndex .转置()**函数返回给定 TimedeltaIndex 对象的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # find transpose
 tidx.transpose()
 ```
@@ -50,7 +50,7 @@ tidx.transpose()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # find transpose
 tidx.transpose()
 ```

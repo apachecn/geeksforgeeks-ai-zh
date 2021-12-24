@@ -24,7 +24,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 首先观察这个数据集。我们将使用这个数据的“数字”列来制作数列，然后进行运算。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -38,7 +38,7 @@ df.head(10)
 
 在数字列上调用序列构造函数，然后选择前 10 行。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -55,7 +55,7 @@ ser
 
 使用 pd.to_numeric()方法。请注意，通过使用向下转换=“有符号”，所有值都将转换为整数。
 
-```
+```py
 pd.to_numeric(ser, downcast ='signed')
 ```
 
@@ -64,7 +64,7 @@ pd.to_numeric(ser, downcast ='signed')
 
 **代码#2:** 使用错误=“忽略”。它将忽略所有非数值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -79,7 +79,7 @@ pd.to_numeric(ser, errors ='ignore')
 
 **代码#3:** 使用错误= '要挟'。它将用 NaN 替换所有非数值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

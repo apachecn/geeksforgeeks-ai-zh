@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.get_values()`函数返回包含给定序列对象的基础数据的数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.get_values()`函数以数组的形式返回给定序列对象的底层数据。
 
-```
+```py
 # return an array
 result = sr.get_values()
 
@@ -51,7 +51,7 @@ print(result)
 
 **示例 2 :** 使用`Series.get_values()`函数返回包含给定序列对象的底层数据的数组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.get_values()`函数以数组的形式返回给定序列对象的底层数据。
 
-```
+```py
 # return an array
 result = sr.get_values()
 

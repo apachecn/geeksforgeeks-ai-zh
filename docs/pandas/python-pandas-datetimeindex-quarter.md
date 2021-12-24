@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.quarter`属性查找 DatetimeIndex 对象中每个条目的季度日期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们想要为 DatetimeIndex 对象中的每个条目找到日期的四分之一。
 
-```
+```py
 # find the quarter of date
 didx.quarter
 ```
@@ -41,7 +41,7 @@ didx.quarter
 
 **示例#2:** 使用`DatetimeIndex.quarter`属性查找 DatetimeIndex 对象中每个条目的日期季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(didx)
 ![](img/0c8aa8d437ee3b1a875df6647774aded.png)
 现在我们要为 DatetimeIndex 对象中的每个条目找到日期的四分之一。
 
-```
+```py
 # find the quarter of date
 didx.quarter
 ```

@@ -4,7 +4,7 @@
 
 The function `Trianlgle()` takes the given points as vertices of a triangle and computes the area of triangle with the help of area.
 
-```
+```py
 Syntax: Triangle(x, y, z).area
 
 Parameters: where x, y, z are coordinates.
@@ -15,7 +15,7 @@ Return: Area of triangle.
 
 **示例#1:**
 
-```
+```py
 # import sympy and geometry module
 from sympy import * 
 from sympy.geometry import * 
@@ -32,13 +32,13 @@ print(giveArea)
 
 **输出:**
 
-```
+```py
 1/2
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy and geometry module
 from sympy import * 
 from sympy.geometry import * 
@@ -55,6 +55,6 @@ print(giveArea)
 
 **输出:**
 
-```
+```py
 1
 ```

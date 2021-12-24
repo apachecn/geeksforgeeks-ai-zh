@@ -21,7 +21,7 @@ Pandas **`head()`** 方法用于返回数据框或系列的前 n 行(默认为 5
 
 在本例中，数据框的前 5 行被返回并存储在一个新的变量中。没有参数传递给。head()方法，因为默认情况下它是 5。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -44,7 +44,7 @@ data_top
 
 在本例中。head()方法在自定义输入 n 个参数的序列上调用，以返回序列的前 9 行。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

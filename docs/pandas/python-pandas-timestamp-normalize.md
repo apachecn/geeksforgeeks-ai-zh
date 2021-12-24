@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.normalize()`函数将时间戳规范化为午夜值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.normalize()`函数将给定时间戳中的值规范化为午夜值。
 
-```
+```py
 # normalize to midnight value
 ts.isoweekday()
 ```
@@ -45,7 +45,7 @@ ts.isoweekday()
 
 **示例 2:** 使用`Timestamp.normalize()`函数将时间戳规范化为午夜值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.normalize()`函数将给定时间戳中的值规范化为午夜值。
 
-```
+```py
 # normalize to midnight value
 ts.isoweekday()
 ```

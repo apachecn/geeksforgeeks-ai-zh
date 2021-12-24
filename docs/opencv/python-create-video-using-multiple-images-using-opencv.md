@@ -16,7 +16,7 @@
 
 下面是实现:
 
-```
+```py
 # importing libraries
 import os
 import cv2 

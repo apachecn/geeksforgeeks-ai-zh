@@ -17,7 +17,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 *   一个面网格最多可以绘制三个维度？行、列和色调。前两个与得到的轴阵列有明显的对应关系；把色调变量想象成沿着深度轴的第三维，不同的色阶用不同的颜色绘制。
 *   FacetGrid 对象接受一个数据帧作为输入，以及将形成网格的行、列或色调维度的变量的名称。变量应该是分类的，并且变量的每一级的数据将用于沿着该轴的一个面。
 
-```
+```py
                         seaborn.FacetGrid( data, \*\*kwargs)
 
 ```
@@ -39,7 +39,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt
@@ -93,7 +93,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt

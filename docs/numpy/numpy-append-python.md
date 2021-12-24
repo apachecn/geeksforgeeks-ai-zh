@@ -5,13 +5,13 @@
 **numpy.append()** 在数组末尾沿着所述轴追加值
 **语法:**
 
-```
+```py
 numpy.append(array, values, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array   : [array_like]Input array. 
 values  : [array_like]values to be added in the arr. Values should be 
      shaped so that arr[...,obj,...] = values. If the axis is defined values can be of any
@@ -23,7 +23,7 @@ axis    : Axis along which we want to insert the values. By default, array
 
 **返回:**
 
-```
+```py
 An copy of array with values being appended at the end as per the mentioned object
 along a given axis. 
 
@@ -31,7 +31,7 @@ along a given axis.
 
 **代码 1:追加数组**
 
-```
+```py
 # Python Program illustrating
 # numpy.append()
 
@@ -53,7 +53,7 @@ print("\nAppended arr3 : ", arr3)
 
 **输出:**
 
-```
+```py
 1D arr1 :  [0 1 2 3 4]
 Shape :  (5,)
 
@@ -66,7 +66,7 @@ Appended arr3 :  [ 0  1  2  3  4  8  9 10 11]
 
 **代码 2:玩轴**
 
-```
+```py
 # Python Program illustrating
 # numpy.append()
 
@@ -96,7 +96,7 @@ print("\nAppended arr3 with axis 1 : \n", arr3)
 
 **输出:**
 
-```
+```py
 2D arr1 : 
  [[0 1 2 3]
  [4 5 6 7]]

@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_tick_params()函数**用于设置
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 from matplotlib.dates import (YEARLY, DateFormatter,

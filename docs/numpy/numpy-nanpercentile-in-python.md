@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanpercentile() method 
 
@@ -42,7 +42,7 @@ print("75th percentile of arr : ", 
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, nan, 34]
 30th percentile of arr :  nan
 25th percentile of arr :  nan
@@ -56,7 +56,7 @@ arr :  [20, 2, 7, nan, 34]
 
 **代码#2 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanpercentile() method 
 
@@ -97,7 +97,7 @@ print("\n0th Percentile of arr, axis = 1 : \n", 
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, nan, 12, 33, 44], [15, nan, 27, 8, 19], [23, 2, nan, 1, 4]]
 
@@ -126,7 +126,7 @@ arr :
 
 **代码#3 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanpercentile() method 
 
@@ -146,7 +146,7 @@ print("\n50th Percentile of arr, axis = 0 : ", 
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, nan, 12, 33, 44], [15, nan, 27, 8, 19], [23, nan, nan, 1, 4]]
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -86,7 +86,7 @@ plt.show()
 
 我们还可以使用 mpl_finance 模块制作一个烛台图。要使用 mpl_finance，我们需要先安装它，这可以通过使用代码来完成。我们必须安装 mpl_finance。
 
-```
+```py
 pip install mpl_finance
 ```
 
@@ -106,7 +106,7 @@ pip install mpl_finance
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing all the required libraries
 
 import matplotlib.pyplot as plt
@@ -161,7 +161,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from mpl_finance import candlestick_ohlc
 import pandas as pd

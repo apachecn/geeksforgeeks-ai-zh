@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.random.uniform(low = 0.0, high = 1.0, size = None)  
 ```
 
@@ -16,7 +16,7 @@ numpy.random.uniform(low = 0.0, high = 1.0, size = None)
 
 ## 蟒 3
 
-```
+```py
 # importing module
 import numpy as np
 
@@ -29,7 +29,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 [0.3829765  0.50958636 0.42844207 0.4260992  0.3513896 ]
 
 ```
@@ -38,7 +38,7 @@ print(r)
 
 ## 蟒 3
 
-```
+```py
 # importing module
 import numpy as np
 
@@ -51,7 +51,7 @@ print("1D Array with random values : \n", random_array)
 
 **输出:**
 
-```
+```py
 1D Array with random values :
 [0.2167103  0.07881761 0.89666672 0.31143605 0.31481039]
 

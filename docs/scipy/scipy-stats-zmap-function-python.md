@@ -17,7 +17,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # stats.zmap() method   
 import numpy as np
 from scipy import stats
@@ -36,7 +36,7 @@ print ("\nZ-score : \n", stats.zmap(arr1, arr2))
 
 **输出:**
 
-```
+```py
 arr1 :  [[20, 2, 7, 1, 34], [50, 12, 12, 34, 4]]
 
 arr2 :  [[50, 12, 12, 34, 4], [12, 11, 10, 34, 21]]
@@ -49,7 +49,7 @@ Z-score :
 
 **代码#2 : Z 评分**
 
-```
+```py
 # stats.zmap() method   
 import numpy as np
 from scipy import stats
@@ -65,7 +65,7 @@ print ("\nZ-score : \n", stats.zmap(arr1, arr2, axis = 1))
 
 **输出:**
 
-```
+```py
 sem ratio for arr1 : 
  [[-0.14087457 -1.19743386 -0.90394517 -1.2561316   0.68089376]
  [ 3.5640998  -0.61601725 -0.61601725  1.80405051 -1.49604189]]

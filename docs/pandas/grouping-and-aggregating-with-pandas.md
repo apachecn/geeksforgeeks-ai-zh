@@ -8,7 +8,7 @@
 
 ## 巨蟒
 
-```
+```py
 # import module
 import pandas as pd
 

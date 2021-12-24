@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.tolist() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[1, None, 3], [None, 5, None], [7, None, 9]]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.tolist() function
 
@@ -58,7 +58,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[1, -999, 3], [-999, 5, -999], [7, -999, 9]]
 
 ```

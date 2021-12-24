@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.isin()`函数检查给定时间增量索引对象的元素是否存在于传递的值列表中。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(tidx)
 ![](img/e40c8625bc74240dd243cca9e114c65b.png)
 现在我们使用`TimedeltaIndex.isin()`函数来查找索引标签是否存在于传递的列表中。
 
-```
+```py
 # check if labels are present in the passed list
 tidx.isin(['11 days 22:16:12.001124', '11 days 22:17:12.001124'])
 ```
@@ -43,7 +43,7 @@ tidx.isin(['11 days 22:16:12.001124', '11 days 22:17:12.001124'])
 
 **示例#2:** 使用`TimedeltaIndex.isin()`函数检查给定时间增量索引对象的元素是否存在于传递的值列表中。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.isin()`函数来查找索引标签是否存在于传递的列表中。
 
-```
+```py
 # check if labels are present in the passed list
 tidx.isin(['0 days 23:59:59.999999', '13 days 06:05:01.000030'])
 ```

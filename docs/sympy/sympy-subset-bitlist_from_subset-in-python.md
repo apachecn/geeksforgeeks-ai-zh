@@ -12,7 +12,7 @@
 
 **代码#1 : bitlist_from_subset()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.bitlist_from_subset()
 
@@ -36,7 +36,7 @@ print ("Subset a bitlist_from_subset : ", a)
 
 **代码#2 : bitlist_from_subset()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.bitlist_from_subset()
 

@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，使用`pd.Series()`创建了两个系列。该系列在相同的索引中包含一些空值和一些相等的值。使用`le()`方法比较系列，并将 10 传递给 fill_value 参数，用 10 替换 NaN 值。
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 
@@ -53,7 +53,7 @@ result 
 
 在本例中，使用 `pd.Series()`创建了两个系列。该系列也包含一些字符串值。如果是字符串，则用它们的 [ASCII 值](https://www.geeksforgeeks.org/ascii-in-python/)进行比较。
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 

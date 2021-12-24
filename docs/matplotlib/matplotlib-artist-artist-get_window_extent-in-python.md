@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的 **get_window_extent()方法**用于返回�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/d5b278674330ae241d3710c7912fbd57.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
@@ -60,7 +60,7 @@ Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -91,7 +91,7 @@ plt.show()
 
 ![](img/ea9fe6a61da234621fd96eeb1d2e48d5.png)
 
-```
+```py
 Value Return by get_window_extent():
 Bbox(x0=0.0, y0=0.0, x1=0.0, y1=0.0)
 

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import pandas
@@ -64,7 +64,7 @@ dframe2.show()
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = dframe1['name'].tolist()
 list2 = dframe2['name'].tolist()
 
@@ -84,7 +84,7 @@ threshold = 80
 
 ## 蟒蛇 3
 
-```
+```py
 # iterating through list1 to extract 
 # it's closest match from list2
 for i in list1:
@@ -105,7 +105,7 @@ dframe1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # iterating through the closest
 # matches to filter out the
 # maximum closest match
@@ -135,7 +135,7 @@ dframe1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -198,7 +198,7 @@ dframe1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -262,7 +262,7 @@ dframe1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -327,7 +327,7 @@ dframe1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
@@ -393,7 +393,7 @@ dframe1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process

@@ -23,7 +23,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 
 x = np.empty((0, 5))
@@ -39,7 +39,7 @@ print('The type of matrix is :', x.dtype)
 
 ****输出:****
 
-```
+```py
 The value is : []
 The shape of matrix is : (0, 5)
 The type of matrix is : float64
@@ -51,7 +51,7 @@ The type of matrix is : float64
 
 ## **蟒蛇 3**
 
-```
+```py
 # import the library
 import numpy as np
 

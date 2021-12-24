@@ -4,7 +4,7 @@
 
 该函数用于将文本添加到数据坐标中 x，y 位置的轴上。
 
-```
+```py
 Syntax: matplotlib.pyplot.text(x, y, s, fontdict=None, **kwargs)
 ```
 
@@ -22,7 +22,7 @@ Syntax: matplotlib.pyplot.text(x, y, s, fontdict=None, **kwargs)
 
 ## python 3
 
-```
+```py
 import matplotlib.pyplot
 
 matplotlib.pyplot.text(0.5, 0.5, "Hello World!")

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.dt.to_period()`函数将给定序列对象的基础数据以每周频率转换为索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.dt.to_period()`函数将给定序列对象的底层数据以每周频率转换为索引。
 
-```
+```py
 # cast to targert frequency
 result = sr.dt.to_period(freq = 'W') 
 
@@ -57,7 +57,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.to_period()`函数将给定序列对象的基础数据以两年为一个频率转换为 Index。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(sr)
 
 现在我们将使用`Series.dt.to_period()`函数将给定序列对象的底层数据以两年的频率转换为 Index。
 
-```
+```py
 # cast to targert frequency
 result = sr.dt.to_period(freq = '2Y') 
 

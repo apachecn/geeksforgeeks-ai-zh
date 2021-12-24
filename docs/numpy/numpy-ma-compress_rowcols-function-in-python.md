@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.compress_rowcols() function
 
@@ -38,7 +38,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[4 5]]
 
 ```
@@ -47,7 +47,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.compress_rowcols() function
 
@@ -64,7 +64,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[1 2]
  [4 5]]
 

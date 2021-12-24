@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.iinfo() function
 
@@ -26,7 +26,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 Machine parameters for int16
 ---------------------------------------------------------------
 min = -32768
@@ -37,7 +37,7 @@ max = 32767
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.iinfo() function
 
@@ -51,7 +51,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 Machine parameters for int32
 ---------------------------------------------------------------
 min = -2147483648

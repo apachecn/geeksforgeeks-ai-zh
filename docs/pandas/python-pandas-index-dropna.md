@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # drop all missing values.
 idx.dropna(how ='all')
 ```
@@ -50,7 +50,7 @@ idx.dropna(how ='all')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # drop the missing values
 idx.dropna(how ='any')
 ```

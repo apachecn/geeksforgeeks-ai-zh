@@ -29,7 +29,7 @@ The **optimization Algorithm** minimizes the cost function to find the best valu
 
 **代码:创建我们自己的数据集并绘制输入。**
 
-```
+```py
 # This code may not run on GFG IDE
 # As required modules are not available.
 
@@ -72,7 +72,7 @@ plt.title('Created Data')
 
 **代码:训练我们的模型**
 
-```
+```py
 # This code may not run on GFG IDE
 # As required modules are not available.
 
@@ -92,7 +92,7 @@ print('Accuracy of the model is:', clf.score(x_test, y_test))
 
 **输出:**
 
-```
+```py
 Predicted Values from Classifier: [0 1 0]
 Actual Output is: [1 1 0]
 Accuracy of the model is: 0.6666666666666666
@@ -101,7 +101,7 @@ Accuracy of the model is: 0.6666666666666666
 
 **代码:决策函数法**
 
-```
+```py
 # This code may not run on GFG IDE
 # As required modules are not available.
 
@@ -113,7 +113,7 @@ print('Prediction for x_test from classifier is:', predict)
 
 **输出:**
 
-```
+```py
 Output of Decision Function is: [-0.04274893  0.29143233 -0.13001369]
 Prediction for x_test from classifier is: [0 1 0]
 
@@ -123,7 +123,7 @@ Prediction for x_test from classifier is: [0 1 0]
 
 **代码:决策边界**
 
-```
+```py
 # This code may not run on GFG IDE
 # As required modules are not available.
 

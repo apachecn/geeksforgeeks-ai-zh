@@ -12,7 +12,7 @@
 
 在这个例子中，我们可以看到，通过使用`numpy.ma.masked_equal()`方法，我们能够在移除与数组一起传递的掩码值之后获得新的数组。
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 

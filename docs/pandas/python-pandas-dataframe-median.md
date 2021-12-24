@@ -18,7 +18,7 @@ Pandas `**dataframe.median()**`函数返回所请求轴
 
 **示例#1:** 使用`median()`函数找到索引轴上所有观察值的中值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 让我们使用`dataframe.median()`函数找到索引轴上的中间值
 
-```
+```py
 # Find median Even if we do not specify axis = 0, the method 
 # will return the median over the index axis by default
 df.median(axis = 0)
@@ -48,7 +48,7 @@ df.median(axis = 0)
 
 **示例 2:** 在具有`Na`值的数据帧上使用`median()`函数。还要找到柱轴上的中间值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ df
 
 让我们实现中值函数。
 
-```
+```py
 # skip the Na values while finding the median
 df.median(axis = 1, skipna = True)
 ```

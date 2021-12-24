@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # standard deviation 
 import scipy
 import numpy as np
@@ -29,14 +29,14 @@ print("standard deviation without handling nan value :", scipy.std(arr1)) 
 
 **输出:**
 
-```
+```py
 standard deviation using nanstd : 11.813363431112899
 standard deviation without handling nan value : nan
 ```
 
 **代码#2:** 多维数据
 
-```
+```py
 # standard deviation 
 from scipy import std
 from scipy import nanstd
@@ -65,7 +65,7 @@ print("\nstandard deviation handling nan with default axis = 1 : \n", 
 
 **输出:**
 
-```
+```py
 standard deviation is : nan
 standard deviation handling nan : 7.455216087651669
 

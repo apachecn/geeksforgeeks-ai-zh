@@ -14,7 +14,7 @@ pandas**PeriodIndex . dayofweek**属性返回一个 Index 对象，该对象包�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the value of days of the week
 pidx.dayofweek
 ```
@@ -49,7 +49,7 @@ pidx.dayofweek
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the value of days of the week
 pidx.dayofweek
 ```

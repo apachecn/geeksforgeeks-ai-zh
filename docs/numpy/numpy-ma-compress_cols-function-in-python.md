@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as geek
 import numpy as geek
 
@@ -41,7 +41,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[1 2]
  [4 5]]
 
@@ -51,7 +51,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as geek
 import numpy as geek
 
@@ -67,7 +67,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[1 2]
  [4 5]
  [7 8]]

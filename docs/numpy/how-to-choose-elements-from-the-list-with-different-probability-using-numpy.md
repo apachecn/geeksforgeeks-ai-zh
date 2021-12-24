@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -32,7 +32,7 @@ print(number)
 
 **输出:**
 
-```
+```py
 50
 
 ```
@@ -41,7 +41,7 @@ print(number)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -63,7 +63,7 @@ print(number_list)
 
 **输出:**
 
-```
+```py
 [40 40 40]
 
 ```
@@ -74,7 +74,7 @@ print(number_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy as np
 
@@ -96,7 +96,7 @@ print(number_list)
 
 **输出:**
 
-```
+```py
 [30 40 30]
 
 ```

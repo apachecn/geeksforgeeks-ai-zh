@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，通过使用`np.disp()`方法，我们能够从参数中收集消息，并使用该方法将该消息放入显示缓冲区。
 
-```
+```py
 # import numpy and stringIO
 import numpy as np
 from io import StringIO
@@ -27,7 +27,7 @@ buf.getvalue()
 
 **例 2 :**
 
-```
+```py
 # import numpy and stringIO
 import numpy as np
 from io import StringIO

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到在`ndarray.T`对象的帮助下，我们能够变换一个数组。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 4]
  [2 5]
  [3 6]]
@@ -35,7 +35,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 4 7]
  [2 5 8]
  [3 6 9]

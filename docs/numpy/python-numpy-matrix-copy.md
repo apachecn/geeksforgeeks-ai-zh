@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.copy()`方法，我们正在不同矩阵中复制一个元素。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]]
 

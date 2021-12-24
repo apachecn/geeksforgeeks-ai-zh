@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_tick_space()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -47,7 +47,7 @@ plt.show()
 
 ![](img/c0b5b5e0bae050f18211129d5c0423ee.png)
 
-```
+```py
 Value Return :
 11
 
@@ -57,7 +57,7 @@ Value Return :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -86,7 +86,7 @@ plt.show()
 
 ![](img/eb12ca3366823c8049c969fdfcd2fdb4.png)
 
-```
+```py
 Value Return :
 10
 

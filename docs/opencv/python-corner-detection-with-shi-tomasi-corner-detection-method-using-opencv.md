@@ -24,7 +24,7 @@
 
 对于位于(X，Y)且像素强度为 I(X，Y)的窗口(W)，Shi-Tomasi 角点检测公式为–
 
-```
+```py
 f(X, Y) = Σ (I(Xk, Yk) - I(Xk + ΔX, Yk + ΔY))2  where (Xk, Yk) ϵ W
 ```
 
@@ -33,7 +33,7 @@ f(X, Y) = Σ (I(Xk, Yk) - I(Xk + ΔX, Yk + ΔY))2  where (Xk, Yk) ϵ W
 
 计算 f(X，Y)会真的很慢。因此，我们使用泰勒展开来简化评分函数
 
-```
+```py
 R = min(λ1, λ2)
 where λ1, λ2 are eigenvalues of resultant matrix
 ```
@@ -50,7 +50,7 @@ where λ1, λ2 are eigenvalues of resultant matrix
 
 Below is the Python implementation of Shi-Tomasi Corner Detection:
 
-```
+```py
 # Python program to illustrate 
 # corner detection with 
 # Shi-Tomasi Detection Method

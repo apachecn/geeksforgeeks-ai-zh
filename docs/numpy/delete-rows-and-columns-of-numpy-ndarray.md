@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -48,7 +48,7 @@ print("data  after 2 nd  row deleted :", data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 

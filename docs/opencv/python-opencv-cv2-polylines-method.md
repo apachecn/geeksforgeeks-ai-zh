@@ -32,7 +32,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 **示例#1:**
 
-```
+```py
 # Python program to explain 
 # cv2.polylines() method 
 
@@ -87,7 +87,7 @@ cv2.destroyAllWindows()
 
 **例 2:**
 
-```
+```py
 # Python program to explain 
 # cv2.polylines() method
 

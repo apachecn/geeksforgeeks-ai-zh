@@ -19,7 +19,7 @@
 
 **代码#1:** 使用 from_dict()创建面板
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -39,7 +39,7 @@ print(panel, "\n")
 
 **代码#2:** 使用 clip_lower()
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -63,7 +63,7 @@ print(panel['b'].clip_lower(df2['b'], axis = 0))
 
 **代码#3:**
 
-```
+```py
 # creating an empty panel
 import pandas as pd
 import numpy as np

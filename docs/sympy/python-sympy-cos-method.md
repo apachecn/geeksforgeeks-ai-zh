@@ -4,7 +4,7 @@
 
 简单来说，`cos()`方法是余弦函数。利用 simpy 模块中的`cos(x)`方法，可以计算出 x 的余弦值。
 
-```
+```py
 Syntax : sympy.cos(x)
 
 Return : Returns the cosine of x 
@@ -13,7 +13,7 @@ Return : Returns the cosine of x
 **代码#1:**
 下面是用 cos()方法求余弦函数的例子。
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -27,7 +27,7 @@ print(geek2)
 
 **输出:**
 
-```
+```py
 cos(1)
 1/2
 
@@ -35,7 +35,7 @@ cos(1)
 
 **代码#2:**
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -46,6 +46,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 -30.8822353189167 - 67.4727884405875*I
 ```

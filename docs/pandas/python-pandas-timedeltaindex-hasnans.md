@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.hasnans`属性检查给定的时间增量索引对象中是否存在任何`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(tidx)
 
 现在我们将检查给定的时间增量索引对象中是否存在任何`NaN`值。
 
-```
+```py
 # check for missing values
 tidx.hasnans
 ```
@@ -39,7 +39,7 @@ tidx.hasnans
 
 **示例 2:** 使用`TimedeltaIndex.hasnans`属性检查给定的时间增量索引对象中是否存在任何`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(tidx)
 
 现在我们将检查给定的时间增量索引对象中是否存在任何`NaN`值。
 
-```
+```py
 # check for missing values
 tidx.hasnans
 ```

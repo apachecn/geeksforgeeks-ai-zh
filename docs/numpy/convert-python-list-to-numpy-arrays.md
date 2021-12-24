@@ -11,7 +11,7 @@ Python 中的[列表](https://www.geeksforgeeks.org/python-list/)是一种线性
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy
 
@@ -30,7 +30,7 @@ print ("Array: ", arr)
 
 **输出:**
 
-```
+```py
 List:  [1, 7, 0, 6, 2, 5, 6]
 Array:  [1 7 0 6 2 5 6]
 ```
@@ -39,7 +39,7 @@ Array:  [1 7 0 6 2 5 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy
 
@@ -58,7 +58,7 @@ print ("Array: ", arr)
 
 **输出:**
 
-```
+```py
 List:  [1, 7, 0, 6, 2, 5, 6]
 Array:  [1 7 0 6 2 5 6]
 ```
@@ -69,7 +69,7 @@ Array:  [1 7 0 6 2 5 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import numpy
 
@@ -102,7 +102,7 @@ print("arr1: " , arr1)
 
 **输出:**
 
-```
+```py
 List: [1, 7, 0, 6, 2, 5, 6]
 arr:  [1 7 0 6 2 5 6]
 arr1:  [1 7 0 6 2 5 6]

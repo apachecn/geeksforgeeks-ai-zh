@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(tidx1, '\n', tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the intersection
 tidx1.intersection(tidx2)
 ```
@@ -56,7 +56,7 @@ tidx1.intersection(tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -82,7 +82,7 @@ print(tidx1, '\n', tidx2)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the intersection
 tidx1.intersection(tidx2)
 ```

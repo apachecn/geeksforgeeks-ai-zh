@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import laplace_transform
 from sympy.integrals import laplace_transform
 from sympy.abc import t, s, a
@@ -33,7 +33,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import laplace_transform
 from sympy.integrals import laplace_transform
 from sympy.abc import t, s, a

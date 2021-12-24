@@ -14,7 +14,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.expand_log()`，我们能够在数学表达式中简化对数项。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -33,7 +33,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

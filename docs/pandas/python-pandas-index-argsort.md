@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.argsort()`函数找到给定索引排序的索引顺序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 让我们找到对索引进行排序的索引顺序。
 
-```
+```py
 # to find the ordering of indices 
 # that would sort the df Index
 df.argsort()
@@ -43,7 +43,7 @@ df.argsort()
 ![](img/c0041e48cbfc79fdd96a0b10cef6720e.png)
 正如我们在输出中看到的，函数返回了给定索引的排序。我们可以根据订单打印索引来验证这一点。
 
-```
+```py
 # Printing the Index based on the
 # result of the argsort() function
 df[df.argsort()]
@@ -55,7 +55,7 @@ df[df.argsort()]
 
 **示例#2:** 使用`Index.argsort()`函数找到给定索引排序的索引顺序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ df
 
 让我们找到对索引进行排序的索引顺序。
 
-```
+```py
 # to find the ordering of indices
 # that would sort the df Index
 df.argsort()
@@ -82,7 +82,7 @@ df.argsort()
 ![](img/eec02c107455c129278f5af4175fb11b.png)
 正如我们在输出中看到的，函数返回了给定索引的排序。我们可以根据订单打印索引来验证这一点。
 
-```
+```py
 # Printing the Index based on the 
 # result of the argsort() function
 df[df.argsort()]

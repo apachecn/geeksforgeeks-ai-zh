@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.Poisson()`方法，我们能够使用该方法获得表示泊松分布的随机变量。
 
-```
+```py
 # Import sympy and poisson
 from sympy.stats import Poisson, density, E, variance
 from sympy import Symbol, simplify
@@ -31,7 +31,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and poisson
 from sympy.stats import Poisson, density, E, variance
 from sympy import Symbol, simplify

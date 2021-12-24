@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.obj2sctype() function
 
@@ -27,14 +27,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 class 'numpy.float64'
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.obj2sctype() function
 
@@ -48,7 +48,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 class 'numpy.complex128'
 
 ```

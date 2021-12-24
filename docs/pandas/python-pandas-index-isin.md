@@ -16,7 +16,7 @@ Pandas **Index.isin()** 函数返回一个布尔数组，其中索引值以值�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # Passing a list containing two values against
 #  which the index labels will be matched
 idx.isin(['Lhasa', 'Mastiff'])
@@ -52,7 +52,7 @@ idx.isin(['Lhasa', 'Mastiff'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ midx
 
 ## 蟒蛇 3
 
-```
+```py
 # test whether midx labels are in list or not
 midx.isin(['Tue', 'Wed', 'Fri', 'Sat'], level ='Days')
 ```

@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.factorize()`函数将给定的索引值编码为分类形式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ idx
 
 让我们分解给定的索引。
 
-```
+```py
 # convert it into categorical values.
 idx.factorize()
 ```
@@ -44,7 +44,7 @@ idx.factorize()
 
 **示例 2:** 使用`Index.factorize()`函数根据索引值的排序顺序对其进行因子分解。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ idx
 
 让我们根据排序的顺序来分解它。只有在对索引中的值进行排序后，才会分配数值。
 
-```
+```py
 # Factorize the sorted labels
 idx.factorize(sort = True)
 ```

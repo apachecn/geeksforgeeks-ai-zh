@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.str.extract()`函数从给定序列对象的基础数据中的字符串中提取组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.str.extract()`函数从给定序列对象中的字符串中提取组。
 
-```
+```py
 # extract groups having a vowel followed by
 # any character
 result = sr.str.extract(pat = '([aeiou].)')
@@ -58,7 +58,7 @@ print(result)
 
 **示例#2 :** 使用`Series.str.extract()`函数从给定序列对象的基础数据中的字符串中提取组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(sr)
 
 现在我们将使用`Series.str.extract()`函数从给定序列对象中的字符串中提取组。
 
-```
+```py
 # extract groups having any capital letter
 # followed by 'i' and any other character
 result = sr.str.extract(pat = '([A-Z]i.)')

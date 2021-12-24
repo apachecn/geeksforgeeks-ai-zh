@@ -14,7 +14,7 @@ Pandas `**TimedeltaIndex.tolist()**`函数返回给定时间增量索引对象�
 
 **示例#1:** 使用`TimedeltaIndex.tolist()`函数将给定时间增量索引对象的数据作为 python 列表返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.tolist()`函数以列表的形式返回 tidx 对象的元素。
 
-```
+```py
 # return a list
 tidx.tolist()
 ```
@@ -44,7 +44,7 @@ tidx.tolist()
 
 **示例 2:** 使用`TimedeltaIndex.tolist()`函数将给定时间增量索引对象的数据作为 python 列表返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.tolist()`函数以列表的形式返回 tidx 对象的元素。
 
-```
+```py
 # return a list
 tidx.tolist()
 ```

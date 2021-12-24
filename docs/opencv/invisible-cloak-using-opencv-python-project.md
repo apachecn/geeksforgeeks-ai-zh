@@ -21,7 +21,7 @@
 
 **下面是代码:**
 
-```
+```py
 import cv2
 import numpy as np
 import time

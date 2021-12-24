@@ -20,7 +20,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # bitwise_or() function
 
@@ -37,7 +37,7 @@ print ("bitwise_or of 10 and 11 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  11
 bitwise_or of 10 and 11 :  11
@@ -46,7 +46,7 @@ bitwise_or of 10 and 11 :  11
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # bitwise_or() function
 
@@ -64,7 +64,7 @@ print ("Output array after bitwise_or: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 115]
 Output array after bitwise_or:  [  3  11 127]
@@ -73,7 +73,7 @@ Output array after bitwise_or:  [  3  11 127]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # bitwise_or() function
 
@@ -91,7 +91,7 @@ print ("Output array after bitwise_or: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [True, False, True, False]
 Input array2 :  [False, False, True, True]
 Output array after bitwise_or:  [ True False  True  True]

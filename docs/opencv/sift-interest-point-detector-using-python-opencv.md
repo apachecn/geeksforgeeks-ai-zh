@@ -58,7 +58,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Important NOTE:  Use opencv <= 3.4.2.16 as
 # SIFT is no longer available in
 # opencv > 3.4.2.16

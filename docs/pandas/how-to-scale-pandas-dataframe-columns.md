@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import pandas as pd
 import numpy as np
@@ -54,7 +54,7 @@ df_norm.head()
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
@@ -85,7 +85,7 @@ df_scaled.head()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns

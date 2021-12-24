@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import cosine_transform
 from sympy import cosine_transform, exp, sqrt, cos
 from sympy.abc import x, k, a
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import cosine_transform
 from sympy import cosine_transform, exp, sqrt, cos
 from sympy.abc import x, k, a

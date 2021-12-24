@@ -8,7 +8,7 @@
 
 **参数:**
 
-```
+```py
 p1 : Input polynomial 1
 p2 : Input polynomial 2
 
@@ -16,11 +16,11 @@ p2 : Input polynomial 2
 
 **返回:**
 
-```
+```py
 Sum of polynomials
 ```
 
-```
+```py
 # Python code explaining 
 # numpy.polyadd ()
 
@@ -40,7 +40,7 @@ print ("\nP1 + P2 : \n", a)
 
 **输出:**
 
-```
+```py
 P1 :   
 1 x + 2
 

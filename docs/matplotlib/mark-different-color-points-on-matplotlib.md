@@ -8,7 +8,7 @@
 
 下面是实现。
 
-```
+```py
 import  numpy as np
 import matplotlib.pyplot as plt
 

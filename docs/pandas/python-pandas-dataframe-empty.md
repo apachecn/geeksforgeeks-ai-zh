@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.empty`属性检查给定的数据帧是否为空。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 现在我们将使用`DataFrame.empty`属性来检查给定的数据帧是否为空。
 
-```
+```py
 # check if there is any element
 # in the given dataframe or not
 result = df.empty
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.empty`属性检查给定的数据帧是否为空。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(df)
 
 现在我们将使用`DataFrame.empty`属性来检查给定的数据帧是否为空。
 
-```
+```py
 # check if there is any element
 # in the given dataframe or not
 result = df.empty

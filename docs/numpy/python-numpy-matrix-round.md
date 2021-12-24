@@ -12,7 +12,7 @@
 
 在给定的例子中，我们能够通过使用`matrix.round()`方法来舍入给定的矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,7 +27,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[  6\.   1.]
  [ 13\.  32.]]
 
@@ -35,7 +35,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1\.  2.]
  [ 5\.  6.]
  [ 7\.  9.]]

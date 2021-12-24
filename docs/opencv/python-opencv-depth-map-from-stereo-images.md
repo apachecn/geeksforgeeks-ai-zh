@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import OpenCV and pyplot
 import cv2 as cv
 from matplotlib import pyplot as plt

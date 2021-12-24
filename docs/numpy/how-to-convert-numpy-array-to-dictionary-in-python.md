@@ -15,7 +15,7 @@
 
  *## 蟒 3
 
-```
+```py
 # importing required librariess
 import numpy as np
 

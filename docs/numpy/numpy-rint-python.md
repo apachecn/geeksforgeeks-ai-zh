@@ -12,7 +12,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # rint() function
 import numpy as np
@@ -38,7 +38,7 @@ print ("\nRounded values : \n", rintoff_values)
 
 **Output:**
 
-```
+```py
 Input array : 
  [0.5, 1.5, 2.5, 3.5, 4.5, 10.1]
 
@@ -61,7 +61,7 @@ Rounded values :
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # rint() function
 import numpy as np
@@ -87,7 +87,7 @@ print ("\nRounded values upto 3: \n", rintoff_values)
 
 **Output:**
 
-```
+```py
 Input array : 
  [1, 4, 7, 9, 12]
 

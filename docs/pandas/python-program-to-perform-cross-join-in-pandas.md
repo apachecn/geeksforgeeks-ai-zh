@@ -12,7 +12,7 @@
 
 上面的例子证明如下
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -49,7 +49,7 @@ result
 
 用户和产品的两个数据框交叉连接。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -85,7 +85,7 @@ result
 
 **例 3:**
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 

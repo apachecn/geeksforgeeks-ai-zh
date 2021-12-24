@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from bokeh.io import output_file, show
 from bokeh.layouts import row
@@ -58,7 +58,7 @@ show(row(fig1, fig2))
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from bokeh.io import output_file, show
 from bokeh.layouts import row
@@ -188,7 +188,7 @@ show(row(fig1, fig2, fig3))
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 from bokeh.io import output_file, show
 from bokeh.layouts import row

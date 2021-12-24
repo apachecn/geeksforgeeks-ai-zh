@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.linalg.det(array)
 
 ```
@@ -15,7 +15,7 @@ numpy.linalg.det(array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -43,7 +43,7 @@ print(int(det))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -73,7 +73,7 @@ print(int(det))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

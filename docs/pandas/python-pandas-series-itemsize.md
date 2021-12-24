@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.itemsize`属性检查给定序列对象的基础数据的大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.itemsize`属性来检查给定 Series 对象中底层数据的大小。
 
-```
+```py
 # return the size
 sr.itemsize
 ```
@@ -47,7 +47,7 @@ sr.itemsize
 
 **示例 2 :** 使用`Series.itemsize`属性检查给定 Series 对象的基础数据的大小。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们将使用`Series.itemsize`属性来检查给定 Series 对象中底层数据的大小。
 
-```
+```py
 # return the size
 sr.itemsize
 ```

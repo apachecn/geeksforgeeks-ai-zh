@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:** 返回 Bool 系列
 在此示例中，使用`**str.endswith()**`函数检查学院列中的元素在字符串末尾是否有“e”。返回一个布尔序列，在字符串末尾有“e”的索引位置为真。`str.lower()` 方法在 endswith()之前调用，因为数据在任何情况下都可以是。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -48,7 +48,7 @@ bool_series
 数据分析中最重要的部分是处理空值。从上面的输出图像中可以看出，无论学院列中的值是空的还是 NaN，布尔序列都有 NaN。如果这个布尔序列被传递到数据框中，它会给出一个错误。因此，需要使用 *na* 参数来处理 NaN 值。它也可以设置为 string，但是由于 bool 系列用于传递和返回各自的值，因此应该只设置为 Bool 值。
 在本例中， *na* 参数设置为假。因此，无论学院列有空值，布尔系列都将存储 False，而不是 NaN。之后，序列再次传递到数据框，只显示真值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

@@ -18,7 +18,7 @@ matplotlib 库的 axes 模块中的 **Axes.get_images()函数**用于返回 Axes
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -49,7 +49,7 @@ plt.show()
 **输出:**
 ![](img/5ee8731173d74acee67c1d104b8581bc.png)
 
-```
+```py
 List of the Axes images contained by the Axes
 
 AxesImage(80, 52.8;496x369.6)
@@ -58,7 +58,7 @@ AxesImage(80, 52.8;496x369.6)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -99,7 +99,7 @@ plt.show()
 
 ![](img/b064ee2c6a0fab38e7d2eb6835763e35.png)
 
-```
+```py
 List of the Axes images contained by the Axes 
 
 AxesImage(80, 52.8;496x369.6)

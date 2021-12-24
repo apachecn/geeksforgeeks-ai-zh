@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.searchsorted()`函数找到插入元素的正确位置，以便索引保持排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ idx
 
 如果要插入的元素是 10，让我们找到要插入的的位置
 
-```
+```py
 # to find the position of inseretion
 idx.searchsorted(10)
 ```
@@ -44,7 +44,7 @@ idx.searchsorted(10)
 
 **示例 2:** 使用`Index.searchsorted()`函数为索引中的多个元素找到正确的插入位置。插入时应保持顺序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ idx
 
 如果要插入的元素是 7 和 29，让我们找到要插入的的位置
 
-```
+```py
 # to find the position of inseretion
 idx.searchsorted([7, 29])
 ```

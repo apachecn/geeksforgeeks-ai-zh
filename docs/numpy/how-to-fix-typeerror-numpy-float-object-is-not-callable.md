@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 a = np.array([1,2,3])
@@ -20,7 +20,7 @@ a()
 
 **输出:**
 
-```
+```py
 TypeError: 'numpy.ndarray' object is not callable
 ```
 
@@ -32,7 +32,7 @@ TypeError: 'numpy.ndarray' object is not callable
 
 ## 蟒 3
 
-```
+```py
 import numpy as np
 
 a = np.array([1,2,3])
@@ -42,7 +42,7 @@ a
 
 **输出:**
 
-```
+```py
 array([1, 2, 3])
 ```
 

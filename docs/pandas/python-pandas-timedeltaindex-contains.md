@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # check if the passed label is present or not.
 tidx.contains('1 days 02:00:12.001124')
 ```
@@ -50,7 +50,7 @@ tidx.contains('1 days 02:00:12.001124')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # check if the passed label is present or not.
 tidx.contains('1 days 02:00:12.0101124')
 ```

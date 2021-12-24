@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # finding the memory used by the idx object
 idx.memory_usage()
 ```
@@ -49,7 +49,7 @@ idx.memory_usage()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ midx
 
 ## 蟒蛇 3
 
-```
+```py
 # return the total memory used by the multi-index object
 midx.memory_usage()
 ```

@@ -16,7 +16,7 @@
 
 **代码#1:创建二郎连续随机变量**
 
-```
+```py
 from scipy.stats import erlang 
 
 numargs = erlang.numargs
@@ -28,7 +28,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000018D544FBC88>
 
@@ -36,7 +36,7 @@ RV :
 
 **代码#2 : erlang 随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -51,7 +51,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [5.65708510e+00 5.16045580e+00 1.02056956e-01 3.64349340e-01
  5.65593073e+00 2.27100280e+00 9.77623414e-04 2.01994399e-01
@@ -64,7 +64,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -76,7 +76,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
@@ -94,7 +94,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

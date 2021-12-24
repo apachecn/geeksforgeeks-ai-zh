@@ -14,7 +14,7 @@
 
 要使用 background 减法我们可以使用
 
-```
+```py
 cv2.bgsegm.createBackgroundSubtractorMOG()
 ```
 
@@ -22,7 +22,7 @@ cv2.bgsegm.createBackgroundSubtractorMOG()
 
 **示例:**
 
-```
+```py
 import numpy as np
 import cv2
 
@@ -54,13 +54,13 @@ cv2.destroyAllWindows()
 
 在前面的减法器工作得相当好，但在现实世界的情况下，也存在阴影。在 background 减法器 OG2 中，我们还可以检测阴影，在下面代码的输出中，可以清楚地看到。要应用 background 减法公式 2，请使用
 
-```
+```py
 cv2.createBackgroundSubtractorMOG2()
 ```
 
 **示例:**
 
-```
+```py
 import numpy as np
 import cv2
 
@@ -92,13 +92,13 @@ cv2.destroyAllWindows()
 
 该算法结合了统计背景图像估计和逐像素贝叶斯分割。它采用概率前景分割算法，使用贝叶斯推理识别可能的前景对象。要使用 background 减法器组，请使用
 
-```
+```py
 cv2.bgsegm.createBackgroundSubtractorGMG()
 ```
 
 **注意:**在前几帧我们会得到一个黑色的窗口。
 
-```
+```py
 import numpy as np
 import cv2
 

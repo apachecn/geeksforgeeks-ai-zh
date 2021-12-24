@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -44,7 +44,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 df['Column 1'].plot(kind = 'bar')
 ```
 
@@ -58,7 +58,7 @@ df['Column 1'].plot(kind = 'bar')
 
 ## 蟒蛇 3
 
-```
+```py
 # copy the data
 df_max_scaled = df.copy()
 
@@ -80,7 +80,7 @@ display(df_max_scaled)
 
 ## 蟒蛇 3
 
-```
+```py
 # copy the data
 df_min_max_scaled = df.copy()
 
@@ -100,7 +100,7 @@ display(df_min_max_scaled)
 
 ## 蟒蛇 3
 
-```
+```py
 df_min_max_scaled['Column 1'].plot(kind = 'bar')
 ```
 
@@ -112,7 +112,7 @@ z-score 方法(通常称为标准化)将信息转换为平均值为 0、典型�
 
 ## 蟒蛇 3
 
-```
+```py
 # copy the data
 df_z_scaled = df.copy()
 
@@ -132,7 +132,7 @@ display(df_z_scaled)
 
 ## 蟒蛇 3
 
-```
+```py
 df_z_scaled['Column 1'].plot(kind = 'bar')
 ```
 
@@ -144,7 +144,7 @@ df_z_scaled['Column 1'].plot(kind = 'bar')
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 
@@ -167,7 +167,7 @@ display(df_sklearn)
 
 ## 蟒蛇 3
 
-```
+```py
 df_sklearn['Column 1'].plot(kind = 'bar')
 ```
 

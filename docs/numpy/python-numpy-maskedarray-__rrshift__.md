@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到每个元素都被作为参数传递的值右移了。
 
-```
+```py
 
 # import the important module in python 
 import numpy as np 
@@ -25,14 +25,14 @@ print(gfg.__rrshift__(3)) 
 
 **Output:**
 
-```
+```py
 [1 0 0 0 0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -46,7 +46,7 @@ print(gfg.__rrshift__(4)) 
 
 **Output:**
 
-```
+```py
 [[2 1 0 0 0]
  [0 0 0 0 1]]
 

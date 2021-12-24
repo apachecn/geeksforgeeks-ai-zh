@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.nunique()()`函数查找索引中唯一值的计数。计数中不包括`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ idx
 
 让我们找出索引中唯一值的计数。
 
-```
+```py
 # to find the count of unique values.
 idx.nunique(dropna = True)
 ```
@@ -43,7 +43,7 @@ idx.nunique(dropna = True)
 
 **例 2:** 使用`Index.nunique()`函数找出索引中所有唯一的值。也包括计数中的缺失值，即`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ idx
 
 让我们找出索引中唯一值的计数。
 
-```
+```py
 # to find the count of unique values.
 idx.nunique(dropna = False)
 ```

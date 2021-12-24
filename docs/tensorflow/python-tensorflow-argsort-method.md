@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow
 
@@ -43,7 +43,7 @@ for i in b:
 
 **输出:**
 
-```
+```py
 Indices: tf.Tensor([0 2 1 4 5 3], shape=(6,), dtype=int32)
 Sorted Values
 1
@@ -59,7 +59,7 @@ Sorted Values
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow
 
@@ -72,7 +72,7 @@ b = tensorflow.argsort(a,axis=-1,direction='ASC',stable=False)
 
 **输出:**
 
-```
+```py
 ValueError: ASC should be one of ASCENDING, DESCENDING
 
 ```

@@ -30,7 +30,7 @@
 
 对于本文，您只需要 torch 实用程序，它可以通过 pip 包管理器下载，使用:
 
-```
+```py
 pip install torch
 ```
 
@@ -46,7 +46,7 @@ pip install torch
 
 ## 计算机编程语言
 
-```
+```py
 from torch.autograd.functional import jacobian
 from torch import tensor
 
@@ -65,7 +65,7 @@ print(jacobian(f,(x1,x2,x3)))
 
 **输出:**
 
-```
+```py
 ((tensor(1.), tensor(1.), tensor(0.)), 
 (tensor(5.), tensor(0.), tensor(3.)), 
 (tensor(0.), tensor(48.), tensor(0.)))

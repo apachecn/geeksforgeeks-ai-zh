@@ -12,7 +12,7 @@ Matplotlib 为我们提供了各种各样的小部件。在本文中，我们将
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib package
 import matplotlib.pyplot as plt
 
@@ -71,7 +71,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib package
 import matplotlib.pyplot as plt
 

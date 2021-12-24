@@ -15,7 +15,7 @@
 
 **代码:解释聚二夫()**的 Python 代码
 
-```
+```py
 # Python code explaining 
 # numpy.polydiv()
 
@@ -33,7 +33,7 @@ print ("\n p2 : \n", p2) 
 
 ![](img/ae4c9bc610e029913b2770d0c2c2c9eb.png)
 
-```
+```py
 quotient, remainder = np.polydiv(p2, p1)
 
 print("\n\nquotient  : ", quotient)
@@ -43,7 +43,7 @@ print ("\n")
 
 ![](img/25035d3520c97ba746a0f2efa6050715.png)
 
-```
+```py
 # Defining ndarray
 x = np.array([1, 2])
 y = np.array([4, 9, 5, 4])

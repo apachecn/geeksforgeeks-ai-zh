@@ -22,7 +22,7 @@ IIR 代表无限脉冲响应，它是许多线性时不变系统的显著特征�
 
 ## 蟒 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal
@@ -33,7 +33,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒 3
 
-```
+```py
 # Given specification
 N = 2  # Order of the filter
 Fs = 8000  # Sampling frequency in Hz
@@ -47,7 +47,7 @@ Td = 1/Fs
 
 ## python 3
 
-```
+```py
 # Compute cut-off frequency in radian/sec
 wd = 2*np.pi*fc
 print(wd)  # Cut-off frequency in radian/sec

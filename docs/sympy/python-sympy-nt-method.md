@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -31,7 +31,7 @@ print("Partitions : {}".format(partitions))  
 
 **输出:**
 
-```
+```py
 Value of k = 2 and the items are = aaa
 Partitions : 1
 
@@ -39,7 +39,7 @@ Partitions : 1
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -55,7 +55,7 @@ print("Partitions : {}".format(partitions))  
 
 **输出:**
 
-```
+```py
 Value of k = 3 and the items are = [1, 3, 2, 5, 4]
 Partitions : 25
 

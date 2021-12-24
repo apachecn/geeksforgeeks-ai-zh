@@ -15,7 +15,7 @@
 **实施
 T2】**
 
-```
+```py
 # OpenCV program to detect face in real time
 # import libraries of python OpenCV 
 # where its functionality resides

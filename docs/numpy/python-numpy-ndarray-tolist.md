@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`ndarray.tolist()`方法，我们可以拥有 ndarray 中的数据项列表。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(gfg.tolist())
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4, 5]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(gfg.tolist())
 
 **Output:**
 
-```
+```py
 [[1, 2, 3, 4, 5], [6, 5, 4, 3, 2]]
 
 ```

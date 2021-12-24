@@ -6,7 +6,7 @@
 redis collections . py 中的 RedisOrderedDict 类扩展了集合。MutableMapping 来免费获得一些 dict 兼容的方法。然后，它实现了所有需要 Redis 有序集的关键方法(也称为 **Zset** )命令:
 **代码:在 Redis 中存储一个频率分布。**
 
-```
+```py
 class RedisOrderedDict(collections.MutableMapping):
 
     def __init__(self, r, name):
@@ -52,7 +52,7 @@ class RedisOrderedDict(collections.MutableMapping):
 
 **代码:通过传入 Redis 连接和唯一名称**来创建 RedisOrderedDict 的实例
 
-```
+```py
 from redis import Redis
 from rediscollections import RedisOrderedDict
 
@@ -72,7 +72,7 @@ rod.clear()
 
 **输出:**
 
-```
+```py
 0
 5.2000000000000002
 1

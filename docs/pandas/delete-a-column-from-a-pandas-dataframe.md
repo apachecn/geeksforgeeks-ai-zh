@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 del df['column_name']
 
 ```
@@ -15,7 +15,7 @@ del df['column_name']
 
 **Example 1:**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -39,7 +39,7 @@ display(df)
 
 **例 2:**
 
-```
+```py
 # importing the module
 import pandas as pd
 

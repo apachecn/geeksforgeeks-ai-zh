@@ -4,7 +4,7 @@
 
 In Sympy, the function `Ellipse.is_tangent()` is used to check whether an Ellipse, LinearEntity or Polygon is tangent to the given Ellipse or not.
 
-```
+```py
 Syntax: is_tangent(o)
 
 Parameters: o  an Ellipse, LinearEntity or Polygon
@@ -16,7 +16,7 @@ Raises: NotImplementedError When the wrong type of argument is supplied.
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Ellipse, Line
 from sympy import Point, Ellipse, Line
 
@@ -32,13 +32,13 @@ e1.is_tangent(l1)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Ellipse, Line
 from sympy import Point, Ellipse, Line
 
@@ -54,6 +54,6 @@ e1.is_tangent(l1)
 
 **输出:**
 
-```
+```py
 False
 ```

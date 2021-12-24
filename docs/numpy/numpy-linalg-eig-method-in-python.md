@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 mat = np.mat("1 -2;1 3")
@@ -34,7 +34,7 @@ print(evect)
 
 **输出:**
 
-```
+```py
 [[ 1 -2]
  [ 1  3]]
 
@@ -49,7 +49,7 @@ print(evect)
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 
 mat = np.mat("1 2 3;1 3 4;3 2 1")
@@ -69,7 +69,7 @@ print(evect)
 
 **输出:**
 
-```
+```py
 [[1 2 3]
  [1 3 4]
  [3 2 1]]

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing spline filter with one dimension.
 from scipy.ndimage import spline_filter1d
 
@@ -46,7 +46,7 @@ print(geek_image)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing spline filter with one dimension.
 from scipy.ndimage import spline_filter1d
 

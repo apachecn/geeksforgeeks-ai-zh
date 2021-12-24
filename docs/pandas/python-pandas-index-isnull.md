@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.isnull()`功能检查索引中的任何值是否为`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ idx
 
 现在我们检查索引中缺少的值。
 
-```
+```py
 # checks for missing values.
 idx.isnull()
 ```
@@ -41,7 +41,7 @@ idx.isnull()
 
 **示例 2:** 使用`Index.isnull()`函数检查缺失的日期时间索引是否被视为`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ idx
 
 现在，我们将检查 Datetime 索引中的标签是否存在或缺失。
 
-```
+```py
 # test whether the passed Datetime Index
 # labels are missing or not.
 idx.isnull()

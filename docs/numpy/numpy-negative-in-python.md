@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.negative() function
 
@@ -34,7 +34,7 @@ print ("negative of input number : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 negative of input number :  -10
 
@@ -42,7 +42,7 @@ negative of input number :  -10
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.negative function
 
@@ -58,7 +58,7 @@ print ("negative of array elements: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   2\.   2.]
  [  2\.   2\.  nan]]
 product of array elements:  32.0Input array :  [[ 2 -7  5]

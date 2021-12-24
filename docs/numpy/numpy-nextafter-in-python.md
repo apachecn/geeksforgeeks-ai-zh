@@ -15,7 +15,7 @@
 
 代码:
 
-```
+```py
 # Python program illustrating 
 # nextafter() method 
 import numpy as np 
@@ -31,7 +31,7 @@ print ("\nCheck sign of arr1 : ", np.nextafter(arr1, arr2))
 
 **输出:**
 
-```
+```py
 arr1 :  3
 arr2 :  4
 

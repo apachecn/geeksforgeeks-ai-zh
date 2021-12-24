@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 
@@ -87,7 +87,7 @@ plt.title(label="ReLU function graph",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot
 import numpy
@@ -123,7 +123,7 @@ pyplot.title("Signal",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 

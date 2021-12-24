@@ -45,7 +45,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing the required library
 import pandas as pd
 import seaborn as sns
@@ -66,7 +66,7 @@ plt.show()
 
 **例 2 :**
 
-```
+```py
 # importing the required library
 import pandas as pd
 import seaborn as sns

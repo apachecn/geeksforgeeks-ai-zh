@@ -22,7 +22,7 @@ Pandas `**dataframe.quantile()**`函数返回所请求轴上给定分位数的�
 
 **示例#1:** 使用`quantile()`函数找到“. 2”分位数的值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ df
 
 让我们使用`dataframe.quantile()`函数来为数据帧中的每一列找到“. 2”的分位数
 
-```
+```py
 # find the product over the index axis
 df.quantile(.2, axis = 0)
 ```
@@ -50,7 +50,7 @@ df.quantile(.2, axis = 0)
 
 **示例#2:** 使用`quantile()`函数沿索引轴查找(. 1，. 25，. 5，. 75)个元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

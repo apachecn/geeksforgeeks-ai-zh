@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 
@@ -39,7 +39,7 @@ print("\n", panel['b'].truediv(df2['b'], axis = 0)) 
 
 **Output:**
 
-```
+```py
 panel['b'] is - 
 
     item1  item2
@@ -60,7 +60,7 @@ Floating Dividing panel['b'] with df2['b'] using truediv() method -
 
 **代码#2:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 
@@ -84,7 +84,7 @@ print(panel['b'].truediv(df2, axis = 0)) 
 
 **Output:**
 
-```
+```py
 panel['b'] is - 
 
        item1     item2
@@ -116,7 +116,7 @@ Floating Dividing panel['b'] with df2 using truediv() method -
 
 **代码#3:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 
@@ -140,7 +140,7 @@ print("\n", panel['b']['item1'].truediv(df2['b'], axis = 0)) 
 
 **Output:**
 
-```
+```py
 panel['b'] is - 
 
        item1  item2

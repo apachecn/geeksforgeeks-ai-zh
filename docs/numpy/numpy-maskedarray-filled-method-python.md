@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.filled() function
 
@@ -32,14 +32,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [   2    4 -999    8 -999]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.filled() function
 
@@ -57,7 +57,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [-999    2 -999    4    5]
 
 ```

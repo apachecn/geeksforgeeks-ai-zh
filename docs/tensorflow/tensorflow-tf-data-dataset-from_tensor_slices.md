@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tf.data.Dataset.from_tensor_slices()`方法，我们能够获得列表或数组的切片。
 
-```
+```py
 # import tensorflow
 import tensorflow as tf
 
@@ -31,7 +31,7 @@ for ele in gfg:
 
 **例 2 :**
 
-```
+```py
 # import tensorflow
 import tensorflow as tf
 

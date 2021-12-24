@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.legdiv() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([ 1.6]), array([ 0.4, -0.8]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.legdiv() method 
 
@@ -64,7 +64,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([ 5.]), array([ 0.]))
 
 ```

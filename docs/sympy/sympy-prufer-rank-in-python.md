@@ -14,7 +14,7 @@
 
 **代码#1:排名()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.rank()
 
@@ -38,7 +38,7 @@ print ("Prufer a rank : ", a.rank)
 
 **代码#2:排名()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.rank()
 

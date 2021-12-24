@@ -8,7 +8,7 @@
 
 所以，让我们来看一个简单的实现，用一组简单的点在 X 轴和 Y 轴上放置标签。**可以使用 Google Colab** 或任何其他文本编辑器来实现上述概念。但是如果我们使用的是本地设备，请确保之前已经安装了 python。之后，我们需要安装 **bokeh** 。打开命令提示符并编写以下代码进行安装:
 
-```
+```py
 pip install bokeh 
 ```
 
@@ -18,7 +18,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing show from bokeh.io
 # module to show the plot
 from bokeh.io import show
@@ -63,7 +63,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing show from bokeh.io
 # module to show the plot
 # importing show from bokeh.io
@@ -119,7 +119,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing figure from
 # Bokeh.plotting
 from bokeh.plotting import figure
@@ -173,7 +173,7 @@ show(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy package
 import numpy as np
 

@@ -32,7 +32,7 @@
 
 **例 1:** 基本用法
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -45,14 +45,14 @@ print(json)
 
 **输出:**
 
-```
+```py
 {"col1":{"0":"1", "1":"3"}, "col2":{"0":"2", "1":"4"}}
 
 ```
 
 **例 2:** 探索 DataFrame.to_json 函数的‘orient’属性
 
-```
+```py
 import numpy as np
 import pandas as pd
 

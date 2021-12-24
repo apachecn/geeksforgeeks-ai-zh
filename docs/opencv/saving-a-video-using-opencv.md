@@ -17,7 +17,7 @@ OpenCV 是一个开源的也是最受欢迎的计算机视觉库，包含多种�
 
 **示例:**
 
-```
+```py
 # Python program to save a 
 # video using OpenCV
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import cv2
 
@@ -33,7 +33,7 @@ cv2.imshow('GFG', image)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import cv2
 import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import cv2
 import matplotlib.pyplot as plt

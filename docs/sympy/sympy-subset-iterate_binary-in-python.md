@@ -12,7 +12,7 @@
 
 **代码#1 : iterate_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.iterate_binary()
 
@@ -36,7 +36,7 @@ print ("Subset a iterate_binary : ", a.iterate_binary(1).subset)
 
 **代码#2 : iterate_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.iterate_binary()
 

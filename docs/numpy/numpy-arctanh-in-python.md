@@ -26,7 +26,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # arctanh() function
 
@@ -41,7 +41,7 @@ print ("\nInverse hyperbolic tangent values of input array : \n", arctanh_Values
 
 **输出:**
 
-```
+```py
 Input array : 
  [0.2, 0.11, 0.5, 0.99]
 
@@ -51,7 +51,7 @@ Inverse hyperbolic tangent values of input array :
 
 **代码#2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation  
 # of arctanh() function % matplotlib inline 
@@ -79,7 +79,7 @@ plt.ylabel("Y")
 
 **输出:**
 
-```
+```py
 in_array :  [ 0.1         0.13708333  0.17416667  0.21125     0.24833333  0.28541667
   0.3225      0.35958333  0.39666667  0.43375     0.47083333  0.50791667
   0.545       0.58208333  0.61916667  0.65625     0.69333333  0.73041667

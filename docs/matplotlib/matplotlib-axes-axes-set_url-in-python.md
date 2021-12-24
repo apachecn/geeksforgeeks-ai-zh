@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_url()函数**用于为艺术家�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.cm as cm
@@ -45,7 +45,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 import matplotlib.cm as cm

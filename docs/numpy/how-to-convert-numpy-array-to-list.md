@@ -22,7 +22,7 @@
 
 ## 蟒
 
-```
+```py
 # import module
 import numpy as np
 

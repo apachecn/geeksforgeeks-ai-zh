@@ -16,7 +16,7 @@ Pandas **dataframe.ne()** 函数检查数据帧元素与常量、序列或其他
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -53,7 +53,7 @@ sr
 
 ## 蟒蛇 3
 
-```
+```py
 # evaluate inequality over the index axis
 df.ne(sr, axis = 0)
 ```
@@ -68,7 +68,7 @@ df.ne(sr, axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 # passing df2 to check for inequality with the df1 dataframe.
 d1f.ne(df2)
 ```

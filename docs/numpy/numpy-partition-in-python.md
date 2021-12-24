@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # partition() function
 
@@ -33,7 +33,7 @@ print ("Output partitioned array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [2 0 1 5 4 9]
 Output partitioned array :  [0 1 2 4 5 9]
 
@@ -41,7 +41,7 @@ Output partitioned array :  [0 1 2 4 5 9]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # partition() function
 
@@ -57,7 +57,7 @@ print ("Output partitioned array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [2 0 1 5 4 9 3]
 Output partitioned array :  [0 1 2 3 4 9 5]
 

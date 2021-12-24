@@ -16,7 +16,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("N choose K : {}".format(comb))  
 
 **输出:**
 
-```
+```py
 N = 4, K = 2
 N choose K : 6
 
@@ -40,7 +40,7 @@ N choose K : 6
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -56,7 +56,7 @@ print("N choose K : {}".format(comb))  
 
 **输出:**
 
-```
+```py
 N = A, K = B
 N choose K : binomial(A, B)
 

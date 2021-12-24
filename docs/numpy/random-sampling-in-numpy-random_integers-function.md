@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.random_integers() function
 
@@ -29,14 +29,14 @@ print ("Output 1D Array filled with random integers : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 1D Array filled with random integers :  [1 1 4 1]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.random_integers() function
 
@@ -50,7 +50,7 @@ print ("Output 2D Array filled with random integers : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 2D Array filled with random integers :  [[2 3 1]
  [2 2 3]
  [3 3 3]]
@@ -59,7 +59,7 @@ Output 2D Array filled with random integers :  [[2 3 1]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.random.random_integers() function
 
@@ -73,7 +73,7 @@ print ("Output 3D Array filled with random integers : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Output 3D Array filled with random integers :  [[[4 8 5 7]
 Output 3D Array filled with random integers :  [[[5 1 5]
   [5 4 1]]

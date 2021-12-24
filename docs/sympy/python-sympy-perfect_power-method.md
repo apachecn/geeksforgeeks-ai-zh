@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import perfect_power() method from sympy
 from sympy import perfect_power
 
@@ -31,7 +31,7 @@ print("{}^{} == {}".format(b, e, n)) 
 
 **输出:**
 
-```
+```py
 n = 64
 b = 2 and e = 6.
 2^6 == 64
@@ -40,7 +40,7 @@ b = 2 and e = 6.
 
 **例 2:**
 
-```
+```py
 # import perfect_power() method from sympy
 from sympy import perfect_power
 
@@ -56,7 +56,7 @@ print("{}^{} == {}".format(b, e, n)) 
 
 **输出:**
 
-```
+```py
 n = 64
 b = 8 and e = 2.
 8^2 == 64

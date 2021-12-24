@@ -8,7 +8,7 @@
 
 **代码#1:在 treebank_chunk 的第一个标记句子**上测试
 
-```
+```py
 from nltk.corpus import treebank_chunk
 from nltk.chunk import RegexpParser
 from chunkers import sub_leaves
@@ -25,7 +25,7 @@ print ("Named Entities : \n", 
 
 **输出:**
 
-```
+```py
 Named Entities : 
 [[('Pierre', 'NNP'), ('Vinken', 'NNP')], [('Nov.', 'NNP')]]
 
@@ -37,7 +37,7 @@ NAME chunker 是 RegexpParser 类的简单用法。所有 NNP 标记单词的序
 
 **代码#2 : PersonChunker 类**
 
-```
+```py
 from nltk.chunk import ChunkParserI
 from nltk.chunk.util import conlltags2tree
 from nltk.corpus import names
@@ -67,7 +67,7 @@ class PersonChunker(ChunkParserI):
 
 **代码#3:在同一个标记句子上使用 PersonChunker 类**
 
-```
+```py
 from nltk.corpus import treebank_chunk
 from nltk.chunk import RegexpParser
 from chunkers import sub_leaves
@@ -81,7 +81,7 @@ print ("Person name  : ", 
 
 **输出:**
 
-```
+```py
 Person name  : [[('Pierre', 'NNP')]]
 
 ```

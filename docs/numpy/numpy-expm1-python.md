@@ -9,7 +9,7 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object whose elements, we need to test.
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
            placed with result.
@@ -23,14 +23,14 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with exponential(all elements of input array) - 1\. 
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # expm1() function
 
@@ -50,7 +50,7 @@ print ("\n(Exponential value of array element) - (1) "
 
 **输出:**
 
-```
+```py
 Input array : 
  [1, 3, 5]
 
@@ -64,7 +64,7 @@ Exponential value of array element :
 
 **代码 2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation of 
 # expm1() function

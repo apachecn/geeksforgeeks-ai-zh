@@ -6,7 +6,7 @@
 
 我们可以使用 Numpy.empty()方法来完成这个任务。该方法采用三个参数，讨论如下–
 
-```
+```py
 -> shape : Number of rows
 -> order : C_contiguous or F_contiguous
 -> dtype : [optional, float(by Default)] Data type of returned array. 
@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python Program to create numpy array 
 # filled with random values
 import numpy as geek 
@@ -29,7 +29,7 @@ print("\nMatrix a : \n", a) 
 
 输出:
 
-```
+```py
 Matrix b : 
  [140489599921032        21301024]
 
@@ -41,7 +41,7 @@ Matrix a :
 
 **例 2:**
 
-```
+```py
 # Python Program to create numpy array 
 # filled with random values
 import numpy as geek 
@@ -60,7 +60,7 @@ print("\nMatrix d : \n", d)
 
 **输出:**
 
-```
+```py
 Matrix c : 
  [[  1.37596097e-316   5.39314154e-317   5.39307830e-317]
  [  5.39345774e-317   5.39345774e-317   6.93325440e-310]

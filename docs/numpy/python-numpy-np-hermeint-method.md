@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermeint()`方法，我们能够用这个方法得到 hermiteE 级数的积分级数系数。
 
-```
+```py
 # import numpy and harmeint
 import numpy as np
 from numpy.polynomial.hermite_e import hermeint
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and harmeint
 import numpy as np
 from numpy.polynomial.hermite_e import hermeint

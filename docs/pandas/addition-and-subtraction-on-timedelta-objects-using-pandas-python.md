@@ -8,13 +8,13 @@
 
 **1)添加–**
 
-```
+```py
 df['Result'] = df['TimeDelta1'] + df['TimeDelta2']
 ```
 
 **2)减法–**
 
-```
+```py
 df['Result'] = df['TimeDelta1'] - df['TimeDelta2']
 ```
 
@@ -26,7 +26,7 @@ df['Result'] = df['TimeDelta1'] - df['TimeDelta2']
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas and numpy
 import pandas as pd
 import numpy as np
@@ -59,7 +59,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas and numpy
 import pandas as pd
 import numpy as np

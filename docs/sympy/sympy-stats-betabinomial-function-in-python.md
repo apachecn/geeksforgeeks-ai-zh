@@ -15,7 +15,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.BetaBinomial()`方法，我们能够创建表示β-二项式分布的随机变量。
 
-```
+```py
 # Import Sympy and BetaBinomial
 from sympy.stats import BetaBinomial, density
 
@@ -32,7 +32,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import Sympy and BetaBinomial
 from sympy.stats import BetaBinomial, density
 

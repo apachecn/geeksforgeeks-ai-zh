@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 5
 print("Value of n = {}".format(n))
@@ -28,7 +28,7 @@ print("Value of nth bell number : {}".format(nth_bell))  
 
 **输出:**
 
-```
+```py
 Value of n = 5
 Value of nth bell number : 52
 
@@ -46,7 +46,7 @@ Value of nth bell number : 52
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 5
 k = symbols('x')
@@ -60,7 +60,7 @@ print("The nth bell polynomial : {}".format(nth_bell_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and k = x
 The nth bell polynomial : x**5 + 10*x**4 + 25*x**3 + 15*x**2 + x
 
@@ -68,7 +68,7 @@ The nth bell polynomial : x**5 + 10*x**4 + 25*x**3 + 15*x**2 + x
 
 **示例#3:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 5
 k = 3
@@ -82,7 +82,7 @@ print("The nth bell polynomial value : {}".format(nth_bell_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and k = 3
 The nth bell polynomial value : 1866
 
@@ -101,7 +101,7 @@ The nth bell polynomial value : 1866
 
 **示例#4:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 5
 k = 3
@@ -116,7 +116,7 @@ print("The nth bell polynomial of second kind : {}".format(nth_bell_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5, k = 3 and variables = (x1, x2, x3, x4, x5)
 The nth bell polynomial of second kind : 10*x1**2*x3 + 15*x1*x2**2
 

@@ -4,7 +4,7 @@
 
 The function `lcm()` provides the direct way to compute Least Common Multiple for polynomials.That is, for polynomials f and g, it computes LCM.
 
-```
+```py
 Syntax: sympy.lcm(f, g)
 
 Return: LCM of given polynomials
@@ -13,7 +13,7 @@ Return: LCM of given polynomials
 
 示例#1:
 
-```
+```py
 # import sympy  
 from sympy import * f = x * y**2 + x**2 * y
 g = x**2 * y**2
@@ -26,14 +26,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 x**3*y**2 + x**2*y**3
 
 ```
 
 示例 2:
 
-```
+```py
 # import sympy  
 from sympy import * f = x * y / 2 + y**2
 g = 3 * x + 6 * y
@@ -46,7 +46,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 x*y + 2*y**2
 
 ```

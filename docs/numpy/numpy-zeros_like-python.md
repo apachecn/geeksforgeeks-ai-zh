@@ -4,13 +4,13 @@
 
 这个 numpy 方法返回一个给定形状和类型的数组作为给定数组，并带有零。
 
-```
+```py
 Syntax: numpy.zeros_like(array, dtype = None, order = 'K', subok = True)
 ```
 
 **参数:**
 
-```
+```py
 array : array_like input
 subok  : [optional, boolean]If true, then newly created array will be sub-class of array; 
                  otherwise, a base-class array
@@ -24,7 +24,7 @@ dtype  : [optional, float(byDeafult)] Data type of returned array.
 
 **返回:**
 
-```
+```py
 ndarray of zeros having given shape, order and datatype.
 ```
 
@@ -32,7 +32,7 @@ ndarray of zeros having given shape, order and datatype.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.zeros_like method
 
@@ -51,7 +51,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 Original array : 
  [[0 1]
  [2 3]
@@ -74,7 +74,7 @@ Matrix c :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.zeros_like method
 
@@ -94,7 +94,7 @@ print("\nMatrix  : \n", c)
 
 **输出:**
 
-```
+```py
 Original array : 
  [[0 1]
  [2 3]

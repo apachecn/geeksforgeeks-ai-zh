@@ -6,7 +6,7 @@
 
 **示例 1 :** 以表格形式显示数据框的一种方法是使用`IPython.display`的`display()`功能。
 
-```
+```py
 # importing the modules
 from IPython.display import display
 import pandas as pd
@@ -26,7 +26,7 @@ display(df)
 
 **示例 2:** 在本例中，我们将使用`DataFrame.style`。它返回一个 Styler 对象，该对象具有格式化和显示数据帧的有用方法。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -45,7 +45,7 @@ df.style
 
 **示例 3 :** 使用`DataFrame.style`我们还可以为数据框表添加不同的样式。例如，在本例中，我们将使用蓝色显示所有大于 90 的值，其余为黑色。为了实现这一点，我们将使用`DataFrame.style.applymap()`遍历表格的所有值并应用样式。
 
-```
+```py
 # importing the modules
 import pandas as pd
 import numpy as np
@@ -73,7 +73,7 @@ df.style.applymap(color_negative_red)
 
 **例 4 :** 我们还可以为此使用一个名为制表的库。它是一个包含不同样式的库，数据帧可以在其中显示。在这个例子中，我们将使用`"psql"`样式。
 
-```
+```py
 # importing the modules
 from tabulate import tabulate
 import pandas as pd

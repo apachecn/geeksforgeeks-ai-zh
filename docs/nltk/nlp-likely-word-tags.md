@@ -6,7 +6,7 @@
 
 **代码#1:创建功能**
 
-```
+```py
 # Loading Libraries
 from nltk.probability import FreqDist, ConditionalFreqDist
 
@@ -23,7 +23,7 @@ return dict((word, cfd[word].max()) 
 
 **代码#2:使用带有 UnigramTagger 的函数**
 
-```
+```py
 # loading libraries
 from tag_util import word_tag_model
 from nltk.corpus import treebank
@@ -45,14 +45,14 @@ print ("Accuracy : ", tag.evaluate(test_data))
 
 **输出:**
 
-```
+```py
 Accuracy : 0.559680552557738
 
 ```
 
 **代码#3:让我们试试回退链**
 
-```
+```py
 # Loading libraries
 from nltk.tag import UnigramTagger
 from nltk.tag import DefaultTagger
@@ -71,7 +71,7 @@ print ("Accuracy : ", tag.evaluate(test_data))
 
 **输出:**
 
-```
+```py
 Accuracy : 0.8806820634578028
 
 ```
@@ -80,7 +80,7 @@ Accuracy : 0.8806820634578028
 
 **代码#4:手动覆盖训练有素的标记员**
 
-```
+```py
 # Loading libraries
 from nltk.tag import UnigramTagger
 from nltk.tag import DefaultTagger
@@ -98,7 +98,7 @@ print ("Accuracy : ", likely_tag.evaluate(test_data))
 
 **输出:**
 
-```
+```py
 Accuracy : 0.8824088063889488
 
 ```

@@ -28,7 +28,7 @@ Unicode 是对文本、数字等进行一致编码和处理的标准。我们也
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib module
 import matplotlib.pyplot as plt
 
@@ -73,7 +73,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing all important libraries
 import matplotlib.pyplot as plt
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox

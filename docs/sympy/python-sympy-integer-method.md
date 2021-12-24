@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到通过使用`sympy.Integer()`方法，我们能够将浮点值转换为整数或优化内存消耗。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

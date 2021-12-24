@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Code to add text on matplotlib
 
 # Importing library
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding title
 ax.set_title('Day v/s No of Questions on GFG', fontsize=15)
 
@@ -88,7 +88,7 @@ ax.axis([0, 10, 0, 15])
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding text on the plot.
 ax.text(1, 13, 'Practice on GFG', style='italic', bbox={
         'facecolor': 'grey', 'alpha': 0.5, 'pad': 10})
@@ -100,7 +100,7 @@ ax.text(1, 13, 'Practice on GFG', style='italic', bbox={
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding text without box on the plot.
 ax.text(8, 13, 'December', style='italic')
 ```

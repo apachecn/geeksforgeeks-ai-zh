@@ -21,7 +21,7 @@ sample _ date . xlsx-范例 _ 日期. xlsx
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -40,7 +40,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # sorting date with sort_value() function
 Final_result = df.sort_values('Joining Date')
 

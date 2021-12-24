@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library 
 import numpy as np
 
@@ -40,7 +40,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # using pd.set_option()
 # to widen the output 
 # display

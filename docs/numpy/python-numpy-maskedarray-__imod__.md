@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到通过 MaskedArray 传递的值。__imod__()方法用于对数组的每个元素执行 mod 操作。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -26,14 +26,14 @@ print(gfg.__imod__(2)) 
 
 **Output:**
 
-```
+```py
 [1.0 0.5 1.0 1.0 1.0]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -47,7 +47,7 @@ print(gfg.__imod__(5)) 
 
 **Output:**
 
-```
+```py
 [[4.0 2.0 1.0 2.0 4.0]
  [4.0 3.5 4.0 1.0 1.0]]
 

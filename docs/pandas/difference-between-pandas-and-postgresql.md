@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import time
 import psycopg2
@@ -61,7 +61,7 @@ print('Time Taken:', end-begin)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import time
 import psycopg2
@@ -107,7 +107,7 @@ print('Time Taken:', end-begin)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import time
 import psycopg2
@@ -150,7 +150,7 @@ print('Time Taken:', end-begin)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import time
 import psycopg2

@@ -10,14 +10,14 @@
 
 ****语法:****
 
-```
+```py
 numpy.where(condition[, x, y])
 When True, yield x, otherwise yield y 
 ```
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -46,13 +46,13 @@ print(res)
 
 ****语法**:**
 
-```
+```py
 numpy.argwhere(arr) 
 ```
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

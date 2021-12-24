@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img = cv2.imread('img.jpg')

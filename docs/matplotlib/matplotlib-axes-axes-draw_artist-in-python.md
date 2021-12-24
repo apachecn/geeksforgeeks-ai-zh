@@ -22,7 +22,7 @@ matplotlib 库的 axes 模块中的 **Axes.draw_artist()函数**用于高效更�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 from random import randint, choice
 import time
@@ -68,7 +68,7 @@ plt.show() 
 
 ![](img/7ee3dcec2215478a415019383f874a56.png)
 
-```
+```py
 Draw at time : 0.37501978874206543
 Draw at time : 0.015624046325683594
 Draw at time : 0.03127431869506836
@@ -82,7 +82,7 @@ so on...
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 import numpy as np

@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.sum() method
 import numpy as np 
@@ -36,7 +36,7 @@ print ("Is np.sum(arr).dtype == np.float : ", 
 
 **输出:**
 
-```
+```py
 Sum of arr :  36.2
 Sum of arr(uint8) :  36
 Sum of arr(float32) :  36.2
@@ -48,7 +48,7 @@ Is np.sum(arr).dtype == np.uint :  True
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.sum() method
 import numpy as np 
@@ -72,7 +72,7 @@ print ("Is np.sum(arr).dtype == np.uint : ", 
 
 **输出:**
 
-```
+```py
 Sum of arr :  279
 Sum of arr(uint8) :  23
 Sum of arr(float32) :  279.0
@@ -84,7 +84,7 @@ Is np.sum(arr).dtype == np.uint :  False
 
 **代码#3:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.sum() method 
 
@@ -105,7 +105,7 @@ print("\nSum of arr (keepdimension is True): \n",
 
 **输出:**
 
-```
+```py
 Sum of arr :  279
 Sum of arr(axis = 0) :  [52 25 93 42 67]
 Sum of arr(axis = 1) :  [120  75  84]

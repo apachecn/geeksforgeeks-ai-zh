@@ -15,7 +15,7 @@ pandas**time delta index . asof()**函数在排序索引上工作，它返回最
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the most recent label
 tidx.asof('1 days 02:00:12.001134')
 ```
@@ -50,7 +50,7 @@ tidx.asof('1 days 02:00:12.001134')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(tidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the most recent label
 tidx.asof('+23:59:59.999999')
 ```

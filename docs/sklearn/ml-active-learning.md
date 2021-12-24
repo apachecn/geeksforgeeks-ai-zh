@@ -21,7 +21,7 @@
 
 第二种方法是应用二分搜索法并找到过渡点(决策边界)。这种方法使用较少的数据，并给出与线性搜索相同的结果。
 
-```
+```py
  General Algorithm : 
 
 1\. train classifier with the initial training dataset
@@ -66,7 +66,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 from statistics import mean
@@ -146,7 +146,7 @@ https://github.com / raghav-dalmia
 
 **输出:**
 
-```
+```py
 Accuracy by active model : 80.7
 Accuracy by random sampling : 79.5
 ```

@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`numpy.__copy__()`方法，我们正在复制一个元素。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [1 2 3 4 5]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -53,7 +53,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4 5]
  [6 5 4 3 2]]
 

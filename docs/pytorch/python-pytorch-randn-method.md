@@ -23,7 +23,7 @@ PyTorch **torch.randn()** 返回由变量自变量大小(定义输出张量形�
 
 ## 计算机编程语言
 
-```
+```py
 # import pytorch library
 import torch
 
@@ -35,7 +35,7 @@ print (input_var)
 
 **输出:**
 
-```
+```py
 tensor([[-1.4313, -0.3831, -0.8356, -1.5555],
         [-1.2749, -1.1872, -0.4983,  0.1029]])
 ```
@@ -46,7 +46,7 @@ tensor([[-1.4313, -0.3831, -0.8356, -1.5555],
 
 ## 蟒蛇 3
 
-```
+```py
 # import Pytorch library
 import torch
 
@@ -68,7 +68,7 @@ print(input_var)
 
 ## 蟒蛇 3
 
-```
+```py
 # import Pytorch library
 import torch
 

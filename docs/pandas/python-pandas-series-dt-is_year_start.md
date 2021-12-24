@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.is_year_start`属性检查给定序列对象的基础数据中的日期是否是一年的第一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.is_year_start`属性来检查给定序列对象中的日期是否是一年的第一天。
 
-```
+```py
 # check if dates are the
 # first day of a year
 result = sr.dt.is_year_start
@@ -53,7 +53,7 @@ print(result)
 
 **例 2 :** 使用`Series.dt.is_year_start`属性检查给定序列对象的基础数据中的日期是否是一年的第一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.dt.is_year_start`属性来检查给定序列对象中的日期是否是一年的第一天。
 
-```
+```py
 # check if dates are the
 # first day of a year
 result = sr.dt.is_year_start

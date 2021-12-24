@@ -8,7 +8,7 @@
 
 **词性标注语料库示例**
 
-```
+```py
 The/at-tl expense/nn and/cc time/nn involved/vbn are/ber astronomical/jj ./.
 
 ```
@@ -18,7 +18,7 @@ The/at-tl expense/nn and/cc time/nn involved/vbn are/ber astronomical/jj ./.
 
 **代码#1 :** 创建 TaggedCorpusReader。为了文字
 
-```
+```py
 # Using TaggedCorpusReader
 from nltk.corpus.reader import TaggedCorpusReader
 
@@ -34,7 +34,7 @@ print ("\ntag_words : \n", tag_words)
 
 **输出:**
 
-```
+```py
 Words : 
 ['The', 'expense', 'and', 'time', 'involved', 'are', ...]
 
@@ -45,14 +45,14 @@ tag_words :
 
 **代码#2 :** 用于句子
 
-```
+```py
 tagged_sent = x.tagged_sents()
 print ("tagged_sent : \n", tagged_sent)
 ```
 
 **输出:**
 
-```
+```py
 tagged_sent : 
 [[('The', 'AT-TL'), ('expense', 'NN'), ('and', 'CC'), ('time', 'NN'),
 ('involved', 'VBN'), ('are', 'BER'), ('astronomical', 'JJ'), ('.', '.')]]
@@ -61,7 +61,7 @@ tagged_sent :
 
 **代码#3 :** 为段落
 
-```
+```py
 para = x.para()
 print ("para : \n", para)
 
@@ -71,7 +71,7 @@ print ("\ntagged_paras : \n", tagged_paras)
 
 **输出:**
 
-```
+```py
 para: 
 [[['The', 'expense', 'and', 'time', 'involved', 'are', 'astronomical', '.']]]
 

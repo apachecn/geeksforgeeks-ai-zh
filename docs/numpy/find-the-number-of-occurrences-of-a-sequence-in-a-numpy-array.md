@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Arr = [[2,8,9,4],
        [9,4,9,4],
        [4,5,9,7],
@@ -31,7 +31,7 @@ contains one [9,4] sequence so output = 3+1 = 4.
 
 ## python 3
 
-```
+```py
 # importing package
 import numpy
 
@@ -50,7 +50,7 @@ print(output)
 
 **输出:**
 
-```
+```py
 4
 
 ```

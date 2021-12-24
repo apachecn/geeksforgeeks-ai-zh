@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading brown corpus
 from nltk.corpus import brown
 
@@ -19,7 +19,7 @@ brown.categories()
 
 **输出:**
 
-```
+```py
 ['adventure', 'belles_lettres', 'editorial', 'fiction', 'government',
 'hobbies', 'humor', 'learned', 'lore', 'mystery', 'news', 'religion',
 'reviews', 'romance', 'science_fiction']
@@ -37,7 +37,7 @@ brown.categories()
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.corpus.reader import CategorizedPlaintextCorpusReader
 
 reader = CategorizedPlaintextCorpusReader(
@@ -52,7 +52,7 @@ print ("\nPositive field : ", reader.fileids(categories =['pos']))
 
 **输出:**
 
-```
+```py
 Categorize : ['neg', 'pos']
 
 Negative field : ['movie_neg.txt']
@@ -64,7 +64,7 @@ Positive field : ['movie_pos.txt']
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.corpus.reader import CategorizedPlaintextCorpusReader
 
 reader = CategorizedPlaintextCorpusReader(
@@ -76,6 +76,6 @@ print ("Categorize : ", reader.categories())
 
 **输出:**
 
-```
+```py
 Categorize : ['neg', 'pos']
 ```

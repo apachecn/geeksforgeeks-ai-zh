@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 plt.plot(dataframe.X, dataframe.Y)
 ```
 
@@ -21,7 +21,7 @@ plt.plot(dataframe.X, dataframe.Y)
 
 **语法**:
 
-```
+```py
 plt.xticks(rotation, ha)
 ```
 
@@ -43,7 +43,7 @@ plt.xticks(rotation, ha)
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -81,7 +81,7 @@ plt.ylabel('Classes')
 
 ## 蟒蛇 3
 
-```
+```py
 #import modules
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -120,7 +120,7 @@ plt.ylabel('Classes')
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialising required libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -165,7 +165,7 @@ plt.ylabel('Classes')
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialising required libraries
 import pandas as pd
 import matplotlib.pyplot as plt

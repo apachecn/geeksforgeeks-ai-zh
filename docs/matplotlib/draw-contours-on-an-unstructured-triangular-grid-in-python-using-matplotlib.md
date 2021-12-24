@@ -22,7 +22,7 @@
 
 **示例:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
 import numpy as np
@@ -79,7 +79,7 @@ ax1.set_title('Contour plot for Delaunay triangulation')
 
 **示例:**
 
-```
+```py
 import matplotlib
 matplotlib.axes.Axes.tricontourf
 matplotlib.pyplot.tricontourf

@@ -17,7 +17,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 *   此类将数据集中的每个变量映射到多轴网格中的一列和一行。可以使用不同的轴级绘图函数在上三角形和下三角形中绘制二元图，并且每个变量的边际分布可以显示在对角线上。
 *   它还可以用色调参数表示条件化的附加级别，该参数以不同的颜色绘制不同的数据子集。这使用颜色来解析第三维上的元素，但仅在彼此之上绘制子集，不会像接受色调的轴级函数那样为特定可视化定制色调参数。
 
-```
+```py
                     seaborn.PairGrid( data, \*\*kwargs)
 
 ```
@@ -41,7 +41,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt

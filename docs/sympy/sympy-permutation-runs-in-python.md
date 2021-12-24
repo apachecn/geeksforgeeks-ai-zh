@@ -12,7 +12,7 @@
 
 **代码#1:运行()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.runs()
 
@@ -38,7 +38,7 @@ print ("Permutation b - runs form : ", b.runs())
 
 **代码#2:运行()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.runs()
 

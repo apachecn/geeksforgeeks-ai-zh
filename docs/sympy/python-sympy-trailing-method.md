@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import trailing() method from sympy
 from sympy.ntheory.factor_ import trailing
 
@@ -30,14 +30,14 @@ print("The largest power of 2 that divides {} is 2^{}.".
 
 **输出:**
 
-```
+```py
 The largest power of 2 that divides 64 is 2^6.
 
 ```
 
 **例 2:**
 
-```
+```py
 # import trailing() method from sympy
 from sympy.ntheory.factor_ import trailing
 
@@ -52,7 +52,7 @@ print("The largest power of 2 that divides {} is 2^{}.".
 
 **输出:**
 
-```
+```py
 The largest power of 2 that divides 130 is 2^1.
 
 ```

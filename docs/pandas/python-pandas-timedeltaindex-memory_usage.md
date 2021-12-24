@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.memory_usage()`函数查找给定时间增量索引对象的内存使用情况。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.memory_usage()`函数来查找存储对象所需的内存。
 
-```
+```py
 # find memory usage for tidx
 tidx.memory_usage(deep = True)
 ```
@@ -44,7 +44,7 @@ tidx.memory_usage(deep = True)
 
 **示例 2:** 使用`TimedeltaIndex.memory_usage()`函数查找给定 TimedeltaIndex 对象的内存使用情况。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.memory_usage()`函数来查找存储对象所需的内存。
 
-```
+```py
 # find memory usage for tidx
 tidx.memory_usage(deep = True)
 ```

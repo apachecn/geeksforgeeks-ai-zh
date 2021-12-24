@@ -17,7 +17,7 @@ T3】
 
 **代码#1:创建双伽玛连续随机变量**
 
-```
+```py
 from scipy.stats import chi 
 
 numargs = chi.numargs
@@ -29,7 +29,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001FDC8AA3940>
 
@@ -37,7 +37,7 @@ RV :
 
 **代码#2:双伽玛随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -52,7 +52,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [-1.95099046 -0.92462647 -0.44728222 -1.02853811  0.26525202  0.33532233
  -1.74580986 -0.02263675  0.02631306  0.01852519]
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 <div class="noIdeBtnDiv">
 import matplotlib.pyplot as plt
 import numpy as np

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -41,7 +41,7 @@ data1
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -85,7 +85,7 @@ print(data1[~data1['marks'].isin(list3)])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -122,7 +122,7 @@ print(data1[~data1[['subject1', 'name']].isin(list2).any(axis=1)])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import numpy as np
 import pandas as pd

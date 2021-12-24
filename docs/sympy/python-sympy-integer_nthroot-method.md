@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`integer_nthroot()`方法，我们能够找到作为参数传递的数字的第 n 个根。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -22,14 +22,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 (5, True)
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -41,7 +41,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 (4, False)
 
 ```

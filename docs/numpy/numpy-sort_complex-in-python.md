@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # sort_complex() function
 
@@ -29,7 +29,7 @@ print ("Output sorted array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [2, 8, 7, 5, 9]
 Output sorted array :  [ 2.+0.j  5.+0.j  7.+0.j  8.+0.j  9.+0.j]
 
@@ -37,7 +37,7 @@ Output sorted array :  [ 2.+0.j  5.+0.j  7.+0.j  8.+0.j  9.+0.j]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # sort_complex() function
 
@@ -53,7 +53,7 @@ print ("Output sorted array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [(2+4j), (5+9j), (3-2j), (4-3j), (3+5j), (2-4j), 5]
 Output sorted array :  [ 2.-4.j  2.+4.j  3.-2.j  3.+5.j  4.-3.j  5.+0.j  5.+9.j]
 

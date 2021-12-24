@@ -21,7 +21,7 @@
 
 **示例#1:**
 
-```
+```py
 # import core() method from sympy
 from sympy.ntheory.factor_ import core
 
@@ -36,14 +36,14 @@ print("core({}, {}) =  {} ".format(n, k, core_n_k)) 
 
 **输出:**
 
-```
+```py
 core(24, 2) =  6 
 
 ```
 
 **例 2:**
 
-```
+```py
 # import core() method from sympy
 from sympy.ntheory.factor_ import core
 
@@ -58,7 +58,7 @@ print("core({}, {}) =  {} ".format(n, k, core_n_k))
 
 **输出:**
 
-```
+```py
 core(14641, 3) =  11 
 
 ```

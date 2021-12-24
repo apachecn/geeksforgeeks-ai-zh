@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 
@@ -39,7 +39,7 @@ print("\n", panel['b'].rfloordiv(df2['b'], axis = 0)) 
 
 **Output:**
 
-```
+```py
 panel['b'] is - 
 
     item1  item2
@@ -60,7 +60,7 @@ Integer Dividing panel['b'] with df2['b'] using rfloordiv() method -
 
 **代码#2:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np 
@@ -84,7 +84,7 @@ print("\n", panel['b']['item1'].rfloordiv(df2['b'], axis = 0)) 
 
 **Output:**
 
-```
+```py
 panel['b'] is - 
 
        item1  item2

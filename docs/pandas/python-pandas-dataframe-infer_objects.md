@@ -11,7 +11,7 @@ Pandas `**dataframe.infer_objects()**`函数试图为输入对象列推断更好
 
 **示例#1:** 使用`infer_objects()`函数推断更好的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ df
 
 让我们看看 dataframe 中每一列的数据类型。
 
-```
+```py
 # to print the basic info
 df.info()
 ```
@@ -38,7 +38,7 @@ df.info()
 
 正如我们在输出中看到的，第一列和第三列是`object`类型。而第二列为`int64`型。现在对数据帧进行切片，并从中创建一个新的数据帧。
 
-```
+```py
 # slice from the 1st row till end
 df_new = df[1:]
 
@@ -55,7 +55,7 @@ df_new.info()
 
 正如我们在输出中看到的，列“A”和“C”是对象类型，即使它们包含整数值。那么，我们来试试`infer_objects()`功能。
 
-```
+```py
 # applying infer_objects() function.
 df_new = df_new.infer_objects()
 
@@ -69,7 +69,7 @@ df_new.info()
 
 **示例 2:** 使用`infer_objects()`函数为对象推断更好的数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -86,7 +86,7 @@ df
 
 让我们看看 dataframe 中每一列的数据类型。
 
-```
+```py
 # to print the basic info
 df.info()
 ```
@@ -95,7 +95,7 @@ df.info()
 
 正如我们在输出中看到的，第一列和第三列是`object`类型。而第二列为`complex128`型。现在对数据帧进行切片，并从中创建一个新的数据帧。
 
-```
+```py
 # slice from the 1st row till end
 df_new = df[1:]
 
@@ -111,7 +111,7 @@ df_new.info()
 
 正如我们在输出中看到的，列“A”和“C”是对象类型，即使它们包含整数值。类似的情况还有“B”栏。那么，我们来试试`infer_objects()`功能。
 
-```
+```py
 # applying infer_objects() function.
 df_new = df_new.infer_objects()
 

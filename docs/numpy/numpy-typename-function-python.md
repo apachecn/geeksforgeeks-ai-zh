@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.typename() function
 
@@ -27,7 +27,7 @@ for typechar in typechars:
 
 **输出:**
 
-```
+```py
 ?  :  bool
 O  :  object
 b  :  signed char
@@ -43,7 +43,7 @@ q  :  long long integer
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.typename() function
 
@@ -58,7 +58,7 @@ for typechar in typechars:
 
 **输出:**
 
-```
+```py
 S1  :  character
 B  :  unsigned char
 D  :  complex double precision

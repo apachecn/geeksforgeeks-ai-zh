@@ -14,7 +14,7 @@
 **[【列选择】](https://www.geeksforgeeks.org/how-to-select-multiple-columns-in-a-pandas-dataframe/) :**
 为了在熊猫数据框中选择一列，我们可以通过按列名来访问这些列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df[['Name', 'Qualification']])
 **[列添加](https://www.geeksforgeeks.org/adding-new-column-to-existing-dataframe-in-pandas/) :**
 为了在熊猫数据框中添加一列，我们可以将新列表声明为一列并添加到现有数据框中。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(df)
 **[列删除](https://www.geeksforgeeks.org/python-delete-rows-columns-from-dataframe-using-pandas-drop/) :**
 为了删除熊猫数据框中的一列，我们可以使用`drop()`方法。通过删除具有列名的列来删除列。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -99,7 +99,7 @@ print(data)
 **[行选择](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/) :**
 熊猫提供了一种从数据框中检索行的独特方法。`[DataFrame.loc[]](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)`方法用于从熊猫数据框中检索行。也可以通过将整数位置传递给 [iloc[]](https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/) 函数来选择行。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -121,7 +121,7 @@ print(first, "\n\n\n", second)
 **[行添加](https://www.geeksforgeeks.org/add-a-row-at-top-in-pandas-dataframe/) :**
 为了在 Pandas DataFrame 中添加一行，我们可以将旧的数据帧与新的数据帧串联起来。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -152,7 +152,7 @@ df.head(5)
 **[行删除](https://www.geeksforgeeks.org/python-delete-rows-columns-from-dataframe-using-pandas-drop/) :**
 为了删除熊猫数据框中的一行，我们可以使用 drop()方法。通过按索引标签删除行来删除行。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

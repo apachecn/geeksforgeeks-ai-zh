@@ -7,7 +7,7 @@
 熊猫索引意味着从数据框中选择数据的行和列。它可以是选择所有的行和特定数量的列、特定数量的行和所有的列或者每个特定数量的行和列。索引也称为**子集选择。**
 让我们用元组列表创建一个简单的数据框，假设列名为:“姓名”、“年龄”、“城市”和“工资”。
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -39,7 +39,7 @@ df
 **例 1 :** 选择单列。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -73,7 +73,7 @@ result
 **例 2:** 选择多列。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -109,7 +109,7 @@ result
 **例 1:** 选择单行。
 **代码:**
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -147,7 +147,7 @@ result
 **示例 2:** 选择多行。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -184,13 +184,13 @@ result
 
 **示例 3:** 选择多行和特定列。
 
-```
+```py
 Syntax:  Dataframe.loc[["row1", "row2"...], ["column1", "column2", "column3"...]]
 ```
 
 **代码:**
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -229,13 +229,13 @@ result
 
 **示例 4:** 选择具有某些特定列的所有行。我们使用单冒号[ : ]来选择我们想要选择的所有行和列列表，如下所示:
 
-```
+```py
 Syntax: Dataframe.loc[[:, ["column1", "column2", "column3"]]
 ```
 
 **代码:**
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -276,7 +276,7 @@ result
 **例 1 :** 选择单行。
 **代码:**
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -310,7 +310,7 @@ result
 **示例 2:** 选择多行。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -344,7 +344,7 @@ result
 **示例 3:** 选择具有某些特定列的多行。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -380,7 +380,7 @@ result
 **示例 4:** 选择具有某些特定列的所有行。
 T3】代号:
 
-```
+```py
 # import pandas
 import pandas as pd
 

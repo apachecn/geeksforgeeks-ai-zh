@@ -23,7 +23,7 @@
 **示例#1:** 字符串到日期
 在以下示例中，读取 csv 文件，并将数据框的日期列从字符串对象转换为日期时间对象。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -54,7 +54,7 @@ data
 **例 2:** 转换时间时异常
 时间对象也可以用此方法转换。但是因为在时间栏中没有指定日期，所以熊猫会自动将**放入今天的日期**中。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

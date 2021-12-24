@@ -6,7 +6,7 @@
 
 **示例 1:** 将键值作为列表传递。
 
-```
+```py
 import pandas as pd
 
 data = {'name': ['nick', 'david', 'joe', 'ross'],

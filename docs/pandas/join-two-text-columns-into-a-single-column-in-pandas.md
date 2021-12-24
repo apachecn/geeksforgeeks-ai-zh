@@ -9,7 +9,7 @@
 **方法#1:使用 cat()函数**
 我们在连接的时候也可以使用不同的分隔符。例如-、_、" "等。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(df)
 
 此方法通过将 df[['First '，' Last']]替换为数据帧的任何列切片，例如 df.iloc[:，0:2]，来推广任意数量的字符串列。应用(λx:“”。join(x)，axis=1)。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -53,7 +53,7 @@ print(df)
 
 我们需要在连接之前将数据框元素转换成字符串。我们还可以在连接过程中使用不同的分隔符，例如-、_、' '等。
 
-```
+```py
 # importing pandas
 import pandas as pd
 

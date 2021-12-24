@@ -10,7 +10,7 @@
 
 **代码#1:长度()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.length()
 
@@ -36,7 +36,7 @@ print ("Permutation b - length form : ", b.length())
 
 **代码#2:长度()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.length()
 

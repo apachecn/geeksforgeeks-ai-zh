@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -42,7 +42,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Use concept of fancy indexing to make new 
 # column 'Value' in data frame 
 # with help of dataframe.lookup() function
@@ -62,7 +62,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -85,7 +85,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Use concept of fancy indexing to make two
 # new columns in data frame with help of
 # dataframe.lookup() function
@@ -106,7 +106,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -130,7 +130,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Use concept of fancy indexing to make two 
 # three columns in data frame with help of
 # dataframe.lookup() function

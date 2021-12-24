@@ -12,7 +12,7 @@
 
 在这种情况下，由于没有传递索引，因此默认情况下，索引将是`range(n)`，其中 *n* 是数组长度。
 
-```
+```py
 # importing Pandas & numpy
 import pandas as pd
 import numpy as np
@@ -27,7 +27,7 @@ print(s)
 
 **Output:**
 
-```
+```py
 0    a
 1    b
 2    c
@@ -41,7 +41,7 @@ dtype: object
 
 在这种情况下，我们将把索引作为参数传递给构造函数。
 
-```
+```py
 # importing Pandas & numpy
 import pandas as pd
 import numpy as np
@@ -56,7 +56,7 @@ print(s)
 
 **Output:**
 
-```
+```py
 1000    a
 1001    b
 1002    c

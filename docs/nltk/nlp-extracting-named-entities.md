@@ -7,7 +7,7 @@
 
 **代码#1:在树库 _ 组块语料库的标记句子上使用 ne-chunk()**
 
-```
+```py
 from nltk.corpus import treebank_chunk
 from nltk.chunk import ne_chunk
 
@@ -16,7 +16,7 @@ ne_chunk(treebank_chunk.tagged_sents()[0])
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('PERSON', [('Pierre', 'NNP')]), Tree('ORGANIZATION', 
 [('Vinken', 'NNP')]), (', ', ', '), ('61', 'CD'), ('years', 'NNS'), 
 ('old', 'JJ'), (', ', ', '), ('will', 'MD'), ('join', 'VB'), ('the', 'DT'),
@@ -29,7 +29,7 @@ Tree('S', [Tree('PERSON', [('Pierre', 'NNP')]), Tree('ORGANIZATION',
 
 **代码#2:使用所有子树的叶子提取命名实体的方法**
 
-```
+```py
 def sub_leaves(tree, label):
     return [t.leaves() 
             for t in tree.subtrees(
@@ -38,7 +38,7 @@ def sub_leaves(tree, label):
 
 **代码#3:使用方法从树上获取所有的人或组织的叶子**
 
-```
+```py
 tree = ne_chunk(treebank_chunk.tagged_sents()[0])
 
 from chunkers import sub_leaves
@@ -51,7 +51,7 @@ print ("\nNamed entites of ORGANIZATION : ", 
 
 **输出:**
 
-```
+```py
 Named entities of PERSON : [[('Pierre', 'NNP')]]
 
 Named entites of ORGANIZATION : [[('Vinken', 'NNP')]]
@@ -62,7 +62,7 @@ Named entites of ORGANIZATION : [[('Vinken', 'NNP')]]
 
 **代码#4:我们来了解一下`chunk_ne_sents()`**
 
-```
+```py
 from nltk.chunk import chunk_ne_sents
 from nltk.corpus import treebank_chunk
 
@@ -72,7 +72,7 @@ trees = chunk_ne_sents(treebank_chunk.tagged_sents()[:10])
 
 **输出:**
 
-```
+```py
 [[[('Vinken', 'NNP')]], [[('Elsevier', 'NNP')]], [[('Consolidated', 'NNP'), 
 ('Gold', 'NNP'), ('Fields', 'NNP')]], [], [], [[('Inc.', 'NNP')], 
 [('Micronite', 'NN')]], [[('New', 'NNP'), ('England', 'NNP'),

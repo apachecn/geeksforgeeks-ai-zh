@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.make_mask() function
 
@@ -36,7 +36,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ True  True False  True]
 ```
 
@@ -44,7 +44,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.make_mask() function
 
@@ -62,7 +62,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ True  True False  True]
 ```
 
@@ -70,7 +70,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.make_mask() function
 
@@ -88,6 +88,6 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ True  True  True False]
 ```

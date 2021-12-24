@@ -6,7 +6,7 @@
 
 让我们从 CSV 文件创建一个数据帧。我们正在使用不同国家过去的国内生产总值数据。可以从[这里](https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv)获取数据集。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -21,7 +21,7 @@ record.head()
 
 **方法#1:** 从记录中选择*大陆*列，应用唯一函数得到我们想要的值。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -34,14 +34,14 @@ print(record['continent'].unique())
 
 **输出:**
 
-```
+```py
 ['Asia' 'Europe' 'Africa' 'Americas' 'Oceania']
 
 ```
 
 **方法 2:** 从*国家*栏中选择唯一值。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(record.country.unique())
 
 **输出:**
 
-```
+```py
 ['Afghanistan' 'Albania' 'Algeria' 'Angola' 'Argentina' 'Australia'
  'Austria' 'Bahrain' 'Bangladesh' 'Belgium' 'Benin' 'Bolivia'
  'Bosnia and Herzegovina' 'Botswana' 'Brazil' 'Bulgaria' 'Burkina Faso'
@@ -87,7 +87,7 @@ print(record.country.unique())
 
 在这个方法中，您可以看到我们使用唯一函数中的 dataframe 作为参数，尽管我们选择了与上面相同的列，因此我们得到了相同的输出。
 
-```
+```py
 # Write Python3 code here
 # import pandas as pd
 import pandas as pd
@@ -102,7 +102,7 @@ print(pd.unique(record['continent']))
 
 **输出:**
 
-```
+```py
 ['Asia' 'Europe' 'Africa' 'Americas' 'Oceania']
 
 ```

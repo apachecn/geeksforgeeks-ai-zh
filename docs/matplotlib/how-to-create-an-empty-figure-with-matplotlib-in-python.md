@@ -14,13 +14,13 @@
 
 对于康达环境。
 
-```
+```py
 conda install ipympl -c conda-forge
 ```
 
 对于普通 python 终端:
 
-```
+```py
 pip install ipympl
 ```
 
@@ -30,7 +30,7 @@ pip install ipympl
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import matplotlib
 
@@ -55,7 +55,7 @@ fig = plt.figure()  
 
 ## 蟒蛇 3
 
-```
+```py
 # using different backend
 import matplotlib
 %matplotlib tk
@@ -81,7 +81,7 @@ show()方法也显示一个空的图形，但是您必须在使用 show()命令�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib
 
 # changing backend

@@ -12,7 +12,7 @@ Pandas `**TimedeltaIndex.inferred_type**`属性返回应用它的对象的推断
 
 **示例#1:** 使用`TimedeltaIndex.inferred_type`属性推断时间增量索引对象的类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将猜测给定时间增量索引对象的类型。
 
-```
+```py
 # return the inferred type of the tidx object
 tidx.inferred_type
 ```
@@ -40,7 +40,7 @@ tidx.inferred_type
 
 **示例#2:** 使用`TimedeltaIndex.inferred_type`属性推断 TimedeltaIndex 对象的类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将猜测给定时间增量索引对象的类型。
 
-```
+```py
 # return the inferred type of the tidx object
 tidx.inferred_type
 ```

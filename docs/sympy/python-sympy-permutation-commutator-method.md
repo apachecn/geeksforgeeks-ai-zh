@@ -12,7 +12,7 @@
 
 **代码#1:换向器()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.commutator()
 
@@ -38,7 +38,7 @@ print ("Permutation b - commutator form : ", b.commutator(a))
 
 **代码#2:换向器()示例**–自换向器
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.commutator()
 

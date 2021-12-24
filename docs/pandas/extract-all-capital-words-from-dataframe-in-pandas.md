@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas
 
@@ -32,7 +32,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas
 
@@ -64,7 +64,7 @@ for i in range(df.shape[1]):
 
 **输出:**
 
-```
+```py
 PANDAS
 DATAFRAME
 PYTHON
@@ -76,7 +76,7 @@ PYTHON
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas
 
@@ -99,7 +99,7 @@ for i in range(df.shape[1]):
 
 **输出:**
 
-```
+```py
 PANDAS
 DATAFRAME
 PYTHON
@@ -111,7 +111,7 @@ PYTHON
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import re
 import pandas
@@ -133,7 +133,7 @@ for i in range(df.shape[1]):
 
 **输出:**
 
-```
+```py
 PANDAS
 DATAFRAME
 PYTHON

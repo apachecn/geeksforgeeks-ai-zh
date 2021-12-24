@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 `sympy.is_odd()`函数测试给定的数字 n 是否为奇数。
 
-```
+```py
 Syntax:  sympy.is_odd(n)
 Parameter:  n; number to be tested
 Return:  bool value result 
@@ -13,7 +13,7 @@ Return:  bool value result
 
 **代码#1:**
 
-```
+```py
 # Python program to check odd number
 # using sympy.is_odd() method
 
@@ -30,7 +30,7 @@ print(geek2)
 
 输出:
 
-```
+```py
 False
 True
 
@@ -38,7 +38,7 @@ True
 
 **代码#2:**
 
-```
+```py
 # Python program to check odd number
 # using sympy.is_odd() method
 
@@ -53,6 +53,6 @@ print(geek)
 
 输出:
 
-```
+```py
 False
 ```

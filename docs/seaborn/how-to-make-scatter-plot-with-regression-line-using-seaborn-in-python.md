@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import seaborn as sb
 
@@ -46,7 +46,7 @@ lmplot 是另一个最基本的情节。它显示了一条代表线性回归模�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import seaborn as sb
 

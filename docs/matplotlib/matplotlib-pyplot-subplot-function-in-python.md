@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing hte module
 import matplotlib.pyplot as plt
 
@@ -64,7 +64,7 @@ plot_gfg
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 # data to display on plots
 

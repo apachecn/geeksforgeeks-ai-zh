@@ -31,7 +31,7 @@ matplotlib 库 pyplot 模块中的**相位谱()函数**用于绘制相位谱。�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -62,7 +62,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

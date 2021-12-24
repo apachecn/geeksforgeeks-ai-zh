@@ -18,7 +18,7 @@ TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型�
 
 如果系数是一个有 n 个值的张量，x 是一个张量，那么 P(x)是 n 次多项式，定义为:
 
-```
+```py
 p(x) = coeffs[n-1] + coeffs[n-2] * x + ... + coeffs[0] * x**(n-1)
 ```
 
@@ -26,7 +26,7 @@ p(x) = coeffs[n-1] + coeffs[n-2] * x + ... + coeffs[0] * x**(n-1)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -47,7 +47,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 coeffs:  [-1, 2, 3]
 x:  tf.Tensor([7], shape=(1, ), dtype=int32)
 Result:  tf.Tensor([-32], shape=(1, ), dtype=int32)
@@ -58,7 +58,7 @@ Result:  tf.Tensor([-32], shape=(1, ), dtype=int32)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -79,7 +79,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 coeffs:  [-1, 2, 3]
 x:  tf.Tensor([7 2], shape=(2, ), dtype=int32)
 Result:  tf.Tensor([-32   3], shape=(2, ), dtype=int32)

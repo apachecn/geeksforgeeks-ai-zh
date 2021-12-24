@@ -62,7 +62,7 @@ Bokeh 可用于绘制垂直条形图。可以使用绘图模块的 vbar()方法�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -98,7 +98,7 @@ show(graph)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 

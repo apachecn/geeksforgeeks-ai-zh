@@ -15,7 +15,7 @@ Pandas `**DatetimeIndex.round()**`函数将 tz-naive DatetimeIndex 本地化为 
 
 **示例#1:** 使用`DatetimeIndex.round()`函数将 DatetimeIndex 对象的数据舍入到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(didx)
 
 现在，我们要将 DatetimeIndex 对象的第二个基于频率的频率转换为基于分钟的频率
 
-```
+```py
 # convert to the passed frequency
 # 'T' represents minute based frequency
 didx.round(freq ='T')
@@ -45,7 +45,7 @@ didx.round(freq ='T')
 
 **示例 2:** 使用`DatetimeIndex.round()`函数将 DatetimeIndex 对象的数据舍入到指定的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(didx)
 
 现在，我们希望将 DatetimeIndex 对象的基于分钟的频率转换为基于小时的频率
 
-```
+```py
 # convert to the passed frequency
 # Convert minute based frequency to hour based frequency
 didx.round(freq ='H')

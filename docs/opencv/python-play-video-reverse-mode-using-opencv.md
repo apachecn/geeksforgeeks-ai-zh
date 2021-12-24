@@ -4,7 +4,7 @@
 
 [OpenCV](https://www.geeksforgeeks.org/set-opencv-anaconda-environment/) (开源计算机视觉)是一个计算机视觉库，包含对图像或视频进行操作的各种功能。
 
-```
+```py
 OpenCV's application areas include :
 
 1) Facial recognition system
@@ -18,13 +18,13 @@ OpenCV's application areas include :
 
 > 对于窗口:
 > 
-> ```
+> ```py
 > pip install opencv-python
 > ```
 > 
 > 对于 Linux:
 > 
-> ```
+> ```py
 > sudo apt-get install python-opencv
 > ```
 
@@ -33,7 +33,7 @@ OpenCv 库可以用来对视频进行多种操作。让我们尝试使用 **CV2*
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to play a video
 # in reverse mode using opencv
 

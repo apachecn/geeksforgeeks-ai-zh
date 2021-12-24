@@ -4,7 +4,7 @@
 
 **汉宁窗**是使用加权余弦形成的锥度。
 
-```
+```py
 Syntax:  numpy.hamming(M)
 
 Parameters: 
@@ -17,7 +17,7 @@ Returns:  AN array
 
 **代码#1:**
 
-```
+```py
 import numpy as np
 
 print(np.hanning(12))
@@ -25,7 +25,7 @@ print(np.hanning(12))
 
 **输出:**
 
-```
+```py
 [ 0\.          0.07937323  0.29229249  0.57115742  0.82743037  0.97974649
   0.97974649  0.82743037  0.57115742  0.29229249  0.07937323  0\.        ]
 
@@ -33,7 +33,7 @@ print(np.hanning(12))
 
 **代码#2:** 绘制窗口及其频率响应(需要 SciPy 和 matplotlib)。
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.fft import fft, fftshift
@@ -53,7 +53,7 @@ plt.show()
 
 **频率:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.fft import fft, fftshift

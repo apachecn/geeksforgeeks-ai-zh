@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 ex1 = np.array([1, 4, -9, np.nan])
@@ -43,7 +43,7 @@ print(approach_1(ex2))
 
 **输出:**
 
-```
+```py
 3
 5
 ```
@@ -59,7 +59,7 @@ print(approach_1(ex2))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 ex3 = np.array([[3, 4, -390, np.nan], 
@@ -73,7 +73,7 @@ print(approach_2(ex3))
 
 **输出:**
 
-```
+```py
 4
 ```
 
@@ -91,7 +91,7 @@ print(approach_2(ex3))
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 ex4 = np.array([[0.35834379, 0.67202438, np.nan, np.nan,
@@ -113,6 +113,6 @@ print(approach_3(ex4))
 
 **输出:**
 
-```
+```py
 22
 ```

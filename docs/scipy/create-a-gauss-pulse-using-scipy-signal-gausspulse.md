@@ -39,7 +39,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np

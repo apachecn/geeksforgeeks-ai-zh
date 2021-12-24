@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_fourier_transform
 from sympy import inverse_fourier_transform, exp, sqrt, pi
 from sympy.abc import x, k
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_fourier_transform
 from sympy import inverse_fourier_transform, exp, sqrt, pi
 from sympy.abc import x, k

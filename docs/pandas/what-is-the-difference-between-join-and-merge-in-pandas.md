@@ -10,7 +10,7 @@ join 和 merge 都可以用来组合两个数据帧，但是 join 方法根据�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating the two dataframes
@@ -32,7 +32,7 @@ right = pd.DataFrame([['c', 3], ['d', 4]], list('XY'), list('PR'))
 
 ## 蟒蛇 3
 
-```
+```py
 joined_df = left.join(right, lsuffix='_')
 print(joined_df)
 ```
@@ -47,7 +47,7 @@ print(joined_df)
 
 ## 蟒蛇 3
 
-```
+```py
 joined_df2 = left.reset_index().join(right, on='index', lsuffix='_')
 print(joined_df2)
 ```
@@ -64,7 +64,7 @@ print(joined_df2)
 
 ## 蟒蛇 3
 
-```
+```py
 merged_df = left.merge(right, on='P', how='outer')
 print(merged_df)
 ```
@@ -81,7 +81,7 @@ print(merged_df)
 
 ## 蟒蛇 3
 
-```
+```py
 merged_df = left.merge(right, left_index=True,
                        right_index=True, suffixes=['_', ''])
 print(merged_df)

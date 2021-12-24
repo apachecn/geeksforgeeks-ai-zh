@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.swaplevel()`功能将多索引的第 0 级与第 1 级交换。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(midx)
 
 现在让我们用多索引的第一级交换第 0 级。
 
-```
+```py
 # swap the levels
 midx.swaplevel(0, 1)
 ```
@@ -45,7 +45,7 @@ midx.swaplevel(0, 1)
 
 **示例 2:** 使用`MultiIndex.swaplevel()`功能将多索引的第 0 级与第 1 级交换。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(midx)
 
 现在让我们用多索引的第二级交换第 0 级。
 
-```
+```py
 # swap the levels
 midx.swaplevel(0, 2)
 ```

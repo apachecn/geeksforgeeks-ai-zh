@@ -10,7 +10,7 @@ Matplotlib 是一个 Python 库，它为我们提供了各种函数，我们可�
 
 ## 计算机编程语言
 
-```
+```py
 # importing matplotlib library
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ plt.show()
 
 ## **计算机编程语言**
 
-```
+```py
 # importing matplotlib library
 import matplotlib.pyplot as plt
 

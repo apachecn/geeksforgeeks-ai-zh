@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.droplevel()`功能删除多索引的第 0 级。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(midx)
 
 现在让我们放下多索引的第 0 级。
 
-```
+```py
 # drop the 0th level.
 midx.droplevel(level = 0)
 ```
@@ -44,7 +44,7 @@ midx.droplevel(level = 0)
 
 **示例 2:** 使用`MultiIndex.droplevel()`功能放下多索引的第一级。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(midx)
 
 现在让我们放下多索引的第一级。
 
-```
+```py
 # drop the 1st level.
 midx.droplevel(level = 1)
 ```

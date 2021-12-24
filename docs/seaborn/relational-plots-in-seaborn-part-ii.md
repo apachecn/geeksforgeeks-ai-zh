@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 sns.set(style ="ticks")
 

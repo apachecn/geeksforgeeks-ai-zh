@@ -13,7 +13,7 @@
 
 **代码:解释 factorize()方法的工作原理**
 
-```
+```py
 # importing libraries
 import numpy as np
 import pandas as pd
@@ -27,7 +27,7 @@ print("Unique Values : \n", uniques)
 
 ![](img/e367a182b7b2021f50e4063621aa1ee0.png)
 
-```
+```py
 # sorting the numerics
 label1, unique1 = pd.factorize(['b', 'd', 'd', 'c', 'a', 'c', 'a', 'b'], 
                                                            sort = True)
@@ -38,7 +38,7 @@ print("Unique Values : \n", unique1)
 
 ![](img/a0cbfc755f06a2e4014b9d86e2a38727.png)
 
-```
+```py
 # Missing values indicated
 label2, unique2 = pd.factorize(['b', None, 'd', 'c', None, 'a', ], 
                                               na_sentinel = -101)
@@ -49,7 +49,7 @@ print("Unique Values : \n", unique2)
 
 ![](img/6e52bba05e2247e746358d08027eaf3a.png)
 
-```
+```py
 # When factorizing pandas object; unique will differ 
 a = pd.Categorical(['a', 'a', 'c'], categories =['a', 'b', 'c'])
 

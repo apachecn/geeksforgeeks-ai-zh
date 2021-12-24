@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.delete()`函数从时间增量索引对象中删除传递的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 **注:**指数值从 0 开始。
 
-```
+```py
 # delete the passed index
 tidx.delete(1)
 ```
@@ -45,7 +45,7 @@ tidx.delete(1)
 
 **示例 2:** 使用`TimedeltaIndex.delete()`函数从 TimedeltaIndex 对象中删除传递的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(tidx)
 
 **注:**指数值从 0 开始。
 
-```
+```py
 # delete the passed indexes
 tidx.delete([2, 3, 4])
 ```

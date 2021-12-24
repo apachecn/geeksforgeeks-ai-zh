@@ -8,13 +8,13 @@
 
 对于 python 环境:
 
-```
+```py
 pip install seaborn
 ```
 
 对于 conda 环境:
 
-```
+```py
 conda install seaborn
 ```
 
@@ -22,7 +22,7 @@ conda install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries  
 import numpy as np  
 import seaborn as sns  
@@ -65,7 +65,7 @@ sns.distplot(d, kde = True, color = "g")
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries  
 import numpy as np  
 import seaborn as sns  
@@ -99,7 +99,7 @@ sns.distplot(d, kde = True, color = "g").set_title('Seaborn')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries  
 import numpy as np  
 import seaborn as sns  
@@ -134,7 +134,7 @@ sns.distplot(d, kde = True, color = "g").set_title(
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries  
 import numpy as np  
 import seaborn as sns  
@@ -169,7 +169,7 @@ sns.distplot(d, kde = True, color = "g").set_title(
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries  
 import numpy as np  
 import seaborn as sns      
@@ -198,7 +198,7 @@ sns.distplot(d, kde = True, color = "g").set_title(
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 import seaborn as sns

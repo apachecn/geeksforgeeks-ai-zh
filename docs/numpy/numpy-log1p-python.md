@@ -9,7 +9,7 @@
 
     **参数:**
 
-    ```
+    ```py
     array    : [array_like]Input array or object.
     out      : [ndarray, optional]Output array with same dimensions as 
                 Input array, placed with result.
@@ -23,7 +23,7 @@
 
     **返回:**
 
-    ```
+    ```py
     An array with natural logarithmic value of x + 1; 
     where x belongs to all elements of input array. 
 
@@ -31,7 +31,7 @@
 
     **代码 1:工作**
 
-    ```
+    ```py
     # Python program explaining
     # log1p() function
     import numpy as np
@@ -45,7 +45,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Input array :  [1, 3, 5]
     Output array :  [ 0.69314718  1.38629436  1.79175947]
 
@@ -53,7 +53,7 @@
 
     **代码 2:图形表示**
 
-    ```
+    ```py
     # Python program showing
     # Graphical representation of 
     # log1p() function
@@ -78,7 +78,7 @@
 
     **输出:**
 
-    ```
+    ```py
     out_array :  [ 0.69314718  0.78845736  0.87546874  0.95551145  1.02961942  1.09861229]
     ```
 

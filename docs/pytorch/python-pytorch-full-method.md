@@ -17,7 +17,7 @@ PyTorch 是脸书开发的开源机器学习库。它用于深度神经网络和
 
 **代码#1:**
 
-```
+```py
 # Importing the PyTorch library
 import torch
 
@@ -32,7 +32,7 @@ print("b = ", b)
 
 **输出:**
 
-```
+```py
 a =  tensor([[3., 3., 3., 3.],
         [3., 3., 3., 3.],
         [3., 3., 3., 3.]])

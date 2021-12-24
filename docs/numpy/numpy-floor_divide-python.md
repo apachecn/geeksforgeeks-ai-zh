@@ -9,7 +9,7 @@
 
 **参数:**
 
-```
+```py
 arr1     : [array_like]Input array or object which works as numerator.
 
 arr2     : [array_like]Input array or object which works as denominator. 
@@ -28,14 +28,14 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with floor(x1 / x2)
 
 ```
 
 **代码 1 : arr1 除以 arr2**
 
-```
+```py
 # Python program explaining
 # floor_divide() function
 import numpy as np
@@ -53,7 +53,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 2, 2, 2, 2]
 arr1         :  [2, 3, 4, 5, 6]
 
@@ -63,7 +63,7 @@ Output array :  [1 0 0 0 0]
 
 **代码 arr1 的元素除以除数**
 
-```
+```py
 # Python program explaining
 # floor_divide() function
 import numpy as np
@@ -80,7 +80,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 7, 3, 11, 4]
 
 Output array :  [0 2 1 3 1]
@@ -88,7 +88,7 @@ Output array :  [0 2 1 3 1]
 
 **代码 3:如果 arr2 有-ve 元素**则 floor_divide 处理结果
 
-```
+```py
 # Python program explaining
 # floor_divide() function
 import numpy as np
@@ -106,7 +106,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 6, 21, 21, 12]
 arr2         :  [2, 3, 4, -3, 6]
 

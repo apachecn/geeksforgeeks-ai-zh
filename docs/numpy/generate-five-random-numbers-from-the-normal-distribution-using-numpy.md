@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import numpy as np
 
@@ -36,7 +36,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 [ 0.27491897 -0.18001994 -0.01783066  1.07701319 -0.11356911]
 
 ```
@@ -45,7 +45,7 @@ print(r)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import numpy as np
 
@@ -58,7 +58,7 @@ print("1D Array with random values : \n", random_array)
 
 **输出:**
 
-```
+```py
 1D Array with random values :
 [ 0.14559212  1.97263406  1.11170937 -0.88192442  0.8249291 ]
 

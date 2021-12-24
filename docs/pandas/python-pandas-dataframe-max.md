@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`max()`函数查找索引轴上的最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 让我们使用`dataframe.max()`函数找到索引轴上的最大值
 
-```
+```py
 # Even if we do not specify axis = 0, 
 # the method will return the max over
 # the index axis by default
@@ -48,7 +48,7 @@ df.max(axis = 0)
 
 **示例 2:** 对具有`Na`值的数据框使用`max()`功能。还要找到柱轴上的最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

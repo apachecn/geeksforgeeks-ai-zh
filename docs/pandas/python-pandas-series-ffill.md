@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.ffill()`函数填写给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.ffill()`函数来填充给定序列对象中缺失的值。
 
-```
+```py
 # fill the missing values
 result = sr.ffill()
 
@@ -54,7 +54,7 @@ print(result)
 
 **例 2 :** 使用`Series.ffill()`函数填写给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.ffill()`函数来填充给定序列对象中缺失的值。
 
-```
+```py
 # fill the missing values
 result = sr.ffill()
 

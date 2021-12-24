@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas  module for data frame
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Set the hierarchical index
 df = df.set_index(['Name', 'college'], drop=False)
 

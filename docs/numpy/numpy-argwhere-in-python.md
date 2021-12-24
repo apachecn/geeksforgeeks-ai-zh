@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # argwhere() function
 
@@ -29,7 +29,7 @@ print ("Output indices of non zero array element: \n", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[2, 0, 7], [0, 5, 9]]
 Output indices of non zero array element: 
  [[0 0]
@@ -41,7 +41,7 @@ Output indices of non zero array element:
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # argwhere() function
 
@@ -57,7 +57,7 @@ print ("Output indices greater than 4: \n", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[0 1]
  [2 3]
  [4 5]

@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.get_slice_bound()`函数在给定的时间增量索引对象中找到一个值的左边界。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.get_slice_bound()`函数来查找“1 天 02:00:00”的左侧切片边界。
 
-```
+```py
 # find the left slice bound for passed value
 tidx.get_slice_bound('1 days 02:00:00', side ='left', kind ='loc')
 ```
@@ -46,7 +46,7 @@ tidx.get_slice_bound('1 days 02:00:00', side ='left', kind ='loc')
 
 **示例#2:** 使用`TimedeltaIndex.get_slice_bound()`函数在给定的时间增量索引对象中查找值的左切片边界。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 ![](img/99af06b6e7d9ef26ec02fae9c63a14c1.png)
 现在我们使用`TimedeltaIndex.get_slice_bound()`函数找到‘13 天 06:05:01.000030’的左切片边界。
 
-```
+```py
 # find the left slice bound for passed value
 tidx.get_slice_bound('13 days 06:05:01.000030', side ='left', kind ='loc')
 ```

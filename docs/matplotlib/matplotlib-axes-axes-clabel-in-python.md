@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.clabel()函数**用于标注等高线
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.clabel(self, CS, *args, **kwargs)
 > ```
 > 
@@ -38,7 +38,7 @@ matplotlib 库的 Axes 模块中的 **Axes.clabel()函数**用于标注等高线
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,7 +70,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np

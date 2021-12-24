@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns 
 import matplotlib.pyplot as plt
 ```
@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # set our graph style to whitegrid
 sns.set(style="whitegrid")
 
@@ -43,6 +43,6 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.legend(bbox_to_anchor=(1, 1), loc=2)
 ```

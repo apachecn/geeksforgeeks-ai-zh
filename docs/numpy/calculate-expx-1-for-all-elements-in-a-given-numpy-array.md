@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy
 
 n = 4
@@ -35,7 +35,7 @@ print(numpy.exp(n))
 
 **输出:**
 
-```
+```py
 54.598150033144236
 148.4131591025766
 ```
@@ -46,7 +46,7 @@ print(numpy.exp(n))
 
 ## 计算机编程语言
 
-```
+```py
 # importing numpy
 import numpy
 
@@ -78,7 +78,7 @@ print("Output : ", arr)
 
 ## 计算机编程语言
 
-```
+```py
 # importing numpy
 import numpy
 

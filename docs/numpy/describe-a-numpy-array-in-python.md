@@ -10,7 +10,7 @@
 
 T5
 
-```
+```py
 import numpy as np
 
 # sample array

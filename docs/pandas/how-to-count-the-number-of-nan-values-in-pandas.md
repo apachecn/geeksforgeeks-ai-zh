@@ -8,7 +8,7 @@
 
 我们可以使用**description()**方法返回一个包含数据集详细信息的表。**计数**属性直接给出每列中非 NaN 值的计数。所以，如果我们知道观察的总数，我们可以得到 NaN 值的计数。
 
-```
+```py
 import pandas as pd 
 import numpy as np
 
@@ -36,7 +36,7 @@ data.describe()
 
 我们可以简单地在所需的列中找到空值，然后得到总和。
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -56,7 +56,7 @@ print(data['B'].isnull().sum())
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -64,7 +64,7 @@ print(data['B'].isnull().sum())
 
 可以使用 [loc](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/) 或 [iloc](https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/) 选择行。然后我们像以前一样求出总和。
 
-```
+```py
 import pandas as pd 
 import numpy as np
 
@@ -84,14 +84,14 @@ print(data.loc[1, :].isnull().sum())
 
 **输出:**
 
-```
+```py
 1
 ```
 
 **计算整个数据框中的 NaN:**
 要计算整个数据集中的 NaN，我们只需要调用 **sum()** 函数两次——一次用于获取每一列中的计数，另一次用于查找所有列的总和。
 
-```
+```py
 import pandas as pd 
 import numpy as np
 
@@ -111,6 +111,6 @@ print(data.isnull().sum().sum())
 
 **输出:**
 
-```
+```py
 6
 ```

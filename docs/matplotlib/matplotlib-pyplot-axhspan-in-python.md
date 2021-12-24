@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的 **axhspan()函数**用于添加一个跨轴�
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # xmin = 0 and xmax = 1 is the
@@ -38,7 +38,7 @@ plt.axhspan(0.25, 0.75, facecolor ='r', alpha = 0.7)
 
 **例 2:**
 
-```
+```py
 #Implementation of matplotlib function
 import numpy as np 
 import matplotlib.pyplot as plt 

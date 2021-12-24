@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.loc`属性根据标签从给定的序列对象中选择一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.loc`属性返回给定序列对象中所选标签的值。
 
-```
+```py
 # return the selected values.
 sr.loc[['City 4', 'City 3', 'City 1']]
 ```
@@ -48,7 +48,7 @@ sr.loc[['City 4', 'City 3', 'City 1']]
 
 **示例 2 :** 使用`Series.loc`属性根据标签从给定的序列对象中选择一些值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们将使用`Series.loc`属性返回给定序列对象中所选标签的值。
 
-```
+```py
 # return the selected values.
 sr.loc[['Day 4', 'Day 3', 'Day 1']]
 ```

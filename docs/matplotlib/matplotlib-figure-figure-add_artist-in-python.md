@@ -21,7 +21,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 np.random.seed(19680801)
@@ -67,7 +67,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

@@ -12,7 +12,7 @@ Scipy-Constants 是 Scipy 库中的一个子模块，它为我们完成了这项
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import scipy
 
@@ -39,7 +39,7 @@ print("Proton mass Constant:", scipy.constants.proton_mass)
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy
 
 # find method looks up in the dictorary and
@@ -60,7 +60,7 @@ print(res, end='\n')
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy
 
 # This returns a tuple (value, unit, uncertainty)
@@ -70,7 +70,7 @@ print(scipy.constants.physical_constants['alpha particle mass'])
 
 **输出:**
 
-```
+```py
 (6.6446573357e-27, 'kg', 2e-36)
 ```
 
@@ -78,7 +78,7 @@ print(scipy.constants.physical_constants['alpha particle mass'])
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy
 
 # Area of a circle using

@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们可以看到，通过使用`stats.hypsecant.fit()`方法，我们能够使用该方法获得通用数据的参数估计。
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 data = [1, 2, 3, 4]
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 data = [1, 2, 3, 4, 10, -5]

@@ -10,7 +10,7 @@
 
 **先看原始数据帧。**
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -31,7 +31,7 @@ df
 
 **示例#1:** 在不删除默认索引的情况下创建自己的索引。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -58,7 +58,7 @@ df
 
 **示例 2:** 创建自己的索引并删除默认索引。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -83,7 +83,7 @@ df
 
 **例 3:** 重置自己的索引，将默认索引作为索引。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -110,7 +110,7 @@ df
 
 **示例#4:** 创建一列数据帧作为索引，并删除默认索引。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -138,7 +138,7 @@ df
 
 **示例 5:** 将一列数据帧作为索引，而不移除默认索引。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 

@@ -31,7 +31,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import cv2 as cv
 import numpy as np
 

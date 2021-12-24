@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -31,7 +31,7 @@ print("Value of the Integral : {} ".format(expr_intg.doit()))
 
 **输出:**
 
-```
+```py
 Expression : x**2 + y**3 + 2*y 
 Integral of expression with respect to x : Integral(x**2 + y**3 + 2*y, x)
 Value of the Integral : x**3/3 + x*(y**3 + 2*y) 
@@ -40,7 +40,7 @@ Value of the Integral : x**3/3 + x*(y**3 + 2*y)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -57,7 +57,7 @@ print("Value of the Integral : {} ".format(expr_intg.doit()))
 
 **输出:**
 
-```
+```py
 Expression : x**2*y**3 + x*y**3 + 2*x*y 
 Integral of expression with respect to x : Integral(x**2*y**3 + x*y**3 + 2*x*y, x, y)
 Value of the Integral : x**2*y**2/2 + y**4*(x**3/12 + x**2/8) 

@@ -8,7 +8,7 @@
 
 我们可以传递任何 Python、Numpy 或 Pandas 数据类型来将数据框的所有列更改为该类型，或者我们可以传递以列名作为键、以数据类型作为值的字典来更改所选列的类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -26,7 +26,7 @@ print(df.dtypes)
 **输出:**
 ![](img/4e2d5c05da1d6cd14588cf49d2f6f68c.png)
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ print(df.dtypes)
 
 我们可以将 pandas.to_numeric、pandas.to_datetime 和 pandas.to_timedelta 作为参数传递给`apply()`函数，将一列或多列的数据类型分别更改为 numeric、datetime 和 timedelta。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(df.dtypes)
 **方法#3:** 使用[data frame . expert _ objects()](https://www.geeksforgeeks.org/python-pandas-dataframe-infer_objects/)
 该方法通过推断“对象”类型列的数据类型来尝试软转换。非对象和不可转换的列保持不变。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.clip() method 
 
@@ -51,7 +51,7 @@ print ("Output clipped array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(5.0, 2) (3.0, -4) (6.0, 9)]
  [(9.0, 1) (5.0, 4) (-12.0, -7)]]
 Record array of int:  [[ 2 -4  9]

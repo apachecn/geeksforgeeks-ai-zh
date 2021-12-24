@@ -19,7 +19,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.all() method 
 
@@ -48,7 +48,7 @@ print ("Output array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  5]
 Output array :  True
 Masked array :  [1 2 -- -1 5]
@@ -58,7 +58,7 @@ Output array :  True
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.all() method 
 
@@ -83,7 +83,7 @@ print ("Output array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  5]
 Masked array :  [-- -- -- -- --]
 Output array :  --

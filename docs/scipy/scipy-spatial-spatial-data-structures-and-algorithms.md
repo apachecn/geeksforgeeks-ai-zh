@@ -14,7 +14,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from scipy.spatial import Delaunay
 import numpy as np
 import matplotlib.pyplot as plt
@@ -38,7 +38,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 from scipy.spatial import Delaunay
 import numpy as np
 
@@ -51,7 +51,7 @@ print(tri.coplanar)
 
 **输出:**
 
-```
+```py
 [[3 1 0]
  [2 3 0]]
 [[4 0 3]]
@@ -63,7 +63,7 @@ print(tri.coplanar)
 
 ## 计算机编程语言
 
-```
+```py
 from scipy.spatial import ConvexHull
 import numpy as np
 import matplotlib.pyplot as plt
@@ -88,7 +88,7 @@ kd-tree 是一种快速的最近邻查找。和 Kdtree()方法返回 kd-tree 对
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy.spatial import KDTree
 
 points = np.random.rand(10, 2)
@@ -99,6 +99,6 @@ print(result)
 
 **输出:**
 
-```
+```py
 (0.5144859720297681, 9)
 ```

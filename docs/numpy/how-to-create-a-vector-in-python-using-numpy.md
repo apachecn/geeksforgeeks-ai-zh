@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -55,7 +55,7 @@ print(vector2)
 
 **输出:**
 
-```
+```py
 Horizontal Vector
 [1 2 3]
 ----------------
@@ -70,7 +70,7 @@ Vertical Vector
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -123,7 +123,7 @@ print("Vector Division       : " + str(division))
 
 **输出:**
 
-```
+```py
 First Vector: [5 6 9]
 Second Vector: [1 2 3]
 Vector Addition: [ 6  8 12]
@@ -138,7 +138,7 @@ Vector Division: [5 3 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -171,7 +171,7 @@ print("Dot Product   : " + str(dot_product))
 
 **输出:**
 
-```
+```py
 First Vector  : [5 6 9]
 Second Vector : [1 2 3]
 Dot Product   : 44
@@ -182,7 +182,7 @@ Dot Product   : 44
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -212,7 +212,7 @@ print("Scalar Multiplication : " + str(scalar_mul))
 
 **输出**
 
-```
+```py
 Vector  : [1 2 3]
 Scalar  : 2
 Scalar Multiplication : [2 4 6]

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.month`属性查找日期时间索引中的月份。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中存在的所有月份值。
 
-```
+```py
 # find all the months in the object
 didx.month
 ```
@@ -41,7 +41,7 @@ didx.month
 
 **示例 2:** 使用`DatetimeIndex.month`属性查找日期时间索引中的月份。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中存在的所有月份值。
 
-```
+```py
 # find all the months in the object
 didx.month
 ```

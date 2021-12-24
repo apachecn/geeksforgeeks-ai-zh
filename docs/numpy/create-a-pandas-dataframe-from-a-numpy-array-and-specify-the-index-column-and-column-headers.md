@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Create a 
 # Pandas DataFrame from a Numpy  
 # array and specify the index 
@@ -46,7 +46,7 @@ print(panda_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Create a 
 # Pandas DataFrame from a Numpy  
 # array and specify the index column 
@@ -83,7 +83,7 @@ print(panda_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Create a 
 # Pandas DataFrame from a Numpy  
 # array and specify the index column 
@@ -128,7 +128,7 @@ print(panda_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Create a 
 # Pandas DataFrame from a Numpy  
 # array and specify the index column 

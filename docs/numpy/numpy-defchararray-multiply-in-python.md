@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.multiply() method 
 import numpy as np 
@@ -34,7 +34,7 @@ print ("\narr2 : ", np.char.multiply(arr2, 3))
 
 **输出:**
 
-```
+```py
 arr1 :  ['eAAAa', 'ttttds', 'AAt']
 
 arr2 :  ['11sf', 'sdsf2', '1111f2']
@@ -49,7 +49,7 @@ arr2 :  ['11sf11sf11sf' 'sdsf2sdsf2sdsf2' '1111f21111f21111f2']
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.multiply() method 
 import numpy as np 
@@ -63,7 +63,7 @@ print ("\narr2 : ", np.char.multiply(arr2, 4))
 
 **输出:**
 
-```
+```py
 arr1 :  This is geeks 
 arr2 :  for geeks 
 

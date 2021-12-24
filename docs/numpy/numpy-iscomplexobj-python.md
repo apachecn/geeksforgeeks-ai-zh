@@ -8,13 +8,13 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object whose elements, we need to test.
 ```
 
 **返回:**
 
-```
+```py
 True, if the input array has a complex element; otherwise False 
 ```
 
@@ -22,7 +22,7 @@ True, if the input array has a complex element; otherwise False
 
 ## 计算机编程语言
 
-```
+```py
 # Python program explaining
 # iscomplexobj() function
 import numpy as np
@@ -36,7 +36,7 @@ print ("\nIs complex : ", output_value)
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5, 4]
 
 Is complex :  False
@@ -46,7 +46,7 @@ Is complex :  False
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.iscomplexobj() method
 import numpy as geek
@@ -69,7 +69,7 @@ print("\nIs complex : \n", geek.iscomplexobj(b))
 
 **输出:**
 
-```
+```py
 Is complex : 
  False
 

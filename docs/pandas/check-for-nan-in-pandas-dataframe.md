@@ -18,7 +18,7 @@ NaN 代表 Not A Number，是表示数据中缺失值的常用方法之一。它
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -44,7 +44,7 @@ print(check_nan)
 
 ## 蟒蛇 3
 
-```
+```py
 check_nan = df['Integers'].isnull()
 ```
 
@@ -56,7 +56,7 @@ check_nan = df['Integers'].isnull()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -85,7 +85,7 @@ print('Number of NaN values present: ' + str(count_nan))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -115,7 +115,7 @@ print(nan_in_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np

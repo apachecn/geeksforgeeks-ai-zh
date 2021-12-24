@@ -10,7 +10,7 @@
 
 **代码#1 : array_form()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.array_form()
 
@@ -36,7 +36,7 @@ print ("Permutation b - array form : ", b.array_form)
 
 **代码#2 : array_form()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.array_form()
 

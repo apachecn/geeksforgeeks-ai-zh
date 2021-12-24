@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 import pandas as pd
@@ -46,7 +46,7 @@ df.to_stata('person.dta')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas as pd
 

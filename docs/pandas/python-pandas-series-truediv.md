@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.truediv()`函数执行给定序列对象与其他标量的浮点除法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 现在我们将使用`Series.truediv()`函数来执行给定序列对象与其他标量的浮点除法。
 
-```
+```py
 # divide all elements of the series by 10
 sr.truediv(other = 10)
 ```
@@ -47,7 +47,7 @@ sr.truediv(other = 10)
 
 **示例#1:** 使用`Series.truediv()`函数执行给定序列对象与其他标量的浮点除法。给定的 Series 对象包含一些缺失的值。处理缺少的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(sr)
 
 现在我们将使用`Series.truediv()`函数来执行给定序列对象与其他标量的浮点除法。将缺少的值填充 100。
 
-```
+```py
 # divide all elements of the series by 10
 # Also fill all the missing places by 100
 sr.truediv(other = 10, fill_value = 100)

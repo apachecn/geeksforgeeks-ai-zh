@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 numpy.full_like(a, fill_value, dtype = None, order = 'K', subok = True)
 ```
 
 **参数:**
 
-```
+```py
 shape : Number of rows
 order : C_contiguous or F_contiguous
 dtype : [optional, float(by Default )] Data type of returned array.  
@@ -22,12 +22,12 @@ subok : [bool, optional] to make subclass of a or not
 
 **返回:**
 
-```
+```py
 ndarray
 
 ```
 
-```
+```py
 # Python Programming illustrating
 # numpy.full_like method
 
@@ -48,7 +48,7 @@ print("\ny after full_like : \n", geek.full_like(y, 0.01))
 
 **输出:**
 
-```
+```py
 x before full_like : 
  [[0 1 2 3 4]
  [5 6 7 8 9]]

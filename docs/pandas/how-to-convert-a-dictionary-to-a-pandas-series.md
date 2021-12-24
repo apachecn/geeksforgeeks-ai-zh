@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -34,7 +34,7 @@ result_series
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -59,7 +59,7 @@ result_series
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 

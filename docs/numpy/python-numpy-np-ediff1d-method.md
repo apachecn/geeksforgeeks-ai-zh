@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.ediff1d()`方法，我们能够使用该方法获得数组元素的连续差异的 1D 数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

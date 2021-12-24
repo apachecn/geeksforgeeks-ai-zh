@@ -8,7 +8,7 @@
 
 我们可以从较高的 LR 值开始，然后在一定的迭代后定期降低它的值，而不是采用恒定的学习速率。通过这种方式，我们最初可以更快地收敛，同时减少超过损失的机会。为了实现这一点，我们可以在 PyTorch 的 optim 库中使用各种调度器。训练循环的格式如下
 
-```
+```py
 epochs = 10
 scheduler = <Any scheduler>
 
@@ -26,7 +26,7 @@ PyTorch 提供了几种方法来根据时代的数量调整学习速度。我们
 
 *   **步长 LR:** 每*步长*个时期将学习速率乘以 gamma。例如，如果 *lr* = 0.1、*γ*= 0.1、*步长* = 10，则在 10 个纪元之后，lr 变为***lr *步长*** ，在这种情况下为 0.01，在另外 10 个纪元之后，它变为 0.001。
 
-```
+```py
 # Code format:-
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
 scheduler = StepLR(optimizer, step_size=10, gamma=0.1)
@@ -41,7 +41,7 @@ lr = 0.001             for epoch >= 20 and epoch < 30
 
 *   **多副本:**这是 *StepLR* 的一个更定制的版本，在这个版本中，LR 在到达它的某个时代后被改变。在这里，我们提供了里程碑，即我们想要更新我们的学习速度的时代。
 
-```
+```py
 # Code format:-
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
 scheduler = MultiStepLR(optimizer, milestones=[10,30], gamma=0.1)
@@ -55,7 +55,7 @@ lr = 0.001             for epoch >= 30
 
 *   **指数 LR:** 这是 LR 中 *StepLR* 的一个激进版本，在每个纪元之后都会改变。你可以把它想象成步长= 1 的 *StepLR* 。
 
-```
+```py
 # Code format:-
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
 scheduler = ExponentialLR(optimizer, gamma=0.1)
@@ -70,7 +70,7 @@ lr = 0.001             for epoch = 3
 
 *   **减少学习延迟:**当指标停止改善时，减少学习速率。一旦学习停滞，模型通常会受益于将学习速率降低 2-10 倍。这个调度器读取一个度量值，如果对于一个**耐心**数量的时期没有看到任何改进，那么学习速率降低。
 
-```
+```py
 optimizer = torch.optim.SGD(model.parameters(), lr=0.1)
 scheduler = ReduceLROnPlateau(optimizer, 'min', patience = 5)
 
@@ -82,7 +82,7 @@ scheduler = ReduceLROnPlateau(optimizer, 'min', patience = 5)
 
 在本教程中，我们将使用 MNIST 数据集，因此我们将首先加载数据，然后定义模型。建议你知道如何在 PyTorch 中创建和训练神经网络。让我们从加载数据开始。
 
-```
+```py
 from torchvision import datasets,transforms
 from torch.utils.data import DataLoader
 
@@ -99,7 +99,7 @@ validloader = DataLoader(test, batch_size= 32, shuffle=True)
 
 既然我们已经准备好了*数据加载器*，我们现在可以开始创建我们的模型了。PyTorch 模型遵循以下格式:-
 
-```
+```py
 from torch import nn
 
 class model(nn.Module):
@@ -112,7 +112,7 @@ class model(nn.Module):
 
 有了这一点，让我们来定义我们的模型:-
 
-```
+```py
 import torch
 from torch import nn
 import torch.nn.functional as F
@@ -142,7 +142,7 @@ if torch.cuda.is_available():
 
 现在我们有了我们的模型，我们可以指定我们的优化器，损失函数和我们的 *lr_scheduler* 。我们将使用 SGD 优化器，*交叉熵*用于损失函数，*减少 lr 调度器的 LROnPlateau* 。
 
-```
+```py
 from torch.optim import SGD
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 
@@ -153,7 +153,7 @@ scheduler = ReduceLROnPlateau(optimizer, 'min', patience = 5)
 
 让我们定义训练循环。训练循环与之前基本相同，只是这次我们将在循环结束时调用调度器步骤方法。
 
-```
+```py
 from tqdm.notebook import trange
 
 epoch = 25
@@ -200,7 +200,7 @@ for e in trange(epoch):
 
 **代码:**
 
-```
+```py
 import torch
 from torch import nn
 import torch.nn.functional as F

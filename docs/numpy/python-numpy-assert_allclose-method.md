@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，使用`numpy.assert_allclose()`方法，如果两个数组不相等，我们能够得到断言错误。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -29,7 +29,7 @@ if np.testing.assert_allclose(gfg1, gfg2):
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

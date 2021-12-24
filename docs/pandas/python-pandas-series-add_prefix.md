@@ -15,7 +15,7 @@ Pandas `**Series.add_prefix()**`功能用于给定系列对象的每个索引标
 
 **示例#1:** 使用`Series.add_prefix()`函数为给定序列对象中的每个索引标签添加前缀。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.add_prefix()`函数在给定序列对象中的每个索引标签之前添加字符串标签‘IPL 2019 _’。
 
-```
+```py
 # add 'IPL 2019_' before each index labels
 result = sr.add_prefix(prefix = 'IPL 2019_')
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2 :** 使用`Series.add_prefix()`函数为给定序列对象中的每个索引标签添加前缀。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.add_prefix()`函数在给定序列对象中的每个索引标签之前添加字符串标签“Date_”。
 
-```
+```py
 # add 'Date_' before each index labels
 result = sr.add_prefix(prefix = 'Date_')
 

@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Library
 import seaborn as sns
 

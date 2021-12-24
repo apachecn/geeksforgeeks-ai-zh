@@ -6,7 +6,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing the modules
 import numpy as np
 import pandas as pd
@@ -33,7 +33,7 @@ display(series)
 
 **例 2 :**
 
-```
+```py
 # importing the modules
 import numpy as np
 import pandas as pd

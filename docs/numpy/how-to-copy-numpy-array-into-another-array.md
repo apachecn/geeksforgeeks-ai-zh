@@ -10,14 +10,14 @@
 
 **语法:**
 
-```
+```py
 numpy.empty_like(a, dtype = None, order = ‘K’, subok = True)
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -55,7 +55,7 @@ print(copy)
 
 **语法:**
 
-```
+```py
 numpy.copy(a, order='K', subok=False)
 ```
 
@@ -63,7 +63,7 @@ numpy.copy(a, order='K', subok=False)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -96,7 +96,7 @@ print(copy_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -130,7 +130,7 @@ print(copy_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

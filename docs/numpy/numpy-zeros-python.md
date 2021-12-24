@@ -5,13 +5,13 @@
 **numpy.zeros()** 函数返回一个给定形状和类型的新数组，带有零。
 **语法:**
 
-```
+```py
 numpy.zeros(shape, dtype = None, order = 'C')
 ```
 
 **参数:**
 
-```
+```py
 shape : integer or sequence of integers
 order  : C_contiguous or F_contiguous
          C-contiguous order in memory(last index varies the fastest)
@@ -24,13 +24,13 @@ dtype : [optional, float(byDeafult)] Data type of returned array.
 
 **返回:**
 
-```
+```py
 ndarray of zeros having given shape, order and datatype.
 ```
 
  **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.zeros method
 
@@ -48,7 +48,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [0 0]
 
@@ -65,7 +65,7 @@ Matrix c :
 
  **代码 2:操纵数据类型**
 
-```
+```py
 # Python Program illustrating
 # numpy.zeros method
 
@@ -78,7 +78,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 [(0.0, 0) (0.0, 0)]
 
 ```

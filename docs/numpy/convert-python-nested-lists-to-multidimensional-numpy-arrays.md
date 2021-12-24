@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy
 
@@ -38,7 +38,7 @@ print ( ar)
 
 **输出:**
 
-```
+```py
 [[1, 7, 0], [6, 2, 5]]
 [[1 7 0]
  [6 2 5]]
@@ -56,7 +56,7 @@ print ( ar)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy
 
@@ -75,7 +75,7 @@ print ( ar)
 
 **输出:**
 
-```
+```py
 [[1, 7, 0], [6, 2, 5], [7, 8, 9], [41, 10, 20]]
 [[ 1  7  0]
  [ 6  2  5]

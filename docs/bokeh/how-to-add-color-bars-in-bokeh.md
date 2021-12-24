@@ -8,7 +8,7 @@
 
 人们可以使用谷歌 colab，它已经预装了所有的东西，但是如果我们使用本地设备，那么在我们的设备上安装 bokeh 是非常重要的，否则功能将无法工作。首先，我们需要在桌面上打开一个命令提示符，转到下面我们想要安装 bokeh 的目录。请确保您的本地设备上已经安装了 node.js，否则您可以参考[这个](https://nodejs.org/en/)网站进行下载。转到目录后，在命令提示符下编写以下代码。
 
-```
+```py
 pip install bokeh
 ```
 
@@ -18,7 +18,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package
 import numpy as np
 
@@ -75,7 +75,7 @@ show(plot)
 
 除了创建热图，我们还可以创建一个简单的绘图并添加一个颜色条。但为此，我们需要用 python 创建一个数据框架。我们需要在我们的本地设备中安装熊猫，如果我们正在使用它，或者如果我们使用谷歌 colab，那么我们不需要安装任何东西。打开命令提示符并编写以下代码:
 
-```
+```py
 pip install pandas
 ```
 
@@ -87,7 +87,7 @@ pip install pandas
 
 ## 蟒蛇 3
 
-```
+```py
 # importing linear color mapper and colorbar
 # from bokeh.models
 from bokeh.models import LinearColorMapper, ColorBar
@@ -162,7 +162,7 @@ show(colorbar)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing figure and show from bokeh.plotting
 # module
 from bokeh.plotting import figure,show

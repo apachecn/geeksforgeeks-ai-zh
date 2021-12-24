@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Importing the SimpleImputer class
@@ -39,7 +39,7 @@ print("Imputed Data : \n", data)
 
 **输出**T2】
 
-```
+```py
 Original Data : 
 
 [[12, nan, 34]

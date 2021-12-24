@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the libraries
 from nltk.tokenize import SpaceTokenizer
 from nltk.corpus.reader import TaggedCorpusReader
@@ -29,7 +29,7 @@ x.words()
 
 **输出:**
 
-```
+```py
 ['The', 'expense', 'and', 'time', 'involved', 'are', ...]
 ```
 
@@ -37,7 +37,7 @@ x.words()
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the libraries
 from nltk.tokenize import LineTokenizer
 from nltk.corpus.reader import TaggedCorpusReader
@@ -50,7 +50,7 @@ x.sents()
 
 **输出:**
 
-```
+```py
 [['The', 'expense', 'and', 'time', 'involved', 'are', 'astronomical', '.']]
 ```
 
@@ -72,7 +72,7 @@ x.sents()
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.corpus.reader import TaggedCorpusReader
 
 x = TaggedCorpusReader('.', r'.*\.pos', tagset ='en-brown')
@@ -81,7 +81,7 @@ x.tagged_words(tagset ='universal')
 
 **输出:**
 
-```
+```py
 [('The', 'DET'), ('expense', 'NOUN'), ('and', 'CONJ'), ...] 
 ```
 
@@ -89,7 +89,7 @@ x.tagged_words(tagset ='universal')
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.corpus.reader import TaggedCorpusReader
 from nltk.corpus import treebank
 
@@ -102,7 +102,7 @@ treebank.tagged_words(tagset ='brown')
 
 **输出:**
 
-```
+```py
 [('Pierre', 'NNP'), ('Vinken', 'NNP'), (', ', ', '), ...]
 
 [('Pierre', 'NOUN'), ('Vinken', 'NOUN'), (', ', '.'), …]

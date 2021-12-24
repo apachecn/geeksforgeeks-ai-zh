@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -40,7 +40,7 @@ print('Unique Rows:',
 
 **输出:**
 
-```
+```py
 Original Array :
 [[11 11 12 11]
 [13 11 12 11]
@@ -57,7 +57,7 @@ Unique Rows:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -85,7 +85,7 @@ print('Unique Rows :',
 
 **输出:**
 
-```
+```py
 Original array: 
  [[1 2 3 4]
  [3 2 4 1]

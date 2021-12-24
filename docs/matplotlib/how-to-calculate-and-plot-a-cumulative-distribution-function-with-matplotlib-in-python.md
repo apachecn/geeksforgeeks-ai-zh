@@ -55,7 +55,7 @@ Matplotlib 是 Python 中的一个库，它是 NumPy 库的数字-数学扩展�
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -114,7 +114,7 @@ CDF 绘图
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the libraries
 import numpy as np
 import matplotlib.pyplot as plt

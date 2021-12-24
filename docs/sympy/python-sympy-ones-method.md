@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.ones()`方法，我们能够创建维度 nxn 全部填充为 1 的 1 矩阵，其中 nxm 将作为参数传递。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -29,7 +29,7 @@ print(mat)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

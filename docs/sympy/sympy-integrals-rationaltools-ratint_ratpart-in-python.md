@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import ratint_ratpart
 from sympy.integrals.rationaltools import ratint_ratpart
 from sympy.abc import x, y
@@ -34,7 +34,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import ratint_ratpart
 from sympy.integrals.rationaltools import ratint_ratpart
 from sympy.abc import x, y

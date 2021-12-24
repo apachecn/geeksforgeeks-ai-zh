@@ -4,7 +4,7 @@
 
 一个数的对数值是一个数，它的幂等于一个基数，这个基数给出的数与输入的数相同。简单来说，对数就是一个数的指数值的倒数。
 
-```
+```py
 log(exp(x)) = x
 ```
 
@@ -16,7 +16,7 @@ log(exp(x)) = x
 
 通过在两边应用对数，
 
-```
+```py
 log(2^3) = log(8)
 3 * log(2) = log(8)
 3 = log(8) / log(2)
@@ -25,19 +25,19 @@ Log(8) = 3 (base is 2)
 
 我们知道，幂为 0 的数的值等于 1。所以，
 
-```
+```py
 log1 = 0 
 ```
 
 和
 
-```
+```py
 log0 = infinity
 ```
 
 我们可以使用 Python 找到一个数字的日志值，如下所示:
 
-```
+```py
 import numpy as np
 
 # input a number as integer
@@ -57,7 +57,7 @@ print("Log value of the number with base 10 is",
 
 **示例:**
 
-```
+```py
 Input : 8
 Output : 
 Natural log value of the input number is 2.0794415416798357
@@ -80,7 +80,7 @@ Log value of the number with base 10 is 2.406540180433955
 
 在图像中应用对数变换的公式是，
 
-```
+```py
 S = c * log (1 + r)
 
 where,
@@ -91,7 +91,7 @@ S = output pixel value
 
 选择“c”的值，以便我们获得对应于所用位大小的最大输出值。因此，计算“c”的公式如下:
 
-```
+```py
 c = 255 / (log (1 + max_input_pixel_value))
 ```
 
@@ -103,7 +103,7 @@ c = 255 / (log (1 + max_input_pixel_value))
 
 ![python-log-transformation](img/06800b018696c0892a5baebd919262c2.png)
 
-```
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt

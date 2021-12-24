@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`corrwith()`功能沿**列轴**查找两个数据框对象之间的相关性
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(df2)
 
 现在沿着行轴找出两个数据帧的列之间的相关性。
 
-```
+```py
 # To find the correlation among the
 # columns of df1 and df2 along the column axis
 df1.corrwith(df2, axis = 0)
@@ -57,7 +57,7 @@ df1.corrwith(df2, axis = 0)
 
 **示例 2:** 使用`corrwith()`功能沿**行轴**查找两个数据框对象之间的相关性
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

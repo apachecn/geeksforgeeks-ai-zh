@@ -18,7 +18,7 @@
 
 在这里，我们借助一些例子为理解时间序列图创建一个粗略的数据。让我们创建数据:
 
-```
+```py
 # importing packages
 import pandas as pd
 

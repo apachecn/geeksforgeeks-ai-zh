@@ -18,7 +18,7 @@ PyTorch 是一个优化的张量库，主要用于使用图形处理器和中央
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pytorch module
 import torch
 
@@ -43,7 +43,7 @@ print(A)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pytorch module
 import torch
 
@@ -104,7 +104,7 @@ print("power operation of two vectors:", A**B)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pytorch module
 import torch
 
@@ -141,7 +141,7 @@ dot()用于获取点积。考虑中的向量只需要传递给它。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pytorch module
 import torch
 
@@ -173,7 +173,7 @@ linspace 用于在给定空间中线性排列数据。它可以在 torch 包中�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pytorch module
 import torch
 
@@ -193,7 +193,7 @@ linspace 函数用于在二维坐标系上绘制函数。对于 x 轴，我们�
 
 ## 蟒蛇 3
 
-```
+```py
 #import pytorch
 import torch
 
@@ -224,7 +224,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #import pytorch
 import torch
 
@@ -255,7 +255,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #import pytorch
 import torch
 

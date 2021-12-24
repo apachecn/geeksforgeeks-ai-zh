@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.freq`属性查找给定序列对象中基于日期时间的基础数据的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.dt.freq`属性来查找给定序列对象中基于日期时间的数据的频率。
 
-```
+```py
 # find the frequency
 result = sr.dt.freq
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.freq`属性查找给定序列对象中基于日期时间的基础数据的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.dt.freq`属性来查找给定序列对象中基于日期时间的数据的频率。
 
-```
+```py
 # find the frequency
 result = sr.dt.freq
 

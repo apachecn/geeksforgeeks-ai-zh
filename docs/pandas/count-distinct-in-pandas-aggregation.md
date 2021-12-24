@@ -13,7 +13,7 @@
 
 ## **计算机编程语言**
 
-```
+```py
 # import module
 import pandas as pd
 import numpy as np
@@ -47,7 +47,7 @@ print(df)
 
 ## **计算机编程语言**
 
-```
+```py
 # import module
 import pandas as pd
 import numpy as np

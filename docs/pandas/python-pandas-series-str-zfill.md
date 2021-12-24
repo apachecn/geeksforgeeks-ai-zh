@@ -24,7 +24,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，使用`zfill()`方法设置 8 的宽度，并在“薪资”列前加零。由于薪资列的数据类型为 int64，因此首先使用 astype()方法将其转换为字符串。
 
-```
+```py
 # importing pandas 
 import pandas as pd 
 

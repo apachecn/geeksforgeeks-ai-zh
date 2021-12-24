@@ -30,7 +30,7 @@ matplotlib 库 pyplot 模块中的 **suptitle()函数**用于给图形添加一�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib.pyplot module
 import matplotlib.pyplot as plt
 
@@ -68,7 +68,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib.pyplot module
 import matplotlib.pyplot as plt
 
@@ -106,7 +106,7 @@ plt.suptitle('This is the figure title', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib.pyplot module
 import matplotlib.pyplot as plt
 

@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import smoothness() method from sympy
 from sympy.ntheory.factor_ import smoothness
 
@@ -30,14 +30,14 @@ print("The smoothness and power-smoothness of {} is {} and {} respectively".
 
 **输出:**
 
-```
+```py
 The smoothness and power-smoothness of 64 is 2 and 64 respectively
 
 ```
 
 **例 2:**
 
-```
+```py
 from sympy.ntheory.factor_ import smoothness
 
 n = 2**4 * 13
@@ -51,7 +51,7 @@ print("The smoothness and power-smoothness of {} is {} and {} respectively".
 
 **输出:**
 
-```
+```py
 The smoothness and power-smoothness of 208 is 13 and 16 respectively
 
 ```

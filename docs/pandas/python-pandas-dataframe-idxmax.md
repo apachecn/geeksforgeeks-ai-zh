@@ -16,7 +16,7 @@ Pandas `**dataframe.idxmax()**`函数返回请求轴上最大值第一次出现�
 
 **例#1:** 使用`idxmax()`函数进行函数运算，沿指数轴找到最大值的指数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 现在沿着索引轴应用`idxmax()`功能。
 
-```
+```py
 # applying idxmax() function.
 df.idxmax(axis = 0)
 ```
@@ -45,7 +45,7 @@ df.idxmax(axis = 0)
 
 **例 2:** 使用`idxmax()`函数沿列轴查找最大值的索引。数据框包含`NA`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

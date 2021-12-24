@@ -4,13 +4,13 @@
 
 **numpy.identity(n，dtype = None) :** 返回一个恒等式矩阵，即主对角线上有 1 的正方形矩阵。
 
-```
+```py
 Parameters : 
 n     : [int] Dimension n x n of output array  
 dtype : [optional, float(by Default)] Data type of returned array.  
 ```
 
-```
+```py
 Returns : 
 identity array of dimension n x n,  with its main diagonal set to one, and all other elements 0.
 ```
@@ -19,7 +19,7 @@ identity array of dimension n x n,  with its main diagonal set to one, and all o
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.identity method
 
@@ -35,7 +35,7 @@ print("\nMatrix a : \n", a)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [[ 1\.  0.]
  [ 0\.  1.]]

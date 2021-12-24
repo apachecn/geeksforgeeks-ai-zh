@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -43,7 +43,7 @@ else :
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -77,7 +77,7 @@ else :
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -115,7 +115,7 @@ else :
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

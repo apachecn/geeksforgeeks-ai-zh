@@ -4,7 +4,7 @@
 
 有时，连接或合并两个或多个这些 [NumPy](https://www.geeksforgeeks.org/python-numpy/) 数组可能是有用的或必需的。在本文中，我们将讨论连接两个 2D 阵列的各种方法。但是首先，我们必须导入 NumPy 包才能使用它:
 
-```
+```py
 # import numpy package
 import numpy as np
 ```
@@ -19,7 +19,7 @@ import numpy as np
 
 ## 计算机编程语言
 
-```
+```py
 # Program to concatenate two 2D arrays column-wise
 # import numpy
 import numpy as np
@@ -37,7 +37,7 @@ np.concatenate((arr1,arr2),axis=1)
 
 **输出:**
 
-```
+```py
 array([[0, 1, 2],
        [3, 4, 5],
        [6, 7, 8]])
@@ -57,7 +57,7 @@ array([[ 0,  1,  2, 10, 11, 12],
 
 ## 计算机编程语言
 
-```
+```py
 # Program to concatenate two 2D arrays row-wise
 import numpy as np
 
@@ -72,7 +72,7 @@ np.concatenate((arr1, arr2), axis=0)
 
 **输出:**
 
-```
+```py
 array([[ 0,  1,  2],
        [ 3,  4,  5],
        [ 6,  7,  8],
@@ -89,7 +89,7 @@ array([[ 0,  1,  2],
 
 ## 计算机编程语言
 
-```
+```py
 # Program to concatenate two 2D arrays row-wise
 import numpy as np
 
@@ -104,7 +104,7 @@ np.stack((arr1, arr2), axis=1)
 
 **输出:**
 
-```
+```py
 array([[[ 1,  2,  3],
         [10, 11, 12]],
 
@@ -121,7 +121,7 @@ array([[[ 1,  2,  3],
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to concatenate two 2D arrays along
 # the height
 import numpy as np
@@ -137,7 +137,7 @@ np.stack((arr1, arr2), axis=2)
 
 **输出:**
 
-```
+```py
 array([[[ 1, 10],
         [ 2, 11],
         [ 3, 12]],
@@ -159,7 +159,7 @@ array([[[ 1, 10],
 
 ## **计算机编程语言**
 
-```
+```py
 # Program to concatenate two 2D arrays
 # horizontally
 import numpy as np
@@ -173,7 +173,7 @@ arr = np.hstack((arr1, arr2))
 
 ****输出:****
 
-```
+```py
 array([[ 0,  1,  2, 10, 11, 12],
        [ 3,  4,  5, 13, 14, 15],
        [ 6,  7,  8, 16, 17, 18]])
@@ -187,7 +187,7 @@ array([[ 0,  1,  2, 10, 11, 12],
 
 ## **计算机编程语言**
 
-```
+```py
 # Program to concatenate two 2D arrays
 # vertically
 import numpy as np
@@ -201,7 +201,7 @@ arr = np.vstack((arr1, arr2))
 
 ****输出:****
 
-```
+```py
 array([[ 0,  1,  2],
        [ 3,  4,  5],
        [ 6,  7,  8],
@@ -218,7 +218,7 @@ array([[ 0,  1,  2],
 
 ## **计算机编程语言**
 
-```
+```py
 # Program to concatenate two 2D arrays
 # along the height
 import numpy as np
@@ -232,7 +232,7 @@ arr = np.dstack((arr1, arr2))
 
 ****输出:****
 
-```
+```py
 array([[[ 1, 10],
         [ 2, 11],
         [ 3, 12]],
@@ -252,7 +252,7 @@ array([[[ 1, 10],
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy
 
 array1 = numpy.array([[1, 2, 3, 4, 5],[20,30,40,50,60]])
@@ -265,7 +265,7 @@ print(array1)
 
 ****输出:****
 
-```
+```py
 *[[ 1  2  3  4  5  6  7  8  9 10]*
 
  *[20 30 40 50 60  9  8  7  6  5]]*

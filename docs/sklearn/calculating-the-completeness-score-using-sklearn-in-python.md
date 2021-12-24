@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import pandas as pd 
 from sklearn import datasets
@@ -52,7 +52,7 @@ print(completeness_score(Y, labels))
 
 **输出:**
 
-```
+```py
 0.8471148027985769
 ```
 
@@ -60,7 +60,7 @@ print(completeness_score(Y, labels))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the module
 from sklearn.metrics.cluster import completeness_score
 

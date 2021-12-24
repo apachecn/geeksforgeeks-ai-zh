@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.shift()`函数将给定的时间增量索引对象移动 2 个周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.shift()`函数将给定时间增量索引对象的每个元素移动 2 个周期。
 
-```
+```py
 # shift by 2 periods
 tidx.shift(n = 2)
 ```
@@ -46,7 +46,7 @@ tidx.shift(n = 2)
 
 **示例#2:** 使用`TimedeltaIndex.shift()`函数将给定的时间增量索引对象移动 2 个周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.shift()`函数将给定时间增量索引对象的每个元素移动 5 个周期。
 
-```
+```py
 # shift by 5 periods
 tidx.shift(n = 5)
 ```

@@ -6,7 +6,7 @@
 
 要安装 Bokeh，请在终端中键入以下命令。
 
-```
+```py
 pip install bokeh
 
 ```
@@ -30,7 +30,7 @@ matplotlib 和 Bokeh 的预期用途大不相同。Matplotlib 创建静态图形
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.plotting import figure, output_file, show 
 from bokeh.sampledata.iris import flowers  
 
@@ -109,7 +109,7 @@ show(p)
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.io import output_file, show
 from bokeh.models import ColumnDataSource
 from bokeh.palettes import Spectral10

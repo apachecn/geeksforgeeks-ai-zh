@@ -19,7 +19,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_visible()函数**用于获取可�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -45,7 +45,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -82,7 +82,7 @@ plt.show() 
 
 ![](img/a8e75610120dc71ec6e0468b22376058.png)
 
-```
+```py
 Visibilities of Axis
 Bottom : True 
 Top : False 

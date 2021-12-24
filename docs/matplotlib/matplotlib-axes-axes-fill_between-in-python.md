@@ -27,7 +27,7 @@ matplotlib 库的 Axes 模块中的 **Axes.fill_between()函数**用于填充两
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -54,7 +54,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

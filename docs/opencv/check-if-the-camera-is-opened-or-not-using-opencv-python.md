@@ -16,7 +16,7 @@
 
 下面是实现。
 
-```
+```py
 # Python program to check
 # whether the camera is opened 
 # or not
@@ -51,7 +51,7 @@ else:
 
 下面是实现。
 
-```
+```py
 # Python program to send 
 # the mail
 

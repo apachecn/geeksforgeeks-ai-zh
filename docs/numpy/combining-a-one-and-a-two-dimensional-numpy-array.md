@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package 
 import numpy as np
 
@@ -30,7 +30,7 @@ for a, b in np.nditer([num_1d, num_2d]):
 
 **输出:**
 
-```
+```py
 One dimensional array:
 [0 1 2 3 4]
 
@@ -54,7 +54,7 @@ Two dimensional array:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package 
 import numpy as np
 
@@ -74,7 +74,7 @@ for a, b in np.nditer([num_1d, num_2d]):
 
 **输出:**
 
-```
+```py
 One dimensional array:
 [0 1 2 3 4 5 6]
 
@@ -110,7 +110,7 @@ Two dimensional array:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package 
 import numpy as np
 
@@ -130,7 +130,7 @@ for a, b in np.nditer([num_1d, num_2d]):
 
 **输出:**
 
-```
+```py
 One dimensional array:
 [0 1]
 

@@ -8,13 +8,13 @@
 
 **注意:默认情况下，NumPy** 不附带 python。所以，我们必须用 pip 安装它。要安装该模块，请在终端中运行给定的命令。
 
-```
+```py
 pip install numpy
 ```
 
 现在让我们使用 NumPy 创建一个数组。为此，我们需要导入模块。我们在这里导入模块。
 
-```
+```py
 import numpy
 ```
 
@@ -22,7 +22,7 @@ import numpy
 
 **示例 1:** 现在尝试创建一维数组。
 
-```
+```py
 arr = numpy.array([1, 2, 3, 4, 5])
 ```
 
@@ -30,7 +30,7 @@ arr = numpy.array([1, 2, 3, 4, 5])
 
 **语法:**
 
-```
+```py
 numpy.max(arr)
 ```
 
@@ -38,7 +38,7 @@ numpy.max(arr)
 
 **语法:**
 
-```
+```py
 numpy.min(arr)
 ```
 
@@ -46,7 +46,7 @@ numpy.min(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy
 
@@ -67,7 +67,7 @@ print('minimum element in the array is: ',
 
 **输出:**
 
-```
+```py
 maximum element in the array is:  8 
 minimum element in the array is:  1
 ```
@@ -76,7 +76,7 @@ minimum element in the array is:  1
 
 **示例 2:** 现在，让我们创建一个二维 NumPy 数组。
 
-```
+```py
 arr = numpy.array([11, 5, 7],
         [4, 5, 16],
         [7, 81, 16]]
@@ -89,7 +89,7 @@ arr = numpy.array([11, 5, 7],
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy
 
@@ -113,14 +113,14 @@ print('minimum element in the array is:',
 
 **输出:**
 
-```
+```py
 maximum element in the array is: 81
 minimum element in the array is: 2
 ```
 
 **示例 3:** 现在，如果我们想要从行或列中找到最大值或最小值，那么我们必须添加 **0** 或 **1** 。看看它是如何工作的:
 
-```
+```py
 maximum_element = numpy.max(arr, 0)
 maximum_element = numpy.max(arr, 1)
 ```
@@ -133,7 +133,7 @@ maximum_element = numpy.max(arr, 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy
 
@@ -167,7 +167,7 @@ print('minimum elements in the rows of the array is:',
 
 **输出:**
 
-```
+```py
 maximum elements in the columns of the array is: [11 81 22]
 maximum elements in the rows of the array is: [11 16 81]
 minimum elements in the columns of the array is: [4 2 3]
@@ -180,7 +180,7 @@ minimum elements in the rows of the array is: [2 4 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy
 
@@ -194,6 +194,6 @@ print(numpy.maximum(a, b))
 
 **输出:**
 
-```
+```py
 [ 5  7  6  9 22]
 ```

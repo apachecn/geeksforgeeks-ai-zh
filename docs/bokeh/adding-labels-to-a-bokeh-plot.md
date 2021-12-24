@@ -16,7 +16,7 @@ Bokeh 包括几个布局选项，用于排列图和小部件。它们可以安�
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for adding label to pokeh plot
 from bokeh.io import output_file, show
 from bokeh.layouts import column
@@ -62,7 +62,7 @@ show(f1)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program for giving label to plot
 from bokeh.io import output_file, show
 from bokeh.layouts import column

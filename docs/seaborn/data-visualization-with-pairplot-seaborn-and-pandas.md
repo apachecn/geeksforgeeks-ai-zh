@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating 
 
 import pandas as pd
@@ -42,7 +42,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas
 
@@ -79,7 +79,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import matplotlib.pyplot as plt
@@ -106,7 +106,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 import pandas

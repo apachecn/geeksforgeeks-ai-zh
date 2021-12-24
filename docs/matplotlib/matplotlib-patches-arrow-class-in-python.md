@@ -54,7 +54,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.path as mpath
@@ -106,7 +106,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 from matplotlib import pyplot as plt
 from matplotlib.patches import Rectangle, Arrow
 import numpy as np

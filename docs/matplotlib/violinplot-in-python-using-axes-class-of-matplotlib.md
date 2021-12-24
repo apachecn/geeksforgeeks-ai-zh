@@ -9,7 +9,7 @@
 **轴类**包含大部分图形元素:轴、刻度、线 2D、文本、多边形等。，并设置坐标系。Axes 的实例通过回调属性支持回调。
 **#样本代码**
 
-```
+```py
 # Implementation of matplotlib function
 
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ matplotlib 库的 Axes 模块中的 **Axes.violinplot()函数**用于对数据�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -74,7 +74,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

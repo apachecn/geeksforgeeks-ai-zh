@@ -6,7 +6,7 @@
 
 首先，让我们创建多索引数据帧。步骤如下:
 
-```
+```py
 import numpy as np
 import pandas as pd
 

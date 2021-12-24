@@ -9,13 +9,13 @@ Bokeh 可以用来可视化股市数据。使用`plotting`模块进行可视化�
 
 要下载示例数据集，请在命令行上运行以下命令:
 
-```
+```py
 bokeh sampledata
 ```
 
 或者，我们也可以执行以下 Python 代码:
 
-```
+```py
 import bokeh
 bokeh.sampledata.download()
 
@@ -33,7 +33,7 @@ bokeh.sampledata.download()
 
 所有这些数据集都可以作为 CSV 文件使用。下面是对 IBM.csv 文件的一瞥:
 
-```
+```py
 Date        Open    High    Low    Close    Volume        Adj Close
 01-03-2000    102    105.5    100.06    100.25    10807800    84.48
 02-03-2000    100.5    105.44    99.5    103.12    11192900    86.9
@@ -58,7 +58,7 @@ Date        Open    High    Low    Close    Volume        Adj Close
 4.  绘制所有 5 家公司的折线图。
 5.  显示模型。
 
-```
+```py
 # importing the modules
 import numpy as np
 from bokeh.plotting import figure, output_file, show

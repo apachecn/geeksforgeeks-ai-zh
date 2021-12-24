@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermetrim()`方法，我们能够使用该方法获得修剪后的 hermiteE 系列。
 
-```
+```py
 # import numpy and herm1trim
 import numpy as np
 from numpy.polynomial.hermite_e import hermetrim
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermetrim
 import numpy as np
 from numpy.polynomial.hermite_e import hermetrim

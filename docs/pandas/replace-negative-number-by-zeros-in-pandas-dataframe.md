@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # checking the element is < 0
 df[df < 0] = 0
 print("New Array :")

@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -29,7 +29,7 @@ print("Expanded Expression : {}".format(expand_expr))  
 
 **输出:**
 
-```
+```py
 Expression = gamma(x + 3)
 Expanded Expression : x*(x + 1)*(x + 2)*gamma(x)
 
@@ -37,7 +37,7 @@ Expanded Expression : x*(x + 1)*(x + 2)*gamma(x)
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -53,7 +53,7 @@ print("Expanded Expression : {}".format(expand_expr))  
 
 **输出:**
 
-```
+```py
 Expression = binomial(x, 3)
 Expanded Expression : x*(x - 2)*(x - 1)/6
 

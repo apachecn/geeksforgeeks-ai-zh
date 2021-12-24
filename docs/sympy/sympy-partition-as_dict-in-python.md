@@ -10,7 +10,7 @@
 
 **代码#1 : as_dict()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.as_dict()
 
@@ -31,7 +31,7 @@ IntegerPartition([11]*3 + [342] + [13]*4).as_dict()
 
 **代码#2 : as_dict()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.as_dict()
 

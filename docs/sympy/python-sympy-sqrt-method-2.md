@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -29,7 +29,7 @@ print("Square root of value : {}".format(sqrt_val))  
 
 **输出:**
 
-```
+```py
 Value : 256
 Square root of value : 16
 
@@ -37,7 +37,7 @@ Square root of value : 16
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -53,7 +53,7 @@ print("Square root of value : {}".format(sqrt_val))  
 
 **输出:**
 
-```
+```py
 Value : 8
 Square root of value : 2*sqrt(2)
 

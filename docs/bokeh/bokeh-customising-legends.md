@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from bokeh.plotting import figure, show
 
@@ -94,7 +94,7 @@ show(plots)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from bokeh.plotting import figure, show
 
@@ -152,7 +152,7 @@ show(plots)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from bokeh.plotting import figure, show
 

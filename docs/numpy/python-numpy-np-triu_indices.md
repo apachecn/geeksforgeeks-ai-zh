@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.triu_indices()`方法，我们能够使用该方法获得[n，m]数组的上三角形的索引。
 
-```
+```py
 # import numpy and triu_indices
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and triu_indices
 import numpy as np
 

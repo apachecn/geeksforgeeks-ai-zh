@@ -42,7 +42,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries using import keyword.
 import math
 import numpy as np

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.P()`方法，我们能够使用该方法找到假设情况的概率。
 
-```
+```py
 # Import sympy, P, Dice
 from sympy.stats import P, Die
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy, P, Dice
 from sympy.stats import P, Die
 

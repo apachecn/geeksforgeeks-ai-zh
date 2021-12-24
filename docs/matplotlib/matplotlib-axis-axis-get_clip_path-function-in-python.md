@@ -25,7 +25,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_clip_path()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  

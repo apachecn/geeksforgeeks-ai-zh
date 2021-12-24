@@ -12,7 +12,7 @@
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,7 +25,7 @@ from sklearn.decomposition import PCA
 
 **第二步:加载数据**
 
-```
+```py
 X = pd.read_csv('..input_path/CC_GENERAL.csv')
 
 # Dropping the CUST_ID column from the data
@@ -41,7 +41,7 @@ print(X.head())
 
 **第三步:数据预处理**
 
-```
+```py
 # Scaling the data to bring all the attributes to a comparable level
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
@@ -56,7 +56,7 @@ X_normalized = pd.DataFrame(X_normalized)
 
 **第四步:降低数据的维度，使其可视化**
 
-```
+```py
 pca = PCA(n_components = 2)
 X_principal = pca.fit_transform(X_normalized)
 X_principal = pd.DataFrame(X_principal)
@@ -68,7 +68,7 @@ print(X_principal.head())
 
 **第五步:建立聚类模型**
 
-```
+```py
 # Numpy array of all the cluster labels assigned to each data point
 db_default = DBSCAN(eps = 0.0375, min_samples = 3).fit(X_principal)
 labels = db_default.labels_
@@ -76,7 +76,7 @@ labels = db_default.labels_
 
 **步骤 6:可视化聚类**
 
-```
+```py
 # Building the label to colour mapping
 colours = {}
 colours[0] = 'r'
@@ -108,14 +108,14 @@ plt.show()
 
 **第七步:调整模型参数**
 
-```
+```py
 db = DBSCAN(eps = 0.0375, min_samples = 50).fit(X_principal)
 labels1 = db.labels_
 ```
 
 **第八步:可视化变化**
 
-```
+```py
 colours1 = {}
 colours1[0] = 'r'
 colours1[1] = 'g'

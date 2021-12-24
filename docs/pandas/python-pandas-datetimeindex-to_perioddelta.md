@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.to_perioddelta()`函数计算指定频率下指数值和转换为周期指数的指数之间差值的时间增量指数
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在我们要计算时间增量指数，即指数值和转换为周期指数的指数之间的差值
 
-```
+```py
 # calculate the TimedeltaIndex 
 # 'T' represents minute based frequency
 didx.to_perioddelta('T')
@@ -44,7 +44,7 @@ didx.to_perioddelta('T')
 
 **示例#2:** 使用`DatetimeIndex.to_perioddelta()`函数计算指定频率下索引值和转换为周期索引的索引之间差异的时间增量索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(didx)
 
 现在我们要计算时间增量指数，即指数值和转换为周期指数的指数之间的差值
 
-```
+```py
 # calculate the TimedeltaIndex 
 # 'H' represents hourly frequency
 didx.to_period('H')

@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.to_datetime64()`函数为给定的时间戳对象返回 numpy.datetime64 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_datetime64()`函数为给定的时间戳返回一个 numpy.datetime64 对象。
 
-```
+```py
 # return numpy.datetime64 object
 ts.to_datetime64()
 ```
@@ -43,7 +43,7 @@ ts.to_datetime64()
 
 **示例#2:** 使用`Timestamp.to_datetime64()`函数为给定的时间戳对象返回 numpy.datetime64 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(ts)
 
 现在我们将使用`Timestamp.to_datetime64()`函数为给定的时间戳返回一个 numpy.datetime64 对象。
 
-```
+```py
 # return numpy.datetime64 object
 ts.to_datetime64()
 ```

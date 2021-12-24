@@ -6,7 +6,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **`Dataframe.applymap()`** 方法将接受并返回标量的函数应用于数据帧的每个元素。
 
-```
+```py
 Syntax: DataFrame.applymap(func)
 
 Parameters:
@@ -20,7 +20,7 @@ Returns: Transformed DataFrame.
 
 **示例#1:** 对数据框应用`applymap()`功能，以查找所有单元格中的字符数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ df[:10]
 
 ![](img/836ed1d13f8962a28804f881cfca5a18.png)
 
-```
+```py
 # Using lambda function we first convert all 
 # the cell to a string value and then find
 # its length using len() function
@@ -49,7 +49,7 @@ df.applymap(lambda x: len(str(x)))
 
 为了在每个单元格中追加`_X` ，首先将每个单元格转换为字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

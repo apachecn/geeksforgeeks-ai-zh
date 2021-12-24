@@ -10,7 +10,7 @@
 **示例#1 :**
 在给定的示例中，我们可以看到，通过使用`sympy.asin(x)`方法，我们可以找到正弦θ的逆。
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 
@@ -26,7 +26,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * x, y, z = symbols('x y z')
 

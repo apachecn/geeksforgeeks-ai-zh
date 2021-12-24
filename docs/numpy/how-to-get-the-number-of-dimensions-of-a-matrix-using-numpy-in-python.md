@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 x = np.arange(12).reshape((3, 4))
@@ -27,7 +27,7 @@ print(x.ndim)
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -35,7 +35,7 @@ print(x.ndim)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # create numpy arrays
@@ -73,7 +73,7 @@ print("Dimensions in __2darr are: ", __2darr.ndim)
 
 **输出:**
 
-```
+```py
 Type of value obtained:  <class 'int'>
 Dimensions in _1darr are:  1
 Dimensions in _2darr are:  2

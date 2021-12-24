@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 4
 print("Value of n = {}".format(n))
@@ -28,7 +28,7 @@ print("Value of nth catalan number : {}".format(nth_catalan))  
 
 **输出:**
 
-```
+```py
 Value of n = 4
 Value of nth catalan number : 14
 
@@ -36,7 +36,7 @@ Value of nth catalan number : 14
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 15
 print("Value of n = {}".format(n))
@@ -49,7 +49,7 @@ print("Value of nth catalan number : {}".format(nth_catalan))  
 
 **输出:**
 
-```
+```py
 Value of n = 15
 Value of nth catalan number : 9694845
 

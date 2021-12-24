@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.triplot()函数**也用于创建非�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.triplot(ax, *args, **kwargs)
 > ```
 > 
@@ -33,7 +33,7 @@ matplotlib 库的 Axes 模块中的 **Axes.triplot()函数**也用于创建非�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
@@ -63,7 +63,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

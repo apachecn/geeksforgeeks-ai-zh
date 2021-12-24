@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.SExprTokenizer()`方法，我们能够通过考虑括号来从字符或数字流中提取标记。
 
-```
+```py
 # import SExprTokenizer() method from nltk
 from nltk.tokenize import SExprTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import SExprTokenizer() method from nltk
 from nltk.tokenize import SExprTokenizer
 

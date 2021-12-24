@@ -19,7 +19,7 @@ Matplotlib . pyplot . sub lot 2 grid()函数在网格内的指定位置创建轴
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
@@ -44,7 +44,7 @@ fig.tight_layout()
 ![matplotlib.pyplot.subplot2grid()](img/c25f94b26b700e827ad551b6d0aefb53.png)
 **例 2:**
 
-```
+```py
 import random
 import matplotlib.pyplot as plt
 from matplotlib import style

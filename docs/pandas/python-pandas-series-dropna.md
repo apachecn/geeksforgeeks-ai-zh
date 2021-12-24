@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.dropna()`函数删除给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dropna()`函数删除给定序列对象中所有缺失的值。
 
-```
+```py
 # drop the missing values
 result = sr.dropna()
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dropna()`功能删除给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.dropna()`函数删除给定序列对象中所有缺失的值。
 
-```
+```py
 # drop the missing values
 result = sr.dropna()
 

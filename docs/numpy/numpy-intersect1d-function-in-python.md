@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.intersect1d() function
 
@@ -32,14 +32,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 2 4]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.intersect1d() function
 
@@ -56,7 +56,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [1 3 5 7 9]
 
 ```

@@ -26,7 +26,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib import ticker
 import numpy as np
@@ -55,7 +55,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator, IndexFormatter
 

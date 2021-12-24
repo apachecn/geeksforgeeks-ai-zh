@@ -5,7 +5,7 @@
 **OpenCV** (开源计算机视觉)是一个主要针对实时计算机视觉的编程函数库。python 中的 [OpenCV](https://www.geeksforgeeks.org/opencv-python-tutorial/) 有助于处理图像并应用各种功能，如调整图像大小、像素操作、对象检测等。在本文中，我们将学习如何使用轮廓来检测图像中的文本，并将其保存到文本文件中。
 **所需安装:**
 
-```
+```py
 pip install opencv-python
 pip install pytesseract
 ```
@@ -45,7 +45,7 @@ cv2 . find 等高线()用于查找扩张图像中的等高线。cv . find 等高
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required packages
 import cv2
 import pytesseract

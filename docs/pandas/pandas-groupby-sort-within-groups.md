@@ -8,7 +8,7 @@
 
 **示例 1:** 让我们以数据帧为例:
 
-```
+```py
 df = pd.DataFrame({'X': ['B', 'B', 'A', 'A'],
                    'Y': [1, 2, 3, 4]})
 
@@ -21,7 +21,7 @@ df.groupby('X').sum()
 
 让我们将排序参数作为 False 传递。
 
-```
+```py
 # using groupby function 
 # with sort
 df.groupby('X', sort = False).sum()
@@ -35,7 +35,7 @@ df.groupby('X', sort = False).sum()
 **示例 2:**
 现在，让我们举一个不同人的年龄的数据框的例子。使用 sort 和 groupby 函数将根据键传递来排列转换后的数据帧，以实现潜在的加速。
 
-```
+```py
 data = {'Name':['Elle', 'Chloe', 'Noah', 'Marco',  
                  'Lee', 'Elle', 'Rachel', 'Noah'],  
         'Age':[17, 19, 18, 17,  
@@ -50,7 +50,7 @@ df
 
 让我们根据名称将上面的数据框分组
 
-```
+```py
 # using groupby without sort
 df.groupby(['Name']).sum()
 ```
@@ -60,7 +60,7 @@ df.groupby(['Name']).sum()
 
 将排序参数作为 False 传递
 
-```
+```py
 # using groupby function 
 # with sort
 df.groupby(['Name'], sort = False).sum()
@@ -73,7 +73,7 @@ df.groupby(['Name'], sort = False).sum()
 我们再举一个由各种汽车和自行车的最高速度组成的数据框的例子。
 我们将尝试在车型组中获得最高速度。
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame([('Bike', 'Kawasaki', 186),
@@ -93,7 +93,7 @@ df
 
 使用 groupby 函数后
 
-```
+```py
 # Using groupby function
 grouped = df.groupby(['Type'])['top_speed(mph)'].nlargest()
 

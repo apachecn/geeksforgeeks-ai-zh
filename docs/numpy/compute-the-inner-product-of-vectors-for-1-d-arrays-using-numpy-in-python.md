@@ -16,7 +16,7 @@ Python 有一个流行的包，叫做 NumPy，用来对一维和多维数组进�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -36,7 +36,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 1-D arrays:
 [6 2]
 [2 5]
@@ -49,7 +49,7 @@ Inner Product of the two array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -69,7 +69,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 1-D arrays:
 [1 3 5]
 [0 1 5]
@@ -82,7 +82,7 @@ Inner Product of the two array is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -102,7 +102,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original 1-D arrays:
 [1 2 2 8]
 [2 1 0 6]

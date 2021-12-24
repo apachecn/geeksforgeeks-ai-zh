@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 import matplotlib.pyplot as plt
 
@@ -50,7 +50,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import random
 import matplotlib.pyplot as plt
@@ -111,7 +111,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import numpy as np

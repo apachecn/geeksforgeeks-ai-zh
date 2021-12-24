@@ -58,7 +58,7 @@ Bokeh 可用于在图表上绘制点。可以使用`plotting`模块的`dot()`方
 
 **示例 1 :** 在本例中，我们将使用默认值绘制图表。我们提供了大小属性来使字形可见。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -84,7 +84,7 @@ show(graph)
 
 **示例 2 :** 在本例中，我们将使用`random()`函数生成点，并传递一些参数。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 import random

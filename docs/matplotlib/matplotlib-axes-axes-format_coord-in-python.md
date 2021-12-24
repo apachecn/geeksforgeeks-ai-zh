@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.format_coord()函数**用于返回格
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

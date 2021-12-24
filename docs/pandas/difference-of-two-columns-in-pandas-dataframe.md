@@ -6,7 +6,7 @@ Python 熊猫数据框中两列的差异是通过以下方法实现的:
 
 **方法#1 :** 使用**“-”**运算符。
 
-```
+```py
 import pandas as pd
 
 # Create a DataFrame
@@ -26,7 +26,7 @@ print("\nDifference of score1 and score2 :\n", df1)
 
 **Output:**
 
-```
+```py
 Given Dataframe :
        Name  score1  score2
 0   George      62      45
@@ -51,7 +51,7 @@ Difference of score1 and score2 :
 
 **方法#2 :** 使用**子()**方法的数据框。
 
-```
+```py
 import pandas as pd
 
 # Create a DataFrame
@@ -70,7 +70,7 @@ print("\nDifference of score1 and score2 :\n", df1)
 
 **Output:**
 
-```
+```py
 Given Dataframe :
        Name  score1  score2
 0   George      62      45

@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.ptp() method
 
@@ -34,7 +34,7 @@ print("Range of arr : ", np.ptp(arr))
 
 **输出:**
 
-```
+```py
 arr :  [1, 2, 7, 20, nan]
 Range of arr :  nan
 arr :  [1, 2, 7, 10, 16]
@@ -45,7 +45,7 @@ Range of arr :  15
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.ptp() method
 
@@ -71,7 +71,7 @@ print("Min of arr, axis = 1 : ", np.ptp(arr, axis = 1)) 
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19], [23, 2, 54, 1, 4]]
 
@@ -84,7 +84,7 @@ Min of arr, axis = 1 :  [32 21 53]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.ptp() method
 
@@ -101,7 +101,7 @@ print("Changed arr1(having results) : ", arr1)
 
 **输出:**
 
-```
+```py
 Initial arr1 :  [0 1 2 3 4]
 Changed arr1(having results) :  [ 9 15 42 32 40]
 ```

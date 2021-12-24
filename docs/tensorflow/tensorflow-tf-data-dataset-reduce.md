@@ -10,14 +10,14 @@
 **注意:**
 这些给定的示例将演示 tensorflow 2.0 新版本的使用，因此如果您想要运行这些示例，请在命令提示符下运行以下命令。
 
-```
+```py
 pip install tensorflow==2.0.0-rc2
 ```
 
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tf.data.Dataset.reduce()`方法，我们能够从数据集获得所有元素的简化变换。
 
-```
+```py
 # import tensorflow
 import tensorflow as tf
 
@@ -33,7 +33,7 @@ print(gfg.reduce(0, lambda x, y: x + y).numpy())
 
 **例 2 :**
 
-```
+```py
 # import tensorflow
 import tensorflow as tf
 

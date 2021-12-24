@@ -10,7 +10,7 @@
 
 **解决方案#1:** 为了访问熊猫数据框的每一行的数据，我们可以使用`DataFrame.iloc`属性，然后我们可以将每一行的数据附加到列表的末尾。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df)
 
 现在我们将使用`DataFrame.iloc`属性来访问数据框中每一行的值，然后我们将从其中构建一个列表。
 
-```
+```py
 # Create an empty list
 Row_list =[]
 
@@ -47,7 +47,7 @@ print(Row_list)
 ![](img/063937bf7626e899e952ca87e872e5c6.png)
 正如我们在输出中看到的，我们已经成功地将给定数据帧的每一行提取到一个列表中。就像任何其他 Python 的列表一样，我们可以对提取的列表执行任何列表操作。
 
-```
+```py
 # Find the length of the newly 
 # created list
 print(len(Row_list))
@@ -62,7 +62,7 @@ print(Row_list[:3])
 
 **解决方案#2:** 为了访问 Pandas 数据框的每一行的数据，我们可以使用`DataFrame.iat`属性，然后我们可以将每一行的数据追加到列表的末尾。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -97,7 +97,7 @@ print(Row_list)
 **输出:**
 ![](img/063937bf7626e899e952ca87e872e5c6.png)
 
-```
+```py
 # Find the length of the newly 
 # created list
 print(len(Row_list))

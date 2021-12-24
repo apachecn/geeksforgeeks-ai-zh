@@ -8,7 +8,7 @@ NumPy 是一个 Python 基础包，用于对高级数学函数、多维数组、
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import numpy
 import time
@@ -45,7 +45,7 @@ print("Time taken by NumPy Arrays :",
 
 **输出:**
 
-```
+```py
 Time taken by Lists : 1.1984527111053467 seconds
 Time taken by NumPy Arrays : 0.13434123992919922 seconds
 ```
@@ -62,7 +62,7 @@ Time taken by NumPy Arrays : 0.13434123992919922 seconds
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import numpy
 import time
@@ -168,7 +168,7 @@ print("Time taken by NumPy Arrays :",
 
 **输出:**
 
-```
+```py
 Concatenation:
 Time taken by Lists : 0.02946329116821289 seconds
 Time taken by NumPy Arrays : 0.011709213256835938 seconds

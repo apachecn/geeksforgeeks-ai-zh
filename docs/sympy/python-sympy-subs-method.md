@@ -11,7 +11,7 @@
 
 在这个例子中我们可以看到，通过使用`sympy.subs()`方法，我们可以将现有变量的值替换为新变量。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -32,7 +32,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

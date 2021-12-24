@@ -56,7 +56,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -96,7 +96,7 @@ plt.show()
 
 **例 2:** 多个小提琴图
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from random import randint

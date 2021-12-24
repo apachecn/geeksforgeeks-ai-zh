@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matrix.I() function
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[-3\.   2\. ]
  [ 2.5 -1.5]]
 
@@ -35,7 +35,7 @@ print(gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matrix.I() function
 
@@ -52,7 +52,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[ -4.50359963e+15   9.00719925e+15  -4.50359963e+15]
  [  9.00719925e+15  -1.80143985e+16   9.00719925e+15]
  [ -4.50359963e+15   9.00719925e+15  -4.50359963e+15]]

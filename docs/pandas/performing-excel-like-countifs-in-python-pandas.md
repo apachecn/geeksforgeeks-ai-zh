@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(twills_Shirt_Count)
 
 **输出:**
 
-```
+```py
 Number of Twills Shirts-2
 ```
 
@@ -51,7 +51,7 @@ Number of Twills Shirts-2
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(Shirt_Count)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 

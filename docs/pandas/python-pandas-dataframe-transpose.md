@@ -16,7 +16,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.transpose()`函数查找给定数据帧的转置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(df)
 
 现在我们将使用`DataFrame.transpose()`函数找到给定数据帧的转置。
 
-```
+```py
 # return the transpose
 result = df.transpose()
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.transpose()`函数查找给定数据帧的转置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(df)
 
 现在我们将使用`DataFrame.transpose()`函数找到给定数据帧的转置。
 
-```
+```py
 # return the transpose
 result = df.transpose()
 

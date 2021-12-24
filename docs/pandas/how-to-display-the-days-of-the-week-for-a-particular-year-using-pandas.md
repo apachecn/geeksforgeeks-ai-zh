@@ -18,7 +18,7 @@
 
  **## 蟒 3
 
-```
+```py
 # importing module
 import pandas as pd
 
@@ -52,7 +52,7 @@ else:
 
 ****输出:****
 
-```
+```py
 All wed in 2020:
 0    2020-01-01
 1    2020-01-08

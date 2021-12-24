@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -66,7 +66,7 @@ plt.legend()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -101,7 +101,7 @@ plt.legend(loc='center left')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -145,7 +145,7 @@ plt.legend(fontsize='xx-large')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -185,7 +185,7 @@ plt.legend(labelcolor='white', facecolor='black',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -223,7 +223,7 @@ markerfirst = False
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -250,7 +250,7 @@ plt.legend(shadow=True, fancybox=True)
 
 ## 蟒蛇 3
 
-```
+```py
 #importing library
 import matplotlib.pyplot as plt
 
@@ -290,7 +290,7 @@ plt.legend(frameon = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 

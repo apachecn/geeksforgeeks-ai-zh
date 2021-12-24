@@ -8,7 +8,7 @@
 
 **第一步:设置环境**
 
-```
+```py
 Step 1 : Open Anaconda prompt in Administrator mode. 
 
 Step 2 : Create a virtual environment using the command : conda create --name acgan python=3.7 
@@ -24,7 +24,7 @@ Step 4 : Install the following libraries -
 
 ## 蟒蛇 3
 
-```
+```py
 from keras.datasets import mnist
 from keras.layers import Input, Dense, Reshape, Flatten, Dropout, multiply
 from keras.layers.convolutional import UpSampling2D, Conv2D
@@ -42,7 +42,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining the Input shape
 image_shape = (28, 28, 1)
 classes = 10
@@ -57,7 +57,7 @@ losses = ['binary_crossentropy','sparse_categorical_crossentropy']
 
 ## 蟒蛇 3
 
-```
+```py
 def build_generator():
 
     model = Sequential()
@@ -95,7 +95,7 @@ def build_generator():
 
 ## 蟒蛇 3
 
-```
+```py
 def build_discriminator():
 
     model = Sequential()
@@ -140,7 +140,7 @@ def build_discriminator():
 
 ## 蟒蛇 3
 
-```
+```py
 def display_images():
     r = 10
     c = 10
@@ -167,7 +167,7 @@ def display_images():
 
 ## 蟒蛇 3
 
-```
+```py
 def train_acgan(epochs, batch_size=128, sample_interval=50):
 
     # Load the dataset
@@ -225,7 +225,7 @@ def train_acgan(epochs, batch_size=128, sample_interval=50):
 
 ## 蟒蛇 3
 
-```
+```py
 # Build and compile the discriminator
 discriminator = build_discriminator()
 discriminator.compile(loss=losses,

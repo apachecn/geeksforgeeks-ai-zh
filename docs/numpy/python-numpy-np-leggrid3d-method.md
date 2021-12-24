@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.leggrid3d() method 
 
@@ -32,7 +32,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 [[  878011\.   1034500.5]
  [ 1351191\.   1592014.5]]
 
@@ -40,7 +40,7 @@ print(ans)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.leggrid3d() method 
 
@@ -59,7 +59,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 176982.0
 
 ```

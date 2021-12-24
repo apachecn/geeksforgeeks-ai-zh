@@ -25,7 +25,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_clip_path()函数**用于设置�
 
 ![geek-11](img/4f988ea6436cc825d33669a00fdbf2d2.png)
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm

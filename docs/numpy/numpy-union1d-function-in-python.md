@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.union1d() function
 
@@ -30,14 +30,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [-2 -1  0  1  2]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.union1d() function
 
@@ -54,7 +54,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [-5 -4 -3 -2 -1  0  1  2  3  4  5]
 
 ```

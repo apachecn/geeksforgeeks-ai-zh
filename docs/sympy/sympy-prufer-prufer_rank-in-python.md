@@ -12,7 +12,7 @@
 
 **代码#1 : prufer_rank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prufer_rank()
 
@@ -36,7 +36,7 @@ print ("Prufer a prufer_rank : ", a.prufer_rank())
 
 **代码#2 : prufer_rank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.prufer_rank()
 

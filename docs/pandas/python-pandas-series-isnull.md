@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.isnull()`功能检测给定序列对象中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.isnull()`函数来检测给定序列对象中所有缺失的值。
 
-```
+```py
 # detect missing values
 result = sr.isnull()
 
@@ -50,7 +50,7 @@ print(result)
 
 **示例 2 :** 使用`Series.isnull()`功能检测给定序列对象中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们将使用`Series.isnull()`函数来检测给定序列对象中的所有缺失值。
 
-```
+```py
 # detect missing values
 result = sr.isnull()
 

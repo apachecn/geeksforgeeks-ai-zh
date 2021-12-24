@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # stats.binned_statistic_2d() method 
 import numpy as np
 from scipy import stats
@@ -59,7 +59,7 @@ print ("\nbinned_statistic_2d for count : ", 
 
 **代码#2 :**
 
-```
+```py
 # stats.binned_statistic_2d() method 
 import numpy as np
 from scipy import stats

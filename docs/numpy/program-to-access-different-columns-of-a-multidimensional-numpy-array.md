@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -50,7 +50,7 @@ print(res_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -95,7 +95,7 @@ print(res_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 
@@ -162,7 +162,7 @@ print(res_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module
 import numpy as np
 

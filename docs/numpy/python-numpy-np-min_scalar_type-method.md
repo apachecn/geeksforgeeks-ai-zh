@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.min_scalar_type()`方法，我们能够使用该方法获得一个值的最小标量类型。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

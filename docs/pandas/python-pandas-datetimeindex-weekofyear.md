@@ -12,7 +12,7 @@ Pandas `**DatetimeIndex.weekofyear**`属性为 DatetimeIndex 对象的每个条�
 
 **示例#1:** 使用`DatetimeIndex.weekofyear`属性查找 DatetimeIndex 对象中每个条目的周序数值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中每个条目的周序数值。
 
-```
+```py
 # find the ordinal value of the week 
 # for each entries present in the object
 didx.weekofyear
@@ -42,7 +42,7 @@ didx.weekofyear
 
 **示例#2:** 使用`DatetimeIndex.weekofyear`属性查找 DatetimeIndex 对象中每个条目的周序数值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中每个条目的周序数值。
 
-```
+```py
 # find the ordinal value of the week
 # for each entries present in the object
 didx.weekofyear

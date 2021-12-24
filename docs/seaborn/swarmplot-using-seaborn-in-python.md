@@ -21,7 +21,7 @@ Seaborn swarmplot 可能类似于 stripplot，只是调整了点，因此不会�
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -40,7 +40,7 @@ seaborn.swarmplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -60,7 +60,7 @@ seaborn.swarmplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -83,14 +83,14 @@ x 表示 x 轴，y 表示 y 轴。
 
 **语法:**
 
-```
+```py
 seaborn.swarmplot(x)
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # swarmplot using inbuilt data-set
 # given in seaborn

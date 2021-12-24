@@ -23,7 +23,7 @@ matplotlib 库 pyplot 模块中的**set()函数**用于设置艺术家对象的�
 
 ## 蟒蛇 3
 
-```
+```py
 #Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import numpy as np

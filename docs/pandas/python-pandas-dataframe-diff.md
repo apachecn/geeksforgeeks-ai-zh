@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`diff()`函数查找周期值等于 1 的指数轴上的离散差值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ df
 
 现在找到指数轴上的离散差。
 
-```
+```py
 # To find the discrete difference
 df.diff(axis = 0, periods = 1)
 ```
@@ -46,7 +46,7 @@ df.diff(axis = 0, periods = 1)
 
 **例 2:** 使用`diff()`函数求周期值等于 1 的列轴上的离散差。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

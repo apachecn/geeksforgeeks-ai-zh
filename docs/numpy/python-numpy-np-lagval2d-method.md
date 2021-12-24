@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用 **np.lagval2d()** 方法，我们能够通过使用这个方法得到点 x 和 y 处的二维拉盖尔级数。
 
-```
+```py
 # import numpy and lagval2d
 import numpy as np
 from numpy.polynomial.laguerre import lagval2d
@@ -32,7 +32,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and lagval2d
 import numpy as np
 from numpy.polynomial.laguerre import lagval2d

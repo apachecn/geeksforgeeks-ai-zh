@@ -4,7 +4,7 @@
 
 **Blackman window :** 是利用余弦求和的前三项形成的锥度。它被设计成具有尽可能小的泄漏。它接近最优，只比凯泽窗稍差。
 
-```
+```py
 Parameters(numpy.blackman): 
 M : int Number of points in the output window.
     If zero or less, an empty array is returned.
@@ -17,14 +17,14 @@ out : array
 
 **示例:**
 
-```
+```py
 import numpy as np 
 print(np.blackman(12))
 ```
 
 **输出:**
 
-```
+```py
 [ -1.38777878e-17   3.26064346e-02   1.59903635e-01   4.14397981e-01
    7.36045180e-01   9.67046769e-01   9.67046769e-01   7.36045180e-01
    4.14397981e-01   1.59903635e-01   3.26064346e-02  -1.38777878e-17]
@@ -35,7 +35,7 @@ print(np.blackman(12))
 
 **代码:窗口:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 
@@ -54,7 +54,7 @@ plt.show() 
 
 **代码:频率:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 import numpy as np
@@ -35,7 +35,7 @@ df
 
 **语法:**
 
-```
+```py
 df.tail(n)
 
 ```
@@ -44,7 +44,7 @@ df.tail(n)
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting last 3 rows from df
 df_last_3 = df.tail(3)
 
@@ -61,7 +61,7 @@ print(df_last_3)
 用熊猫。DataFrame.iloc 获取最后 n 行。它类似于列表切片。
 **语法:**
 
-```
+```py
 df.iloc[-n:]
 
 ```
@@ -70,7 +70,7 @@ df.iloc[-n:]
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting last 3 rows from df
 df_last_3 = df.iloc[-3:]
 
@@ -87,7 +87,7 @@ print(df_last_3)
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting last 2 rows of columns 
 # Age and Marks from df
 df_last_2 = df[['Age', 'Marks']].tail(2)
@@ -105,7 +105,7 @@ print(df_last_2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting last n rows and last n columns from df
 df_last_2_row_col = df.iloc[-2:,-2:]
 

@@ -10,7 +10,7 @@
 
 **代码# 1:unlank _ nonlex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_nonlex()
 
@@ -37,7 +37,7 @@ print ("Permutation b - unrank_nonlex form : ", b.unrank_nonlex(1, 6))
 
 **代码# 2:unlank _ nonlex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_nonlex()
 

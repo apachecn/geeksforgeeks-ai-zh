@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ 怕痒()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 
@@ -78,7 +78,7 @@ plt.show()
 
 ![](img/a41eb7dfd346c63a32f6a912067efb54.png)
 
-```
+```py
 Value of get_ticklines() :
 Line2D()
 Line2D()
@@ -93,7 +93,7 @@ Line2D()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 

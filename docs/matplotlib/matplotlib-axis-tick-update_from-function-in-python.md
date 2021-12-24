@@ -21,7 +21,7 @@ matplotlib 库的轴模块中的 **Tick.update_from()函数**用于将属性从�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np 
@@ -60,7 +60,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np 

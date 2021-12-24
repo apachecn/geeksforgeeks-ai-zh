@@ -6,19 +6,19 @@
 
 现在让我们从安装熊猫开始。以下是在 Linux、windows 或 mac 上安装 pandas 时直接使用的命令:
 
-```
+```py
 pip install pandas
 ```
 
 要在蟒蛇环境中安装熊猫，请使用:
 
-```
+```py
 conda install pandas 
 ```
 
 现在让我们在编程环境中加载熊猫库。
 
-```
+```py
 import pandas as pd
 ```
 
@@ -26,7 +26,7 @@ import pandas as pd
 
 **方法 1:** 使用 DatetimeIndex.month 属性查找月份，使用 DatetimeIndex.year 属性查找日期中出现的年份。
 
-```
+```py
 df['year'] = pd.DatetimeIndex(df['Date Attribute']).year
 df['month'] = pd.DatetimeIndex(df['Date Attribute']).month
 ```
@@ -38,7 +38,7 @@ df['month'] = pd.DatetimeIndex(df['Date Attribute']).month
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -78,7 +78,7 @@ df.head()
 
 **方法 2:** 使用 datetime.month 属性查找月份，使用 datetime.year 属性查找日期中出现的年份。
 
-```
+```py
 df['year'] = df['Date Attribute'].dt.year
 df['month'] = df['Date Attribute'].dt.month
 ```
@@ -90,7 +90,7 @@ df['month'] = df['Date Attribute'].dt.month
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import pandas as pd
 import datetime as dt

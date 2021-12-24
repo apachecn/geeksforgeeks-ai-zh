@@ -24,7 +24,7 @@ matplotlib.colors.to_rgb()函数用于将 c(即颜色)转换为 rgb 颜色。它
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
@@ -107,7 +107,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import colors
 import matplotlib.pyplot as plt
 

@@ -16,7 +16,7 @@
 
 T8****T10】
 
-```
+```py
 import numpy as np
 
 # converting list to numpy array

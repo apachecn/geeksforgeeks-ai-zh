@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining 
 # ipmt() function 
 
@@ -41,7 +41,7 @@ print("Solution - ipmt value : ", Solution) 
 
 **输出:**
 
-```
+```py
 Solution - ipmt value :  801.4432933339593
 
 ```

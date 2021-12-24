@@ -29,7 +29,7 @@
 
 ## 可扩展标记语言
 
-```
+```py
 <?xml version="1.0" encoding="UTF-8"?>
 
        <Food>
@@ -75,7 +75,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import xml.etree.ElementTree as ETree
 import pandas as pd
 
@@ -120,7 +120,7 @@ print(xmlToDf.to_string(index=False))
 
 ## 蟒蛇 3
 
-```
+```py
 import xml.etree.ElementTree as ETree
 import pandas as pd
 

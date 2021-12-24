@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.atleast_1d() method 
 
@@ -45,7 +45,7 @@ print ("Output masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 1st Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -69,7 +69,7 @@ Output masked array :  [masked_array(
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.atleast_1d() method 
 
@@ -95,7 +95,7 @@ print ("Output masked array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [[[ 2.0e+08  3.0e-05]]
 
  [[-4.5e+01  2.0e+05]]]

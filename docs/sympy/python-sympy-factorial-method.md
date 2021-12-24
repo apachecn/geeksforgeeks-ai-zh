@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.factorial()`，我们能够找到作为参数传递的数字的阶乘。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -27,7 +27,7 @@ print(gfg_exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

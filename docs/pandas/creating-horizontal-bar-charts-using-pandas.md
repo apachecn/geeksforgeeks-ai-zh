@@ -19,7 +19,7 @@ Python 有各种可视化库，比如 [Matplotlib](https://www.geeksforgeeks.org
 
 **语法:**
 
-```
+```py
 DataFrame.plot.barh()
 ```
 
@@ -29,7 +29,7 @@ DataFrame.plot.barh()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 
@@ -56,7 +56,7 @@ df.plot.barh(x='Cuisine', y='Number of People',
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 
@@ -80,7 +80,7 @@ df.plot.barh(title="Gender wise Cuisine preference chart",
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 
@@ -106,7 +106,7 @@ df.plot(kind="barh", title="Gender wise Cuisine preference chart",
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 

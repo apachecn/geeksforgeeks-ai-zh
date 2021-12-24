@@ -6,7 +6,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(s.value_counts())
 
 **例 2 :**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -52,7 +52,7 @@ s.value_counts()
 
 **例 3 :**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 

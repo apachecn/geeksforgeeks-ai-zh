@@ -6,7 +6,7 @@
 
 **方法#1:使用 np.mean()**
 
-```
+```py
 # Python code to find mean of every numpy array in list
 
 # Importing module
@@ -30,14 +30,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [2.0, 5.0, 8.0]
 
 ```
 
 **方法 2:使用 np.average()**
 
-```
+```py
 # Python code to find mean of 
 # every numpy array in list
 
@@ -62,7 +62,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [12.0, 15.0, 18.0]
 
 ```

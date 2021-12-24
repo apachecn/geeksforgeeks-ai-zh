@@ -5,13 +5,13 @@
 这个数学函数帮助用户计算 x 的立方根，所有 x 都是数组元素。
 **语法:**
 
-```
+```py
 numpy.cbrt(arr, out = None, ufunc ‘cbrt’) : 
 ```
 
 **参数:**
 
-```
+```py
 arr  : *[array_like]* Input array or object
         whose elements, we need to square.
 
@@ -19,14 +19,14 @@ arr  : *[array_like]* Input array or object
 
 **返回:**
 
-```
+```py
 An array with cube root of x for all x i.e. array elements 
 
 ```
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # cbrt () function
 
@@ -41,7 +41,7 @@ print ("\ncbrt Value of arr2 : ", np.cbrt(arr2))
 
 **输出:**
 
-```
+```py
 cbrt Value of arr1 : 
  [  1\.  30\.   4\. -10.]
 
@@ -51,7 +51,7 @@ cbrt Value of arr2 :  [ 10.0793684  -5.0396842]
 
 **代码#2:处理复数**
 
-```
+```py
 # Python program explaining
 # cbrt () function
 
@@ -66,7 +66,7 @@ print("\ncbrt value(16 + 13j) : ", np.cbrt(b))
 
 **输出:**
 
-```
+```py
 <font color="red">TypeError:</font> ufunc 'cbrt' not supported for the input types,
 and the inputs could not be safely coerced to any supported
 types according to the casting rule ''safe''
@@ -74,7 +74,7 @@ types according to the casting rule ''safe''
 
 **代码#3:图形表示**
 
-```
+```py
 # Python program explaining
 # cbrt () function
 
@@ -95,7 +95,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Graphical Representation : 
  [-1.70997595  2.30347441  3.08793243  3.60027433  3.99768384  4.3287262
   4.61565763  4.87076238  5.10162421  5.31329285]

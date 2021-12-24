@@ -18,7 +18,7 @@
 
 让我们看看代码:
 
-```
+```py
 class Cartoonizer: 
     """Cartoonizer effect 
         A class that applies a cartoon effect to an image. 
@@ -104,7 +104,7 @@ cv2.destroyAllWindows() 
 
 ## 更简单的实施–
 
-```
+```py
 # importing libraries
 import cv2
 import numpy as np

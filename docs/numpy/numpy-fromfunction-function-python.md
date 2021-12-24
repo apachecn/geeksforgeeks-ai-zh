@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.fromfunction() function
 
@@ -46,7 +46,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.fromfunction() function
 

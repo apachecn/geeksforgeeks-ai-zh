@@ -8,7 +8,7 @@
 
 首先观察这个数据集。我们将使用该数据的“年龄”、“体重”和“工资”列，以便从熊猫数据框中的特定列获取*n-最小*值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -22,7 +22,7 @@ df.head(10)
 
 **代码#1:** 获得 5 个最小年龄
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -37,7 +37,7 @@ df.nsmallest(5, ['Age'])
 
 **代码#2:** 获得 10 个最小重量
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -52,7 +52,7 @@ df.nsmallest(10, ['Weight'])
 
 **代码#3:** 拿 10 最低工资
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

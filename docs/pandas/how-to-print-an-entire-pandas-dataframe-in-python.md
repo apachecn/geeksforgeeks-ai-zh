@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 import numpy as np
 from sklearn.datasets import load_iris
 import pandas as pd

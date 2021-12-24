@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -30,7 +30,7 @@ print("Subfactorial of n : {}".format(subfactorial_n))  
 
 **输出:**
 
-```
+```py
 Value of n = 4
 Subfactorial of n : 9
 
@@ -38,7 +38,7 @@ Subfactorial of n : 9
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -53,7 +53,7 @@ print("Subfactorial of n : {}".format(subfactorial_n))  
 
 **输出:**
 
-```
+```py
 Value of n = 9
 Subfactorial of n : 133496
 

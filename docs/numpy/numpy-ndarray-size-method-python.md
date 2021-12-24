@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.size() function
 
@@ -29,14 +29,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 24
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.size() function
 
@@ -52,7 +52,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 24
 
 ```

@@ -12,7 +12,7 @@
 
 **代码#1:边()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.edges()
 
@@ -40,7 +40,7 @@ print ("\nPolyhedron - edges form : ", a.edges)
 
 **代码#2:边()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.edges()
 

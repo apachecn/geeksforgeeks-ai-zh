@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.contains_point()函数**用于返回�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm
@@ -69,7 +69,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.path import Path

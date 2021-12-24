@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.combine()`函数查找两个系列对象中每个索引标签的最大值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ print(sr2)
 ![](img/7f8d90ca4a85691bd7ad3411d62820c4.png)
 现在我们将使用`Series.combine()`函数来查找两个给定序列对象中每个索引标签的最大值。
 
-```
+```py
 # find the maximum element-wise
 # among sr1 and sr2
 result = sr1.combine(other = sr2, func = max)
@@ -63,7 +63,7 @@ print(result)
 
 **示例#2 :** 使用`Series.combine()`函数查找两个系列对象中每个索引标签的最小值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(sr2)
 ![](img/31b3a6fef393c67085d4eefad5a93b75.png)
 现在我们将使用`Series.combine()`函数来查找两个给定序列对象中每个索引标签的最小值。
 
-```
+```py
 # find the minimum element-wise
 # among sr1 and sr2
 result = sr1.combine(other = sr2, func = min)

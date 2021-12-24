@@ -22,7 +22,7 @@ numpy 模块支持*逻辑 _ 和*运算符。它用于联系两个变量。如果
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -45,7 +45,7 @@ print('Operation between two lists =  ',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -82,7 +82,7 @@ NumPy 模块支持*逻辑 _ 或*运算符。它也被用来联系两个变量。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -130,7 +130,7 @@ logical_not 操作获取一个值并将其转换为另一个值。如果值为 0
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 

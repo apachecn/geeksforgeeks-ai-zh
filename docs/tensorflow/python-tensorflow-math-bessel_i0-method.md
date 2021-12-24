@@ -6,7 +6,7 @@
 
 bessel_io()是 TensorFlow 数学模块中的方法。该方法用于计算张量的元素贝塞尔 i0。
 
-```
+```py
 Syntax:
 tensorflow.math.bessel_i0(
     input, name
@@ -26,7 +26,7 @@ A Tensor if Tensor is given as input otherwise SparseTensor having the same dtyp
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -45,7 +45,7 @@ print('Output: ',b)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([-1.5  3\. ], shape=(2,), dtype=float64)
 Output:  tf.Tensor([1.64672319 4.88079259], shape=(2,), dtype=float64)
 
@@ -57,7 +57,7 @@ Output:  tf.Tensor([1.64672319 4.88079259], shape=(2,), dtype=float64)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -73,7 +73,7 @@ b = tf.math.bessel_i0(a)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([1 3], shape=(2,), dtype=int32)
 
 NotFoundError                             Traceback (most recent call last)

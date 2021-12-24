@@ -7,7 +7,7 @@
 熊猫提供了 ExcelWriter 类，用于将数据框对象写入 excel 工作表。
 **语法:**
 
-```
+```py
 final = pd.ExcelWriter('GFG.xlsx')
 
 ```
@@ -18,7 +18,7 @@ final = pd.ExcelWriter('GFG.xlsx')
 
 ![python-csv-to-json](img/f23ab1f954c303b7a022536e23acd2e9.png)
 
-```
+```py
 import pandas as pd
 import numpy as np
 

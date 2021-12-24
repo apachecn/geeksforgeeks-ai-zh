@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ for i, j in df.iterrows():
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -88,7 +88,7 @@ data.head(3)
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -112,7 +112,7 @@ for i, j in data.iterrows():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -133,7 +133,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -159,7 +159,7 @@ for key, value in df.iteritems():
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -178,7 +178,7 @@ data.head(3)
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -202,7 +202,7 @@ for key, value in data.iteritems():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -223,7 +223,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -248,7 +248,7 @@ for i in df.itertuples():
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -265,7 +265,7 @@ data.head(3)
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -288,7 +288,7 @@ for i in data.itertuples():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -309,7 +309,7 @@ print(df)
 
 ## 计算机编程语言
 
-```
+```py
 # creating a list of dataframe columns
 columns = list(df)
 
@@ -327,7 +327,7 @@ for i in columns:
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -346,7 +346,7 @@ col
 
 ## 计算机编程语言
 
-```
+```py
 # creating a list of dataframe columns
 clmn = list(col)
 

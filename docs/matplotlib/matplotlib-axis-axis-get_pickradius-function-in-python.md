@@ -22,7 +22,7 @@ matplotlib 库的轴模块中的 **Axis.get_pickradius()函数**用于获取拾�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 
@@ -51,7 +51,7 @@ plt.show()
 
 ![](img/afece0ffb25b8eeb0cfda4854a7e55dc.png)
 
-```
+```py
 Value return by get_pickradius() : 15
 
 ```
@@ -60,7 +60,7 @@ Value return by get_pickradius() : 15
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 
@@ -99,7 +99,7 @@ plt.show()
 
 ![](img/32cead26f6e174e68efed4f3fdf87c26.png)
 
-```
+```py
 Value return by get_pickradius() : 25
 
 ```

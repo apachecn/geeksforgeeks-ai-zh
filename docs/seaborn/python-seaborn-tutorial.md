@@ -29,7 +29,7 @@
 
 首先，让我们安装 Seaborn。Seaborn 可以使用 pip 安装。在终端中键入以下命令。
 
-```
+```py
 pip install seaborn
 ```
 
@@ -51,7 +51,7 @@ pip install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages 
 import seaborn as sns 
 

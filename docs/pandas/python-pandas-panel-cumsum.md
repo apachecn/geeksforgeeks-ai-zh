@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -39,7 +39,7 @@ print("\n", panel['b'].cumsum(axis = 0))
 
 **代码#2:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np

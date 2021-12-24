@@ -34,7 +34,7 @@ matplotlib 库中的一个标题描述了绘制图形的主要主题。使用 [t
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -67,7 +67,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的 **Axes.add_table()函数**也用来给 axes 
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.table as tbl
@@ -56,7 +56,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.table as tbl

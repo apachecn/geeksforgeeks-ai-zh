@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x=['one', 'two', 'three', 'four', 'five']
@@ -59,7 +59,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 y=['one', 'two', 'three', 'four', 'five']
 

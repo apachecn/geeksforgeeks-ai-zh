@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -45,7 +45,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -75,7 +75,7 @@ update_df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -105,7 +105,7 @@ update_df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -136,7 +136,7 @@ update_df
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

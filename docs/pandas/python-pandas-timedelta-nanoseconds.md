@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -29,7 +29,7 @@ print(td.nanoseconds)
 
 **Output:**
 
-```
+```py
 3 days 06:05:01.000000
 111
 
@@ -37,7 +37,7 @@ print(td.nanoseconds)
 
 **代码#2:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -52,7 +52,7 @@ print(td.nanoseconds)
 
 **Output:**
 
-```
+```py
 7 days 00:15:03.000000
 42
 
@@ -60,7 +60,7 @@ print(td.nanoseconds)
 
 **代码#3:**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 import datetime
@@ -76,7 +76,7 @@ print(td.nanoseconds)
 
 **Output:**
 
-```
+```py
 0 days 00:00:00.000000
 133
 

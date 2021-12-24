@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.truncate()`函数从给定日期之前的序列中截断一些数据。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 现在我们将使用`Series.truncate()`函数截断给定 Series 对象中“2014-08-17 10:00:00+02:00”之前的数据。
 
-```
+```py
 # truncate data prior to the given date
 sr.truncate(before = '2014-08-17 10:00:00 + 02:00')
 ```
@@ -55,7 +55,7 @@ sr.truncate(before = '2014-08-17 10:00:00 + 02:00')
 
 **示例#2:** 使用`Series.truncate()`函数在给定索引标签之前和给定索引标签之后截断序列中的一些数据。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们将使用`Series.truncate()`函数来截断给定序列对象中第一个索引标签之前和第三个索引标签之后的数据。
 
-```
+```py
 # truncate data outside the given range
 sr.truncate(before = 1, after = 3)
 ```

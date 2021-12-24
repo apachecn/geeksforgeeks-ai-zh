@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style = 'whitegrid')
@@ -37,7 +37,7 @@ seaborn.violinplot(x ="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style = 'whitegrid')
@@ -59,7 +59,7 @@ seaborn.violinplot(x ="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style = 'whitegrid') 
@@ -82,7 +82,7 @@ x 表示 x 轴，y 表示 y 轴。
 
 **语法:**
 
-```
+```py
 seaborn.violinplot(x)
 
 ```
@@ -91,7 +91,7 @@ seaborn.violinplot(x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn
@@ -118,7 +118,7 @@ seaborn.violinplot(x=tip["total_bill"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn
@@ -149,7 +149,7 @@ seaborn.violinplot(x="tip", y="day", data=tip)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn

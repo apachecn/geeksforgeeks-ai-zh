@@ -49,7 +49,7 @@ Bokeh 可用于在图形上绘制六边形。可以使用`plotting`模块的`hex
 
 **示例 1 :** 在本例中，我们将使用默认值绘制图表。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 
@@ -75,7 +75,7 @@ show(graph)
 
 **示例 2 :** 在本例中，我们将在其他参数旁边用虚线绘制六边形，六边形的大小与其值成比例。
 
-```
+```py
 # importing the modules
 from bokeh.plotting import figure, output_file, show
 

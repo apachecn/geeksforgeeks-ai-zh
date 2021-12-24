@@ -17,7 +17,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # bitwise_xor() function
 
@@ -34,7 +34,7 @@ print ("bitwise_xor of 10 and 11 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  11
 bitwise_xor of 10 and 11 :  1
@@ -43,7 +43,7 @@ bitwise_xor of 10 and 11 :  1
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # bitwise_xor() function
 
@@ -61,7 +61,7 @@ print ("Output array after bitwise_xor: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 115]
 Output array after bitwise_xor:  [ 1 11 14]
@@ -70,7 +70,7 @@ Output array after bitwise_xor:  [ 1 11 14]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # bitwise_xor() function
 
@@ -88,7 +88,7 @@ print ("Output array after bitwise_xor: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [True, False, True, False]
 Input array2 :  [False, False, True, True]
 Output array after bitwise_xor:  [ True False False  True]

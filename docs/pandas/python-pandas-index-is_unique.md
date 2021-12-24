@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.is_unique`属性找出给定索引对象中的基础数据是否唯一。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.is_unique`属性来找出给定索引对象中的底层数据是否唯一。
 
-```
+```py
 # check if the values in the Index
 # is unique or not.
 result = idx.is_unique
@@ -46,7 +46,7 @@ print(result)
 
 **示例 2 :** 使用`Index.is_unique`属性找出给定索引对象中的底层数据是否唯一。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(idx)
 
 现在我们将使用`Index.is_unique`属性来找出给定索引对象中的底层数据是否唯一。
 
-```
+```py
 # check if the values in the Index
 # is unique or not.
 result = idx.is_unique

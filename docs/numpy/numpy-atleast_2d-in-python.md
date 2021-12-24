@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_2d() function
 
@@ -30,7 +30,7 @@ print ("output 2d array from input number : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 output 2d array from input number :  [[10]]
 
@@ -38,7 +38,7 @@ output 2d array from input number :  [[10]]
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_2d() function
 
@@ -54,7 +54,7 @@ print ("output 2d  array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  list :  ([2, 6, 10], )
 output 2d  array :  [[ 2  6 10]]
 
@@ -62,7 +62,7 @@ output 2d  array :  [[ 2  6 10]]
 
 **代码#3:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_2d() function
 # when inputs are in high dimension
@@ -79,7 +79,7 @@ print(in_arr is out_arr)
 
 **输出:**
 
-```
+```py
 Input  array :
   [[0 1 2]
  [3 4 5]

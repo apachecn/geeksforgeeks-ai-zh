@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.polygrid2d() method 
 
@@ -31,7 +31,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 [[ 3271\.  5025.]
  [ 4107\.  6309.]]
 
@@ -39,7 +39,7 @@ print(ans)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.polygrid2d() method 
 
@@ -58,7 +58,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 3271.0
 
 ```

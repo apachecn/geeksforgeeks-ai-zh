@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 ax.quiver(x_pos, y_pos, x_dir, y_dir, color) 
 ```
 
@@ -21,7 +21,7 @@ ax.quiver(x_pos, y_pos, x_dir, y_dir, color)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ plt.show()
 
 包含两个箭头的箭袋图是一个好的开始，但是将箭头一个一个地添加到箭袋图中太慢太长。因此，为了创建箭头的完全 2D 表面，我们将使用 Numpy 的网格()方法。首先，创建一组名为 X 和 Y 的数组，分别代表箭囊图上每个箭头的 X 和 Y 的起始位置。x、y 箭头的起始位置也可用于定义每个箭头方向的 x 和 y 分量。在下面的图中，u 和 v 表示箭囊箭头的方向阵列，我们将使用下面的等式基于箭头起点定义箭头方向:
 
-```
+```py
 x_{direction} = cos(x_{starting \ point})
 y_{direction} = sin(y_{starting \ point})
 ```
@@ -92,7 +92,7 @@ y_{direction} = sin(y_{starting \ point})
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -126,7 +126,7 @@ plt.show()
 
 让我们创建一个显示梯度函数的颤图。Numpy 的 np，gradient()方法可用于将渐变函数应用于每个箭头的 x，y 起始位置。该等式用于创建以下图表:
 
-```
+```py
 z = xe^{-x^2-y^2}
 ```
 
@@ -134,7 +134,7 @@ z = xe^{-x^2-y^2}
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -174,7 +174,7 @@ python matplotlib 库的 ax .箭袋()方法提供了一个可选的属性颜色�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt

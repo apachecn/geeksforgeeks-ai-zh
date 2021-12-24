@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -51,7 +51,7 @@ seaborn.scatterplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -72,7 +72,7 @@ seaborn.scatterplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')

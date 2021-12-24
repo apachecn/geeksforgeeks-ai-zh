@@ -5,17 +5,17 @@
 **numpy.sin(x[，out]) = ufunc 'sin') :** 这个数学函数帮助用户计算所有 x(作为数组元素)的三角正弦。
 **参数:**
 
-```
+```py
 array    : [array_like]elements are in radians. 
 ```
 
-```
+```py
 2pi Radians = 36o degrees
 ```
 
 **返回:**
 
-```
+```py
 An array with trigonometric sine of
 x for all x i.e. array elements 
 ```
@@ -24,7 +24,7 @@ x for all x i.e. array elements
 
 ## 计算机编程语言
 
-```
+```py
 # Python program explaining
 # sin() function
 
@@ -40,7 +40,7 @@ print ("\nSine values : \n", Sin_Values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0, 1.5707963267948966, 1.0471975511965976, 3.141592653589793]
 
@@ -52,7 +52,7 @@ Sine values :
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # Graphical representation of
 # sin() function
@@ -76,7 +76,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 in_array :  [-3.14159265 -2.57039399 -1.99919533 -1.42799666 -0.856798   -0.28559933
   0.28559933  0.856798    1.42799666  1.99919533  2.57039399  3.14159265]
 

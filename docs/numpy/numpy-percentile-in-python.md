@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.percentile() method
 
@@ -35,7 +35,7 @@ print("75th percentile of arr : ",
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 34]
 50th percentile of arr :  7.0
 25th percentile of arr :  2.0
@@ -47,7 +47,7 @@ arr :  [20, 2, 7, 1, 34]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.percentile() method 
 
@@ -74,7 +74,7 @@ print("0th Percentile of arr, axis = 0 : ",
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19], [23, 2, 54, 1, 4]]
 
@@ -93,7 +93,7 @@ arr :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.percentile() method
 
@@ -119,7 +119,7 @@ print("\n0th Percentile of arr, axis = 1 : \n",
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19], [23, 2, 54, 1, 4]]
 

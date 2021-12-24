@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing ths modules
 import cv2
 import numpy as np
@@ -69,7 +69,7 @@ OpenCV 附带了许多预先构建的模糊和平滑功能，让我们可以简�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import cv2
 import numpy as np
@@ -110,7 +110,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the module
 import cv2
 import numpy as np
@@ -148,7 +148,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import cv2
 import numpy as np
@@ -186,7 +186,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the modules
 import cv2
 import numpy as np

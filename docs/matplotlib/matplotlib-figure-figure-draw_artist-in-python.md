@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 from random import randint, choice
 import time
@@ -66,7 +66,7 @@ plt.show()
 
 ![](img/b9bcceb218bfe4a8b9bc3790009c9e27.png)
 
-```
+```py
 Draw at time : 0.2968637943267822
 Draw at time : 0.031249523162841797
 Draw at time : 0.015642404556274414
@@ -81,7 +81,7 @@ so on.
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt
 import numpy as np

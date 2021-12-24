@@ -19,7 +19,7 @@ dataloader 构造函数驻留在 torch.utils.data 包中。它有各种参数，
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import torch
 from torch.utils.data import Dataset
@@ -53,7 +53,7 @@ for i, batch in enumerate(dataloader):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import torch
 from torch.utils.data import Dataset

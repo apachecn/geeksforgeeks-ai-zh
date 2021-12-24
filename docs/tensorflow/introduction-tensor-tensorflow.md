@@ -24,7 +24,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     数据通常不是我们的张量流算法所期望的正确维度或类型。我们必须先转换数据，然后才能使用它。大多数算法也期望标准化数据。Tensorflow 内置了可以为您规范化数据的函数。
 
-    ```
+    ```py
     data = tf.nn.batch_norm_with_global_normalization(...)
     ```
 
@@ -32,7 +32,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     我们的算法通常有一组参数，在整个过程中保持不变。例如，这可以是迭代次数、学习速率或我们选择的其他固定参数。将它们一起初始化被认为是好的形式，这样读者或用户可以很容易地找到它们。
 
-    ```
+    ```py
     learning_rate = 0.001  iterations = 1000
     ```
 
@@ -40,7 +40,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     张量流依赖于我们告诉它什么可以修改，什么不能修改。张量流将在优化过程中修改变量，以最小化损失函数。为了实现这一点，我们通过占位符输入数据。我们需要用大小和类型初始化这两个变量和占位符，这样 Tensorflow 就知道会发生什么。
 
-    ```
+    ```py
     a_var = tf.constant(42)  x_input = tf.placeholder(tf.float32, [None, input_size])  y_input = tf.placeholder(tf.fload32, [None, num_classes])
     ```
 
@@ -48,7 +48,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     在我们有了数据，并且初始化了我们的变量和占位符之后，我们必须定义模型。这是通过构建一个计算图来完成的。我们告诉张量流必须对变量和占位符进行什么操作才能得到我们的模型预测。
 
-    ```
+    ```py
     y_pred = tf.add(tf.mul(x_input, weight_matrix), b_matrix)
     ```
 
@@ -56,7 +56,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     定义模型后，我们必须能够评估输出。这是我们声明损失函数的地方。损失函数非常重要，因为它告诉我们预测值离实际值有多远。
 
-    ```
+    ```py
     loss = tf.reduce_mean(tf.square(y_actual – y_pred))
     ```
 
@@ -64,7 +64,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     现在我们已经准备好了一切，我们创建一个实例或我们的图，并通过占位符输入数据，让 Tensorflow 更改变量，以更好地预测我们的训练数据。这里有一种初始化计算图的方法。
 
-    ```
+    ```py
     with tf.Session(graph=graph) as session:
      ...
      session.run(...)
@@ -73,7 +73,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
     请注意，我们也可以用以下内容来启动我们的图表
 
-    ```
+    ```py
     session = tf.Session(graph=graph)  session.run(…)
     ```
 
@@ -96,7 +96,7 @@ TensorFlow 是一个开源软件库，用于跨一系列任务的数据流编程
 
 首先，我们需要导入所需的库。
 
-```
+```py
 import tensorflow as tf
 from tensorflow.python.framework import ops
 ops.reset_default_graph()
@@ -104,7 +104,7 @@ ops.reset_default_graph()
 
 然后开始图形会话
 
-```
+```py
 sess = tf.Session()
 ```
 
@@ -112,19 +112,19 @@ sess = tf.Session()
 
 张量流内置了创建用于变量的张量的函数。例如，我们可以使用 tf.zeros()函数创建预定义形状的零填充张量，如下所示。
 
-```
+```py
 my_tensor = tf.zeros([1,20])
 ```
 
 我们可以通过在会话中调用 run()方法来计算张量。
 
-```
+```py
 sess.run(my_tensor)
 ```
 
 张量流算法需要知道哪些对象是变量，哪些是常数。所以我们用 TensorFlow 函数 tf 创建了一个变量。变量()。请注意，您不能运行 sess.run(my_var)，这将导致错误。因为 TensorFlow 使用计算图进行操作，所以我们必须创建一个变量初始化操作来评估变量。对于这个脚本，我们可以通过调用变量方法 my_var.initializer 一次初始化一个变量。
 
-```
+```py
 my_var = tf.Variable(tf.zeros([1,20]))
 sess.run(my_var.initializer)
 sess.run(my_var)
@@ -133,7 +133,7 @@ sess.run(my_var)
 
 输出:
 
-```
+```py
 array([[ 0.,  0.,  0.,  0.,  0.,  0.,  0.,  
               0.,  0.,  0.,  0.,  0.,  0.,  0.,  
               0.,  0.,  0.,  0.,  0.,  0.]], dtype=float32)
@@ -141,7 +141,7 @@ array([[ 0.,  0.,  0.,  0.,  0.,  0.,  0.,
 
 现在让我们创建我们的变量来处理具有特定形状的维度，然后用所有的“1”或“0”初始化变量
 
-```
+```py
 row_dim = 2
 col_dim = 3
 zero_var = tf.Variable(tf.zeros([row_dim, col_dim]))
@@ -151,7 +151,7 @@ ones_var = tf.Variable(tf.ones([row_dim, col_dim]))
 
 现在评估它们的值，我们可以再次对变量运行初始化方法。
 
-```
+```py
 sess.run(zero_var.initializer)
 sess.run(ones_var.initializer)
 print(sess.run(zero_var))
@@ -160,7 +160,7 @@ print(sess.run(ones_var))
 
 输出:
 
-```
+```py
 [[ 0\.  0\.  0.]
  [ 0\.  0\.  0.]]
 [[ 1\.  1\.  1.]
@@ -173,7 +173,7 @@ print(sess.run(ones_var))
 
 为了可视化张量板中变量的创建，我们将重置计算图并创建一个全局初始化操作。
 
-```
+```py
 # Reset graph
 ops.reset_default_graph()
 
@@ -198,7 +198,7 @@ sess.run(initialize_op)
 
 现在在 cmd 中运行以下命令。
 
-```
+```py
 tensorboard --logdir=/tmp
 ```
 
@@ -206,7 +206,7 @@ tensorboard --logdir=/tmp
 
 代码来创建所有类型的张量并对它们求值。
 
-```
+```py
 import tensorflow as tf
 from tensorflow.python.framework import ops
 ops.reset_default_graph()

@@ -29,7 +29,7 @@ s 即 *s(i，i)* 的对角线特别重要，因为它代表输入偏好，这意
 
 下面是使用 scikit-learn 库的亲和传播聚类的 Python 实现:
 
-```
+```py
 from sklearn.cluster import AffinityPropagation
 from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
@@ -47,7 +47,7 @@ labels = af.labels_
 n_clusters_ = len(cluster_centers_indices)
 ```
 
-```
+```py
 # Plot result
 import matplotlib.pyplot as plt
 from itertools import cycle

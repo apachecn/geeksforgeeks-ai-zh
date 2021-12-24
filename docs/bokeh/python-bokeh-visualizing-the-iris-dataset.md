@@ -10,13 +10,13 @@ Bokeh 可用于可视化鸢尾花数据集。使用`plotting`模块进行可视�
 
 要下载 Iris 数据集，请在命令行上运行以下命令:
 
-```
+```py
 bokeh sampledata
 ```
 
 或者，我们也可以执行以下 Python 代码:
 
-```
+```py
 import bokeh
 bokeh.sampledata.download()
 
@@ -26,7 +26,7 @@ bokeh.sampledata.download()
 
 在 Bokeh 提供的样本数据中，有一个文件 iris.csv，这就是 iris 数据集。下面是 iris.csv 文件的一瞥:
 
-```
+```py
 sepal_length    sepal_width    petal_length    petal_width    species
 5.1        3.5        1.4        0.2        setosa
 4.9        3        1.4        0.2        setosa
@@ -63,7 +63,7 @@ sepal_length    sepal_width    petal_length    petal_width    species
 4.  绘制所有 3 个物种的图表。
 5.  显示模型。
 
-```
+```py
 # importing the modules
 from bokeh.sampledata.iris import flowers
 from bokeh.plotting import figure, show, output_file
@@ -126,7 +126,7 @@ show(graph)
 4.  绘制所有 3 个物种的图表。
 5.  显示模型。
 
-```
+```py
 # importing the modules
 from bokeh.sampledata.iris import flowers
 from bokeh.plotting import figure, show, output_file

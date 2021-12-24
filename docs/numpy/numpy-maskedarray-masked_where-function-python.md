@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_where() method 
 
@@ -38,7 +38,7 @@ print ("Masked array : ", mask_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  2]
 Masked array :  [-- 2 3 -- 2]
 
@@ -46,7 +46,7 @@ Masked array :  [-- 2 3 -- 2]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_where() method 
 
@@ -82,7 +82,7 @@ print("Resultant Masked array : ", res_arr)
 
 **Output:**
 
-```
+```py
 1st Input array :  [0 1 2 3]
 1st Masked array :  [0 -- 2 3]
 2nd Input array :  [0 1 2 3]

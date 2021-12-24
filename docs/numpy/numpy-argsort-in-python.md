@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # argpartition() function
 
@@ -33,7 +33,7 @@ print("Output sorted array : ", in_arr[out_arr])
 
 **Output:**
 
-```
+```py
 Input unsorted array :  [2 0 1 5 4 1 9]
 Output sorted array indices :  [1 2 5 0 4 3 6]
 Output sorted array :  [0 1 1 2 4 5 9]
@@ -42,7 +42,7 @@ Output sorted array :  [0 1 1 2 4 5 9]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # argpartition() function
 
@@ -61,7 +61,7 @@ print ("Output sorteded array indices along axis 1: ", out_arr2)
 
 **Output:**
 
-```
+```py
 Input array :  [[2 0 1]
  [5 4 3]]
 Output sorteded array indices along axis 0:  [[0 0 0]

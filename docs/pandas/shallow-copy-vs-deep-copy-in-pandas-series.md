@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # program to depict shallow copy
 # in pandas series
 
@@ -65,7 +65,7 @@ print('\nOriginal Dataframe after operation:\n', ser)
 
 ## 蟒蛇 3
 
-```
+```py
 # program to depict deep copy
 # in pandas series
 

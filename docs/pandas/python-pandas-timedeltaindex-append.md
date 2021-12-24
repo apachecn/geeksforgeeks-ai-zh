@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.append()`函数在给定对象的末尾追加一个时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(tidx2)
 
 现在我们将在 tidx1 的末尾追加 tidx2。
 
-```
+```py
 # append tidx2 at the end of tidx1
 tidx1.append(tidx2)
 ```
@@ -52,7 +52,7 @@ tidx1.append(tidx2)
 
 **示例 2:** 使用`TimedeltaIndex.append()`函数在给定对象的末尾追加一个时间增量索引对象列表。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -87,7 +87,7 @@ print(tidx3)
 
 现在我们将在 tidx1 的末尾追加 tidx2 和 tidx3。
 
-```
+```py
 # append tidx2 and tidx3 at the end of tidx1
 tidx1.append([tidx2, tidx3])
 ```

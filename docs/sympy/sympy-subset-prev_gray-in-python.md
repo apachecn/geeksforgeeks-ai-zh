@@ -12,7 +12,7 @@
 
 **代码#1 : prev_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_gray()
 
@@ -36,7 +36,7 @@ print ("Subset a prev_gray : ", a.prev_gray().subset)
 
 **代码#2 : prev_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_gray()
 

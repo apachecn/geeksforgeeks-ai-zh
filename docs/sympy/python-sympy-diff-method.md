@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.diff()`方法，我们可以找到数学表达式与变量的微分。这里我们也使用`symbols()`方法将变量声明为符号。
 
-```
+```py
 # import sympy
 from sympy import * x, y = symbols('x y')
 gfg_exp = x + y
@@ -31,7 +31,7 @@ print("After Differentiation : {}".format(dif))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * x, y = symbols('x y')
 gfg_exp = sin(x)*cos(x)

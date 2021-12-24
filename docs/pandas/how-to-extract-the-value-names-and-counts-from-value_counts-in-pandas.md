@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -72,7 +72,7 @@ print(su2)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -108,7 +108,7 @@ print(su4)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -145,7 +145,7 @@ for idx, name in enumerate(df['country'].value_counts().index.tolist()):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 

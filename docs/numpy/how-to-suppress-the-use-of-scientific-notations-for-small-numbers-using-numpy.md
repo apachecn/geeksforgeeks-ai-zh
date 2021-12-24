@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy library 
 import numpy as np
 
@@ -41,7 +41,7 @@ print(num)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy library 
 import numpy as np
 

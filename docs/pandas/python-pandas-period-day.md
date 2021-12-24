@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.day`属性在给定的 Period 对象中查找日期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.day`属性来查找给定对象中的月日。
 
-```
+```py
 # return the day value 
 prd.day
 ```
@@ -44,7 +44,7 @@ prd.day
 
 **示例#2:** 使用`Period.day`属性在给定的 Period 对象中查找日期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(prd)
 
 现在我们将使用`Period.day`属性来查找给定对象中的月日。
 
-```
+```py
 # return the day value 
 prd.day
 ```

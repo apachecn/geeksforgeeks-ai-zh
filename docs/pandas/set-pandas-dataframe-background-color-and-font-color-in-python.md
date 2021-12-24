@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the necessary libraries -->
 import pandas as pd
 import numpy as np
@@ -41,7 +41,7 @@ df.style.set_properties(**{'background-color': 'black',
 
 ## 蟒蛇 3
 
-```
+```py
 # Replacing the locating value by NaN (Not a Number)
 df.iloc[0, 3] = np.nan
 df.iloc[2, 3] = np.nan
@@ -63,7 +63,7 @@ df.style.highlight_null(null_color='red')
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlight the Min values in each column
 print("\nModified Stlying DataFrame:")
 df.style.highlight_min(axis=0)
@@ -79,7 +79,7 @@ df.style.highlight_min(axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlight the Max values in each column
 print("\nModified Stlying DataFrame:")
 df.style.highlight_max(axis=0)
@@ -97,7 +97,7 @@ df.style.highlight_max(axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # function for set text color of positive
 # values in Dataframes
 def color_positive_green(val):
@@ -127,7 +127,7 @@ df.style.applymap(color_positive_green)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import seaborn library
 import seaborn as sns
 
@@ -150,7 +150,7 @@ df.style.background_gradient(cmap=cm).set_precision(2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlight the NaN values in DataFrame
 # using seaborn color palette
 print("\nModified Stlying DataFrame:")
@@ -167,7 +167,7 @@ df.style.background_gradient(cmap=cm).set_precision(2).highlight_null('red')
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlight the NaN values in DataFrame
 # using seaborn color palette as well as
 # min('lighblue') and max('blue') values

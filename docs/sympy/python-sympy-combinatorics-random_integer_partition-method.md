@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.partitions.random_integer_partition()`方法，我们能够获得整数随机划分的反向排序列表。
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import random_integer_partition
 from sympy import *
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import random_integer_partition
 from sympy import *

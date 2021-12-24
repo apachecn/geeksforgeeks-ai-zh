@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.mask_rowcols() function
 
@@ -37,7 +37,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[0 0 -- 0]
  [0 0 -- 0]
  [-- -- -- --]
@@ -47,7 +47,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.mask_rowcols() function
 
@@ -68,7 +68,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[0 0 0 -- 0]
  [0 0 0 -- 0]
  [0 0 0 -- 0]

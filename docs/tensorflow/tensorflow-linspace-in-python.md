@@ -8,7 +8,7 @@ TensorFlow 是谷歌设计的开源 Python 库，用于开发机器学习模型�
 
 **例 1:**
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -31,7 +31,7 @@ print("Result: ", res)
 
 **输出:**
 
-```
+```py
 start:  tf.Tensor(1.0, shape=(), dtype=float64)
 end:  tf.Tensor(5.0, shape=(), dtype=float64)
 num:  5
@@ -41,7 +41,7 @@ Result:  tf.Tensor([1\. 2\. 3\. 4\. 5.], shape=(5, ), dtype=float64)
 
 **示例 2:** 该示例使用二维张量，在提供不同的轴值时，将生成不同的张量。这种均匀间隔的值生成类型目前在夜间版本中是允许的。
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -70,7 +70,7 @@ print("Result 2: ", res)
 
 **输出:**
 
-```
+```py
 
 start:  tf.Tensor([ 1\. 15.], shape=(2, ), dtype=float64)
 end:  tf.Tensor([10\. 35.], shape=(2, ), dtype=float64)

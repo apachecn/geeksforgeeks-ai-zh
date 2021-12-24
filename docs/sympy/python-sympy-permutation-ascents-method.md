@@ -11,7 +11,7 @@
 
 **代码#1:上升()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.ascents()
 
@@ -37,7 +37,7 @@ print ("Permutation b - ascents form : ", b.ascents())
 
 **代码#2 : ascents()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.ascents()
 

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.dayofweek`属性为 DatetimeIndex 对象中的每个条目查找一周中某一天的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们想要为 DatetimeIndex 对象中的每个条目找到一周中的每一天的序号值。
 
-```
+```py
 # find the ordinal value of the day 
 # of the week for each entries present in the object
 didx.dayofweek
@@ -42,7 +42,7 @@ didx.dayofweek
 
 **示例#2:** 使用`DatetimeIndex.dayofweek`属性为 DatetimeIndex 对象中的每个条目查找一周中某一天的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 ![](img/7209b56d19803e90e9ddf2e50319c2e7.png)
 现在我们想要为 DatetimeIndex 对象中的每个条目找到一周中的每一天的序数值。
 
-```
+```py
 # find the ordinal value of the day of the week
 # for each entries present in the object
 didx.dayofweek

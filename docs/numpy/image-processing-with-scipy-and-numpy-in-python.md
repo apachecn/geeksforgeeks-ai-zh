@@ -12,7 +12,7 @@
 
 **Numpy:** 到[安装 numpy](https://www.geeksforgeeks.org/how-to-install-numpy-on-linux/) 在终端中键入以下命令。
 
-```
+```py
 pip install numpy
 ```
 
@@ -20,7 +20,7 @@ pip install numpy
 
 **SciPy:** 也可以使用上面的命令安装 SciPy。
 
-```
+```py
 pip install scipy
 ```
 
@@ -34,7 +34,7 @@ SciPy 的杂项包附带了一些预装的图像。我们将使用这些图像�
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 import imageio
 import matplotlib.pyplot as plt
@@ -59,7 +59,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 import imageio
 import matplotlib.pyplot as plt
@@ -75,7 +75,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 (768, 1024, 3)
 uint8
 ```
@@ -90,7 +90,7 @@ uint8
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 import imageio
 import matplotlib.pyplot as plt
@@ -111,7 +111,7 @@ face.tofile("raccoon.raw")
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 img = np.fromfile('raccoon.raw', 
@@ -122,7 +122,7 @@ print(img.shape)
 
 **输出:**
 
-```
+```py
 (2359296,)
 ```
 
@@ -134,7 +134,7 @@ print(img.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 
 img = misc.face()
@@ -146,7 +146,7 @@ print(img.mean())
 
 **输出:**
 
-```
+```py
 255
 0
 110.16274388631184
@@ -160,7 +160,7 @@ print(img.mean())
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 import matplotlib.pyplot as plt
 
@@ -188,7 +188,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc
 import numpy as np
 import matplotlib.pyplot as plt
@@ -213,7 +213,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc,ndimage
 import matplotlib.pyplot as plt
 
@@ -241,7 +241,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc,ndimage
 import matplotlib.pyplot as plt
 
@@ -265,7 +265,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc, ndimage
 import matplotlib.pyplot as plt
 
@@ -297,7 +297,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc,ndimage
 import matplotlib.pyplot as plt
 import numpy as np
@@ -319,7 +319,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 denoised = ndimage.gaussian_filter(noise_img, 2.2)
 
 plt.imshow(denoised)
@@ -334,7 +334,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 denoised = ndimage.median_filter(noise_img, 4)
 
 plt.imshow(denoised)
@@ -353,7 +353,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import misc, ndimage
 import matplotlib.pyplot as plt
 import numpy as np

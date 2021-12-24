@@ -40,7 +40,7 @@
 
 **例 1 :**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
 import numpy as np
@@ -93,7 +93,7 @@ plt.colorbar(tri)
 
 **例 2 :**
 
-```
+```py
 xy = np.asarray([
     [-0.101, 0.872], [-0.080, 0.883], [-0.069, 0.888], [-0.054, 0.890],
     [-0.045, 0.897], [-0.057, 0.895], [-0.073, 0.900], [-0.087, 0.898],

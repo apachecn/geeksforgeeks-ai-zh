@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas
 
@@ -44,7 +44,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas
 
@@ -83,7 +83,7 @@ print(data[data['subjects'].isin(list2)])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas
 

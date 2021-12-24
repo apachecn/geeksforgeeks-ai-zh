@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package for
 # creating arrays
 import numpy as np
@@ -38,7 +38,7 @@ ndimage.map_coordinates(a, [[0.3, 1], [0.5, 1]], order=1)
 
 **输出:**
 
-```
+```py
 array([1.7, 5\. ])
 ```
 
@@ -46,7 +46,7 @@ array([1.7, 5\. ])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package for
 # creating arrays
 import numpy as np
@@ -66,7 +66,7 @@ print(ndimage.map_coordinates(a, vals, order=1))
 
 **输出:**
 
-```
+```py
 [2\. 6.]
 [ True  True]
 [2\. 6.]

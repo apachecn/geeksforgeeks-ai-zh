@@ -31,7 +31,7 @@
 
  **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import ArrowStyle
 
@@ -55,7 +55,7 @@ plt.show()
 ![](img/99e71249ed8dbde98d0e0e5ccc843924.png)
 **例 2:**
 
-```
+```py
 import matplotlib.patches as mpatch
 import matplotlib.pyplot as plt
 

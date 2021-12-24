@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.hour`属性返回给定 Series 对象的基础数据中日期时间的小时。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.dt.hour`属性返回给定 Series 对象的基础数据中日期时间的小时。
 
-```
+```py
 # return the hour
 result = sr.dt.hour
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2 :** 使用`Series.dt.hour`属性返回给定 Series 对象的基础数据中日期时间的小时。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.dt.hour`属性返回给定 Series 对象的基础数据中日期时间的小时。
 
-```
+```py
 # return the hour
 result = sr.dt.hour
 

@@ -18,7 +18,7 @@
 
 下面是 Python 实现:
 
-```
+```py
 # Python programe to illustrate
 # corner detection with
 # Harris Corner Detection Method

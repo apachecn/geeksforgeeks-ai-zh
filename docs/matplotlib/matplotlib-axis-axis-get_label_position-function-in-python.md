@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_label_position()函数**用于获
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -45,7 +45,7 @@ plt.show()
 
 ![](img/eb7f7e6f244ff36844781d8a33416ffe.png)
 
-```
+```py
 Position of Label : bottom
 
 ```
@@ -54,7 +54,7 @@ Position of Label : bottom
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -90,7 +90,7 @@ plt.show()
 
 ![](img/cacebdd15a1fa92f173b93566d02438d.png)
 
-```
+```py
 Position of Label in Axes 1 : left
 Position of Label in Axes 2 : right
 

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,7 +25,7 @@ print(gfg.__imul__(5))
 
 **Output:** 
 
-```
+```py
 [  6\.   13\.   15\.   22.5  25\. ]
 ```
 
@@ -33,7 +33,7 @@ print(gfg.__imul__(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(gfg.__imul__(3))
 
 **Output:** 
 
-```
+```py
 [[  3\.     6.6    9\.    12\.    15.03]
  [ 18.3   15\.    14.4    9\.     6\.  ]]
 ```

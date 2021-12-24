@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.subdtype() function
 
@@ -27,14 +27,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (dtype('float32'), (8, ))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.subdtype() function
 
@@ -50,7 +50,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 None
 
 ```

@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img = cv2.imread("test.jpeg")  # Read image
@@ -57,7 +57,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img = cv2.imread("test.jpeg")  # Read image
@@ -87,7 +87,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img = cv2.imread("test.jpeg") # Read image
@@ -116,7 +116,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2 
 
 img = cv2.imread("test.jpeg") # Read image

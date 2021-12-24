@@ -28,7 +28,7 @@
 
 **示例:**
 
-```
+```py
 # importing matplotlib module
 import matplotlib.pyplot as plt
 import numpy as np
@@ -93,7 +93,7 @@ plt.show()
 
 **示例:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -133,7 +133,7 @@ plt.show()
 
 **示例:**
 
-```
+```py
 # importing matplotlib module and respective classes
 import matplotlib.pyplot as plt
 import numpy as np

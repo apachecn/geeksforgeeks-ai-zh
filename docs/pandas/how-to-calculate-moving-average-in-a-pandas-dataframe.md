@@ -26,7 +26,7 @@
 
 ## python 3
 
-```
+```py
 # importing Libraries
 
 # importing pandas as pd
@@ -49,7 +49,7 @@ plt.style.use('default')
 
 ## 蟒 3
 
-```
+```py
 # importing time-series data
 reliance = pd.read_csv('RELIANCE.NS.csv', index_col='Date',
                        parse_dates=True)
@@ -79,7 +79,7 @@ reliance.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # updating our dataFrame to have only
 # one column 'Close' as rest all columns
 # are of no use for us at the moment
@@ -108,7 +108,7 @@ reliance
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting Close price and simple
 # moving average of 30 days using .plot() method
 reliance[['Close', 'SMA30']].plot(label='RELIANCE', 
@@ -131,7 +131,7 @@ reliance[['Close', 'SMA30']].plot(label='RELIANCE', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Libraries
 
 # importing pandas as pd
@@ -154,7 +154,7 @@ plt.style.use('default')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time-series data
 reliance = pd.read_csv('RELIANCE.NS.csv', 
                        index_col='Date',
@@ -179,7 +179,7 @@ reliance.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # updating our dataFrame to have only
 # one column 'Close' as rest all columns 
 # are of no use for us at the moment
@@ -203,7 +203,7 @@ reliance
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting Close price and cumulative moving
 # average of 30 days using .plot() method
 reliance[['Close', 'CMA30']].plot(label='RELIANCE', 
@@ -228,7 +228,7 @@ reliance[['Close', 'CMA30']].plot(label='RELIANCE', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Libraries
 
 # importing pandas as pd
@@ -251,7 +251,7 @@ plt.style.use('default')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time-series data
 reliance = pd.read_csv('RELIANCE.NS.csv',
                        index_col='Date',
@@ -284,7 +284,7 @@ reliance.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # updating our dataFrame to have only
 # one column 'Close' as rest all columns
 # are of no use for us at the moment
@@ -308,7 +308,7 @@ reliance
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting Close price and exponential 
 # moving averages of 30 days
 # using .plot() method

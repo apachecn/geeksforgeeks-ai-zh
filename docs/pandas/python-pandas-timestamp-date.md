@@ -14,7 +14,7 @@ Pandas `**Timestamp.date()**`函数返回一个日期时间对象，其年、月
 
 **示例#1:** 使用`Timestamp.date()`函数将给定时间戳对象的日期作为日期时间对象返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.date()`函数将日期作为日期时间对象返回。
 
-```
+```py
 # return as a datetime object 
 ts.date()
 ```
@@ -45,7 +45,7 @@ ts.date()
 
 **示例 2:** 使用`Timestamp.date()`函数将给定时间戳对象的日期作为日期时间对象返回。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.date()`函数将日期作为日期时间对象返回。
 
-```
+```py
 # return as a datetime object 
 ts.date()
 ```

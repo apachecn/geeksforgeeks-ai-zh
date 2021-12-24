@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，两者提取了相同的索引号行。iloc[]和. loc[]方法并进行比较。由于索引列默认为数字，因此索引标签也将是整数。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -44,7 +44,7 @@ row1 == row2
 
 在本例中，首先通过传递一个列表来提取多行，然后通过传递整数来提取该范围内的行。之后，比较两个值。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

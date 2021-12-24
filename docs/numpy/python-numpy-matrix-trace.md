@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`**matrix.trace()**`方法可以帮助我们找到给定矩阵的对角线的所有元素的和。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[7]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(geek)
 
 **Output:**
 
-```
+```py
 [[13]]
 
 ```

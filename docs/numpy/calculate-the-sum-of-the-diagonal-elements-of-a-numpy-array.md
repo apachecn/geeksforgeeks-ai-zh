@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -40,7 +40,7 @@ print(trace)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -69,7 +69,7 @@ print(trace)
 
 **语法:**
 
-```
+```py
 numpy.diagonal(a, offset=0, axis1=0, axis2=1
 
 ```
@@ -78,7 +78,7 @@ numpy.diagonal(a, offset=0, axis1=0, axis2=1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 
@@ -109,7 +109,7 @@ print(sum(diag))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Numpy package
 import numpy as np
 

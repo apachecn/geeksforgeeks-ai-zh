@@ -20,7 +20,7 @@ matplotlib 库的 **show()方法**图形模块用于显示图形窗口。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,7 +63,7 @@ fig.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

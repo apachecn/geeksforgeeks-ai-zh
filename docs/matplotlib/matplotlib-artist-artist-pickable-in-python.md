@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的**可选取()方法**用于返回该 artist
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np 
@@ -60,7 +60,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np 

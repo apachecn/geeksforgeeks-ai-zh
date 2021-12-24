@@ -17,7 +17,7 @@ pandas**Timestamp . tz _ localize()**函数将天真的 Timestamp 转换为本�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(ts)
 
 ## 蟒蛇 3
 
-```
+```py
 # convert to naive Timestamp
 ts.tz_localize(tz = None)
 ```
@@ -52,7 +52,7 @@ ts.tz_localize(tz = None)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(ts)
 
 ## 蟒蛇 3
 
-```
+```py
 # set to 'US / Pacific'
 ts.tz_localize(tz = 'US/Pacific')
 ```

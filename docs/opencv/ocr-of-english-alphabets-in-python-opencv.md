@@ -12,7 +12,7 @@
 
 ## 蟒 3
 
-```
+```py
 #Import the libraries
 import cv2 as cv
 import numpy as np
@@ -54,6 +54,6 @@ print( accuracy )
 
 **输出**
 
-```
+```py
 92.82
 ```

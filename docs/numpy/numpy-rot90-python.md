@@ -5,13 +5,13 @@
 **numpy.rot90()** 方法在轴(0 或 1)指定的平面内将数组旋转 90 度。
 **语法:**
 
-```
+```py
 numpy.rot90(array, k = 1, axes = (0, 1))
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]i.e. array having two or more dimensions.
 k     : [optional , int]No. of times we wish to rotate array by 90 degrees.
 axes  : [array_like]Plane, along which we wish to rotate array.
@@ -20,12 +20,12 @@ axes  : [array_like]Plane, along which we wish to rotate array.
 
 **返回:**
 
-```
+```py
 rotated copy of array
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.rot90() method
 
@@ -46,7 +46,7 @@ print("\nRotated array : \n", geek.rot90(array, 2))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[ 0  1  2  3]
  [ 4  5  6  7]

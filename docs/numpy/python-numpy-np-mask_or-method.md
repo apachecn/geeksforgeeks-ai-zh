@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.mask_or()`方法，我们能够使用该方法获得带有逻辑 OR 运算符的两个掩码。
 
-```
+```py
 # import numpy and mask_or
 import numpy as np
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and mask_or
 import numpy as np
 

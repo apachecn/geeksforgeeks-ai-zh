@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packagess
 import numpy as np
 import matplotlib.pyplot as plt
@@ -80,7 +80,7 @@ plt.savefig('pyplot-table-original.png',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary packagess
 import numpy as np
 import matplotlib.pyplot as plt

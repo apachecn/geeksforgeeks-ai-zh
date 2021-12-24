@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 Empty DataFrame
 Columns: []
 Index: []
@@ -39,7 +39,7 @@ Index: []
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code demonstrate creating
 # DataFrame from dict narray / lists
 # By default addresses.
@@ -87,7 +87,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

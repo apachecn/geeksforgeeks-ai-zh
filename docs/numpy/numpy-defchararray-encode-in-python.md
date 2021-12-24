@@ -15,7 +15,7 @@
 
 **代码:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.encode() method 
 import numpy as np 
@@ -35,7 +35,7 @@ print ("\nEncoded arr2 : \n", np.char.encode(arr2, encoding ='utf8', 
 
 **输出:**
 
-```
+```py
 arr1 :  ['eAAAa', 'ttttds', 'AAtAAt']
 arr2 :  ['11sf', 'sdsf2', '1111f2']
 

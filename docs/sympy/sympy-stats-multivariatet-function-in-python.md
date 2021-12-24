@@ -4,7 +4,7 @@
 
 借助**方法，我们可以创建一个具有多元 T 分布的联合随机变量。**
 
-```
+```py
 **Syntax:** sympy.stats.MultivariateT(syms, mu, sigma, v)
 
 **Parameters:**
@@ -20,7 +20,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import sympy, MultivariateT, density, Symbol
 from sympy.stats import density, MultivariateT
 from sympy import Symbol, pprint

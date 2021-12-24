@@ -18,7 +18,7 @@ matplotlib 库的 artist 模块中的 **get_agg_filter()方法**用于获取用�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,7 +48,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

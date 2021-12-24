@@ -4,7 +4,7 @@
 
 In Sympy, the function `Plane.projection_line()` is used to project the given line onto the given plane through the normal plane containing the line.
 
-```
+```py
 Syntax: Plane.projection_line(line)
 
 Parameters:
@@ -16,7 +16,7 @@ Returns: Point3D, Line3D, Ray3D or Segment3D
 
 示例#1:
 
-```
+```py
 # import sympy and Plane, Line, Line3D, Point, Point3D
 from sympy import Plane, Line, Line3D, Point, Point3D
 
@@ -33,13 +33,13 @@ print(projectionLine)
 
 **输出:**
 
-```
+```py
 Line3D(Point3D(5/2, 2, 3/2), Point3D(3, 3, 1))
 ```
 
 示例 2:
 
-```
+```py
 # import sympy and Plane, Line, Line3D, Point, Point3D
 from sympy import Plane, Line, Line3D, Point, Point3D
 
@@ -56,6 +56,6 @@ print(projectionLine)
 
 **输出:**
 
-```
+```py
 Line3D(Point3D(1, 2, 3), Point3D(2, 0, 2))
 ```

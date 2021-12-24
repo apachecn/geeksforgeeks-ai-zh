@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python3 program explaining 
 # sinc() function 
 import numpy as np 
@@ -31,7 +31,7 @@ print ("\nSinc values : \n", sinc_Values) 
 
 **输出:**
 
-```
+```py
 Input array : 
  [0, 1.5707963267948966, 1.0471975511965976, 3.141592653589793]
 
@@ -42,7 +42,7 @@ Sinc values :
 
 **代码#2:图形表示**
 
-```
+```py
 # Python program showing Graphical 
 # representation of sinc() function 
 import numpy as np 
@@ -65,7 +65,7 @@ plt.show() 
 
 **输出:**
 
-```
+```py
 in_array :  [-3.14159265 -2.57039399 -1.99919533 -1.42799666 -0.856798   -0.28559933
   0.28559933  0.856798    1.42799666  1.99919533  2.57039399  3.14159265]
 

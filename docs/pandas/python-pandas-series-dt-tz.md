@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.tz`属性查找给定序列对象中基于日期时间的底层数据的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz`属性来查找给定序列对象中日期时间数据的时区。
 
-```
+```py
 # find the timezone
 result = sr.dt.tz
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例#2 :** 使用`Series.dt.tz`属性查找给定序列对象中基于日期时间的底层数据的时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.dt.tz`属性来查找给定序列对象中日期时间数据的时区。
 
-```
+```py
 # find the timezone
 result = sr.dt.tz
 

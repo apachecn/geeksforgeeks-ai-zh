@@ -13,13 +13,13 @@ Bokeh 是一个交互式可视化库，帮助我们创建数据集的可视化�
 *   打开 PyCharm，创建一个新项目，并将其保存为 BokehProject。
 *   转到终端，使用以下命令安装 Django:
 
-```
+```py
 pip install django
 ```
 
 *   同样，我们将在项目中安装 bokeh，如下所示:
 
-```
+```py
 pip install bokeh
 ```
 
@@ -27,25 +27,25 @@ pip install bokeh
 
 *   使用以下命令创建一个 Django 项目:
 
-```
+```py
 django-admin startproject BokehDjango
 ```
 
 *   使用以下命令更改项目文件夹:
 
-```
+```py
 cd BokehDjango
 ```
 
 *   运行 manage.py，通过使用下面的迁移，将数据更改初步迁移到我们的项目中
 
-```
+```py
 python manage.py migrate
 ```
 
 *   使用以下命令创建一个超级用户，以创建一个**超级用户**帐户
 
-```
+```py
 python manage.py createsuperuser  
 ```
 
@@ -56,7 +56,7 @@ python manage.py createsuperuser
 
 *   现在让我们运行命令下面的命令来检查 Django 是否安装成功。
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -66,7 +66,7 @@ python manage.py runserver
 
 *   现在，我们使用以下命令创建一个 Django 应用程序
 
-```
+```py
 python manage.py startapp BokehApp
 ```
 
@@ -76,7 +76,7 @@ python manage.py startapp BokehApp
 
 *   既然我们已经创建了一个应用程序，我们需要将它添加到设置中。打开 settings.py 并在已安装的应用程序中添加以下内容:
 
-```
+```py
 INSTALLED_APPS = [
    'django.contrib.admin',
    'django.contrib.auth',
@@ -92,7 +92,7 @@ INSTALLED_APPS = [
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 
@@ -107,7 +107,7 @@ urlpatterns = [
 
 ## 计算机编程语言
 
-```
+```py
 from django.urls import path
 from . import views
 
@@ -119,7 +119,7 @@ urlpatterns = [path("", views.home, name="home")]
 
 ## 计算机编程语言
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -138,7 +138,7 @@ def home(request):
 
 *   转到您的 python shell 并检查 Bokeh 的版本，如下所示:
 
-```
+```py
 bokeh.__version__  
 ```
 
@@ -151,7 +151,7 @@ bokeh.__version__
 
 ## 超文本标记语言
 
-```
+```py
 <link href=”http://cdn.pydata.org/bokeh/release/bokeh-2.3.2.min.css
    " rel=”stylesheet” type=”text/css”>
 <link href=”http://cdn.pydata.org/bokeh/release/bokeh-widgets-2.3.2.min.css"
@@ -162,7 +162,7 @@ bokeh.__version__
 
 ## 超文本标记语言
 
-```
+```py
 <script src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.2.min.js"></script>
 <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.3.2.min.js"></script>
 <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.3.2.min.js"></script>
@@ -173,7 +173,7 @@ bokeh.__version__
 
 ## 超文本标记语言
 
-```
+```py
 <html>
    <head>
       <link href=”http://cdn.pydata.org/bokeh/release/bokeh-2.3.2.min.css
@@ -197,7 +197,7 @@ bokeh.__version__
 
 ## 计算机编程语言
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse
 from bokeh.plotting import figure
@@ -231,7 +231,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```py
 <html>
    <head>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"

@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数 **Polygon.distance()** 用来返回给定多边形与 o 之间的最短距离，如果 o 是一个点，那么给定多边形不需要是凸的。但是如果 o 是另一个多边形，那么给定的多边形和 o 一定是凸的。
 
-```
+```py
 Syntax: Polygon.distance(o)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns: the shortest distance between the given polygon and o.
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy import Point, Polygon
 from sympy import Point, Polygon
 
@@ -35,7 +35,7 @@ print(shortestDistance)
 
 **输出:**
 
-```
+```py
 sqrt(13)
 ```
 
@@ -43,7 +43,7 @@ sqrt(13)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy import Point, Polygon, RegularPolygon
 from sympy import Point, Polygon, RegularPolygon
 
@@ -61,6 +61,6 @@ print(shortestDistance)
 
 **输出:**
 
-```
+```py
 sqrt(61)
 ```

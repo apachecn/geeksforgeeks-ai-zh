@@ -15,7 +15,7 @@
 
 **代码#1:列表到数组**
 
-```
+```py
 # Python program explaining
 # numpy.asarray_chkfinite() function
 
@@ -30,7 +30,7 @@ print ("output array from input list : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  list :  [1, 3, 5, 7, 9]
 output array from input list :  [ 1\.  3\.  5\.  7\.  9.]
 
@@ -38,7 +38,7 @@ output array from input list :  [ 1\.  3\.  5\.  7\.  9.]
 
 **代码#2:元组到数组**
 
-```
+```py
 # Python program explaining
 # numpy.asarray_chkfinite() function
 
@@ -54,7 +54,7 @@ print ("output array from input tuple : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  tuple :  ([1, 3, 9], [8, 2, 6])
 output array from input tuple :  [[1 3 9]
  [8 2 6]]
@@ -65,7 +65,7 @@ output array from input tuple :  [[1 3 9]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.asarray_chkfinite() function 
 # when value error occurs
@@ -82,7 +82,7 @@ print ("output fortan array from input scalar : ", out_arr) 
 
 **输出:**
 
-```
+```py
 ValueError: array must not contain infs or NaNs
 
 ```

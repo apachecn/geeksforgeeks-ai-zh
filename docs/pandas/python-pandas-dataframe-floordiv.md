@@ -19,7 +19,7 @@ Pandas**data frame . floor div()**函数用于对数据帧进行整数分割，�
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ df*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# applying floordiv() function
 df.floordiv(2, fill_value = 50)*
 ```
@@ -54,7 +54,7 @@ df.floordiv(2, fill_value = 50)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# importing pandas as pd
 import pandas as pd
 

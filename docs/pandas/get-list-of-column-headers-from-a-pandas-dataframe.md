@@ -6,7 +6,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ display(list(df.columns.values))
 
 **例 2 :**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

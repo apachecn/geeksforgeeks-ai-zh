@@ -12,7 +12,7 @@ Chuck 模式是正常的正则表达式，它们被修改和设计为匹配词�
 
 ## 蟒蛇 3
 
-```
+```py
 # Laading Library
 from nltk.chunk.regexp import tag_pattern2re_pattern
 
@@ -22,7 +22,7 @@ print("Chunk Pattern : ", tag_pattern2re_pattern('<DT>?<NN.*>+'))
 
 **输出:**
 
-```
+```py
 Chunk Pattern :  ()?(<(NN[^\{\}]*)>)+
 ```
 
@@ -32,7 +32,7 @@ Chunk Pattern :  ()?(<(NN[^\{\}]*)>)+
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.chunk import RegexpParser
 
 # Introducing the Pattern
@@ -48,7 +48,7 @@ chunker.parse([('the', 'DT'), ('book', 'NN'), (
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('NP', [('the', 'DT'), ('book', 'NN')]), ('has', 'VBZ'), 
 Tree('NP', [('many', 'JJ'), ('chapters', 'NNS')])])
 ```

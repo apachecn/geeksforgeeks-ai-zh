@@ -24,7 +24,7 @@
 
 为了找到`J`最小的参数优化值，我们将使用一种常用的优化算法**梯度下降**。以下是梯度下降的伪代码:
 
-```
+```py
 Repeat untill Convergence {
     w = w - α * δJ/δw
     b = b - α * δJ/δb
@@ -43,7 +43,7 @@ Tensorflow 是谷歌制作的开源计算库。这是创建需要高端数值计
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 np.random.seed(101)
 tf.set_random_seed(101)
 ```
@@ -62,7 +62,7 @@ tf.set_random_seed(101)
 
 ## 蟒蛇 3
 
-```
+```py
 # Generating random linear data
 # There will be 50 data points ranging from 0 to 50
 x = np.linspace(0, 50, 50)
@@ -79,7 +79,7 @@ n = len(x) # Number of data points
 
 ## 蟒蛇 3
 
-```
+```py
 # Plot of Training Data
 plt.scatter(x, y)
 plt.xlabel('x')

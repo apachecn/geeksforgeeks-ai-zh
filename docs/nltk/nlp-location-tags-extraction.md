@@ -14,7 +14,7 @@
 
 **代码#1 : LocationChunker 类**
 
-```
+```py
 from nltk.chunk import ChunkParserI
 from nltk.chunk.util import conlltags2tree
 from nltk.corpus import gazetteers
@@ -31,7 +31,7 @@ class LocationChunker(ChunkParserI):
 
 **代码#2 : iob_locations()方法**
 
-```
+```py
 def iob_locations(self, tagged_sent):
 
     i = 0
@@ -76,7 +76,7 @@ def iob_locations(self, tagged_sent):
 
 **代码#3:使用 LocationChunker 类解析句子**
 
-```
+```py
 from nltk.chunk import ChunkParserI
 from chunkers import sub_leaves
 from chunkers import LocationChunker
@@ -91,7 +91,7 @@ print ("Location : \n", sub_leaves(t, 'LOCATION'))
 
 **输出:**
 
-```
+```py
 Location : 
 [[('San', 'NNP'), ('Francisco', 'NNP'), ('CA', 'NNP')], 
 [('San', 'NNP'), ('Jose', 'NNP'), ('CA', 'NNP')]]

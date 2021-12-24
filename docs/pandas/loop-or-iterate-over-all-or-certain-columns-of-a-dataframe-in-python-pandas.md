@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas package
 import pandas as pd
 
@@ -36,7 +36,7 @@ stu_df
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List of Tuples
@@ -67,7 +67,7 @@ for (columnName, columnData) in stu_df.iteritems():
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List of Tuples
@@ -101,7 +101,7 @@ for column in stu_df:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List of Tuples
@@ -136,7 +136,7 @@ for column in stu_df[['Name', 'Section']]:
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List of Tuples
@@ -171,7 +171,7 @@ for column in reversed(stu_df.columns):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List of Tuples

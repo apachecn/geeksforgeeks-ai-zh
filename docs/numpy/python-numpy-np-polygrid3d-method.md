@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.polygrid3d() method 
 
@@ -32,7 +32,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 [[ 416970\.  491223.]
  [ 635850\.  749079.]]
 
@@ -40,7 +40,7 @@ print(ans)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.polygrid3d() method 
 
@@ -59,7 +59,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 83610.0
 
 ```

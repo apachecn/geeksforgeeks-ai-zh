@@ -17,7 +17,7 @@
 
 **示例 1:** 使用方法`DataFrame.to_numpy()`将数据帧更改为 numpy 数组。永远记住，当处理大量数据时，你应该首先清理数据，以获得高精度。虽然在这段代码中，我们使用`.head()`方法使用了权重列的前五个值。
 
-```
+```py
 # importing pandas
 import pandas as pd 
 
@@ -35,7 +35,7 @@ print(gfg.to_numpy())
 
 **输出:**
 
-```
+```py
 [[180.]
  [235.]
  [185.]
@@ -45,7 +45,7 @@ print(gfg.to_numpy())
 
 **示例 2:** 在这段代码中，我们只是在同一个代码中给出了参数。所以我们在这里提供了数据类型。
 
-```
+```py
 # importing pandas
 import pandas as pd 
 
@@ -63,7 +63,7 @@ print(gfg.to_numpy(dtype ='float32'))
 
 **输出:**
 
-```
+```py
 [[180.]
  [235.]
  [185.]
@@ -73,7 +73,7 @@ print(gfg.to_numpy(dtype ='float32'))
 
 **示例 3:** 验证转换后数组的类型。
 
-```
+```py
 # importing pandas 
 import pandas as pd 
 
@@ -91,6 +91,6 @@ print(type(gfg.to_numpy()))
 
 **输出:**
 
-```
+```py
 <class 'numpy.ndarray'>
 ```

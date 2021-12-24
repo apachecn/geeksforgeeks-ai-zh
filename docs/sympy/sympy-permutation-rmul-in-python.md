@@ -12,7 +12,7 @@
 
 **代码#1 : rmul()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rmul()
 
@@ -38,7 +38,7 @@ print ("Permutation b - rmul form : ", b.rmul(a))
 
 **代码#2 : rmul()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rmul()
 

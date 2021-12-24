@@ -26,7 +26,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，“名称”列在第一次出现“，”时被拆分。扩展参数保持为假，以便将其扩展到列表中，而不是数据框中。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -57,7 +57,7 @@ data
 
 在本例中，名和姓与“名称”列分开，并存储在数据框的单独列中。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

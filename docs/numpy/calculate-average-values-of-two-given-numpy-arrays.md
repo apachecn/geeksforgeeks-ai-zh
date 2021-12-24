@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -27,7 +27,7 @@ print("Average of NumPy arrays:\n",
 
 **输出:**
 
-```
+```py
 Average of NumPy arrays:
  [2\. 2.]
 ```
@@ -36,7 +36,7 @@ Average of NumPy arrays:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -53,7 +53,7 @@ print("Average of NumPy arrays:\n",
 
 **输出:**
 
-```
+```py
 Average of NumPy arrays:
  [[2\. 2.]
  [7\. 4.]]

@@ -4,7 +4,7 @@
 
 python 的 Pandas 库对于数学数据的处理非常有用，在机器学习领域得到了广泛的应用。它由许多方法组成，以保证其正常运行。[**`loc()`**](https://www.geeksforgeeks.org/python-pandas-dataframe-loc/)[**`iloc()`**](https://www.geeksforgeeks.org/python-extracting-rows-using-pandas-iloc/)就是其中一种方法。这些用于从熊猫数据帧中分割数据。它们有助于从数据框中方便地选择数据。它们用于根据某些条件过滤数据。汽车样本数据集中解释了这两种方法的工作原理。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -34,7 +34,7 @@ display(data)
 
 **1。**根据一些条件选择数据:
 
-```
+```py
 # selecting cars with brand 'Maruti' and Mileage > 25
 display(data.loc[(data.Brand == 'Maruti') & (data.Mileage > 25)])
 ```
@@ -44,7 +44,7 @@ display(data.loc[(data.Brand == 'Maruti') & (data.Mileage > 25)])
 
 **2。**从数据框中选择一系列行:
 
-```
+```py
 # selecting range of rows from 2 to 5
 display(data.loc[2 : 5])
 ```
@@ -54,7 +54,7 @@ display(data.loc[2 : 5])
 
 **3。**更新任意列的值:
 
-```
+```py
 # updating values of Mileage if Year < 2015
 data.loc[(data.Year < 2015), ['Mileage']] = 22
 display(data)
@@ -67,7 +67,7 @@ display(data)
 
 **1。**使用整数索引选择行:
 
-```
+```py
 # selecting 0th, 2th, 4th, and 7th index rows
 display(data.iloc[[0, 2, 4, 7]])
 ```
@@ -77,7 +77,7 @@ display(data.iloc[[0, 2, 4, 7]])
 
 **2。**同时选择一系列列和行:
 
-```
+```py
 # selecting rows from 1 to 4 and columns from 2 to 4
 display(data.iloc[1 : 5, 2 : 5])
 ```

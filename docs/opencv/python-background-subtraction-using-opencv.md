@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for Background subtraction using OpenCV
 import numpy as np
 import cv2

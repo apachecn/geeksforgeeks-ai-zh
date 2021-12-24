@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from sklearn.linear_model import Ridge
 from sklearn.model_selection import train_test_split
@@ -57,7 +57,7 @@ print("\n\nModel score : ", score)
 
 **输出:**
 
-```
+```py
 Boston dataset keys : 
  dict_keys(['feature_names', 'DESCR', 'data', 'target'])
 

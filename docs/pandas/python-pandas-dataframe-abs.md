@@ -9,7 +9,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 对于复数，绝对值定义为:
 ![](img/75dd750a6e26e1afb895ebb30da7660e.png)
 
-```
+```py
 Syntax:  DataFrame.abs()
 Returns: type of caller
 
@@ -19,7 +19,7 @@ Returns: type of caller
 
 **示例#1:** 在 nba.csv 文件中将球队“波士顿凯尔特人”替换为“欧米茄勇士”
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df[:10]
 
 为了找到绝对值，我们还需要在数据框中有负值。因此，出于演示目的，让我们将一些值更改为负值。
 
-```
+```py
 # This will set the Number column
 # to be all negative.
 df.Number = df.Number*(-1)
@@ -46,7 +46,7 @@ df.Number = df.Number*(-1)
 
 现在我们用 `abs()` 函数只求 Number 列的绝对值。
 
-```
+```py
 # Applying abs() value on one column only
 df.Number.abs()
 ```
@@ -56,7 +56,7 @@ df.Number.abs()
 
 **例 2:** 对复数数列应用`abs()`。
 
-```
+```py
 # Importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ ser
 
 ![](img/a50bebe9f7a205b4dd5521691617d0b6.png)
 
-```
+```py
 # Using abs() function to find the
 # absolute value of the complex numbers
 absolute_values = s.abs()

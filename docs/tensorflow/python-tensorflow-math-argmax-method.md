@@ -4,7 +4,7 @@
 
 [TensorFlow](https://www.geeksforgeeks.org/introduction-to-tensorflow/) 是谷歌为开发机器学习模型和深度学习神经网络而设计的开源 python 库。argmax()是 tensorflow 数学模块中的一种方法。此方法用于找到轴上的最大值。
 
-```
+```py
 Syntax:
 tensorflow.math.argmax(
     input,axes,output_type,name
@@ -29,7 +29,7 @@ A tensor of output_type which contains the indices of the maximum value along th
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -51,7 +51,7 @@ print('value: ',c)
 
 **输出:**
 
-```
+```py
 tensor:  tf.Tensor(5, shape=(), dtype=int64)
 value: 5
 ```
@@ -62,7 +62,7 @@ value: 5
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -87,7 +87,7 @@ print('Indices: ',c)
 
 **输出:**
 
-```
+```py
 tf.Tensor(
 [[9 8 7]
  [3 5 4]

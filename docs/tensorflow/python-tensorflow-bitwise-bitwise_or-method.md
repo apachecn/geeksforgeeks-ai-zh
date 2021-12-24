@@ -17,7 +17,7 @@ Tensorflow `bitwise.bitwise_or()`方法执行按位“或”运算，并返回�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_22:0", shape=(), dtype=int32)
 43
 Input 2 Tensor("Const_23:0", shape=(), dtype=int32)
@@ -53,7 +53,7 @@ Output:  Tensor("BitwiseOr_1:0", shape=(), dtype=int32)
 
 **例 2:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -77,7 +77,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_20:0", shape=(2, ), dtype=int32)
 [1 6]
 Input 2 Tensor("Const_21:0", shape=(2, ), dtype=int32)

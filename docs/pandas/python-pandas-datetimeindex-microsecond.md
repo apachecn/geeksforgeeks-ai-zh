@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.microsecond`属性查找 DatetimeIndex 对象中的微秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在我们想要找到 DatetimeIndex 对象中存在的所有微秒值。
 
-```
+```py
 # find all the microsecond values
 # present in the object
 didx.microsecond
@@ -42,7 +42,7 @@ didx.microsecond
 
 **示例#2:** 使用`DatetimeIndex.microsecond`属性查找 DatetimeIndex 对象中存在的微秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 
 现在我们想要找到 DatetimeIndex 对象中存在的所有微秒值。
 
-```
+```py
 # find all the microsecond values 
 # present in the object
 didx.microsecond

@@ -20,7 +20,7 @@ matplotlib 库的 axes 模块中的 **remove_callback()方法**用于根据观�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 from random import randint, choice 
 import time 
@@ -104,7 +104,7 @@ plt.show()
 **输出:**
 ![](img/d9646012120abdef1134ad9723d8d623.png)
 
-```
+```py
 Draw at time : 1588597900.000635
 Draw at time : 1588597900.047566
 Draw at time : 1588597900.0787704

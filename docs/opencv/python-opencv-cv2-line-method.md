@@ -20,7 +20,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.line() method 
 
 # importing cv2 
@@ -62,7 +62,7 @@ cv2.imshow(window_name, image) 
 
 **例 2:**
 
-```
+```py
 # Python program to explain cv2.line() method 
 
 # importing cv2 

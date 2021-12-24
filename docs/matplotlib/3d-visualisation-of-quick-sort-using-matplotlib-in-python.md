@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all required  modules
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation

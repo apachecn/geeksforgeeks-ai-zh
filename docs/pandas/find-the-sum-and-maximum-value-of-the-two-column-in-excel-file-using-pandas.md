@@ -26,7 +26,7 @@ sample_data.xlsx
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -44,7 +44,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # creation new column
 df['Total'] = None
 df['Maximum'] = None
@@ -59,7 +59,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Set index for each column
 index_selling=df.columns.get_loc('Selling Price')
 index_cost=df.columns.get_loc('Cost price')
@@ -71,7 +71,7 @@ print(index_selling,index_cost,index_total,index_max)
 
 **输出:**
 
-```
+```py
 2 3 4 5
 ```
 
@@ -79,7 +79,7 @@ print(index_selling,index_cost,index_total,index_max)
 
 ## 蟒蛇 3
 
-```
+```py
 for row in range(0, len(df)):
     df.iat[row, index_total] = df.iat[row,
                                       index_selling] + df.iat[row, index_cost]

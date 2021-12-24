@@ -19,7 +19,7 @@
 
 **例 1:**
 
-```
+```py
 from datetime import datetime
 import matplotlib.pyplot as plt
 from matplotlib.dates import (
@@ -70,7 +70,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.dates

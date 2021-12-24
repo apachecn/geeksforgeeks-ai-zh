@@ -18,7 +18,7 @@ matplotlib 模块中的 title()方法用于指定所描绘的可视化的标题�
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ plt.title('Title')
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -76,7 +76,7 @@ plt.title('Title', loc='right')
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -103,7 +103,7 @@ plt.title('Title', loc='left')
 
 **语法:**
 
-```
+```py
  matplotlib.pyplot.title('Title', x=value, y=value)
 ```
 
@@ -113,7 +113,7 @@ plt.title('Title', loc='left')
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 
@@ -140,7 +140,7 @@ plt.title('Title', x=0.4, y=0.8)
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.title('Title', pad=value)
 ```
 
@@ -150,7 +150,7 @@ matplotlib.pyplot.title('Title', pad=value)
 
 ## 蟒蛇 3
 
-```
+```py
 #import matplotlib
 import matplotlib.pyplot as plt
 

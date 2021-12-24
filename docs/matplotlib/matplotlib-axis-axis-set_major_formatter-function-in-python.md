@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.set_major_formatter()函数**用于�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -53,7 +53,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import datetime 

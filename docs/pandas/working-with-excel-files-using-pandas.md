@@ -15,14 +15,14 @@ Excel 工作表是信息技术行业中最常见的文件形式之一。每个�
 
 要在 Anaconda 中安装熊猫，我们可以在 Anaconda 终端中使用以下命令:
 
-```
+```py
 conda install pandas
 
 ```
 
 要在普通 Python(非 Anaconda)中安装熊猫，我们可以在命令提示符下使用以下命令:
 
-```
+```py
 pip install pandas
 
 ```
@@ -31,7 +31,7 @@ pip install pandas
 
 首先，我们需要导入 pandas 模块，这可以通过运行以下命令来完成:
 
-```
+```py
 import pandas as pds
 ```
 
@@ -46,7 +46,7 @@ import pandas as pds
 
 现在我们可以在 pandas 中使用 read_excel 函数导入 excel 文件，如下图所示:
 
-```
+```py
 file =('path_of_excel_file')
 newData = pds.read_excel(file)
 newData
@@ -59,7 +59,7 @@ newData
 
 **示例:**
 
-```
+```py
 sheet1 = pds.read_excel(file, 
                         sheet_name = 0, 
                         index_col = 0)
@@ -73,7 +73,7 @@ newData = pds.concat([sheet1, sheet2])
 
 第三条语句将两个工作表连接起来。现在要检查整个数据帧，我们可以简单地运行以下命令:
 
-```
+```py
 newData
 ```
 
@@ -82,7 +82,7 @@ newData
 
 要从数据框的顶部和底部查看 5 列，我们可以运行以下命令:
 
-```
+```py
 newData.head()
 newData.tail()
 ```
@@ -96,7 +96,7 @@ newData.tail()
 这个`head()`和`tail()`方法也把参数作为要显示的列数的数字。
 可以使用`shape()`方法查看数据框中的行数和列数，如下所示:
 
-```
+```py
 newData.shape
 ```
 
@@ -106,13 +106,13 @@ newData.shape
 
 如果任何列包含数字数据，我们可以使用熊猫中的`sort_values()`方法对该列进行排序，如下所示:
 
-```
+```py
 sorted_column = newData.sort_values(['Height'], ascending = False)
 ```
 
 现在，假设我们想要排序列的前 5 个值，我们可以在这里使用`head()`方法:
 
-```
+```py
 sorted_column['Height'].head(5)
 ```
 
@@ -121,7 +121,7 @@ sorted_column['Height'].head(5)
 
 我们可以通过数据框的任意数字列来实现，如下所示:
 
-```
+```py
 newData['Weight'].head()
 ```
 
@@ -130,7 +130,7 @@ newData['Weight'].head()
 
 现在，假设我们的数据大部分是数字。我们可以得到平均值、最大值、最小值等统计信息。关于数据框使用`describe()`方法如下所示:
 
-```
+```py
 newData.describe()
 ```
 
@@ -139,7 +139,7 @@ newData.describe()
 
 也可以使用以下命令对所有数值列分别执行此操作:
 
-```
+```py
 newData['Weight'].mean()
 ```
 
@@ -150,7 +150,7 @@ newData['Weight'].mean()
 也可以使用相应的方法计算其他统计信息。
 和 excel 一样，公式也可以应用，计算列可以如下创建:
 
-```
+```py
 newData['calculated_column']= newData[“Height”] + newData[“Weight”]
 newData['calculated_column'].head()
 ```
@@ -160,7 +160,7 @@ newData['calculated_column'].head()
 
 对数据框中的数据进行操作后，我们可以使用`to_excel`方法将数据导出回 excel 文件。为此，我们需要指定一个输出 excel 文件来写入转换后的数据，如下所示:
 
-```
+```py
 newData.to_excel('Output File.xlsx')
 ```
 

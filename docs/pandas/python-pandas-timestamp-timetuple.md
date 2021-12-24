@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.timetuple()`函数返回给定时间戳对象的时间元组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timetuple()`函数返回一个时间元组。
 
-```
+```py
 # return time tuple
 ts.timetuple()
 ```
@@ -45,7 +45,7 @@ ts.timetuple()
 
 **示例#2:** 使用`Timestamp.timetuple()`函数返回给定时间戳对象的时间元组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.timetuple()`函数返回一个时间元组。
 
-```
+```py
 # return time tuple
 ts.timetuple()
 ```

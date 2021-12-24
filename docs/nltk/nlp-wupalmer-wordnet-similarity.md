@@ -13,7 +13,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 from nltk.corpus import wordnet
 
 syn1 = wordnet.synsets('hello')[0]
@@ -25,7 +25,7 @@ print ("selling name :  ", syn2.name())
 
 ****输出:**** 
 
-```
+```py
 hello name :   hello.n.01
 selling name :   selling.n.01
 ```
@@ -34,13 +34,13 @@ selling name :   selling.n.01
 
 ## **蟒蛇 3**
 
-```
+```py
 syn1.wup_similarity(syn2)
 ```
 
 ****输出:**** 
 
-```
+```py
 0.26666666666666666
 ```
 
@@ -50,13 +50,13 @@ syn1.wup_similarity(syn2)
 
 ## **蟒蛇 3**
 
-```
+```py
 sorted(syn1.common_hypernyms(syn2))
 ```
 
 ****输出:**** 
 
-```
+```py
 [Synset('abstraction.n.06'), Synset('entity.n.01')]
 ```
 
@@ -66,7 +66,7 @@ sorted(syn1.common_hypernyms(syn2))
 
 ## **蟒蛇 3**
 
-```
+```py
 ref = syn1.hypernyms()[0]
 print ("Self comparison : ",
        syn1.shortest_path_distance(ref))
@@ -80,7 +80,7 @@ print ("Distance of greeting from hello : ",
 
 ****输出:**** 
 
-```
+```py
 Self comparison :  1
 Distance of hello from greeting :  11
 Distance of greeting from hello :  11

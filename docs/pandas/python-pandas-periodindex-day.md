@@ -13,7 +13,7 @@ Pandas**PeriodIndex . day**属性返回一个 Index 对象，该对象包含给�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the value of days
 pidx.day
 ```
@@ -47,7 +47,7 @@ pidx.day
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the value of days
 pidx.day
 ```

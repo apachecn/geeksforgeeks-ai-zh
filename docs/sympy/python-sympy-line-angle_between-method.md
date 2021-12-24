@@ -4,7 +4,7 @@
 
 In Sympy, the function `angle_between()` is used to return the non-reflex angle formed by rays emanating from the origin with directions the same as the direction vectors of the linear entities.
 
-```
+```py
 Syntax: Line.angle_between(l2)
 
  Parameters: 
@@ -20,7 +20,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line, pi
 from sympy import Point, Line, pi
 
@@ -36,13 +36,13 @@ print(rad)
 
 **输出:**
 
-```
+```py
 pi/4
 ```
 
 **例 2:**
 
-```
+```py
 # import sympy and Point, Line, pi
 from sympy import Point, Line, pi
 
@@ -58,6 +58,6 @@ print(rad)
 
 **输出:**
 
-```
+```py
 3*pi/4
 ```

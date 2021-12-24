@@ -29,7 +29,7 @@ matplotlib 库的 Axes 模块中的 **Axes.quiverkey()函数**也用于为颤图
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

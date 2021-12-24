@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.partitions.RGS_generalized()`方法，我们能够获得无限制的增长字符串，并返回大小为 m+1 的矩阵。
 
-```
+```py
 # import sympy and RGS_generalized
 from sympy.combinatorics.partitions import RGS_generalized
 from sympy import *
@@ -31,7 +31,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy and RGS_generalized
 from sympy.combinatorics.partitions import RGS_generalized
 from sympy import *

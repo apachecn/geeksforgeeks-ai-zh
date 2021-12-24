@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -44,7 +44,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 t:  tf.Tensor([1\. 2\. 3\. 4.], shape=(4, ), dtype=float64)
 clip_norm:  0.8
 Result:  tf.Tensor([0.14605935 0.2921187  0.43817805 0.58423739], shape=(4, ), dtype=float64)
@@ -55,7 +55,7 @@ Result:  tf.Tensor([0.14605935 0.2921187  0.43817805 0.58423739], shape=(4, ), d
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -76,7 +76,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 t:  tf.Tensor([1\. 2\. 3\. 4.], shape=(4, ), dtype=float64)
 clip_norm:  5.2
 Result:  tf.Tensor([0.94938577 1.89877153 2.8481573  3.79754307], shape=(4, ), dtype=float64)

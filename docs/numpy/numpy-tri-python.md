@@ -5,7 +5,7 @@
 **numpy.tri(R，C = None，k = 0，dtype = 'float') :** 创建一个在给定对角线(约 k)处及其下方有 1，其他地方有 0 的数组。
 T3】参数:
 
-```
+```py
 R     : Number of rows
 C     : [optional] Number of columns; By default R = C
 k     : [int, optional, 0 by default]
@@ -14,7 +14,7 @@ dtype : [optional, float(byDefault)] Data type of returned array.
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.tri method
 
@@ -29,7 +29,7 @@ print("tri with k = -1 : \n",geek.tri(3, 5, -1), "\n")
 
 **输出:**
 
-```
+```py
 tri with k = 1 : 
  [[ 1\.  1\.  0.]
  [ 1\.  1\.  1.]] 

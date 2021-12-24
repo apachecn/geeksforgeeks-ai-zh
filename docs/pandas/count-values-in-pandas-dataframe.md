@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import numpy as np
 import pandas as pd
@@ -30,7 +30,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating dataframe with
 # some missing values
 NaN = np.nan
@@ -54,7 +54,7 @@ display(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # using dataframe.count()
 # to count all values
 dataframe.count()
@@ -70,7 +70,7 @@ dataframe.count()
 
 ## 蟒蛇 3
 
-```
+```py
 # we can pass either axis=1 or
 # axos='columns' to count with respect to row
 print(dataframe.count(axis = 1))
@@ -88,7 +88,7 @@ print(dataframe.count(axis = 'columns'))
 
 ## 蟒蛇 3
 
-```
+```py
 # it will give the count
 # of individual columns count of null values
 print(dataframe.isnull().sum())
@@ -109,7 +109,7 @@ print("Total Null values count: ",
 
 ## 蟒蛇 3
 
-```
+```py
 # count of student with greater
 # than 11 marks in physics
 print("Count of students with physics marks greater than 11 is->",
@@ -129,7 +129,7 @@ dataframe[dataframe['Physics']>11]
 
 ## 蟒蛇 3
 
-```
+```py
 # Count of students whose physics marks
 # are greater than 10,chemistry marks are
 # greater than 11 and math marks are greater than 9.
@@ -154,7 +154,7 @@ dataframe[(dataframe['Physics'] > 10 ) &
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Libraries
 import pandas as pd
 import numpy as np

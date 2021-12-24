@@ -25,7 +25,7 @@ where 参数用于表示垂直线将数据点连接到水平基线的位置。�
 
 首先，考虑将要绘制的两个数组:
 
-```
+```py
 x = [1,3,4,5,7]
 y = [1,9,16,25,49]
 ```
@@ -34,7 +34,7 @@ y = [1,9,16,25,49]
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -82,7 +82,7 @@ x[i-1]和 x[i]范围内的水平线
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -109,7 +109,7 @@ x[i]和 x[i+1]范围内的水平线
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -139,7 +139,7 @@ step()也可以与其他图结合使用。查看下面的示例，了解上面�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

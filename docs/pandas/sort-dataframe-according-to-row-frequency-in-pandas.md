@@ -11,7 +11,7 @@
 
 ## 蟒蛇
 
-```
+```py
 # import pandas
 import pandas as pd
 

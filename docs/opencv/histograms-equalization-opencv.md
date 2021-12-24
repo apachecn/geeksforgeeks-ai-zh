@@ -15,7 +15,7 @@ OpenCV 有一个功能可以做到这一点，**cv2 . equation hist()**。它的
 
 下面是实现直方图均衡化的 Python3 代码:
 
-```
+```py
 # import Opencv
 import cv2
 

@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import seaborn
 import seaborn as sns
 sns.set_style("whitegrid")
@@ -69,7 +69,7 @@ gfg.set(xlabel ="GFG X", ylabel = "GFG Y", title ='some title')
 
 ## 蟒蛇 3
 
-```
+```py
 # import seaborn
 import seaborn as sns
 sns.set_style("whitegrid")
@@ -119,7 +119,7 @@ gfg.set_ylabel( "GFG Y")
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -146,7 +146,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import seaborn as sns

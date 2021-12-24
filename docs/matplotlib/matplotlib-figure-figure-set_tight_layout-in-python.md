@@ -20,7 +20,7 @@ matplotlib 库的**set _ 紧密 _layout()方法**图形模块用于设置绘图�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -58,7 +58,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri

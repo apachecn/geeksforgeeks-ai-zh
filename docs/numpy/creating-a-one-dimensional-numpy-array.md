@@ -12,7 +12,7 @@ T5
 
 T8T10】
 
-```
+```py
 # importing the module
 import numpy as np
 

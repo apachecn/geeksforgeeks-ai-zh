@@ -16,7 +16,7 @@ A [小提琴剧情](https://www.geeksforgeeks.org/violinplot-using-seaborn-in-py
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn
@@ -46,7 +46,7 @@ seaborn.violinplot(x ='day', y ='tip',
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn

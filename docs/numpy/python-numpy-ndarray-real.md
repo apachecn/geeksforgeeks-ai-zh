@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到我们使用`ndarray.real()`方法获得了实值数组，并且我们还在尝试打印这些实值的数据类型。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,7 +27,7 @@ print(np.real(geeks).dtype)
 
 **Output:**
 
-```
+```py
 [ 1\.  2.]
 
 'float64'
@@ -36,7 +36,7 @@ print(np.real(geeks).dtype)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -53,7 +53,7 @@ print(np.real(geeks).dtype)
 
 **Output:**
 
-```
+```py
 [ 1.27201965  1.67414923]
 
 float64

@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_snap()函数**用于设置捕捉�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import Subplot
@@ -46,7 +46,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm

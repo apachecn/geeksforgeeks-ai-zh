@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining 
 # save() function 
 
@@ -37,7 +37,7 @@ print("the array is saved in the file geekfile.npy")
 
 **输出:**
 
-```
+```py
 a is:
 [0 1 2 3 4]
 the array is saved in the file geekfile.npy
@@ -46,7 +46,7 @@ the array is saved in the file geekfile.npy
 
 **代码#2**
 
-```
+```py
 # Python program explaining 
 # save() function 
 
@@ -64,7 +64,7 @@ print("b is printed from geekfile.npy")
 
 **输出:**
 
-```
+```py
 b is:
 [0 1 2 3 4]
 b is printed from geekfile.npy

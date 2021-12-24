@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.laggauss() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([ 0.58578644,  3.41421356]), array([ 0.85355339,  0.14644661]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.laggauss() method 
 
@@ -63,7 +63,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([ 0.41577456,  2.29428036,  6.28994508]), array([ 0.71109301,  0.27851773,  0.01038926]))
 
 ```

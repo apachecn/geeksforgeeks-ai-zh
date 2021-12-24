@@ -24,7 +24,7 @@ ORB 使用简要描述符，但是由于简要描述符在旋转时表现不佳�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 

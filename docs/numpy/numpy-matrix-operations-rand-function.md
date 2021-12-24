@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.rand() function
 
@@ -28,7 +28,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.37976085  0.68700838  0.83898103  0.72073804]
  [ 0.80577587  0.2508264   0.30179229  0.81376797]
  [ 0.70202528  0.17830863  0.61509844  0.27758369]]
@@ -37,7 +37,7 @@ Output matrix :  [[ 0.37976085  0.68700838  0.83898103  0.72073804]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.rand() function
 
@@ -52,14 +52,14 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.56138247  0.97881105  0.53380995  0.27486091  0.1603695 ]]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.rand() function
 
@@ -74,7 +74,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.86770893  0.35628104  0.19744129]
  [ 0.90376689  0.58349554  0.9830152 ]
  [ 0.64711739  0.09531791  0.17555793]

@@ -18,7 +18,7 @@ PyTorch `torch.clamp()`方法将所有输入元素夹在[ min，max ]范围内�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -34,7 +34,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  -0.9214
 -0.1268
  1.1570
@@ -54,7 +54,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -70,7 +70,7 @@ print(out) 
 
 **输出:**
 
-```
+```py
  1
   4
   6

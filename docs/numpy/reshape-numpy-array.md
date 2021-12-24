@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -53,7 +53,7 @@ print(reshaped2)
 
 **输出:**
 
-```
+```py
 Array : [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 First Reshaped Array : 
 [[ 1  2  3  4]
@@ -70,7 +70,7 @@ Second Reshaped Array :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -91,7 +91,7 @@ print(reshaped)
 
 **输出:**
 
-```
+```py
 Array : [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 Reshaped 3-D Array : 
 [[[ 1  2  3  4]
@@ -106,7 +106,7 @@ Reshaped 3-D Array :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -133,7 +133,7 @@ print(reshaped)
 
 **输出:**
 
-```
+```py
  2-D Array : 
 [[1 2 3]
  [4 5 6]
@@ -147,7 +147,7 @@ Reshaped 1-D Array :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -175,7 +175,7 @@ print(reshaped2)
 
 **输出:**
 
-```
+```py
 Array : [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 First Reshaped Array : 
 [[[ 1  2  3  4]
@@ -195,7 +195,7 @@ Second Reshaped Array :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -220,6 +220,6 @@ print("Reshaped 1-D Array : ")
 print(reshaped)
 ```
 
-```
+```py
 ValueError: cannot reshape array of size 9 into shape (1, 5)
 ```

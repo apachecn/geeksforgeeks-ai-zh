@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required libraries
 import pandas as pd
 import os as o
@@ -23,7 +23,7 @@ import os as o
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating dataset of location of files.
 dataset = [dict(Images = 'img1', location = r'New/gfg.png'),
            dict(Images = 'img2', location = r'New/1.png'),
@@ -38,7 +38,7 @@ dataset = [dict(Images = 'img1', location = r'New/gfg.png'),
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting list into pandas dataframe 
 df = pd.DataFrame(dataset)
 
@@ -56,7 +56,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to convert file path into clickable form.
 def fun(path):
 
@@ -73,7 +73,7 @@ def fun(path):
 
 ## 蟒蛇 3
 
-```
+```py
 # applying function "fun" on column "location".
 df = df.style.format({'location' : fun})
 ```
@@ -88,7 +88,7 @@ df = df.style.format({'location' : fun})
 
 ## 蟒蛇 3
 
-```
+```py
 # Step 1 : Importing required modules
 import pandas as pd
 import os
@@ -128,7 +128,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Step 1 : Importing required modules
 import pandas as pd
 import os

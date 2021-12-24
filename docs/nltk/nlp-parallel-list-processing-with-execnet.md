@@ -8,7 +8,7 @@
 
 **代码:**
 
-```
+```py
 if __name__ == '__channelexec__':
     for (i, arg) in channel:
         channel.send((i, arg * 2))
@@ -18,14 +18,14 @@ if __name__ == '__channelexec__':
 
 **代码:使用 plist**
 
-```
+```py
 import plists, remote_double
 plists.map(remote_double, range(10))
 ```
 
 **输出:**
 
-```
+```py
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 ```
 
@@ -35,7 +35,7 @@ map()函数是在 plists.py 中定义的。它包含一个纯模块、一个参�
 
 **代码:**
 
-```
+```py
 import itertools, execnet
 def map(mod, args, specs =[('popen', 2)]):
     gateways = []
@@ -70,13 +70,13 @@ def map(mod, args, specs =[('popen', 2)]):
 
 **代码:通过修改规格增加并行化**
 
-```
+```py
 plists.map(remote_double, range(10), [('popen', 4)])
 ```
 
 **输出:**
 
-```
+```py
 [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 ```
 

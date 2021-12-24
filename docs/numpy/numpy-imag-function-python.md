@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.imag() function
 
@@ -29,14 +29,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [ 3\.  7\. 11.]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.imag() function
 
@@ -52,7 +52,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [3\. 6\. 9.]
 
 ```

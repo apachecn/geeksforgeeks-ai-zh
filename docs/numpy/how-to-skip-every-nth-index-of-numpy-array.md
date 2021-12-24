@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import numpy as np
 
@@ -69,7 +69,7 @@ print(new_arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import numpy as np
 
@@ -110,7 +110,7 @@ NumPy 切片基本上是数据二次采样，我们在其中创建原始数据�
 
 ## 计算机编程语言
 
-```
+```py
 # importing required packages
 import numpy as np
 

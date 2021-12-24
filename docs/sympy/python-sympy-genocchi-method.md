@@ -17,7 +17,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("Value of nth genocchi number : {}".format(nth_genocchi))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth genocchi number : 0
 
@@ -40,7 +40,7 @@ Value of nth genocchi number : 0
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -55,7 +55,7 @@ print("N genocchi number are : {}".format(n_genocchi))  
 
 **输出:**
 
-```
+```py
 Value of n = 10
 N genocchi numbers are : [1, -1, 0, 1, 0, -3, 0, 17, 0, -155]
 

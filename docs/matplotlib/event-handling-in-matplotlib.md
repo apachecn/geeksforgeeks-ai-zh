@@ -71,7 +71,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the necessary modules
 from IPython.display import Image
 import matplotlib.pyplot as plt
@@ -139,7 +139,7 @@ cbs.start()
 
 ## 蟒蛇 3
 
-```
+```py
 def draw_click(self, event):
 
     # you can specified your own color list

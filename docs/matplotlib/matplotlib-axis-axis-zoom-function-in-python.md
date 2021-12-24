@@ -22,7 +22,7 @@ matplotlib 库的轴模块中的 **Axis.zoom()功能**用于在轴上放大或�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -49,7 +49,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 

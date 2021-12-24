@@ -8,7 +8,7 @@
 
 ## 蟒蛇
 
-```
+```py
 import pandas as pd
 
 # create data frame

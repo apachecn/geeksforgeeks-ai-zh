@@ -21,7 +21,7 @@ matplotlib 库的艺术家模块中的 findobj **()方法**用于返回 find 艺
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 
@@ -46,7 +46,7 @@ plt.show()
 
 ![](img/b358b55584c74ff9f8d9fcebf2790b35.png)
 
-```
+```py
 Value return : 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.705031, angle=0)
@@ -157,7 +157,7 @@ AxesSubplot(0.125,0.11;0.775x0.77)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import numpy as np 
@@ -187,7 +187,7 @@ plt.show()
 
 ![](img/530e151766187e417793db11c629e3c5.png)
 
-```
+```py
 Value return : 
 
 Circle(xy=(0.5, 0.5), radius=0.25)

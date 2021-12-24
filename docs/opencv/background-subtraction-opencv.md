@@ -20,7 +20,7 @@
 
 Below is the Python implementation for Background subtraction –
 
-```
+```py
 # importing libraries
 import numpy as np
 import cv2
@@ -64,7 +64,7 @@ cv2.destroyAllWindows();
 
 我们可以看到`BackgroundSubtractorGMG`的合成图像中有很多噪声，因此总是倾向于对结果使用形态学变换来去除噪声。
 
-```
+```py
 # importing libraries
 import numpy as np
 import cv2

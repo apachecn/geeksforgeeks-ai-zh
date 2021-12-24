@@ -14,7 +14,7 @@ pandas**period Index . end _ time**属性返回一个 Index 对象。索引包�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the end time of period
 pidx.end_time
 ```
@@ -49,7 +49,7 @@ pidx.end_time
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(pidx)
 
 ## 蟒蛇 3
 
-```
+```py
 # return the end time of period
 pidx.end_time
 ```

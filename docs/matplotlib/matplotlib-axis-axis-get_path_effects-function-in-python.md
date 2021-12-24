@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_path_effects()函数**用来获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -56,7 +56,7 @@ plt.show()
 
 ![](img/b02598560311fa2feef99174c745f4b3.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.PathPatchEffect object at 0x0A6EDBD0>
@@ -68,7 +68,7 @@ Value Return by get_path_effects() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -116,7 +116,7 @@ plt.show()
 
 ![](img/0966fa198159720fa88470dfe06402e3.png)
 
-```
+```py
 Value Return by get_path_effects() : 
 
 <matplotlib.patheffects.withStroke object at 0x0A98EF50>

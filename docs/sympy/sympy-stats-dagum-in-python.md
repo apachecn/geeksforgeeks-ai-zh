@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Dagum()`方法，我们能够通过使用这个方法得到代表达古姆分布的连续随机变量。
 
-```
+```py
 # Import sympy and Dagum
 from sympy.stats import Dagum, density
 from sympy import Symbol
@@ -42,7 +42,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Dagum
 from sympy.stats import Dagum, density
 from sympy import Symbol

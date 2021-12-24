@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plt
 
@@ -60,7 +60,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import signal
 import matplotlib.pyplot as plt
 

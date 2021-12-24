@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.freq`属性查找应用于给定周期对象的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.freq`属性来查找应用于 prd 对象的频率。
 
-```
+```py
 # return the frequency
 prd.freq
 ```
@@ -43,7 +43,7 @@ prd.freq
 
 **示例#2:** 使用`Period.freq`属性查找应用于给定周期对象的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(prd)
 
 现在我们将使用`Period.freq`属性来查找应用于 prd 对象的频率。
 
-```
+```py
 # return the frequency
 prd.freq
 ```

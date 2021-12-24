@@ -8,7 +8,7 @@ Relplot()将 FacetGrid 与两个轴级函数 **[【散点图】(](https://www.ge
 
 **示例:**我们来看一个数据集的示例，该数据集由不同车辆的二氧化碳排放数据组成。要获取数据集，请单击此处。
 
-```
+```py
 # import libraries
 import pandas as pd
 import numpy as np
@@ -24,7 +24,7 @@ dataset = pd.read_csv('FuelConsumption.csv')
 
 让我们绘制基本散点图，以可视化目标变量“二氧化碳排放量”和“发动机尺寸”之间的关系
 
-```
+```py
 sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
             data = dataset);
 ```
@@ -34,7 +34,7 @@ sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
 
 我们可以通过向图中添加另一个维度来再添加一个可视化变量。这可以通过使用“色调”来完成，它给第三个变量的点着色，从而给它添加一个意义。
 
-```
+```py
 sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS", 
             hue ="FUELTYPE", data = dataset);
 ```
@@ -44,7 +44,7 @@ sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS", 
 
 为了突出显示不同的类，我们可以添加标记样式
 
-```
+```py
 sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
             hue ="FUELTYPE", style ="FUELTYPE", 
             data = dataset);
@@ -55,7 +55,7 @@ sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
 
 在前面的例子中，色调语义是一个分类变量，所以它有一个默认的定性调色板。但是如果我们使用数字变量而不是分类变量，那么使用的默认调色板是顺序的，也可以修改。
 
-```
+```py
 sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
             hue ="CYLINDERS", data = dataset);
 ```
@@ -65,7 +65,7 @@ sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS",
 
 我们还可以改变第三个变量的点数。
 
-```
+```py
 sns.relplot(x ="ENGINESIZE", y ="CO2EMISSIONS", 
             size ="CYLINDERS", data = dataset);
 ```

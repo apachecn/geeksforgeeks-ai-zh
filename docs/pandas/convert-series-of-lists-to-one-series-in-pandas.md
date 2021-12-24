@@ -6,7 +6,7 @@
 
 **示例 1 :** 合并多个整数序列列表。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(s)
 
 **示例 2 :** 合并多个字符序列列表。
 
-```
+```py
 # importing the module
 import pandas as pd
 

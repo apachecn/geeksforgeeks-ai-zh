@@ -20,7 +20,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.indices() function
 
@@ -34,7 +34,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[[0 0 0]
   [1 1 1]]
 
@@ -45,7 +45,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.indices() function
 
@@ -60,7 +60,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[0 1 2]
  [0 1 2]]
 

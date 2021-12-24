@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd;
 import re;
@@ -43,7 +43,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 data['Google-mail'] = None
 
 data

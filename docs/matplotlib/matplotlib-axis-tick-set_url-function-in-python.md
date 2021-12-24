@@ -21,7 +21,7 @@ matplotlib 库的 axis 模块中的 **Tick.set_url()函数**用于为艺术家�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np   
@@ -47,7 +47,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np   

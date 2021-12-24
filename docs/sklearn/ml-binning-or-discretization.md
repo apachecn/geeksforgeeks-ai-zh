@@ -17,7 +17,7 @@
 
 1.  **Equal width (or distance) binning :** The simplest binning approach is to partition the range of the variable into k equal-width intervals. The interval width is simply the range [A, B] of the variable divided by k,
 
-    ```
+    ```py
     w = (B-A) / k
     ```
 
@@ -36,7 +36,7 @@
 
 价格排序数据(美元):2、6、7、9、13、20、21、25、30
 
-```
+```py
 Partition using equal frequency approach:
 Bin 1 : 2, 6, 7
 Bin 2 : 9, 13, 20
@@ -67,7 +67,7 @@ Bin 3 : 21, 21, 30
 
 ## bin _ 均值
 
-```
+```py
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import linear_model
@@ -144,7 +144,7 @@ for i in range(0, len(x)):
 
 ## bin _ 中位数
 
-```
+```py
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import linear_model
@@ -217,7 +217,7 @@ for i in range(0, len(x)):
 
 ## 箱边界
 
-```
+```py
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import linear_model

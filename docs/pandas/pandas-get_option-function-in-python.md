@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -48,7 +48,7 @@ print("The value of min_rows : " +
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

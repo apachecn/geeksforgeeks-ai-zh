@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.argmax()`函数查找给定索引中存在的最大值的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ df
 
 让我们找到我们的索引中存在的最大值的索引。
 
-```
+```py
 # function to return the index 
 # of the maximum value.
 df.argmax()
@@ -36,7 +36,7 @@ df.argmax()
 
 **输出:**
 
-```
+```py
 5
 ```
 
@@ -44,7 +44,7 @@ df.argmax()
 
 **例 2:** 当最大值重复多次时，使用`Index.argmax()`函数寻找最大值的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ df
 
 让我们找到最大值的索引。
 
-```
+```py
 # We call the argmax() function to 
 # find the index of maximum value.
 df.argmax()
@@ -68,7 +68,7 @@ df.argmax()
 
 **输出:**
 
-```
+```py
 2
 ```
 

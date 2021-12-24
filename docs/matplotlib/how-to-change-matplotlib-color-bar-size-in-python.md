@@ -16,7 +16,7 @@ Colorbar 是一个单独的轴，它提供了一个当前的 colormap，指示�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -42,7 +42,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 fig, ax = plt.subplots()
@@ -75,7 +75,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable

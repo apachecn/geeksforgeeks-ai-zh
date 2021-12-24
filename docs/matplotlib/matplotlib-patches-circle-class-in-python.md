@@ -53,7 +53,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 from matplotlib.patches import Circle
 from matplotlib.collections import PatchCollection
@@ -98,7 +98,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib
 from matplotlib.patches import Circle, Wedge, Polygon, Ellipse

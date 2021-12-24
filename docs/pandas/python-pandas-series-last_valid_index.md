@@ -14,7 +14,7 @@ Pandas `**Series.last_valid_index()**`函数返回给定序列对象中最后一
 
 **示例#1:** 使用`Series.last_valid_index()`函数返回给定序列对象的最后一个有效索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.last_valid_index()`函数返回给定序列对象的最后一个有效索引。
 
-```
+```py
 # return the last valid index
 result = sr.last_valid_index()
 
@@ -52,7 +52,7 @@ print(result)
 
 **例 2:** 使用`Series.last_valid_index()`函数返回给定序列对象的最后一个有效索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.last_valid_index()`函数返回给定序列对象的最后一个有效索引。
 
-```
+```py
 # return the last valid index
 result = sr.last_valid_index()
 

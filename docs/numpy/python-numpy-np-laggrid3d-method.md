@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.laggrid3d() method 
 
@@ -32,7 +32,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 [[ -9521.5 -12198\. ]
  [-19782.5 -25346\. ]]
 
@@ -40,7 +40,7 @@ print(ans)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.laggrid3d() method 
 
@@ -59,7 +59,7 @@ print(ans)
 
 **Output:**
 
-```
+```py
 3275.5
 
 ```

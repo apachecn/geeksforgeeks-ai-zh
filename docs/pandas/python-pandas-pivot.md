@@ -14,7 +14,7 @@
 
 **代码:**
 
-```
+```py
 # Create a simple dataframe
 
 # importing pandas as pd
@@ -30,14 +30,14 @@ df
 
 ![](img/e43b6bab6510c3356982527cc26f6090.png)
 
-```
+```py
 # values can be an object or a list
 df.pivot('A', 'B', 'C')
 ```
 
 ![](img/e7b9847c228c413899ad8f9376abfc02.png)
 
-```
+```py
 # value is a list
 df.pivot(index ='A', columns ='B', values =['C', 'A'])
 ```
@@ -46,7 +46,7 @@ df.pivot(index ='A', columns ='B', values =['C', 'A'])
 
 提升值当有任何索引、列组合有多个值时出错。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,6 +58,6 @@ df = pd.DataFrame({'A': ['John', 'John', 'Mina'],
 df.pivot('A', 'B', 'C')
 ```
 
-```
+```py
 ValueError: Index contains duplicate entries, cannot reshape
 ```

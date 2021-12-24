@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import udivisors() method from sympy
 from sympy.ntheory.factor_ import udivisors
 
@@ -28,14 +28,14 @@ print("The unitary divisors of {} : {}".format(n, udivisors_n))
 
 **输出:**
 
-```
+```py
 The unitary divisors of 84 : [1, 3, 4, 7, 12, 21, 28, 84]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import udivisors() method from sympy
 from sympy.ntheory.factor_ import udivisors
 
@@ -49,7 +49,7 @@ print("The unitary divisors of {} : {}".format(n, udivisors_n))
 
 **输出:**
 
-```
+```py
 The unitary divisors of -210 : [1, 2, 3, 6, 5, 10, 15, 30, 7, 14, 21, 42, 35, 70, 105, 210]
 
 ```

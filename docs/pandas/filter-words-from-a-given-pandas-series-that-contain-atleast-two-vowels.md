@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from collections import Counter
 
@@ -36,7 +36,7 @@ print(series[result])
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from collections import Counter
 

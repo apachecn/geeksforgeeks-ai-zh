@@ -8,7 +8,7 @@
 
 我们可以使用`pd.__version__`检查熊猫在任何系统上运行的版本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -23,7 +23,7 @@ print(pd.__version__)
 
 我们可以使用实用函数`pd.show_versions()`来检查依赖项的版本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

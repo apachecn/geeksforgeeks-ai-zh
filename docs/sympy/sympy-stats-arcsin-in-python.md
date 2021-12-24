@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Arcsin()`方法，我们能够通过使用这个方法得到反正弦分布。
 
-```
+```py
 # Import sympy and Arcsin
 from sympy.stats import Arcsin, density
 from sympy import Symbol, simplify
@@ -35,7 +35,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Arcsin
 from sympy.stats import Arcsin, density
 from sympy import Symbol, simplify

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({
@@ -44,7 +44,7 @@ display(count)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({

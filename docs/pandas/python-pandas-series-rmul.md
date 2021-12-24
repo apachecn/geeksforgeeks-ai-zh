@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rmul()`函数执行标量与给定序列对象的乘法运算。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.rmul()`函数来执行标量与级数的反向乘法。
 
-```
+```py
 # multiply the given value with series
 result = sr.rmul(2)
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例 2:** 使用`Series.rmul()`函数执行标量与给定序列对象的乘法运算。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.rmul()`函数来执行标量与级数的反向乘法。我们还将在所有缺失值的位置填充 10。
 
-```
+```py
 # multiply the given value with series
 result = sr.rmul(2, fill_value = 10)
 

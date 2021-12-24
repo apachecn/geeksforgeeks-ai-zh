@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以说通过使用`DataFrame.to_html()`方法，我们能够获得数据帧的 html 格式。
 
-```
+```py
 # import DataFrame
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(gfg.to_html())
 
 **例 2 :**
 
-```
+```py
 # import DataFrame
 import pandas as pd
 

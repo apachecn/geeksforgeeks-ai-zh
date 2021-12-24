@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.contourf()函数**也用于绘制等�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.contourf(self, *args, data=None, **kwargs)
 > ```
 > 
@@ -30,7 +30,7 @@ matplotlib 库的 Axes 模块中的 **Axes.contourf()函数**也用于绘制等�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -62,7 +62,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

@@ -8,19 +8,19 @@
 
 *   **pydrive:** 这是用来简化很多常见的 Google Drive API 任务的。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install pydrive
 ```
 
 *   **xlrd:** 该模块用于从电子表格中提取数据。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install xlrd
 ```
 
 *   [**openpyxl**](https://www.geeksforgeeks.org/python-reading-excel-file-using-openpyxl-module/) **:这是一个读写 Excel 的 Python 库。要安装此软件，请在终端中键入以下命令。**
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -121,7 +121,7 @@ Oauth 初始步骤
 
 ## 蟒蛇 3
 
-```
+```py
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 import pandas as pd

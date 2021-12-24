@@ -10,7 +10,7 @@
 
 中删除空格
 
-```
+```py
 # import pandas
 import pandas as pd
 

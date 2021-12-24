@@ -19,7 +19,7 @@ Pandas 是一个用于数据分析和数据操作的 Python 库。数据分析�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -43,7 +43,7 @@ df.groupby('gender').mean().add_prefix('mean_')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -68,7 +68,7 @@ df.groupby(['dept', 'gender'])['salary'].agg(["min", "max", "mean", "count"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -93,7 +93,7 @@ df.groupby(['dept', 'gender']).agg({'salary': 'mean', 'age': ['min', 'max']})
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -121,7 +121,7 @@ Pandas 的 cut 方法将值分类到 bin 区间，从而创建组或类别。然
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -156,7 +156,7 @@ df['age'].groupby(df['categories']).count()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np

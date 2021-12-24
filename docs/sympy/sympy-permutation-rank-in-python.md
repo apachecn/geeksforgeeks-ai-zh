@@ -10,7 +10,7 @@
 
 **代码#1:排名()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rank()
 
@@ -36,7 +36,7 @@ print ("Permutation b - rank form : ", b.rank())
 
 **代码#2:秩()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rank()
 

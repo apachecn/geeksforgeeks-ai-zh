@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.update()`函数更新给定系列对象中一些城市的值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(sr)
 
 现在我们将使用`Series.update()`函数来更新在给定的 Series 对象中通过索引识别的值。
 
-```
+```py
 # update the values at the passed index
 # from the values in the passed series object
 sr.update(pd.Series(['Melbourne', 'Moscow'], index = [2, 7]))
@@ -48,7 +48,7 @@ sr.update(pd.Series(['Melbourne', 'Moscow'], index = [2, 7]))
 
 **示例 2:** 使用`Series.update()`函数更新给定序列对象中某些元素的值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(sr)
 
 现在我们将使用`Series.update()`函数来更新在给定的 Series 对象中通过索引识别的值。
 
-```
+```py
 # update the values at the passed index
 # from the values in the passed series object
 sr.update(pd.Series([5000, 6000], index = [4, 6]))

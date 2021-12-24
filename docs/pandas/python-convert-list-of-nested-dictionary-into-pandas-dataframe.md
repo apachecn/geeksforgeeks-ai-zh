@@ -6,7 +6,7 @@
 
 **步骤#1:** 创建嵌套字典列表。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -35,7 +35,7 @@ list = [
 
 **步骤 2:** 向行中添加字典值。
 
-```
+```py
 # rows list initialization
 rows = []
 
@@ -59,7 +59,7 @@ df = pd.DataFrame(rows)
 
 **步骤#3:** 旋转数据框并分配列名。
 
-```
+```py
 # using pivot_table
 df = df.pivot_table(index ='Name', columns =['Grade'],
                         values =['Exam']).reset_index()
@@ -76,7 +76,7 @@ print(df)
 
 下面是完整的代码:
 
-```
+```py
 # Python program to convert list of nested 
 # dictionary into Pandas dataframe
 
@@ -128,7 +128,7 @@ print(df)
 
 **输出:**
 
-```
+```py
             Name  Maths  Physics  Chemistry
 0  Chunky Pandey     89       80        NaN
 1     Paras Jain     90       99         97

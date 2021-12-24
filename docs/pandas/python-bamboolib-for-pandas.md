@@ -15,7 +15,7 @@
 **安装 Bamboolib 库:**
 开始之前我们需要先安装库。按照以下步骤正确安装库。
 
-```
+```py
 #install bamboolib on linux or anaconda prompt
  pip install bamboolib
 
@@ -25,7 +25,7 @@
 
 安装完成后，运行以下命令:
 
-```
+```py
 jupyter nbextension enable --py qgrid --sys-prefix
 jupyter nbextension enable --py widgetsnbextension --sys-prefix
 jupyter nbextension install --py bamboolib --sys-prefix
@@ -36,7 +36,7 @@ jupyter nbextension enable --py bamboolib --sys-prefix
 如果你想在 Jupyter 笔记本上使用这个，那么你可以在这里停止，但是如果你也想在 JupyterLab 上使用这个，你可以继续按照步骤完成安装。
 确保安装了`node.js`和`npm`。
 
-```
+```py
 #install nodejs on anaconda prompt
  conda install -c conda-forge nodejs
 #install npm on anaconda prompt
@@ -46,7 +46,7 @@ jupyter nbextension enable --py bamboolib --sys-prefix
 
 Next run these commands:
 
-```
+```py
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
 jupyter labextension install @8080labs/qgrid --no-build
 jupyter labextension install plotlywidget --no-build

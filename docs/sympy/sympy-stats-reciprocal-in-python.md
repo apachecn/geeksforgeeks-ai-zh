@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.Reciprocal()`方法，我们能够使用该方法获得表示倒数分布的连续随机变量。
 
-```
+```py
 # Import sympy and Reciprocal
 from sympy.stats import Reciprocal, density
 from sympy import Symbol, pprint
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Reciprocal
 from sympy.stats import Reciprocal, density
 from sympy import Symbol, pprint

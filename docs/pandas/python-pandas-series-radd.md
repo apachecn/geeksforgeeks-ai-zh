@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.radd()`函数对给定的序列对象执行标量加法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.radd()`函数对级数执行标量加法。
 
-```
+```py
 # add the given value with series
 result = sr.radd(other = 25)
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2:** 使用`Series.radd()`函数对给定的序列对象执行标量的浮点除法。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.radd()`函数对级数执行标量加法。
 
-```
+```py
 # add the given value with series
 result = sr.radd(other = 25, fill_value = 100)
 

@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as gfg
 
 arr = gfg.random.rand(5, 4, 3)
@@ -60,7 +60,7 @@ else:
 
 **输出:**
 
-```
+```py
 shape of arr:  (5, 4, 3)
 shape of load_original_arr:  (5, 4, 3)
 Yes, both the arrays are same

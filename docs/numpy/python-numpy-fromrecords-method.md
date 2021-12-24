@@ -12,7 +12,7 @@
 
 在这个例子中我们可以看到，使用`numpy.core.fromrecords()`方法，我们能够通过使用列表的单个记录来获得记录数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(gfg[0])
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

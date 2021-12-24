@@ -14,7 +14,7 @@
 
 **代码#1 :** 工作
 
-```
+```py
 # Python program explaining
 # flatnonzero() function
 
@@ -29,7 +29,7 @@ print ("Indices of non zero elements : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  array :  [-3 -2 -1  0  1  2  3]
 Indices of non zero elements :  [0 1 2 4 5 6]
 
@@ -37,7 +37,7 @@ Indices of non zero elements :  [0 1 2 4 5 6]
 
 **代码#2 :** 使用非零元素的索引作为索引数组。
 
-```
+```py
 # Python program using the indices of the non-zero 
 # elements as an index array to extract these elements
 
@@ -48,7 +48,7 @@ print ("Output array of non-zero number: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Output array of non-zero number:  [-3 -2 -1  1  2  3]
 
 ```

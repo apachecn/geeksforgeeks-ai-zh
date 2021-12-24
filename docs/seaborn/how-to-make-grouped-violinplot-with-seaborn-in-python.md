@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import pandas as pd
 
@@ -53,7 +53,7 @@ sns.violinplot(datasets['sepal_length'])
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import pandas as pd
 

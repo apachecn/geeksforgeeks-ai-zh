@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```py
 array_name.shape()
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Initialised array
 [1 2 3 4]
 current shape of the array
@@ -62,14 +62,14 @@ changing shape to 2,3
 
 **语法:**
 
-```
+```py
 numpy.reshape(array_name, newshape, order= 'C' or 'F' or 'A')
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 initialised array
 [1 2 3 4 5 6 7 8 9]
 3x3 order C array
@@ -122,14 +122,14 @@ initialised array
 
 **语法:**
 
-```
+```py
 numpy.resize(a, new_shape)
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -169,7 +169,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 initialised array
 [1 2 3 4 5 6 7 8 9]
 3x3 array

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.keys()`函数返回给定序列对象的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们使用`Series.keys()`函数返回给定序列对象的索引标签。
 
-```
+```py
 # return the keys
 result = sr.keys()
 
@@ -52,7 +52,7 @@ print(result)
 
 **例 2 :** 使用`Series.keys()`函数返回给定序列对象的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们使用`Series.keys()`函数返回给定序列对象的索引标签。
 
-```
+```py
 # return the keys
 result = sr.keys()
 

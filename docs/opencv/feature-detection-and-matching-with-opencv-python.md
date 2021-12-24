@@ -34,7 +34,7 @@ Haris 角点检测是一种方法，在这种方法中，我们可以通过找�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import cv2
 import numpy as np
@@ -78,7 +78,7 @@ Shi 和 Tomasi 提出了一种不同的角点检测算法，这种算法与 Hari
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import cv2
 import numpy as np
@@ -125,7 +125,7 @@ cv2.waitKey()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import cv2
 
@@ -164,7 +164,7 @@ cv2.waitKey()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import cv2
 
@@ -202,7 +202,7 @@ cv2.waitKey()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 import cv2
 

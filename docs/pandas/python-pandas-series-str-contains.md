@@ -17,7 +17,7 @@ Series.str 可用于以字符串形式访问系列的值，并对其应用几种
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # find if 'is' substring is present
 result = sr.str.contains(pat = 'is')
 
@@ -62,7 +62,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ print(sr)
 
 ## 蟒蛇 3
 
-```
+```py
 # find if there is a substring such that it has
 # the letter 'i' followed by any small alphabet.
 result = sr.str.contains(pat = 'i[a-z]', regex = True)

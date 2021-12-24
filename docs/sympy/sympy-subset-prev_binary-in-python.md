@@ -12,7 +12,7 @@
 
 **代码#1 : prev_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_binary()
 
@@ -36,7 +36,7 @@ print ("Subset a prev_binary : ", a.prev_binary().subset)
 
 **代码#2 : prev_binary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_binary()
 

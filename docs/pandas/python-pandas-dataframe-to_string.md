@@ -29,7 +29,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.to_string()`函数将给定的数据帧呈现为控制台友好的表格输出。不要在输出中包含索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -53,7 +53,7 @@ print(df)
 
 现在，我们将使用`DataFrame.to_string()`函数将给定的数据帧呈现为控制台友好的表格输出。
 
-```
+```py
 # print in tabular format
 result = df.to_string(index = False)
 
@@ -67,7 +67,7 @@ print(result)
 
 **示例#2:** 使用`DataFrame.to_string()`函数将给定的数据帧呈现为控制台友好的表格输出。用字符串“missing”表示给定数据帧中缺少的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(df)
 
 现在，我们将使用`DataFrame.to_string()`函数将给定的数据帧呈现为控制台友好的表格输出。
 
-```
+```py
 # print in tabular format
 result = df.to_string(na_rep = 'Missing')
 

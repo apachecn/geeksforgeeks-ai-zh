@@ -8,7 +8,7 @@
 
 **pypypyodbc:**是纯 Python 跨平台 odbc 接口模块。在终端中使用此命令安装 pypyodbc 模块以访问 odbc 数据库。
 
-```
+```py
  pip install pypyodbc
 ```
 
@@ -16,7 +16,7 @@
 
 ### **步骤 1:创建数据库**
 
-```
+```py
 CREATE DATABASE GeeksforGeeks;
 ```
 
@@ -24,7 +24,7 @@ CREATE DATABASE GeeksforGeeks;
 
 ### **第二步:使用数据库**
 
-```
+```py
 USE GeeksForGeeks
 ```
 
@@ -32,7 +32,7 @@ USE GeeksForGeeks
 
 ### **第三步:创建表格 student_marks 并在表格中添加行**
 
-```
+```py
 CREATE TABLE student_marks(
 stu_id VARCHAR(20),
 stu_name VARCHAR(20),
@@ -51,7 +51,7 @@ total_marks INT
 
 ## 蟒蛇 3
 
-```
+```py
 import pypyodbc as pdb 
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(table)
 
 ## 蟒蛇 3
 
-```
+```py
 import pypyodbc as pdb 
 import pandas as pd
 

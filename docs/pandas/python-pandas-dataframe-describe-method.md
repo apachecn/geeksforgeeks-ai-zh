@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，描述了数据框，并传递['object']以包含参数来查看对象系列的描述。[.20，. 40，. 60，. 80]被传递到百分点参数，以查看数值系列的各个百分点。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -57,7 +57,7 @@ desc
 
 在本例中，名称列调用 description 方法来查看对象数据类型的行为。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

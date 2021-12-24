@@ -12,7 +12,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.ChiSquared()`方法，我们能够通过使用这个方法得到代表卡方分布的连续随机变量。
 
-```
+```py
 # Import sympy and chisquared
 from sympy.stats import ChiSquared, density
 from sympy import Symbol
@@ -40,7 +40,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and chisquared
 from sympy.stats import ChiSquared, density
 from sympy import Symbol

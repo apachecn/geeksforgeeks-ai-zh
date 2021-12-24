@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import numpy as np
 import pandas as pd
@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # loading of a dataframe from seaborn
 exercise = sns.load_dataset("exercise")
 
@@ -47,7 +47,7 @@ sea = sns.FacetGrid(exercise, col = "time")
 
 ## 蟒蛇 3
 
-```
+```py
 # Form a facetgrid using columns with a hue 
 sea = sns.FacetGrid(exercise, col = "time", hue = "kind")
 
@@ -66,7 +66,7 @@ sea.add_legend()
 
 ## 蟒蛇 3
 
-```
+```py
 sea = sns.FacetGrid(exercise, row = "diet",
                     col = "time", margin_titles = True)
 
@@ -82,7 +82,7 @@ sea.map(sns.regplot, "id", "pulse", color = ".3",
 
 ## 蟒蛇 3
 
-```
+```py
 sea = sns.FacetGrid(exercise, col = "time",
                     height = 4, aspect  =.5)
 

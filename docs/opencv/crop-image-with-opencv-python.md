@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Read Input Image
@@ -45,7 +45,7 @@ cv2.destroyAllWindows()
 
 **语法:**
 
-```
+```py
 image.shape
 ```
 
@@ -55,7 +55,7 @@ image.shape
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # read the image
@@ -78,7 +78,7 @@ print("Shape of the image", img.shape)
 
 **语法:**
 
-```
+```py
 image[rows,columns]
 ```
 
@@ -91,7 +91,7 @@ image[rows,columns]
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img = cv2.imread("test.jpeg")

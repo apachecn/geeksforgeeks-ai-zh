@@ -29,7 +29,7 @@ T2
 
 *   **Logit score matrix** Then, we define our net input matrix(also called **logit score matrix**), ![Z](img/18529f0bc636e502cb6b6f76bd55ef1c.png "Rendered by QuickLaTeX.com"), as:
 
-    ```
+    ```py
     Z = XW
     ```
 
@@ -53,7 +53,7 @@ T2
 
     对于一个向量![y](img/d0a558030112cad961f2df0067fbbefe.png "Rendered by QuickLaTeX.com")，softmax 函数![S(y)](img/aceb7bdd3d207e53ec6790827de2d01b.png "Rendered by QuickLaTeX.com")定义为:![](img/f8ed76afc0f302d4955289b77328c1c0.png)那么，softmax 函数将做 2 件事:
 
-    ```
+    ```py
     1\. convert all scores to probabilities.
     2\. sum of all probabilities is 1.
 
@@ -90,7 +90,7 @@ T2
 
 首先，我们导入依赖项。
 
-```
+```py
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
@@ -100,12 +100,12 @@ import matplotlib.pyplot as plt
 
 TensorFlow 允许您自动下载和读取 MNIST 数据。考虑下面给出的代码。它会将数据下载并保存到您当前项目目录中的文件夹 **MNIST_data** 中，并将其加载到当前程序中。
 
-```
+```py
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 ```
 
-```
+```py
 Extracting MNIST_data/train-images-idx3-ubyte.gz
 Extracting MNIST_data/train-labels-idx1-ubyte.gz
 Extracting MNIST_data/t10k-images-idx3-ubyte.gz
@@ -121,7 +121,7 @@ MNIST 数据分为三部分:55000 个数据点的训练数据( **mnist.train** )
 
 每幅图像都是 28 像素乘 28 像素，已经被展平成尺寸为 784 的一维数字阵列。类别标签的数量为 10。每个目标标签已经以一次性编码的形式提供。
 
-```
+```py
 print("Shape of feature matrix:", mnist.train.images.shape)
 print("Shape of target matrix:", mnist.train.labels.shape)
 print("One-hot encoding for 1st observation:\n", mnist.train.labels[0])
@@ -138,7 +138,7 @@ plt.show()
 
 输出:
 
-```
+```py
 Shape of feature matrix: (55000, 784)
 Shape of target matrix: (55000, 10)
 One-hot encoding for 1st observation:
@@ -150,7 +150,7 @@ One-hot encoding for 1st observation:
 
 现在，我们创建一个计算图。
 
-```
+```py
 # number of features
 num_features = 784
 # number of target labels
@@ -217,7 +217,7 @@ with graph.as_default():
 
 既然我们已经构建了计算图，现在是时候运行它了。
 
-```
+```py
 # utility function to calculate accuracy
 def accuracy(predictions, labels):
     correctly_predicted = np.sum(np.argmax(predictions, 1) == np.argmax(labels, 1))
@@ -258,7 +258,7 @@ with tf.Session(graph=graph) as session:
 
 输出:
 
-```
+```py
 Initialized
 Minibatch loss at step 0: 11.68728256225586
 Minibatch accuracy: 10.2%
@@ -303,14 +303,14 @@ Test accuracy: 86.5%
 *   在每次迭代中，通过使用 **np.random.randint** 方法选择随机偏移值来选择迷你批次。
 *   为了馈送占位符 **tf_train_dataset** 和 **tf_train_label** ，我们创建了一个 **feed_dict** 如下所示:
 
-    ```
+    ```py
     feed_dict = {tf_train_dataset : batch_data, tf_train_labels : batch_labels}
 
     ```
 
 *   A shortcut way of performing one step of computation is:
 
-    ```
+    ```py
     _, l, predictions = session.run([optimizer, loss, train_prediction], feed_dict=feed_dict)
 
     ```

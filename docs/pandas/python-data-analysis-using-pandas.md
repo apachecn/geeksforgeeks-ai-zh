@@ -4,7 +4,7 @@
 
 ***熊猫*** 是最受欢迎的用于数据分析的 python 库。它提供了高度优化的性能，后端源代码纯粹是用 ***C*** 或 ***Python*** 编写的。
 
-```
+```py
 We can analyze data in pandas with:
 
 1.  **系列**2.  **数据帧** 
@@ -16,7 +16,7 @@ We can analyze data in pandas with:
 
 **代码#1: *创建系列***
 
-```
+```py
 # Program to create series
 
 # Import Panda Library
@@ -36,7 +36,7 @@ a = pd.Series(Data, index = Index)  
 
 **代码#2: *当数据包含标量值时***
 
-```
+```py
 # Program to Create series with scalar values 
 
 # Numeric data
@@ -54,7 +54,7 @@ si = pd.Series(Data, Index) 
 
 **输出**:
 
-```
+```py
 ![](img/c8a9201f73f8c4b80af84ac876905e35.png)
 
 带有默认索引的标量数据
@@ -67,7 +67,7 @@ si = pd.Series(Data, Index) 
 
 **代码#3: *当数据包含字典***
 
-```
+```py
 # Program to Create Dictionary series
 dictionary ={'a':1, 'b':2, 'c':3, 'd':4, 'e':5} 
 
@@ -77,7 +77,7 @@ sd = pd.Series(dictionary) 
 
 **输出**:
 
-```
+```py
 ![](img/0951e9f7496ce6a2e6f42d8c9c5690cb.png)
 
 字典类型数据
@@ -86,7 +86,7 @@ sd = pd.Series(dictionary) 
 
 **代码#4: *当数据包含数据时*T3】**
 
-```
+```py
 # Program to Create ndarray series
 
 # Defining 2darray
@@ -98,7 +98,7 @@ snd = pd.Series(Data)    
 
 **输出**:
 
-```
+```py
 ![](img/57eae8a22e9e56a1da27b5472b420acf.png)
 
 数据为 Ndarray
@@ -111,7 +111,7 @@ snd = pd.Series(Data)    
 
 **代码#1: *创建数据框***
 
-```
+```py
 # Program to Create DataFrame
 
 # Import Library
@@ -129,7 +129,7 @@ a = pd.DataFrame(Data)  
 
 **代码#2:当数据是字典时**
 
-```
+```py
 # Program to Create Data Frame with two dictionaries
 
 # Define Dictionary 1
@@ -147,7 +147,7 @@ df = pd.DataFrame(Data)  
 
 **输出**:
 
-```
+```py
 ![](img/6fdb836a4817a491637ab76763b08d99.png)
 
 带有两个字典的数据框
@@ -156,7 +156,7 @@ df = pd.DataFrame(Data)  
 
 **代码#3:当数据为序列时**
 
-```
+```py
 # Program to create Dataframe of three series 
 import pandas as pd
 
@@ -178,7 +178,7 @@ dfseries = pd.DataFrame(Data)              
 
 **输出**:
 
-```
+```py
 ![](img/ba9054eadf194a7deacf4ba4199c86b2.png)
 
 包含三个系列的数据框
@@ -188,7 +188,7 @@ dfseries = pd.DataFrame(Data)              
 **代码#4:当数据为 2D-numpy ndarray**
 **注意**:创建 2D 数组的数据框时必须维护一个约束条件–2D 数组的维度必须相同。
 
-```
+```py
 # Program to create DataFrame from 2D array
 
 # Import Library
@@ -209,7 +209,7 @@ df2d = pd.DataFrame(Data)    
 
 **输出**:
 
-```
+```py
 ![](img/3df599a975457411ff2f2affefc4dd87.png)
 
 二维数组的数据帧

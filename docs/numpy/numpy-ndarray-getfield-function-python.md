@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.getfield() function
 
@@ -30,7 +30,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[ 1\.  0.]
  [ 0\.  1.]]
 
@@ -38,7 +38,7 @@ print(gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.getfield() function
 
@@ -54,7 +54,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[ 2\.  0.]
  [ 0\.  2.]]
 

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({'A': [1, 2, 3],
@@ -45,7 +45,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({'A': [1, 2, 3],
@@ -76,7 +76,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({'A': [1, 2, 3],

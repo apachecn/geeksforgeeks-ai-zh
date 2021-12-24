@@ -23,7 +23,7 @@ Seaborn 是一个基于 Python 中 matplotlib 的数据可视化库。在本文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 import seaborn as sns
 import numpy as np
@@ -48,7 +48,7 @@ sns.histplot(data = num_var, kde = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 import numpy as np
 import pandas as pd
@@ -69,7 +69,7 @@ sns.histplot(data = penguins, x = "body_mass_g", kde = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Plot Histogram
 sns.histplot(data = penguins, x = "body_mass_g", kde = True, hue = "species")
 ```
@@ -82,7 +82,7 @@ sns.histplot(data = penguins, x = "body_mass_g", kde = True, hue = "species")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 import numpy as np
 import pandas as pd

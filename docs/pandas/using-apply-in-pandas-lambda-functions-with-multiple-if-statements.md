@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(df)
 
 **输出:**
 
-```
+```py
       Name  Maths
 0     John      5
 1     Jack      3
@@ -47,7 +47,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the library
 import pandas as pd
 

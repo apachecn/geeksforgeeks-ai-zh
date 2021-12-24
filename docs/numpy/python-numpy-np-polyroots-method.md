@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.polyroots() method 
 
@@ -34,14 +34,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-0.25-0.4330127j -0.25+0.4330127j]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.polyroot() method 
 
@@ -62,7 +62,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 [-0.53783227-0.35828469j -0.53783227+0.35828469j  0.13783227-0.67815439j
   0.13783227+0.67815439j]
 

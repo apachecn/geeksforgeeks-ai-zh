@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.astimezone()`功能将给定对象的时区更改为“欧洲/柏林”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.astimezone()`功能将 ts 对象的时区更改为所需的时区。
 
-```
+```py
 # change the timezone to 'Europe/Berlin'
 ts.astimezone('Europe/Berlin')
 ```
@@ -46,7 +46,7 @@ ts.astimezone('Europe/Berlin')
 
 **示例 2:** 使用`Timestamp.astimezone()`函数将给定对象的时区更改为“亚洲/加尔各答”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(ts)
 
 现在我们将使用`Timestamp.astimezone()`功能将 ts 对象的时区更改为所需的时区。
 
-```
+```py
 # change the timezone to 'Asia / Calcutta'
 ts.astimezone('Asia/Calcutta')
 ```

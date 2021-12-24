@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.argsort()`函数返回索引序列，该序列将对给定序列对象的底层数据进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 Coca Cola    34
 Sprite        5
 Coke         13
@@ -48,7 +48,7 @@ dtype: int64
 
 现在我们将使用`Series.argsort()`函数返回一个索引序列，该序列将对给定序列对象的底层数据进行排序。
 
-```
+```py
 # return the indices which will
 # sort the series
 result = sr.argsort()
@@ -62,7 +62,7 @@ print(sr[result])
 
 **输出:**
 
-```
+```py
 Coca Cola    4
 Sprite       1
 Coke         2
@@ -84,7 +84,7 @@ dtype: int64
 
 **示例 2 :** 使用`Series.argsort()`函数返回索引序列，该序列将对给定序列对象的底层数据进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -104,7 +104,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -121,7 +121,7 @@ Freq: A-DEC, dtype: float64
 
 现在我们将使用`Series.argsort()`函数返回一个索引序列，该序列将对给定序列对象的底层数据进行排序。
 
-```
+```py
 # return the indices which will
 # sort the series
 result = sr.argsort()
@@ -135,7 +135,7 @@ print(sr[result])
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    8
 2011-12-31 08:45:00    2
 2012-12-31 08:45:00    7

@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.Logistic()`方法，我们能够通过使用该方法获得表示逻辑斯蒂分布的连续随机变量。
 
-```
+```py
 # Import sympy and Logistic
 from sympy.stats import Logistic, density
 from sympy import Symbol, pprint
@@ -44,7 +44,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Logistic
 from sympy.stats import Logistic, density
 from sympy import Symbol, pprint

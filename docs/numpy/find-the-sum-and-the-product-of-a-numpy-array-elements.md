@@ -16,7 +16,7 @@ NumPy 数组元素的总和可以通过以下方式实现
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Initialised array
 [[1 2 3]
  [4 5 6]]
@@ -107,7 +107,7 @@ using where parameter
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Initialised array
 original array
 [[1 2 3]
@@ -166,7 +166,7 @@ NumPy 阵列的产品可以通过以下方式实现
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -225,7 +225,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Initialised array
 [[1 2 3]
  [4 5 6]]
@@ -254,7 +254,7 @@ using where parameter
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -288,7 +288,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Initialised array
 original array
 [[1 2 3]

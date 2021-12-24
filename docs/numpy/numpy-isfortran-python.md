@@ -14,21 +14,21 @@ FORTran-内存中的连续顺序(第一个索引变化最快)。f 阶意味着�
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array 
 
 ```
 
 **返回:**
 
-```
+```py
 True, if array is Fortran; else False
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python program explaining
 # isfortran() function
 import numpy as np
@@ -42,7 +42,7 @@ print ("\nisfortran : ", np.isfortran(in_array))
 
 **输出:**
 
-```
+```py
 Input array : 
  [[1 2 3]
  [4 5 6]]
@@ -53,7 +53,7 @@ isfortran :  False
 
 **代码 2 :**
 
-```
+```py
 # Python program explaining
 # isfortran() function
 import numpy as np
@@ -67,7 +67,7 @@ print ("\nisfortran : ", np.isfortran(in_array))
 
 **输出:**
 
-```
+```py
 Input array : 
  [[1 2 3]
  [4 5 6]]

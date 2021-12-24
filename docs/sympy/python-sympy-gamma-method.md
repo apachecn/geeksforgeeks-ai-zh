@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -28,7 +28,7 @@ print("gamma(Z) : {}".format(gamma_Z))  
 
 **输出:**
 
-```
+```py
 Z = 5
 gamma(Z) : 24
 
@@ -36,7 +36,7 @@ gamma(Z) : 24
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -51,7 +51,7 @@ print("gamma(X) : {}".format(gamma_X))  
 
 **输出:**
 
-```
+```py
 X = x
 gamma(X) : gamma(x)
 

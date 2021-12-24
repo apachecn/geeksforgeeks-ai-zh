@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Here, the array has only one parameter,
@@ -33,7 +33,7 @@ print(myArray)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4 5 6 7]
 ```
 
@@ -41,7 +41,7 @@ print(myArray)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # This line has two parameters
@@ -53,7 +53,7 @@ print(mySecondArray)
 
 **输出:**
 
-```
+```py
 [1 2 3 4 5]
 ```
 
@@ -61,7 +61,7 @@ print(mySecondArray)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # This line has two parameters
@@ -75,7 +75,7 @@ print(myThirdArray)
 
 **输出:**
 
-```
+```py
 [ 2  4  6  8 10]
 ```
 
@@ -83,7 +83,7 @@ print(myThirdArray)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # This line has two parameters
@@ -97,6 +97,6 @@ print(myForthArray)
 
 **输出:**
 
-```
+```py
 [ 5 15 25 35 45 55 65 75 85 95]
 ```

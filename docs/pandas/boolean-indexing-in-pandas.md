@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(df.loc[True])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -89,7 +89,7 @@ print(df.iloc[True])
 
 **输出:**
 
-```
+```py
 TypeError
 ```
 
@@ -97,7 +97,7 @@ TypeError
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -124,7 +124,7 @@ print(df.iloc[1])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -148,7 +148,7 @@ print(df.ix[True])
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -174,7 +174,7 @@ print(df.ix[1])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -196,7 +196,7 @@ print(df[[True, False, True, False]])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -221,7 +221,7 @@ df[[True, False, True, False, True,
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -245,7 +245,7 @@ print(df['degree'] == 'BCA')
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -266,7 +266,7 @@ print(data['Age'] > 25)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -290,7 +290,7 @@ print(df[mask])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

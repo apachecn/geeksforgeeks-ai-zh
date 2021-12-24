@@ -21,7 +21,7 @@ As，上述方程在 arr1 和 arr2 中是不对称的，所以，allclose(arr1�
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # allclose() function
 
@@ -44,7 +44,7 @@ print ("Are the two arrays are equal within the tolerance: \t", res)
 
 **Output:**
 
-```
+```py
 1st Input array :  [  5.00000000e+05   1.00000000e-07   4.00000400e+06]
 2nd Input array :  [  5.00001000e+05   1.00000000e-07   4.00000000e+06]
 Are the two arrays are equal within the tolerance:      True
@@ -53,7 +53,7 @@ Are the two arrays are equal within the tolerance:      True
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # allclose() function
 
@@ -76,7 +76,7 @@ print ("Are the two arrays are equal within the tolerance: \t", res)
 
 **Output:**
 
-```
+```py
 1st Input array :  [5000000.0, 1e-07, 40000004.0]
 2nd Input array :  [5000001.0, 1e-07, 40000000.0]
 Are the two arrays are equal within the tolerance:      True
@@ -85,7 +85,7 @@ Are the two arrays are equal within the tolerance:      True
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # allclose() function
 
@@ -108,7 +108,7 @@ print ("Are the two arrays are equal within the tolerance: \t", res)
 
 **Output:**
 
-```
+```py
 1st Input array :  [500000.0, 1e-07, nan]
 2nd Input array :  [500000.0, 1e-07, nan]
 Are the two arrays are equal within the tolerance:      False
@@ -117,7 +117,7 @@ Are the two arrays are equal within the tolerance:      False
 
 **代码#4 :**
 
-```
+```py
 # Python program explaining
 # allclose() function
 
@@ -142,7 +142,7 @@ print ("Are the two arrays are equal within the tolerance: \t", res)
 
 **Output:**
 
-```
+```py
 1st Input array :  [500000.0, 1e-07, nan]
 2nd Input array :  [500000.0, 1e-07, nan]
 Are the two arrays are equal within the tolerance:      True

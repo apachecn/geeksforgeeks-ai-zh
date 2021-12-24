@@ -15,7 +15,7 @@
 
 **代码:**解释 polyder()的 Python 代码
 
-```
+```py
 # Python code explaining 
 # numpy.polyder()
 
@@ -33,7 +33,7 @@ print ("\n p2 : \n", p2) 
 
 ![](img/1ea8d74b848d5a09ad7878f79227b90d.png)
 
-```
+```py
 
 # Solve for x = 2 
 print ("\n\np1 at x = 2 : ", p1(2)) 
@@ -42,7 +42,7 @@ print ("p2 at x = 2 : ", p2(2)) 
 
 ![](img/05f6a68e9b498da7830e8f0bb99f776f.png)
 
-```
+```py
 a = np.polyder(p1, 1)
 b = np.polyder(p2, 1)
 print ("\n\nUsing polyder")
@@ -52,7 +52,7 @@ print ("p2 derivative of order = 1 : \n", b) 
 
 ![](img/3741bf79c41c29d0c17a0bd46ea63332.png)
 
-```
+```py
 a = np.polyder(p1, 2)
 b = np.polyder(p2, 2)
 print ("\n\nUsing polyder")

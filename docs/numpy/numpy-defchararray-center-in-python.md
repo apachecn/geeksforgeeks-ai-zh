@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.center() method 
 import numpy as np 
@@ -32,7 +32,7 @@ print ("\narr1 : ", np.char.center(arr1, 11, fillchar ='z'))
 
 **输出:**
 
-```
+```py
 arr1 :  ['eAAAa', 'ttttds', 'AAtAAt']
 
  centered arr1 :  ['zeAAAaz' 'zttttds' 'zAAtAAt']
@@ -45,7 +45,7 @@ arr1 :  ['eAAAa', 'ttttds', 'AAtAAt']
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.center() method 
 import numpy as np 
@@ -59,7 +59,7 @@ print ("\narr2 : ", np.char.center(arr2))
 
 **输出:**
 
-```
+```py
 arr2 :  ['11sf', 'sdsf2', '1111f2']
 
 TypeError: center() missing 1 required positional argument: 'width'

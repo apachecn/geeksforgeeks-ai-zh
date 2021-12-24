@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.average() method 
 
@@ -43,7 +43,7 @@ print ("normal average of masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -56,7 +56,7 @@ normal average of masked array :  0.75
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.average() method 
 
@@ -82,7 +82,7 @@ print ("weighted average of masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]

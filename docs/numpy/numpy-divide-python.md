@@ -19,14 +19,14 @@
 
 **返回:**
 
-```
+```py
 An array with arr1/arr2(element-wise) as elements of output array.
 
 ```
 
 **代码 1 : arr1 除以 arr2 元素**
 
-```
+```py
 # Python program explaining
 # divide() function
 import numpy as np
@@ -44,7 +44,7 @@ print ("\nOutput array : \n", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 27, 2, 21, 23]
 arr2         :  [2, 3, 4, 5, 6]
 
@@ -55,7 +55,7 @@ Output array :
 
 **代码 arr1 的元素除以除数**
 
-```
+```py
 # Python program explaining
 # divide() function
 import numpy as np
@@ -72,7 +72,7 @@ print ("\nOutput array : \n", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 27, 2, 21, 23]
 
 Output array : 
@@ -81,7 +81,7 @@ Output array :
 
 **代码 3:如果 arr2 有元素= 0** 则警告
 
-```
+```py
 # Python program explaining
 # divide() function
 import numpy as np
@@ -99,7 +99,7 @@ print ("\nOutput array : ", out)
 
 **输出:**
 
-```
+```py
 arr1         :  [2, 27, 2, 21, 23]
 arr2         :  [2, 3, 0, 5, 6]
 

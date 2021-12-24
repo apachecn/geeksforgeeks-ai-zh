@@ -8,7 +8,7 @@
 
 **代码#1:** 使用 [numpy.linspace()](https://www.geeksforgeeks.org/numpy-linspace-python/)
 
-```
+```py
 # import pandas and numpy
 import pandas as pd
 import numpy as np
@@ -28,7 +28,7 @@ print("\n", ser2)
 
 **代码#2:** 使用 [np.random.normal()](https://www.geeksforgeeks.org/rand-vs-normal-numpy-random-python/) 和[rand()](https://www.geeksforgeeks.org/numpy-random-randn-python/)方法。
 
-```
+```py
 # import pandas and numpy
 import pandas as pd
 import numpy as np
@@ -51,7 +51,7 @@ print("\n", ser5)
 
 **代码#3:** 使用 [numpy.repeat()](https://www.geeksforgeeks.org/numpy-repeat-python/)
 
-```
+```py
 # import pandas and numpy
 import pandas as pd
 import numpy as np

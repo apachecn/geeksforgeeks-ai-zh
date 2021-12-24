@@ -26,7 +26,7 @@ Seaborn 旨在将的可视化作为探索和理解数据的核心部分。它提
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -51,7 +51,7 @@ seaborn_facetgrid_object
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -77,7 +77,7 @@ seaborn_facetgrid_object
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 
@@ -104,7 +104,7 @@ seaborn_facetgrid_object
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn
 

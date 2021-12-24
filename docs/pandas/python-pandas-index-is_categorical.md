@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.is_categorical()`功能检查输入索引是否分类。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ idx
 
 现在我们发现 idx 标签是否是分类的。
 
-```
+```py
 # Find whether idx1 is categorical or not.
 idx.is_categorical()
 ```
@@ -42,7 +42,7 @@ idx.is_categorical()
 
 **示例#2:** 使用`Index.is_categorical()`函数查找索引中包含的值是否是分类的。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ idx
 
 现在我们检查 idx 中的标签是否是分类的。
 
-```
+```py
 # test whether idx is having categorical values.
 idx.is_categorical()
 ```

@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ix_() function
 
@@ -25,7 +25,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (array([[0],
        [1]]), array([[2, 4]]))
 
@@ -33,7 +33,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ix_() function
 
@@ -50,7 +50,7 @@ print("New array : \n", arr[ixgrid]) 
 
 **输出:**
 
-```
+```py
 Initial array : 
  [[0 1 2 3 4]
  [5 6 7 8 9]]

@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 import matplotlib.pyplot as plt
 
@@ -47,7 +47,7 @@ x 表示 x 轴，y 表示 y 轴。
 
 **语法:**
 
-```
+```py
 seaborn.stripplot(x)
 ```
 
@@ -55,7 +55,7 @@ seaborn.stripplot(x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Stripplot using inbuilt data-set
 # given in seaborn
@@ -88,7 +88,7 @@ seaborn.stripplot(x=tips["total_bill"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Stripplot using inbuilt data-set
 # given in seaborn

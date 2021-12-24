@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = [[1, "ABC KUMAR", "xYZ"], [2, "BCD", "XXY"],
@@ -27,7 +27,7 @@ cfile
 
 ## 蟒蛇 3
 
-```
+```py
 # find firstname starting with 'D'
 result = cfile.FirstName.str.startswith('D')
 print(result)
@@ -59,7 +59,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 0    False
 1    False
 2    False

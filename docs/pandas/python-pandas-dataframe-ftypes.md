@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.ftypes`属性检查给定数据帧中的列是稀疏还是密集。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 现在我们将使用`DataFrame.ftypes`属性来检查给定数据帧中的列的 ftype。
 
-```
+```py
 # check if the column are 
 # dense or sparse
 result = df.ftypes
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.ftypes`属性检查给定数据帧中的列是稀疏的还是密集的。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(df)
 
 现在我们将使用`DataFrame.ftypes`属性来检查给定数据帧中的列的 ftype。
 
-```
+```py
 # check if the column are 
 # dense or sparse
 result = df.ftypes

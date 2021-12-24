@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.str.encode()`函数对给定序列对象的基础数据中存在的字符串进行编码。使用“raw_unicode_escape”进行编码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.str.encode()`函数对给定序列对象的底层数据中存在的字符串进行编码。
 
-```
+```py
 # use 'raw_unicode_escape' encoding
 result = sr.str.encode(encoding = 'raw_unicode_escape')
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2 :** 使用`Series.str.encode()`函数对给定序列对象的基础数据中存在的字符串进行编码。使用“punycode”进行编码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.str.encode()`函数对给定序列对象的底层数据中存在的字符串进行编码。
 
-```
+```py
 # use 'punycode' encoding
 result = sr.str.encode(encoding = 'punycode')
 

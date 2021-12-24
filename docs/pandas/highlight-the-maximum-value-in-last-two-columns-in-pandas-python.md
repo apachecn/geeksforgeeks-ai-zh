@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 import numpy as np
@@ -43,7 +43,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting the maximum values 
 # of last 2 columns
 df.style.highlight_max(subset = ['Age', 'Marks'],
@@ -60,7 +60,7 @@ df.style.highlight_max(subset = ['Age', 'Marks'],
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting the maximum values of
 # last 2 columns
 df.style.highlight_max(subset = df.columns[-2:],
@@ -77,7 +77,7 @@ df.style.highlight_max(subset = df.columns[-2:],
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom function which returns
 # the list for df.style.apply() method
 def highlight_max(s):
@@ -97,7 +97,7 @@ df.style.apply(highlight_max, subset = df.columns[-2:])
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom function which returns
 # the list for df.style.apply() method
 def highlight_max(s):

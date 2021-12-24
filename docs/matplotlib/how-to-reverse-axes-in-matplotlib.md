@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy and matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ xlim()和 ylim()也可用于反转曲线图的轴。它们通常用于分别设�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy and matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy and matplotlib
 import numpy as np
 import matplotlib.pyplot as plt

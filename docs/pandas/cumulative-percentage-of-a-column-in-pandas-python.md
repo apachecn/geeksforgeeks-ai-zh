@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -37,7 +37,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 

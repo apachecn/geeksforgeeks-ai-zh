@@ -34,7 +34,7 @@ yscale()或 xscale()方法将单个值作为一个参数，该参数是刻度的
 
 ## 蟒 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # exponential function y = 10^x

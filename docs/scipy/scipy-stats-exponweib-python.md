@@ -17,7 +17,7 @@ T3】
 
 **代码#1:创建指数威布尔连续随机变量**
 
-```
+```py
 from scipy.stats import exponweib  
 
 numargs = exponweib .numargs
@@ -29,7 +29,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000018D5660E1D0>
 
@@ -37,7 +37,7 @@ RV :
 
 **代码#2:指数威布尔随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -52,7 +52,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [8.17460511e+00 1.33286202e+00 1.77493153e+01 1.83861272e-01
  5.32255458e-01 1.34520149e+00 1.91022498e-02 3.08216056e-03
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
  0.6122449  0.71428571 0.81632653 0.91836735 1.02040816 1.12244898
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

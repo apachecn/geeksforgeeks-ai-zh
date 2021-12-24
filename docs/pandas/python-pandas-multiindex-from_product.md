@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.from_product()`函数从多个项的笛卡儿积构建多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print("\n", Name)
 
 现在让我们使用上面的两个表来创建 MultiIndex。
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_product([Name, Price],
                        names =['Name', 'Price'])
@@ -54,7 +54,7 @@ print(midx)
 
 **示例#2:** 使用`MultiIndex.from_product()`函数从多个项的笛卡儿积构建多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print("\n", Variety)
 
 现在让我们使用上面的两个表来创建 MultiIndex。
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_product([Snake, Variety], 
                        names =['Snake', 'Variety'])

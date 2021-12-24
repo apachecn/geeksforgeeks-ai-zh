@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # Python program illustrating 
 # lcm() method 
 import numpy as np 
@@ -30,7 +30,7 @@ print ("\nlcm of arr1 and 10   : ", np.lcm(arr1, 10))
 
 **输出:**
 
-```
+```py
 arr1 : [120, 24, 42, 10]
 arr2 : [2250, 12, 20, 50]
 

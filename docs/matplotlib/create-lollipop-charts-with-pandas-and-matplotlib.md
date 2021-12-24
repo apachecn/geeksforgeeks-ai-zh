@@ -28,7 +28,7 @@ CSV 文件中有“月 _ 号”和“总 _ 利润”两列，它们是从 CSV �
 
 ## python 3
 
-```
+```py
 # importing modules
 from pandas import *
 import matplotlib.pyplot as plt

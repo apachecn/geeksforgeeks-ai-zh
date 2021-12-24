@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 
@@ -42,7 +42,7 @@ print (select_prod)
 
 **产量:**T2![](img/4dab3dac76a8afe0f825eda9a732647f.png)T4**例 2:**
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 
@@ -73,7 +73,7 @@ print (select_prod)
 ![](img/909da94a43ed2a1706612516eaab2dd1.png)
 **例 3:**
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 
@@ -105,7 +105,7 @@ print (select_prod)
 ![](img/320f112c35444b1c0b65d1ebe253285f.png)
 **例 4:**
 
-```
+```py
 # Importing pandas as pd
 from pandas import DataFrame
 

@@ -32,7 +32,7 @@ Pandas**rename()**方法用于重命名任何索引、列或行。
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Sample DataFrame
@@ -54,7 +54,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Sample DataFrame
@@ -75,7 +75,7 @@ display(su)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Sample DataFrame
@@ -101,7 +101,7 @@ display(su)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # reading a csv file

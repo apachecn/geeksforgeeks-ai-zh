@@ -33,7 +33,7 @@ TensorFlow 是谷歌设计的开源 python 库，用于开发机器学习模型�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -56,7 +56,7 @@ print('regularized incomplete beta integral: ',ribi)
 
 **输出:**
 
-```
+```py
 Input a:  tf.Tensor([1\. 2\. 3\. 4\. 5.], shape=(5,), dtype=float64)
 Input b:  tf.Tensor([1.5 2.7 3.4 4.9 5.6], shape=(5,), dtype=float64)
 Input x:  tf.Tensor([1\. 1\. 1\. 1\. 1.], shape=(5,), dtype=float64)
@@ -68,7 +68,7 @@ regularized incomplete beta integral:  tf.Tensor([1\. 1\. 1\. 1\. 1.], shape=(5,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -88,7 +88,7 @@ ribi = tf.math.betainc(a,b,x)
 
 **输出:**
 
-```
+```py
 Input a:  tf.Tensor([1.+0.j 2.+0.j 3.+0.j 4.+0.j 5.+0.j], shape=(5,), dtype=complex128)
 Input b:  tf.Tensor([1.5+0.j 2.7+0.j 3.4+0.j 4.9+0.j 5.6+0.j], shape=(5,), dtype=complex128)
 Input x:  tf.Tensor([1.+0.j 1.+0.j 1.+0.j 1.+0.j 1.+0.j], shape=(5,), dtype=complex128)

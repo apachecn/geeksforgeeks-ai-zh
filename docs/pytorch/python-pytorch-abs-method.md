@@ -15,7 +15,7 @@ PyTorch `torch.abs()`方法计算给定输入张量的元素绝对值。
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -31,7 +31,7 @@ print(b) 
 
 **输出:**
 
-```
+```py
 -15
 [torch.FloatTensor of size 1]
  15
@@ -41,7 +41,7 @@ print(b) 
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -57,7 +57,7 @@ print(b) 
 
 **输出:**
 
-```
+```py
  15
  -5
   3

@@ -21,7 +21,7 @@
 
 **示例#1:** 使用`Series.take()`功能，根据元素在对象中的实际位置，从给定的序列对象中提取一些元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(sr)
 
 现在我们将使用`Series.take()`函数提取对应于传递位置的值。
 
-```
+```py
 # return elements corresponding to
 # the passed index position
 sr.take(indices = [0, 2])
@@ -59,7 +59,7 @@ sr.take(indices = [0, 2])
 
 **示例 2:** 使用`Series.take()`功能，根据元素在对象中的实际位置，从给定的序列对象中提取一些元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.take()`函数提取对应于传递位置的值。
 
-```
+```py
 # return elements corresponding to
 # the passed index position
 sr.take(indices = [1, 2, 5, 8])

@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.to_sparse()`函数将给定的序列对象转换为稀疏存储对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.to_sparse()`函数来实现给定的 Series 对象到 SparseSeries 对象的转换。
 
-```
+```py
 # convert to Sparse object
 sr.to_sparse()
 ```
@@ -52,7 +52,7 @@ sr.to_sparse()
 
 **示例 2:** 使用`Series.to_sparse()`函数将给定的序列对象转换为稀疏存储对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.to_sparse()`函数来实现给定的 Series 对象到 SparseSeries 对象的转换。
 
-```
+```py
 # convert to Sparse object
 sr.to_sparse()
 ```

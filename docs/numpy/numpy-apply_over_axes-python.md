@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 numpy.apply_over_axes(func, array, axes)
 ```
 
 **参数:**
 
-```
+```py
 1d_func  : the required function to perform over 1D array. It can only be applied in 
          1D slices of input array and that too along a particular axis. 
 axis     : required axis along which we want input array to be sliced
@@ -23,7 +23,7 @@ array    : Input array to work on
 
 **返回:**
 
-```
+```py
 The output array. Shape of the output array can be different depending on whether func 
 changes the shape of its output with respect to its input.
 ```
@@ -32,7 +32,7 @@ changes the shape of its output with respect to its input.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # apply_over_axis() in NumPy
 
@@ -51,7 +51,7 @@ print("\nfunc min : \n ", geek.apply_over_axes(geek.min, geek_array, [1, 1, 0]))
 
 **输出:**
 
-```
+```py
 geek array  :
  [[[ 0  1  2  3]
   [ 4  5  6  7]]
@@ -70,7 +70,7 @@ func min :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # apply_over_axis() in NumPy
 
@@ -100,7 +100,7 @@ print("\nApplying func sum : \n ", geek.apply_over_axes(geek.sum, geek_array, [1
 
 **输出:**
 
-```
+```py
 geek array  :
  [[ 0  1  2  3]
  [ 4  5  6  7]
@@ -130,7 +130,7 @@ Applying func sum :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # equivalent to apply_over_axis()
 
@@ -146,7 +146,7 @@ print("func : \n", geek.sum(geek_array, axis=(1, 0, 2), keepdims = True))
 
 **输出:**
 
-```
+```py
 geek array  :
  [[[ 0  1  2  3]
   [ 4  5  6  7]]

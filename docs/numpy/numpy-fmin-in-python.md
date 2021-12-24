@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # fmin() function
 
@@ -36,7 +36,7 @@ print ("minimum of 10 and 11 : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number1 :  10
 Input  number2 :  11
 minimum of 10 and 11 :  10
@@ -45,7 +45,7 @@ minimum of 10 and 11 :  10
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # fmin() function
 
@@ -63,7 +63,7 @@ print ("Output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125, nan]
 Input array2 :  [nan, 3, 115, nan]
 Output array :  [   2\.    3\.  115\.   nan]
@@ -72,7 +72,7 @@ Output array :  [   2\.    3\.  115\.   nan]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # fmin() function
 
@@ -90,7 +90,7 @@ print ("Output array: ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array1 :  [2, 8, 125]
 Input array2 :  [3, 3, 115]
 Output array:  [  2   3 115]

@@ -15,7 +15,7 @@ Pandas `**TimedeltaIndex.round()**`函数将给定时间增量索引对象的标
 
 **示例#1:** 使用`TimedeltaIndex.round()`函数舍入给定时间增量索引对象的标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.round()`函数将 tidx 对象的标签舍入到微小的频率。
 
-```
+```py
 # round the labels of the tidx
 # object to minutely frequency
 tidx.round('T')
@@ -44,7 +44,7 @@ tidx.round('T')
 
 **示例 2:** 使用`TimedeltaIndex.round()`函数重命名给定的时间增量索引对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.round()`功能将 tidx 对象的标签舍入到每日频率。
 
-```
+```py
 # round the labels of the tidx 
 # object to daily frequency
 tidx.round('D')

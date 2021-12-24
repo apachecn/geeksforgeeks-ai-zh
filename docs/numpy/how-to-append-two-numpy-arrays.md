@@ -31,7 +31,7 @@ python 中的两个数组可以以多种方式追加，所有可能的方式都�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -66,7 +66,7 @@ print(array1)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -98,7 +98,7 @@ print(array1)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -131,7 +131,7 @@ hstack 方法水平(按列)按顺序堆叠数组。
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -162,7 +162,7 @@ vstack 方法垂直(逐行)按顺序堆叠数组。
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -187,7 +187,7 @@ print(array1)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 
 array1 = numpy.array([1, 2, 3, 4, 5])
@@ -200,7 +200,7 @@ print(array1)
 
 **输出:**
 
-```
+```py
 *[[ 1  6]*
  *[ 2  7]*
  *[ 3  8]*

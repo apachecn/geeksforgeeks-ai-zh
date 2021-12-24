@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.put() method 
 
@@ -60,7 +60,7 @@ print ("Output  int array in clip mode : ", rec_arr.b) 
 
 **Output:**
 
-```
+```py
 Input array :  [( 1.,  2) ( 3., -4) ( 5.,  6) ( 7.,  8) ( 9., -4) (11., -2)]
 Record array of float:  [ 1\.  3\.  5\.  7\.  9\. 11.]
 Record array of int:  [ 2 -4  6  8 -4 -2]

@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to collapse
 # multiple Columns using Pandas
 import pandas as pd
@@ -52,7 +52,7 @@ df.reset_index(level = 0)
 
 **例 2:**
 
-```
+```py
 # Python program to collapse
 # multiple Columns using Pandas
 import pandas as pd

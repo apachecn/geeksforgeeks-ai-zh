@@ -18,7 +18,7 @@
 
  **## 蟒 3
 
-```
+```py
 # Importing modules
 import pandas as pd
 
@@ -45,7 +45,7 @@ Time_series(date, per)
 
 ****输出:****
 
-```
+```py
 0   2020-03-01
 1   2020-03-02
 2   2020-03-03

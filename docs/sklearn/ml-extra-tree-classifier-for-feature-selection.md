@@ -46,7 +46,7 @@
 
 计算每个功能的总信息增益:-
 
-```
+```py
  Total Info Gain for Outlook     =     0.246+0.246   = 0.492
 
 Total Info Gain for Temperature = 0.029+0.029+0.029 = 0.087
@@ -63,7 +63,7 @@ Total Info Gain for Wind        =     0.048+0.048   = 0.096
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -72,7 +72,7 @@ from sklearn.ensemble import ExtraTreesClassifier
 
 **第二步:加载和清理数据**
 
-```
+```py
 # Changing the working location to the location of the file
 cd C:\Users\Dev\Desktop\Kaggle
 
@@ -90,7 +90,7 @@ X.head()
 
 **步骤 3:建立额外树木森林并计算个体特征重要性**
 
-```
+```py
 # Building the model
 extra_tree_forest = ExtraTreesClassifier(n_estimators = 5,
                                         criterion ='entropy', max_features = 2)
@@ -109,7 +109,7 @@ feature_importance_normalized = np.std([tree.feature_importances_ for tree in 
 
 **第四步:可视化和比较结果**
 
-```
+```py
 # Plotting a Bar Graph to compare the models
 plt.bar(X.columns, feature_importance_normalized)
 plt.xlabel('Feature Labels')

@@ -20,7 +20,7 @@
 
 每棵树预测一个标签，最终预测由公式给出，
 
-```
+```py
 y(pred) = y1 + (eta *  r1) + (eta * r2) + ....... + (eta * rN)
 
 ```
@@ -29,7 +29,7 @@ scikit-learn 中的梯度增强回归类是**梯度增强回归器**。一个类
 
 **代码:梯度增强回归器的 Python 代码**
 
-```
+```py
 # Import models and utility functions
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
@@ -64,7 +64,7 @@ print('RMSE test set: {:.2f}'.format(test_rmse))
 
 **输出:**
 
-```
+```py
 RMSE test set: 4.01
 
 ```

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import cv2
 import numpy as np
@@ -31,7 +31,7 @@ import dlib
 
 ## 蟒蛇 3
 
-```
+```py
 # (0) in VideoCapture is used to
 # connect to your computer's default camera
 cap = cv2.VideoCapture(0)
@@ -49,7 +49,7 @@ detector = dlib.get_frontal_face_detector()
 
 ## 蟒蛇 3
 
-```
+```py
 while True:
 
     # Capture frame-by-frame
@@ -83,7 +83,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 # Enter key 'q' to break the loop
 if cv2.waitKey(1) & 0xFF == ord('q'):
     break
@@ -93,7 +93,7 @@ if cv2.waitKey(1) & 0xFF == ord('q'):
 
 ## 蟒蛇 3
 
-```
+```py
 # When everything done, release
 # the capture and destroy the windows
 cap.release()
@@ -104,7 +104,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import cv2
 import numpy as np

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np
@@ -39,7 +39,7 @@ display(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np
@@ -70,7 +70,7 @@ display(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np
@@ -100,7 +100,7 @@ display(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import pandas as pd
 import numpy as np

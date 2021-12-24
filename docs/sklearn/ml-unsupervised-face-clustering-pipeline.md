@@ -15,7 +15,7 @@
 **实施中的挑战:**针对更大的受众群体，我们计划将解决方案实施为在 CPU 中执行，而不是在 NVIDIA GPU 中执行。使用英伟达图形处理器可能会提高流水线的效率。
 面部嵌入提取的 CPU 实现非常慢(每张图像 30+秒)。为了解决这个问题，我们用并行管道执行来实现它们(导致每个图像大约 13 秒)，然后合并它们的结果用于进一步的聚类任务。我们引入了 tqdm 和 PyPiper，用于进度更新和调整从输入视频中提取的帧的大小，以平滑执行管道。
 
-```
+```py
 Input: Footage.mp4
 Output: 
 ```
@@ -32,7 +32,7 @@ ResizeUtils 的类实现提供了函数 rescale_by_height 和 rescale_by_width�
 
 ## 蟒蛇 3
 
-```
+```py
 '''
 The ResizeUtils provides resizing function
            to keep the aspect ratio intact
@@ -68,7 +68,7 @@ class ResizeUtils:
 
 ## 蟒蛇 3
 
-```
+```py
 # The FramesGenerator extracts image
 # frames  from the given video file
 # The image frames are resized for
@@ -99,7 +99,7 @@ class FramesGenerator:
 
 ## 蟒蛇 3
 
-```
+```py
 # Extract 1 frame from each second from video footage
 # and save the frames to a specific folder
 def GenerateFrames(self, OutputDirectoryName):
@@ -152,7 +152,7 @@ def GenerateFrames(self, OutputDirectoryName):
 
 ## 蟒蛇 3
 
-```
+```py
 # Following are nodes for pipeline constructions.
 # It will create and asynchronously execute threads
 # for reading images, extracting facial features and
@@ -192,7 +192,7 @@ class FramesProvider(Node):
 
 ## 蟒蛇 3
 
-```
+```py
 # Encode the face embedding, reference path
 # and location and emit to pipeline
 class FaceEncoder(Node):
@@ -225,7 +225,7 @@ class FaceEncoder(Node):
 
 ## 蟒蛇 3
 
-```
+```py
 # Receive the face embeddings for clustering and
 # id for naming the distinct filename
 class DatastoreManager(Node):
@@ -244,7 +244,7 @@ class DatastoreManager(Node):
 
 ## 蟒蛇 3
 
-```
+```py
 # PicklesListCollator takes multiple pickle
 # files as input and merges them together
 # It is made specifically to support use-case
@@ -283,7 +283,7 @@ DBSCAN 实现在“scikit”中提供，也接受用于计算的线程数。
 
 ## 蟒蛇 3
 
-```
+```py
 # Face clustering functionality
 class FaceClusterUtility:
 
@@ -337,7 +337,7 @@ class FaceClusterUtility:
 
 ## 蟒蛇 3
 
-```
+```py
 # Inherit class tqdm for visualization of progress
 class TqdmUpdate(tqdm):
 
@@ -363,7 +363,7 @@ class TqdmUpdate(tqdm):
 
 ## 蟒蛇 3
 
-```
+```py
 class FaceImageGenerator:
     def __init__(self, EncodingFilePath):
         self.EncodingFilePath = EncodingFilePath
@@ -497,7 +497,7 @@ class FaceImageGenerator:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all classes from above Python file
 from FaceClusteringLibrary import *
 

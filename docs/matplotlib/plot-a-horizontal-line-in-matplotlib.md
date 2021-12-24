@@ -21,7 +21,7 @@ matplotlib 库 pyplot 模块中的 axhline()函数用于添加一条横过轴的
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -42,7 +42,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the module
 import matplotlib.pyplot as plt
 
@@ -76,7 +76,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import matplotlib.pyplot as plt
 

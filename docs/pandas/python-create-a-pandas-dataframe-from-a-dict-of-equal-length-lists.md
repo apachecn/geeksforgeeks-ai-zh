@@ -8,7 +8,7 @@
 
 **示例#1:** 给定一个字典，该字典包含板球格式为*键*和前五名球队列表为*值*。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 
@@ -35,7 +35,7 @@ rankings_pd
 
 **例 2:** 给出了三个列表`test_batsmen`、`odi_batsmen`、`t20_batsmen`。所以我们首先需要把这个数据转换成字典，然后把字典转换成 DataFrame。
 
-```
+```py
 # Import pandas package 
 import pandas as pd
 

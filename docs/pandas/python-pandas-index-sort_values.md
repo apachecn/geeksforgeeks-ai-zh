@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.sort_values()`函数对索引中的值进行排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ idx
 
 现在我们将按升序对索引标签进行排序。
 
-```
+```py
 # Sorting the index labels
 idx.sort_values(ascending = True)
 ```
@@ -48,7 +48,7 @@ idx.sort_values(ascending = True)
 
 **例 2:** 使用`Index.sort_values()`功能对索引标签进行降序排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ idx
 
 现在我们将按非递增顺序对索引标签进行排序。
 
-```
+```py
 # sort the values in descending order
 idx.sort_values(ascending = False)
 ```

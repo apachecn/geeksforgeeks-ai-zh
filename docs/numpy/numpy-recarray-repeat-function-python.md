@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.repeat() method 
 
@@ -79,7 +79,7 @@ print ("Output repeated int array along default axis : ", out_arr)  
 
 我们将`numpy.recarray.repeat()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.repeat() method 
 

@@ -4,7 +4,7 @@
 
 让我们看看如何用 NumPy 计算矩阵乘法。我们将使用 [numpy.dot()](https://www.geeksforgeeks.org/numpy-dot-python/) 方法来求 2 个矩阵的乘积。
 
-```
+```py
 For example, for two matrices A and B.
 A = [[1, 2], [2, 3]]
 B = [[4, 5], [6, 7]]
@@ -18,7 +18,7 @@ So the computed answer will be: [[16, 26], [19, 31]]
 
 **例 1:**2 个方阵的矩阵乘法。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -40,7 +40,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Matrix p :
 [[1, 2], [2, 3]]
 Matrix q :
@@ -53,7 +53,7 @@ The matrix multiplication is :
 
 **例 2:**2 个矩形矩阵的矩阵乘法。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -75,7 +75,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Matrix p :
 [[1, 2], [2, 3], [4, 5]]
 Matrix q :

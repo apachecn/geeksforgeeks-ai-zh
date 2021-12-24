@@ -7,20 +7,20 @@
 
 **语法:**
 
-```
+```py
 numpy.nanargmin(array, axis = None)
 ```
 
 **参数:**
 
-```
+```py
 array : Input array to work on 
 axis  : [int, optional]Along a specified axis like 0 or 1
 ```
 
 **返回:**
 
-```
+```py
 Array of indices into the array with same shape as array.shape.
  with the dimension along axis removed.
 ```
@@ -29,7 +29,7 @@ Array of indices into the array with same shape as array.shape.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of nanargmin()
 
@@ -57,7 +57,7 @@ print("\nIndices at axis 1 of array2 : ",
 
 **输出:**
 
-```
+```py
 INPUT ARRAY 1 : 
  [nan, 4, 2, 3, 1]
 
@@ -76,7 +76,7 @@ Indices at axis 1 of array2 :  [1 0]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of nanargmin()
 
@@ -110,7 +110,7 @@ print("\nIndices of min using nanargmin :  : ",
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [[ 8 13  5  0]
  [ 0  2  5  3]

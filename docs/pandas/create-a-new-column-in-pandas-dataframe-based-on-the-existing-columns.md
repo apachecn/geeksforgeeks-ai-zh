@@ -10,7 +10,7 @@
 
 **解决方案#1:** 我们可以使用`DataFrame.apply()`功能来实现这个任务。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df)
 
 现在，我们将在对现有的“成本”列应用 10%的折扣后，创建一个名为“折扣价格”的新列。
 
-```
+```py
 # using apply function to create a new column
 df['Discounted_Price'] = df.apply(lambda row: row.Cost - 
                                   (row.Cost * 0.1), axis = 1)
@@ -43,7 +43,7 @@ print(df)
 
 **解决方案#2:** 我们可以通过在所需的列元素上直接执行所需的操作来获得相同的结果。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

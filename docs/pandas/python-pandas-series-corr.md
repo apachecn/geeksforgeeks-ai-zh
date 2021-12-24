@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.corr()`函数找到给定系列对象与其他对象的相关性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -49,7 +49,7 @@ print(sr2)
 
 现在我们将使用`Series.corr()`函数来查找给定序列对象的底层数据与其他数据之间的相关性。
 
-```
+```py
 # find the correlation
 result = sr1.corr(sr2)
 
@@ -63,7 +63,7 @@ print(result)
 
 **例 2 :** 使用`Series.corr()`函数找出给定序列对象与其他序列对象的相关性。系列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -95,7 +95,7 @@ print(sr2)
 
 现在我们将使用`Series.corr()`函数来查找给定序列对象的底层数据与其他数据之间的相关性。
 
-```
+```py
 # find the correlation
 result = sr1.corr(sr2)
 

@@ -18,7 +18,7 @@
 
 **代码#1:为单词创建一个 ChunkedCorpusReader】**
 
-```
+```py
 # Using ChunkedCorpusReader
 from nltk.corpus.reader import ChunkedCorpusReader
 
@@ -31,7 +31,7 @@ print ("Words : \n", words)
 
 **输出:**
 
-```
+```py
 Words : 
 [Tree('NP', [('Earlier', 'JJR'), ('staff-reduction', 'NN'), 
 ('moves', 'NNS')]), ('have', 'VBP'), ...]
@@ -40,14 +40,14 @@ Words :
 
 **代码#2:用于句子**
 
-```
+```py
 Chunked Sentence = x.chunked_sents()
 print ("Chunked Sentence : \n", tagged_sent)
 ```
 
 **输出:**
 
-```
+```py
 Chunked Sentence : 
 [Tree('S', [Tree('NP', [('Earlier', 'JJR'), ('staff-reduction', 'NN'), 
 ('moves', 'NNS')]), ('have', 'VBP'), ('trimmed', 'VBN'), ('about', 'IN'), 
@@ -58,14 +58,14 @@ Tree('NP', [('the', 'DT'), ('spokesman', 'NN')]), ('said', 'VBD'), ('.', '.')])]
 
 **代码#3:针对段落**
 
-```
+```py
 para = x.chunked_paras()()
 print ("para : \n", para)
 ```
 
 **输出:**
 
-```
+```py
 [[Tree('S', [Tree('NP', [('Earlier', 'JJR'), ('staff-reduction',
 'NN'), ('moves', 'NNS')]), ('have', 'VBP'), ('trimmed', 'VBN'),
 ('about', 'IN'), 

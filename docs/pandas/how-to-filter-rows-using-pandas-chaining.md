@@ -11,7 +11,7 @@
 
 ## 【Python】
 
-```
+```py
 # import package
 import pandas as pd
 

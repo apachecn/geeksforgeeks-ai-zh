@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -40,7 +40,7 @@ T3】代号:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -72,7 +72,7 @@ T3】代号:
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

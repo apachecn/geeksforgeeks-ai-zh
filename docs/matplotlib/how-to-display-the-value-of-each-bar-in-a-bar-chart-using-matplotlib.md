@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 x = ["A", "B", "C", "D"]
 y = [1, 2, 3, 4]

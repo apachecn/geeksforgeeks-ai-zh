@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import tensorflow as tf
 import numpy as np

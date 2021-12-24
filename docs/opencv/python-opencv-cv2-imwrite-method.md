@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.imwrite() method
 
 # importing cv2 
@@ -59,7 +59,7 @@ print('Successfully saved')
 
 **输出:**
 
-```
+```py
 Before saving image:
 ['geeks.png']
 After saving image:

@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.loc`属性使用索引和列标签访问给定数据框中的特定单元格。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 现在，我们将使用`DataFrame.loc`属性返回“行 _2”标签对应的“名称”列中的值。
 
-```
+```py
 # return the value
 result = df.loc['Row_2', 'Name']
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.loc`属性返回给定数据框中的两列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(df)
 
 现在我们将使用`DataFrame.loc`属性返回数据框的“A”和“D”列中的值。
 
-```
+```py
 # return the values.
 result = df.loc[:, ['A', 'D']]
 

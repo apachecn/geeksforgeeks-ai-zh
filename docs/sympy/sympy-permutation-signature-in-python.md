@@ -11,7 +11,7 @@
 
 **代码#1:签名()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.signature()
 
@@ -37,7 +37,7 @@ print ("Permutation b - signature form : ", b.signature())
 
 **代码#2:签名()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.signature()
 

@@ -14,7 +14,7 @@
 
 **代码:检测图像中多边形的 Python 程序**
 
-```
+```py
 # Python code to detect an arrow (seven-sided shape) from an image.
 import numpy as np
 import cv2

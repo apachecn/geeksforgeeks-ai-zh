@@ -6,7 +6,7 @@
 
 在这种类型的计算中，我们需要注意现有数据帧中的值。我们只使用这些值在 dataframe 中添加新列。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(df)
 
 **输出:**
 
-```
+```py
   First_name Last_name  Marks Result
 0        Ram     Kumar     12   Fail
 1      Mohan    Sharma     52   Pass

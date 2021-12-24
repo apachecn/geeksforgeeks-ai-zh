@@ -8,7 +8,7 @@ A **`Series`** 是一个一维标注数组，能够保存任意数据类型(整�
 
 **方法#1 :** 使用`Series()`方法，没有任何参数。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -25,7 +25,7 @@ print(x)
 
 **方法#2 :** 使用`Series()`方法配合`'index'`参数。
 
-```
+```py
 # import pandas lib. as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(x)
 
 另一个例子:
 
-```
+```py
 # import pandas lib. as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(x)
 
 **方法#3:** 使用多列表`Series()`方法
 
-```
+```py
 # importing pandas 
 import pandas as pd
 

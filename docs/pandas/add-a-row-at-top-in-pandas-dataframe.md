@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -24,7 +24,7 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 new_row = pd.DataFrame({'Name':'Geeks', 'Team':'Boston', 'Number':3,
                         'Position':'PG', 'Age':33, 'Height':'6-2',
                         'Weight':189, 'College':'MIT', 'Salary':99999},
@@ -42,7 +42,7 @@ df.head(5)
 
 ## 蟒蛇 3
 
-```
+```py
 new_row = pd.DataFrame({'Name':'Geeks', 'Team':'Boston', 'Number':3,
                         'Position':'PG', 'Age':33, 'Height':'6-2',
                         'Weight':189, 'College':'MIT', 'Salary':99999}, index =[0])
@@ -60,7 +60,7 @@ df.head(5)
 
 ## 蟒蛇 3
 
-```
+```py
 new_row = pd.DataFrame({'Name':'Geeks', 'Team':'Boston', 'Number':3,
                         'Position':'PG', 'Age':33, 'Height':'6-2',
                         'Weight':189, 'College':'MIT', 'Salary':99999}, index =[0])

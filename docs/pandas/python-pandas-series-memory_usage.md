@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.memory_usage()`函数查找给定序列对象的内存使用情况。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.memory_usage()`函数来查找给定系列对象的内存使用情况。
 
-```
+```py
 # return the memory usage
 result = sr.memory_usage()
 
@@ -53,7 +53,7 @@ print(result)
 
 **例 2:** 使用`Series.memory_usage()`函数查找给定序列对象的内存使用情况。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.memory_usage()`函数来查找给定系列对象的内存使用情况。
 
-```
+```py
 # return the memory usage
 result = sr.memory_usage()
 

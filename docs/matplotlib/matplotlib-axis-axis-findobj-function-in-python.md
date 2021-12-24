@@ -23,7 +23,7 @@ matplotlib 库的 Axis 模块中的 **Axis.findobj()函数**用于查找艺术�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/8cffce11fb89faa1104c19f36c524675.png)
 
-```
+```py
 Value return : 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.787316, angle=0)
@@ -161,7 +161,7 @@ AxesSubplot(0.125,0.11;0.775x0.77)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -191,7 +191,7 @@ plt.show()
 
 ![](img/46bc02c434dec8b46681624ef4119266.png)
 
-```
+```py
 Value return : 
 
 Circle(xy=(0.5, 0.5), radius=0.25)

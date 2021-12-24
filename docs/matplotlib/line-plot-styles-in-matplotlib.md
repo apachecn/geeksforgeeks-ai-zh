@@ -83,7 +83,7 @@ Python 是一种高级的、解释的、动态类型的编程语言，可以用�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import random as random
 
@@ -115,7 +115,7 @@ plt.plot(students,marks,'m--')
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import random as random
 

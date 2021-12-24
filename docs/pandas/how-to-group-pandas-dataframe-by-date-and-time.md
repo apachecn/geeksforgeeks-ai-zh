@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pd
 
@@ -52,7 +52,7 @@ df.groupby(pd.Grouper(key='Date', axis=0, 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import pandas as pd
 

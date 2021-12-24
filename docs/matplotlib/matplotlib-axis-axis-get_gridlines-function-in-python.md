@@ -19,7 +19,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_gridlines()函数**用来获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/1842d1c136a8b008fef632dbb8192165.png)
 
-```
+```py
 Value of get_gridlines() :
 Line2D((0,0),(0,1))
 Line2D((0,0),(0,1))
@@ -64,7 +64,7 @@ Line2D((0,0),(0,1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import matplotlib.pyplot as plt 
@@ -104,7 +104,7 @@ plt.show()
 
 ![](img/e864e09ce63e6e56017af211abb40560.png)
 
-```
+```py
 Value of get_gridlines() :
 Line2D((0,0),(1,0))
 Line2D((0,0),(1,0))

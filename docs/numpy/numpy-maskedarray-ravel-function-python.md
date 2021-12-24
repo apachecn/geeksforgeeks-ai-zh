@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.ravel() method 
 
@@ -43,7 +43,7 @@ print ("1D view of masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]]
 Masked array :  [[1 --]
@@ -54,7 +54,7 @@ Masked array :  [[1 --]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.ravel() method 
 
@@ -79,7 +79,7 @@ print ("1D view of masked array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[[ 2.0e+08  3.0e-05]]
 
  [[-4.5e+01  2.0e+05]]]

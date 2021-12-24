@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # filtering integers from numpy array
 # containing integers and float
@@ -29,7 +29,7 @@ print ("final array", result)
 
 **Output:** 
 
-```
+```py
 initial array :  [ 1\.   1.2  2.2  2\.   3\.   2\. ]
 final array [ 1.2  2.2]
 ```
@@ -38,7 +38,7 @@ final array [ 1.2  2.2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # filtering integers from numpy array
 # containing integers and float
@@ -60,7 +60,7 @@ print ("final array : ", str(result))
 
 **Output:** 
 
-```
+```py
 initial array :  [ 1\.   1.2  2.2  2\.   3\.   2\. ]
 final array :  [ 1.2  2.2]
 ```
@@ -69,7 +69,7 @@ final array :  [ 1.2  2.2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # filtering integers from numpy array
 # containing integers and float
@@ -92,7 +92,7 @@ print ("final array : ", str(result))
 
 **Output:** 
 
-```
+```py
 initial array :  [ 1\.   1.2  2.2  2\.   3\.   2\. ]
 final array :  [ 1.2  2.2]
 ```

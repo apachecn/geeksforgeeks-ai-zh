@@ -5,7 +5,7 @@
 给定一个 numpy 数组，编写一个程序将 numpy 数组转换成元组。
 **示例–**
 
-```
+```py
 Input: ([[1, 0, 0, 1, 0], [1, 2, 0, 0, 1]])
 Output:  ((1, 0, 0, 1, 0), (1, 2, 0, 0, 1))
 
@@ -18,7 +18,7 @@ Output:  (('manjeet', 'akshat'), ('nikhil', 'akash'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # deletion of columns from numpy array
 
@@ -36,7 +36,7 @@ print ("Resultant Array :"+str(result))
 
 **输出:**
 
-```
+```py
 Result:(('manjeet', 'akshat'), ('nikhil', 'akash'))
 ```
 
@@ -44,7 +44,7 @@ Result:(('manjeet', 'akshat'), ('nikhil', 'akash'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # deletion of columns from numpy array
 
@@ -62,6 +62,6 @@ print ("Result:"+str(result))
 
 **输出:**
 
-```
+```py
 Result:(('manjeet', 'akshat'), ('nikhil', 'akash'))
 ```

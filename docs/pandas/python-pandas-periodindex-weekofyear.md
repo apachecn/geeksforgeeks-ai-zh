@@ -14,7 +14,7 @@ Pandas `**PeriodIndex.weekofyear**`属性返回一个 Index 对象，该对象�
 
 **示例#1:** 使用`PeriodIndex.weekofyear`属性找出给定 PeriodIndex 对象中包含的每个 period 元素的周序数值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.weekofyear`属性找出给定 PeriodIndex 对象在一年中的周序数值。
 
-```
+```py
 # return the week's ordinal value in the year
 pidx.weekofyear
 ```
@@ -45,7 +45,7 @@ pidx.weekofyear
 
 **示例#2:** 使用`PeriodIndex.weekofyear`属性找出给定 PeriodIndex 对象中包含的每个 period 元素的周序数值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.weekofyear`属性找出给定 PeriodIndex 对象在一年中的周序数值。
 
-```
+```py
 # return the week's ordinal value
 pidx.weekofyear
 ```

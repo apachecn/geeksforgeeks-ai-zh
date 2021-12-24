@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 
 import pandas as pd;
@@ -37,7 +37,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # Create column for profit and loss
 data['Profit']= None
 data['Loss']= None
@@ -53,7 +53,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # set index
 index_selling = data.columns.get_loc('Selling Price')
 index_cost = data.columns.get_loc('Cost price')
@@ -65,21 +65,21 @@ print(index_selling, index_cost, index_profit, index_loss)
 
 **输出:**
 
-```
+```py
 2 3 4 5
 
 ```
 
 **第四步:**根据各列指标计算损益。
 
-```
+```py
 Profit = Selling price - Cost price
 Loss = Cost price - Selling price
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Loop for accessing every index in DataFrame
 # and compute Profit and loss
 # and store into new column in DataFrame

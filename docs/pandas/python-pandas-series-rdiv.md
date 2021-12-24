@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rdiv()`函数对给定的序列对象执行标量的浮点除法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们使用`Series.rdiv()`函数对级数进行标量的浮点除法。
 
-```
+```py
 # divide the given value with series
 result = sr.rdiv(other = 100)
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2:** 使用`Series.rdiv()`函数对给定的序列对象执行标量的浮点除法。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们使用`Series.rdiv()`函数对级数进行标量的浮点除法。我们将在序列中所有缺失值的位置填充 10。
 
-```
+```py
 # divide the given value with series
 result = sr.rdiv(other = 100, fill_value = 10)
 

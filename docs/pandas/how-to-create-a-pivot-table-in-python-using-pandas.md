@@ -15,7 +15,7 @@
 **示例 1:**
 让我们首先创建一个包含水果销售的数据框。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 **获取每款产品的总销量**
 
-```
+```py
 # creating pivot table of total sales
 # product-wise aggfunc = 'sum' will 
 # allow you to obtain the sum of sales
@@ -51,7 +51,7 @@ print(pivot)
 
 **获取各品类总销量**
 
-```
+```py
 # creating pivot table of total 
 # sales category-wise aggfunc = 'sum'
 # will allow you to obtain the sum of
@@ -67,7 +67,7 @@ print(pivot)
 
 **按类别和产品获取总销售额**
 
-```
+```py
 # creating pivot table of sales
 # by product and category both
 # aggfunc = 'sum' will allow you
@@ -83,7 +83,7 @@ print (pivot)
 
 **按类别获取平均、中间、最低销售额**
 
-```
+```py
 # creating pivot table of Mean, Median,
 # Minimum sale by category aggfunc = {'median',
 # 'mean', 'min'} will get median, mean and 
@@ -98,7 +98,7 @@ print (pivot)
 
 **获取产品的平均、中值、最低销售额**
 
-```
+```py
 # creating pivot table of Mean, Median,
 # Minimum sale by product aggfunc = {'median',
 # 'mean', 'min'} will get median, mean and

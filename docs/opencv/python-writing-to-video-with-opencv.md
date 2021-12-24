@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```py
 cap = cv2.VideoCapture("path")
 ```
 
@@ -31,7 +31,7 @@ cap = cv2.VideoCapture("path")
 
 **语法:**
 
-```
+```py
 output.write(frame)
 ```
 
@@ -43,7 +43,7 @@ output.write(frame)
 
 ## 计算机编程语言
 
-```
+```py
 import cv2
 
 def main():

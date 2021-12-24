@@ -6,14 +6,14 @@ Matplotlib 是一个神奇的 Python 可视化库，用于数组的 2D 图。Mat
 
 **matplotlib.pyplot.ion()** 用于开启交互模式。要检查交互模式的状态，可以运行以下命令，
 
-```
+```py
 plt.rcParams['interactive']
 
 ```
 
 或者，这个命令
 
-```
+```py
 plt.isinteractive()
 
 ```
@@ -28,7 +28,7 @@ Matplotlib 还与场景后面的不同后端交互。matplotlib 中渲染图表�
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 #the function to turn on interactive mode
@@ -65,7 +65,7 @@ lgnd.get_frame().set_facecolor('#ffb19a')
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.ion()

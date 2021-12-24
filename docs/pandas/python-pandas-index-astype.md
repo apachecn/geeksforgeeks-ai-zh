@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.astype()`函数将索引的数据类型从浮点型更改为整数型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df.astype('int64')
 
 **示例 2:** 使用`Index.astype()`函数将给定索引的数据类型更改为字符串形式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ df.astype('str')
 
 将“数字”列设置为索引。
 
-```
+```py
 # importing pandas module  
 import pandas as pd 
 
@@ -80,7 +80,7 @@ data.head(5)
 
 现在，让我们将索引转换为整数。
 
-```
+```py
 # applying astype on index
 data.index.astype('int64')
 ```

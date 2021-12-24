@@ -26,7 +26,7 @@
 
 **示例#1:** 使用默认标志
 
-```
+```py
 # Python program to explain cv2.imread() method
 
 # importing cv2 
@@ -48,7 +48,7 @@ cv2.imshow('image', img)
 **示例#2:**
 以**灰度**模式加载图像
 
-```
+```py
 # Python program to explain cv2.imread() method
 
 # importing cv2 

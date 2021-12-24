@@ -21,7 +21,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`sum()`函数查找索引轴上所有值的总和。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 现在找到沿着索引轴的所有值的总和。我们将跳过总和计算中的`NaN`值。
 
-```
+```py
 # finding sum over index axis
 # By default the axis is set to 0
 df.sum(axis = 0, skipna = True)
@@ -49,7 +49,7 @@ df.sum(axis = 0, skipna = True)
 
 现在我们将沿着列轴找到总和。我们要让 skipna 成真。如果我们不跳过`NaN`值，那么它将产生`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

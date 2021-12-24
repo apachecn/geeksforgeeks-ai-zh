@@ -18,7 +18,7 @@ NumPy 模块中 char 类的 add()方法用于两个字符串或 unicode 数组�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import numpy as np
 

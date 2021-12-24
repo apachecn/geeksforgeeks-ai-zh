@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import pandas as pd
 
@@ -64,7 +64,7 @@ group.count()
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 import pandas as pd
 

@@ -22,7 +22,7 @@ Matplotlib.pyplot.fill()函数用于填充多边形/曲线包围的区域。
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import matplotlib
 import matplotlib.pyplot as plt
@@ -53,7 +53,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import matplotlib
 import matplotlib.pyplot as plt

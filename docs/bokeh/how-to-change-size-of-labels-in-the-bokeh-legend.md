@@ -8,7 +8,7 @@
 
 现在，在继续下一步之前，我们必须确保在本地设备上安装 **bokeh** 。如果没有，则打开命令提示符并键入以下命令:
 
-```
+```py
 pip install bokeh 
 ```
 
@@ -20,7 +20,7 @@ pip install bokeh
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy package fro python library
 import numpy as np
 
@@ -90,7 +90,7 @@ show(p1)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 

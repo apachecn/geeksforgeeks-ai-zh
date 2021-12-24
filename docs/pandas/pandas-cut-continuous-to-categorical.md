@@ -25,7 +25,7 @@
 
 **示例 1:** 假设我们有一个由 15 个从 1 到 100 的随机数组成的数组“Age ”,我们希望将数据分成 4 个类别仓–
 
-```
+```py
 'Baby/Toddler' :- 0 to 3 years
 'Child' :- 4 to 17 years
 'Adult' :- 18 to 63 years
@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas and numpy libraries
 import pandas as pd
 import numpy as np
@@ -71,7 +71,7 @@ print(df['Label'].value_counts())
 
 **输出:**
 
-```
+```py
 Before: 
     Age
 0    42
@@ -114,7 +114,7 @@ Name: Label, dtype: int64
 
 **示例#2:** 假设我们有一个 12 人的“高度”数组，从 150 厘米到 180 厘米随机开始，我们希望将数据分成 3 个类别。
 
-```
+```py
 'Short' :- greater than 150cm upto 157cm
 'Average' :- greater than 157cm upto 170cm
 'Tall' :- greater than 170cm upto 180cm
@@ -122,7 +122,7 @@ Name: Label, dtype: int64
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing pandas and numpy libraries
 import pandas as pd
 import numpy as np
@@ -156,7 +156,7 @@ print(df['Label'].value_counts())
 
 **输出:**
 
-```
+```py
 Before: 
     Height
 0    150.4

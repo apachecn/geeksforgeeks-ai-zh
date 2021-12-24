@@ -6,7 +6,7 @@
 
 我们可以使用 Numpy.ones()方法来完成这个任务。该方法采用三个参数，讨论如下–
 
-```
+```py
 shape : integer or sequence of integers
 order  : C_contiguous or F_contiguous
          C-contiguous order in memory(last index varies the fastest)
@@ -19,7 +19,7 @@ dtype : [optional, float(byDeafult)] Data type of returned array.
 
 **代码#1:**
 
-```
+```py
 # Python Program to create array with all ones
 import numpy as geek 
 
@@ -32,7 +32,7 @@ print("\nMatrix b : \n", b) 
 
 **输出:**
 
-```
+```py
 Matrix a : 
  [1 1 1]
 
@@ -45,7 +45,7 @@ Matrix b :
 
 **代码#2:**
 
-```
+```py
 # Python Program to create array with all ones
 import numpy as geek 
 
@@ -58,7 +58,7 @@ print("\nMatrix d : \n", d) 
 
 **输出:**
 
-```
+```py
 Matrix c : 
  [[ 1\.  1\.  1.]
  [ 1\.  1\.  1.]

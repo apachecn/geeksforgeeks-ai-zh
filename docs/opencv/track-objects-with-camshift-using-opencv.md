@@ -14,7 +14,7 @@ Camshift 或者我们可以说 Continuously Adaptive Meanshift 是 Meanshift 算
 
 下面是实现。
 
-```
+```py
 import numpy as np
 import cv2 as cv
 

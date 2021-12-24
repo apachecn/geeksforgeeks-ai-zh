@@ -21,7 +21,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.trace() method 
 
@@ -54,7 +54,7 @@ print ("Output int traced array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]

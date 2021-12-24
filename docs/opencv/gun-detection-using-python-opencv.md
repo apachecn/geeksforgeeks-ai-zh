@@ -16,7 +16,7 @@
 
 **2)使用 OpenCV** 检测枪支
 
-```
+```py
 import numpy as np
 import cv2
 import imutils

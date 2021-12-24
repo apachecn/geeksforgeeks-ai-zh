@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`keys()`函数查找数据框的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -25,7 +25,7 @@ df
 
 ![](img/28414d85db1bf456553acd4365f9be86.png)
 
-```
+```py
 # find the keys of the dataframe
 df.keys()
 ```
@@ -35,7 +35,7 @@ df.keys()
 
 **例 2:** 使用`keys()`功能找到熊猫的索引**系列**对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -48,7 +48,7 @@ sr
 
 ![](img/0e53219ed39981b1c78b2e286fe21ee3.png)
 
-```
+```py
 # to find the index
 sr.keys()
 ```

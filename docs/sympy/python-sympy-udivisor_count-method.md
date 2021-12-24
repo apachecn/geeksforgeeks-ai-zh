@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import divisor_count() method from sympy
 from sympy.ntheory.factor_ import udivisor_count
 
@@ -27,14 +27,14 @@ print("The unitary number of divisors of {} : {}".format(n, udivisor_count_n))
 
 **输出:**
 
-```
+```py
 The unitary number of divisors of 84 : 8
 
 ```
 
 **例 2:**
 
-```
+```py
 # import divisor_count() method from sympy
 from sympy.ntheory.factor_ import udivisor_count
 
@@ -48,7 +48,7 @@ print("The unitary number of divisors of {} : {}".format(n, udivisor_count_n))
 
 **输出:**
 
-```
+```py
 The unitary number of divisors of 210 : 16
 
 ```

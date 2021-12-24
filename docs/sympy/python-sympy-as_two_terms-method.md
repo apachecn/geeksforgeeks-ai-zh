@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.as_two_terms()`方法，我们能够获得由**常量**值分隔的元素元组。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

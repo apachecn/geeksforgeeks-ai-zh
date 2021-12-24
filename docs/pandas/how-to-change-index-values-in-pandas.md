@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -50,7 +50,7 @@ Students
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 
@@ -85,7 +85,7 @@ Students.set_index("Admission_id")
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import pandas as pd
 

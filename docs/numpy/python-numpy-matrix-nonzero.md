@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助方法`matrix.nonzero()`，我们能够从给定的矩阵中获得非零的索引值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 (array([0, 0, 1]), array([0, 1, 1]))
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 (array([0, 0, 1, 1, 2, 2]), array([0, 2, 0, 2, 0, 1]))
 
 ```

@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy
 

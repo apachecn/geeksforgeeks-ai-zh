@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_json("FILE_JSON.json")
@@ -21,7 +21,7 @@ df.head()
 
 **输出:**
 
-```
+```py
    One  Two
 0   60  110
 1   60  117
@@ -37,7 +37,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = {
@@ -66,7 +66,7 @@ print(df)
 
 **输出:**
 
-```
+```py
    One  Two
 0   60  110
 1   60  117

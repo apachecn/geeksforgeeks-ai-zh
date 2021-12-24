@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.correlate() function
 
@@ -31,14 +31,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [8.5]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.correlate() function
 
@@ -55,7 +55,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [4.5 8.5 7\. ]
 
 ```

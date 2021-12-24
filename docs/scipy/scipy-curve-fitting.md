@@ -7,7 +7,7 @@
 **使用 SciPy :**
 Scipy 是 Python 的科学计算模块，在许多著名的数学函数上提供内置函数。scipy.optimize 包为我们提供了多种优化程序。在 iPython 控制台中键入以下内容，可以找到优化的所有功能的详细列表:
 
-```
+```py
 help(scipy.optimize)
 ```
 
@@ -35,7 +35,7 @@ help(scipy.optimize)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # curve-fit() function imported from scipy

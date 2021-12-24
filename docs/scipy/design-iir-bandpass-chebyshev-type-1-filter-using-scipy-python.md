@@ -32,7 +32,7 @@ IIR 切比雪夫滤波器是一种线性时不变滤波器，与巴特沃兹滤�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import scipy.signal as signal
 import matplotlib.pyplot as plt
@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 def mfreqz(b, a, Fs):
 
     # Compute frequency response of the filter
@@ -122,7 +122,7 @@ def impz(b, a):
 
 ## 蟒蛇 3
 
-```
+```py
 # Given specification
 Fs = 7000  # Sampling frequency in Hz
 fp = np.array([1400, 2100])  # Pass band frequency in Hz
@@ -135,7 +135,7 @@ As = 50  # stop band attenuation in dB
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute pass band and stop band edge frequencies
 wp = fp/(Fs/2)  # Normalized passband edge frequencies w.r.t. Nyquist rate
 ws = fs/(Fs/2)  # Normalized stopband edge frequencies
@@ -145,7 +145,7 @@ ws = fs/(Fs/2)  # Normalized stopband edge frequencies
 
 ## 蟒蛇 3
 
-```
+```py
 # Compute order of the  Chebyshev type-1 filter using signal.cheb1ord
 N, wc = signal.cheb1ord(wp, ws, Ap, As)
 
@@ -162,7 +162,7 @@ print('Cut-off frequency=', wc)
 
 ## 计算机编程语言
 
-```
+```py
 # Design digital Chebyshev type-1 filter
 # using signal.cheby1 function
 z, p = signal.cheby1(N, Ap, wc, 'bandpass')
@@ -181,7 +181,7 @@ print('Denominator Coefficients:', p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Call mfreqz to plot the magnitude and phase response
 mfreqz(z, p, Fs)
 ```
@@ -194,7 +194,7 @@ mfreqz(z, p, Fs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Call impz function to plot impulse
 # and step response of the filter
 impz(z,p)
@@ -208,7 +208,7 @@ impz(z,p)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import numpy as np
 import scipy.signal as signal

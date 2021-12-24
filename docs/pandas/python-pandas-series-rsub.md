@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rsub()`函数以标量元素方式对给定的 Series 对象执行反向减法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.rsub()`函数对给定的带有标量的 Series 对象执行元素方向的反向减法。
 
-```
+```py
 # perform reverse subtraction with 1000
 selected_items = sr.rsub(other = 1000)
 
@@ -56,7 +56,7 @@ print(selected_items)
 
 **示例#2 :** 使用`Series.rsub()`函数以标量元素方式对给定的 Series 对象执行反向减法。给定的 Series 对象还包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.rsub()`函数对给定的带有标量的 Series 对象执行元素方向的反向减法。我们还将在给定序列对象中的所有缺失值处替换 100。
 
-```
+```py
 # perform reverse subtraction with 1000
 # fill 100 at the place of all missing values
 selected_items = sr.rsub(other = 1000, fill_value = 100)

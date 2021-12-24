@@ -14,7 +14,7 @@ PyTorch `torch.numel()`方法返回输入张量中元素的总数。
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -30,7 +30,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 -0.8263  0.9807 -1.4688  0.2117 -0.8356 -0.0228
 -0.8815  1.3652 -0.1892 -1.1241  0.2755  1.3006
  0.0559  0.2389  0.7944  2.6587 -2.0908  1.2973
@@ -42,7 +42,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -58,7 +58,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1
  4
  6

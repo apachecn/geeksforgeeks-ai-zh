@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 nparray = np.array([[1, 2, 3], [11, 22, 33],
                     [4, 5, 6], [8, 9, 10], 
@@ -35,7 +35,7 @@ print("\n\nSum array-wise: ", output)
 
 **输出:**
 
-```
+```py
 [[ 1  2  3]
  [11 22 33]
  [ 4  5  6]
@@ -53,7 +53,7 @@ Sum array-wise:  204
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 nparray = np.array([[1, 2, 3], [11, 22, 33],
@@ -70,7 +70,7 @@ print("\n\nSum column-wise: ", output)
 
 **输出:**
 
-```
+```py
 [[ 1  2  3]
  [11 22 33]
  [ 4  5  6]
@@ -88,7 +88,7 @@ Sum column-wise:  [44 68 92]
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 nparray = np.array([[1, 2, 3], [11, 22, 33],
                     [4, 5, 6], [8, 9, 10], 
@@ -105,7 +105,7 @@ print("\n\nSum row-wise: ", output)
 
 **输出:**
 
-```
+```py
 [[ 1  2  3]
  [11 22 33]
  [ 4  5  6]

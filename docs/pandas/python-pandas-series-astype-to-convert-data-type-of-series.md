@@ -23,7 +23,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，数据框被导入并。在数据框中调用 dtypes 来查看系列的数据类型。之后，一些列使用。再次查看 astype()方法和数据类型以查看更改。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

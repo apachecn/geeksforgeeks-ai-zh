@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -38,7 +38,7 @@ print("\nSize of panel['b'] is - ", panel['b'].shape)  
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -66,7 +66,7 @@ print("\nShape of Panel is - ", panel['b'].shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 import numpy as np
@@ -94,7 +94,7 @@ print("\nShape of panel['b'] is - ",  panel['b'].shape)
 
 ## 蟒蛇 3
 
-```
+```py
 #To check the version of pandas library
 import pandas
 print(pandas.__version__)

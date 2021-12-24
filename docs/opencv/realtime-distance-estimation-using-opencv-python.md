@@ -25,7 +25,7 @@
 
 ## 蟒 3
 
-```
+```py
 def face_data(image):
 
     face_width = 0  # making face width to zero
@@ -63,7 +63,7 @@ def face_data(image):
 
 ## 蟒 3
 
-```
+```py
 # focal length finder function
 def FocalLength(measured_distance, real_width, width_in_rf_image):
     focal_length = (width_in_rf_image* measured_distance)/ real_width

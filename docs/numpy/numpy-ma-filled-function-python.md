@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.filled() function
 
@@ -33,7 +33,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[999999      1]
  [     2 999999]]
 
@@ -41,7 +41,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.filled() function
 
@@ -60,7 +60,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[999999      1      2]
  [999999      4      5]
  [     6      7      8]]

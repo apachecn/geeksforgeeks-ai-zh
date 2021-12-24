@@ -14,27 +14,27 @@
 
 **返回:**
 
-```
+```py
 present value as per given parameters.
 
 ```
 
 **正在求解的方程:**
 
-```
+```py
 fv + pv*(1 + rate)**nper +
 pmt*(1 + rate*when)/rate*((1 + rate)**nper - 1) = 0
 ```
 
 或者**当速率== 0 时**
 
-```
+```py
 fv + pv + pmt * nper = 0
 ```
 
 **代码 1:工作**
 
-```
+```py
 ## Python program explaining pv() function
 
 import numpy as np
@@ -55,7 +55,7 @@ print("present value (fv) : ", Solution)
 
 **输出:**
 
-```
+```py
 present value (fv) :  -100.000671316
 
 ```

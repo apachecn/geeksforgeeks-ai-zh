@@ -18,7 +18,7 @@ pandas[data frame . group by()](https://www.geeksforgeeks.org/python-pandas-data
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import seaborn as sns
 dataset = sns.load_dataset('penguins')
@@ -37,7 +37,7 @@ print(dataset.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # display the number of columns and their data types
 dataset.info()
 ```
@@ -54,7 +54,7 @@ dataset.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # apply groupby on the island column
 # plotting
 dataset.groupby(['island']).size().plot(kind = "bar")
@@ -68,7 +68,7 @@ dataset.groupby(['island']).size().plot(kind = "bar")
 
 ## 蟒蛇 3
 
-```
+```py
 # use the groupby() function to group island column
 # and apply size() function
 # size() is equivalent to counting the distinct rows

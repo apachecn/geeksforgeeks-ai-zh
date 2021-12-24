@@ -19,7 +19,7 @@ Pandas **nsmallest()** 方法用于从一个数据帧或一系列数据中获取
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -44,7 +44,7 @@ least5
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

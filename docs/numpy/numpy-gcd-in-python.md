@@ -8,7 +8,7 @@
 
 **例:**求 120 和 2250 的 GCD
 
-```
+```py
 120 = 2^3 * 3 * 5
 2250 = 2 * 3^2 * 5^3
 
@@ -23,7 +23,7 @@ Now, GCD of 120 and 2250 = 2 * 3 * 5 = 30
 
 **代码:**
 
-```
+```py
 # Python program illustrating 
 # gcd() method 
 import numpy as np 
@@ -41,7 +41,7 @@ print ("\nGCD of arr1 and 10   : ", np.gcd(arr1, 10))
 
 **输出:**
 
-```
+```py
 arr1 : [120, 24, 42, 10]
 arr2 : [2250, 12, 20, 50]
 

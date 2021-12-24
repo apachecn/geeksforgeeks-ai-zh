@@ -8,7 +8,7 @@
 
 **表示:**二维张量具有以下表示。
 
-```
+```py
 torch.tensor([[3,2,1]
                [6,5,4]
                [9,8,7]]) 
@@ -22,7 +22,7 @@ torch.tensor([[3,2,1]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import torch
 
@@ -48,7 +48,7 @@ print('Third tensor is: {}'.format(x1),'\nSize of it:{}'.format(x1.size()),
 
 **输出:**
 
-```
+```py
 First tensor is: tensor([[2.5000, 5.6000, 8.1000],
         [4.6000, 3.2000, 6.7000]]) 
 Size of it:torch.Size([2, 3]) 
@@ -75,7 +75,7 @@ type of tensor:torch.int64
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 a=torch.arrange(0,9)
@@ -96,7 +96,7 @@ print('Tensor after elementwise multiplication:{}'.format(elem_mul),
 
 **输出:**
 
-```
+```py
 Tensor after elementwise multiplication:tensor([[ 0,  1,  4],
         [ 9, 16, 25],
         [36, 49, 64]]) 
@@ -113,7 +113,7 @@ Tensor after elementwise multiplication:tensor([[ 0,  1,  4],
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 # defining the tensor
@@ -130,7 +130,7 @@ print('Data at the index 1,2 :{}'.format(y4[1][2]))
 
 **输出:**
 
-```
+```py
 First column has the values:tensor([ 4,  7, 10])
 Second row has the values:tensor([7, 8, 9])
 Data at the index 1,2 :9
@@ -142,7 +142,7 @@ Data at the index 1,2 :9
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 # tensor with 3 dimension
@@ -158,7 +158,7 @@ print(x,'\n',x1)
 
 **输出:**
 
-```
+```py
 tensor([[[11, 12, 13],
          [14, 15, 16],
          [17, 18, 19]]]) 

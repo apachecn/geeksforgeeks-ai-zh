@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rjust() method 
 
@@ -34,7 +34,7 @@ print ("Output right justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Numpy' 'Python' 'Pandas']
 Output right justified array:  ['   Numpy' '  Python' '  Pandas']
 
@@ -42,7 +42,7 @@ Output right justified array:  ['   Numpy' '  Python' '  Pandas']
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rjust() method 
 
@@ -63,7 +63,7 @@ print ("Output right justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Numpy' 'Python' 'Pandas']
 Output right justified array:  ['***Numpy' '**Python' '**Pandas']
 
@@ -71,7 +71,7 @@ Output right justified array:  ['***Numpy' '**Python' '**Pandas']
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rjust() method 
 
@@ -92,7 +92,7 @@ print ("Output right justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['1' '11' '111']
 Output right justified array:  ['----1' '---11' '--111']
 

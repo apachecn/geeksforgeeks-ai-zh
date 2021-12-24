@@ -8,7 +8,7 @@ NumPy 的 [sum()](https://www.geeksforgeeks.org/numpy-sum-in-python/) 函数对�
 
 ## python 3
 
-```
+```py
 # Let's define our function
 # Parameters: Input Array
 def sum(array):

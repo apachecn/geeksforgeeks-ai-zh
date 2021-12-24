@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 df = pd.read_csv("Persons.csv")
 df
@@ -24,7 +24,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.set_index('Name ', inplace=True)
 df
 ```
@@ -45,7 +45,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df1 = df.fillna(0)
 df1
 ```
@@ -62,7 +62,7 @@ df1
 
 ## 蟒蛇 3
 
-```
+```py
 df2 = df.fillna(method='ffill')
 df2
 ```
@@ -79,7 +79,7 @@ df2
 
 ## 蟒蛇 3
 
-```
+```py
 df3 = df.interpolate()
 df3
 ```

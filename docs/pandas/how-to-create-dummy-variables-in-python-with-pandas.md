@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -56,7 +56,7 @@ pd.get_dummies(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -81,7 +81,7 @@ pd.get_dummies(s)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np

@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.ljust() method 
 
@@ -34,7 +34,7 @@ print ("Output left justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Numpy' 'Python' 'Pandas']
 Output left justified array:  ['Numpy   ' 'Python  ' 'Pandas  ']
 
@@ -42,7 +42,7 @@ Output left justified array:  ['Numpy   ' 'Python  ' 'Pandas  ']
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.ljust() method 
 
@@ -63,7 +63,7 @@ print ("Output left justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Numpy' 'Python' 'Pandas']
 Output left justified array:  ['Numpy***' 'Python**' 'Pandas**']
 
@@ -71,7 +71,7 @@ Output left justified array:  ['Numpy***' 'Python**' 'Pandas**']
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.ljust() method 
 
@@ -92,7 +92,7 @@ print ("Output left justified array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['1' '11' '111']
 Output left justified array:  ['1----' '11---' '111--']
 

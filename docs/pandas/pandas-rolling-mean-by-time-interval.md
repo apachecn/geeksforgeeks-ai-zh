@@ -25,7 +25,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 ```
@@ -34,7 +34,7 @@ import pandas as pd
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing Data
 tesla_df = pd.read_csv('Tesla_Stock.csv', index_col='Date', 
                        parse_dates=True)
@@ -53,7 +53,7 @@ tesla_df.head(10)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Updating the dataFrame with just the 
 # column 'Close' as others columns are 
 # of no use right now we have used .to_frame
@@ -83,7 +83,7 @@ tesla_df
 
 ## **蟒蛇 3**
 
-```
+```py
 # calculating Rolling mean and storing it into
 # a new column of existing dataFrame we have set
 # the window as 200 and rest all parameters are 
@@ -108,7 +108,7 @@ tesla_df
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing matplotlib module
 import matplotlib.pyplot as plt
 plt.style.use('default')

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Original, high sample rate signal
 # Let us imagine this is like our analog signal
 from scipy import signal

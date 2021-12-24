@@ -13,7 +13,7 @@ Python 中的 pandas_profiling 库包括一个名为 ProfileReport()的方法，
 
 **语法:**
 
-```
+```py
 pandas_profiling.ProfileReport(df, **kwargs)
 ```
 
@@ -35,7 +35,7 @@ pandas_profiling.ProfileReport(df, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 import pandas_profiling as pp

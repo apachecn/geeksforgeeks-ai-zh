@@ -7,13 +7,13 @@
 
 *   在您的终端上运行以下命令，从 Ubuntu 或 Debian 安装它。
 
-```
+```py
 sudo apt-get install libopencv-dev python-opencv
 ```
 
 *   或者为了从官方网站下载 OpenCV，运行以下命令:
 
-```
+```py
 bash install-opencv.sh
 ```
 
@@ -31,7 +31,7 @@ bash install-opencv.sh
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to  Edge detection
 # using OpenCV in Python
 # using Sobel edge detection
@@ -91,14 +91,14 @@ cap.release()
 
 *   **cv2。Sobel():** 函数 cv2。Sobel(框架，cv2。CV_64F，1，0，ksize=5)可以写成
 
-```
+```py
 cv2.Sobel(original_image,ddepth,xorder,yorder,kernelsize)
 ```
 
 *   其中第一个参数是原始图像，第二个参数是目标图像的深度。当 ddepth=-1/CV_64F 时，目标图像将具有与源图像相同的深度。第三个参数是导数 x 的阶。第四个参数是导数 y 的阶。在计算 Sobelx 时，我们将 xorder 设置为 1，yorder 设置为 0，而在计算 Sobel 时，情况将相反。最后一个参数是扩展的 Sobel 核的大小；它必须是 1、3、5 或 7。
 *   **cv2。拉普拉斯**:在函数中
 
-```
+```py
 cv2.Laplacian(frame,cv2.CV_64F)
 ```
 

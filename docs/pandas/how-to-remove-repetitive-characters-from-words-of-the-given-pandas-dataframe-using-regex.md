@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import pandas as pd
 import re
@@ -51,7 +51,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function to remove
 # continuously repeating character
 # from the word

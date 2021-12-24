@@ -20,7 +20,7 @@ Pandas **DataFrame.loc** 属性通过给定数据帧中的标签或布尔数组�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # List
@@ -44,7 +44,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # New list for append into df
 list = ["Saurabh", 23, "Delhi", "india"]
 
@@ -67,7 +67,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -105,7 +105,7 @@ pandas**data frame . append()**函数用于将其他数据帧的行追加到给�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 

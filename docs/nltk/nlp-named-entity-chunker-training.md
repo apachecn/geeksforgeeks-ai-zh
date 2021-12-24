@@ -8,7 +8,7 @@
 
 **代码# 1:ien ee 2 连体()**
 
-```
+```py
 import nltk.tag
 from nltk.chunk.util import conlltags2tree
 from nltk.corpus import ieer
@@ -34,7 +34,7 @@ def ieertree2conlltags(tree, tag = nltk.tag.pos_tag):
 
 **代码#2 : ieer_chunked_sents()**
 
-```
+```py
 import nltk.tag
 from nltk.chunk.util import conlltags2tree
 from nltk.corpus import ieer
@@ -49,7 +49,7 @@ def ieer_chunked_sents(tag = nltk.tag.pos_tag):
 
 **代码#3:分类器如何在 treebank_chunk 语料库的第一句话上工作。**
 
-```
+```py
 from nltk.corpus import ieer
 from chunkers import ieer_chunked_sents, ClassifierChunker
 from nltk.corpus import treebank_chunk
@@ -77,7 +77,7 @@ print ("\nRecall : ", r)
 
 **输出:**
 
-```
+```py
 Length of ieer_chunks : 94
 
 parsing : 

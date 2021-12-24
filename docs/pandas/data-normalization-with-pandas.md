@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -47,7 +47,7 @@ display(df)
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 df.plot(kind = 'bar')
 ```
@@ -62,7 +62,7 @@ df.plot(kind = 'bar')
 
 ## 蟒蛇 3
 
-```
+```py
 # copy the data
 df_max_scaled = df.copy()
 

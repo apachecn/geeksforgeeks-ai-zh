@@ -13,7 +13,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(ser1.abs(), '\n\n', ser.abs())
 
 **输出:**
 
-```
+```py
 0    11.582612
 dtype: float64 
 
@@ -46,7 +46,7 @@ dtype: float64
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -61,7 +61,7 @@ df
 
 **输出:**
 
-```
+```py
 Name    Age    val    ope
 0    John    31    98    11
 1    Hari    29    48    39

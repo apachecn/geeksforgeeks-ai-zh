@@ -8,7 +8,7 @@ Matplotlib 库 pyplot 模块中的[XT picks()](https://www.geeksforgeeks.org/mat
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.xticks(ticks=None, labels=None, **kwargs)
 ```
 
@@ -45,7 +45,7 @@ matplotlib.pyplot.xticks(ticks=None, labels=None, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to set x-axis values in matplotlib
 
 import matplotlib.pyplot as plt
@@ -83,7 +83,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to set x-axis values in matplotlib
 
 import matplotlib.pyplot as plt

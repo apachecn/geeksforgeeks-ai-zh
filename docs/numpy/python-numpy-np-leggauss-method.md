@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.leggauss() method 
 
@@ -35,14 +35,14 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([-0.57735027,  0.57735027]), array([ 1.,  1.]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.leggauss() method 
 
@@ -63,7 +63,7 @@ print (res) 
 
 **Output:**
 
-```
+```py
 (array([-0.77459667,  0.,  0.77459667]), array([ 0.55555556,  0.88888889,  0.55555556]))
 
 ```

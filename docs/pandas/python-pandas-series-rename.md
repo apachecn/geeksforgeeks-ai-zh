@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.rename()`函数重命名给定系列对象的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.rename()`函数来重命名给定系列对象的名称。
 
-```
+```py
 # rename the series
 result = sr.rename('Beverages')
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例#2:** 使用`Series.rename()`函数重命名给定序列对象的多索引轴。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(sr)
 
 现在我们将使用`Series.rename()`函数来重命名给定系列对象的第 0 级。
 
-```
+```py
 # rename the 0th level
 result = sr.rename(level = 0, index = 'Row_axis')
 

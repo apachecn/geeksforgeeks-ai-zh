@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
  FuncAnimation( Figure, AnimationFunction, Frames, Interval)
 ```
 
@@ -19,7 +19,7 @@
 
 导入所需的模块
 
-```
+```py
 import numpy as np
 from matplotlib.animation import FuncAnimation
 from IPython import display
@@ -43,7 +43,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 Figure = plt.figure()
 
 # creating a plot
@@ -71,7 +71,7 @@ y = 0
 
 ## 蟒蛇 3
 
-```
+```py
 # function takes frame as an input
 def AnimationFunction(frame):
 
@@ -91,7 +91,7 @@ def AnimationFunction(frame):
 
 ## 蟒蛇 3
 
-```
+```py
 video = anim_created.to_html5_video()
 html = display.HTML(video)
 display.display(html)

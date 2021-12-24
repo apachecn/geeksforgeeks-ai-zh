@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # create array
@@ -30,7 +30,7 @@ print(np.bincount(x).argmax())
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -40,7 +40,7 @@ print(np.bincount(x).argmax())
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 x = np.array([1, 1, 1, 2, 3, 4, 2, 4, 3, 3, ])
@@ -58,6 +58,6 @@ for i in range(len(y)):
 
 **输出:**
 
-```
+```py
 1 3
 ```

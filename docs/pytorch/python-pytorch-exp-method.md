@@ -16,7 +16,7 @@ PyTorch `torch.exp()`方法在得到输入张量元素的指数后返回一个�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -32,7 +32,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 1.0532
 -1.9300
  0.6392
@@ -52,7 +52,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -68,7 +68,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1
  4
  6

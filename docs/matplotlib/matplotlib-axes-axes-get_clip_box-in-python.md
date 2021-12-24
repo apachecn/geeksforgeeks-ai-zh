@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_clip_box()函数**用来获取 cl
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -51,7 +51,7 @@ plt.show()
 
 ![](img/fb9fdbd52f2c4fd0db18627bd3769dfa.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),
@@ -139,7 +139,7 @@ TransformedBbox(
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -180,7 +180,7 @@ plt.show()
 
 ![](img/167cd5aa132150c5354d7cd2f02200d1.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),

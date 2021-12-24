@@ -10,13 +10,13 @@
 
 安装 PyTorch 与 python 中的任何其他库相同。
 
-```
+```py
 pip install torch
 ```
 
 或者，如果您想在 conda 环境中安装它，您可以使用以下命令:-
 
-```
+```py
 conda install pytorch cudatoolkit=10.2 -c pytorch
 ```
 
@@ -24,21 +24,21 @@ conda install pytorch cudatoolkit=10.2 -c pytorch
 
 在了解如何找到平均值和标准差之前，让我们通过生成随机数组来准备数据集。
 
-```
+```py
 import torch
 data = torch.rand(10)
 ```
 
 现在我们有了数据，我们可以通过调用**均值()**和 **std()** 方法来找到均值和标准差。
 
-```
+```py
 mean_tensor = data.mean()
 std_tensor = data.std()
 ```
 
 上面的方法工作得很好，但是值是作为张量返回的，如果你想提取张量内部的值，你可以通过索引访问它，或者你可以调用 **item()** 方法。
 
-```
+```py
 mean = data.mean().item()
 std = data.std().item()
 ```
@@ -47,7 +47,7 @@ std = data.std().item()
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 # Generate a tensor of 10 numbers
@@ -68,7 +68,7 @@ print(std)
 
 **输出:**
 
-```
+```py
 tensor(0.3901)
 tensor(0.2846)
 0.39005300402641296
@@ -79,14 +79,14 @@ tensor(0.2846)
 
 在二维张量中，平均值与一维张量的平均值相同，除了这里我们可以通过一个**轴**参数来找到行和列的平均值和标准值。让我们从获取数据开始。
 
-```
+```py
 import torch
 data = torch.rand(5,3)
 ```
 
 **mean()** 和 **std()** 方法在按原样调用时将返回整个数据集的总标准差，但是如果我们传递一个轴参数，我们可以找到行和列的平均值和 std。对于**轴= 0** ，我们得到一个张量，它具有每列的平均值或标准值。对于**轴= 1** ，我们得到一个张量，它有每行的平均值或标准值。
 
-```
+```py
 total_mean = data.mean()
 total_std = data.std()
 
@@ -103,7 +103,7 @@ std_row_wise = data.std(axis = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 
 # Generate a tensor of shape (5,3)
@@ -132,7 +132,7 @@ print(std_row_wise)
 
 **输出:**
 
-```
+```py
 tensor(0.6483)
 tensor(0.2797)
 tensor([0.6783, 0.5986, 0.6679])

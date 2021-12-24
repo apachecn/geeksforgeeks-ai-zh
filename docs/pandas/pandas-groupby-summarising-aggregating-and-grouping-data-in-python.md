@@ -44,7 +44,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd for using data frame
 import pandas as pd
 
@@ -67,7 +67,7 @@ dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 # describing the data frame
 print(dataframe.describe())
 
@@ -136,7 +136,7 @@ print(dataframe.info())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd for using data frame
 import pandas as pd
 
@@ -159,7 +159,7 @@ dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 # getting all minimum values from 
 # all columns in a dataframe
 print(dataframe.min())
@@ -206,7 +206,7 @@ print(dataframe.var())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd for using data frame
 import pandas as pd
 
@@ -243,7 +243,7 @@ print(dataframe.groupby('name')['Maths_marks'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd for using data frame
 import pandas as pd
 

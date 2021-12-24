@@ -19,7 +19,7 @@ matplotlib 库的轴模块中的 **Tick.have_units()功能**用于检查单位�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -59,7 +59,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt 
@@ -90,7 +90,7 @@ plt.show() 
 
 ![](img/e02cb5eab480b42c4490347bd10b67a8.png)
 
-```
+```py
 Value Return by have_units() : False
 
 ```

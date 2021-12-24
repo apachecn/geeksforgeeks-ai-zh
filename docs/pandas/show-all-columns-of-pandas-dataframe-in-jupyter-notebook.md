@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -49,7 +49,7 @@ pd.set_option('display.max_columns', None)
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 
@@ -72,7 +72,7 @@ pd.set_option('display.max_colwidth', 3000)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 df = pd.read_csv('data.csv')

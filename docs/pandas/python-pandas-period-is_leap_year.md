@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.is_leap_year` 属性检查给定周期对象中的日期是否为闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(prd)
 
 现在我们将使用`Period.is_leap_year`属性来检查 prd 对象中的日期是否是闰年。
 
-```
+```py
 # check for leap year
 prd.is_leap_year
 ```
@@ -43,7 +43,7 @@ prd.is_leap_year
 
 **示例 2:** 使用`Period.is_leap_year`属性检查给定周期对象中的日期是否为闰年。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(prd)
 
 现在我们将使用`Period.is_leap_year`属性来检查 prd 对象中的日期是否是闰年。
 
-```
+```py
 # check for leap year
 prd.is_leap_year
 ```

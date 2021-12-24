@@ -11,7 +11,7 @@
 **例#1 :**
 在这个例子中我们可以看到借助`matrix.dot()`方法我们能够找到两个给定矩阵的乘积。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -27,14 +27,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[61]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -50,7 +50,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 30  36  42]
  [ 66  81  96]
  [102 126 150]]

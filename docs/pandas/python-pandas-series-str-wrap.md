@@ -28,7 +28,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，Team 列以 5 个字符的行宽换行。因此\n 将放在每 5 个字符之后。打印新团队列和旧团队列中的随机元素以查看工作情况。在应用任何操作之前，使用 **`.dropna()`** 方法移除空元素。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(data["New Team"][120])
 
 **输出:**
 
-```
+```py
 Los Angeles Lakers
 ------------
 Los A

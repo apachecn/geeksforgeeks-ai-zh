@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_cosine_transform
 from sympy import inverse_cosine_transform, exp, sqrt, pi
 from sympy.abc import x, k, a
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import inverse_cosine_transform
 from sympy import inverse_cosine_transform, exp, sqrt, pi
 from sympy.abc import x, k, a

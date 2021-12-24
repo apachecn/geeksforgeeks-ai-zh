@@ -14,7 +14,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Maximum 
 
 from scipy import stats
@@ -31,7 +31,7 @@ print("\nTrimmed Maximum by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Maximum : 56
 
 Trimmed Maximum by setting limit :  4
@@ -40,7 +40,7 @@ Trimmed Maximum by setting limit :  4
 
 **代码#2:** 多维数据
 
-```
+```py
 # Trimmed Maximum 
 
 from scipy import stats
@@ -71,7 +71,7 @@ print("\nTrimmed Maximum by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Maximum : [ 7  6 27]
 
 Trimmed Maximum by setting axis :  [27  7  7  8]

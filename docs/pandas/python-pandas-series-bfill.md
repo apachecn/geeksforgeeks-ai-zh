@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.bfill()`函数填充给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.bfill()`函数来填充给定序列对象中缺失的值。
 
-```
+```py
 # fill the missing values using backward fill method
 result = sr.bfill()
 
@@ -53,7 +53,7 @@ print(result)
 
 **例 2 :** 使用`Series.bfill()`函数填充给定序列对象中缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 ![](img/134444c1de294a0b24c9efed13b54ad1.png)
 现在我们将使用`Series.bfill()`函数来填充给定序列对象中缺失的值。
 
-```
+```py
 # fill the missing values using backward fill method
 result = sr.bfill()
 

@@ -16,13 +16,13 @@
 
 我们可以使用以下语法用 numpy 创建一个数组:
 
-```
+```py
 numpy.array([value1,value2,value3,.....,value n])
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy package
 import numpy as np
 
@@ -35,7 +35,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10]
 ```
 
@@ -43,7 +43,7 @@ print(a)
 
 ## 蟒蛇 3
 
-```
+```py
 # display index value
 # of 3
 print(np.where(a == 3))

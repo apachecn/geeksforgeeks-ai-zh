@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.randn() function
 
@@ -28,7 +28,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.78620217  0.41624612 -0.28417131  0.1071018 ]
  [ 0.77645105  0.30858858 -1.98901344  1.25977209]
  [ 0.26279443 -0.41026178 -0.60834494  2.82552737]]
@@ -37,7 +37,7 @@ Output matrix :  [[ 0.78620217  0.41624612 -0.28417131  0.1071018 ]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.randn() function
 
@@ -52,14 +52,14 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.34973625  0.28159132  0.72581405 -1.17511692  1.96773952]]
 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.randn() function
 
@@ -74,7 +74,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 0.56784957  0.82980325  1.16683558]
  [-1.53444326 -0.27743273  0.65819067]
  [ 0.99654573 -1.20399432 -0.25603147]
@@ -88,7 +88,7 @@ Output matrix :  [[ 0.56784957  0.82980325  1.16683558]
 
 **代码#4 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.randn() function
 
@@ -103,7 +103,7 @@ print ("Output matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Output matrix :  [[ 4.04967121  0.26982021  2.3503067 ]
  [ 5.57757131  2.40051874 -0.84588539]
  [ 7.43715651  3.84004412  1.40514615]]

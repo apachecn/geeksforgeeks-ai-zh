@@ -13,7 +13,7 @@
 
 **代码:解释工作**
 
-```
+```py
 # importing libraries
 import execnet, remote_chunk
 import nltk.data, nltk.tag, nltk.chunk
@@ -38,7 +38,7 @@ gw.exit()
 
 **输出:**
 
-```
+```py
 Tree('S', [Tree('PERSON', [('Pierre', 'NNP')]), Tree('ORGANIZATION',
 [('Vinken', 'NNP')]), (', ', ', '), ('61', 'CD'), ('years', 'NNS'),
 ('old', 'JJ'), (', ', ', '), ('will', 'MD'), ('join', 'VB'), ('the',
@@ -56,7 +56,7 @@ Tree('S', [Tree('PERSON', [('Pierre', 'NNP')]), Tree('ORGANIZATION',
 
 **代码:解释上述工作**
 
-```
+```py
 import pickle
 
 if __name__ == '__channelexec__':

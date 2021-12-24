@@ -6,7 +6,7 @@
 
 **参数:**
 
-```
+```py
 R : Number of rows
 C : [optional] Number of columns; By default M = N
 k : [int, optional, 0 by default]
@@ -16,7 +16,7 @@ dtype : [optional, float(by Default)] Data type of returned array.
 
 **返回:**
 
-```
+```py
 array of shape, R x C, an array where all elements 
 are equal to zero, except for the k-th diagonal, 
 whose values are equal to one.
@@ -26,7 +26,7 @@ whose values are equal to one.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.eye method
 
@@ -44,7 +44,7 @@ print("\nMatrix a : \n", a)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [[ 1\.  0.]
  [ 0\.  1.]]

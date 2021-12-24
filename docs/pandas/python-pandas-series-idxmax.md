@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.idxmax()`函数查找给定序列对象中最大值对应的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.idxmax()`函数来查找序列中最大值对应的索引标签。
 
-```
+```py
 # return index label of the 
 # maximum value in the series
 result = sr.idxmax()
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.idxmax()`函数查找给定序列对象中最大值对应的索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(sr)
 
 现在我们将使用`Series.idxmax()`函数来查找序列中最大值对应的索引标签。
 
-```
+```py
 # return index label of the 
 # maximum value in the series
 result = sr.idxmax()

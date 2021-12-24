@@ -18,7 +18,7 @@ Pandas `**dataframe.kurt()**`函数使用费希尔峰度定义(正态峰度== 0.
 
 **示例#1:** 使用`kurt()`函数查找索引轴上的峰度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 我们用`dataframe.kurt()`函数求峰度。
 
-```
+```py
 # find the kurtosis over the index axis
 df.kurt(axis = 0)
 ```
@@ -46,7 +46,7 @@ df.kurt(axis = 0)
 
 **示例#2:** 使用`kurt()`函数查找数据帧的峰度，该数据帧中有一些`Na`值。求指数轴上的峰度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

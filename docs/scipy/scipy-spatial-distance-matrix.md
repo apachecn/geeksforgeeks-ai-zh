@@ -4,7 +4,7 @@
 
 距离矩阵包含矩阵向量之间成对计算的距离。 **scipy.spatial** 包为我们提供了 ***距离 _ 矩阵()*** 计算距离矩阵的方法。通常矩阵是二维数组的形式，矩阵的向量是矩阵行(一维数组)。
 
-```
+```py
 Syntax: scipy.spatial.distance_matrix(x, y, p=2)
 
 Parameters:
@@ -20,7 +20,7 @@ Returns: (M, N) ndarray
 
 **我们可以使用不同的值***【p】***来应用不同类型的距离来计算距离矩阵。**
 
-```
+```py
 p = 1, Manhattan Distance
 p = 2, Euclidean Distance
 p = ∞, Chebychev Distance
@@ -32,7 +32,7 @@ p = ∞, Chebychev Distance
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to compute distance matrix
 
 # import important libraries
@@ -66,7 +66,7 @@ print("Distance Matrix:\n", dist_mat)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to compute distance matrix
 
 # import important libraries
@@ -100,7 +100,7 @@ print("Distance Matrix:\n", dist_mat)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to compute distance matrix
 
 # import important libraries
@@ -134,7 +134,7 @@ print("Distance Matrix:\n", dist_mat)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to compute distance matrix
 
 # import important libraries
@@ -168,7 +168,7 @@ print("Distance Matrix:\n", dist_mat)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to compute distance matrix
 
 # import important libraries

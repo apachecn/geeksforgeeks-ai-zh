@@ -38,7 +38,7 @@ Seaborn 是一个基于 matplotlib 的 Python 数据可视化库。它提供了�
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 exercise = sns.load_dataset("exercise")
@@ -55,7 +55,7 @@ g = sns.catplot(x="time", y="pulse",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 
 sns.set_theme(style="ticks")

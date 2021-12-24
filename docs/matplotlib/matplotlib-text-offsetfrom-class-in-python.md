@@ -23,7 +23,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.text
 
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
 import numpy as np

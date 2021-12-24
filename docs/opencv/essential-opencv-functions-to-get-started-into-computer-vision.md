@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to read image
 import cv2
 
@@ -60,7 +60,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.imwrite() method
 
 # importing cv2
@@ -105,7 +105,7 @@ OpenCV 为我们提供了几种调整图像大小的插值方法。选择调整�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -145,7 +145,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.cvtColor() method
 
 # importing cv2
@@ -184,7 +184,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.rotate() method
 
 # importing cv2
@@ -219,7 +219,7 @@ cv2.waitKey(0)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -255,7 +255,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 
@@ -290,7 +290,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 FILE_NAME = 'geeks.png'

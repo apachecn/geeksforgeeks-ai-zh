@@ -4,7 +4,7 @@
 
 numpy.dot(vector_a，vector_b，out = None)返回向量 a 和 b 的点积。它可以处理 2D 数组，但会将它们视为矩阵，并将执行矩阵乘法。对于 N 维，它是 a 的最后一个轴和 b 的倒数第二个轴的和积:
 
-```
+```py
 dot(a, b)[i,j,k,m] = sum(a[i,j,:] * b[k,:,m]) 
 
 ```
@@ -23,7 +23,7 @@ dot(a, b)[i,j,k,m] = sum(a[i,j,:] * b[k,:,m])
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.dot() method
 
@@ -43,7 +43,7 @@ print("Dot Product  : ", product)
 
 **输出:**
 
-```
+```py
 Dot Product of scalar values  :  20
 Dot Product  :  (-7+22j)
 ```
@@ -66,7 +66,7 @@ Dot Product  :  (-7+22j)
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.dot() method
 
@@ -89,7 +89,7 @@ Code 2 : as normal matrix multiplication
 
 **输出:**
 
-```
+```py
 Dot Product  : 
  [[22 12]
  [40 32]]

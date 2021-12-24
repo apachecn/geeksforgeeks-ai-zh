@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python code explaining  
 # numpy.polyint() 
 
@@ -48,7 +48,7 @@ print ("p2 anti-derivative of order = 2 : \n", b) 
 
 **输出:**
 
-```
+```py
 P1 :   
 1 x + 2
 
@@ -71,7 +71,7 @@ p2 anti-derivative of order = 1 :
 
 **代码#2:**
 
-```
+```py
 # Python code explaining  
 # numpy.polyint() 
 
@@ -92,7 +92,7 @@ print ("p2 anti-derivative of order = 2 : \n", b) 
 
 **输出:**
 
-```
+```py
 Using polyint
 p1 anti-derivative of order = 2 : 
          3     2

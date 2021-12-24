@@ -10,7 +10,7 @@
 
 首先，让我们用`nba.csv`文件创建一个简单的数据帧。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -30,7 +30,7 @@ data_top 
 
 **方法#1:** 简单地迭代列
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -47,7 +47,7 @@ for col in data.columns:
 
 **方法#2:** 使用带有数据框对象的列
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -63,7 +63,7 @@ list(data.columns)
 
 **方法#3:** `column.values`方法返回一组索引。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -78,7 +78,7 @@ list(data.columns.values)
 
 **方法#4:** 使用`tolist()`方法用给定的列列表取值。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 
@@ -95,7 +95,7 @@ list(data.columns.values.tolist())
 
 Sorted()方法将返回按字母顺序排序的列列表。
 
-```
+```py
 # Import pandas package 
 import pandas as pd 
 

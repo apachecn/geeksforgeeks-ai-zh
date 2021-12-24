@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.islower() function 
 
@@ -26,7 +26,7 @@ print ("output  array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['P4Q R' '4Q rP' 'Q rp4' 'rpq']
 output array : [False False False  True]
 
@@ -34,7 +34,7 @@ output array : [False False False  True]
 
 **代码#2:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.lower() function 
 
@@ -50,7 +50,7 @@ print ("output array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['GEEKS' 'for' 'Geeks']
 output array : [False  True False]
 

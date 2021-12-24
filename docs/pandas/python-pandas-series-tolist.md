@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例:**
 在本例中，Name 列的数据类型存储在一个变量中。之后，使用 tolist()方法转换数据，并再次存储和打印数据类型。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

@@ -11,7 +11,7 @@
 matplotlib 库 pyplot 模块中的 **cla()函数**用于清除当前轴。
 **语法:**
 
-```
+```py
 matplotlib.pyplot.cla()
 
 ```
@@ -20,7 +20,7 @@ matplotlib.pyplot.cla()
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function   
 import matplotlib.pyplot as plt 
 
@@ -36,7 +36,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

@@ -4,13 +4,13 @@
 
 **numpy.put()** 函数用 p_array 的给定值替换数组的特定元素。数组索引适用于扁平数组。
 
-```
+```py
 Syntax: numpy.put(array, indices, p_array, mode = 'raise')
 ```
 
 **参数:**
 
-```
+```py
 array   : array_like, target array
 indices : index of the values to be fetched
 p_array : array_like, values to be placed in target array
@@ -21,7 +21,7 @@ mode    : [{‘raise’, ‘wrap’, ‘clip’}, optional] mentions how out-of-
 
 ```
 
-```
+```py
 # Python Program explaining
 # numpy.put()
 
@@ -34,13 +34,13 @@ print("After put : \n", a)
 
 **输出:**
 
-```
+```py
 After put : 
 [-44,   1, -55,   3,   4]
 
 ```
 
-```
+```py
 # Python Program explaining
 # numpy.put()
 
@@ -53,7 +53,7 @@ print("After put : \n", a)
 
 **输出:**
 
-```
+```py
 array([ 0,  1,  2,  3, -5])
 ```
 

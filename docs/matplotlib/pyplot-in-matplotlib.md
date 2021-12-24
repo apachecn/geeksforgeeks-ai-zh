@@ -12,7 +12,7 @@
 
 要使用 Pyplot，我们必须首先下载 matplotlib 模块。最好的方法是–
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -26,7 +26,7 @@ pip install matplotlib
 
 使用 pyplot 创建图形和可视化既快速又简单–
 
-```
+```py
 # Python program to show plot function
 
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ plt.show()
 
 **示例 1:线性图**
 
-```
+```py
 # Python Program to illustrate Linear Plotting
 
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.show()
 
 **示例 2:带有线条格式的线性绘图**
 
-```
+```py
 # Python Program to illustrate Linear Plotting
 
 import matplotlib.pyplot as plt

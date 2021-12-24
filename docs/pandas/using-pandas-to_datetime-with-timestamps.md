@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 
@@ -62,7 +62,7 @@ display(data)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 import datetime
@@ -90,7 +90,7 @@ pd.to_datetime()方法，以时间戳为参数，单位为“ms”，计算到 U
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import pandas as pd
 
@@ -105,6 +105,6 @@ print(date)
 
 **输出:**
 
-```
+```py
 1970-01-18 22:46:07.605000
 ```

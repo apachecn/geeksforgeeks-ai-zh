@@ -10,7 +10,7 @@ Animation.to_html5_video()将动画作为 html5 视频标记返回。它将动�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 from matplotlib import pyplot as plt
 import numpy as np
@@ -68,7 +68,7 @@ plt.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 from matplotlib import pyplot as plt
 import numpy as np

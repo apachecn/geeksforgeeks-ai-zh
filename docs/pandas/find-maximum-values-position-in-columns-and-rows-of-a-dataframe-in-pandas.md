@@ -19,7 +19,7 @@ Pandas **dataframe.max()** 方法查找对象中的最大值并返回。如果�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 # List of Tuples
@@ -46,7 +46,7 @@ abc
 
 ## 蟒蛇 3
 
-```
+```py
 # find the maximum of each column
 maxValues = abc.max()
 
@@ -65,7 +65,7 @@ print(maxValues)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the maximum values of each row
 maxValues = abc.max(axis = 1)
 print(maxValues)
@@ -81,7 +81,7 @@ print(maxValues)
 
 ## 蟒蛇 3
 
-```
+```py
 # find maximum value of each
 # column without skipping NaN
 maxValues = abc.max(skipna = False)
@@ -101,7 +101,7 @@ print(maxValues)
 
 ## 蟒蛇 3
 
-```
+```py
 # find maximum value of a
 # single column 'x'
 maxClm = df['x'].max()
@@ -118,7 +118,7 @@ print(maxClm)
 
 ## 蟒蛇 3
 
-```
+```py
 # find maximum value of a
 # single column 'x'
 maxClm = df.max()['x']
@@ -133,7 +133,7 @@ maxClm = df.max()['x']
 
 ## 蟒蛇 3
 
-```
+```py
 # find maximum values of a list of columns
 maxValues = df[['x', 'z']].max()
 
@@ -161,7 +161,7 @@ print(maxValues)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the index position of maximum
 # values in every column
 maxValueIndex = df.idxmax()
@@ -180,7 +180,7 @@ print(maxValueIndex)
 
 ## 蟒蛇 3
 
-```
+```py
 # find the column name of maximum
 # values in every row
 maxValueIndex = df.idxmax(axis = 1)

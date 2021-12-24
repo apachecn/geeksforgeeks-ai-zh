@@ -6,7 +6,7 @@
 
 **我们先导入一个数据帧。**
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -24,7 +24,7 @@ print(df.head()) 
 
 Stack 方法与 DataFrame 中的 MultiIndex 对象一起工作，它返回一个 DataFrame，该 data frame 的索引具有新的最内层行标签。它把宽桌子变成了长桌子。
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df_stacked.head(26))
 **使用 unstack()方法:**
 `unstack` 与 stack 方法类似，它也适用于 dataframe 中的多索引对象，产生具有新的最内层列标签的重新整形的 DataFrame。
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(df_unstacked.head(10))
 **使用`melt()`方法:**
 融入熊猫将数据帧从宽格式重塑为长格式。它使用“id _ vars[' col _ name ']”按列名熔化数据帧。
 
-```
+```py
 # import pandas module
 import pandas as pd
 

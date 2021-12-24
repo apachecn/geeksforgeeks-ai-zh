@@ -15,7 +15,7 @@
 **代码#1 :**
 我们正在使用熊猫`**Series.str.capitalize()**`方法，该方法有助于将给定系列的第一个字母*转换为大写字母*，其余所有字符在特定字符串中保持不变。
 
-```
+```py
 import pandas as pd
 
 data = pd.read_csv("nba.csv")
@@ -27,7 +27,7 @@ print(g.str.capitalize())
 
 **Output:**As we have explained that only first letter should be capitalize rest of all should be same. As you can see the output given below.
 
-```
+```py
      Before
 
 0    avery bradley
@@ -50,7 +50,7 @@ Name: Name, dtype: object
 
 **代码#2 :**
 
-```
+```py
 import pandas as pd
 
 data = pd.read_csv("nba.csv")
@@ -62,7 +62,7 @@ print(g.str.capitalize())
 
 **Output:**
 
-```
+```py
      Before
 
 0    boston celtics

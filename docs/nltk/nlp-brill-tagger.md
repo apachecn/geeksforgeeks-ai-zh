@@ -10,7 +10,7 @@
 
 **代码#1:训练一个高明的班级**
 
-```
+```py
 # Loading Libraries
 from nltk.tag import brill, brill_trainer
 
@@ -45,7 +45,7 @@ def train_brill_tagger(initial_tagger, train_sents, **kwargs):
 
 **代码#2:让我们使用训练有素的布里尔塔格**
 
-```
+```py
 from nltk.tag import brill, brill_trainer
 from nltk.tag import DefaultTagger
 from nltk.corpus import treebank
@@ -68,14 +68,14 @@ print ("Accuracy of Initial Tag : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy of Initial Tag : 0.8806820634578028
 
 ```
 
 **代码#3 :**
 
-```
+```py
 brill_tag = train_brill_tagger(initial_tag, train_data)
 b = brill_tag.evaluate(test_data)
 
@@ -84,7 +84,7 @@ print ("Accuracy of brill_tag : ", b)
 
 **输出:**
 
-```
+```py
 Accuracy of brill_tag : 0.8827541549751781
 
 ```

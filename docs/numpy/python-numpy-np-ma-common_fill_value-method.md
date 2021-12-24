@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，通过使用`np.ma.common_fill_value()`方法，我们能够从两个掩码数组中获得公共填充值。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

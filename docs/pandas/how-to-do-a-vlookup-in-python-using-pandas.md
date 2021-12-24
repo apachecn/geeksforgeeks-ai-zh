@@ -18,7 +18,7 @@ Vlookup 主要用于垂直排列的数据。Vlookup 是一种操作，用于根�
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(df2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -64,7 +64,7 @@ inner_join
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -87,7 +87,7 @@ Left_join
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -110,7 +110,7 @@ Right_join
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas
 import pandas as pd
 

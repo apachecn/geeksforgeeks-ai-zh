@@ -7,20 +7,20 @@
 **numpy.isneginf()** 函数逐元素测试是否为负无穷大，并将结果作为布尔数组返回。
 **语法:**
 
-```
+```py
 numpy.isneginf(array, y = None)
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array or object whose elements, we need to test for infinity.
 y     : [array_like]A boolean array with the same shape and type as x to store the result.
 ```
 
 **返回:**
 
-```
+```py
 boolean array containing the result. For scalar input, the result is a new boolean with value
 True if the input is positive or negative infinity; otherwise the value is False.
 For array input, the result is a boolean array with the same shape as the input and the values
@@ -32,7 +32,7 @@ elsewhere the values are False.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.isneginf() method
 
@@ -57,7 +57,7 @@ print("Checking for negativity : ", geek.isneginf(x, y))
 
 **输出:**
 
-```
+```py
 Negative :  False 
 
 Negative :  False 
@@ -75,7 +75,7 @@ Checking for negativity :  [1 0 0]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.isneginf() method
 
@@ -96,7 +96,7 @@ print("\nIs Negative Infinity : \n", geek.isneginf(b))
 
 **输出:**
 
-```
+```py
  [[ 0  1  2  3  4  5]
  [ 6  7  8  9 10 11]
  [12 13 14 15 16 17]]

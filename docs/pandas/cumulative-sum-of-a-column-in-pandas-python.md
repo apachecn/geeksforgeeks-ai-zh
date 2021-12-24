@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -29,7 +29,7 @@ print(df1.cumsum(axis = 0))
 
 **输出:**
 
-```
+```py
     A   B   C
 0   2   1   5
 1   5   3   8
@@ -42,7 +42,7 @@ print(df1.cumsum(axis = 0))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -57,7 +57,7 @@ print(df1.cumsum(axis = 0, skipna = True))
 
 **输出:**
 
-```
+```py
       A    B     C
 0   NaN  1.0   5.0
 1   3.0  NaN   8.0
@@ -70,7 +70,7 @@ print(df1.cumsum(axis = 0, skipna = True))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -85,7 +85,7 @@ print(df1.cumsum(axis = 1))
 
 **输出:**
 
-```
+```py
     A   B   C
 0   2   3   8
 1   3   5   8

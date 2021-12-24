@@ -9,7 +9,7 @@
 
 **方法 1 :** 使用`append()`功能。它将一个序列对象追加到另一个序列对象的末尾，并返回追加的序列。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(series_1)
 
 **方法 2 :** 使用`concat()`功能。它将待连接的系列对象列表作为参数，并返回一个连接的系列。
 
-```
+```py
 # importing the module
 import pandas as pd
 

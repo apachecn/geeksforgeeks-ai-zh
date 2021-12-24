@@ -12,7 +12,7 @@
 
 下面是实现。
 
-```
+```py
 import numpy as np
 import cv2
 
@@ -76,6 +76,6 @@ print(accuracy)
 
 **输出**
 
-```
+```py
 91.64
 ```

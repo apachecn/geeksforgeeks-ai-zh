@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -38,7 +38,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([-0.5 -0.3  0\.   0.3  0.5], shape=(5, ), dtype=float64)
 Result:  tf.Tensor([-0.52359878 -0.30469265  0\.          0.30469265  0.52359878], shape=(5, ), dtype=float64)
 ```
@@ -47,7 +47,7 @@ Result:  tf.Tensor([-0.52359878 -0.30469265  0\.          0.30469265  0.52359878
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 import matplotlib.pyplot as plt

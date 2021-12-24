@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.strides`属性找出给定时间增量索引对象的步长。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(tidx)
 
 现在我们将找出 idx 对象的跨步值。
 
-```
+```py
 # print the strides for tidx object
 tidx.strides
 ```
@@ -40,7 +40,7 @@ tidx.strides
 
 **示例 2:** 使用`TimedeltaIndex.strides`属性找出给定时间增量索引对象的步长。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(tidx)
 
 现在我们将找出 idx 对象的跨步值。
 
-```
+```py
 # print the strides for tidx object
 tidx.strides
 ```

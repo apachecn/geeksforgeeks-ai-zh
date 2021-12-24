@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 创建两个数据帧，并将第二个数据帧附加到第一个数据帧上。
 
-```
+```py
 # Importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ df2
 
 现在在 df1 的末尾追加 df2。
 
-```
+```py
 # to append df2 at the end of df1 dataframe
 df1.append(df2)
 ```
@@ -51,7 +51,7 @@ df1.append(df2)
 ![](img/bcdecb778edcbd5be6ee3a3d9a4c17a1.png)
 注意第二个数据帧的索引值保持在追加的数据帧中。如果我们不希望它发生，那么我们可以设置 ignore_index=True。
 
-```
+```py
 # A continuous index value will be maintained
 # across the rows in the new appended data frame.
 df1.append(df2, ignore_index = True)
@@ -64,7 +64,7 @@ df1.append(df2, ignore_index = True)
 
 对于数据框中不相等的列数，其中一个数据框中不存在的值将用`NaN`值填充。
 
-```
+```py
 # Importing pandas as pd
 import pandas as pd
 

@@ -10,7 +10,7 @@
 
 **例 1:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -35,7 +35,7 @@ dataFrame.apply(numpy.sqrt)
 
 **例 2:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -60,7 +60,7 @@ dataFrame.apply(numpy.sum, axis = 0)
 
 **例 3:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -86,7 +86,7 @@ dataFrame.apply(numpy.sum, axis = 1)
 
 **例 4:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -112,7 +112,7 @@ dataFrame.apply(lambda x: [1, 2], axis = 1)
 
 **例 5:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -138,7 +138,7 @@ dataFrame.apply(lambda x: [1, 2], axis = 1, result_type ='expand')
 
 **例 6:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 
@@ -165,7 +165,7 @@ dataFrame.apply(lambda x: pandas.Series(
 
 **例 7:**
 
-```
+```py
 # Program to illustrate the use of 
 # pandas.DataFrame.apply() method
 

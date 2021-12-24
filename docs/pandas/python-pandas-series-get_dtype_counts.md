@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.get_dtype_counts()`函数返回给定系列对象中唯一数据类型的计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.get_dtype_counts()`函数返回给定序列对象中唯一 dytpe 的计数。
 
-```
+```py
 # return the count of dtypes
 result = sr.get_dtype_counts()
 
@@ -50,7 +50,7 @@ print(result)
 
 **示例 2 :** 使用`Series.get_dtype_counts()`函数返回给定序列对象中唯一数据类型的计数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(sr)
 
 现在我们将使用`Series.get_dtype_counts()`函数返回给定序列对象中唯一 dytpe 的计数。
 
-```
+```py
 # return the count of dtypes
 result = sr.get_dtype_counts()
 

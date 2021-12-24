@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 ```
@@ -23,7 +23,7 @@ import pandas as pd
 
 ## 蟒蛇 3
 
-```
+```py
 # creating dataframe
 dataframe = pd.DataFrame({'Name':['Shobhit','vaibhav',
                                 'vimal','Sourabh'],
@@ -45,7 +45,7 @@ display(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # without using inplace renaming the column
 new_data = dataframe.rename(columns = {'Name':'FirstName'})
 
@@ -63,7 +63,7 @@ display(new_data)
 
 ## 蟒蛇 3
 
-```
+```py
 # putting inplace=False
 new_data_2 = dataframe.rename(columns = {'Name':'FirstName'},
                             inplace = False)
@@ -82,7 +82,7 @@ display(new_data_2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Putting Inplace=True
 dataframe.rename(columns = {'Name':'FirstName'},
                  inplace = True)
@@ -101,7 +101,7 @@ print(dataframe)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas
 import pandas as pd
 

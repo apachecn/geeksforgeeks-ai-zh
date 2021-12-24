@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.hsplit() function
 
@@ -29,7 +29,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [array([[  0.,   1.],
        [  4.,   5.],
        [  8.,   9.],
@@ -42,7 +42,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.hsplit() function
 
@@ -58,7 +58,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [array([[[  0.,   1.,   2.],
         [  3.,   4.,   5.],
         [  6.,   7.,   8.]],

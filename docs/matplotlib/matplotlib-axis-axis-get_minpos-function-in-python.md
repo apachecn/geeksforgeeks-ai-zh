@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minpos()函数**用于获取 minp
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/9b15fe3fbcb73593b254f9645058d76f.png)
 
-```
+```py
 Value Return :
 4.0
 
@@ -58,7 +58,7 @@ Value Return :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis
 import numpy as np
@@ -87,7 +87,7 @@ plt.show()
 
 ![](img/bf23dbc75f001a2ce84fea0f72cc981e.png)
 
-```
+```py
 Value Return :
 1.0
 ```

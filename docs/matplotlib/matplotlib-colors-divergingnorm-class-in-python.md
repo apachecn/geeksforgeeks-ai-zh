@@ -22,7 +22,7 @@ matplotlib . colors . diverging norm 类在围绕概念中心绘制变化率不�
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy
 from matplotlib import pyplot as plt
 from matplotlib import colors
@@ -70,7 +70,7 @@ plt.colorbar()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cbook as cbook

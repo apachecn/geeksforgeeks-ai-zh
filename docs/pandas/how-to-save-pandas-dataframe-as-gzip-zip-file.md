@@ -10,7 +10,7 @@ Pandas 中的 **to_pickle()** 方法用于将给定对象酸洗(序列化)到文
 
 **语法:**
 
-```
+```py
 DataFrame.to_pickle(self, path,
                    compression='infer',
                    protocol=4)
@@ -23,7 +23,7 @@ DataFrame.to_pickle(self, path,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -65,7 +65,7 @@ data.to_pickle('file.zip')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas as pd
 
@@ -90,7 +90,7 @@ data.to_pickle('file.gzip')
 
 为了读取创建的文件，您需要使用 **read_pickle()** 方法。该方法使用如下语法:
 
-```
+```py
 pandas.read_pickle(filepath_or_buffer,  
                compression='infer')
 
@@ -100,7 +100,7 @@ pandas.read_pickle(filepath_or_buffer,
 
 ## 蟒蛇 3
 
-```
+```py
 # reading from the zip file
 pd.read_pickle('file.zip')
 ```
@@ -113,7 +113,7 @@ pd.read_pickle('file.zip')
 
 ## 蟒蛇 3
 
-```
+```py
 # reading from gzip file
 pd.read_pickle('file.gzip')
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to draw scatter plot using Dataframe.plot
 # Import libraries
 import pandas as pd
@@ -49,7 +49,7 @@ df.plot.scatter(x = 'Name', y = 'Age', s = 100);
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to draw scatter plot using Dataframe.plot
 # Import libraries
 import pandas as pd

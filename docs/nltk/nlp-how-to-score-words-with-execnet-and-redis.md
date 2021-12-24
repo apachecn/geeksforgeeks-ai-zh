@@ -17,7 +17,7 @@ Redis 和 execnet 用来一起做分布式单词评分。中每个单词的信�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from dist_featx import score_words
 from nltk.corpus import movie_reviews
@@ -49,7 +49,7 @@ print ([r.delete(key) for
 
 **输出:**
 
-```
+```py
 Categories :  ['neg', 'pos']
 Length : 39767
 Top Words : [b'bad', b', ', b'and', b'?', b'movie']
@@ -74,7 +74,7 @@ Top Words : [b'bad', b', ', b'and', b'?', b'movie']
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import itertools, execnet, remote_word_count
 from nltk.metrics import BigramAssocMeasures

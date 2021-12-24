@@ -14,14 +14,14 @@ SciPy 包包含 Python 中 NumPy 包的特性。它使用 NumPy 数组作为基�
 
 让我们考虑一个例子，其中两个数组 a 和 b 由 **linalg.solve** 函数获取。数组 a 包含未知变量的系数，而数组 b 包含线性方程的右侧值。线性方程由函数求解，以确定未知变量的值。假设线性方程为:
 
-```
+```py
 7x + 2y = 8
 4x + 5y = 10
 ```
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 from scipy import linalg
 import numpy as np
@@ -37,7 +37,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 [0.74074074 1.40740741]
 ```
 
@@ -63,7 +63,7 @@ print(res)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 from scipy import linalg
 import numpy as np
@@ -79,7 +79,7 @@ print(y)
 
 **输出:**
 
-```
+```py
 [[ 0.18518519 -0.07407407]
  [-0.14814815  0.25925926]]
 ```
@@ -105,7 +105,7 @@ print(y)
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 from scipy import linalg
 import numpy as np

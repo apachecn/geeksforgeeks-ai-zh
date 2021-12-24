@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.chebder()`方法，我们能够得到切比雪夫级数的微分，它将返回一个有坐标的数组。
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C
@@ -24,14 +24,14 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [ 12.]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 from numpy.polynomial import chebyshev as C
@@ -45,7 +45,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [  28\.  264.]
 
 ```

@@ -8,7 +8,7 @@
 
 *   By defining an explicit function which computes the magnitude of a given vector based on the below mathematical formula:
 
-    ```
+    ```py
     if V is vector such that, V = (a, b, c)
     then ||V|| = ?(a*a + b*b + c*c)
 
@@ -16,7 +16,7 @@
 
     下面是一些按照上述方法计算矢量大小的程序:
 
-    ```
+    ```py
     # program to compute magnitude of a vector
 
     # importing required libraries
@@ -37,7 +37,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Vector: [0 1 2 3 4]
     Magnitude of the Vector: 5.477225575051661
 
@@ -45,7 +45,7 @@
 
     下面是采用相同方法的另一个示例:
 
-    ```
+    ```py
     # program to compute magnitude of a vector
 
     # importing required libraries
@@ -62,14 +62,14 @@
 
     **输出:**
 
-    ```
+    ```py
     Magnitude of the Vector: 3.7416573867739413
 
     ```
 
 *   By using the `norm()` method in `linalg` module of `NumPy` library. The Linear Algebra module of `NumPy` offers various methods to apply linear algebra on any `NumPy` array. Below are some programs which use `numpy.linalg.norm()` to compute the magnitude of a vector:
 
-    ```
+    ```py
     # program to compute magnitude of a vector
 
     # importing required libraries
@@ -86,7 +86,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Vector: [1 2 3]
     Magnitude of the Vector: 3.7416573867739413
 
@@ -94,7 +94,7 @@
 
     一个额外的参数`ord`可以用来计算向量的第 n 阶`norm()`。
 
-    ```
+    ```py
     # program to compute the nth order of the 
     # magnitude of a vector
 
@@ -118,7 +118,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Vector: [0 1 2 3 4]
     Magnitude of the Vector: 5.477225575051661
     ord is 0:  4.0

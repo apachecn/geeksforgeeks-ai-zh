@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.mapparms()`方法，我们能够使用该方法获得参数的线性映射。
 
-```
+```py
 # import numpy and mapparms
 import numpy as np
 from numpy.polynomial import polyutils as pu
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and mapparms
 import numpy as np
 from numpy.polynomial import polyutils as pu

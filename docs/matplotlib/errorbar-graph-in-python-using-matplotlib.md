@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -40,7 +40,7 @@ plt.plot(x, y)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -67,7 +67,7 @@ plt.errorbar(x, y,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -93,7 +93,7 @@ plt.errorbar(x, y,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -121,7 +121,7 @@ plt.errorbar(x, y,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 
@@ -154,7 +154,7 @@ plt.errorbar(x, y,
 
 ## 蟒蛇 3
 
-```
+```py
 # import require modules
 import numpy as np
 import matplotlib.pyplot as plt

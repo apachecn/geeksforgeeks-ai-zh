@@ -25,7 +25,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.ellipse() method 
 
 # importing cv2 
@@ -71,7 +71,7 @@ cv2.imshow(window_name, image) 
 **示例#2:**
 使用-1 px 的厚度和 30 度的旋转。
 
-```
+```py
 # Python program to explain cv2.ellipse() method
 
 # importing cv2

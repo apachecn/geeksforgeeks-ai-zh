@@ -9,7 +9,7 @@
 我们可以用各种方法来计算两个数列之间的欧氏距离。这里有几个相同的方法:
 **例 1:**
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -38,7 +38,7 @@ print("Euclidean distance between two series is:", dist)
 
 **例 2:**
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -64,7 +64,7 @@ print("Euclidean distance between two series is:", dist)
 
 **示例 3:** 在本例中，我们使用的是 **np.linalg.norm()** 函数，该函数返回八个不同矩阵范数中的一个。
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -86,7 +86,7 @@ print("Euclidean distance between two series is:", dist)
 
 **示例 4:** 我们现在来试试更大的系列:
 
-```
+```py
 import pandas as pd
 import numpy as np
 

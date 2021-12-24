@@ -28,7 +28,7 @@ Cloudflare 公司。
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import datetime
@@ -55,7 +55,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import datetime

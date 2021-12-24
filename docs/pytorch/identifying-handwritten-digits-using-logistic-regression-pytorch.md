@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 import torch.nn as nn
 import torchvision.datasets as dsets
@@ -21,7 +21,7 @@ from torch.autograd import Variable
 
 ## 蟒蛇 3
 
-```
+```py
 # MNIST Dataset (Images and Labels)
 train_dataset = dsets.MNIST(root ='./data', 
                             train = True, 
@@ -46,7 +46,7 @@ test_loader = torch.utils.data.DataLoader(dataset = test_dataset, 
 
 ## 蟒蛇 3
 
-```
+```py
 # Hyper Parameters 
 input_size = 784
 num_classes = 10
@@ -60,7 +60,7 @@ learning_rate = 0.001
 
 ## 蟒蛇 3
 
-```
+```py
 class LogisticRegression(nn.Module):
     def __init__(self, input_size, num_classes):
         super(LogisticRegression, self).__init__()
@@ -75,7 +75,7 @@ class LogisticRegression(nn.Module):
 
 ## 蟒蛇 3
 
-```
+```py
 model = LogisticRegression(input_size, num_classes)
 ```
 
@@ -83,7 +83,7 @@ model = LogisticRegression(input_size, num_classes)
 
 ## 蟒蛇 3
 
-```
+```py
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr = learning_rate)
 ```
@@ -98,7 +98,7 @@ optimizer = torch.optim.SGD(model.parameters(), lr = learning_rate)
 
 ## 蟒蛇 3
 
-```
+```py
 # Training the Model
 for epoch in range(num_epochs):
     for i, (images, labels) in enumerate(train_loader):
@@ -122,7 +122,7 @@ for epoch in range(num_epochs):
 
 ## 蟒蛇 3
 
-```
+```py
 # Test the Model
 correct = 0
 total = 0
@@ -141,7 +141,7 @@ print('Accuracy of the model on the 10000 test images: % d %%' % (
 
 ## 蟒蛇 3
 
-```
+```py
 import torch
 import torch.nn as nn
 import torchvision.datasets as dsets

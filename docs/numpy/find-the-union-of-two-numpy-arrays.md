@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 numpy.union1d(array1, array2)
 
 ```
@@ -17,7 +17,7 @@ numpy.union1d(array1, array2)
 
 **例 1:**
 
-```
+```py
 # import libraries
 import numpy as np
 
@@ -37,7 +37,7 @@ print("Union of two arrays :", np.union1d(arr1, arr2))
 **例 2:**
 我们来看一个寻找二维和一维数组并集的例子。如前所述，如果作为参数传递给 numpy.union1d 函数的数组是二维的，那么它们将被展平为一维。
 
-```
+```py
 # import libraries
 import numpy as np
 
@@ -59,7 +59,7 @@ print("Union of two arrays", np.union1d(arr1, arr2))
 **例 3:**
 如果我们想找到两个以上数组的并集，那么我们可以通过使用 **functools.reduce** 函数来找到。
 
-```
+```py
 # code to find union of more than two arrays
 # import libraries
 import numpy as np

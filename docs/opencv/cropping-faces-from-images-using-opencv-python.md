@@ -12,7 +12,7 @@ Opencv 是一个 python 库，主要用于图像处理和计算机视觉。在�
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Read the input image
@@ -28,7 +28,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 ## 蟒蛇 3
 
-```
+```py
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_alt2.xml')
 
 # Detect faces
@@ -45,7 +45,7 @@ faces = face_cascade.detectMultiScale(gray, 1.1, 4)
 
 ## 蟒蛇 3
 
-```
+```py
 for (x, y, w, h) in faces:
     cv2.rectangle(img, (x, y), (x+w, y+h), 
                   (0, 0, 255), 2)
@@ -70,7 +70,7 @@ cv2.waitKey()
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 # Read the input image

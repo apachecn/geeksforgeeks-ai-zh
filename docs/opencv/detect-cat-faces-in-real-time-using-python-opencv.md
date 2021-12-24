@@ -11,7 +11,7 @@
 
 下面是实现。
 
-```
+```py
 # OpenCV program to detect cat face in real time 
 # import libraries of python OpenCV 
 # where its functionality resides 

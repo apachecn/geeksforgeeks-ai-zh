@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.busday_count()`方法，我们能够获得开始日期和结束日期之间的有效天数计数。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 import numpy as np
 
 # using numpy.busday_count() method

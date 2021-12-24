@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # applying ffill() method to fill the missing values
 df.ffill(axis = 0)
 ```
@@ -54,7 +54,7 @@ df.ffill(axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # applying ffill() method to fill the missing values
 df.ffill(axis = 1)
 ```

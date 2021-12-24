@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermezero()`方法，我们能够获得与该方法相同的`np.zeros`功能。
 
-```
+```py
 # import numpy and hermezero
 import numpy as np
 from numpy.polynomial.hermite_e import hermezero
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermezero
 import numpy as np
 from numpy.polynomial.hermite_e import hermezero

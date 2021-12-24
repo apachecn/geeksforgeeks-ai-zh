@@ -13,7 +13,7 @@ YAML 和 JSON 文件只存储模型结构，而 HDF5 文件存储完整的神经
 考虑波士顿房价数据集:
 **代码:加载数据集并预处理数据**
 
-```
+```py
 import keras
 from keras.datasets import boston_housing
 
@@ -30,7 +30,7 @@ test_data/= std
 
 **代码:在上面训练神经网络模型**
 
-```
+```py
 from keras import models
 from keras import layers
 
@@ -49,7 +49,7 @@ loss, accuracy = model.evaluate(test_data, test_targets)
 
  **Code: Saving and reloading model in HDF5 file format**
 
-```
+```py
 from keras.models import load_model
 model.save("network.h5")
 loaded_model = load_model("network.h5")
@@ -62,7 +62,7 @@ loss, accuracy = loaded_model.evaluate(test_data, test_targets)
 
 **代码:以 JSON 文件格式**保存并重装模型
 
-```
+```py
 # Saving model structure to a JSON file
 
 model_json = model.to_json() # with open("network.json", "w") as json_file:
@@ -84,7 +84,7 @@ loss, accuracy = loaded_model.evaluate(test_data, test_targets)
 
 **代码:保存并重装 YAML 文件格式的模型**
 
-```
+```py
 # Saving model structure to a YAML file
 model_yaml = model.to_yaml() 
 with open("network.yaml", "w") as yaml_file:

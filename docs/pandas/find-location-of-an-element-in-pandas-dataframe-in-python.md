@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -32,7 +32,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -101,7 +101,7 @@ for i in range(len(listOfPositions)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 

@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ main _ ticks()函数**用于�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/90a8dcf2aae5a7e6e67dd3918375b556.png)
 
-```
+```py
 Value of get_major_ticks() :
 <matplotlib.axis.XTick object at 0x08A46250>
 <matplotlib.axis.XTick object at 0x08A46230>
@@ -63,7 +63,7 @@ Value of get_major_ticks() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -93,7 +93,7 @@ plt.show()
 
 ![](img/9bad6cc59e18ce47bde89eda014cbd78.png)
 
-```
+```py
 Value of get_major_ticks() :
 <matplotlib.axis.YTick object at 0x07EB79F0>
 <matplotlib.axis.YTick object at 0x07EB7670>

@@ -29,7 +29,7 @@
 
 **例 1:**
 
-```
+```py
 # importing required modules 
 import matplotlib.pyplot as plt
 
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # importing the modules 
 import matplotlib.pyplot as plt
 

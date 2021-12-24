@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 scipy.fft.idctn(x, type=2)
 
 ```
@@ -17,7 +17,7 @@ scipy.fft.idctn(x, type=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy and numpy
 from scipy import fft
 import numpy as np
@@ -32,7 +32,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[-0.27264259  0.12356192  0.12133914]
  [ 0.00835797  0.11993761 -0.12110712]
  [ 0.09770593 -0.14543749 -0.01109258]]
@@ -43,7 +43,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy and numpy
 from scipy import fft
 import numpy as np
@@ -58,7 +58,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [[ 0.1430296   0.09689253]
  [ 0.00632705  0.24546606]
  [-0.26553743  0.01931002]

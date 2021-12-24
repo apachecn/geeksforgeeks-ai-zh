@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的**axes . semiogx()函数**用于在 x 轴上�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.semilogx(self, *args, **kwargs)
 > ```
 > 
@@ -30,7 +30,7 @@ matplotlib 库的 Axes 模块中的**axes . semiogx()函数**用于在 x 轴上�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

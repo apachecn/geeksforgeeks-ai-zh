@@ -12,7 +12,7 @@
 
 **示例 1:** 在本示例中，程序使用`matplotlib.image.imread()`读取图像，并使用`matplotlib.image.imread()`显示该图像。
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -29,7 +29,7 @@ plt.imshow(testImage)
 
 **示例 2:** 下面的程序读取一个图像，然后以数组的形式表示该图像。
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -43,7 +43,7 @@ print(testImage)
 
 **输出:**
 
-```
+```py
 [[[0.05490196 0.6156863  0.34117648]
   [0.05490196 0.6156863  0.34117648]
   [0.05490196 0.6156863  0.34117648]
@@ -98,7 +98,7 @@ print(testImage)
 
 **例 3:** 这里，图像的形状为`(225, 225, 3)`，表示图像的(高度、宽度、模式)，对于彩色图像模式值为 0 到 2，对于黑白图像模式值仅为 0 和 1。在输出图像中，仅修改图像的模式。
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -118,7 +118,7 @@ plt.imshow(modifiedImage)
 
 **输出:**
 
-```
+```py
 (225, 225, 3)
 ```
 
@@ -126,7 +126,7 @@ plt.imshow(modifiedImage)
 
 **例 4:** 在下面的程序中，修改了图像形状的所有参数。这里，图像的高度是 150 像素(从第 50 个像素开始显示)，宽度是 100 像素(从第 100 个像素开始显示)，模式值是 1。
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -146,7 +146,7 @@ plt.imshow(modifiedImage)
 
 **输出:**
 
-```
+```py
 (225, 225, 3)
 ```
 
@@ -154,7 +154,7 @@ plt.imshow(modifiedImage)
 
 **例 5:** 这里没有修改任何参数。于是，原始图像被显示出来。
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import matplotlib.image as img
@@ -174,7 +174,7 @@ plt.imshow(modifiedImage)
 
 **输出:**
 
-```
+```py
 (225, 225, 3)
 ```
 

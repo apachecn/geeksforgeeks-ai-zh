@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_figure()函数**用于获取艺�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 
@@ -91,7 +91,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np 

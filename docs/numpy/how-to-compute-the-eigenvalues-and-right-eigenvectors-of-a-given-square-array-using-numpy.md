@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Suppose we have a matrix as: 
 [[1,2],
 [2,3]] 
@@ -31,7 +31,7 @@ Eigenvectors of this matrix are: 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy as np
 
@@ -56,7 +56,7 @@ print("Printing Right eigenvectors of the given square array:\n"
 
 **输出:**
 
-```
+```py
 Printing the Original square array:
  [[1 2]
  [2 3]]
@@ -71,7 +71,7 @@ Printing Right eigenvectors of the given square array:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy library
 import numpy as np
 
@@ -97,7 +97,7 @@ print("Printing Right eigenvectors of the given square array:\n",
 
 **输出:**
 
-```
+```py
 Printing the Original square array:
  [[1 2 3]
  [2 3 4]

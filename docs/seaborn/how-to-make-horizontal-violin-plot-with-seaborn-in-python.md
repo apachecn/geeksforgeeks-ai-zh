@@ -25,14 +25,14 @@ x 表示 x 轴，y 表示 y 轴。
 
 **语法:**
 
-```
+```py
 seaborn.violinplot(x)
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # violinplot using inbuilt data-set
 # given in seaborn

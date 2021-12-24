@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.intersection()`函数查找两个索引的集合交集。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(idx1, '\n', idx2)
 
 现在我们找到两个索引的集合交集。
 
-```
+```py
 # Find the elements common to both the Indexes
 idx2.intersection(idx1)
 ```
@@ -49,7 +49,7 @@ idx2.intersection(idx1)
 
 **例 2:** 使用`Index.intersection()`函数查找两个索引的集合交集。该指数包含`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(idx1, '\n', idx2)
 
 现在我们找到 idx1 和 idx2 的交点。
 
-```
+```py
 # find intersection and maintain 
 # ordering of labels based on idx1
 idx1.intersection(idx2)

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.Partition().rank`方法，我们能够获得子阵列的阵列秩。
 
-```
+```py
 # import sympy and Partition
 from sympy.combinatorics.partitions import Partition
 from sympy import * x, y = symbols('x y')
@@ -27,7 +27,7 @@ print(gfg.rank)
 
 **例 2 :**
 
-```
+```py
 # import sympy and Relational
 from sympy.combinatorics.partitions import Partition
 from sympy import * x, y = symbols('x y')

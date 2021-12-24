@@ -21,7 +21,7 @@ Seaborn 是一个用 Python 绘制统计图形的惊人可视化库。它提供�
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')
@@ -40,7 +40,7 @@ seaborn.boxplot(x="timepoint",
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn
 
 seaborn.set(style='whitegrid')

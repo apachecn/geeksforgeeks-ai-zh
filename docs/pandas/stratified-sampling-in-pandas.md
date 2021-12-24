@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Create a dictionary of students
@@ -56,7 +56,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.groupby('Grade', group_keys=False).apply(lambda x: x.sample(2))
 ```
 
@@ -70,7 +70,7 @@ df.groupby('Grade', group_keys=False).apply(lambda x: x.sample(2))
 
 ## 蟒蛇 3
 
-```
+```py
 df.groupby('Grade', group_keys=False).apply(lambda x: x.sample(frac=0.6))
 ```
 
@@ -88,7 +88,7 @@ df.groupby('Grade', group_keys=False).apply(lambda x: x.sample(frac=0.6))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # read the dataset as csv file
@@ -111,13 +111,13 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 (data['Survived'].value_counts()) / len(data) * 100
 ```
 
 **输出:**
 
-```
+```py
 0    61.616162
 1    38.383838
 ```
@@ -128,7 +128,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Disproportionate sampling:
 # randomly select 4 samples from each stratum
 
@@ -143,7 +143,7 @@ data.groupby('Survived', group_keys=False).apply(lambda x: x.sample(4))
 
 ## 蟒蛇 3
 
-```
+```py
 data.groupby('Survived', group_keys=False).
 apply(lambda x: x.sample(frac=0.01))
 ```

@@ -4,7 +4,7 @@
 
 **numpy.all()** 函数测试沿着所述轴的所有数组元素是否评估为真。
 
-```
+```py
 Syntax: numpy.all(array,
                     axis = None,
                     out = None,
@@ -13,7 +13,7 @@ Syntax: numpy.all(array,
 
 **参数:**
 
-```
+```py
 array    :[array_like]Input array or object whose elements, we need to test.
 axis     : [int or tuple of ints, optional]Axis along which array elements 
      are evaluated.
@@ -32,14 +32,14 @@ keepdmis : [boolean, optional]If this is set to True, the axes which are
 
 **返回:**
 
-```
+```py
 A new Boolean array as per 'out' parameter
 
 ```
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.all() method
 
@@ -71,7 +71,7 @@ print("\nBool Value : ", geek.all([[0, 0],[0, 0]]))
 
 **输出:**
 
-```
+```py
 Bool Value with axis = NONE  :  False
 
 Bool Value with axis = 0  :  [ True False]
@@ -86,7 +86,7 @@ Bool Value :  False
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.all() method
 
@@ -103,7 +103,7 @@ print("\nBool Value : ", geek.all([[0, 0],[0, 0]], False))
 
 **输出:**
 
-```
+```py
 
 Bool Value :  [False False]
 

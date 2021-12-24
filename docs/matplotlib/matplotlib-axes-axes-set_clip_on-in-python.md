@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_clip_on()函数**用于设置艺�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches

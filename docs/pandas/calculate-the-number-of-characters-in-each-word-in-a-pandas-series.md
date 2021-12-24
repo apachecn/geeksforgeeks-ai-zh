@@ -14,7 +14,7 @@
 
 **示例 1:** 我们在 **[Series.map()](https://www.geeksforgeeks.org/python-pandas-map/)** 的帮助下输入单词并统计单词的每个字符，该系列使用名为 calc 的函数替换值并给出输出。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(rst)
 
 **示例 2:** 我们使用 **[Series.map()](https://www.geeksforgeeks.org/python-pandas-map/)** 输入一系列单词并替换值，使用 **[Series.apply()](https://www.geeksforgeeks.org/python-pandas-series-apply/)** 获取单个值。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -57,7 +57,7 @@ words.apply(len)
 
 **例 3:** 用特定格式的单词及其长度打印。
 
-```
+```py
 # Import pandas library
 import pandas as pd
 

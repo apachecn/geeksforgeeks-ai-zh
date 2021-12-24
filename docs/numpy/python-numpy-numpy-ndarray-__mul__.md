@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都与方法`ndarray.__mul__()`中作为参数给出的值相乘。此方法对于数组的正、负和浮点值都很有效。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__mul__(5))
 
 **Output:**
 
-```
+```py
 [  5\.   12.5  15\.   24\.   25\. ]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__mul__(5))
 
 **Output:**
 
-```
+```py
 [[  5\.    10\.    15\.    22.25  25\.  ]
  [ 30\.    27.5   20\.    15\.    13.1 ]]
 

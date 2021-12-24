@@ -23,7 +23,7 @@ Numpy where()与使用逻辑或的多个条件一起使用。
 
 ## 蟒蛇 3
 
-```
+```py
 # Import NumPy library
 
 import numpy as np
@@ -62,7 +62,7 @@ Numpy where()使用逻辑“与”与多个条件进行比较。
 
 ## 蟒蛇 3
 
-```
+```py
 # Import NumPy library
 
 import numpy as np

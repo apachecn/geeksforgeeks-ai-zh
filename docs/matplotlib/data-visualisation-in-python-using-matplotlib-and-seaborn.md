@@ -89,7 +89,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib as plt
 import seaborn as sns
@@ -110,7 +110,7 @@ sns.violinplot(x='Outcome', y='BloodPressure', data=diabetes, ax=axes[1])
 
 ## 蟒蛇 3
 
-```
+```py
 # Box plot for all the numerical variables
 sns.set(rc={'figure.figsize': (16, 5)})
 
@@ -151,7 +151,7 @@ sns.boxplot(data=diabetes.select_dtypes(include='number'))
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import matplotlib.pyplot as plt
 
@@ -165,7 +165,7 @@ plt.scatter(diabetes['DiabetesPedigreeFunction'], diabetes['BMI'])
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -201,7 +201,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # illustrate histogram
 features = ['BloodPressure', 'SkinThickness']
 diabetes[features].hist(figsize=(10, 4))
@@ -236,7 +236,7 @@ diabetes[features].hist(figsize=(10, 4))
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import seaborn as sns
 
@@ -260,7 +260,7 @@ sns.countplot(x='BloodPressure', data=diabetes, ax=axes[1])
 
 ## 蟒蛇 3
 
-```
+```py
 # Finding and plotting the correlation for
 # the independent variables
 
@@ -305,7 +305,7 @@ sns.heatmap(diabetes.select_dtypes(include='number').corr(),
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import seaborn as sns
 import numpy as np
@@ -342,7 +342,7 @@ ax = sns.heatmap(data, xticklabels=2, yticklabels=False)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import matplotlib.pyplot as plt
 
@@ -364,7 +364,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import matplotlib.pyplot as plt
 import numpy as np
@@ -417,7 +417,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import matplotlib.pyplot as plt
 import numpy as np

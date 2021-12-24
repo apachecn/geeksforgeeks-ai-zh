@@ -55,7 +55,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#import pandas
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(pd.date_range(
 
 ## ****蟒蛇 3****
 
-```
+```py
 **#import pandas
 import pandas as pd
 

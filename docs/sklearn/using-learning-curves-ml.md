@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 #Importing Required Libraries and Modules
 import numpy as np
 import matplotlib.pyplot as plt

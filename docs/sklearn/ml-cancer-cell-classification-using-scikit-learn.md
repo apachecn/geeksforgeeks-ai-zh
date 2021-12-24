@@ -7,7 +7,7 @@
 **数据集:**
 Scikit-learn 附带了一些小型标准数据集，不需要从任何外部网站下载任何文件。我们将用于机器学习问题的数据集是威斯康星乳腺癌(诊断)数据集。数据集包括几个关于乳腺癌肿瘤的数据以及分类标签，即。，恶性或良性。可以使用以下功能加载:
 
-```
+```py
 load_breast_cancer([return_X_y])
 ```
 
@@ -15,14 +15,14 @@ load_breast_cancer([return_X_y])
 **安装必要的模块:**
 对于这个机器学习项目，我们将需要‘Scikit-learn’Python 模块。如果您的机器上没有安装它，请通过在命令提示符下运行以下命令来下载并安装它:
 
-```
+```py
 pip install scikit-learn
 ```
 
 **注:**本项目可以使用任何 IDE，强烈推荐使用 Jupyter 笔记本进行项目。这是因为，由于 Python 是一种解释语言，所以，人们可以通过运行几行代码来充分利用它，一步一步地看到和理解正在发生的事情，而不是编写整个脚本，然后运行一次。
 在命令提示符下运行以下命令进行安装:
 
-```
+```py
 pip install jupyter
 ```
 
@@ -33,7 +33,7 @@ pip install jupyter
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the Python module
 import sklearn
 
@@ -45,7 +45,7 @@ from sklearn.datasets import load_breast_cancer
 
 ## 蟒蛇 3
 
-```
+```py
 # loading the dataset
 data = load_breast_cancer()
 ```
@@ -56,7 +56,7 @@ data = load_breast_cancer()
 
 ## 蟒蛇 3
 
-```
+```py
 # Organize our data
 label_names = data['target_names']
 labels = data['target']
@@ -68,14 +68,14 @@ features = data['data']
 
 ## 蟒蛇 3
 
-```
+```py
 # looking at the data
 print(label_names)
 ```
 
 **输出:**
 
-```
+```py
 ['malignant' 'benign']
 ```
 
@@ -83,13 +83,13 @@ print(label_names)
 
 ## 蟒蛇 3
 
-```
+```py
 print(labels)
 ```
 
 **输出:**
 
-```
+```py
 [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
  1 0 0 0 0 0 0 0 0 1 0 1 1 1 1 1 0 0 1 0 0 1 1 1 1 0 1 0 0 1 1 1 1 0 1 0 0
  1 0 1 0 0 1 1 1 0 0 1 0 0 0 1 1 1 0 1 1 0 0 1 1 1 0 0 1 1 1 1 0 1 1 0 1 1
@@ -112,13 +112,13 @@ print(labels)
 
 ## 蟒蛇 3
 
-```
+```py
 print(feature_names)
 ```
 
 **输出:**
 
-```
+```py
 ['mean radius' 'mean texture' 'mean perimeter' 'mean area'
  'mean smoothness' 'mean compactness' 'mean concavity'
  'mean concave points' 'mean symmetry' 'mean fractal dimension'
@@ -134,6 +134,6 @@ print(feature_names)
 
 ## 蟒蛇 3
 
-```
+```py
 print(features)
 ```

@@ -91,7 +91,7 @@ Spy 函数使用两种绘图样式来可视化数组，它们是:
 
     **例 1:**
 
-    ```
+    ```py
     # Implementation of matplotlib spy function
     import matplotlib.pyplot as plt
     import numpy as np
@@ -109,7 +109,7 @@ Spy 函数使用两种绘图样式来可视化数组，它们是:
 
     **例 2:**
 
-    ```
+    ```py
     # Implementation of matplotlib spy function
     import matplotlib.pyplot as plt
     import numpy as np

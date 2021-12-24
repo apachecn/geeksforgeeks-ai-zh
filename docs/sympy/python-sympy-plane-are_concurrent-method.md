@@ -4,7 +4,7 @@
 
 In Simpy, the function `Plane.are_concurrent()` is used to check whether the given sequence of planes are concurrent or not. Two or more Planes are concurrent if their intersections are a common line.
 
-```
+```py
 Syntax: Plane.are_concurrent()
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -33,13 +33,13 @@ print(areConcurrent)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -56,6 +56,6 @@ print(areConcurrent)
 
 **输出:**
 
-```
+```py
 False
 ```

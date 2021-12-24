@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # Importing pandas module
 import pandas as pd
 

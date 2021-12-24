@@ -17,7 +17,7 @@ T3】
 
 **代码#1:创建指数连续随机变量**
 
-```
+```py
 
 from scipy.stats import expon 
 
@@ -30,7 +30,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000018D56531CC0>
 
@@ -38,7 +38,7 @@ RV :
 
 **代码#2:指数随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -53,7 +53,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [2.50259466e-04 4.32311862e+00 8.22833503e-01 1.63374263e+00
  4.46784023e+00 3.56781485e+00 3.95381396e+00 1.17623772e+00
@@ -67,7 +67,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -79,7 +79,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
  0.6122449  0.71428571 0.81632653 0.91836735 1.02040816 1.12244898
@@ -96,7 +96,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

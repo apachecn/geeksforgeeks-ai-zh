@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code for displaying multiple images in one figure
 
 #import libraries

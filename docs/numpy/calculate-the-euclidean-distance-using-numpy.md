@@ -10,7 +10,7 @@
 
 ## python 3
 
-```
+```py
 # Python code to find Euclidean distance
 # using linalg.norm()
 

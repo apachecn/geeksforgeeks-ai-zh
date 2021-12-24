@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy.io as syio
 
 # Save the mat file
@@ -51,7 +51,7 @@ print(matlab_file_contents)
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy.io as syio
 
 # Save the mat file
@@ -75,7 +75,7 @@ print(matlab_file_contents)
 
 ## 蟒蛇 3
 
-```
+```py
 import scipy.io as syio
 
 # Save the mat file

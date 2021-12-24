@@ -11,7 +11,7 @@
 [ravel](https://www.geeksforgeeks.org/numpy-ravel-python/) ()函数返回连续的扁平数组(包含所有输入数组元素且类型相同的 1D 数组)。只有在需要时才制作副本。
 **语法:**
 
-```
+```py
 numpy.ravel(array, order = 'C')
 ```
 
@@ -27,7 +27,7 @@ numpy.ravel(array, order = 'C')
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -53,7 +53,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 # number of nan we want to add It will insert 3 nan values to the data.....
 n_b = 5
@@ -93,7 +93,7 @@ print(data_b)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # creating dataset
@@ -127,7 +127,7 @@ print(data)
 使用 [insert()](https://www.geeksforgeeks.org/numpy-insert-python/#:~:text=The%20numpy.,axis%20before%20the%20given%20indices.&text=Return%20%3A,object%20along%20a%20given%20axis.) 函数将整行或整列转换为 NaN。该函数在给定的索引前沿上述轴插入值。
 **语法:**
 
-```
+```py
 numpy.insert(array, object, values, axis = None)
 ```
 
@@ -142,7 +142,7 @@ numpy.insert(array, object, values, axis = None)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 a = np.array([(13.0, 1.0, -47.0), (12.0, 3.0, -47.0), (15.0, 2.0, -44.0)])

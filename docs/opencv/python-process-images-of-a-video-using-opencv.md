@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the necessary libraries
 import cv2
 import numpy as np

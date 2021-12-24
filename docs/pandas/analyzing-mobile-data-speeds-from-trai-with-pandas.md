@@ -40,7 +40,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **步骤#1:** 导入包并定义一些常量。
 
-    ```
+    ```py
     import pandas as pd
     import numpy as np
     import matplotlib.pyplot as plt
@@ -64,7 +64,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     例如，`final_states[2], final_download_speeds[2]`和`final_upload_speeds[2]`将给出*第三*状态的相应值。
 
-    ```
+    ```py
     # define lists
     final_download_speeds = []
     final_upload_speeds = []
@@ -74,7 +74,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **步骤 3:** 使用熊猫`read_csv()`功能导入文件，并将其存储在“df”中。这将创建一个我们将要处理的 csv 内容的数据框架。
 
-    ```
+    ```py
     df = pd.read_csv(DATASET_FILENAME)
 
     # assign headers for each of the columns based on the data
@@ -88,7 +88,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     我们将使用熊猫数据帧的`[unique()](https://www.geeksforgeeks.org/python-pandas-series-unique/)`方法。
 
-    ```
+    ```py
     # find and display the unique states
     states = df['State'].unique()
     print('STATES Found: ', states)
@@ -100,7 +100,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **输出:**
 
-    ```
+    ```py
     STATES Found:  ['Kerala' 'Rajasthan' 'Maharashtra' 'UP East' 'Karnataka' nan
      'Madhya Pradesh' 'Kolkata' 'Bihar' 'Gujarat' 'UP West' 'Orissa'
      'Tamil Nadu' 'Delhi' 'Assam' 'Andhra Pradesh' 'Haryana' 'Punjab'
@@ -111,7 +111,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **步骤#5:** 定义函数`fixed_operator`，该函数将保持运算符不变，并迭代该运算符的所有可用状态。我们可以为固定状态构造一个类似的函数。
 
-    ```
+    ```py
     # filter out the operator and technology
     # first as this will be common for all
     filtered = df[(df['Service Provider'] == CONST_OPERATOR) 
@@ -156,7 +156,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **输出:**
 
-    ```
+    ```py
     Kerala -- Avg. Download: 26129.27  Avg. Upload: 5193.46
     Rajasthan -- Avg. Download: 27784.86  Avg. Upload: 5736.18
     Maharashtra -- Avg. Download: 20707.88  Avg. Upload: 4130.46
@@ -187,7 +187,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
     使用 Numpy 的`arange()`方法，该方法返回给定间隔内均匀间隔的值。这里，传递`final_states`列表的长度，因此我们得到从 0 到列表中状态数的值，如[0，1，2，3 …]
     然后我们可以使用这些索引在该位置绘制一个条形图。通过将第一个条形的位置偏移条形宽度来绘制第二个条形。
 
-    ```
+    ```py
     fig, ax = plt.subplots()
 
     # the width of each bar
@@ -255,7 +255,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     下面是比较 2 个月数据的实现:
 
-    ```
+    ```py
     import pandas as pd
     import numpy as np
     import matplotlib.pyplot as plt
@@ -392,7 +392,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
     **输出:**
 
-    ```
+    ```py
     STATES Found:  ['Kerala' 'Rajasthan' 'Maharashtra' 'UP East' 'Karnataka' nan
      'Madhya Pradesh' 'Kolkata' 'Bihar' 'Gujarat' 'UP West' 'Orissa'
      'Tamil Nadu' 'Delhi' 'Assam' 'Andhra Pradesh' 'Haryana' 'Punjab'
@@ -401,7 +401,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
     OPERATORS Found:  ['IDEA' 'JIO' 'AIRTEL' 'VODAFONE' 'CELLONE']
     ```
 
-    ```
+    ```py
     Comparing data forJIO
     Older: Kerala -- Download: 26129.27  Upload: 5193.46
     Newer: Kerala -- Download: 18917.46  Upload: 4290.13

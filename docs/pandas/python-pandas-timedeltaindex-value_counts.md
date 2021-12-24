@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.value_counts()`函数计算给定时间增量索引对象中每个唯一值的出现次数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.value_counts()`函数来计算 tidx 对象中每个唯一值的出现次数。
 
-```
+```py
 # count occurrences
 tidx.value_counts()
 ```
@@ -49,7 +49,7 @@ tidx.value_counts()
 
 **示例 2:** 使用`TimedeltaIndex.value_counts()`函数计算给定时间增量索引对象中每个唯一值的出现次数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.value_counts()`函数来计算 tidx 对象中每个唯一值的出现次数。
 
-```
+```py
 # count occurrences
 tidx.value_counts()
 ```

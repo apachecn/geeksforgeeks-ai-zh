@@ -16,7 +16,7 @@
 
 **示例 1:向 1D 数组追加单个值**。对于 1D 数组，使用轴参数是不必要的，因为默认情况下数组是扁平的。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -31,7 +31,7 @@ print('Array after appending : ', arr)
 
 **输出:**
 
-```
+```py
 Original Array :  [1 8 3 3 5]
 Array after appending :  [1 8 3 3 5 7]
 
@@ -39,7 +39,7 @@ Array after appending :  [1 8 3 3 5 7]
 
 **例 2 :** 在 1D 数组末尾追加另一个数组。您可以将列表或数组传递给 append 函数，结果将是相同的。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -58,7 +58,7 @@ print('Array after appending : ', arr)
 
 **输出:**
 
-```
+```py
 First array is :  [1 2 3]
 Second array is :  [4 5 6]
 Array after appending :  [1 2 3 4 5 6]
@@ -67,7 +67,7 @@ Array after appending :  [1 2 3 4 5 6]
 
 **示例 3 :** 在 n 维数组的末尾追加值。两个数组的维度匹配很重要，否则会产生错误。
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -97,7 +97,7 @@ print(arr_row)
 
 **输出:**
 
-```
+```py
 Original Array
 [[ 1  2  3  4  5  6]
  [ 7  8  9 10 11 12]] 

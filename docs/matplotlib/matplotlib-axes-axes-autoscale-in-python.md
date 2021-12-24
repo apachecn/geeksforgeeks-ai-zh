@@ -24,7 +24,7 @@ matplotlib 库的 Axes 模块中的 **Axes.autoscale()函数**用于将轴视图
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np
 from matplotlib.path import Path
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import matplotlib.pyplot as plt
 import numpy as np

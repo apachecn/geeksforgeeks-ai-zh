@@ -19,7 +19,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import find_peaks
@@ -44,7 +44,7 @@ from scipy import signal
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import find_peaks
@@ -60,7 +60,7 @@ peak, _ = find_peaks(x, height=0)
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.signal import find_peaks

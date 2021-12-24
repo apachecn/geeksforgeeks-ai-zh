@@ -37,7 +37,7 @@ create_engine()函数以连接字符串为参数，形成与 PostgreSQL 数据�
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 import pandas as pd
 from sqlalchemy import create_engine
@@ -71,7 +71,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 ('Tom', 22)
 ('dick', 21)
 ('harry', 24)
@@ -97,7 +97,7 @@ PostgreSQL 中的输出表
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 import numpy as np
 import psycopg2.extras as extras
@@ -133,7 +133,7 @@ execute_values(conn, df, 'fossil_fuels_c02')
 
 **输出:**
 
-```
+```py
 the dataframe is inserted
 ```
 

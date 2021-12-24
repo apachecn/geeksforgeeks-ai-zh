@@ -14,7 +14,7 @@ Pandas `**Index.inferred_type**`属性返回从给定索引对象的值推断出
 
 **示例#1:** 使用`Index.inferred_type`属性找出给定索引对象中值的推断数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,14 +27,14 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Index(['Jan', 'Feb', 'Mar', 'Apr', 'May'], dtype='object')
 
 ```
 
 现在我们将使用`Index.inferred_type`属性找出给定索引对象的底层数据的推断数据类型。
 
-```
+```py
 # return the inferred dtype
 result = idx.inferred_type
 
@@ -44,7 +44,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 mixed
 ```
 
@@ -52,7 +52,7 @@ mixed
 
 **示例#2 :** 使用`Index.inferred_type`属性找出给定索引对象中值的推断数据类型。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,13 +65,13 @@ print(idx)
 
 **输出:**
 
-```
+```py
 Index(['2012-12-12', None, '2002-1-10', None], dtype='object')
 ```
 
 现在我们将使用`Index.inferred_type`属性找出给定索引对象的底层数据的推断数据类型。
 
-```
+```py
 # return the inferred dtype
 result = idx.inferred_type
 
@@ -81,7 +81,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 mixed
 ```
 

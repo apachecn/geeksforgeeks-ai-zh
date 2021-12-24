@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # scoreatpercentile
 from scipy import stats
 import numpy as np 
@@ -44,7 +44,7 @@ print ("\nScore at 30th percentile : ", 
 
 **Output:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 7, 7, 34, 3]
 
 Score at 50th percentile :  7.0
@@ -61,7 +61,7 @@ Score at 30th percentile :  3.4
 
 **代码#2:**
 
-```
+```py
 # scoreatpercentile
 from scipy import stats
 import numpy as np 
@@ -84,7 +84,7 @@ print ("\nScore at 50th percentile : ", 
 
 **Output:**
 
-```
+```py
 arr :  [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19], [23, 2, 54, 1, 4]]
 
 Score at 50th percentile :  15.0

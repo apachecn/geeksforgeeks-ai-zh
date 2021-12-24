@@ -6,7 +6,7 @@
 
 ********语法:********
 
-```
+```py
 **numpy.full(shape, fill_value, dtype = None, order = ‘C’)
 numpy.empty(shape, dtype = float, order = ‘C’)** 
 ```
@@ -15,7 +15,7 @@ numpy.empty(shape, dtype = float, order = ‘C’)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# python program to create
 # Empty and Full Numpy arrays
 
@@ -42,7 +42,7 @@ print(flla)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# python program to create
 # Empty and Full Numpy arrays
 
@@ -69,7 +69,7 @@ print(flla)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# python program to create 
 # Empty and Full Numpy arrays
 

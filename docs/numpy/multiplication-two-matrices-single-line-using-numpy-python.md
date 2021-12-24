@@ -5,7 +5,7 @@
 矩阵乘法是将两个矩阵作为输入，通过将第一个矩阵的行乘以第二个矩阵的列来产生单个矩阵的运算。在矩阵乘法中，确保第一个矩阵的行数等于第二个矩阵的列数。
 **例:**大小为 3×3 的两个矩阵相乘。
 
-```
+```py
 Input:matrix1 = ([1, 2, 3],
                  [3, 4, 5],
                  [7, 6, 4])
@@ -23,7 +23,7 @@ python 中两个矩阵相乘的方法
 1。**对循环使用显式:**这是一种简单的矩阵乘法技术，但对于较大的输入数据集，这是一种昂贵的方法。在这里，我们使用嵌套的循环来迭代每行和每列。
 如果矩阵 1 是**n×m**矩阵，矩阵 2 是**m×l**矩阵。
 
-```
+```py
 # input two matrices of size n x m
 matrix1 = [[12,7,3],
         [4 ,5,6],
@@ -47,7 +47,7 @@ print (res)
 
 输出:
 
-```
+```py
 [[114 160  60]
  [ 74  97  73]
  [119 157 112]]
@@ -59,7 +59,7 @@ print (res)
 Numpy 是 python 中用于数组处理和操作的包中的构建。对于较大的矩阵运算，我们使用 numpy python 包，它比迭代一种方法快 1000 倍。
 有关 Numpy 的详细信息，请访问[链接](https://pypi.python.org/pypi/numpy)
 
-```
+```py
 # We need install numpy in order to import it
 import numpy as np
 
@@ -76,7 +76,7 @@ print(res)
 
 输出:
 
-```
+```py
 [[ 63 320  83]
  [ 77 484 102]
  [ 84 248 117]]
@@ -85,7 +85,7 @@ print(res)
 
 **使用 [numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/)**
 
-```
+```py
 # same result will be obtained when we use @ operator 
 # as shown below(only in python >3.5)
 import numpy as np
@@ -103,7 +103,7 @@ print(res)
 
 输出:
 
-```
+```py
 [[ 63 320  83]
  [ 77 484 102]
  [ 84 248 117]]

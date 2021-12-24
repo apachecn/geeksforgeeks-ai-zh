@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubdtype() function
 
@@ -32,14 +32,14 @@ print ("Is the first argument lower: ", out_val) 
 
 **Output :**
 
-```
+```py
 Is the first argument lower:  False
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.issubdtype() function
 
@@ -58,7 +58,7 @@ print ("Is the first argument lower: ", out_val) 
 
 **Output :**
 
-```
+```py
 Is the first argument lower:  True
 
 ```

@@ -14,7 +14,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.to_xarray()`函数使用给定的数据帧构建一个 xarray 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(df)
 
 现在，我们将使用`DataFrame.to_xarray()`函数，使用给定的数据帧构建一个 xarray 对象。
 
-```
+```py
 # return an xarray object
 result = df.to_xarray()
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.to_xarray()`函数使用给定的数据帧构建一个 xarray 对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(df)
 
 现在，我们将使用`DataFrame.to_xarray()`函数，使用给定的数据帧构建一个 xarray 对象。
 
-```
+```py
 # return an xarray object
 result = df.to_xarray()
 

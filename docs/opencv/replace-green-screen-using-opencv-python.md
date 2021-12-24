@@ -21,7 +21,7 @@ OpenCV(开源计算机视觉)是一个计算机视觉库，包含对图片或视
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 

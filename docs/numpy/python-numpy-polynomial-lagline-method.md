@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining 
 # numpy.lagline() method  
 
@@ -30,14 +30,14 @@ print (res)  
 
 **Output:**
 
-```
+```py
 [ 5 -3]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining 
 # numpy.lagline() method  
 
@@ -55,7 +55,7 @@ print (res)
 
 **Output:**
 
-```
+```py
 [ 5 -4]
 
 ```

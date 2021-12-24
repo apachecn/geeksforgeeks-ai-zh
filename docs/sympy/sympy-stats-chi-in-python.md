@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.Chi()`方法，我们能够使用该方法获得表示 chi 分布的连续随机变量。
 
-```
+```py
 # Import sympy and chi
 from sympy.stats import Chi, density, E
 from sympy import Symbol, simplify
@@ -34,7 +34,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and chi
 from sympy.stats import Chi, density, E
 from sympy import Symbol, simplify

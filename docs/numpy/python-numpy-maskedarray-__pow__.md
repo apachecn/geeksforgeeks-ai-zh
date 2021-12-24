@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到在应用 MaskedArray 之后。__pow__()，我们可以看到每个元素都使用作为参数提供的值来供电。
 
-```
+```py
 
 # import the important module in python 
 import numpy as np 
@@ -25,14 +25,14 @@ print(gfg.__pow__(3)) 
 
 **Output:**
 
-```
+```py
 [  1   8  27  64 125]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -46,7 +46,7 @@ print(gfg.__pow__(2)) 
 
 **Output:**
 
-```
+```py
 [[ 1  4  9 16 25]
  [36 25 16  9  4]]
 

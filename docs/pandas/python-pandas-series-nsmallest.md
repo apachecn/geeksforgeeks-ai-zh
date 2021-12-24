@@ -16,7 +16,7 @@ Pandas `**Series.nsmallest()**`函数返回给定序列对象中底层数据的 
 
 **示例#1:** 使用`Series.nsmallest()`函数返回给定序列对象的前 n 个最小元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.nsmallest()`函数找到给定序列对象中的前 2 个最小值。
 
-```
+```py
 # return the first 2 of the smallest
 # element
 result = sr.nsmallest(n = 2)
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2:** 使用`Series.nsmallest()`函数返回给定序列对象的前 n 个最小元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.nsmallest()`函数找到给定序列对象中的前 5 个最小值。
 
-```
+```py
 # return the first 5 of the smallest
 # element
 result = sr.nsmallest(n = 5)

@@ -10,7 +10,7 @@
 
 将**λ**函数应用于**单列**
 
-```
+```py
 # importing pandas library
 import pandas as pd
 

@@ -14,7 +14,7 @@ Pandas `**Index.size**`属性返回给定索引对象的基础数据中的元素
 
 **示例#1:** 使用`Index.size`属性查找给定索引对象的基础数据中的元素数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.size`属性来查找给定 Index 对象中的元素数量。
 
-```
+```py
 # return the number of elements
 result = idx.size
 
@@ -44,7 +44,7 @@ print(result)
 
 **示例 2 :** 使用`Index.size`属性查找给定 Index 对象的底层数据中的元素数量。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(idx)
 
 现在我们将使用`Index.size`属性来查找给定 Index 对象中的元素数量。
 
-```
+```py
 # return the number of elements
 result = idx.size
 

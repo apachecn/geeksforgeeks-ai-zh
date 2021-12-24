@@ -4,7 +4,7 @@
 
 [TensorFlow](https://www.geeksforgeeks.org/introduction-to-tensorflow/) 是谷歌为开发机器学习模型和深度学习神经网络而设计的开源 python 库。TensorFlow raw_ops 提供对所有 TensorFlow 操作的低级访问。 **Exp()** 用于求 x 的元素指数。
 
-```
+```py
 For complex numbers
 e^(x+iy) = e^x * e^iy = e^x * (cos y + i sin y)
 
@@ -26,7 +26,7 @@ e^(x+iy) = e^x * e^iy = e^x * (cos y + i sin y)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -45,7 +45,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([1\. 2\. 3\. 4\. 5.], shape=(5, ), dtype=float64)
 Result:  tf.Tensor([  2.71828183   7.3890561   20.08553692  54.59815003 148.4131591 ], shape=(5, ), dtype=float64)
 
@@ -55,7 +55,7 @@ Result:  tf.Tensor([  2.71828183   7.3890561   20.08553692  54.59815003 148.4131
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 import matplotlib.pyplot as plt

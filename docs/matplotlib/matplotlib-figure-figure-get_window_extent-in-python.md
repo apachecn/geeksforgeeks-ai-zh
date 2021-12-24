@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -47,7 +47,7 @@ plt.show()
 
 ![](img/4fc649c22c0d288e45e949da9279ff2d.png)
 
-```
+```py
 Value Return by get_window_extent():
 TransformedBbox(
     Bbox(x0=0.0, y0=0.0, x1=6.4, y1=4.8),
@@ -60,7 +60,7 @@ TransformedBbox(
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -87,7 +87,7 @@ plt.show()
 
 ![](img/dbc208243984893c3911aaf1c2d92250.png)
 
-```
+```py
 Value Return by get_window_extent():
 TransformedBbox(
     Bbox(x0=0.0, y0=0.0, x1=6.4, y1=4.8),

@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在此示例中，创建了一个只有一列的新数据框，并向其传递了一些值。然后在该列上调用 str.isdecimal()方法，并将输出返回到新的 Bool 列。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 
@@ -33,7 +33,7 @@ data
 **例 2:**
 在本例中，带幂的数字也加到了那一列。str isdigit()和 str.isdecimal()都被调用，输出存储在不同的列中，以比较两者之间的差异。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

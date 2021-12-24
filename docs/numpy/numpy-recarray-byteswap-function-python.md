@@ -15,7 +15,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.byteswap() method 
 
@@ -38,7 +38,7 @@ print ("Output swapped  record array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [(5.0, 2) (3.0, -4) (6.0, 9)]
 Output swapped  record array :  [(2.561e-320, 144115188075855872) (1.0435e-320, -216172782113783809)
  (3.067e-320, 648518346341351424)]

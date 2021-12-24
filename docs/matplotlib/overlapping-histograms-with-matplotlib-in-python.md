@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -20,7 +20,7 @@ import seaborn as sns
 
 ## 蟒蛇 3
 
-```
+```py
 # load the iris dataset
 data = sns.load_dataset('iris')
 
@@ -34,7 +34,7 @@ print(data.head(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting histograms
 plt.hist(data['petal_length'], 
          label='petal_length')
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.hist(data['petal_length'], 
          alpha=0.5, # the transaparency parameter
          label='petal_length')
@@ -75,7 +75,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.hist(data['petal_length'], 
          alpha=0.9,
          label='petal_length')
@@ -99,7 +99,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # plotting more than 2 overlapping histograms
 plt.hist(data['sepal_width'], 
          alpha=0.5, 

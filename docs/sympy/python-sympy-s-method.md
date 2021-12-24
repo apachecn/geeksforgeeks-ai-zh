@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.S()`方法，我们能够创建任何对象的单个实例。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -26,7 +26,7 @@ print(gfg == S.Zero)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

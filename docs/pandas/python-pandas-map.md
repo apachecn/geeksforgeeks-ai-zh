@@ -6,7 +6,7 @@ pandas.map()用于映射一列相同的两个系列的值。对于映射两个�
 
 **语法:**
 
-```
+```py
 Series.map(arg, na_action=None)
 ```
 
@@ -18,7 +18,7 @@ Series.map(arg, na_action=None)
 
 **返回类型:**
 
-```
+```py
 Pandas Series with same as index as caller
 ```
 
@@ -29,7 +29,7 @@ Pandas Series with same as index as caller
 > **->**map 函数调用者的第二列必须与传递序列的索引列相同。
 > **- >** 常用列的值也必须唯一。
 
-```
+```py
 import pandas as pd
 
 #reading csv files

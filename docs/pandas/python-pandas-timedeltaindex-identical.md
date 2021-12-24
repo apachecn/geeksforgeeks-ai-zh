@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.identical()`函数检查两个给定时间增量索引对象中包含的元素是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(tidx1, '\n', tidx2)
 ![](img/9b52918fd9ce78caef7b65155d0f81a9.png)
 现在我们使用`TimedeltaIndex.identical()`函数检查 tidx1 和 tidx2 中包含的值是否相同。
 
-```
+```py
 # find if the elements are identical in tidx1 and tidx2
 tidx1.identical(tidx2)
 ```
@@ -50,7 +50,7 @@ tidx1.identical(tidx2)
 
 **示例 2:** 使用`TimedeltaIndex.identical()`函数检查两个给定的时间增量索引对象中包含的元素是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ print(tidx1, '\n', tidx2)
 ![](img/7e79997d82fccfbf8decef766c6cac08.png)
 现在我们使用`TimedeltaIndex.identical()`功能检查 tidx1 和 tidx2 中包含的值是否相同。
 
-```
+```py
 # find if the elements are identical in tidx1 and tidx2
 tidx.identical(tidx2)
 ```

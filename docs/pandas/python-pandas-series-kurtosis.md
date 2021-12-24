@@ -19,7 +19,7 @@ Pandas `**Series.kurtosis()**`函数使用费希尔峰度定义(正态峰度== 0
 
 **示例#1:** 使用`Series.kurtosis()`函数查找给定序列对象中底层数据的峰度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.kurtosis()`函数来寻找给定序列对象中底层数据的峰度。
 
-```
+```py
 # return the kurtosis
 result = sr.kurtosis()
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例#2 :** 使用`Series.kurtosis()`函数查找给定序列对象中底层数据的峰度。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.kurtosis()`函数来寻找给定序列对象中底层数据的峰度。
 
-```
+```py
 # return the kurtosis
 # skip the missing values
 result = sr.kurtosis(skipna = True)

@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.reset_index(inplace=True)
 ```
 
@@ -18,7 +18,7 @@ dataframe.reset_index(inplace=True)
 
 **语法**:
 
-```
+```py
 MultiIndex.from_tuples([(tuple1),.......,(tuple n),names=[column_names])
 ```
 
@@ -33,7 +33,7 @@ MultiIndex.from_tuples([(tuple1),.......,(tuple n),names=[column_names])
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create DataFrame muktiindexex
@@ -62,7 +62,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create DataFrame muktiindexex
@@ -95,7 +95,7 @@ data
 
 通过使用特定的级别，我们可以使用以下语法:
 
-```
+```py
 dataframe.reset_index(inplace=True,level=['level_name'])
 ```
 
@@ -110,7 +110,7 @@ dataframe.reset_index(inplace=True,level=['level_name'])
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create DataFrame muktiindexex
@@ -143,7 +143,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create DataFrame muktiindexex
@@ -179,7 +179,7 @@ data
 
 **语法**:
 
-```
+```py
 dataframe.to_records()
 ```
 
@@ -187,7 +187,7 @@ dataframe.to_records()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # create DataFrame muktiindexex

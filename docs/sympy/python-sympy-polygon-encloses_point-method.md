@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数**polygon . enclosure _ point()**用于检查给定点是否被多边形包围。如果给定点位于多边形内部，则返回真，否则返回假。在多边形的边界上也被认为是假的。
 
-```
+```py
 Syntax: Polygon.encloses_point(p)
 
 Parameters:
@@ -19,7 +19,7 @@ Returns:
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy import Point, Polygon
 from sympy import Point, Polygon
 
@@ -37,7 +37,7 @@ print(isEnclosed)
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -46,7 +46,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy import Point, Polygon
 from sympy import Point, Polygon
 
@@ -64,7 +64,7 @@ print(isEnclosed)
 
 **输出:**
 
-```
+```py
 False
 
 ```

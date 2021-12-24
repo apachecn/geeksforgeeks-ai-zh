@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.kind() function
 
@@ -28,14 +28,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 f
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.dtype.kind() function
 
@@ -51,7 +51,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 i
 
 ```

@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # Python program explaining 
 # pmt() function 
 
@@ -43,6 +43,6 @@ print("Solution : ", Solution) 
 
 **输出:**
 
-```
+```py
 Solution :  -0.1195078262827336
 ```

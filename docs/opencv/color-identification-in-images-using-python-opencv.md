@@ -10,7 +10,7 @@ Python 中的一个开源库， **OpenCV** 基本用于图像和视频处理。�
 
 **例:**为了在图像中找到绿色，我们需要为绿色指定 HSV 颜色的上下色码，如下所示。
 
-```
+```py
 lower=np.array([50, 100,100])
 upper=np.array([70, 255, 255])
 ```
@@ -27,7 +27,7 @@ upper=np.array([70, 255, 255])
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to identify
 #color in images
 
@@ -71,7 +71,7 @@ cv2.waitKey(0)
 
 ## 计算机编程语言
 
-```
+```py
 # Python programs to find
 # unique HSV code for color
 
@@ -98,14 +98,14 @@ cv2.waitKey(0)
 
 一旦您找到了特定颜色的唯一 HSV 代码，请按照以下步骤获取该颜色的 HSV 下限和 HSV 上限。
 
-```
+```py
 lower = [h-10, 100, 100]
 upper = [h+10, 255, 255]
 ```
 
 **例:**对于绿色，HSV 色码为[60，255，255]。因此，该颜色的 HSV 下限和上限如下。
 
-```
+```py
 lower = [50, 100, 100]
 upper = [70, 255, 255]
 ```

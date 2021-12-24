@@ -21,7 +21,7 @@ matplotlib 库的 Axes 模块中的 **Axes.draw()函数**用来绘制一切。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 from mpl_toolkits.mplot3d import axes3d 
 import matplotlib.pyplot as plt 
@@ -43,7 +43,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 from mpl_toolkits.mplot3d import axes3d 
 import matplotlib.pyplot as plt 

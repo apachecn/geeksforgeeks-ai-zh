@@ -12,7 +12,7 @@
 
 我们可以用下面的公式来估算第 i <sup>次</sup>观测值:
 
-```
+```py
 ith observation = q (n + 1)
 ```
 
@@ -52,7 +52,7 @@ i <sup>th</sup> 观测值= .25(7 + 1) = 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas
 import pandas as pd
 
@@ -79,7 +79,7 @@ df1.sort_values(by =['EnglishScore'], inplace = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 df1['QuantileRank']= pd.qcut(df1['EnglishScore'],
                              q = 4, labels = False)
@@ -95,7 +95,7 @@ df1['QuantileRank']= pd.qcut(df1['EnglishScore'],
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 df1['DecileRank']= pd.qcut(df1['EnglishScore'],
                            q = 10, labels = False)
@@ -113,7 +113,7 @@ df1['DecileRank']= pd.qcut(df1['EnglishScore'],
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import pandas as pd
 

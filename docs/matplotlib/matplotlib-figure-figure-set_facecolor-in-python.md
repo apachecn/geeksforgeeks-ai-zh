@@ -20,7 +20,7 @@ matplotlib 库的 **set_facecolor()方法**图形模块用于设置图形矩形�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 from matplotlib.figure import Figure

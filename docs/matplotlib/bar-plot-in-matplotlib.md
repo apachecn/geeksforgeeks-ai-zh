@@ -8,7 +8,7 @@
 
 Python 中的 **matplotlib** API 提供了 bar()函数，可以在 MATLAB 风格的使用中使用，也可以作为面向对象的 API 使用。与轴一起使用的 bar()函数的语法如下
 
-```
+```py
 plt.bar(x, height, width, bottom, align)
 ```
 
@@ -16,7 +16,7 @@ plt.bar(x, height, width, bottom, align)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -48,7 +48,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -78,7 +78,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -148,7 +148,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -194,7 +194,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

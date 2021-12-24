@@ -18,7 +18,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.quantile() method 
 import numpy as np
@@ -36,7 +36,7 @@ print("100th quantile of arr : ", np.quantile(arr, .1)) 
 
 **输出:**
 
-```
+```py
 arr : [20, 2, 7, 1, 34]
 Q2 quantile of arr : 7.0)
 Q1 quantile of arr : 2.0)
@@ -47,7 +47,7 @@ Q3 quantile of arr : 20.0)
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.quantile() method 
 import numpy as np
@@ -78,7 +78,7 @@ print("\n0th quantile of arr, axis = 1 : \n", 
 
 **输出:**
 
-```
+```py
 arr : 
 [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19], [23, 2, 54, 1, 4]]
 

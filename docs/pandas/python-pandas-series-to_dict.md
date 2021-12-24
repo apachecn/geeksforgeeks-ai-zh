@@ -15,7 +15,7 @@ Pandas `**Series.to_dict()**`函数用于将给定的 Series 对象转换为{lab
 
 **示例#1:** 使用`Series.to_dict()`函数将给定的序列对象转换为字典。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们使用`Series.to_dict()`函数将给定的序列对象转换成字典。
 
-```
+```py
 # convert to dictionary
 sr.to_dict()
 ```
@@ -51,7 +51,7 @@ sr.to_dict()
 
 **示例 2:** 使用`Series.to_dict()`功能将给定的序列对象转换为字典。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们使用`Series.to_dict()`函数将给定的序列对象转换成字典。
 
-```
+```py
 # convert to dictionary
 sr.to_dict()
 ```

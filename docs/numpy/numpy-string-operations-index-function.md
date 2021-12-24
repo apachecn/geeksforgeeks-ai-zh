@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.index() method 
 
@@ -32,7 +32,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['aAaAaA' 'baA' 'abBABba']
 Output array:  [0 1 0]
 
@@ -40,7 +40,7 @@ Output array:  [0 1 0]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.index() method 
 
@@ -58,7 +58,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['aAaAaA' 'aA' 'abBABba']
 Output array:  [1 1 3]
 
@@ -66,7 +66,7 @@ Output array:  [1 1 3]
 
 **代码#3 :** 如果没有找到子字符串，则引发 ValueError。
 
-```
+```py
 # Python program explaining
 # numpy.char.index() method 
 
@@ -84,7 +84,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 ValueError: substring not found
 
 ```

@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanmin() method 
 
@@ -32,7 +32,7 @@ print("nanMin of arr : ", np.nanmin(arr))
 
 **输出:**
 
-```
+```py
 arr :  [1, 2, 7, 0, nan]
 Min of arr :  nan
 nanMin of arr :  0.0
@@ -41,7 +41,7 @@ nanMin of arr :  0.0
 
 **代码#2 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanmin() method 
 
@@ -66,7 +66,7 @@ print("Min of arr, axis = 1 : ", np.nanmin(arr, axis = 1))  
 
 **输出:**
 
-```
+```py
 arr : 
  [[14, 17, 12, 33, 44], [15, 6, 27, 8, 19]]
 
@@ -78,7 +78,7 @@ Min of arr, axis = 1 :  [12  6]
 
 **代码#3 :**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanmin() method 
 
@@ -95,7 +95,7 @@ print("Changed arr1(having results) : ", arr1)
 
 **输出:**
 
-```
+```py
 Initial arr1 :  [0 1 2 3 4]
 Changed arr1(having results) :  [14  6 12  8 19]
 

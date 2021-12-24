@@ -26,7 +26,7 @@ CF 树是我们到目前为止一直在谈论的实际紧凑表示。CF 树是�
 
 **代码:用 600 个随机生成的样本创建 8 个聚类，然后将结果绘制成散点图。**
 
-```
+```py
 # Import required libraries and modules
 import matplotlib.pyplot as plt
 from sklearn.datasets.samples_generator import make_blobs

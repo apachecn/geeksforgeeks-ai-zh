@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`tokenize.ConditionalFreqDist()`方法，我们能够统计一个句子中单词的出现次数。
 
-```
+```py
 # import ConditionalFreqDist() method from nltk
 from nltk.probability import ConditionalFreqDist
 from nltk.tokenize import word_tokenize
@@ -34,7 +34,7 @@ print(tk)
 
 **例 2 :**
 
-```
+```py
 # import ConditionalFreqDist() method from nltk
 from nltk.probability import ConditionalFreqDist
 from nltk.tokenize import word_tokenize

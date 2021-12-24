@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program explaining  
 # numpy.ndarray.copy() function
 
@@ -29,7 +29,7 @@ print("\nx is copied to y")
 
 **Output:**
 
-```
+```py
 x is: 
  [[0 1 2 3]
  [4 5 6 7]]
@@ -43,7 +43,7 @@ x is copied to y
 
 **代码#2:**
 
-```
+```py
 # Python program explaining  
 # numpy.ndarray.copy() function
 
@@ -64,7 +64,7 @@ print("\n y is: \n", y)
 
 **Output:**
 
-```
+```py
 x is:
  [[0 1]
  [2 3]]

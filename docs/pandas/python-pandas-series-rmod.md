@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.rmod()`函数对给定的序列对象执行标量模运算。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 ![](img/dab04769c1239f7411b50876f1fa5e58.png)
 现在我们使用`Series.rmod()`函数对级数进行标量模运算。
 
-```
+```py
 # find modulo of the given value with series
 result = sr.rmod(2000)
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2:** 使用`Series.rmod()`函数对给定的序列对象执行标量模运算。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(sr)
 
 现在我们将使用`Series.rmod()`函数对级数进行标量模运算。我们还将在缺少值的地方填充 10。
 
-```
+```py
 # find modulo of the given value with series
 # fill 10 at the place of missing values
 result = sr.rmod(2000, fill_value = 10)

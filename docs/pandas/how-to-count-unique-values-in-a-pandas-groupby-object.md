@@ -62,7 +62,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -96,7 +96,7 @@ display(df)
 
 ## 计算机编程语言
 
-```
+```py
 # import pandas
 import pandas as pd
 

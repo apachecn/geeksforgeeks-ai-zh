@@ -13,7 +13,7 @@
 
 **代码#1:子集 _ 索引()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.subset_indices()
 
@@ -40,7 +40,7 @@ print ("Subset a subset_indices : ", a)
 
 **代码#2:子集 _ 索引()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.subset_indices()
 

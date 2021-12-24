@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 在 nba.csv 文件中将球队“波士顿凯尔特人”替换为“欧米茄勇士”
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ df[:10]
 
 我们将更改行索引，并将该值增加两倍。
 
-```
+```py
 # this will Increase the row index value by twice
 df.rename_axis(lambda x:x * 2, axis ="index")
 ```
@@ -47,7 +47,7 @@ df.rename_axis(lambda x:x * 2, axis ="index")
 
 **示例#2:** 更改列名
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

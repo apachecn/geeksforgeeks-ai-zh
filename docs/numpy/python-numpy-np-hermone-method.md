@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermone()`方法，我们能够获得与该方法相同的 np.ones 的功能。
 
-```
+```py
 # import numpy and hermone
 import numpy as np
 from numpy.polynomial.hermite import hermone
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermone
 import numpy as np
 from numpy.polynomial.hermite import hermone

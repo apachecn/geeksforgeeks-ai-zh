@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.hasnans`属性检查给定索引对象中是否有任何缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(idx)
 
 现在我们将使用`Index.hasnans`属性来检查给定的 Index 对象中是否有缺失的值。
 
-```
+```py
 # check if there is any
 # missing value
 result = idx.hasnans
@@ -48,7 +48,7 @@ print(result)
 
 **示例#2 :** 使用`Index.hasnans`属性检查给定索引对象中是否有任何缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(idx)
 
 现在我们将使用`Index.hasnans`属性来检查给定的 Index 对象中是否有缺失的值。
 
-```
+```py
 # check if there is any
 # missing value
 result = idx.hasnans

@@ -12,7 +12,7 @@ matplotlib 库 pyplot 模块中的**暂停()功能**用于暂停间隔秒。
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.pause(interval)
 > 
 > ```
@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的**暂停()功能**用于暂停间隔秒。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ for i in range(len(data)):
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from mpl_toolkits.mplot3d import axes3d
 import matplotlib.pyplot as plt

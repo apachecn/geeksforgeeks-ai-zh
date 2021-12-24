@@ -6,7 +6,7 @@ matplotlib 中的 subplot()函数有助于在单个图形中创建一个 subplot
 
 **子剧情()语法:**
 
-```
+```py
 subplot(nrows,ncols,nsubplot)
 ```
 
@@ -16,7 +16,7 @@ subplot(nrows,ncols,nsubplot)
 
 **图例命令语法:**
 
-```
+```py
 legend(*args, **kwargs)
 ```
 
@@ -24,7 +24,7 @@ legend(*args, **kwargs)
 
 例如，ax.legend()相当于:
 
-```
+```py
 handles, labels = ax.get_legend_handles_labels()
 ax.legend(handles, labels)
 ```
@@ -35,7 +35,7 @@ get_legend_handles_labels()方法返回两个列表的元组，即艺术家列�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -81,7 +81,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Plotting sub-plots of number of 
 # students passed in each subject 
 # in academic year 2017-20.

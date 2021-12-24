@@ -31,7 +31,7 @@ matplotlib 库 pyplot 模块中的**角谱()函数**用于绘制角谱。一般�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.angle_spectrum()
 # function
 
@@ -65,7 +65,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.angle_spectrum()
 # function
 

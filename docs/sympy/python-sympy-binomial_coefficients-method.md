@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import binomial_coefficients() method from sympy
 from sympy.ntheory import binomial_coefficients
 
@@ -27,14 +27,14 @@ print("binomial_coefficients({}) = {} ".format(n, binomial_coefficients_n))
 
 **输出:**
 
-```
+```py
 binomial_coefficients(6) = {(3, 3): 20, (1, 5): 6, (6, 0): 1, (0, 6): 1, (4, 2): 15, (5, 1): 6, (2, 4): 15}
 
 ```
 
 **例 2:**
 
-```
+```py
 # import binomial_coefficients() method from sympy
 from sympy.ntheory import binomial_coefficients
 
@@ -48,7 +48,7 @@ print("binomial_coefficients({}) = {} ".format(n, binomial_coefficients_n))
 
 **输出:**
 
-```
+```py
 binomial_coefficients(9) = {(2, 7): 36, (9, 0): 1, (8, 1): 9, (5, 4): 126, (6, 3): 84, (4, 5): 126, (1, 8): 9, (3, 6): 84, (0, 9): 1, (7, 2): 36} 
 
 ```

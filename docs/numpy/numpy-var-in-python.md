@@ -28,7 +28,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.var() method 
 import numpy as np 
@@ -45,7 +45,7 @@ print("\nvar of arr : ", np.var(arr, dtype = np.float64)) 
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, 7, 1, 34]
 var of arr :  158.16
 
@@ -56,7 +56,7 @@ var of arr :  158.16
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.var() method 
 import numpy as np 
@@ -79,7 +79,7 @@ print("\nvar of arr, axis = 1 : ", np.var(arr, axis = 1)) 
 
 **输出:**
 
-```
+```py
 var of arr, axis = None :  236.14000000000004
 
 var of arr, axis = 0 :  [ 57.1875 312.75   345.6875   9.25     0\.    ]

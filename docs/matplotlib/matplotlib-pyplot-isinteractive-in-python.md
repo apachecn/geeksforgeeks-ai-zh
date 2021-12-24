@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的 **isinteractive()方法**用于获取每次�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -46,14 +46,14 @@ plt.show()
 **输出:**
 ![](img/5fe390d15913a3ba63e0ff5bb1ce8bb5.png)
 
-```
+```py
 Is we can redraw after every plotting command :  False
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -80,7 +80,7 @@ plt.show()
 **输出:**
 ![](img/b14dc1994407ab8b5d20d325ce5cc097.png)
 
-```
+```py
 Is we can redraw after every plotting command :  False
 
 ```

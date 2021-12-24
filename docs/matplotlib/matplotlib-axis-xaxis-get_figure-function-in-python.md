@@ -16,7 +16,7 @@ matplotlib 库的 Axis 模块中的 **XAxis.get_figure()** 函数用于获取艺
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import XAxis 
 import numpy as np 
@@ -84,7 +84,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import XAxis 
 import numpy as np 

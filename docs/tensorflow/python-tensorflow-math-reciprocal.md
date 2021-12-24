@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import tensorflow as tf
 
@@ -37,7 +37,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([ 1\.  2\. -3\. -4.], shape=(4, ), dtype=float64)
 Result:  tf.Tensor([ 1\.          0.5        -0.33333333 -0.25      ], shape=(4, ), dtype=float64)
 
@@ -47,7 +47,7 @@ Result:  tf.Tensor([ 1\.          0.5        -0.33333333 -0.25      ], shape=(4,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -66,7 +66,7 @@ print('Result: ', res)
 
 **输出:**
 
-```
+```py
 Input:  tf.Tensor([ 1.+3.j  2.-5.j -3.+7.j -4.-8.j], shape=(4, ), dtype=complex128)
 Result:  tf.Tensor(
 [ 0.1       -0.3j         0.06896552+0.17241379j -0.05172414-0.12068966j

@@ -22,7 +22,7 @@ matplotlib 库 pyplot 模块中的 **sci()函数**用于设置当前图像。
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
 from matplotlib import colors as mcolors
@@ -57,7 +57,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.collections import EventCollection
 from matplotlib.collections import LineCollection

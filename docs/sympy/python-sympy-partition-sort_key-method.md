@@ -10,7 +10,7 @@
 
 **代码#1 : sort_key()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.sort_key()
 
@@ -36,7 +36,7 @@ lst.sort(key = default_sort_key); lst
 
 **代码#2 : sort_key()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.sort_key()
 

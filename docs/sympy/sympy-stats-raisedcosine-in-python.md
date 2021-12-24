@@ -14,7 +14,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.RaisedCosine()`方法，我们能够使用该方法获得表示升余弦分布的连续随机变量。
 
-```
+```py
 # Import sympy and RaisedCosine
 from sympy.stats import RaisedCosine, density
 from sympy import Symbol, pprint
@@ -42,7 +42,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and RaisedCosine
 from sympy.stats import RaisedCosine, density
 from sympy import Symbol, pprint

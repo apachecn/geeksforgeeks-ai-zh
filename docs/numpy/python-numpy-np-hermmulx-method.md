@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermmulx()`方法，我们能够用这个方法得到埃尔米特级数与自变量 x 相乘后的级数系数。
 
-```
+```py
 # import numpy and hermmulx
 import numpy as np
 from numpy.polynomial.hermite import hermmulx
@@ -29,7 +29,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermmulx
 import numpy as np
 from numpy.polynomial.hermite import hermmulx

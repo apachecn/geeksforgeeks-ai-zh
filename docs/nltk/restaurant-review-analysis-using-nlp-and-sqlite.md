@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -113,7 +113,7 @@ def init_data():
 
 ## 蟒蛇 3
 
-```
+```py
 root1 = Tk()
 main = "Restaurant Review Analysis System/"
 root1.title(main+"Welcome Page")
@@ -159,7 +159,7 @@ root1.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 def take_review():
     root2 = Toplevel()
     root2.title(main+"give review")
@@ -283,7 +283,7 @@ def estimate(s):
 
 ## 蟒蛇 3
 
-```
+```py
 def login():
     root3 = Toplevel()
     root3.title(main+"owner verification")
@@ -320,7 +320,7 @@ def login():
 
 ## 蟒蛇 3
 
-```
+```py
 def popup():
     messagebox.showerror("Error Message!", "Incorrect code!")
 
@@ -377,7 +377,7 @@ def view_details(s):
 
 ## 蟒蛇 3
 
-```
+```py
 def access_data():
     root5 = Toplevel()
     root5.title(main+"Restaurant_Database")
@@ -467,7 +467,7 @@ def access_data():
 
 ## 蟒蛇 3
 
-```
+```py
 def clr_itemdata():
     root6 = Toplevel()
     root6.title(main+"clear_item_data")

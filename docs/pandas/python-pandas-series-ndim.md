@@ -16,7 +16,7 @@ Pandas `**Series.ndim**`属性返回底层数据的维数，定义为系列对�
 
 **示例#1:** 使用`Series.ndim`属性查找给定系列对象的维度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.ndim`属性来查找给定 Series 对象的维度。
 
-```
+```py
 # return the dimension
 sr.ndim
 ```
@@ -49,7 +49,7 @@ sr.ndim
 
 **例 2 :** 使用`Series.ndim`属性查找给定系列对象的维度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -69,7 +69,7 @@ print(sr)
 
 现在我们将使用`Series.ndim`属性来查找给定 Series 对象的维度。
 
-```
+```py
 # return the dimension
 sr.ndim
 ```

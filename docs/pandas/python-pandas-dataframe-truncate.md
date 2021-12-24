@@ -18,7 +18,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.truncate()`函数截断给定数据帧的传递标签前后的一些条目。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ print(df)
 
 现在我们将使用`DataFrame.truncate()`函数截断给定数据帧中“2010-10-09 09:45:00”之前和“2010-10-09 11:45:00”之后的条目。
 
-```
+```py
 # return the truncated dataframe
 result = df.truncate(before = '2010-10-09 09:45:00', after = '2010-10-09 11:45:00')
 
@@ -59,7 +59,7 @@ print(result)
 
 **示例 2:** 使用`DataFrame.truncate()`函数截断给定数据帧的传递标签前后的一些条目。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -85,7 +85,7 @@ print(df)
 
 现在我们将使用`DataFrame.truncate()`函数来截断给定数据帧中“Row_3”之前和“Row_4”之后的条目。
 
-```
+```py
 # return the truncated dataframe
 result = df.truncate(before = 'Row_3', after = 'Row_4')
 

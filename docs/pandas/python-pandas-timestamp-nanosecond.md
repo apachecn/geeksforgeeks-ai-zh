@@ -14,7 +14,7 @@ Pandas `**Timestamp.nanosecond**`属性返回给定 Timestamp 对象的纳秒值
 
 **示例#1:** 使用`Timestamp.nanosecond`属性在给定的 Timestamp 对象中查找纳秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.nanosecond`属性打印 ts 对象中纳秒的值。
 
-```
+```py
 # find the value of nanosecond
 ts.nanosecond
 ```
@@ -44,7 +44,7 @@ ts.nanosecond
 
 **示例#2:** 使用`Timestamp.nanosecond`属性在给定的时间戳对象中查找纳秒值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.nanosecond`属性打印 ts 对象中纳秒的值。
 
-```
+```py
 # find the value of nanosecond
 ts.nanosecond
 ```

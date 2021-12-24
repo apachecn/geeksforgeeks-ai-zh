@@ -8,7 +8,7 @@
 
 **示例#1:**
 
-```
+```py
 # import pandas as pd 
 import pandas as pd  
 
@@ -23,7 +23,7 @@ print(df )
 
 **输出:**
 
-```
+```py
              Tag  number
 0           Geek      25
 1             is      30
@@ -33,7 +33,7 @@ print(df )
 
 **例 2:**
 
-```
+```py
 import pandas as pd  
 
 # List1  
@@ -47,7 +47,7 @@ print(df)
 
 **输出:**
 
-```
+```py
    FName     LName  Age
 0    tom   reacher   25
 1  krish      pete   30

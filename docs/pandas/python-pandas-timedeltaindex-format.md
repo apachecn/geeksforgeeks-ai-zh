@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.format()`函数渲染给定时间增量索引对象的字符串表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(tidx)
 
 现在，我们将使用`TimedeltaIndex.format()`函数向给定的对象呈现字符串表示。
 
-```
+```py
 # renders string representation to the index
 tidx.format()
 ```
@@ -42,7 +42,7 @@ tidx.format()
 
 **示例 2:** 使用`TimedeltaIndex.format()`函数渲染给定时间增量索引对象的字符串表示。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(tidx)
 ![](img/d8ac12d8ea103dff43575f46d793d4e5.png)
 现在我们将使用`TimedeltaIndex.format()`函数为给定的对象渲染一个字符串表示。
 
-```
+```py
 # renders string representation to the index
 tidx.format()
 ```

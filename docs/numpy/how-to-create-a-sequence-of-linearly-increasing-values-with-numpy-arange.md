@@ -22,7 +22,7 @@
 
 **例如:**
 
-```
+```py
 numpy.arrange(1,10,3)  # array([1,4,7])
 ```
 
@@ -34,7 +34,7 @@ numpy.arrange(1,10,3)  # array([1,4,7])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy module
 import numpy as np
 
@@ -69,7 +69,7 @@ print(np.arrange(1, 50, 3))
 
 ## 蟒蛇 3
 
-```
+```py
 #importing numpy module
 import numpy as np
 
@@ -104,7 +104,7 @@ print(np.arrange(1,50,5))
 
 ## 蟒蛇 3
 
-```
+```py
 #importing numpy module
 import numpy as np
 
@@ -114,6 +114,6 @@ print(np.arrange(34,50,5))
 
 **输出:**
 
-```
+```py
 [34 39 44 49]
 ```

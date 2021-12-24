@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.word_tokenize()`方法，我们能够从单词或句子流中提取音节。
 
-```
+```py
 # import SyllableTokenizer() method from nltk
 from nltk import word_tokenize
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import SyllableTokenizer() method from nltk
 from nltk.tokenize import word_tokenize
 

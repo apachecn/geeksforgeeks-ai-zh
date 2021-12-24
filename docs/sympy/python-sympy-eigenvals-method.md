@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.eigenvals()`方法，我们能够找到矩阵的特征值。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -27,7 +27,7 @@ print(d)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

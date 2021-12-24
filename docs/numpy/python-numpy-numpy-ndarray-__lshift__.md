@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到每个元素都向左移动了在`ndarray.__lshift__()`方法中作为参数传递的值。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -24,14 +24,14 @@ print(gfg.__lshift__(2))
 
 **Output:**
 
-```
+```py
 [ 4  8 12 16 20]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -45,7 +45,7 @@ print(gfg.__lshift__(1))
 
 **Output:**
 
-```
+```py
 [[ 2  4  6  8 10]
  [12 10  8  6  4]]
 

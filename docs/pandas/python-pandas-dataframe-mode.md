@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`mode()`功能找到索引轴上的模式。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 让我们使用`dataframe.mode()`功能找到数据帧的模式
 
-```
+```py
 # find mode of dataframe 
 df.mode()
 ```
@@ -43,7 +43,7 @@ df.mode()
 
 **示例 2:** 使用`mode()`功能在列轴上查找模式
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ df
 
 让我们使用`dataframe.mode()`功能找到模式
 
-```
+```py
 # axis = 1 indicates over the column axis
 df.mode(axis = 1)
 ```

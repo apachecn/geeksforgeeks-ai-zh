@@ -14,7 +14,7 @@
 
 **代码#1:索引()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.index()
 
@@ -40,7 +40,7 @@ print ("Permutation b - index form : ", b.index())
 
 **代码#2:索引()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.index()
 

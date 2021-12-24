@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 
@@ -30,7 +30,7 @@ print(gfg_val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 

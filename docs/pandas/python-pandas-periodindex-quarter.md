@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`PeriodIndex.quarter`属性找出给定周期索引对象中每个周期的日期季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.quarter`属性找出 pidx 中每个时间段的日期季度。
 
-```
+```py
 # return the quarter of each date
 pidx.quarter
 ```
@@ -42,7 +42,7 @@ pidx.quarter
 
 **示例 2:** 使用`PeriodIndex.quarter`属性找出给定 PeriodIndex 对象中每个期间的日期季度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.quarter`属性找出 pidx 中每个时间段的日期季度。
 
-```
+```py
 # return the quarter of each date
 pidx.quarter
 ```

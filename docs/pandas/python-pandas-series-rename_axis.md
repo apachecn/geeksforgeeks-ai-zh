@@ -19,7 +19,7 @@ Pandas `**Series.rename_axis()**`功能用于设置索引或列的轴名。
 
 **示例#1:** 使用`Series.rename_axis()`功能重命名给定系列对象的轴。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.rename_axis()`函数来重命名给定系列对象的轴。
 
-```
+```py
 # rename the axis
 result = sr.rename_axis('Beverages')
 
@@ -56,7 +56,7 @@ print(result)
 
 **示例 2 :** 使用`Series.rename_axis()`功能重命名给定序列对象的多索引轴。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -80,7 +80,7 @@ print(sr)
 
 现在我们将使用`Series.rename_axis()`函数来重命名给定系列对象的轴。
 
-```
+```py
 # rename both the levels of the axis of 
 # the given series object
 result = sr.rename_axis(['First_level', 'Second_level'])

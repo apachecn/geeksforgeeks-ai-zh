@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.outer() function
 
@@ -32,7 +32,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[-1\.  0\.  1\.  2.]
  [-1\.  0\.  1\.  2.]
  [-1\.  0\.  1\.  2.]
@@ -42,7 +42,7 @@ print (gfg)
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.outer() function
 
@@ -59,7 +59,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[-2\. -1\.  0\.  1\.  2.]
  [-2\. -1\.  0\.  1\.  2.]
  [-2\. -1\.  0\.  1\.  2.]

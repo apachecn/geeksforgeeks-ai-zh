@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_aspect()函数**用于获取轴�
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

@@ -12,7 +12,7 @@
 
 **代码#1 : rank_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_gray()
 
@@ -36,7 +36,7 @@ print ("Subset a rank_gray : ", a.rank_gray)
 
 **代码#2 : rank_gray()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_gray()
 

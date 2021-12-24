@@ -8,7 +8,7 @@
 
 ## 语法:
 
-```
+```py
 Syntax:  cv2.subtract(image1, image2)
 ```
 
@@ -18,7 +18,7 @@ Syntax:  cv2.subtract(image1, image2)
 
 要安装 OpenCV，请在终端中键入以下命令。
 
-```
+```py
 python3 -m pip install opencv--python
 or
 pip install opencv-python
@@ -34,7 +34,7 @@ pip install opencv-python
 
 ## 蟒蛇 3
 
-```
+```py
 # importing opencv
 import cv2
 ```
@@ -45,7 +45,7 @@ import cv2
 
 ## 蟒蛇 3
 
-```
+```py
 # reading the images
 circle = cv2.imread('circle.png')
 star = cv2.imread('star.png')
@@ -59,7 +59,7 @@ star = cv2.imread('star.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # subtract the images
 subracted = cv2.subtract(star, circle)
 ```
@@ -78,7 +78,7 @@ subracted = cv2.subtract(star, circle)
 
 ## 蟒蛇 3
 
-```
+```py
 # TO show the output
 cv2.imshow('image', subracted)
 
@@ -95,7 +95,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing opencv
 import cv2
 

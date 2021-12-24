@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -38,7 +38,7 @@ print("After the element-wise division:", 
 
 **输出**T2:
 
-```
+```py
 Original array: [0 1 2 3 4]
 After the element-wise division: [0\.   0.25 0.5  0.75 1\.  ]
 ```
@@ -47,7 +47,7 @@ After the element-wise division: [0\.   0.25 0.5  0.75 1\.  ]
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 

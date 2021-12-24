@@ -8,7 +8,7 @@
 
 **参数:**
 
-```
+```py
 arr1    : [array_like]Input array, we need to test.
 arr2    : [array_like]Input array, we need to test.
 
@@ -16,14 +16,14 @@ arr2    : [array_like]Input array, we need to test.
 
 **返回:**
 
-```
+```py
 True, if both arrays are equivalent; otherwise False
 
 ```
 
 **代码:解释工作**
 
-```
+```py
 # Python program explaining
 # array_equiv() function
 import numpy as np
@@ -60,7 +60,7 @@ print ("\nb : ", b)
 
 **输出:**
 
-```
+```py
 arr1 :  [0 1 2 3]
 arr2 :  [7, 4, 6, 7]
 

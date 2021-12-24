@@ -47,7 +47,7 @@
 
 **例 1:**
 
-```
+```py
 from cycler import cycler
 import numpy as np
 import matplotlib.pyplot as plt
@@ -85,7 +85,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 plt.subplot(332)

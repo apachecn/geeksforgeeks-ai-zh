@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.iloc[0]
 ```
 
@@ -20,7 +20,7 @@ dataframe.iloc[0]
 
 **语法:**
 
-```
+```py
 dataframe.iloc[:1]
 ```
 
@@ -30,7 +30,7 @@ dataframe.iloc[:1]
 
 ## Python 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -55,7 +55,7 @@ print(data.iloc[:1])
 
 **输出** :
 
-```
+```py
 id            7058
 name        sravan
 subjects      java
@@ -69,7 +69,7 @@ Name: 0, dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(data['subjects'].iloc[:1])
 
 **输出:**
 
-```
+```py
 sravan
 ---------------
 0    java
@@ -105,7 +105,7 @@ Name: subjects, dtype: object
 
 **语法** :
 
-```
+```py
 dataframe.head(1)
 ```
 
@@ -113,7 +113,7 @@ dataframe.head(1)
 
 ## python 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -131,7 +131,7 @@ print(data.head(1))
 
 **输出** :
 
-```
+```py
  id    name subjects
 0  7058  sravan     java
 ```
@@ -140,7 +140,7 @@ print(data.head(1))
 
 ## python 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -158,7 +158,7 @@ print(data['id'].head(1))
 
 **输出:**
 
-```
+```py
 0    7058
 Name: id, dtype: int64
 ```
@@ -169,7 +169,7 @@ Name: id, dtype: int64
 
 **语法** :
 
-```
+```py
 dataframe.loc[dataframe.index[0]]
 ```
 
@@ -184,7 +184,7 @@ dataframe.loc[dataframe.index[0]]
 
 ## python 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -202,7 +202,7 @@ data.loc[data.index[0]]
 
 **输出:**
 
-```
+```py
 id            7058
 name        sravan
 subjects      java
@@ -215,11 +215,11 @@ Name: 0, dtype: object
 
 **语法** :
 
-```
+```py
 dataframe.values[0]
 ```
 
-```
+```py
 dataframe.values[:1]
 ```
 
@@ -227,7 +227,7 @@ dataframe.values[:1]
 
 ## python 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

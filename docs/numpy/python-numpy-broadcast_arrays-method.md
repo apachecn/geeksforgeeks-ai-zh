@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`Numpy.broadcast_arrays()`方法，我们能够使用两个或更多 numpy 数组来获得广播数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(np.broadcast_arrays(gfg1, gfg2))
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

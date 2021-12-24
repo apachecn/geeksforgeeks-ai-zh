@@ -9,7 +9,7 @@ numpy.meshgrid 函数用于从代表笛卡尔索引或矩阵索引的两个给�
 
 **例:**
 
-```
+```py
 Input : x = [-4, -3, -2, -1, 0, 1, 2, 3, 4]
         y = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5] 
 Output :
@@ -62,7 +62,7 @@ y_1 = array([[2., 2., 2., 2., 2., 2.],
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample code for generation of first example
 import numpy as np
 # from matplotlib import pyplot as plt
@@ -87,7 +87,7 @@ print(y_1)
 
 **Output:** 
 
-```
+```py
 x_1 = 
 [[-4\. -3\. -2\. -1\.  0\.  1\.  2\.  3\.  4.]
  [-4\. -3\. -2\. -1\.  0\.  1\.  2\.  3\.  4.]
@@ -117,7 +117,7 @@ y_1 =
 网格的坐标输出也可用于绘制给定坐标范围内的函数。
 **椭圆:**
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:
@@ -127,7 +127,7 @@ Error: Nothing to show, formula is empty
 
 ## 蟒蛇 3
 
-```
+```py
 ellipse = xx * 2 + 4 * yy**2
 plt.contourf(x_1, y_1, ellipse, cmap = 'jet')
 
@@ -143,7 +143,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 random_data = np.random.random((11, 9))
 plt.contourf(x_1, y_1, random_data, cmap = 'jet')
 
@@ -157,7 +157,7 @@ plt.show()
 
 **正弦函数:**
 
-```
+```py
 *** QuickLaTeX cannot compile formula:
 
 *** Error message:
@@ -167,7 +167,7 @@ Error: Nothing to show, formula is empty
 
 ## 蟒蛇 3
 
-```
+```py
 sine = (np.sin(x_1**2 + y_1**2))/(x_1**2 + y_1**2)
 plt.contourf(x_1, y_1, sine, cmap = 'jet')
 
@@ -183,7 +183,7 @@ plt.show()
 x_1，y_1 = np.meshgrid(x，y，稀疏=真)
 这将产生以下输出:
 
-```
+```py
 x_1 = [[-4\. -3\. -2\. -1\.  0\.  1\.  2\.  3\.  4.]]
 y_1 = [[-5.]
  [-4.]
@@ -208,7 +208,7 @@ Matrix indexing 返回的两个二维数组将是前一个程序生成的数组�
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample code for generation of Matrix indexing
 import numpy as np
 
@@ -239,7 +239,7 @@ print(np.all(y_2 == y_1.T))
 
 **Output:** 
 
-```
+```py
 x_2 = 
 [[-4\. -4\. -4\. -4\. -4\. -4\. -4\. -4\. -4\. -4\. -4.]
  [-3\. -3\. -3\. -3\. -3\. -3\. -3\. -3\. -3\. -3\. -3.]

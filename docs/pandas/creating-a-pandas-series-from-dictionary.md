@@ -12,7 +12,7 @@ A **`Series`** 是一个一维标注数组，能够保存任意数据类型(整�
 
 **代码#1 :** 字典键按排序顺序给出。
 
-```
+```py
 # import the pandas lib as pd
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(series)
 
 **Output:**
 
-```
+```py
 A    10
 B    20
 C    30
@@ -37,7 +37,7 @@ dtype: int64
 
 **代码#2 :** 字典键按未排序的顺序给出。
 
-```
+```py
 # import the pandas lib as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ print(series)
 
 **Output:**
 
-```
+```py
 B    20
 C    30
 D    10
@@ -66,7 +66,7 @@ dtype: int64
 
 **代码#1 :** 索引列表的长度与字典中存在的键的数量相同。
 
-```
+```py
 # import the pandas lib as pd
 import pandas as pd
 
@@ -81,7 +81,7 @@ print(series)
 
 **Output:**
 
-```
+```py
 B    10
 C    80
 A    50
@@ -91,7 +91,7 @@ dtype: int64
 
 **代码#2 :** 传递的索引列表的长度大于字典中存在的键的数量在这种情况下，索引顺序保持不变，缺少的元素用 NaN(不是数字)填充。
 
-```
+```py
 # import the pandas lib as pd
 import pandas as pd
 
@@ -106,7 +106,7 @@ print(series)
 
 **Output:**
 
-```
+```py
 B    10
 C    80
 D   NaN

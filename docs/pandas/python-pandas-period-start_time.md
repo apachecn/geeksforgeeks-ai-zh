@@ -14,7 +14,7 @@ Pandas `**Period.start_time**`属性返回一个包含给定周期对象开始�
 
 **示例#1:** 使用`Period.start_time`属性查找给定周期对象的开始时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(prd)
 
 现在我们将使用`Period.start_time`属性来查找 prd 对象的开始时间。
 
-```
+```py
 # return the start time
 prd.start_time
 ```
@@ -45,7 +45,7 @@ prd.start_time
 
 **示例#2:** 使用`Period.start_time`属性查找给定周期对象的开始时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(prd)
 
 现在我们将使用`Period.start_time`属性来查找 prd 对象的开始时间。
 
-```
+```py
 # return the start time
 prd.start_time
 ```

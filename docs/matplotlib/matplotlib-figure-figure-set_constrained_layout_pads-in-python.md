@@ -23,7 +23,7 @@ matplotlib 库的 **set_constrained_layout_pads()方法**图形模块用于设�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -67,7 +67,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

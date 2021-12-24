@@ -24,7 +24,7 @@ matplotlib 库的 Axes 模块中的 **Axes.vlines()函数**用于绘制从 ymin 
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -46,7 +46,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

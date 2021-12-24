@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.astype() method
 
@@ -46,7 +46,7 @@ print(out_arr.dtype)
 
 **Output:** 
 
-```
+```py
 Input array :  [ 1  2  3 -1  5]
 Masked array :  [1 2 -- -1 5]
 int32
@@ -58,7 +58,7 @@ float64
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.astype() method
 
@@ -90,7 +90,7 @@ print(out_arr.dtype)
 
 **Output:** 
 
-```
+```py
 Input array :  [10.1 20.2 30.3 40.4 50.5]
 Masked array :  [-- 20.2 -- 40.4 50.5]
 float64

@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.to_frame()`函数从给定的日期时间索引对象创建数据框对象。同样将索引值设置为`False`
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(didx)
 
 现在，我们想从 DatetimeIndex 对象中构造一个数据帧。
 
-```
+```py
 # construct the DataFrame
 didx.to_frame(index = False)
 ```
@@ -43,7 +43,7 @@ didx.to_frame(index = False)
 
 **示例#2:** 使用`DatetimeIndex.to_frame()`函数从给定的 DatetimeIndex 对象创建一个数据框对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(didx)
 
 现在，我们想从 DatetimeIndex 对象中构造一个数据帧。
 
-```
+```py
 # construct the DataFrame
 didx.to_frame(index = True)
 ```

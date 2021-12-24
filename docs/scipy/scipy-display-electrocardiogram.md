@@ -26,7 +26,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import electrocardiogram
 import matplotlib.pyplot as plt
 from scipy.misc import electrocardiogram
@@ -60,7 +60,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import electrocardiogram
 import matplotlib.pyplot as plt
 from scipy.misc import electrocardiogram

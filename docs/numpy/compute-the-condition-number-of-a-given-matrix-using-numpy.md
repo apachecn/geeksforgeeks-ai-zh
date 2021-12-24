@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 numpy.linalg.cond(x, p=None)
 ```
 
@@ -16,7 +16,7 @@ numpy.linalg.cond(x, p=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -35,7 +35,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[4 2]
  [3 1]]
@@ -48,7 +48,7 @@ Condition number of the matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -67,7 +67,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[4 2 0]
  [3 1 2]
@@ -81,7 +81,7 @@ Condition number of the matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -101,7 +101,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[4 1 4 2]
  [3 1 2 0]

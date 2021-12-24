@@ -4,7 +4,7 @@
 
 In Simpy, the function `Plane.is_coplanar()` is used to check whether the given planes are coplanar or not.
 
-```
+```py
 Syntax: Plane.is_coplanar(p)
 
 Parameter:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -35,13 +35,13 @@ print(isCoplanar)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -59,6 +59,6 @@ print(isCoplanar)
 
 **输出:**
 
-```
+```py
 False
 ```

@@ -30,7 +30,7 @@ matplotlib 库 pyplot 模块中的 **errorbar()函数** 用于将 y 对 x 绘制
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x_values = [5, 4, 3, 2, 1]
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x_values = [0, 1, 2, 3, 4, 5]
@@ -75,7 +75,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x_values = [0, 1, 2, 3, 4, 5]

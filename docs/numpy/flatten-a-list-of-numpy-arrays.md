@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -56,7 +56,7 @@ print(flatten.ravel())
 
 **输出:**
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 ```
 
@@ -65,7 +65,7 @@ print(flatten.ravel())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -96,7 +96,7 @@ print(flatten)
 
 **输出:**
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 ```
 
@@ -105,7 +105,7 @@ print(flatten)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -136,7 +136,7 @@ print(flatten)
 
 **输出:**
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 ```
 
@@ -145,7 +145,7 @@ print(flatten)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -176,6 +176,6 @@ print(flatten)
 
 **输出:**
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]
 ```

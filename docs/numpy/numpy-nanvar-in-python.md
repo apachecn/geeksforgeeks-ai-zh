@@ -27,7 +27,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanvar() method 
 import numpy as np 
@@ -47,7 +47,7 @@ print("var of arr : ", np.var(arr, dtype = np.float32)) 
 
 **输出:**
 
-```
+```py
 arr :  [20, 2, nan, 1, 34]
 
 nanvar of arr :  187.1875
@@ -59,7 +59,7 @@ var of arr :  nan
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.nanvar() method 
 import numpy as np 
@@ -86,7 +86,7 @@ print("\nnanvar of arr, axis = 1 : ", np.nanvar(arr, axis = 1)) 
 
 **输出:**
 
-```
+```py
 nanvar of arr, axis = None :  249.88888888888889
 
 var of arr, axis = None :  nan

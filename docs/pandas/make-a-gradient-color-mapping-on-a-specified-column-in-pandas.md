@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -64,7 +64,7 @@ df.style.background_gradient()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -93,7 +93,7 @@ df.style.background_gradient(subset='B')
 
 ## 蟒蛇 3
 
-```
+```py
 df.style.background_gradient(subset='D')
 ```
 

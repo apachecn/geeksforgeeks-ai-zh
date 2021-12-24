@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn as sb
 
@@ -49,7 +49,7 @@ sb.barplot(x="size",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn as sb
 
@@ -75,7 +75,7 @@ sb.barplot(x="size",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import seaborn as sb
 

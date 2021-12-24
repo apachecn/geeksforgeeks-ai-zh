@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.hermegrid3d()`方法，我们能够使用该方法来评估 x、y 和 z 的笛卡尔乘积上的 3-D hermite 级数。
 
-```
+```py
 # import numpy and hermegrid3d
 import numpy as np
 from numpy.polynomial.hermite_e import hermegrid3d
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermegrid3d
 import numpy as np
 from numpy.polynomial.hermite_e import hermegrid3d

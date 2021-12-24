@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.astype()`函数将时间增量索引对象的值转换为“字符串”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.astype()`函数将该值转换为字符串。
 
-```
+```py
 # cast the data values to string format.
 tidx.astype('str')
 ```
@@ -48,7 +48,7 @@ tidx.astype('str')
 
 **示例 2:** 使用`TimedeltaIndex.astype()`函数将时间增量索引对象的值转换为“布尔”。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -66,7 +66,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.astype()`函数将该值转换为布尔类型。
 
-```
+```py
 # cast the data values to bool type.
 tidx.astype('bool')
 ```

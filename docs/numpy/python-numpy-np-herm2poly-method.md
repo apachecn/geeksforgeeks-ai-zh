@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.herm2poly()`方法，我们能够使用该方法从埃尔米特级数中获得多项式的系数。
 
-```
+```py
 # import numpy and herm2poly
 import numpy as np
 from numpy.polynomial.hermite import herm2poly
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and herm2poly
 import numpy as np
 from numpy.polynomial.hermite import herm2poly

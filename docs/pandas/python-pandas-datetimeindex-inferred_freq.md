@@ -12,7 +12,7 @@ Pandas `**DatetimeIndex.inferred_freq**`属性试图返回一个表示频率猜�
 
 **示例#1:** 使用`DatetimeIndex.inferred_freq`属性自动检测给定日期时间索引对象的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(didx)
 
 现在，我们希望函数自动检测给定日期时间索引对象的频率。
 
-```
+```py
 # find the frequency of the object.
 didx.inferred_freq
 ```
@@ -40,7 +40,7 @@ didx.inferred_freq
 
 **示例 2:** 使用`DatetimeIndex.inferred_freq`属性自动检测给定日期时间索引对象的频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(didx)
 
 现在，我们希望函数自动检测给定日期时间索引对象的频率。
 
-```
+```py
 # find the frequency of the object.
 didx.inferred_freq
 ```

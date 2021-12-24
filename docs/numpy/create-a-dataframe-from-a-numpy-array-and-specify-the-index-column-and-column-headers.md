@@ -14,7 +14,7 @@
 
 **例 1 :**
 
-```
+```py
 # importiong the modules
 import pandas as pd
 import numpy as np
@@ -45,7 +45,7 @@ print(df)
 
 **例 2 :**
 
-```
+```py
 # importiong the modules
 import pandas as pd
 import numpy as np
@@ -75,7 +75,7 @@ print(df)
 
 **例 3 :**
 
-```
+```py
 # importiong the modules
 import pandas as pd
 import numpy as np

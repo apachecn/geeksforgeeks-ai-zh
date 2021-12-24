@@ -5,14 +5,14 @@
 **numpy.empty(shape，dtype = float，order = 'C') :** 返回给定形状和类型的新数组，带有随机值。
 T3】参数:
 
-```
+```py
 -> shape : Number of rows
 -> order : C_contiguous or F_contiguous
 -> dtype : [optional, float(by Default)] Data type of returned array.  
 
 ```
 
-```
+```py
 # Python Programming illustrating
 # numpy.empty method
 
@@ -30,7 +30,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [         0 1079574528]
 

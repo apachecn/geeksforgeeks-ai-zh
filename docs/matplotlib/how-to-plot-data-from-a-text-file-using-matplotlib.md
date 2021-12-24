@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 ```
@@ -36,7 +36,7 @@ import csv
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 

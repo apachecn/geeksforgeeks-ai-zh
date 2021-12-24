@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数 Plane.parallel_plane()用于返回平行于给定平面并通过给定点的平面。
 
-```
+```py
 Syntax: Plane.parallel_plane(pt)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns: Plane
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -32,7 +32,7 @@ print(parallelPlane)
 
 **输出:**
 
-```
+```py
 Plane(Point3D(2, 3, 5), (4, 5, 6))
 ```
 
@@ -40,7 +40,7 @@ Plane(Point3D(2, 3, 5), (4, 5, 6))
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -55,6 +55,6 @@ print(parallelPlane)
 
 **输出:**
 
-```
+```py
 Plane(Point3D(1, 2, 3), (-23, 11, -2))
 ```

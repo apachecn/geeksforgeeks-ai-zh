@@ -20,7 +20,7 @@ matplotlib 库中 Axes 模块中的 **Axes.get_label()函数**用于获取图例
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

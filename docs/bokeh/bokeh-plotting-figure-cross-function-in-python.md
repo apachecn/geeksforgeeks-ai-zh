@@ -29,7 +29,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np
@@ -50,7 +50,7 @@ show(plot)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Implementation of bokeh function
 
 import numpy as np

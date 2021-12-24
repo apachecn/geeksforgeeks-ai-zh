@@ -17,7 +17,7 @@ T3】
 
 **代码#1:创建余弦连续随机变量**
 
-```
+```py
 from scipy.stats import cosine
 numargs = cosine.numargs
 [] = [0.6, ] * numargs
@@ -28,14 +28,14 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV :  
 <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001FDC89DEE10>
 ```
 
 **代码#2:余弦随机变量和概率分布函数。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -50,7 +50,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 1.2323289   2.49938238  0.29072394 -1.10925673  0.55881836  1.70470811
   1.29090489  2.64865261  4.32789346  0.14597439]
@@ -62,7 +62,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -74,7 +74,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06411414 0.12822827 0.19234241 0.25645654 0.32057068
  0.38468481 0.44879895 0.51291309 0.57702722 0.64114136 0.70525549
@@ -92,7 +92,7 @@ Distribution :
 
 **代码#4:不同的位置和比例**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

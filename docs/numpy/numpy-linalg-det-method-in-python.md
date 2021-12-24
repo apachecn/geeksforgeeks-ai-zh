@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 from numpy import linalg as LA
 
@@ -27,7 +27,7 @@ print(np.linalg.det(array1))
 
 **输出:**
 
-```
+```py
 [[1 2]
  [3 4]]
 -2.0000000000000004
@@ -37,7 +37,7 @@ print(np.linalg.det(array1))
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 from numpy import linalg as LA
 
@@ -52,7 +52,7 @@ print(np.linalg.det(array1))
 
 **输出:**
 
-```
+```py
 [[1 2 3]
  [3 4 1]
  [3 2 1]]

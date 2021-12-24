@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在本例中，函数弹出并返回了一列。然后将新的数据帧与旧的数据帧进行比较。
 
-```
+```py
 import pandas as pd
 # importing pandas package
 
@@ -44,7 +44,7 @@ data
 **示例#2:** 在其他数据帧
 中 pop 和 push 在此示例中，制作数据帧的副本，并将弹出的列插入到其他数据帧的末尾。
 
-```
+```py
 import pandas as pd
 # importing pandas package
 

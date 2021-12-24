@@ -23,7 +23,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_ticklabels()函数**用于获取�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 
@@ -79,7 +79,7 @@ plt.show()
 
 ![](img/8548fb0722d721fcc18b6fc3785dd4c5.png)
 
-```
+```py
 Value of get_ticklabels() :
 Text(0, 0, '$a{content}apos;)
 Text(0, 0, '$valx{content}apos;)
@@ -91,7 +91,7 @@ Text(0, 0, '$b{content}apos;)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 
@@ -129,7 +129,7 @@ plt.show()
 
 ![](img/f29e7140631146287f7ff7c0d90b69b9.png)
 
-```
+```py
 Value of get_ticklabels() :
 Text(0, 0, '0')
 Text(0, 0, '$\\pi{content}apos;)

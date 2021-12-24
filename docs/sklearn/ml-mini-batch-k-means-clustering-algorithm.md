@@ -14,7 +14,7 @@
 
 **以下是*小批量 K-means*–**的算法
 
-```
+```py
 Given a dataset D = {d1, d2, d3, .....dn},
                        no. of iterations t,
                        batch size b, 
@@ -55,7 +55,7 @@ end for
 
 Python 实现上述算法使用 *scikit-learn* 库:
 
-```
+```py
 from sklearn.cluster import MiniBatchKMeans, KMeans
 from sklearn.metrics.pairwise import pairwise_distances_argmin
 from sklearn.datasets.samples_generator import make_blobs

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Demo Trackbar
 # importing cv2 and numpy
 import cv2

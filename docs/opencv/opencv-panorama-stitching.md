@@ -37,7 +37,7 @@ OpenCV 的拼接算法类似于 Lowe 和 Brown 关于使用不变特征进行自
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 image_paths=['1.jpg','2.jpg','3.jpg']
 # initialized a list of images

@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.transpose()`函数找到给定 Series 对象的转置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们用`Series.transpose()`函数求给定级数对象的转置。
 
-```
+```py
 # find the transpose
 sr.transpose()
 ```
@@ -51,7 +51,7 @@ sr.transpose()
 
 **示例 2:** 使用`Dataframe.transpose()`函数查找给定数据帧的转置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(df)
 
 现在我们将使用`Dataframe.transpose()`函数找到给定数据帧的转置。
 
-```
+```py
 # find the transpose
 df.transpose()
 ```

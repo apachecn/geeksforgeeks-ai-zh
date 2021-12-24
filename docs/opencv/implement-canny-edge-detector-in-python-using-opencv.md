@@ -57,7 +57,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import os
 import cv2

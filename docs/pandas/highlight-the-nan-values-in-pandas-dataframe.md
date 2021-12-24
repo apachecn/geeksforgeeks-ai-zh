@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 import numpy as np
@@ -39,7 +39,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting cell with nan values
 df.style.highlight_null('red')
 ```
@@ -55,7 +55,7 @@ T3】例:
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting text instead of the 
 # cell's background
 df.style.applymap(lambda cell: 'color:red' if pd.isnull(cell) else '')
@@ -72,7 +72,7 @@ df.style.applymap(lambda cell: 'color:red' if pd.isnull(cell) else '')
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting text of the complete row
 df.style.apply(lambda row: np.repeat('color: red' if row.isnull().any() else '',
                                      row.shape[0]), axis=1)

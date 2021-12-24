@@ -14,7 +14,7 @@ Pandas `**Index.nbytes**`属性返回存储给定索引对象的底层数据所�
 
 **示例#1:** 使用`Index.nbytes`属性找出存储给定索引对象的底层数据所需的字节数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.nbytes`属性找出在给定的 Index 对象中存储数据所需的字节数。
 
-```
+```py
 # return the number of bytes occupied 
 # by idx object
 result = idx.nbytes
@@ -45,7 +45,7 @@ print(result)
 
 **示例 2 :** 使用`Index.nbytes`属性找出存储给定 Index 对象的底层数据所需的字节数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(idx)
 
 现在我们将使用`Index.nbytes`属性找出在给定的 Index 对象中存储数据所需的字节数。
 
-```
+```py
 # return the number of bytes occupied 
 # by idx object
 result = idx.nbytes

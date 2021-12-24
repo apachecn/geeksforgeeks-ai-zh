@@ -5,13 +5,13 @@
 NaN 代表 Not A Number，是表示数据中缺失值的常用方法之一。它是一个特殊的浮点值，不能转换为除浮点以外的任何其他类型。NaN 值是数据分析中的主要问题之一。为了得到预期的结果，与 NaN 打交道是非常必要的。在本文中，我们将讨论如何删除具有 NaN 值的行。
 我们可以使用 [dropna()](http://geeksforgeeks.org/python-pandas-dataframe-dropna/) 函数删除熊猫数据框中具有 NaN 值的行
 
-```
+```py
  df.dropna() 
 ```
 
 对于特定的列，也可以使用以下语句删除具有 NaN 值的行:
 
-```
+```py
 df.dropna(subset, inplace=True)
 ```
 
@@ -21,7 +21,7 @@ df.dropna(subset, inplace=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -45,7 +45,7 @@ df
 
 **注意:**我们也可以使用 [reset_index()](https://www.geeksforgeeks.org/python-pandas-dataframe-reset_index/) 方法重置指数
 
-```
+```py
 df = df.reset_index(drop=True)
 ```
 
@@ -53,7 +53,7 @@ df = df.reset_index(drop=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -85,7 +85,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -116,7 +116,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import numpy as np
@@ -150,7 +150,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np
@@ -184,7 +184,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import pandas as pd
 import numpy as np

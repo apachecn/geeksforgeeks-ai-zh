@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -47,7 +47,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[1 2]
  [0 2]]
@@ -63,7 +63,7 @@ Einstein’s summation convention of the two matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -84,7 +84,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[2 3 5]
  [4 0 2]
@@ -103,7 +103,7 @@ Einstein’s summation convention of the two matrix:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import numpy as np
 
@@ -127,7 +127,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 Original matrix:
 [[1 2 3 5]
  [4 4 0 2]

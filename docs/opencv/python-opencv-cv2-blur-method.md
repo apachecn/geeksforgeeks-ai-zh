@@ -18,7 +18,7 @@
 ![](img/e638a8aba84706d59fd64004a669dca6.png)
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.blur() method 
 
 # importing cv2 
@@ -48,7 +48,7 @@ cv2.imshow(window_name, image) 
 
 **例 2:**
 
-```
+```py
 # Python program to explain cv2.blur() method 
 
 # importing cv2 

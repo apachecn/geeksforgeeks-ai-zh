@@ -31,7 +31,7 @@ matplotlib 库中 pyplot 模块中的 **tricontourf()函数**用于在非结构�
 
 ## 蟒蛇 3
 
-```
+```py
 #Implementation of matplotlib function
 import matplotlib.pyplot as plt 
 import matplotlib.tri as mtri 
@@ -66,7 +66,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Implementation of matplotlib function
 import matplotlib.pyplot as plt 
 import matplotlib.tri as tri 

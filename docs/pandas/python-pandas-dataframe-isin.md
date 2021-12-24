@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:单参数过滤**
 在以下示例中，将检查行并返回一个布尔序列，该序列在性别=“男性”处为真。然后，序列被传递到数据帧，以查看新的过滤数据帧。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -39,7 +39,7 @@ data[new]
 **示例#2:多参数过滤**
 在以下示例中，数据框是根据性别和团队进行过滤的。返回性别为“女性”和团队为“工程”、“分销”或“财务”的行。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.min()`函数在给定的索引中查找最小元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ idx
 
 现在我们在给定的索引中找到最小值。
 
-```
+```py
 # return min value.
 idx.min()
 ```
@@ -41,7 +41,7 @@ idx.min()
 
 **示例 2:** 使用`Index.min()`函数在索引中查找最小值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ idx
 
 现在我们将在索引的标签中找到最小值。
 
-```
+```py
 # the function will return the minimum
 #  value present in the Index
 idx.min()

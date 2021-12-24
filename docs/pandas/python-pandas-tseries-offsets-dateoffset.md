@@ -20,7 +20,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset`功能创建 2 天的日期偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的 timestamp 对象中，以从给定的日期创建一个 2 天的偏移量。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -61,7 +61,7 @@ print(new_timestamp)
 
 **示例 2:** 使用`pandas.tseries.offsets.DateOffset`功能创建 10 天 2 小时的日期偏移。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -86,7 +86,7 @@ print(do)
 
 现在，我们将把 dateoffset 添加到给定的时间戳对象中，以从给定的日期创建一个 10 天 2 小时的偏移量。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

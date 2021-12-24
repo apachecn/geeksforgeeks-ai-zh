@@ -9,7 +9,7 @@
 
 **示例#1 :**
 
-```
+```py
 
 # Python program explaining
 # numpy.polyzero() method 
@@ -30,7 +30,7 @@ print(ans)
 
 **例 2 :**
 
-```
+```py
 # Python program explaining
 # numpy.polyzero() method 
 

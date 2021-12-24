@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_sketch_params()函数**用于获�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

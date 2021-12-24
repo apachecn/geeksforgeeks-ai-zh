@@ -10,7 +10,7 @@
 
 **代码#1:随机()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.random()
 
@@ -36,7 +36,7 @@ print ("Permutation b - random form : ", b.random(5))
 
 **代码#2:随机()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.random()
 

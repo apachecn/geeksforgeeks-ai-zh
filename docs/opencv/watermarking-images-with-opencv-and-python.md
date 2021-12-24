@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # watermarking image using OpenCV
 
 # importing cv2
@@ -42,7 +42,7 @@ img = cv2.imread("dark.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # calculating dimensions
 # height and width of the logo
 h_logo, w_logo, _ = logo.shape
@@ -57,7 +57,7 @@ h_img, w_img, _ = img.shape
 
 ## 蟒蛇 3
 
-```
+```py
 # calculating coordinates of center
 # calculating center, where we are going 
 # to place our watermark

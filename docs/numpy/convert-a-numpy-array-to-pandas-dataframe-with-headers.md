@@ -13,7 +13,7 @@
 
 **Example 1 :**
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -33,7 +33,7 @@ df
 
 **例 2 :**
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -53,7 +53,7 @@ df
 
 **例 3 :**
 
-```
+```py
 import numpy as np
 import pandas as pd
 

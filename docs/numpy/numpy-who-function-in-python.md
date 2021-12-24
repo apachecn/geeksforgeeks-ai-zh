@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the numpy module as np
 import numpy as np
 
@@ -38,7 +38,7 @@ np.who(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the numpy module as np
 import numpy as np
 

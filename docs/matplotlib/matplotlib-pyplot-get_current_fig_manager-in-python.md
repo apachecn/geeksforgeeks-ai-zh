@@ -18,7 +18,7 @@ matplotlib 库 pyplot 模块中的 **get_current_fig_manager()方法**用于获�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -50,7 +50,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import numpy as np  
 import matplotlib.pyplot as plt  

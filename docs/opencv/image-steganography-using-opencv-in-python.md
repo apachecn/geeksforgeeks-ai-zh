@@ -36,7 +36,7 @@
 
 我们想在 image1 中隐藏 image2。下面是实现。
 
-```
+```py
 # Python program to demonstrate
 # image steganography using OpenCV
 

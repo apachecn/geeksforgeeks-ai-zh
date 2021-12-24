@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the libraries
 from scipy.cluster import hierarchy
 from scipy.cluster.hierarchy import dendrogram
@@ -62,7 +62,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating Dendrogram for our data
 # Z = linkage matrix
 Z = hierarchy.linkage(data, method='average')
@@ -88,7 +88,7 @@ dendrogram = hierarchy.dendrogram(Z)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating Dendrogram for our data
 # max_d = cut-off/ Threshold value
 max_d = 4

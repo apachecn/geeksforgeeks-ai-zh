@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_clip_box()函数**用于获取 cl
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -54,7 +54,7 @@ plt.show()
 
 ![](img/faaf4a6b54ab659e0d86b5b7a2c2f4c3.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),
@@ -144,7 +144,7 @@ TransformedBbox(
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt  
@@ -187,7 +187,7 @@ plt.show()
 
 ![](img/f601f9f1591d69dd978d88d1f75ce855.png)
 
-```
+```py
 Value Return by get_clip_box()
 TransformedBbox(
     Bbox(x0=0.125, y0=0.10999999999999999, x1=0.9, y1=0.88),

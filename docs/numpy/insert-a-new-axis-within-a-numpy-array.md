@@ -4,7 +4,7 @@
 
 这篇文章讨论了在 NumPy 中增加数组维数的方法。NumPy 为我们提供了两种不同的内置函数来增加数组的维数，即
 
-```
+```py
 1D array will become 2D array
 2D array will become 3D array
 3D array will become 4D array
@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 arr = np.arange(5*5).reshape(5, 5)

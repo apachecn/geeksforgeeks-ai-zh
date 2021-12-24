@@ -20,7 +20,7 @@ matplotlib.colors.hsv_to_rgb()函数用于将 hsv 值转换为 rgb。
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.colors
 import numpy as np
@@ -75,7 +75,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 from matplotlib.colors import hsv_to_rgb
 
 # sample squares for example

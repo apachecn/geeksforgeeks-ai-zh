@@ -10,7 +10,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.nonzero() function
 
@@ -28,14 +28,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (array([0, 1, 2, 3, 4]), array([0, 1, 2, 3, 4]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ma.MaskedArray.nonzero() function
 
@@ -53,7 +53,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 (array([1, 1, 1, 2, 2, 2]), array([0, 1, 2, 0, 1, 2]))
 
 ```

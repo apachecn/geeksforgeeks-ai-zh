@@ -15,7 +15,7 @@ OpenCV 图像和 PIL 图像的基本区别是 OpenCV 遵循 BGR 颜色惯例，P
 
 **语法:**
 
-```
+```py
 imread(path, flag)
 ```
 
@@ -30,7 +30,7 @@ imread(path, flag)
 
 **语法:**
 
-```
+```py
 cvtColor(src, code[, dst[, dstCn]])
 ```
 
@@ -53,7 +53,7 @@ cvtColor(src, code[, dst[, dstCn]])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert from openCV2 to PIL
 
 import cv2

@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # python code demonstrating usage of radians
 # method to convert degrees to radians
 # importing numpy library
@@ -40,7 +40,7 @@ print('Values of array in radians:',radian_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # python code demonstrating usage of radians
 # method to convert degrees to radians
 # importing numpy library
@@ -68,7 +68,7 @@ print('Values of array in radians:',radian_array)
 
 ## 蟒蛇 3
 
-```
+```py
 # python code demonstrating usage of radians
 # method to convert degrees to radians
 # importing numpy library

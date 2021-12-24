@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.duplicated()`函数指示索引中除第一个值之外的所有重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ idx
 
 让我们看看索引中的值是重复值还是唯一值。
 
-```
+```py
 # Identify the duplicated values except the first
 idx.duplicated(keep ='first')
 ```
@@ -47,7 +47,7 @@ idx.duplicated(keep ='first')
 
 **示例 2:** 使用`Index.duplicated()`功能识别所有重复值。这里所有的重复值将被标记为`True`
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -65,7 +65,7 @@ idx
 
 **注:**我们在指数中有`NaN`值。
 
-```
+```py
 # Identify all duplicated occurrence of values
 idx.duplicated(keep = False)
 ```

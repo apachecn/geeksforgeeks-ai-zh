@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_ticklocs()函数**用于获取数
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 
@@ -77,7 +77,7 @@ plt.show()
 
 ![](img/827d5ae8c5b7c0d224e6bd86093bd9f9.png)
 
-```
+```py
 Value of get_ticklocs() :
 2
 7
@@ -89,7 +89,7 @@ Value of get_ticklocs() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import numpy as np 
@@ -128,7 +128,7 @@ plt.show()
 
 ![](img/c3db4557373a1c58d74f3a3781f02a3e.png)
 
-```
+```py
 Value of get_ticklocs() :
 0.0
 3.141592653589793

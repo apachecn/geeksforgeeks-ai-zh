@@ -21,7 +21,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.nancumsum() function
 
@@ -36,7 +36,7 @@ print ("cumulative sum of input number : ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 cumulative sum of input number :  [10]
 
@@ -44,7 +44,7 @@ cumulative sum of input number :  [10]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.nancumsum() function
 
@@ -60,7 +60,7 @@ print ("cumulative sum of array elements: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   4\.   6.]
  [  1\.   3\.  nan]]
 cumulative sum of array elements:  [  2\.   6\.  12\.  13\.  16\.  16.]
@@ -69,7 +69,7 @@ cumulative sum of array elements:  [  2\.   6\.  12\.  13\.  16\.  16.]
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.nancumsum() function
 
@@ -85,7 +85,7 @@ print ("cumulative sum of array elements taking axis 0: ", out_sum) 
 
 **输出:**
 
-```
+```py
 Input array :  [[  2\.   4\.   6.]
  [  1\.   3\.  nan]]
 cumulative sum of array elements taking axis 0:  [[ 2\.  4\.  6.]

@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.between_time()`函数返回给定持续时间内的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 
 现在我们将使用`Series.between_time()`函数返回给定持续时间内的值。
 
-```
+```py
 # return values between the passed time duration
 result = sr.between_time(start_time = '10:45', end_time = '15:45')
 
@@ -55,7 +55,7 @@ print(result)
 
 **示例 2 :** 使用`Series.between_time()`函数返回给定持续时间内的值。跳过对应于开始和结束时间的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.between_time()`函数返回给定持续时间内的值。跳过对应于开始和结束时间的值。
 
-```
+```py
 # return values between the passed time duration
 # skip the start and end time
 result = sr.between_time(start_time = '10:45', end_time = '15:45',

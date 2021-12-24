@@ -22,7 +22,7 @@ matplotlib.colors.to_rgba()函数用于将 c(颜色)转换为 rgba 颜色。它�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
 from matplotlib import colors as mcolors
@@ -73,7 +73,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 

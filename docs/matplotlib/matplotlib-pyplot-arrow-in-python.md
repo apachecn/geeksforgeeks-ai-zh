@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Initializing values
@@ -51,7 +51,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =[1, 2, 3, 4, 5]
@@ -77,7 +77,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =[1, 2, 3, 4, 5]

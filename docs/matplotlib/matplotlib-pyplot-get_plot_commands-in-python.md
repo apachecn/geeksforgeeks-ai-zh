@@ -18,7 +18,7 @@ matplotlib 库 pyplot 模块中的 **get_plot_commands()方法**用于获取所�
 
 **示例:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -32,7 +32,7 @@ for i in w:
 
 **输出:**
 
-```
+```py
 List of all of the plotting commands : 
 acorr
 angle_spectrum

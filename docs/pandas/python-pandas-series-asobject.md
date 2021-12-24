@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.asobject`属性返回包含给定系列对象的装箱值的对象系列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(sr)
 
 现在我们将使用`Series.asobject`属性将序列转换为对象类型的数组。
 
-```
+```py
 # to return the series as object
 sr.asobject
 ```
@@ -43,7 +43,7 @@ sr.asobject
 
 **示例 2 :** 使用`Series.asobject`属性返回包含给定系列对象的装箱值的对象系列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(sr)
 
 现在我们将使用`Series.asobject`属性将序列转换为对象类型的数组。
 
-```
+```py
 # to return the series as object
 sr.asobject
 ```

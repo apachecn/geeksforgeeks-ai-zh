@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.sets.Lopen()`方法，我们能够通过定义左方括号来找到值集。
 
-```
+```py
 # import sympy
 from sympy.sets import Interval
 
@@ -28,7 +28,7 @@ print(gfg.contains(8))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy.sets import Interval
 

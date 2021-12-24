@@ -12,7 +12,7 @@
 
 **zipfile36 模块:**该模块用于使用简单的 python 程序对 zip 文件执行各种操作。可以使用以下命令安装:
 
-```
+```py
 pip install zipfile36
 ```
 
@@ -22,7 +22,7 @@ pip install zipfile36
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import zipfile
 import pandas as pd
@@ -44,7 +44,7 @@ print(df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import zipfile
 import pandas as pd

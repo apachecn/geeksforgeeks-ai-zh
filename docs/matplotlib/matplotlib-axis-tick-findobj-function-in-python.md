@@ -24,7 +24,7 @@ matplotlib 库的轴模块中的 **Tick.findobj()函数**用于查找艺术家�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -49,7 +49,7 @@ plt.show()
 
 ![](img/c222e1e01d41e4b4ec30de88419e83c6.png)
 
-```
+```py
 Value return : 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.787316, angle=0)
@@ -162,7 +162,7 @@ AxesSubplot(0.125,0.11;0.775x0.77)
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import numpy as np  
@@ -192,7 +192,7 @@ plt.show()
 
 ![](img/12e8b913c5585d1ecf021f96ff349d73.png)
 
-```
+```py
 Value return : 
 
 Circle(xy=(0.5, 0.5), radius=0.25)

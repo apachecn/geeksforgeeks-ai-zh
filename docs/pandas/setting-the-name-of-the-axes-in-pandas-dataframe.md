@@ -10,7 +10,7 @@
 
 **代码#1 :** 我们可以使用`df.index.name`属性重置数据框索引的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -24,7 +24,7 @@ print(df)
 **输出:**
 ![](img/bae8f166fcdcf486d1e396ba55d86dc5.png)
 
-```
+```py
 # set the index name
 df.index.name = 'Index_name'
 
@@ -37,7 +37,7 @@ print(df)
 
 **代码#2 :** 我们可以使用`df.rename_axis()`功能重置数据框索引的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(df)
 
 **代码#1 :** 我们可以使用`df.rename_axis()`功能重置数据框列轴的名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(df)
 
 正如我们在输出中看到的，df DataFrame 的列轴没有任何名称。所以，我们将使用`df.rename_axis()`功能设置名称。
 
-```
+```py
 # set the name of column axes
 df.rename_axis('Column_Index_name', axis = 'columns')
 

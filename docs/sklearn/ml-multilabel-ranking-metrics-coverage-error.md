@@ -23,7 +23,7 @@ where rank is defined as
 
 **代码:使用 scikit-learn 检查任何带有真实标签的预测分数的覆盖率误差。**
 
-```
+```py
 # Import dataset
 import numpy as np
 from sklearn.metrics import coverage_error
@@ -36,7 +36,7 @@ print(coverage_error(y_true, y_pred_score))
 
 **输出:**
 
-```
+```py
 coverage error of *2.0*
 ```
 

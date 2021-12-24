@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # create 2 arrays

@@ -8,7 +8,7 @@
 
 首先创建一个熊猫系列。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -25,7 +25,7 @@ ser.head(10)
 
 **例#1:** 获取系列第一个元素
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -43,7 +43,7 @@ ser[0]
 
 **示例#2:** 通过提供项目的位置来访问多个元素
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -61,7 +61,7 @@ ser[[0, 3, 6, 9]]
 
 **示例#3:** 访问序列中的前 5 个元素
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -79,7 +79,7 @@ ser[:5]
 
 **例#4:** 获取系列最后 10 个元素
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -97,7 +97,7 @@ ser[-10:]
 
 **示例 5:** 通过提供索引标签来访问多个元素
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np

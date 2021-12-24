@@ -12,7 +12,7 @@
 
 **代码#1:超集()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.superset()
 
@@ -36,7 +36,7 @@ print ("Subset a superset : ", a.superset)
 
 **代码#2:超集()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.superset()
 

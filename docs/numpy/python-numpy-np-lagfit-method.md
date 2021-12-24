@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.lagfit()`方法，我们能够获得给定数据的拉盖尔级数的最小二乘拟合。
 
-```
+```py
 # import numpy and lagfit
 import numpy as np
 from numpy.polynomial.laguerre import lagfit
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and lagfit
 import numpy as np
 from numpy.polynomial.laguerre import lagfit

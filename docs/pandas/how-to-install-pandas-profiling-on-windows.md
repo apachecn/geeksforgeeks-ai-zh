@@ -13,7 +13,7 @@
 
 Pip 用户只需打开命令提示符，使用下面的命令在 python 中安装 Pandas 分析包:
 
-```
+```py
 pip install pandas-profiling
 ```
 
@@ -25,7 +25,7 @@ pip install pandas-profiling
 
 Conda 用户可以打开 Anaconda Power Shell 提示符，并使用以下命令在 python 中安装 pandas 分析包:
 
-```
+```py
 conda install -c anaconda pandas-profiling 
 ```
 
@@ -39,7 +39,7 @@ conda install -c anaconda pandas-profiling
 
 ## 蟒蛇 3
 
-```
+```py
 #import the packages
 import pandas as pd
 import pandas_profiling

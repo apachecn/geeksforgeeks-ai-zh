@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.frompyfunc
 import numpy as np
@@ -33,7 +33,7 @@ print("After conversion to string-", string_generator(a))
 
 **Output:** 
 
-```
+```py
 Original array- [34 67 89 15 33 27]
 After conversion to string- ['34' '67' '89' '15' '33' '27']
 ```
@@ -42,7 +42,7 @@ After conversion to string- ['34' '67' '89' '15' '33' '27']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # user-defined function as ufunc
 import numpy as np
@@ -65,7 +65,7 @@ print("Checking of number as palindrome-",
 
 **Output:** 
 
-```
+```py
 Original array- [345 122 454 232 334  56  66]
 Checking of number as palindrome- [False False True True False False True]
 ```

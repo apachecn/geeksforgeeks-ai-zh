@@ -18,7 +18,7 @@
 > 
 > **代码#1 :**
 > 
-> ```
+> ```py
 > # Python program explaining
 > # numpy.recarray.dot() method 
 >   
@@ -60,7 +60,7 @@
 > 
 > **Output:**
 > 
-> ```
+> ```py
 > 1st Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
 >  [(  9.,  1) (  5.,  4) (-12., -7)]]
 > 2nd Input array :  [[( 2.,  1) ( 4., -3)]

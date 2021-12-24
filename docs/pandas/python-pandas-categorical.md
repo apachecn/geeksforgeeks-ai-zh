@@ -5,7 +5,7 @@
 **熊猫。分类(值，类别=无，有序=无，数据类型=无):**它代表一个分类变量。范畴是熊猫的数据类型，对应于统计学中的范畴变量。这样的变量具有固定且有限数量的可能值。例如，等级、性别、血型等。
 同样，在分类变量的情况下，逻辑顺序与分类数据不同，例如“一”、“二”、“三”。但是这些变量的排序使用逻辑顺序。
 
-```
+```py
 ***Parameters-*** val        : [list-like] The values of categorical. 
 categories : [index like] Unique categorisation of the categories. 
 ordered    : [boolean] If false, then the categorical is treated as unordered. 
@@ -21,7 +21,7 @@ Return- Categorical variable
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code explaining
 # numpy.pandas.Categorical()
 

@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的**Axis . get _ autoscaley _ on()函数**用�
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import numpy as np
 import matplotlib.pyplot as plt

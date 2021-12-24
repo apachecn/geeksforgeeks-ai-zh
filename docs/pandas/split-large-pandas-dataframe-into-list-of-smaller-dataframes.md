@@ -10,7 +10,7 @@
 
     ## 蟒 3
 
-    ```
+    ```py
     # importing packages
     import pandas as pd
 

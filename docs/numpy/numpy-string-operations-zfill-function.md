@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.zfill() method 
 
@@ -33,7 +33,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Geeks' 'for' 'Geeks']
 Output array:  ['000Geeks' '00000for' '000Geeks']
 
@@ -41,7 +41,7 @@ Output array:  ['000Geeks' '00000for' '000Geeks']
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.zfill() method 
 
@@ -62,7 +62,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['1' '11' '111']
 Output array:  ['00001' '00011' '00111']
 

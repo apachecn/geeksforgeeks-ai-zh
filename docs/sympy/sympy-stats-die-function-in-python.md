@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.stats.Die()`方法，我们能够使用该方法获得具有作为参数传递的‘n’个面的公平骰子。
 
-```
+```py
 # Import sympy and Die
 from sympy.stats import Die, density
 
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Die
 from sympy.stats import Die, density
 

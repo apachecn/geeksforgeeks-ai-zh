@@ -22,7 +22,7 @@
 
 我们现在将尝试开发无缝的方法来绘制跨视图的地图点和核线。如果我们采用原始极线几何框架中给出的设置(图 5)，那么我们将进一步将 deneM 和 0 作为将 3D 点映射到它们各自的 2D 像平面位置的相机投影矩阵。让我们假设世界参考系统与第一个摄像机相关联，第二个摄像机首先通过旋转 R，然后通过平移 t。这种情况下，摄像机投影矩阵为:
 
-```
+```py
 M = K[I 0]   M' = K'[R T]
 ```
 
@@ -32,7 +32,7 @@ M = K[I 0]   M' = K'[R T]
 
 所以首先我们需要在两幅图像之间找到尽可能多的匹配来找到基本矩阵。为此，我们使用 SIFT 描述符和基于 FLANN 的匹配器和比率测试。
 
-```
+```py
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
@@ -83,7 +83,7 @@ for m, n in matches:
 
 让我们注意基本的矩阵。
 
-```
+```py
 
 ptsLeft = np.int32(ptsLeft)
 ptsRight = np.int32(ptsRight)
@@ -98,7 +98,7 @@ ptsRight = ptsRight[mask.ravel() == 1]
 
 接下来，我们找到了表线。对应于第一图像中的点的线被绘制在第二图像上。所以在这里提到正确的图像很重要。我们得到一系列线条。所以我们定义了一个新的函数来在图像上画这些线。
 
-```
+```py
 def drawlines(img1, img2, lines, pts1, pts2):
 
     r, c = img1.shape
@@ -125,7 +125,7 @@ def drawlines(img1, img2, lines, pts1, pts2):
 
 现在，我们在两幅图像中找到并画出了线。
 
-```
+```py
 # Find epilines corresponding to points
 # in right image (second image) and
 # drawing its lines on left image

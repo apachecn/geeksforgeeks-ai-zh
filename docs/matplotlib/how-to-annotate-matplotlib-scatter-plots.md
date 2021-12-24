@@ -42,7 +42,7 @@ matplotlib 的注释意味着我们想要在散点旁边放置一段文本。根
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import matplotlib.pyplot as plt
 
@@ -85,7 +85,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import matplotlib.pyplot as plt
 

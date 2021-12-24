@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 figsize=(width, height)
 ```
 
@@ -24,7 +24,7 @@ figsize=(width, height)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd  # import the pandas module
 
 # python list of numbers
@@ -45,7 +45,7 @@ s1.plot(figsize=(20, 10))
 
 ## 蟒蛇 3
 
-```
+```py
 # import the pandas module
 import pandas as pd  
 
@@ -64,7 +64,7 @@ df.plot.bar(x='names', y='val', rot=0, figsize=(15, 10))
 
 ## 蟒蛇 3
 
-```
+```py
 # import the pandas module
 import pandas as pd
 

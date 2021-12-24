@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 
@@ -44,7 +44,7 @@ sns.catplot(x='Sex', y='Fare', hue='Survived', 
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 

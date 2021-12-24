@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library as alias pd.
 import pandas as pd
 
@@ -27,7 +27,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # making the 'region' and 'state' column as index.
 df_mi = df.set_index(['region' , 'state' , 'individuals'])
 
@@ -55,7 +55,7 @@ print(df_mi.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # using the reset_index(), reverting the
 # level 0 and level 2 indexes.
 df_si_level = df_mi.reset_index( level = [0 , 2] )
@@ -73,7 +73,7 @@ print(df_si_level.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # using the reset_index(), reverting 
 # the 'region' and 'state' indexes.
 df_si_name = df_mi.reset_index([ 'region' , 'state' ])

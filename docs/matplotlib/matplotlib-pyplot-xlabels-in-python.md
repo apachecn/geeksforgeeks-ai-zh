@@ -22,7 +22,7 @@ matplotlib 库 pyplot 模块中的 **xlabel()函数**用于设置 x 轴的标签
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.xlabels()
 # function
 
@@ -47,7 +47,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib.pyplot.xlabels()
 # function
 

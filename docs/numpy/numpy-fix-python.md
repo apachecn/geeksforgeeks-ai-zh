@@ -14,7 +14,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # fix() function
 
@@ -41,7 +41,7 @@ print ("\nRounded values : \n", fixoff_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [0.5, 1.5, 2.5, 3.5, 4.5, 10.1]
 
@@ -63,7 +63,7 @@ Rounded values :
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # fix() function
 
@@ -90,7 +90,7 @@ print ("\nRounded values upto 3: \n", fixoff_values)
 
 **输出:**
 
-```
+```py
 Input array : 
  [1, 4, 7, 9, 12]
 

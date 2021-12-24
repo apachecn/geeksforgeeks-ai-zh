@@ -8,7 +8,7 @@
 
 正如我们在下面的例子中看到的:
 
-```
+```py
 import cv2
 image = cv2.imread("GFG.jpg")
 
@@ -22,7 +22,7 @@ print(image)
 ![](img/fd4de758769db46a56fb03e4f14d806a.png)** 
 **输出:**
 
-```
+```py
 [[[255 255 255]
   [255 255 255]
   [255 255 255]
@@ -100,7 +100,7 @@ print(image)
 
 然后，将二进制代码转换为十进制代码，并将其放在矩阵的中心。
 
-```
+```py
 1 x 27 + 1 x 26 + 1 x 25 + 0 x 24 + 0 x 23 + 0 x 22 + 0 x 21 +1 x 20 
 = 128 + 64 + 32 + 0 + 0 + 0 + 0 + 1
 = 225
@@ -112,7 +112,7 @@ print(image)
 
 现在，让我们使用 python 来实现它
 
-```
+```py
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt

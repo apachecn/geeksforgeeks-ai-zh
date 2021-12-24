@@ -19,7 +19,7 @@ Pandas `**dataframe.get_value()**`功能用于快速检索数据框中通过的�
 
 **示例#1:** 使用`get_value()`函数查找第 10 行的薪资值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ df
 
 ![](img/525a725de9f12a6ed74de1319ec4c112.png)
 
-```
+```py
 # applying get_value() function 
 df.get_value(10, 'Salary')
 ```
@@ -44,7 +44,7 @@ df.get_value(10, 'Salary')
 
 **注意:**我们也可以通过设置可取参数=True 来使用列的整数索引器值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

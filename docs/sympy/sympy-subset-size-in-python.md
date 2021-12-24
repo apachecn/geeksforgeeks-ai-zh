@@ -12,7 +12,7 @@
 
 **代码#1:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.size()
 
@@ -36,7 +36,7 @@ print ("Subset a size : ", a.size)
 
 **代码#2:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.size()
 

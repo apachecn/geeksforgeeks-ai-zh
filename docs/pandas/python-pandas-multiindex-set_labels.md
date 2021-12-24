@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(midx)
 
 ## 蟒蛇 3
 
-```
+```py
 # resetting the labels the MultiIndex
 midx.set_labels([[1, 1, 0, 0], [0, 1, 1, 0]])
 ```
@@ -52,7 +52,7 @@ midx.set_labels([[1, 1, 0, 0], [0, 1, 1, 0]])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(midx)
 
 ## 蟒蛇 3
 
-```
+```py
 # resetting the labels the MultiIndex
 midx.set_labels([0, 1, 1, 0], level ='Char')
 ```

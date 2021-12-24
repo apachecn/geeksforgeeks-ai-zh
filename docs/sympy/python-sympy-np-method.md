@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -30,7 +30,7 @@ print("Permutation : {}".format(permutations))  
 
 **输出:**
 
-```
+```py
 Value of k = 3 and the items are = abca
 Permutation : 12
 
@@ -38,7 +38,7 @@ Permutation : 12
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -54,7 +54,7 @@ print("Permutation : {}".format(permutations))  
 
 **输出:**
 
-```
+```py
 Value of k = 3 and the items are = [2, 1, 3, 5, 4]
 Permutation : 60
 

@@ -12,7 +12,7 @@
 
 在这个例子中我们可以看到，使用`numpy.core.fromarrays()`方法，我们能够通过使用不同数组的列表来获得记录数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -33,7 +33,7 @@ print(gfg[1])
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

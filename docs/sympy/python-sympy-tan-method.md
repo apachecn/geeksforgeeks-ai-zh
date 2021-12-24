@@ -4,7 +4,7 @@
 
 在 simpy 中，tan()方法是一个正切函数。使用 simpy 模块中的 tan(x)方法，我们可以计算 x 的切线或反正切
 
-```
+```py
 Syntax : sympy.tan(x)
 
 Return : Returns the tangent of x 
@@ -15,7 +15,7 @@ Return : Returns the tangent of x
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sympy library
 from sympy import *
 
@@ -29,7 +29,7 @@ print(geek2)
 
 **输出:**
 
-```
+```py
 -tan(1)
 sqrt(3)
 ```
@@ -38,7 +38,7 @@ sqrt(3)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sympy library
 from sympy import tan
 
@@ -49,6 +49,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 -6.87216388011928e-5 + 1.000059350149*I
 ```

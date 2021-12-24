@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`PeriodIndex.hour`属性查找给定周期索引对象的周期小时值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.hour`属性来查找给定对象中的时段的小时。
 
-```
+```py
 # return the hour value
 pidx.hour
 ```
@@ -45,7 +45,7 @@ pidx.hour
 
 **示例 2:** 使用`PeriodIndex.hour`属性查找给定周期索引对象的周期小时数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.hour`属性来查找给定对象中周期的小时值。
 
-```
+```py
 # return the hour value
 pidx.hour
 ```

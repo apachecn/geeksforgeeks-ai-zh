@@ -27,7 +27,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:按索引标签删除行**
 在他的代码中，传递了一个索引标签列表，并使用。drop()方法。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -55,7 +55,7 @@ data
 
 在他的代码中，传递的列使用列名删除。`axis` 参数保持 1，因为 1 是指列。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

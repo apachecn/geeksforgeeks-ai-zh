@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.cumsum() method 
 
@@ -43,7 +43,7 @@ print ("cumulative sum of masked array along default axis : ", out_arr)    �
 
 **Output:**
 
-```
+```py
 Input array :  [[ 1  2]
  [ 3 -1]
  [ 5 -3]]
@@ -56,7 +56,7 @@ cumulative sum of masked array along default axis :  [-- 2 -- 1 6 3]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.cumsum() method 
 
@@ -86,7 +86,7 @@ print ("cumulative sum of masked array along 1 axis : ", out_arr2)
 
 **Output:**
 
-```
+```py
 Input array :  [[1 0 3]
  [4 1 6]]
 Masked array :  [[1 0 3]

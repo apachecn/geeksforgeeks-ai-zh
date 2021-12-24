@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 4
 print("Value of n = {}".format(n))
@@ -28,7 +28,7 @@ print("Value of nth bernoulli number : {}".format(nth_bernoulli))  
 
 **输出:**
 
-```
+```py
 Value of n = 4
 Value of nth bernoulli number : -1/30
 
@@ -46,7 +46,7 @@ Value of nth bernoulli number : -1/30
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 5
 k = symbols('x')
@@ -60,7 +60,7 @@ print("The nth bernoulli polynomial : {}".format(nth_bernoulli_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and k = x
 The nth bernoulli polynomial : x**5 - 5*x**4/2 + 5*x**3/3 - x/6
 
@@ -68,7 +68,7 @@ The nth bernoulli polynomial : x**5 - 5*x**4/2 + 5*x**3/3 - x/6
 
 **示例#3:**
 
-```
+```py
 # import sympy 
 from sympy import * n = 4
 k = 3
@@ -82,7 +82,7 @@ print("The nth bernoulli polynomial value : {}".format(nth_bell_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 4 and k = 3
 The nth bernoulli polynomial value : 10*x1**2*x3 + 15*x1*x2**2
 

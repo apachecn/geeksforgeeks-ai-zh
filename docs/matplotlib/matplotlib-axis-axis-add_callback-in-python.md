@@ -22,7 +22,7 @@ matplotlib 库的 Axis 模块中的 **Axis.add_callback()函数**用于添加一
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import matplotlib.pyplot as plt 
@@ -58,7 +58,7 @@ plt.show() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 from random import randint, choice  
@@ -104,7 +104,7 @@ plt.show() 
 
 <video class="wp-video-shortcode" id="video-425191-1" width="665" height="374" preload="metadata" controls=""><source type="video/webm" src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200605212619/python-matplotlib-on-callback-axis.webm?_=1">[https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200605212619/python-matplotlib-on-callback-axis.webm](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200605212619/python-matplotlib-on-callback-axis.webm)</video>
 
-```
+```py
 Draw at time : 1591263025.354224
 Draw at time : 1591263025.4612164
 Draw at time : 1591263025.6232233

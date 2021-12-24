@@ -12,7 +12,7 @@ KNN 是机器学习中使用最广泛的分类算法之一。要了解更多关�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary libraries
 import cv2 as cv
 import numpy as np
@@ -48,7 +48,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # generate a random data point
 # unknown is a random data point for which we will perform prediction.
 unknown = np.random.randint(0, 50, (1, 2)).astype(np.float32)
@@ -78,7 +78,7 @@ print( "Distance of each neighbor - ", distance )
 
 **输出:**
 
-```
+```py
 Label of the unknown data -  [[1.]]
 Nearest neighbors -   [[1\. 1\. 0\. 1\. 1.]]
 Distance of each neighbor -  [[  1\.  65\. 130\. 173\. 245.]]

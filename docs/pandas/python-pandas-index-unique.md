@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.unique()`函数返回索引中的唯一值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(idx)
 
 让我们找到索引中所有唯一的值。
 
-```
+```py
 # find unique values in the index
 idx.unique()
 ```
@@ -43,7 +43,7 @@ idx.unique()
 
 **示例 2:** 使用`Index.unique()`函数查找索引中的唯一值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(idx)
 
 让我们找到索引中所有唯一的值
 
-```
+```py
 # for finding the unique values in the index
 idx.unique()
 ```

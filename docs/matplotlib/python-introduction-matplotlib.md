@@ -9,13 +9,13 @@ Matplotlib 是一个神奇的 Python 可视化库，用于数组的 2D 图。Mat
 **安装:**
 Windows、Linux 和 macOS 发行版都有 matplotlib 及其大部分依赖项作为轮包。运行以下命令安装`matplotlib` 包:
 
-```
+```py
 python -mpip install -U matplotlib
 ```
 
 **导入 matplotlib :**
 
-```
+```py
 from matplotlib import pyplot as plt
 *or*
 import matplotlib.pyplot as plt 
@@ -27,7 +27,7 @@ Matplotlib 有各种各样的情节。图表有助于理解趋势、模式和建
 
 **线图:**
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt
 
@@ -48,7 +48,7 @@ plt.show()
 
 ![](img/b783af78ebf0d6de128154209bd4ccff.png)T2**栏式打印**
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt
 
@@ -70,7 +70,7 @@ plt.show()
 
 **直方图:**
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt
 
@@ -90,7 +90,7 @@ plt.show()
 
 **Scatter Plot :**
 
-```
+```py
 # importing matplotlib module 
 from matplotlib import pyplot as plt
 

@@ -32,7 +32,7 @@
 
 让我们创建一个熊猫数据框。
 
-```
+```py
 # import numpy library as np
 import numpy as np
 
@@ -69,7 +69,7 @@ details
 
 **示例 1 :** 计算数据框中每一列的总 NaN。
 
-```
+```py
 # import numpy library as np
 import numpy as np
 
@@ -110,7 +110,7 @@ print(" \nCount total NaN at each column in a DataFrame : \n\n",
 
 **示例 2 :** 计算数据框中每行的总 NaN。
 
-```
+```py
 # import numpy library as np
 import numpy as np
 
@@ -156,7 +156,7 @@ for i in range(len(details.index)) :
 
 **例 3 :** 统计数据帧中的总 NaN。
 
-```
+```py
 # import numpy library as np
 import numpy as np
 

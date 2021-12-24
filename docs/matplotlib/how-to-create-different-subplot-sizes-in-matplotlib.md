@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 from matplotlib import gridspec
@@ -93,7 +93,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -154,7 +154,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required library
 import matplotlib.pyplot as plt
 import numpy as np

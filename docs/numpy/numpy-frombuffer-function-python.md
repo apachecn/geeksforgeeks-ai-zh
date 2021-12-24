@@ -22,7 +22,7 @@ numpy.frombuffer()函数将缓冲区解释为一维数组。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.frombuffer() function 
 
@@ -42,7 +42,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.frombuffer() function 
 

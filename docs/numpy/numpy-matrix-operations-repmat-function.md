@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.repmat() function
 
@@ -35,7 +35,7 @@ print ("Output repeated matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Input array [[1 0 2]
  [3 4 5]]
 Output repeated matrix :  [[1 0 2 1 0 2 1 0 2]
@@ -47,7 +47,7 @@ Output repeated matrix :  [[1 0 2 1 0 2 1 0 2]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.matlib.repmat() function
 
@@ -68,7 +68,7 @@ print ("Output repeated matrix : ", out_mat) 
 
 **Output :**
 
-```
+```py
 Input array [0 1 2]
 Output repeated matrix :  [[0 1 2 0 1 2]
  [0 1 2 0 1 2]]

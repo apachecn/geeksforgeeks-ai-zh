@@ -12,7 +12,7 @@
 
 要安装以下库，请在命令提示符下运行以下命令:
 
-```
+```py
  pip install opencv-python
  pip install numpy
  pip install matplotlib
@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing OpenCV and Numpy Libraries
 import cv2
 import numpy as np

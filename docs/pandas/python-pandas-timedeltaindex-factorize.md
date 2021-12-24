@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.factorize()`函数对给定时间增量索引对象的元素进行编码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.factorize()`函数对 tidx 对象进行编码。
 
-```
+```py
 # encode the tidx object
 tidx.factorize()
 ```
@@ -45,7 +45,7 @@ tidx.factorize()
 
 **示例 2:** 使用`TimedeltaIndex.factorize()`函数检查两个给定时间增量索引对象中包含的元素是否相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 ![](img/c48af6898e179b28a1daee3f38a8e5cc.png)
 现在我们使用`TimedeltaIndex.factorize()`功能对 tidx 对象进行编码。
 
-```
+```py
 # encode the tidx object
 tidx.factorize()
 ```

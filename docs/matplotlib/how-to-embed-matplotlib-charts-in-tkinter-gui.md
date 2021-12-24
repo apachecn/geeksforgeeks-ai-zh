@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import all classes/methods
 # from the tkinter module
 from tkinter import *
@@ -55,7 +55,7 @@ window.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import * 
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import (FigureCanvasTkAgg, 

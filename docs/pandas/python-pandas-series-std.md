@@ -19,7 +19,7 @@
 
 **示例#1 :** 使用`Series.std()`函数找到给定序列对象的标准偏差。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们用`Series.std()`函数求给定 Series 对象的标准差。
 
-```
+```py
 # find standard-deviation along the
 # 0th index
 sr.std()
@@ -50,7 +50,7 @@ sr.std()
 
 **例 2 :** 使用`Series.std()`函数求给定 Series 对象的标准差。我们的系列对象中有一些丢失的值，所以跳过这些丢失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们用`Series.std()`函数求给定 Series 对象的标准差。
 
-```
+```py
 # find standard-deviation along the
 # 0th index
 sr.std(skipna = True)

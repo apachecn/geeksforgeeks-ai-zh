@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.get_loc()`函数查找给定时间增量索引对象中某个值的整数位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 ![](img/7d3de5b21d4bb4033f6290dd3d245349.png)
 现在我们将使用`TimedeltaIndex.get_loc()`功能查找‘1 天 02:00:00’的整数位置。
 
-```
+```py
 # find the integer location of the passed value.
 tidx.get_loc('1 days 02:00:00')
 ```
@@ -43,7 +43,7 @@ tidx.get_loc('1 days 02:00:00')
 
 **示例 2:** 使用`TimedeltaIndex.get_loc()`函数在给定的 TimedeltaIndex 对象中查找一个值的整数位置。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.get_loc()`函数来查找“+12:19:59.999999”的整数位置。
 
-```
+```py
 # find the integer location of the passed value.
 tidx.get_loc('+12:19:59.999999')
 ```

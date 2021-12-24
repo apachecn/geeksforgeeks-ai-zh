@@ -37,7 +37,7 @@ Python 是一种非常流行的语言，因为它几乎适用于任何类型的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Pandas module
 import pandas as pd
 
@@ -63,7 +63,7 @@ check_weekday(date)
 
 **输出:**
 
-```
+```py
 This is your working day
 This is weekend
 ```

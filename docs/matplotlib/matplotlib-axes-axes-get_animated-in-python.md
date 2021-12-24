@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_animated()函数**用于获取动
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -48,14 +48,14 @@ plt.show()
 
 ![](img/00042bb7d8ae94c25de6b28221837fce.png)
 
-```
+```py
 True
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ plt.show()
 
 ![](img/cd17495aea95b552929de38a4b628f1d.png)
 
-```
+```py
 False
 
 ```

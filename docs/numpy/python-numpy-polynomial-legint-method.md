@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining 
 # numpy.legint() method  
 
@@ -39,14 +39,14 @@ print (res)  
 
 **Output:**
 
-```
+```py
 [ 0.66666667  0.4         1.33333333  1.6       ]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining 
 # numpy.legint() method  
 
@@ -68,7 +68,7 @@ print (res)
 
 **Output:**
 
-```
+```py
 [-1.66666667  4\.          0.95238095  0.44444444  5.71428571  5.55555556]
 
 ```

@@ -15,7 +15,7 @@
 
 **算术运算:**
 
-```
+```py
 # Python code to perform arithmetic
 # operations on NumPy array
 
@@ -46,7 +46,7 @@ print(np.divide(arr1, arr2))
 
 **输出:**
 
-```
+```py
 First array:
 [[ 0\.  1.]
  [ 2\.  3.]]
@@ -78,7 +78,7 @@ Dividing the two arrays:
 
 **示例:**
 
-```
+```py
 # Python code to perform reciprocal operation
 # on NumPy array
 import numpy as np 
@@ -100,7 +100,7 @@ print(np.reciprocal(arr2))
 
 **输出**
 
-```
+```py
 Our array is:
 [  25\.      1.33    1\.      1\.    100\.  ]
 
@@ -119,7 +119,7 @@ num py . power()
 
 此函数将第一个输入数组中的元素视为基数，并将其提升到第二个输入数组中相应元素的幂。
 
-```
+```py
 # Python code to perform power operation
 # on NumPy array
 
@@ -143,7 +143,7 @@ print(np.power(arr, arr1))
 
 **输出:**
 
-```
+```py
 First array is:
 [ 5 10 15]
 
@@ -162,7 +162,7 @@ num py . mod()
 
 该函数返回输入数组中相应元素的除法余数。函数`numpy.remainder()`也产生同样的结果。
 
-```
+```py
 # Python code to perform mod function
 # on NumPy array
 
@@ -186,7 +186,7 @@ print(np.remainder(arr, arr1))
 
 **输出:**
 
-```
+```py
 First array:
 [ 5 15 20]
 

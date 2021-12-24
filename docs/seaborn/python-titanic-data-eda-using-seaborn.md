@@ -16,7 +16,7 @@ csv 文件可以从 [Kaggle](https://www.kaggle.com/c/titanic/data) 下载。
 
 ## 蟒蛇 3
 
-```
+```py
 #importing pandas library
 import pandas as pd
 
@@ -32,7 +32,7 @@ pip3 安装 seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # View first five rows of the dataset
 titanic.head()
 ```
@@ -45,7 +45,7 @@ titanic.head()
 
 ## 蟒蛇 3
 
-```
+```py
 titanic.isnull().sum()
 ```
 
@@ -73,7 +73,7 @@ titanic.isnull().sum()
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -92,7 +92,7 @@ kind ="count", data = titanic)
 
 ## 蟒蛇 3
 
-```
+```py
 # Group the dataset by Pclass and Survived and then unstack them
 group = titanic.groupby(['Pclass', 'Survived'])
 pclass_survived = group.size().unstack()
@@ -111,7 +111,7 @@ sns.heatmap(pclass_survived, annot = True, fmt ="d")
 
 ## 蟒蛇 3
 
-```
+```py
 # Violinplot Displays distribution of data
 # across all levels of a category.
 sns.violinplot(x ="Sex", y ="Age", hue ="Survived",
@@ -135,7 +135,7 @@ data = titanic, split = True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding a column Family_Size
 titanic['Family_Size'] = 0
 titanic['Family_Size'] = titanic['Parch']+titanic['SibSp']
@@ -164,7 +164,7 @@ sns.factorplot(x ='Alone', y ='Survived', data = titanic)
 
 ## 蟒蛇 3
 
-```
+```py
 # Divide Fare into 4 bins
 titanic['Fare_Range'] = pd.qcut(titanic['Fare'], 4)
 
@@ -184,7 +184,7 @@ data = titanic)
 
 ## 蟒蛇 3
 
-```
+```py
 # Countplot
 sns.catplot(x ='Embarked', hue ='Survived',
 kind ='count', col ='Pclass', data = titanic)

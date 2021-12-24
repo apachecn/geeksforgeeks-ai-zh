@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python3 program explaining
 # degrees() function
 import numpy as np
@@ -30,7 +30,7 @@ print ("\nDegree values : \n", degree_Values)
 
 **输出:**
 
-```
+```py
 Radian values : 
  [0, 1.5707963267948966, 1.0471975511965976, 3.141592653589793]
 
@@ -51,7 +51,7 @@ Degree values :
 
 **代码#2 : rad2deg()相当于度数()**
 
-```
+```py
 # Python3 program explaining
 # rad2deg() function
 
@@ -67,7 +67,7 @@ print ("\nDegree values : \n", out_Values)
 
 **输出:**
 
-```
+```py
 Radian values : 
  [0, 1.5707963267948966, 1.0471975511965976, 3.141592653589793]
 

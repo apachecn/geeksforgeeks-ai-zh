@@ -8,25 +8,25 @@
 
 **要安装 Modin 及其所有依赖项，请使用以下任何 pip 命令。**
 
-```
+```py
 pip install modin[ray] 
 ```
 
 或者，
 
-```
+```py
 pip install modin[dask] 
 ```
 
 或者，
 
-```
+```py
 pip install modin[all] 
 ```
 
 **为了限制要使用的 CPU 数量，我们可以在您的脚本中添加下面两行代码**
 
-```
+```py
 import os
 
 # this specifies the number of
@@ -42,7 +42,7 @@ Append()操作在 pandas 中非常常见，在下面的代码中，我们使用 
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import modin.pandas as mpd
 import time
@@ -77,7 +77,7 @@ print(f"Modin Appending Time :{end-start}")
 
 **输出**:
 
-```
+```py
 Pandas Appending Time :0.682852745056152
 Modin Appending Time :0.027661800384521484
 ```
@@ -90,7 +90,7 @@ Modin Appending Time :0.027661800384521484
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import modin.pandas as mpd
 
@@ -114,7 +114,7 @@ print(f"Modin fillna Time: {e - s})
 
 **输出**:
 
-```
+```py
 Pandas fillna Time: 1.2 sec
 Modin fillna Time: 0.27 sec
 ```

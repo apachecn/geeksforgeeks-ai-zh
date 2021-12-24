@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 DataFrame.astype(dtype, copy=True, errors=’raise’, **kwargs)
 
 ```
@@ -21,7 +21,7 @@ DataFrame.astype(dtype, copy=True, errors=’raise’, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library 
 import pandas as pd 
 
@@ -47,7 +47,7 @@ print (df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert it from 
 # 'float' to 'String' type. 
 df['Marks'] = df['Marks'].astype(str)
@@ -70,7 +70,7 @@ df 
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library 
 import pandas as pd 
 
@@ -96,7 +96,7 @@ print (df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now Pass a dictionary to 
 # astype() function which contains 
 # two columns and hence convert them
@@ -120,7 +120,7 @@ df 
 
 **语法**:
 
-```
+```py
 DataFrame.apply(func, axis=0, raw=False, result_type=None, args=(), **kwds)
 
 ```
@@ -131,7 +131,7 @@ DataFrame.apply(func, axis=0, raw=False, result_type=None, args=(), **kwds)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library 
 import pandas as pd 
 
@@ -157,7 +157,7 @@ print (df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert it from 
 # 'float' to 'string' type. 
 df['Percentage'] = df['Percentage'].apply(str) 
@@ -179,7 +179,7 @@ df
 
 **语法:**
 
-```
+```py
 Series.map(arg, na_action=None)
 
 ```
@@ -190,7 +190,7 @@ Series.map(arg, na_action=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library 
 import pandas as pd 
 
@@ -216,7 +216,7 @@ print (df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert it from 'float' to 'string' type. 
 # using DataFrame.map(str) function
 df['Age'] = df['Age'].map(str)  

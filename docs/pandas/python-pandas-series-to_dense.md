@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.to_dense()`函数将给定的序列对象转换为密集序列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.to_dense()`函数来实现给定 series 对象到密集 Series 对象的转换。
 
-```
+```py
 # convert to dense object
 sr.to_dense()
 ```
@@ -51,7 +51,7 @@ sr.to_dense()
 
 **示例 2:** 使用`Series.to_dense()`功能将给定的系列对象转换为密集系列对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ print(sr)
 
 现在我们将使用`Series.to_sparse()`函数来实现给定的 Series 对象到 SparseSeries 对象的转换。
 
-```
+```py
 # convert to Sparse object
 sr.to_sparse()
 ```
@@ -83,7 +83,7 @@ sr.to_sparse()
 
 现在我们将使用`Series.to_dense()`函数来实现给定 series 对象到密集 Series 对象的转换。
 
-```
+```py
 # convert to dense object
 sr.to_dense()
 ```

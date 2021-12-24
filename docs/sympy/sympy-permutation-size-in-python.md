@@ -10,7 +10,7 @@
 
 **代码#1:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.size()
 
@@ -37,7 +37,7 @@ print ("Permutation b - size form : ", b.size)
 
 **代码#2:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.size()
 

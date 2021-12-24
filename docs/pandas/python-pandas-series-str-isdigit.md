@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 在本例中， **`.isdigit()`** 方法应用于“年龄”列。在进行任何操作之前，使用`.dropna(`删除空行，以避免错误。
 由于年龄列是作为浮点数据类型导入的，因此首先使用 `.astype()` 方法将其转换为字符串。之后`isdigit()`应用两次，第一次在原系列上，然后是“.”使用`str.replace()`方法移除特殊字符后查看输出。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

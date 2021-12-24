@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.remove()函数**用于在可能的情
 
 **语法:**
 
-```
+```py
 Axes.remove(self)
 
 ```
@@ -19,7 +19,7 @@ Axes.remove(self)
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -38,7 +38,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

@@ -13,7 +13,7 @@
 
 **要检查停止词列表，可以在 python shell 中键入以下命令。**
 
-```
+```py
 import nltk
 from nltk.corpus import stopwords
 print(stopwords.words('english'))
@@ -28,7 +28,7 @@ print(stopwords.words('english'))
 
 ## 蟒蛇 3
 
-```
+```py
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
@@ -53,7 +53,7 @@ print(filtered_sentence)
 
 输出:
 
-```
+```py
 ['This', 'is', 'a', 'sample', 'sentence', ',', 'showing', 
 'off', 'the', 'stop', 'words', 'filtration', '.']
 ['This', 'sample', 'sentence', ',', 'showing', 'stop',
@@ -66,7 +66,7 @@ print(filtered_sentence)
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize

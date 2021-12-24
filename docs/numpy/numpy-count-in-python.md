@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.count() method 
 
@@ -31,7 +31,7 @@ print ("Count of 'tt'", np.char.count(arr, 'tt', start = 8))
 
 **输出:**
 
-```
+```py
 arr :  ['vdsdsttetteteAAAa', 'AAAAAAAaattttds', 'AAaaxxxxtt', 'AAaaXDSDdscz']
 Count of 'tt' [2 2 1 0]
 Count of 'tt' [2 2 1 0]
@@ -41,7 +41,7 @@ Count of 'tt' [1 2 1 0]
 
 **代码#2:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.count() method 
 import numpy as np 
@@ -57,7 +57,7 @@ print ("Count of 'Aa'", np.char.count(arr, 'Aa', start = 8))
 
 **输出:**
 
-```
+```py
 arr :  ['vdsdsttetteteAAAa', 'AAAAAAAaattttds', 'AAaaxxxxtt', 'AAaaXDSDdscz']
 
 Count of 'Aa' [1 1 1 1]

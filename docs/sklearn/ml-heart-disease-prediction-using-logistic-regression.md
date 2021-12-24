@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import pylab as pl
 import numpy as np
@@ -31,7 +31,7 @@ import seaborn as sn
 
 ## 蟒蛇 3
 
-```
+```py
 # dataset
 disease_df = pd.read_csv("../input / framingham.csv")
 disease_df.drop(['education'], inplace = True, axis = 1)
@@ -45,7 +45,7 @@ print(disease_df.TenYearCHD.value_counts())
 
 **输出:**
 
-```
+```py
     Sex_male  age  currentSmoker  ...  heartRate  glucose  TenYearCHD
 0         1   39              0  ...       80.0     77.0           0
 1         0   46              0  ...       95.0     76.0           0
@@ -63,7 +63,7 @@ Name: TenYearCHD, dtype: int64
 
 ## 蟒蛇 3
 
-```
+```py
 # counting no. of patients affected with CHD
 plt.figure(figsize = (7, 5))
 sn.countplot(x ='TenYearCHD', data = disease_df,
@@ -79,7 +79,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 laste = disease_df['TenYearCHD'].plot()
 plt.show(laste)
 ```
@@ -92,7 +92,7 @@ plt.show(laste)
 
 ## 蟒蛇 3
 
-```
+```py
 X = np.asarray(disease_df[['age', 'Sex_male', 'cigsPerDay',
                            'totChol', 'sysBP', 'glucose']])
 y = np.asarray(disease_df['TenYearCHD'])
@@ -110,7 +110,7 @@ print ('Test set:', X_test.shape,  y_test.shape)
 
 **输出:**
 
-```
+```py
 Train Set :
 (2625, 6) (2625, )
 
@@ -122,7 +122,7 @@ Test Set :
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.linear_model import LogisticRegression
 logreg = LogisticRegression()
 logreg.fit(X_train, y_train)
@@ -137,7 +137,7 @@ print('Accuracy of the model in jaccard similarity score is = ',
 
 **输出:**
 
-```
+```py
 Accuracy of the model in jaccard similarity score is = 0.8490230905861457
 ```
 
@@ -145,7 +145,7 @@ Accuracy of the model in jaccard similarity score is = 0.8490230905861457
 
 ## 蟒蛇 3
 
-```
+```py
 # Confusion matrix
 from sklearn.metrics import confusion_matrix, classification_report
 
@@ -165,7 +165,7 @@ print (classification_report(y_test, y_pred))
 
 **输出:**
 
-```
+```py
 The details for confusion matrix is =
               precision    recall  f1-score   support
 

@@ -31,7 +31,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 #import required library
 import matplotlib.pyplot as plt
 
@@ -65,7 +65,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing required libraries
 import matplotlib.pyplot as plt
 
@@ -91,7 +91,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 #import required library
 import matplotlib.pyplot as plt
 
@@ -129,7 +129,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 #import required library
 import matplotlib.pyplot as plt
 
@@ -161,7 +161,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 #import required library
 import matplotlib.pyplot as plt
 
@@ -280,7 +280,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required library
 import matplotlib.pyplot as plt
 
@@ -369,7 +369,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the required libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -422,7 +422,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required library
 import matplotlib.pyplot as plt
 

@@ -11,7 +11,7 @@
 
 **要安装这些库，我们需要在 cmd 中运行这些 pip 命令:**
 
-```
+```py
 pip install opencv-python
 pip install numpy
 pip install matplotlib
@@ -45,7 +45,7 @@ pip install matplotlib
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to read image
 import cv2
 
@@ -79,7 +79,7 @@ cv2.destroyAllWindows()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to explain cv2.imread() method
 
 # importing cv2

@@ -7,7 +7,7 @@ T3】
 
 **参数:**
 
-```
+```py
 -> α : scale
 -> β : shape
 -> μ : location
@@ -16,7 +16,7 @@ T3】
 
 **Code #1 : Creating Half-generalized normal continuous random variable**
 
-```
+```py
 from scipy.stats import halfgennorm  
 
 numargs = halfgennorm.numargs
@@ -28,7 +28,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x0000021FB55D8DD8
 
@@ -36,7 +36,7 @@ RV :
 
 **代码#2:半广义随机变量和概率分布**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -51,7 +51,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [1.41299459e+03 3.51301175e+04 1.79981484e+05 2.90925518e+02
  2.70178121e+05 1.31706797e+05 3.25898913e+01 1.62607410e+04
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

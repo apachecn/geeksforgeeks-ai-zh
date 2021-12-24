@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_position()函数**用于获取一
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -55,7 +55,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

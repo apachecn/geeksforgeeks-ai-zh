@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.power() method 
 
@@ -52,7 +52,7 @@ print ("Output masked array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input base array :  [0 1 2 3 4 5]
 
 Base Masked array :  [0 1 2 3 -- 5]

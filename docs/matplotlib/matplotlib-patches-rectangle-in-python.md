@@ -55,7 +55,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
@@ -83,7 +83,7 @@ plt.show()
 ![](img/899a5d91c7db829a201529744fecc6b0.png)
 **例 2:**
 
-```
+```py
 import matplotlib
 import matplotlib.pyplot as plt
 

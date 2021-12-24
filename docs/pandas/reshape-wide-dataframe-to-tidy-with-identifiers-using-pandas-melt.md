@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Load the libraries
 import numpy as np
 import pandas as pd
@@ -64,7 +64,7 @@ data.melt(var_name = "Sample",
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 data = pd.DataFrame({'Name': {0: 'Samrat', 1: 'Tomar', 2: 'Verma'},

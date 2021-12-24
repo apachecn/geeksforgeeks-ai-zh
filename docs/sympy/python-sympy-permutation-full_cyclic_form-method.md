@@ -12,7 +12,7 @@
 
 **代码#1 : full_cyclic_form()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.full_cyclic_form()
 
@@ -38,7 +38,7 @@ print ("Permutation b - full_cyclic_form form : ", b.full_cyclic_form)
 
 **代码#2:全循环形式()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.full_cyclic_form()
 

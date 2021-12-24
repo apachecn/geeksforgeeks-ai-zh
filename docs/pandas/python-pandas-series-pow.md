@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:**
 在本例中，使用熊猫创建了两个系列。Series()方法。没有一个系列具有空值。第二个系列直接作为其他参数传递，以在操作后返回值。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -44,7 +44,7 @@ result
 **输出:**
 如输出所示，返回值等于第一序列，第二序列为其指数幂。
 
-```
+```py
 0     1
 1     8
 2    25
@@ -59,7 +59,7 @@ dtype: int64
 
 在本例中，还使用 numpy.nan 方法将 NaN 值放入序列中。之后，将 2 传递给 fill_value 参数，用 2 替换空值。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -91,7 +91,7 @@ result
 **输出:**
 如输出所示，在操作之前，所有 NaN 值都被替换为 2，返回的结果中没有任何 Null 值。
 
-```
+```py
 0      1.0
 1      4.0
 2    125.0

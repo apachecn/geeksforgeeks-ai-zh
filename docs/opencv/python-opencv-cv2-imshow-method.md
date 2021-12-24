@@ -16,7 +16,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.imshow() method 
 
 # importing cv2 
@@ -49,7 +49,7 @@ cv2.destroyAllWindows() 
 
 **例 2:**
 
-```
+```py
 # Python program to explain cv2.imshow() method
 
 # importing cv2

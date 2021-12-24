@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.H()`方法，我们能够变换任何类型的复杂矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1.+2.j]
  [ 3.+4.j]]
 
@@ -34,7 +34,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1.+5.j  4.-6.j  7.-6.j]
  [ 2.-5.j  5.+8.j  8.+6.j]
  [ 3.+3.j  6.+2.j  9.-1.j]]

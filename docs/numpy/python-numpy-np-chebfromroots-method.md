@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.chebfromroots()`方法，我们能够获得由通过参数传递的根生成的切比雪夫级数。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb

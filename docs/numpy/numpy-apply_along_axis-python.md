@@ -7,13 +7,13 @@ T3】1d _ func(ar，*args) : 在一维数组上工作，其中 **ar** 是 **arr*
 
 **语法:**
 
-```
+```py
 numpy.apply_along_axis(1d_func, axis, array, *args, **kwargs) 
 ```
 
 **参数:**
 
-```
+```py
 1d_func  : the required function to perform over 1D array. It can only be applied in 
          1D slices of input array and that too along a particular axis. 
 axis     : required axis along which we want input array to be sliced
@@ -29,7 +29,7 @@ array    : Input array to work on
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # use of *args
 
@@ -40,7 +40,7 @@ print("use of args  : \n   ", a)
 
 **输出:**
 
-```
+```py
 use of args  : 
     [3, 4, 5, 6, 7]
 ```
@@ -49,7 +49,7 @@ use of args  :
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # use of **kwargs
 
@@ -64,7 +64,7 @@ test_args_kwargs(**kwargs)
 
 **输出:**
 
-```
+```py
 in1: geeks
 in2: No.
 in3: 1
@@ -74,7 +74,7 @@ in3: 1
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # apply_along_axis() in NumPy
 
@@ -109,7 +109,7 @@ print("axis=1 : ", geek.apply_along_axis(geek_fun, 1, arr))
 
 **输出:**
 
-```
+```py
 axis=0 :  [ 8 10 12]
 
 axis=1 :  [ 4 10 16]
@@ -119,7 +119,7 @@ axis=1 :  [ 4 10 16]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # apply_along_axis() in NumPy
 
@@ -139,7 +139,7 @@ print("Sorted as per axis 0 : \n", geek.apply_along_axis(sorted, 0, geek_array))
 
 **输出:**
 
-```
+```py
 Sorted as per axis 1 : 
  [[1 7 8]
  [3 4 9]

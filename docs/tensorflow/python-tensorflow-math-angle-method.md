@@ -6,7 +6,7 @@
 
 angle()是张量流数学模块中的方法。这种方法被用来寻找张量的元素态参数。默认情况下，所有元素都被视为复数(a+bi)。对于实数，复数部分(b)被认为是零。atan2(b，a)是由这个函数计算的参数。
 
-```
+```py
 Syntax:
 tensorflow.math.angle(
     input, name
@@ -24,7 +24,7 @@ It returns a tensor of type float32 or float64.
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -40,7 +40,7 @@ print('Tensor: ',b)
 
 **输出:**
 
-```
+```py
 Tensor:  tf.Tensor([1.7607845 1.0899091], shape=(2,), dtype=float32)
 ```
 
@@ -50,7 +50,7 @@ Tensor:  tf.Tensor([1.7607845 1.0899091], shape=(2,), dtype=float32)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -66,6 +66,6 @@ print('Tensor: ',b)
 
 **输出:**
 
-```
+```py
 Tensor:  tf.Tensor([0\. 0.], shape=(2,), dtype=float64)
 ```

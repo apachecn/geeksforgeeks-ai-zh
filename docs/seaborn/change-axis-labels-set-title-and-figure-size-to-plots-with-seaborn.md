@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import required libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -30,7 +30,7 @@ tips.head()
 
 ## 计算机编程语言
 
-```
+```py
 # Set figure size (width, height) in inches
 fig, ax = plt.subplots(figsize = ( 5 , 3 ))
 
@@ -60,7 +60,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Set figure size (width, height) in inches
 plt.figure(figsize = ( 5 , 3 ))
 
@@ -90,7 +90,7 @@ Seaborn 的 relplot 函数返回一个 FacetGrid 对象，它是一个图形级�
 
 ## 计算机编程语言
 
-```
+```py
 # Set figure size
 sns.set( rc = {'figure.figsize' : ( 20, 20 ), 
                'axes.labelsize' : 12 })

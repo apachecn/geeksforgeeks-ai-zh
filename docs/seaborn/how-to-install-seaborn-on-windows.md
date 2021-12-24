@@ -13,7 +13,7 @@
 
 PIP 用户可以打开命令提示符，运行以下命令在 Windows 上安装 Python Seaborn Package:
 
-```
+```py
 pip install Seaborn
 ```
 
@@ -25,7 +25,7 @@ pip install Seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 sns.__version__
 ```
@@ -38,7 +38,7 @@ sns.__version__
 
 Conda 用户可以打开 Anaconda Power Shell 提示符，并使用以下命令在 Windows 上安装 Python Seaborn 包:
 
-```
+```py
 conda install -c anaconda seaborn
 ```
 
@@ -50,7 +50,7 @@ conda install -c anaconda seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 sns.__version__
 ```

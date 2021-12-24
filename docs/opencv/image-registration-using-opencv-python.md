@@ -32,7 +32,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import cv2
 import numpy as np
 

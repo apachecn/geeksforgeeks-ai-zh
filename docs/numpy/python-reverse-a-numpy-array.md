@@ -6,7 +6,7 @@
 
 **方法一:使用快捷方法**
 
-```
+```py
 # Python code to demonstrate
 # how to reverse numpy array
 # using shortcut method
@@ -31,7 +31,7 @@ print("final array", str(res))
 
 **输出:**
 
-```
+```py
 initial array [1 2 3 6 4 5]
 type of ini_array <class 'numpy.ndarray'>
 final array [5 4 6 3 2 1]
@@ -40,7 +40,7 @@ final array [5 4 6 3 2 1]
 
 **方法 2:使用`flipud`功能**
 
-```
+```py
 # Python code to demonstrate
 # how to reverse numpy array
 # using flipud method
@@ -65,7 +65,7 @@ print("final array", str(res))
 
 **输出:**
 
-```
+```py
 initial array [1 2 3 6 4 5]
 type of ini_array <class 'numpy.ndarray'>
 final array [5 4 6 3 2 1]

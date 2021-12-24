@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and get_state
 import numpy as np
 
@@ -32,7 +32,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and get_state
 import numpy as np
 import matplotlib.pyplot as plt

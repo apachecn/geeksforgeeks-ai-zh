@@ -17,7 +17,7 @@
 
 **创建面板:**
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -37,7 +37,7 @@ print(panel, "\n")
 
 **代码#1:** 使用 clip_upper()
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 import numpy as np
@@ -61,7 +61,7 @@ print(panel['b'].clip_upper(df2['b'], axis = 0))
 
 **代码#2:** 使用 clip_upper()
 
-```
+```py
 # creating an empty panel
 import pandas as pd
 import numpy as np

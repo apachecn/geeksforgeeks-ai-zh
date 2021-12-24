@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import absolute_import, division,
                        print_function, unicode_literals
 
@@ -32,7 +32,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 # Changing the working location to the location of the text file
 cd C:\Users\Dev\Desktop\Kaggle\Poems
 
@@ -50,7 +50,7 @@ print(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # Storing all the unique characters present in the text
 vocabulary = sorted(list(set(text)))
 
@@ -67,7 +67,7 @@ print(vocabulary)
 
 ## 蟒蛇 3
 
-```
+```py
 # Dividing the text into subsequences of length max_length
 # So that at each time step the next max_length characters
 # are fed into the network
@@ -98,7 +98,7 @@ for i, sentence in enumerate(sentences):
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing the LSTM network
 model = Sequential()
 
@@ -124,7 +124,7 @@ a) **辅助函数采样下一个字符:**](https://github.com/keras-team/keras/b
 
 ## 蟒蛇 3
 
-```
+```py
 # Helper function to sample an index from a probability array
 def sample_index(preds, temperature = 1.0):
 # temperature determines the freedom the function has when generating text
@@ -151,7 +151,7 @@ b) **帮助器功能，在每个纪元后生成文本**
 
 ## 蟒蛇 3
 
-```
+```py
 # Helper function to generate text after the end of each epoch
 def on_epoch_end(epoch, logs):
     print()
@@ -206,7 +206,7 @@ c) **帮助器功能，在损耗减少的每个时期后保存模型**
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a helper function to save the model after each epoch
 # in which the loss decreases
 filepath = "weights.hdf5"
@@ -219,7 +219,7 @@ d) **每次学习停滞时降低学习率的辅助功能**
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a helper function to reduce the learning rate each time
 # the learning plateaus
 reduce_alpha = ReduceLROnPlateau(monitor ='loss', factor = 0.2,
@@ -231,7 +231,7 @@ callbacks = [print_callback, checkpoint, reduce_alpha]
 
 ## 蟒蛇 3
 
-```
+```py
 # Training the GRU model
 model.fit(X, y, batch_size = 128, epochs = 30, callbacks = callbacks)
 ```
@@ -242,7 +242,7 @@ model.fit(X, y, batch_size = 128, epochs = 30, callbacks = callbacks)
 
 ## 蟒蛇 3
 
-```
+```py
 def generate_text(length, diversity):
     # Get random starting text
     start_index = random.randint(0, len(text) - max_length - 1)

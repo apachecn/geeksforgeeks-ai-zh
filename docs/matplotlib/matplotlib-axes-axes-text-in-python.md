@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.text()函数**也用于将文本 s �
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.text(self, x, y, s, fontdict=None, withdash=, **kwargs)
 > 
 > ```
@@ -28,7 +28,7 @@ matplotlib 库的 Axes 模块中的 **Axes.text()函数**也用于将文本 s �
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 
@@ -48,7 +48,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 

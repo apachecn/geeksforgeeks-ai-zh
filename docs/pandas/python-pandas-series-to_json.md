@@ -23,7 +23,7 @@
 
 **示例#1:** 使用`Series.to_json()`函数将给定的序列对象转换为 JSON 字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -47,7 +47,7 @@ print(sr)
 
 现在我们使用`Series.to_json()`函数将给定的序列对象转换为 JSON 字符串。
 
-```
+```py
 # convert to JSON string
 sr.to_json()
 ```
@@ -60,7 +60,7 @@ sr.to_json()
 
 **示例 2:** 使用`Series.to_json()`函数将给定的序列对象转换为 JSON 字符串。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们使用`Series.to_json()`函数将给定的序列对象转换为 JSON 字符串。
 
-```
+```py
 # convert to JSON string
 sr.to_json()
 ```

@@ -11,7 +11,7 @@
 
 **以下是图像聚合的示例–**
 
-```
+```py
 import cv2
 import matplotlib.pyplot as plt
 

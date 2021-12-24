@@ -13,7 +13,7 @@ TensorFlow 是谷歌设计的开源 python 库，用于开发机器学习模型�
 > 
 > **返回:**根据与 x 相同数据类型的 x，返回张量或稀疏张量。
 
-```
+```py
 bessel_i1e(x) = exp(-abs(x)) bessel_i1(x)
 
 bessel_i1e(x) is faster and numerically stabler than bessel_i1(x).
@@ -24,7 +24,7 @@ bessel_i1e(x) is faster and numerically stabler than bessel_i1(x).
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 
@@ -43,7 +43,7 @@ print("Result: ",r)
 
 **输出:**
 
-```
+```py
 a:  tf.Tensor([1\. 2\. 3\. 4\. 5.], shape=(5,), dtype=float64)
 Result:  tf.Tensor([0.20791042 0.21526929 0.19682671 0.17875084 0.16397227], shape=(5,), dtype=float64)
 
@@ -53,7 +53,7 @@ Result:  tf.Tensor([0.20791042 0.21526929 0.19682671 0.17875084 0.16397227], sha
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import tensorflow as tf
 import matplotlib.pyplot as plt 

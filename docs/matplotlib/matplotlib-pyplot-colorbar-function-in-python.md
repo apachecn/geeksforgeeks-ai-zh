@@ -35,7 +35,7 @@ matplotlib 的 pyplot 模块中的 **colorbar()函数**在绘图中添加一个 
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python Program illustrating
 # pyplot.colorbar() method
 import numpy as np
@@ -69,7 +69,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python Program illustrating
 # pyplot.colorbar() method
 import matplotlib.pyplot as plt
@@ -93,7 +93,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python Program illustrating
 # pyplot.colorbar() method
 import numpy as np

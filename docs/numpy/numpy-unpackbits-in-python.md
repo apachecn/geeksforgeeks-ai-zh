@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.unpackbits() function
 
@@ -35,7 +35,7 @@ print ("Output unpacked array : ", out_arr)
 
 **Output :**
 
-```
+```py
 Input array :  [171  16]
 Output unpacked array :  [1 0 1 0 1 0 1 1 0 0 0 1 0 0 0 0]
 
@@ -43,7 +43,7 @@ Output unpacked array :  [1 0 1 0 1 0 1 1 0 0 0 1 0 0 0 0]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.unpackbits() function
 
@@ -64,7 +64,7 @@ print ("Output unpacked array along axis 0 : ", out_arr) 
 
 **Output :**
 
-```
+```py
 Input array :  [[ 64 128]
  [ 17  25]]
 Output unpacked array along axis 0 :  [[0 1]

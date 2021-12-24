@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.printoptions()`方法，我们可以获得定制的打印选项，就像我们可以设置精度值一样。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -25,7 +25,7 @@ with np.printoptions(precision = 3):
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

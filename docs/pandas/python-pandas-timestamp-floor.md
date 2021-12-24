@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.floor()`功能将给定的时间戳对象设定为每日时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.floor()`功能将 ts 对象设置为每日频率。
 
-```
+```py
 # floor the given object to daily frequency
 ts.floor(freq ='D')
 ```
@@ -46,7 +46,7 @@ ts.floor(freq ='D')
 
 **示例#2:** 使用`Timestamp.floor()`功能将给定的时间戳对象设定为精确的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(ts)
 
 现在我们将使用`Timestamp.floor()`功能将 ts 对象精确到频率。
 
-```
+```py
 # floor the given object to minutely frequency
 ts.floor(freq ='T')
 ```

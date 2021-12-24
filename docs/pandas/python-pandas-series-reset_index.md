@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.reset_index()`功能重置给定序列对象的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 
 现在我们将使用`Series.reset_index()`功能重置给定序列对象的索引。
 
-```
+```py
 # reset the index
 result = sr.reset_index()
 
@@ -54,7 +54,7 @@ print(result)
 
 **示例 2:** 使用`Series.reset_index()`功能重置给定 Series 对象的索引。不要保留给定序列对象的原始索引标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.reset_index()`函数来重置给定序列对象的索引，并且我们将删除原始索引标签。
 
-```
+```py
 # reset the index
 result = sr.reset_index(drop = True)
 

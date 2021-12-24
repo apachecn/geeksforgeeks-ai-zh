@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 import pandas as pd
 import numpy as np
@@ -34,7 +34,7 @@ DF.to_csv("data1.csv")
 
 **输出:**
 
-```
+```py
 [[ 1  2  3  4  5]
 [ 6  7  8  9 10]]
 
@@ -50,7 +50,7 @@ DF.to_csv("data1.csv")
 
 ## 蟒蛇 3
 
-```
+```py
 # import the necessary library
 import numpy as np
 
@@ -68,7 +68,7 @@ arr.tofile('data2.csv', sep = ',')
 
 **输出**:
 
-```
+```py
 [ 1  2  3  4  5  6  7  8  9 10]
 
 ```
@@ -83,7 +83,7 @@ arr.tofile('data2.csv', sep = ',')
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy library
 import numpy
 

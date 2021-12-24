@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Pandas Library
 import pandas as pd
 
@@ -55,7 +55,7 @@ dataset.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate the Mean
 # of 'Age' column
 mean = dataset['Age'].mean()
@@ -66,7 +66,7 @@ print(mean)
 
 **输出:**
 
-```
+```py
 29.69911764705882
 ```
 
@@ -102,7 +102,7 @@ print(mean)
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Median of 'Fare' column
 median = dataset['Fare'].median()
 
@@ -112,7 +112,7 @@ print(median)
 
 **输出:**
 
-```
+```py
 14.4542
 ```
 
@@ -146,7 +146,7 @@ print(median)
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Mode of 'Sex' column
 mode = dataset['Sex'].mode()
 
@@ -156,7 +156,7 @@ print(mode)
 
 **输出:**
 
-```
+```py
 0    male
 dtype: object
 ```
@@ -187,7 +187,7 @@ dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Count of 'Ticket' column
 count = dataset['Ticket'].count()
 
@@ -197,7 +197,7 @@ print(count)
 
 **输出:**
 
-```
+```py
 891
 ```
 
@@ -232,7 +232,7 @@ print(count)
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Standard Deviation
 # of 'Fare' column
 std = dataset['Fare'].std()
@@ -243,7 +243,7 @@ print(std)
 
 **输出**:
 
-```
+```py
 49.693428597180905
 ```
 
@@ -279,7 +279,7 @@ print(std)
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Maximum value in 'Age' column
 maxValue = dataset['Age'].max()
 
@@ -289,7 +289,7 @@ print(maxValue)
 
 **输出**:
 
-```
+```py
 80.0
 ```
 
@@ -325,7 +325,7 @@ print(maxValue)
 
 ## 蟒蛇 3
 
-```
+```py
 # Calculate Minimum value in 'Fare' column
 minValue = dataset['Fare'].min()
 
@@ -335,7 +335,7 @@ print(minValue)
 
 **输出:**
 
-```
+```py
 0.0000
 ```
 
@@ -355,7 +355,7 @@ print(minValue)
 
 ## 蟒蛇 3
 
-```
+```py
 # Statistical summary
 dataset.describe()
 ```

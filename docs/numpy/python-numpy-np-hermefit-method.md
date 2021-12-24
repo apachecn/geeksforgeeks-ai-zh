@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`np.hermefit()`方法，我们能够通过使用该方法获得 hermite 级数的最小二乘拟合。
 
-```
+```py
 # import numpy and hermefit
 import numpy as np
 from numpy.polynomial.hermite_e import hermefit
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermefit
 import numpy as np
 from numpy.polynomial.hermite_e import hermefit

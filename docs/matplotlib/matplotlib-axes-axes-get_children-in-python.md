@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_children()函数**用于返回该
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -64,7 +64,7 @@ plt.show()
 **输出:**
 ![](img/f1dad00257457b7d1a6dfc4a99c5d4b8.png)
 
-```
+```py
 List of the child Artists of this Artist 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.317575, angle=0)
@@ -92,7 +92,7 @@ Rectangle(xy=(0, 0), width=1, height=1, angle=0)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -130,7 +130,7 @@ plt.show()
 
 ![](img/0a9a5f4e9ffaee0163a094fd6c61db42.png)
 
-```
+```py
 List of the child Artists of this ArtistEllipse(xy=(0.668847518877268, 6.938675739674615), width=0.7296641185042964, height=0.0893037783885946, angle=224.41378373868537)
 Ellipse(xy=(5.306564101346753, 5.6414743505376554), width=0.4832304987995424, height=0.5640541378173555, angle=151.88483080818298)
 Ellipse(xy=(4.38744932068929, 8.857587055799286), width=0.4259613611748855, height=0.3595422876116724, angle=129.58828319517747)

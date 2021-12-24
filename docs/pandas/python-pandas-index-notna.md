@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.notna()`函数查找索引中所有未缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ idx
 
 现在我们检查索引中的非缺失值。
 
-```
+```py
 # checks for non-missing values.
 idx.notna()
 ```
@@ -41,7 +41,7 @@ idx.notna()
 
 **示例 2:** 使用`Index.notna()`函数检查 Datetime Indexe 中的非缺失标签。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ idx
 
 现在，我们将检查 Datetime 索引中的标签是否存在或缺失。
 
-```
+```py
 # test whether the passed Datetime 
 # Index labels are missing or not.
 idx.notna()

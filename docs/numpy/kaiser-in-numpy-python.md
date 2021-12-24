@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 import numpy as np 
 
 print(np.kaiser(12, 14)) 
@@ -23,7 +23,7 @@ print(np.kaiser(12, 14)) 
 
 **输出:**
 
-```
+```py
 [  7.72686684e-06   3.46009194e-03   4.65200189e-02   2.29737120e-01
    5.99885316e-01   9.45674898e-01   9.45674898e-01   5.99885316e-01
    2.29737120e-01   4.65200189e-02   3.46009194e-03   7.72686684e-06]
@@ -34,7 +34,7 @@ print(np.kaiser(12, 14)) 
 
 **对于窗口:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 
@@ -53,7 +53,7 @@ plt.show() 
 
 **频率:**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 from numpy.fft import fft, fftshift 

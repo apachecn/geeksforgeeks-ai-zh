@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import primorial() method from sympy
 from sympy import primorial
 
@@ -28,14 +28,14 @@ print("The product of first {} primes is {}".format(n, primorial_n))
 
 **输出:**
 
-```
+```py
 The product of first 3 primes is 30
 
 ```
 
 **例 2:**
 
-```
+```py
 # import primorial() method from sympy
 from sympy import primorial
 
@@ -49,7 +49,7 @@ print("The product of primes less than or equal to {} is {}".format(n, primorial
 
 **输出:**
 
-```
+```py
 The product of primes less than or equal to 10 is 210
 
 ```

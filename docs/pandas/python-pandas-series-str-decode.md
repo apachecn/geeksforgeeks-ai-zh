@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.str.decode()`函数解码给定序列对象的基础数据中的字符串。使用“UTF-8”编码方法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.str.decode()`函数来解码给定序列对象的底层数据中的字符串。
 
-```
+```py
 # use 'UTF-8' encoding
 result = sr.str.decode(encoding = 'UTF-8')
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2 :** 使用`Series.str.decode()`函数对给定序列对象的底层数据中的字符串进行解码。使用“ASCII”编码方法。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.str.decode()`函数来解码给定序列对象的底层数据中的字符串。
 
-```
+```py
 # use 'ASCII' encoding
 result = sr.str.decode(encoding = 'ASCII')
 

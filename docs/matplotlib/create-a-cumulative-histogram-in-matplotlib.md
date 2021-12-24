@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyplot for getting graph
 import matplotlib.pyplot as plt
 
@@ -85,7 +85,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy for getting array
 import numpy as np
 

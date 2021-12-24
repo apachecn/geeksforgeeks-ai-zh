@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axhspan()函数**用于添加一个�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.axhspan(self, ymin, ymax, xmin=0, xmax=1, **kwargs)
 > ```
 > 
@@ -29,7 +29,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axhspan()函数**用于添加一个�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -48,7 +48,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

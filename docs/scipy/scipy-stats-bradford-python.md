@@ -18,7 +18,7 @@
 
 **代码#1:创建布拉德福连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import bradford
 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x00000294853B04A8>
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2 :** 布拉德福随机变量和概率分布
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.30727583 0.22129839 0.27130072 0.19795865 1.66069665 1.93938843
  0.43435698 0.16437308 0.91592562 1.95369029]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
  0.6122449  0.71428571 0.81632653 0.91836735 1.02040816 1.12244898

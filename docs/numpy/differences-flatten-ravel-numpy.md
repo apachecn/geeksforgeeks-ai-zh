@@ -4,7 +4,7 @@
 
 我们有两种类似的方法将数组转换成 1D 数组:扁平化()和松散化()
 
-```
+```py
 import numpy as np
 a = np.array( [ (1,7,3,4),(3,2,4,1) ] )
 #OUTPUT:
@@ -33,7 +33,7 @@ print ( a.ravel() )
 
 让我们通过这个代码来检查差异
 
-```
+```py
 # Python code to differentiate
 # between flatten and ravel in numpy
 import numpy as np
@@ -87,7 +87,7 @@ print(a)
 print ("Dimension of array-> " , (c.ndim))
 ```
 
-```
+```py
 OUTPUT:
 Original array:
 

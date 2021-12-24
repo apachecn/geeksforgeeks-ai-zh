@@ -12,7 +12,7 @@ Pandas `**DatetimeIndex.is_month_end**`属性返回一个 numpy 数组，该数�
 
 **示例#1:** 使用`DatetimeIndex.is_month_end`属性检查 DatetimeIndex 对象中的日期是否是一个月的最后一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ print(didx)
 
 现在我们想知道给定的 DatetimeIndex 对象中包含的日期是否是一个月的最后一天。
 
-```
+```py
 # find if the days are the last day of the month.
 didx.is_month_end
 ```
@@ -40,7 +40,7 @@ didx.is_month_end
 
 **示例#2:** 使用`DatetimeIndex.is_month_end`属性检查 DatetimeIndex 对象中出现的日期是否是一个月的最后一天。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ print(didx)
 
 现在我们想知道给定的 DatetimeIndex 对象中包含的日期是否是一个月的最后一天。
 
-```
+```py
 # find if the days are the last day of the month.
 didx.is_month_end
 ```

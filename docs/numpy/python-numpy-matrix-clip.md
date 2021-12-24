@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到借助于`matrix.clip()`方法，我们能够将矩阵夹在最小值和最大值之间。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,7 +26,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 3 4]
  [3 1 4 4]]
 
@@ -34,7 +34,7 @@ print(geeks)
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -49,7 +49,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[4 4 4]
  [4 5 6]
  [7 8 9]]

@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ for val in per1:
 
 **代码#2:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(dRan1, '\n\n', dRan2)
 
 **代码#3:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ print(dRan1, "\n\n", dRan2, '\n\n', dRan3)
 
 **代码#4:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

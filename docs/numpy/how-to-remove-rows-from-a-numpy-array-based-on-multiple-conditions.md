@@ -13,7 +13,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import numpy as np
 
 nparray = np.arange(40).reshape((8, 5))
@@ -30,7 +30,7 @@ print("Given numpy array:\n", nparray)
 
 ## **蟒蛇 3**
 
-```
+```py
 nparray = np.delete(nparray, np.where(
     (nparray >= 5) & (nparray <= 20))[0], axis=0)
 
@@ -48,7 +48,7 @@ print("After deletion of rows containing
 
 ## **蟒蛇 3**
 
-```
+```py
 nparray = np.delete(nparray, np.where(
     (nparray[:, 0] >= 25) & (nparray[:, 0] <= 35))[0], axis=0)
 
@@ -66,7 +66,7 @@ is between 25 and 35:\n", nparray)
 
 ## **蟒蛇 3**
 
-```
+```py
 nparray = np.delete(nparray, np.where((nparray[:, 2] % 2 == 0) | (
     nparray[:, 4] % 3 == 0) | (nparray[:, 3] % 3 == 0))[0], axis=0)
 

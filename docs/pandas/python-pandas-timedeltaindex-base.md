@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.base`属性找出时间增量索引对象的基址。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ tidx_copy = tidx
 
 现在我们想找出这两个对象的基址
 
-```
+```py
 # Print the base address of original object
 tidx.base
 
@@ -47,7 +47,7 @@ tidx_copy.base
 
 **示例#2:** 使用`TimedeltaIndex.base`属性找出 TimedeltaIndex 对象的基址。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ tidx_copy = tidx
 
 现在我们想找出这两个对象的基址
 
-```
+```py
 # Print the base address of original object
 tidx.base
 

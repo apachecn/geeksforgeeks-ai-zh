@@ -8,7 +8,7 @@ Bokeh 是一个 Python 库，用于创建交互式数据可视化。在本文中
 
 要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 conda install bokeh
 Or
 pip install bokeh  
@@ -24,7 +24,7 @@ pip install bokeh
 
 **语法:**
 
-```
+```py
  my_plot.line(a, b, line_width)  
 ```
 
@@ -32,7 +32,7 @@ pip install bokeh
 
 ## 计算机编程语言
 
-```
+```py
 # import the libraries
 from bokeh.plotting import figure, show, output_file
 
@@ -64,7 +64,7 @@ show(my_plot)
 
 **语法:**
 
-```
+```py
 p.line(x1, y2, legend_label, line_color, line_width)
 ```
 
@@ -72,7 +72,7 @@ p.line(x1, y2, legend_label, line_color, line_width)
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.plotting import figure, show
 from bokeh.io import output_notebook
 
@@ -107,7 +107,7 @@ show(p)
 
 **语法:**
 
-```
+```py
 p.circle(x, y, size, fill_color)
 ```
 
@@ -127,7 +127,7 @@ p.circle(x, y, size, fill_color)
 
 ## 计算机编程语言
 
-```
+```py
 from bokeh.plotting import figure, show
 from bokeh.io import output_file
 
@@ -164,7 +164,7 @@ show(p)
 
 **语法:**
 
-```
+```py
 p.vbar(x, bottom, top,
 color, width, fill_color,legend_label)
 ```
@@ -173,7 +173,7 @@ color, width, fill_color,legend_label)
 
 ## 计算机编程语言
 
-```
+```py
 # Bokeh libraries
 from bokeh.io import output_notebook
 from bokeh.plotting import figure, show
@@ -213,7 +213,7 @@ show(p)
 
 **语法:**
 
-```
+```py
 p.hbar(y, height, left, right,
  color, width, fill_color,
 legend_label)
@@ -223,7 +223,7 @@ legend_label)
 
 ## 计算机编程语言
 
-```
+```py
 # Bokeh libraries
 from bokeh.plotting import figure, show, output_file
 
@@ -261,7 +261,7 @@ output_file("ex.html")
 
 **语法:**
 
-```
+```py
 p.patch(x, y, fill_color, line_color, alpha, line_width)
 ```
 
@@ -269,7 +269,7 @@ p.patch(x, y, fill_color, line_color, alpha, line_width)
 
 ## 计算机编程语言
 
-```
+```py
 # Bokeh libraries
 from bokeh.plotting import figure, show, output_file
 
@@ -304,7 +304,7 @@ output_file("ex.html")
 
 ## 计算机编程语言
 
-```
+```py
 # Bokeh libraries
 from bokeh.plotting import figure, show, output_file
 

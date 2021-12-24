@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.isna()`功能检测给定序列对象中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(sr)
 ![](img/1f53af828e1a9600b255c9201272ff8a.png)
 现在我们将使用`Series.isna()`函数检测给定序列对象中所有缺失的值。
 
-```
+```py
 # detect missing values
 result = sr.isna()
 
@@ -49,7 +49,7 @@ print(result)
 
 **示例 2 :** 使用`Series.isna()`功能检测给定序列对象中的缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(sr)
 
 现在我们将使用`Series.isna()`函数来检测给定序列对象中所有缺失的值。
 
-```
+```py
 # detect missing values
 result = sr.isna()
 

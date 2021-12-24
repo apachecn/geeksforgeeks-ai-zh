@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.minute`属性在给定的 Timestamp 对象中查找分钟值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(ts)
 
 现在我们将使用`Timestamp.minute`属性打印 ts 对象中的分钟值。
 
-```
+```py
 # find the value of minute
 ts.minute
 ```
@@ -44,7 +44,7 @@ ts.minute
 
 **示例 2:** 使用`Timestamp.minute`属性在给定的时间戳对象中查找分钟值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(ts)
 
 现在我们将使用`Timestamp.minute`属性打印 ts 对象中的分钟值。
 
-```
+```py
 # find the value of minute
 ts.minute
 ```

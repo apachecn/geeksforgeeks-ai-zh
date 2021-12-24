@@ -17,7 +17,7 @@ Tensorflow `bitwise.bitwise_and()`方法执行按位“与”运算，并返回�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -41,7 +41,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_41:0", shape=(), dtype=int32)
 4
 Input 2 Tensor("Const_42:0", shape=(), dtype=int32)
@@ -53,7 +53,7 @@ Output:  Tensor("BitwiseAnd_5:0", shape=(), dtype=int32)
 
 **例 2:**
 
-```
+```py
 # Importing the Tensorflow library 
 import tensorflow as tf 
 
@@ -77,7 +77,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_43:0", shape=(3, ), dtype=int32)
 [1 2 7]
 Input 2 Tensor("Const_44:0", shape=(3, ), dtype=int32)

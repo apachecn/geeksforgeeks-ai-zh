@@ -39,7 +39,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
     **第二步:-** 输入给定的命令，按回车键让它下载整个包。
     命令
 
-    ```
+    ```py
     conda install -c menpo opencv
 
     ```
@@ -50,7 +50,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Reading a image**
 
-    ```
+    ```py
     img = cv2.imread('LOCATION OF THE IMAGE')
 
     ```
@@ -59,7 +59,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Converting a image to greyscale**
 
-    ```
+    ```py
     img = cv2.imread('watch.jpg',cv2.IMREAD_GRAYSCALE)
 
     ```
@@ -68,7 +68,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Showing the stored image**
 
-    ```
+    ```py
     cv2.imshow('image',img)
 
     ```
@@ -77,7 +77,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Save an image to a file**
 
-    ```
+    ```py
     imwrite(filename, img)
 
     ```
@@ -86,7 +86,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Reading video directly from the webcam**
 
-    ```
+    ```py
     cap = cv2.VideoCapture(0)
 
     ```
@@ -95,7 +95,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Reading a video from local storage**
 
-    ```
+    ```py
     cap = cv2.VideoCapture('LOCATION OF THE VIDEO')
 
     ```
@@ -104,7 +104,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **To check if the video is successfully stored in the variable**
 
-    ```
+    ```py
     cap.isOpened()
 
     ```
@@ -113,7 +113,7 @@ OpenCV(开放源代码计算机视觉)是一个计算机视觉库，包含对图
 
 *   **Release the stored video after processing is done**
 
-    ```
+    ```py
     cap.release()
 
     ```

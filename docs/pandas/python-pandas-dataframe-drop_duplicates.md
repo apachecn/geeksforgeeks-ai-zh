@@ -24,7 +24,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 计算机编程语言
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -52,7 +52,7 @@ data
 
 ## 计算机编程语言
 
-```
+```py
 #importing pandas package
 import pandas as pd
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Library
 import numpy as np
 
@@ -48,7 +48,7 @@ print("Mean of column 3 is", column3_mean)
 
 输出:
 
-```
+```py
 Mean of Row 1 is 2.0
 Mean of Row 2 is 5.0
 Mean of Row 3 is 8.0

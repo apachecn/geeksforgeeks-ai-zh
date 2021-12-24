@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import modules
 import random
 import numpy as np

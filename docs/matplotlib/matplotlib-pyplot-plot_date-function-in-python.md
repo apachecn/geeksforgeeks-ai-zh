@@ -46,7 +46,7 @@ Matplotlib 是 python 中用于数据可视化的模块、包或库。 [Pyplot](
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -75,7 +75,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -111,7 +111,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 import matplotlib.pyplot as plt

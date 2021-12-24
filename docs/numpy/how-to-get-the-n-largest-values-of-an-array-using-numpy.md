@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -53,7 +53,7 @@ print("{} largest value:".format(n),
 
 **输出:**
 
-```
+```py
 Given array: [2 0 1 5 4 1 9]
 Sorted array: [0 1 1 2 4 5 9]
 1 largest value: 9
@@ -64,7 +64,7 @@ Sorted array: [0 1 1 2 4 5 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -103,7 +103,7 @@ print("{} largest value:".format(n),
 
 **输出:**
 
-```
+```py
 Given array: [2 0 1 5 4 1 9]
 Sorted array: [0 1 1 2 4 5 9]
 3 largest value: [4 5 9]

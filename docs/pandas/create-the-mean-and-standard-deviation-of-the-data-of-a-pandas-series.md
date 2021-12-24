@@ -7,7 +7,7 @@
 
 **例 1 :** 求熊猫系列的均值和标准差。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -24,7 +24,7 @@ print(s)
 
 使用`mean()`函数求数列的平均值。
 
-```
+```py
 # finding the mean
 print(s.mean())
 ```
@@ -34,7 +34,7 @@ print(s.mean())
 
 使用`std()`函数求数列的标准差。
 
-```
+```py
 # finding the Standard deviation
 print(s.std())
 ```
@@ -44,7 +44,7 @@ print(s.std())
 
 **例 2 :** 求熊猫数据帧的均值和标准差。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(df)
 
 使用`mean()`函数求数据帧的平均值。
 
-```
+```py
 # finding the mean
 print(df.mean())
 ```
@@ -73,7 +73,7 @@ print(df.mean())
 
 使用`std()`函数计算数据帧的标准偏差。
 
-```
+```py
 # finding the Standard deviation
 print(df.std())
 ```

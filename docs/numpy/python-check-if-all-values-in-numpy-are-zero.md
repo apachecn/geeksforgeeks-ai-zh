@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to count the number of elements
 # in numpy which are zero
@@ -33,7 +33,7 @@ print("Number of non-zeroes in array2 : ", countzero_in2)
 
 **Output:** 
 
-```
+```py
 initial arrays [1 2 3 4 5 6 0]
 [0 0 0 0 0 0]
 Number of non-zeroes in array1 :  6
@@ -44,7 +44,7 @@ Number of non-zeroes in array2 :  0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to check that whether
 # all elements in numpy are zero
 
@@ -67,7 +67,7 @@ print("Whole array contains zeroes in array2 ?: ", countzero_in2)
 
 **Output:** 
 
-```
+```py
 initial arrays [1 2 3 4 5 6 0]
 Whole array contains zeroes in array1 ?:  False
 Whole array contains zeroes in array2 ?:  True

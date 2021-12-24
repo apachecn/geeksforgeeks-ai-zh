@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -52,7 +52,7 @@ pd.concat([data1, data2], ignore_index=True, axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -88,7 +88,7 @@ pd.concat([data1, data2, data3, data4], ignore_index=True,axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -130,7 +130,7 @@ append()方法用于将数据帧追加到给定的数据帧之后。
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

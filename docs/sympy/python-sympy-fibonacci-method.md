@@ -17,7 +17,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("Value of nth fibonacci number : {}".format(nth_fibonacci))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth fibonacci number : 13
 
@@ -52,7 +52,7 @@ Value of nth fibonacci number : 13
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -68,7 +68,7 @@ print("The nth fibonacci polynomial : {}".format(nth_fibonacci_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 5 and k = x
 The nth fibonacci polynomial : x**4 + 3*x**2 + 1
 
@@ -76,7 +76,7 @@ The nth fibonacci polynomial : x**4 + 3*x**2 + 1
 
 **示例#3:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -92,7 +92,7 @@ print("The nth fibonacci polynomial value : {}".format(nth_fibonacci_poly))  
 
 **输出:**
 
-```
+```py
 Value of n = 6 and k = 3
 The nth fibonacci polynomial value : 360
 

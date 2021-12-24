@@ -16,7 +16,7 @@
 
 **代码:**
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -37,7 +37,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input type: Tensor("Const:0", shape=(4, ), dtype=bool)
 Input: [ True False False True]
 Return type: Tensor("logical_and:0", shape=(4, ), dtype=bool)

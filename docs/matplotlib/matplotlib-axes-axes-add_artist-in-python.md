@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.add_artist()函数**用于给轴添�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 np.random.seed(19680801)
@@ -64,7 +64,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

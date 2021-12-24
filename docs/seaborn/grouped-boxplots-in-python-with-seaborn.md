@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import seaborn library
 import seaborn as sns
 
@@ -37,7 +37,7 @@ print(data.head(5))
 
 ## 蟒蛇 3
 
-```
+```py
 # create grouped boxplot 
 sns.boxplot(x = data['day'],
             y = data['total_bill'],
@@ -54,7 +54,7 @@ sns.boxplot(x = data['day'],
 
 ## 蟒蛇 3
 
-```
+```py
 # create another grouped boxplot 
 sns.boxplot(x = data['day'],
             y = data['total_bill'],
@@ -72,7 +72,7 @@ sns.boxplot(x = data['day'],
 
 ## 蟒蛇 3
 
-```
+```py
 # create 3rd grouped boxplot 
 sns.boxplot(x = data['day'],
             y = data['total_bill'],

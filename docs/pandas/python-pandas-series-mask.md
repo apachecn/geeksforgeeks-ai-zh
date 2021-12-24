@@ -19,7 +19,7 @@
 
 **示例#1:** 使用`Series.mask()`函数替换给定系列对象中的‘里约’城市。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 现在我们将使用`Series.mask()`函数替换给定系列对象中的‘里约’城市。
 
-```
+```py
 # replace 'Rio' with 'Tokyo'
 result = sr.mask(lambda x : x =='Rio', other = 'Tokyo')
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例 2:** 使用`Series.mask()`函数屏蔽给定序列对象中大于 50 的所有值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.mask()`函数屏蔽给定序列对象中所有大于 50 的值。
 
-```
+```py
 # mask values greater than 50
 result = sr.mask(sr > 50)
 

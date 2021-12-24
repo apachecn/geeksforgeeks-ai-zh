@@ -30,7 +30,7 @@
 
 **创建 REST 应用编程接口:**
 
-```
+```py
 # keras_server.py
 
 # Python program to expose a ML model as flask REST API
@@ -122,7 +122,7 @@ if __name__ == "__main__":
 
 **运行烧瓶服务器**
 
-```
+```py
 python keras_server.py 
 ```
 
@@ -133,14 +133,14 @@ python keras_server.py
 
 **方法#1 :** **使用 cURL** (从[这里](https://curl.haxx.se/windows/)下载 Windows 的 cURL。)
 
-```
+```py
 $ curl -X POST -F image=@dog.jpg "http://localhost:5000/predict"
 ```
 
 **方法 2 :** (如果做一个全栈网络应用程序，用合适的用户界面就合适了)
 创建一个简单的 HTML 表单
 
-```
+```py
 <!-- index.html -->
 <form action = "http://localhost:5000/predict" method = "POST" 
          enctype = "multipart/form-data">
@@ -151,7 +151,7 @@ $ curl -X POST -F image=@dog.jpg "http://localhost:5000/predict"
 
 **方法#3 :** 创建一个简单的 python 脚本，向 flask 服务器发出 HTTP 请求。
 
-```
+```py
 # simple_request.py
 import requests
 import sys
@@ -180,7 +180,7 @@ if request["success"]:
 
 **运行为:**
 
-```
+```py
 python simple_request.py dog.jpg
 ```
 
@@ -189,7 +189,7 @@ python simple_request.py dog.jpg
 
 完成后要停用(Windows 和 Linux):
 
-```
+```py
 > deactivate
 
 ```

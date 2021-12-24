@@ -18,7 +18,7 @@ Pandas 有一个选项系统，可以让你自定义其行为的某些方面，�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pd.describe_option("display.max_columns"))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

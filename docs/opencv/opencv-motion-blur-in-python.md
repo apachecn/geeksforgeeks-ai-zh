@@ -22,7 +22,7 @@
 
  **代码:用于在图像上应用运动模糊效果的 Python 代码。**
 
-```
+```py
 # loading library
 import cv2
 import numpy as np

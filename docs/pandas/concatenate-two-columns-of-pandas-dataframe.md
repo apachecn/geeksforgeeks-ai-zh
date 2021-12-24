@@ -10,7 +10,7 @@
 
 **例 1 :** 使用 **`concat()`** 法。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(det)
 
 **例 2 :** 使用 **`append()`** 法。
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(dt)
 
 **示例 3 :** 使用。join()方法。
 
-```
+```py
 # importing the module
 import pandas as pd
 

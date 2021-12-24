@@ -33,7 +33,7 @@ Groupby 是一个非常简单的概念。我们可以创建一组类别，并对
 **一键分组数据:**
 为了一键分组数据，我们在`groupby`函数中只传递一个键作为参数。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -56,7 +56,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们使用`groupby()`功能对`Name`的数据进行分组。
 
-```
+```py
 # using groupby function
 # with one key
 
@@ -69,7 +69,7 @@ print(df.groupby('Name').groups)
 
 现在我们打印所有组中形成的第一个条目。
 
-```
+```py
 # applying groupby() function to 
 # group the data on Name value. 
 gk = df.groupby('Name') 
@@ -85,7 +85,7 @@ gk.first() 
 **多键分组数据:**
 为了多键分组数据，我们在`groupby`功能中传递多个键。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -108,7 +108,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们使用`groupby`功能中的多个键将“姓名”和“资格”的数据组合在一起。
 
-```
+```py
 # Using multiple keys in
 # groupby() function
 df.groupby(['Name', 'Qualification'])
@@ -122,7 +122,7 @@ print(df.groupby(['Name', 'Qualification']).groups)
 **按排序键对数据进行分组:**
 在 groupby 操作中，默认对组键进行排序。用户可以通过`sort=False`进行潜在加速。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -141,7 +141,7 @@ print(df) 
 ![](img/7943a80bf8e34375ee31985fd176d327.png)
 现在我们不排序地应用`groupby()`
 
-```
+```py
 # using groupby function
 # without using sort
 
@@ -152,7 +152,7 @@ df.groupby(['Name']).sum()
 ![](img/c3f502949817ace4d2212f16c152c898.png)
 现在我们使用排序应用`groupby()`，以获得潜在的加速
 
-```
+```py
 # using groupby function
 # with sort
 
@@ -165,7 +165,7 @@ df.groupby(['Name'], sort = False).sum()
 **用对象属性对数据进行分组:**
 group 属性就像字典，其关键字是计算出的唯一组，相应的值是属于每个组的轴标签。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -188,7 +188,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们像在字典中使用键一样对数据进行分组。
 
-```
+```py
 # using keys for grouping
 # data
 
@@ -202,7 +202,7 @@ df.groupby('Name').groups
 
 为了迭代一个组元素，我们可以迭代类似于 itertools.obj 的对象。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -225,7 +225,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们以类似于在 itertools.obj 中的方式迭代一个组的元素
 
-```
+```py
 # iterating an element
 # of group
 
@@ -240,7 +240,7 @@ for name, group in grp:
 ![](img/2397b467d68b9d2b9014a846a57d62f5.png)
 现在我们迭代一个包含多个键的组的元素
 
-```
+```py
 # iterating an element
 # of group containing 
 # multiple keys
@@ -260,7 +260,7 @@ for name, group in grp:
 
 为了选择一个组，我们可以使用`GroupBy.get_group()`选择组。我们可以通过应用功能`GroupBy.get_group`选择一个组，该功能选择单个组。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -283,7 +283,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们使用`Groupby.get_group`选择单个组。
 
-```
+```py
 # selecting a single group
 
 grp = df.groupby('Name')
@@ -294,7 +294,7 @@ grp.get_group('Jai')
 ![](img/37b26eb602e5d9a6adea20f2bd7536ba.png)
 现在我们选择一个分组在多列上的对象
 
-```
+```py
 # selecting object grouped
 # on multiple columns
 
@@ -317,7 +317,7 @@ grp.get_group(('Jai', 'Msc'))
 聚合是我们计算每个组的汇总统计的过程。聚合函数为每个组返回一个聚合值。使用`groupby`功能将数据拆分成组后，可以对分组的数据进行多次聚合操作。
 **代码#1:** 通过聚合方法使用聚合
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -343,7 +343,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们使用聚合方法进行聚合
 
-```
+```py
 # performing aggregation using
 # aggregate method
 
@@ -356,7 +356,7 @@ grp1.aggregate(np.sum)
 ![](img/24fb11d897fa8ead90e1272d60a056ab.png)
 现在我们对包含多个键的 agroup 执行聚合
 
-```
+```py
 # performing aggregation on
 # group containing multiple
 # keys
@@ -371,7 +371,7 @@ grp1.aggregate(np.sum)
 **一次应用多个函数:**
 我们可以通过传递一个函数的列表或字典进行聚合，输出一个数据帧，一次应用多个函数。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -397,7 +397,7 @@ print(df) 
 ![](img/d561ba02f2e2e181ec6e891fec3341fd.png)
 现在我们通过传递函数列表来应用多个函数。
 
-```
+```py
 # applying a function by passing
 # a list of functions
 
@@ -412,7 +412,7 @@ grp['Age'].agg([np.sum, np.mean, np.std])
 **对数据框列应用不同的函数:**
 为了对数据框的列应用不同的聚合，我们可以通过字典进行聚合。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -439,7 +439,7 @@ print(df) 
 ![](img/f429a87670c732c47985c7e0fba7f385.png)
 现在我们对数据帧的列应用不同的聚合。
 
-```
+```py
 # using different aggregation
 # function by passing dictionary
 # to aggregate
@@ -457,7 +457,7 @@ grp.agg({'Age' : 'sum', 'Score' : 'std'})
 *   对组块进行逐列操作
 *   不对组块执行就地操作。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -484,7 +484,7 @@ print(df) 
 ![](img/f429a87670c732c47985c7e0fba7f385.png)
 现在我们执行一些特定于组的计算，并返回一个相似索引。
 
-```
+```py
 # using transform function
 grp = df.groupby('Name')
 sc = lambda x: (x - x.mean()) / x.std()*10
@@ -496,7 +496,7 @@ grp.transform(sc)
 **过滤:**
 过滤是根据评估为真或假的分组计算，我们丢弃一些组的过程。为了过滤一个组，我们使用`filter`方法并应用一些过滤组的条件。
 
-```
+```py
 # importing pandas module
 import pandas as pd 
 
@@ -523,7 +523,7 @@ print(df) 
 ![](img/f429a87670c732c47985c7e0fba7f385.png)
 现在我们过滤数据，返回已经活了两次或更多次的名字。
 
-```
+```py
 # filtering data using
 # filter data
 grp = df.groupby('Name')

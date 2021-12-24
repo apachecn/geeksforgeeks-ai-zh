@@ -10,7 +10,7 @@
 
 **Code : Loading Libraries**
 
-```
+```py
 # performing linear algebra
 import numpy as np 
 
@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 
 **代码:加载数据集**
 
-```
+```py
 data = pd.read_csv("..\\breast-cancer-wisconsin-data\\data.csv")
 
 print (data.head)
@@ -34,13 +34,13 @@ print (data.head)
 
 **代码:加载数据集**
 
-```
+```py
 data.info()
 ```
 
 **输出:**
 
-```
+```py
 
 RangeIndex: 569 entries, 0 to 568
 Data columns (total 33 columns):
@@ -84,27 +84,27 @@ memory usage: 146.8+ KB
 
 **代码:我们正在删除列–“id”和“未命名:32”，因为它们在预测中没有作用**
 
-```
+```py
 data.drop(['Unnamed: 32', 'id'], axis = 1)
 data.diagnosis = [1 if each == "M" else 0 for each in data.diagnosis]
 ```
 
 **代码:输入输出数据**
 
-```
+```py
 y = data.diagnosis.values
 x_data = data.drop(['diagnosis'], axis = 1)
 ```
 
 代码:标准化
 
-```
+```py
 x = (x_data - np.min(x_data))/(np.max(x_data) - np.min(x_data)).values
 ```
 
 **代码:拆分数据进行训练和测试。**
 
-```
+```py
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(
     x, y, test_size = 0.15, random_state = 42)
@@ -122,7 +122,7 @@ print("y test: ", y_test.shape)
 
 **代码:重量和偏差**
 
-```
+```py
 def initialize_weights_and_bias(dimension):
     w = np.full((dimension, 1), 0.01)
     b = 0.0
@@ -131,7 +131,7 @@ def initialize_weights_and_bias(dimension):
 
 **代码:Sigmoid 函数–计算 z 值。**
 
-```
+```py
 # z = np.dot(w.T, x_train)+b
 def sigmoid(z):
     y_head = 1/(1 + np.exp(-z))
@@ -140,7 +140,7 @@ def sigmoid(z):
 
 **代码:前向-后向传播**
 
-```
+```py
 def forward_backward_propagation(w, b, x_train, y_train):
     z = np.dot(w.T, x_train) + b
     y_head = sigmoid(z)
@@ -160,7 +160,7 @@ def forward_backward_propagation(w, b, x_train, y_train):
 
 **代码:更新参数**
 
-```
+```py
 def update(w, b, x_train, y_train, learning_rate, number_of_iterarion):
     cost_list = []
     cost_list2 = []
@@ -192,7 +192,7 @@ def update(w, b, x_train, y_train, learning_rate, number_of_iterarion):
 
 **代码:预测**
 
-```
+```py
 def predict(w, b, x_test):
     # x_test is a input for forward propagation
     z = sigmoid(np.dot(w.T, x_test)+b)
@@ -211,7 +211,7 @@ def predict(w, b, x_test):
 
 **代码:逻辑回归**
 
-```
+```py
 def logistic_regression(x_train, y_train, x_test, y_test, 
                         learning_rate,  num_iterations):
 
@@ -238,7 +238,7 @@ logistic_regression(x_train, y_train, x_test, 
 
 **输出:**
 
-```
+```py
 Cost after iteration 0: 0.692836
 Cost after iteration 10: 0.498576
 Cost after iteration 20: 0.404996
@@ -261,7 +261,7 @@ Cost after iteration 140: 0.194860
 
 **输出:**
 
-```
+```py
 train accuracy: 95.23809523809524 %
 test accuracy: 94.18604651162791 %
 
@@ -269,7 +269,7 @@ test accuracy: 94.18604651162791 %
 
 **代码:用线性模型检查结果。物流配送**
 
-```
+```py
 from sklearn import linear_model
 logreg = linear_model.LogisticRegression(random_state = 42, max_iter = 150)
 print("test accuracy: {} ".format(

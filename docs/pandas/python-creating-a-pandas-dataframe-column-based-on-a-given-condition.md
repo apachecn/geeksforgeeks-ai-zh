@@ -8,7 +8,7 @@
 
 **解决方案#1 :** 我们可以使用 Python 的列表理解技巧来实现这个任务。列表理解大多比其他方法快。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -27,7 +27,7 @@ print(df)
 
 现在，我们将向数据框中添加一个名为“价格”的新列。为此，我们将使用列表理解技术。如果“活动”是“音乐”800，请将价格设置为 1500。
 
-```
+```py
 # Add a new column named 'Price'
 df['Price'] = [1500 if x =='Music' else 800 for x in df['Event']]
 
@@ -41,7 +41,7 @@ print(df)
 
 **解决方案#2 :** 我们可以使用`DataFrame.apply()`功能来实现目标。可能会出现我们有两个以上值的情况，在这种情况下，我们可以使用字典将新值映射到键上。当我们有大量的类别要为新添加的列分配不同的值时，这确实提供了很大的灵活性。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(df)
 
 现在，我们将向数据框中添加一个名为“价格”的新列。为此，我们将使用`DataFrame.apply()`函数来实现目标。如果“事件”是“音乐”，请将价格设置为 1500；如果“事件”是“喜剧”，请设置为 1200；如果“事件”是“诗歌”，请设置为 800。
 
-```
+```py
 # Define a function to map the values
 def set_value(row_number, assigned_value):
     return assigned_value[row_number]
@@ -80,7 +80,7 @@ print(df)
 
 **解决方案#3 :** 我们可以使用`DataFrame.map()`功能来实现目标。这是一种非常直接的方法，我们使用字典简单地根据键将值映射到新添加的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -98,7 +98,7 @@ print(df)
 
 现在，我们将向数据框中添加一个名为“价格”的新列。为此，我们将使用`DataFrame.map()`函数来实现目标。如果“事件”是“音乐”，请将价格设置为 1500；如果“事件”是“喜剧”，请设置为 1200；如果“事件”是“诗歌”，请设置为 800。
 
-```
+```py
 # Create the dictionary
 event_dictionary ={'Music' : 1500, 'Poetry' : 800, 'Comedy' : 1200}
 

@@ -17,7 +17,7 @@
 
 **示例#1:** 使用`Series.floordiv()`函数对带有标量的系列对象执行楼层划分操作。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.floordiv()`函数对给定的带有标量的系列对象进行楼层划分。
 
-```
+```py
 # perform floor division
 result = sr.floordiv(other = 3)
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例#2 :** 使用`Series.floordiv()`功能对带有标量的系列对象执行楼层划分操作。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.floordiv()`函数对给定的带有标量的系列对象进行楼层划分。我们将在所有缺少值的地方填充 30。
 
-```
+```py
 # perform floor division
 result = sr.floordiv(other = 3, fill_value = 30)
 

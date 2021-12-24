@@ -38,7 +38,7 @@ Matplotlib 是一个数据可视化库。不把数据可视化，就很难分析
 
 ## 蟒蛇 3
 
-```
+```py
 # creating 3d plot using matplotlib 
 # in python
 
@@ -86,7 +86,7 @@ Jupyter 笔记本中的交互式 3D 绘图
 
 ## 计算机编程语言
 
-```
+```py
 # creating 3d bar plot using matplotlib 
 # in python
 

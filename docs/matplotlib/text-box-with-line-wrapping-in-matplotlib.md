@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
@@ -59,7 +59,7 @@ plt.legend()
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [50, 40, 40, 80, 20]
@@ -90,7 +90,7 @@ plt.legend()
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 x = [1, 2, 3, 4, 5]
 y = [50, 40, 40, 80, 20]
@@ -118,7 +118,7 @@ plt.legend()
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()
@@ -140,7 +140,7 @@ plt.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 fig = plt.figure()

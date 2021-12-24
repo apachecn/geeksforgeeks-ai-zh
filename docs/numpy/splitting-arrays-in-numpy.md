@@ -8,13 +8,13 @@
 
     **语法:**
 
-    ```
+    ```py
     numpy.hsplit(ary, indices_or_sections)
     ```
 
     **示例:**
 
-    ```
+    ```py
     # Horizontal array splitting using np.hsplit()
     import numpy as np
 
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```py
      The array [[0 1 2]
      [3 4 5]
      [6 7 8]] gets splitted horizontally to form [array([[0],
@@ -57,13 +57,13 @@
 
 *   **Vertical splitting:** The **‘vsplit()’** function splits an array along axis parameter = 0.**‘numpy.vsplit’** is equivalent to **‘split’** with **axis parameter = 0**. This function split an array into multiple sub-arrays vertically (row-wise).
 
-    ```
+    ```py
     numpy.vsplit(ary, indices_or_sections)
     ```
 
     **示例:**
 
-    ```
+    ```py
     import numpy as np
 
     # Making of  a 3x3 array
@@ -91,13 +91,13 @@
 
 *   **Depth-wise splitting:** It Split the array into multiple sub-arrays along the 3rd axis (depth).
 
-    ```
+    ```py
     numpy.dsplit(ary, indices_or_sections)
     ```
 
     **示例:**
 
-    ```
+    ```py
     import numpy as np
 
     # Making of  a 3x3x3 array.

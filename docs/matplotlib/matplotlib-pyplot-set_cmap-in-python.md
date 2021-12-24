@@ -22,7 +22,7 @@ matplotlib 库 pyplot 模块中的 **set_cmap()函数**用于设置默认的颜�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -59,7 +59,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

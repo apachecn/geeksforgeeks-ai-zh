@@ -20,7 +20,7 @@
 
 **示例#1:** 使用`Series.sample()`函数从给定的序列对象中随机抽取值样本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(sr)
 ![](img/e39569634c6c724123c0cb043bfb04f6.png)
 现在我们将使用`Series.sample()`函数从给定的 Series 对象中随机抽取值样本。
 
-```
+```py
 # Draw random sample of 3 values
 selected_cities = sr.sample(n = 3)
 
@@ -55,7 +55,7 @@ print(selected_cities)
 
 **示例 2:** 使用`Series.sample()`函数从给定的 Series 对象中随机抽取值样本。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(sr)
 
 现在我们将使用`Series.sample()`功能选择一个大小相当于给定 Series 对象大小 25%的随机样本。
 
-```
+```py
 # Draw random sample of size of 25 % of the original object
 selected_items = sr.sample(frac = 0.25)
 

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining 
 # numpy.ndarray.view() function
 
@@ -36,7 +36,7 @@ print("\n After using view() with dtype = 'int32' and adding 1 a is : \n", a)
 
 **Output:** 
 
-```
+```py
 a is: 
  [0 1 2 3 4 5 6 7 8 9]
 
@@ -51,7 +51,7 @@ a is:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining 
 # numpy.ndarray.view() function
 
@@ -71,7 +71,7 @@ print("\n After using view() with dtype = 'int16' and adding 1 a is : \n", a)
 
 **Output:** 
 
-```
+```py
 a is: [0 1 2 3 4 5 6 7 8 9]
 
  After using view() with dtype = 'int16' a is :
@@ -85,7 +85,7 @@ a is: [0 1 2 3 4 5 6 7 8 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining 
 # numpy.ndarray.view() function
 

@@ -15,7 +15,7 @@ Pandas `**Series.last()**`功能是一种方便的方法，用于根据日期偏
 
 **示例#1:** 使用`Series.last()`函数返回给定系列对象中最近 5 天的条目。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.last()`函数返回给定系列对象中最近 5 天的条目。
 
-```
+```py
 # return the entries of last 5 days
 result = sr.last('5D')
 
@@ -51,7 +51,7 @@ print(result)
 
 **示例 2 :** 使用`Series.last()`功能返回给定系列对象中最近 4 个月的条目。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(sr)
 
 现在我们将使用`Series.last()`函数返回给定系列对象中最近 4 个月的条目。
 
-```
+```py
 # return the entries of last 4 Months
 result = sr.last('4M')
 

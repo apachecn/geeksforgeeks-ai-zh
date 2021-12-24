@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
@@ -60,7 +60,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -97,7 +97,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 

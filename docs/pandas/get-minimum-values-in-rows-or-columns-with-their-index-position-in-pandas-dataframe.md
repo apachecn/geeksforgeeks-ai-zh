@@ -13,7 +13,7 @@
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -47,7 +47,7 @@ minvalue_series
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -81,7 +81,7 @@ minvalue_series
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -116,7 +116,7 @@ minvalue_series
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -142,7 +142,7 @@ minvalue
 
 **输出:**
 
-```
+```py
 20
 ```
 
@@ -155,7 +155,7 @@ minvalue
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -188,7 +188,7 @@ minvalueIndexLabel
 
 **代码:**
 
-```
+```py
 # import pandas library
 import pandas as pd
 

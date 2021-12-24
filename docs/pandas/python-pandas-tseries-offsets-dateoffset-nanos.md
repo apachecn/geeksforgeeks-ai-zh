@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`pandas.tseries.offsets.DateOffset.nanos`属性返回给定日期偏移对象中的纳秒数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以从给定的日期向前滚动日期。还返回给定日期偏移量对象中的纳秒数。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 
@@ -66,7 +66,7 @@ print(do.nanos)
 
 **示例#2:** 使用`pandas.tseries.offsets.DateOffset.nanos`属性返回给定日期偏移对象中的纳秒数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -94,7 +94,7 @@ print(do)
 
 现在，我们将向给定的时间戳对象添加 dateoffset，以从给定的日期向前滚动日期。还返回给定日期偏移量对象中的纳秒数。
 
-```
+```py
 # Adding the dateoffset to the given timestamp
 new_timestamp = ts + do
 

@@ -34,7 +34,7 @@ matplotlib 模块中的 title()方法用于指定所描绘的可视化的标题�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 
@@ -62,7 +62,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import matplotlib.pyplot as plt
 
@@ -93,7 +93,7 @@ plt.title(label="ReLU function graph",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -124,7 +124,7 @@ plt.title(label='Number of Users of a particular Language',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot as plt
 
@@ -157,7 +157,7 @@ plt.title(label="Society Food Preference",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from matplotlib import pyplot 
 import numpy
@@ -191,7 +191,7 @@ pyplot.title("Signal",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 from PIL import ImageTk, Image 
 from matplotlib import pyplot as plt

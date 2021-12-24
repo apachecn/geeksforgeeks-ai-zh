@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.shift()`功能将时间序列数据移动一定的持续时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ idx
 
 现在我们将指数移动 5 天。
 
-```
+```py
 # shifting the index by 5 days
 idx.shift(5, freq ='D')
 ```
@@ -43,7 +43,7 @@ idx.shift(5, freq ='D')
 
 **示例 2:** 使用`Index.shift()`功能移动基于日期时间的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ idx
 
 现在我们将把指数移动 5 个月。
 
-```
+```py
 # shifting the index by 5 Months
 idx.shift(5, freq ='MS')
 ```

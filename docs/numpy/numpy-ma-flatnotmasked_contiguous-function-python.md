@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.flatnotmasked_contiguous() function
 
@@ -31,7 +31,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 slice(0, 8, None)
 ```
 
@@ -39,7 +39,7 @@ slice(0, 8, None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.flatnotmasked_contiguous() function
 
@@ -57,6 +57,6 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 slice(0, 12, None)
 ```

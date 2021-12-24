@@ -17,7 +17,7 @@
 
 **代码#1:**
 
-```
+```py
 # Graph using numpy.linspace() 
 # finding kurtosis
 
@@ -41,7 +41,7 @@ print( '\nKurtosis for normal distribution :', 
 
 **输出:**
 
-```
+```py
 
 Kurtosis for normal distribution : -0.3073930877422071
 

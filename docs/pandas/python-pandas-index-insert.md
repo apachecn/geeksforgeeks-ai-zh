@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.insert()`函数在索引中插入一个新值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ idx
 ![](img/a17dcb8df4399b450d7ce6cf202b3e75.png)
 现在在第一个索引处插入‘大丹犬’。
 
-```
+```py
 # Inserting a value at the first position in the index.
 idx.insert(1, 'Great_Dane')
 ```
@@ -44,7 +44,7 @@ idx.insert(1, 'Great_Dane')
 
 **示例 2:** 使用`Index.insert()`函数在索引中倒数第二个位置的索引中插入一个值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ idx
 
 现在在最后一个索引的第一个位置插入“大丹犬”。
 
-```
+```py
 # Inserting a value at the first position in the index.
 idx.insert(-1, 'Great_Dane')
 ```

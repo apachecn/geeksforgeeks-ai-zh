@@ -8,7 +8,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **代码#1:** 基本示例
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -26,7 +26,7 @@ df
 
 **代码#2:** 使用带有索引和列名的列表的数据帧
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -45,7 +45,7 @@ df
 
 **代码#3:** 使用 zip()来压缩两个列表
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ df
 
 **代码#4:** 使用多维列表创建数据框
 
-```
+```py
 # import pandas as pd
 import pandas as pd 
 
@@ -84,7 +84,7 @@ df
 
 **代码#5:** 使用指定了列名和数据类型的多维列表。
 
-```
+```py
 # import pandas as pd
 import pandas as pd 
 
@@ -101,7 +101,7 @@ df
 
 **代码#6:** 使用字典中的列表创建数据帧
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 

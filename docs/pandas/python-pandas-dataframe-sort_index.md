@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # extract the sample dataframe from "df"
 # and store it in "sample_df"
 sample_df = df.sample(15)
@@ -54,7 +54,7 @@ sample_df
 
 ## 蟒蛇 3
 
-```
+```py
 # sort by index labels
 sample_df.sort_index(axis = 0)
 ```
@@ -69,7 +69,7 @@ sample_df.sort_index(axis = 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

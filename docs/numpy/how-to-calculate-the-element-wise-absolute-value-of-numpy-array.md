@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -32,7 +32,7 @@ print("Absolute array:\n", rslt)
 
 **输出:**
 
-```
+```py
 Given array:
 [ 1 -2  3]
 Absolute array:
@@ -44,7 +44,7 @@ Absolute array:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -65,7 +65,7 @@ print("Absolute array:\n",
 
 **输出:**
 
-```
+```py
 Given array:
 [[ 1 -2  3]
 [-4  5 -6]]
@@ -79,7 +79,7 @@ Absolute array:
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import numpy as np
 
@@ -105,7 +105,7 @@ print("Absolute array:\n",
 
 **输出:**
 
-```
+```py
 Given array:
 [[[  1\.    -2\.     3\.  ]
  [ -4\.     5\.    -6\.  ]]

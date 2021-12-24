@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.title() function 
 
@@ -26,7 +26,7 @@ print ("output titled array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['p4q r' '4q rp' 'q rp4' 'rp4q']
 output titled array : ['P4Q R' '4Q Rp' 'Q Rp4' 'Rp4Q']
 
@@ -34,7 +34,7 @@ output titled array : ['P4Q R' '4Q Rp' 'Q Rp4' 'Rp4Q']
 
 **代码#2:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.title() function 
 
@@ -50,7 +50,7 @@ print ("output titled array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['geeks' 'for' 'geeks']
 output titled array : ['Geeks' 'For' 'Geeks']
 

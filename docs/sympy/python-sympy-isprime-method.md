@@ -6,7 +6,7 @@
 
 请注意，负数(例如-13)不被视为质数。
 
-```
+```py
 Syntax:  sympy.isprime()
 Parameter:  n; number to be tested
 Return:  bool value result 
@@ -16,7 +16,7 @@ Return:  bool value result
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check prime number
 # using sympy.isprime() method
 
@@ -31,7 +31,7 @@ isprime(2)
 
 输出:
 
-```
+```py
 False
 True
 True
@@ -41,7 +41,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check prime number
 # using sympy.isprime() method
 
@@ -56,7 +56,7 @@ nt.isprime(2)
 
 输出:
 
-```
+```py
 False
 True
 True

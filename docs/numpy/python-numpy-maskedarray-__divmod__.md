@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以通过使用 MaskedArray 看到这一点。__divmod__()方法我们得到两个数组。一个是用作为参数传递的值除以，另一个是用 mod 值。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,7 +24,7 @@ print(gfg.__divmod__(3)) 
 
 **Output:**
 
-```
+```py
 (masked_array(data = [0 0 1 1 1],
              mask = [False False False False False],
        fill_value = 999999), masked_array(data = [1 2 0 1 2],
@@ -36,7 +36,7 @@ print(gfg.__divmod__(3)) 
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -50,7 +50,7 @@ print(gfg.__divmod__(3)) 
 
 **Output:**
 
-```
+```py
 (masked_array(data =
  [[0 0 1 1 1]
  [2 1 1 1 0]],

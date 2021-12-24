@@ -10,7 +10,7 @@ Pandas Dataframe 提供了更改列值数据类型的自由。我们可以将它
 
 **语法:**
 
-```
+```py
 DataFrame.astype(dtype, copy=True, errors=’raise’, **kwargs)
 
 ```
@@ -19,7 +19,7 @@ DataFrame.astype(dtype, copy=True, errors=’raise’, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -49,7 +49,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert it from 'int' to 'float' type 
 # using DataFrame.astype() function
 df['Weight'] = df['Weight'].astype(float)
@@ -73,7 +73,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -103,7 +103,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # now Pass a dictionary to astype() function  
 # which contains two columns 
 # and hence convert them from int to float type
@@ -127,7 +127,7 @@ df 
 
 **语法**:
 
-```
+```py
 pandas.to_numeric(arg, errors=’raise’, downcast=None)
 
 ```
@@ -136,7 +136,7 @@ pandas.to_numeric(arg, errors=’raise’, downcast=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -166,7 +166,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert it from 'int' to 'float' type
 # using pandas.to_numeric()
 df['Weight'] = pd.to_numeric(df['Weight'], downcast='float')
@@ -189,7 +189,7 @@ df 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -219,7 +219,7 @@ print(df.dtypes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Now we will convert them from 'int' to 'float' type
 # using pandas.to_numeric()
 df['Experience'] = pd.to_numeric(df['Experience'], downcast='float')

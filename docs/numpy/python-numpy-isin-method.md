@@ -12,7 +12,7 @@
 
 在这个例子中我们可以看到，通过使用`numpy.isin()`方法，如果元素与目标数组匹配，我们就能够得到布尔数组。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

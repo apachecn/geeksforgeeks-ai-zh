@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.cov
 import numpy as np
@@ -37,7 +37,7 @@ print("Covariance matrix of x:\n", np.cov(x))
 
 **输出:**
 
-```
+```py
 Shape of array:
  (3, 3)
 Covariance matrix of x:
@@ -50,7 +50,7 @@ Covariance matrix of x:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.cov
 import numpy as np
@@ -67,7 +67,7 @@ print(np.cov(cov_mat))
 
 **Output:** 
 
-```
+```py
 [[ 2.03629167  0.9313    ]
  [ 0.9313      0.4498    ]]
 ```
@@ -76,7 +76,7 @@ print(np.cov(cov_mat))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of numpy.cov
 import numpy as np
@@ -97,7 +97,7 @@ print(np.cov(cov_mat))
 
 **Output:** 
 
-```
+```py
 shape of matrix x and y: (4, 2)
 shape of covariance matrix: (4, 4)
 [[ 0.88445  0.51205  0.2793  -0.36575]

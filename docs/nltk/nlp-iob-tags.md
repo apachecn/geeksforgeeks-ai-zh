@@ -11,7 +11,7 @@
 它是组块的一种格式。这些标记类似于词性标记，但可以表示一个组块的内部、外部和开始。这里不仅允许名词短语，还允许多种不同的组块短语类型。
 **例:**节选自 **conll2000 文集**。每个单词都有一个词性标签，后面跟一个自己行上的 IOB 标签:
 
-```
+```py
 Mr. NNP B-NP
 Meador NNP I-NP
 had VBD B-VP
@@ -32,7 +32,7 @@ Balcor NNP B-NP
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the libraries
 from nltk.corpus.reader import ConllChunkCorpusReader
 
@@ -47,7 +47,7 @@ reader.iob_words()
 
 **输出:**
 
-```
+```py
 [Tree('NP', [('Mr.', 'NNP'), ('Meador', 'NNP')]), Tree('VP', [('had', 'VBD'), 
 ('been', 'VBN')]), ...]
 
@@ -58,7 +58,7 @@ reader.iob_words()
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the libraries
 from nltk.corpus.reader import ConllChunkCorpusReader
 
@@ -73,7 +73,7 @@ reader.iob_sents()
 
 **输出:**
 
-```
+```py
 [Tree('S', [Tree('NP', [('Mr.', 'NNP'), ('Meador', 'NNP')]),
 Tree('VP', [('had', 'VBD'), ('been', 'VBN')]), 
 Tree('NP', [('executive', 'JJ'), ('vice', 'NN'), ('president', 'NN')]),
@@ -96,7 +96,7 @@ Tree('PP', [('of', 'IN')]), Tree('NP', [('Balcor', 'NNP')]), ('.', '.')])]
 
 ## 蟒蛇 3
 
-```
+```py
 # Loading the libraries
 from nltk.corpus.reader import ConllChunkCorpusReader
 
@@ -113,7 +113,7 @@ reader.chunked_paras()[0][0].leaves()
 
 **输出:**
 
-```
+```py
 [('Earlier', 'JJR'), ('staff-reduction', 'NN'), ('moves', 'NNS')]
 
 [('Earlier', 'JJR'), ('staff-reduction', 'NN'), ('moves', 'NNS'),

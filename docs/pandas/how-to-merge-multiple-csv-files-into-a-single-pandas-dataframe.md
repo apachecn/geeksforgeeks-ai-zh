@@ -35,7 +35,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -65,7 +65,7 @@ print(df)
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing libraries
 import pandas as pd
 import glob

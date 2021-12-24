@@ -14,7 +14,7 @@ Pandas `**Series.at**`属性使我们能够访问行/列标签对的单个值。
 
 **示例#1:** 使用`Series.at`属性访问给定序列对象中任何特定位置的单个值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(sr)
 
 现在我们将使用`Series.at`属性返回 Series 对象中给定索引处的元素。
 
-```
+```py
 # return the element at the first position
 sr.at[1]
 ```
@@ -42,7 +42,7 @@ sr.at[1]
 
 **示例#2 :** 使用`Series.at`属性访问给定序列对象中任何特定位置的单个值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(sr)
 
 现在我们将使用`Series.at`属性返回 Series 对象中给定索引处的元素。
 
-```
+```py
 # return the element at the first position
 sr.at[5]
 ```

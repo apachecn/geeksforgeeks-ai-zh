@@ -25,7 +25,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import pandas
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(df)
 
 ## 计算机编程语言
 
-```
+```py
 # import pandas
 import pandas as pd
 

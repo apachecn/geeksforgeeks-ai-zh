@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Standard error 
 
 from scipy import stats
@@ -33,7 +33,7 @@ print("\nTrimmed Standard error by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Standard error : 1.32287565553
 
 Trimmed Standard error by setting limit :  0.912870929175
@@ -42,7 +42,7 @@ Trimmed Standard error by setting limit :  0.912870929175
 
 **代码#2:** 多维数据，轴()工作
 
-```
+```py
 # Trimmed Standard error 
 
 from scipy import stats
@@ -60,7 +60,7 @@ print("\nTrimmed Standard error is with default axis = 0 : \n", 
 
 **Output:**
 
-```
+```py
 Trimmed Standard error is with default axis = 0 : 
  27.1476974115
 

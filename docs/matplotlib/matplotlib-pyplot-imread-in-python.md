@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的 **imread()函数**用于将文件中的图像
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cbook as cbook
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cbook as cbook

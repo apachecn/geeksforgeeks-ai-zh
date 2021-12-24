@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required packages
 import pandas
 import numpy
@@ -40,7 +40,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # display the bar chart on dataframe
 df.style.bar(subset = ['B', 'C'],
                    color = 'skyblue')
@@ -54,7 +54,7 @@ df.style.bar(subset = ['B', 'C'],
 
 ## 蟒蛇 3
 
-```
+```py
 # display the bar chart on dataframe
 df.style.bar(subset = ['A', 'D', 'E'],
                    color = 'yellow')

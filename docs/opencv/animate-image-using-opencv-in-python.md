@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = ['-', '-', '-', 1, '-', '-', '-']
 n = len(a)  # length of the array
 
@@ -23,7 +23,7 @@ for i in range(2*n):
 
 **输出**:
 
-```
+```py
 ['-', '-', '-', 1, '-', '-', '-']
 ['-', '-', 1, '-', '-', '-', '-']
 ['-', 1, '-', '-', '-', '-', '-']
@@ -46,7 +46,7 @@ for i in range(2*n):
 
 **语法**:
 
-```
+```py
 numpy.hstack((array1,array2))
 ```
 
@@ -54,7 +54,7 @@ numpy.hstack((array1,array2))
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 

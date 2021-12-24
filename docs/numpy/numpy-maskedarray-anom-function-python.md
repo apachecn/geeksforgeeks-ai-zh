@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.anom() method 
 
@@ -41,7 +41,7 @@ print ("Output anomalies array : ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  5]
 Masked array :  [1 2 -- -1 5]
 Output anomalies array :  [-0.75 0.25 -- -2.75 3.25]
@@ -50,7 +50,7 @@ Output anomalies array :  [-0.75 0.25 -- -2.75 3.25]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.anom() method 
 
@@ -75,7 +75,7 @@ print ("Output anomalies array : ", out_arr)
 
 **Output:**
 
-```
+```py
 nput array :  [10 20 30 40 50]
 Masked array :  [-- 20 -- 40 50]
 Output anomalies array :  [-- -16.666666666666664 -- 3.3333333333333357 13.333333333333336]

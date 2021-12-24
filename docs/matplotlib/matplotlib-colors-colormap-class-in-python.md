@@ -30,7 +30,7 @@ matplotlib.colors.Colormap 类是所有标量到 RGBA 映射的基类。通常�
 
 **例**:
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

@@ -6,7 +6,7 @@
 
 为了使用 Seaborn 模块，我们需要使用以下命令安装该模块:
 
-```
+```py
 pip install seaborn
 
 ```
@@ -27,7 +27,7 @@ pip install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sb
 import numpy as np
@@ -41,7 +41,7 @@ from matplotlib import pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # data x and y axis for seaborn
 x= np.random.randn(200)
 y = np.random.randn(200)
@@ -58,7 +58,7 @@ sns.kdeplot(x)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.kdeplot(y)
 ```
 
@@ -72,7 +72,7 @@ sns.kdeplot(y)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.kdeplot(x, shade = True)
 ```
 
@@ -84,7 +84,7 @@ sns.kdeplot(x, shade = True)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.kdeplot(x, shade = True , color = "Green")
 ```
 
@@ -96,7 +96,7 @@ sns.kdeplot(x, shade = True , color = "Green")
 
 ## 蟒蛇 3
 
-```
+```py
 sns.kdeplot(x, vertical = True)
 ```
 
@@ -110,6 +110,6 @@ sns.kdeplot(x, vertical = True)
 
 ## 蟒蛇 3
 
-```
+```py
 sns.kdeplot(x,y)
 ```

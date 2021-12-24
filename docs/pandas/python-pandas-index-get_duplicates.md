@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.get_duplicates()`函数查找索引中的所有重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ idx
 
 让我们找出索引中所有重复的值。
 
-```
+```py
 # print the duplicated values.
 idx.get_duplicates()
 ```
@@ -40,7 +40,7 @@ idx.get_duplicates()
 
 **示例 2:** 使用`Index.get_duplicates()`功能查找索引中的所有重复项。该指数还包含`NaN`值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ idx
 ![](img/8c4825daf52948ebf4c90529bdfcd194.png)
 正如我们在输出中看到的，我们有一些缺失的值。让我们看看`Index.get_duplicates()`函数是如何对待它们的。
 
-```
+```py
 # print the duplicate values in Index
 idx.get_duplicates()
 ```

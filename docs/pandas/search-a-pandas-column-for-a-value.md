@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 x = pd.DataFrame([["A", 100, "D"], ["B", 200, "E"], ["C", 100, "F"]],
                  columns=["Name", "Salary", "Department"])
@@ -53,7 +53,7 @@ x.iloc[indx]
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 x = pd.DataFrame([["A", 100, "D"], ["B", 200, "E"], ["C", 100, "F"]], 
                  columns=[ "Name", "Salary", "Department"])

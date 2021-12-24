@@ -11,7 +11,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.upper() function 
 
@@ -26,7 +26,7 @@ print ("output uppercased array :", out_arr)
 
 **Output:**
 
-```
+```py
 input array :  ['p4q r' '4q rp' 'q rp4' 'rp4q']
 output uppercased array : ['P4Q R' '4Q RP' 'Q RP4' 'RP4Q']
 
@@ -34,7 +34,7 @@ output uppercased array : ['P4Q R' '4Q RP' 'Q RP4' 'RP4Q']
 
 **代码#2:**
 
-```
+```py
 # Python Program explaining
 # numpy.char.upper() function 
 
@@ -50,7 +50,7 @@ print ("output uppercased array :", out_arr )
 
 **Output:**
 
-```
+```py
 input array :  ['geeks' 'for' 'geeks']
 output uppercased array : ['GEEKS' 'FOR' 'GEEKS']
 

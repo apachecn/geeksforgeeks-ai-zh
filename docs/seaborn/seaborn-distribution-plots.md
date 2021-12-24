@@ -13,7 +13,7 @@ Seaborn 是一个基于 Matplotlib 的 Python 数据可视化库。它提供了�
 
 **代码:**
 
-```
+```py
 # import thr necessary libraries
 import seaborn as sns
 import matplotlib.pyplot as plt % matplotlib inline
@@ -36,13 +36,13 @@ df.head()
 它基本上用于单变量观察组，并通过直方图可视化，即只有一个观察，因此我们选择数据集的一个特定列。
 **语法:**
 
-```
+```py
 distplot(a[, bins, hist, kde, rug, fit, ...])
 ```
 
 **示例:**
 
-```
+```py
 # set the background style of the plot
 sns.set_style('whitegrid')
 sns.distplot(df['total_bill'], kde = False, color ='red', bins = 30)
@@ -64,20 +64,20 @@ sns.distplot(df['total_bill'], kde = False, color ='red', bins = 30)
 它用于用二元和一元图绘制两个变量的图。它基本上结合了两个不同的情节。
 **语法:**
 
-```
+```py
 jointplot(x, y[, data, kind, stat_func, ...])    
 ```
 
 **示例:**
 
-```
+```py
 sns.jointplot(x ='total_bill', y ='tip', data = df)
 ```
 
 **输出:**
 ![](img/3c80c6d58b62064449830118a4645734.png)
 
-```
+```py
 sns.jointplot(x ='total_bill', y ='tip', data = df, kind ='kde')
 # KDE shows the density where the points match up the most
 ```
@@ -96,13 +96,13 @@ sns.jointplot(x ='total_bill', y ='tip', data = df, kind ='kde')
 
     **语法:**
 
-    ```
+    ```py
     pairplot(data[, hue, hue_order, palette, …])    
     ```
 
     **示例:**
 
-    ```
+    ```py
     sns.pairplot(df, hue ="sex", palette ='coolwarm')
     ```
 
@@ -119,13 +119,13 @@ sns.jointplot(x ='total_bill', y ='tip', data = df, kind ='kde')
 
     **语法:**
 
-    ```
+    ```py
     rugplot(a[, height, axis, ax])  
     ```
 
     **示例:**
 
-    ```
+    ```py
     sns.rugplot(df['total_bill'])
     ```
 

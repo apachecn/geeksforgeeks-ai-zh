@@ -21,7 +21,7 @@ matplotlib . colors . boundarynorm 类用于创建基于离散间隔的颜色图
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.collections import LineCollection
@@ -86,7 +86,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib as mpl
 import matplotlib.pylab as plt

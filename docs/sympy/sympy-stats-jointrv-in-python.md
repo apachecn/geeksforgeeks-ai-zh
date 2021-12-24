@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.JointRV()`方法，我们能够使用该方法获得表示 JointRV 分布的连续联合随机变量。
 
-```
+```py
 # Import sympy and JointRV
 from sympy.stats import JointRV, density
 from sympy import Symbol, pprint
@@ -31,7 +31,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and JointRV
 from sympy.stats import JointRV, density
 from sympy import Symbol, pprint

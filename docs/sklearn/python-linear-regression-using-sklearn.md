@@ -12,7 +12,7 @@
 
 **第一步:导入所有需要的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -26,7 +26,7 @@ from sklearn.linear_model import LinearRegression
 
 可以在这里下载数据集[。](https://www.kaggle.com/sohier/calcofi)
 
-```
+```py
 cd C:\Users\Dev\Desktop\Kaggle\Salinity
 
 # Changing the file read location to the location of the dataset
@@ -46,7 +46,7 @@ df_binary.head()
 
 **第三步:探索数据分散**
 
-```
+```py
 sns.lmplot(x ="Sal", y ="Temp", data = df_binary, order = 2, ci = None)
 
 # Plotting the data scatter
@@ -56,14 +56,14 @@ sns.lmplot(x ="Sal", y ="Temp", data = df_binary, order = 2, ci = None)
 
 **第四步:数据清理**
 
-```
+```py
 # Eliminating NaN or missing input numbers
 df_binary.fillna(method ='ffill', inplace = True)
 ```
 
 **第五步:训练我们的模型**
 
-```
+```py
 X = np.array(df_binary['Sal']).reshape(-1, 1)
 y = np.array(df_binary['Temp']).reshape(-1, 1)
 
@@ -86,7 +86,7 @@ print(regr.score(X_test, y_test))
 
 **第六步:探索我们的成果**
 
-```
+```py
 y_pred = regr.predict(X_test)
 plt.scatter(X_test, y_test, color ='b')
 plt.plot(X_test, y_pred, color ='k')
@@ -101,7 +101,7 @@ plt.show()
 
 **步骤 7:使用较小的数据集**
 
-```
+```py
 df_binary500 = df_binary[:][:500]
 
 # Selecting the 1st 500 rows of the data
@@ -113,7 +113,7 @@ sns.lmplot(x ="Sal", y ="Temp", data = df_binary500,
 
 我们已经可以看到，前 500 行遵循线性模型。继续和以前一样的步骤。
 
-```
+```py
 df_binary500.fillna(method ='ffill', inplace = True)
 
 X = np.array(df_binary500['Sal']).reshape(-1, 1)
@@ -129,7 +129,7 @@ print(regr.score(X_test, y_test))
 
 ![](img/18e632576d2da6e271a7c5c913fb7c24.png)
 
-```
+```py
 y_pred = regr.predict(X_test)
 plt.scatter(X_test, y_test, color ='b')
 plt.plot(X_test, y_pred, color ='k')

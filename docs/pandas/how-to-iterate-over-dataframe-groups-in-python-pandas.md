@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -37,7 +37,7 @@ df
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -71,7 +71,7 @@ for name, group in groups:
 
 ## **蟒蛇 3**
 
-```
+```py
 # import pandas library
 import pandas as pd
 

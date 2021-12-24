@@ -15,7 +15,7 @@ PyTorch `torch.log()`方法给出了一个新的张量，它具有输入张量�
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -31,7 +31,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 5
  6
  7
@@ -48,7 +48,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -64,7 +64,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1.4500
   2.3000
  10.0000

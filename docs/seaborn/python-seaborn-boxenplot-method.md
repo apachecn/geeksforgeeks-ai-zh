@@ -37,7 +37,7 @@ Seaborn 是基于 [matplotlib](https://www.geeksforgeeks.org/python-introduction
 
 **例 1:**
 
-```
+```py
 # importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ plt.show()
 ![](img/4f6c13dfc19c09e283d6045fbb96bb57.png)
 **例 2:**
 
-```
+```py
 # importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -76,7 +76,7 @@ plt.show()
 
 **例 3:**
 
-```
+```py
 # importing packages
 import seaborn as sns
 import matplotlib.pyplot as plt

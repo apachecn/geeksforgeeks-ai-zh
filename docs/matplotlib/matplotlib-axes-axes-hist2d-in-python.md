@@ -31,7 +31,7 @@ matplotlib 库的 Axes 模块中的 **Axes.hist2d()函数**用于绘制 2d 直�
 
 **示例-1:**
 
-```
+```py
 
 # Implementation of matplotlib function
 from matplotlib import colors
@@ -58,7 +58,7 @@ plt.show()
 ![](img/ec121fbc32c4da278b16e00757f7317d.png)
 **例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib import colors
 import numpy as np

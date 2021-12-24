@@ -6,7 +6,7 @@
 
 考虑这个数据集。
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -37,7 +37,7 @@ print(df.head(10))
 
 **代码#1:** 显示驾驶员、积分、年龄列中的最大值。
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -69,7 +69,7 @@ print(df.max())
 
 **代码#2:** 谁得分最高
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -100,7 +100,7 @@ print(df[df.Points == df.Points.max()])
 
 **代码#3:** 最大年龄是多少
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -131,7 +131,7 @@ print(df.Age.max())
 
 **代码#4:** 数据框中哪一行的年龄最大|谁是年龄最大的驾驶员？
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -165,7 +165,7 @@ print(df[df.Age == df.Age.max()])
 
 **代码#1:** 显示驾驶员、积分、年龄列上的最小值。
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -197,7 +197,7 @@ print(df.min())
 
 **代码#2:** 谁得分少
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -228,7 +228,7 @@ print(df[df.Points == df.Points.min()])
 
 **代码#3:** 数据框中哪一行年龄最小|谁是最年轻的司机
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np

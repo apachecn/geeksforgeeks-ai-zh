@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.Lambda()`方法，我们可以执行任何数学运算。
 
-```
+```py
 # import sympy
 from sympy import *
 
@@ -27,7 +27,7 @@ print(gfg(9))
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import *
 

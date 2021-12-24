@@ -7,7 +7,7 @@
 让我们把上面的数据点分成一维列表。
 **输入:**
 
-```
+```py
 x = [1, 2, 2, 3]
 y = [1, 2, 3, 6]
 ```
@@ -16,7 +16,7 @@ y = [1, 2, 3, 6]
 
 ## 计算机编程语言
 
-```
+```py
 import matplotlib.pyplot as plt
 import math
 
@@ -42,7 +42,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # in the next step we will find the equation of the best fit line
 # we will use Linear algebra's Point slope form to find regression line equation
 # point-slope form is represented by y = mx + c
@@ -74,7 +74,7 @@ print('value of Y mean', y_mean)
 
 **输出:**
 
-```
+```py
 Value of X mean 2.0
 value of Y mean 3.0
 ```
@@ -83,7 +83,7 @@ value of Y mean 3.0
 
 ## 计算机编程语言
 
-```
+```py
 # below is the process of finding line equation in mathematical terms
 # slope of our line is 2.5
 # calculate c to find out the equation
@@ -95,7 +95,7 @@ print('Intercept', c)
 
 **输出:**
 
-```
+```py
 Intercept -2.0
 ```
 
@@ -103,7 +103,7 @@ Intercept -2.0
 
 ## 计算机编程语言
 
-```
+```py
 # equation of our Regression line comes out to be as below:
 # y_pred = 2.5x-2.0
 # we call the line y_pred
@@ -119,7 +119,7 @@ y_pred =[0.5, 3, 3, 5.5]
 
 ## 计算机编程语言
 
-```
+```py
 # root mean square calculated by sklearn package
 mse = math.sqrt(mean_squared_error(y, y_pred))
 print('Root mean square error', mse)
@@ -127,7 +127,7 @@ print('Root mean square error', mse)
 
 **输出:**
 
-```
+```py
 Root mean square error 0.6123724356957945
 ```
 
@@ -135,7 +135,7 @@ Root mean square error 0.6123724356957945
 
 ## 计算机编程语言
 
-```
+```py
 # lets check how the Root mean square is calculated mathematically
 # lets introduce a term called residuals
 # residual are basically the distance of data point from the regression line
@@ -182,7 +182,7 @@ print('Root Mean square error using maths', rmse)
 
 **输出:**
 
-```
+```py
 Root Mean square error using maths 0.6123724356957945
 ```
 
@@ -196,7 +196,7 @@ y 的多少随 x 的变化而变化，基本上是 y 随 x 变化的%变化
 
 ## 计算机编程语言
 
-```
+```py
 # SEline =(y1-(mx1 + b)**2 + y2-(mx2 + b)**2...+yn-(mxn + b)**2)
 # SE_line =(1-(2.5 * 1+(-2))**2 + (2-(2.5 * 2+(-2))**2) +(3-(2.5*(2)+(-2))**2) + (6-(2.5*(3)+(-2))**2))
 
@@ -231,7 +231,7 @@ print('Rsquared error', r_squared)
 
 **输出:**
 
-```
+```py
 Rsquared error 0.8928571428571429
 ```
 
@@ -239,7 +239,7 @@ Rsquared error 0.8928571428571429
 
 ## 计算机编程语言
 
-```
+```py
 from sklearn.metrics import r2_score
 
 # r2 error calculated by sklearn is similar
@@ -250,6 +250,6 @@ r2_score(y, y_pred)
 
 **输出:**
 
-```
+```py
 0.8928571428571429
 ```

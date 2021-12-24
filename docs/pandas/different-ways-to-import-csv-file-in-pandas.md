@@ -8,7 +8,7 @@ CSV 文件是“逗号分隔值”，这些值用逗号分隔，这个文件可�
 
 **方法#1:** 使用 read_csv()方法。
 
-```
+```py
 # importing pandas module  
 import pandas as pd  
 
@@ -23,7 +23,7 @@ df.head(10) 
 
 提供*文件路径*。
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(df.head())
 
 可以使用`csv` 模块直接导入 csv 文件。
 
-```
+```py
 # import the module csv
 import csv
 import pandas as pd

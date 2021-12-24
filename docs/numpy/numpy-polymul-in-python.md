@@ -15,7 +15,7 @@
 
 **代码:解释 polymul()** 的 Python 代码
 
-```
+```py
 # Python code explaining 
 # numpy.polymul()
 
@@ -33,7 +33,7 @@ print ("\n p2 : \n", p2) 
 
 ![](img/ae4c9bc610e029913b2770d0c2c2c9eb.png)
 
-```
+```py
 mul = np.polymul(p2, p1)
 
 print("\n\npoly1D object : ")
@@ -42,7 +42,7 @@ print("Multiplication Result  : \n", mul)
 
 ![](img/583a869523b778201f6e4b2c823d0885.png)
 
-```
+```py
 # Defining ndarray
 x = np.array([1, 2])
 y = np.array([4, 9, 5, 4])

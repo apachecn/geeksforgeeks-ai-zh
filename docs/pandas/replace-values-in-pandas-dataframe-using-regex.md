@@ -12,7 +12,7 @@
 
 **解决方案:**我们将使用正则表达式来检测这些名称，然后我们将使用`Dataframe.replace()`函数来替换这些名称。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(df)
 
 现在我们将编写正则表达式来匹配字符串，然后我们将使用`Dataframe.replace()`函数来替换那些名称。
 
-```
+```py
 # replace the matching strings
 df_updated = df.replace(to_replace ='[nN]ew', value = 'New_', regex = True)
 
@@ -53,7 +53,7 @@ print(df_updated)
 
 **解决方案:**对于这个任务，我们将使用正则表达式编写自己的定制函数来识别和更新那些城市的名称。此外，我们将使用`Dataframe.apply()`函数对列中的每个值应用我们定制的函数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -78,7 +78,7 @@ print(df)
 
 现在我们将编写自己的定制函数来匹配城市名称中的描述。
 
-```
+```py
 # Importing re package for using regular expressions
 import re
 

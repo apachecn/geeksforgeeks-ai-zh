@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.asobject`属性将时间增量索引对象转换为索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(tidx)
 ![](img/866c50f3d2f4d26644ad715e5c073707.png)
 现在我们要把 TimedeltaIndex 对象转换成 Index 对象。
 
-```
+```py
 # convert to object values.
 tidx.asobject
 ```
@@ -39,7 +39,7 @@ tidx.asobject
 
 **示例#2:** 使用`TimedeltaIndex.asobject`属性将时间增量索引对象转换为索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -56,7 +56,7 @@ print(tidx)
 
 现在我们想要将时间增量索引对象转换成索引对象。
 
-```
+```py
 # convert to object values.
 tidx.asobject
 ```

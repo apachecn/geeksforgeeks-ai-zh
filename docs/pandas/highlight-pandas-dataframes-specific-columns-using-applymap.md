@@ -22,7 +22,7 @@
 
 首先创建一个简单的数据框:
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -41,7 +41,7 @@ display(df)
 
 **示例 1 :** 对于数据框中的每个单元格，如果该值小于 6，则我们将使用红色突出显示该单元格，否则使用蓝色。
 
-```
+```py
 # function definition
 def highlight_cols(s):
     color = 'red' if s < 6 else 'blue'
@@ -56,7 +56,7 @@ display(df.style.applymap(highlight_cols))
 
 **示例 2 :** 这次我们将只突出显示某些指定列中的单元格。
 
-```
+```py
 # function definition
 def highlight_cols(s):
     return 'background-color: % s' % 'yellow'
@@ -73,7 +73,7 @@ display(df.style.applymap(highlight_cols, 
 
 ## 蟒蛇 3
 
-```
+```py
 df.style.applymap(highlight_cols, subset = pd.IndexSlice[:, ['B', 'C']])
 ```
 

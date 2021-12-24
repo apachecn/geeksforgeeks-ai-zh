@@ -19,7 +19,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.add() function
 # when inputs are scalar
@@ -37,7 +37,7 @@ print ("output number after addition  : ", out_num) 
 
 **输出:**
 
-```
+```py
 1st Input  number :  10
 2nd Input  number :  15
 output number after addition  :  25
@@ -46,7 +46,7 @@ output number after addition  :  25
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.add() function
 # when inputs are array
@@ -65,7 +65,7 @@ print ("output added array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 1st Input array :  [[ 2 -7  5]
  [-6  2  0]]
 2nd Input array :  [[ 5  8 -5]

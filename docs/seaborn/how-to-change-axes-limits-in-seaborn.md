@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import seaborn as sns
 sns.set_style("whitegrid")

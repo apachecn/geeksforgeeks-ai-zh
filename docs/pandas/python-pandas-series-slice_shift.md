@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.slice_shift()`功能将给定序列对象的数据移动 2 个周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.slice_shift()`函数将给定序列对象中的数据移动 2 个周期。
 
-```
+```py
 # shift by 2 periods
 sr.slice_shift(periods = 2)
 ```
@@ -52,7 +52,7 @@ sr.slice_shift(periods = 2)
 
 **示例 2:** 使用`Series.slice_shift()`功能将给定序列对象的数据移动-2 个周期。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.slice_shift()`函数将给定序列对象中的数据移动-2 个周期。
 
-```
+```py
 # shift by -2 periods
 sr.slice_shift(periods = -2)
 ```

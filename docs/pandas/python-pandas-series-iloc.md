@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.iloc`属性对给定的序列对象执行索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(sr)
 
 现在我们将使用`Series.iloc`属性对给定的 Series 对象执行索引。
 
-```
+```py
 # slice the object element in the 
 # passed range
 sr.iloc[0:2]
@@ -48,7 +48,7 @@ sr.iloc[0:2]
 
 **示例 2 :** 使用`Series.iloc`属性对给定的序列对象执行索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(sr)
 
 现在我们将使用`Series.iloc`属性对给定的 Series 对象执行索引。
 
-```
+```py
 # slice the object element in the 
 # passed range
 sr.iloc[1:3]

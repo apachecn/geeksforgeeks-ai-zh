@@ -4,7 +4,7 @@
 
 In Simpy, the function `Plane.equation()` is used to make equation of a given Plane.
 
-```
+```py
 Syntax :  Plane.equation(x, y, z)
 
 Parameters :
@@ -18,7 +18,7 @@ Returns : Equation of Plane
 
 **示例#1:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -32,13 +32,13 @@ print(p2)
 
 **输出:**
 
-```
+```py
 -9*x + 6*y + 3*z - 12
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy, Point3D and Plane
 from sympy import Point3D, Plane
 
@@ -52,6 +52,6 @@ print(p4)
 
 **输出:**
 
-```
+```py
 2*x + 2*y + 2*z - 12
 ```

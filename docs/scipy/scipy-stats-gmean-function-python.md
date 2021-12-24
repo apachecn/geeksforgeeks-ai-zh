@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Geometric Mean
 
 from scipy.stats.mstats import gmean
@@ -28,7 +28,7 @@ print("Geometric Mean is :", arr1)
 
 **Output:** 
 
-```
+```py
 Geometric Mean is : 4.32674871092
 ```
 
@@ -36,7 +36,7 @@ Geometric Mean is : 4.32674871092
 
 ## 蟒蛇 3
 
-```
+```py
 # Geometric Mean
 
 from scipy.stats.mstats import gmean
@@ -58,7 +58,7 @@ print("\nGeometric Mean is with default axis = 1 : \n",
 
 **Output:** 
 
-```
+```py
 Geometric Mean is : [ 2.81731325  4.55901411  7.89644408]
 
 Geometric Mean is with default axis = 0 : 

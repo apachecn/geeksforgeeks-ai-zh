@@ -29,7 +29,7 @@ matplotlib . colors . normalize 类用于将数据规范化为[0.0，1.0]的区�
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import colors
@@ -85,7 +85,7 @@ axes[1].yaxis.set_major_formatter(PercentFormatter(xmax = 1))
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 

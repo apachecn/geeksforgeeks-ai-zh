@@ -4,7 +4,7 @@
 
 In Sympy, the function `Plane.projection()` is used project the given point onto the given plane along the plane normal which means, the projection is along the normal vector direction of the plane.
 
-```
+```py
 Syntax:  Plane.projection(pt)
 
 Parameters: 
@@ -16,7 +16,7 @@ Returns: Point3D
 
 **示例#1:**
 
-```
+```py
 # import sympy and Plane, Point, Point3D
 from sympy import Plane, Point, Point3D
 
@@ -33,13 +33,13 @@ print(projectionPoint)
 
 **输出:**
 
-```
+```py
 Point3D(2, 7/2, 3/2)
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Plane, Point, Point3D
 from sympy import Plane, Point, Point3D
 
@@ -56,6 +56,6 @@ print(projectionPoint)
 
 **输出:**
 
-```
+```py
 Point3D(2, 5/2, 5/2)
 ```

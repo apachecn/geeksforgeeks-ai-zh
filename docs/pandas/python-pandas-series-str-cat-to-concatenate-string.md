@@ -22,7 +22,7 @@ Pandas **str.cat()** 用于将字符串连接到传递的调用者字符串系�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -51,7 +51,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

@@ -5,7 +5,7 @@
 在本文中，我们将讨论如何在给定字符串数组的所有元素的字符之间插入空格。
 **例:**
 
-```
+```py
 Suppose we have an array of string as follows:
 A = ["geeks", "for", "geeks"]
 
@@ -28,7 +28,7 @@ A = ["g e e k s", "f o r", "g e e k s"]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as np
 import numpy as np
 
@@ -47,7 +47,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 Printing the Original Array:
 ['geeks' 'for' 'geeks']
 Printing the array after inserting spacebetween the elements

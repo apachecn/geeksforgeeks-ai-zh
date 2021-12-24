@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.round()`函数将给定的时间戳舍入为每日时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.round()`函数将给定的时间戳对象舍入到每日频率。
 
-```
+```py
 # round to daily frequency
 ts.round(freq = 'D')
 ```
@@ -46,7 +46,7 @@ ts.round(freq = 'D')
 
 **示例#2:** 使用`Timestamp.round()`函数将给定的时间戳舍入到精确的时间序列频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(ts)
 
 现在我们将使用`Timestamp.round()`函数将给定的 Timestamp 对象舍入到微小的频率。
 
-```
+```py
 # round to minutely frequency
 ts.round(freq = 'T')
 ```

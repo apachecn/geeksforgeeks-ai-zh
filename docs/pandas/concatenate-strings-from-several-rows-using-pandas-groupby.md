@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -50,7 +50,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

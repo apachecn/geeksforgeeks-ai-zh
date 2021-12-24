@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 
@@ -44,7 +44,7 @@ ax[1].plot(x, z)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 import matplotlib.pyplot as plt
 import numpy as np

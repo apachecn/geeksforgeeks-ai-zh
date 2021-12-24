@@ -37,7 +37,7 @@ matplotlib.gridspec.GridSpec 类用于指定放置子图的网格的几何形状
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.gridspec import GridSpec
@@ -63,7 +63,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 

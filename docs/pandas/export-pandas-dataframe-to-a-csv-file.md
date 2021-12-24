@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv("your_name.csv")
 ```
@@ -49,7 +49,7 @@ df.to_csv("your_name.csv")
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv("your_name.csv", encoding = 'utf-8')
 ```
@@ -61,7 +61,7 @@ df.to_csv("your_name.csv", encoding = 'utf-8')
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv('your_name.csv', index = False)
 ```
@@ -76,7 +76,7 @@ df.to_csv('your_name.csv', index = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv("your_name.csv", columns = ['Name'])
 ```
@@ -90,7 +90,7 @@ df.to_csv("your_name.csv", columns = ['Name'])
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv('your_name.csv', header = False) 
 ```
@@ -104,7 +104,7 @@ df.to_csv('your_name.csv', header = False) 
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 df.to_csv("your_name.csv", na_rep = 'nothing')
 ```
@@ -114,7 +114,7 @@ df.to_csv("your_name.csv", na_rep = 'nothing')
 
 ## 蟒蛇 3
 
-```
+```py
 # converting to CSV file
 # separated with tabs
 df.to_csv("your_name.csv", sep ='\t')

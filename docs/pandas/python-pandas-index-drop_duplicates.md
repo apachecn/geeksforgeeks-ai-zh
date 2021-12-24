@@ -18,7 +18,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.drop_duplicates()`功能删除重复值的所有出现，除了第一次出现。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ idx
 
 让我们删除索引中除第一个重复值以外的所有重复值。
 
-```
+```py
 # drop all duplicate occurrences of the
 # labels and keep the first occurrence
 idx.drop_duplicates(keep ='first')
@@ -46,7 +46,7 @@ idx.drop_duplicates(keep ='first')
 
 **示例 2:** 使用`Index.drop_duplicate()`功能删除标签的所有重复出现。不要在索引中保留任何重复的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ idx
 
 让我们删除索引中所有出现的重复值。
 
-```
+```py
 # drop all duplicate occurrences of the labels
 idx.drop_duplicates(keep = False)
 ```

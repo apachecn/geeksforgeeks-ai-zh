@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.who() function
 
@@ -28,7 +28,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 a               5                40               int64
 b               10               80               float64
 
@@ -39,7 +39,7 @@ None
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.who() function
 
@@ -56,7 +56,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 Name            Shape            Bytes            Type
 ===========================================================
 

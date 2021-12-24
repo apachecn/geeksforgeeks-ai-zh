@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and f
 import numpy as np
 import matplotlib.pyplot as plt
@@ -34,7 +34,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy and f
 import numpy as np
 import matplotlib.pyplot as plt

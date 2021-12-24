@@ -25,7 +25,7 @@
 
 要进行检查，请在您的 cmd 或 Anaconda navigator cmd 上运行此程序。
 
-```
+```py
 import pandas as pd
 print(pd.__version__)
 
@@ -33,7 +33,7 @@ print(pd.__version__)
 
 如果是 1.1.0 或者更大，你就可以走了！否则，您可以通过以管理员身份运行命令将 pandas 兼容版本安装到您的窗口 cmd 中，或者安装到您的 Anaconda 导航器中(如果它已添加到路径中)。
 
-```
+```py
 # if you want the latest version available
 pip install pandas --upgrade
 
@@ -55,7 +55,7 @@ pip install pandas==1.1.0
 
 ## 蟒蛇 3
 
-```
+```py
 # pandas version == 1.1.0 (min)
 import pandas as pd
 import numpy as np
@@ -84,7 +84,7 @@ first_df
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the second dataFrame by 
 # copying and modifying the first DataFrame
 second_df = first_df.copy()
@@ -114,7 +114,7 @@ second_df
 
 ## 蟒蛇 3
 
-```
+```py
 #Align the differences on the columns
 first_df.compare(second_df)
 ```
@@ -127,7 +127,7 @@ first_df.compare(second_df)
 
 ## 蟒蛇 3
 
-```
+```py
 # align the differences on rows
 first_df.compare(second_df,align_axis=0)
 ```
@@ -142,7 +142,7 @@ first_df.compare(second_df,align_axis=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Keep the equal values
 first_df.compare(second_df, keep_equal=True)
 ```
@@ -153,7 +153,7 @@ first_df.compare(second_df, keep_equal=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Keep the equal values False
 first_df.compare(second_df, keep_equal=False)
 ```
@@ -166,7 +166,7 @@ first_df.compare(second_df, keep_equal=False)
 
 ## 蟒蛇 3
 
-```
+```py
 #Keep all original rows and columns
 first_df.compare(second_df,keep_shape=True)
 ```
@@ -177,7 +177,7 @@ first_df.compare(second_df,keep_shape=True)
 
 ## 蟒蛇 3
 
-```
+```py
 #Keep all original rows and columns and
  #also all original values
 first_df.compare(second_df,keep_shape=True, keep_equal=True) 

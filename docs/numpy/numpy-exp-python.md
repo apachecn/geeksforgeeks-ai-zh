@@ -7,7 +7,7 @@
 
 **参数:**
 
-```
+```py
 array    : [array_like]Input array or object whose elements, we need to test.
 out      : [ndarray, optional]Output array with same dimensions as Input array, 
             placed with result.
@@ -21,14 +21,14 @@ where    : [array_like, optional]True value means to calculate the universal
 
 **返回:**
 
-```
+```py
 An array with exponential of all elements of input array. 
 
 ```
 
 **代码 1:工作**
 
-```
+```py
 # Python program explaining
 # exp() function
 import numpy as np
@@ -42,7 +42,7 @@ print ("Output array : ", out_array)
 
 **输出:**
 
-```
+```py
 Input array :  [1, 3, 5]
 Output array :  [   2.71828183   20.08553692  148.4131591 ]
 
@@ -50,7 +50,7 @@ Output array :  [   2.71828183   20.08553692  148.4131591 ]
 
 **代码 2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation of 
 # exp() function

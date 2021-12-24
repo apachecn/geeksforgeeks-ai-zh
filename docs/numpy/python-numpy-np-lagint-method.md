@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.lagint()`方法，我们能够以数组的形式获得拉盖尔级数。
 
-```
+```py
 # import numpy
 from numpy.polynomial.laguerre import lagint
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 from numpy.polynomial.laguerre import lagint
 

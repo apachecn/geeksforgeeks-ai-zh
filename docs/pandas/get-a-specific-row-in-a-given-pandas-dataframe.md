@@ -15,7 +15,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -38,7 +38,7 @@ display(df.iloc[1])
 
 **例 2:**
 
-```
+```py
 # importing the module
 import pandas as pd
 

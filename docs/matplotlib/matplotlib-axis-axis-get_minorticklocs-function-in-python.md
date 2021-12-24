@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_minorticklocs()函数**用于获�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -52,7 +52,7 @@ plt.show()
 
 ![](img/6f1a5e3a1224c63e0aa77b9caad8fddf.png)
 
-```
+```py
 Value of get_minorticklocs() :
 -1.0
 2.0
@@ -63,7 +63,7 @@ Value of get_minorticklocs() :
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 from matplotlib.artist import Artist 
@@ -99,7 +99,7 @@ plt.show()
 
 ![](img/17ae6333f4ae5b8b800e47288e4bab67.png)
 
-```
+```py
 Value of get_minorticklocs() :
 -32.0
 -24.0

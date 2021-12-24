@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.SExprTokenizer()`方法，我们能够使用斯坦福标准从字符或数字流中提取令牌。
 
-```
+```py
 # import StanfordTokenizer() method from nltk
 from nltk.tokenize.stanford import StanfordTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import StanfordTokenizer() method from nltk
 from nltk.tokenize.stanford import StanfordTokenizer
 

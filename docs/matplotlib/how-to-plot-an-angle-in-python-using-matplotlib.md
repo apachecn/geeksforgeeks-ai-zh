@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -64,14 +64,14 @@ plt.show()
 
 这里 x0、y0 表示两条直线的交点。绘制的两条直线写成:
 
-```
+```py
 y1 = a1*x + b1
 y2 = a2*x + b2.
 ```
 
 在求解上述方程时，我们得到，
 
-```
+```py
 x0 = (b2-b1) / (a1-a2)   -(i)
 y0 =a1*x0 + b1             -(ii)
 ```
@@ -80,7 +80,7 @@ y0 =a1*x0 + b1             -(ii)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -117,14 +117,14 @@ plt.scatter(x0, y0, color='midnightblue')
 
 这里我们用圆的参数方程画一个圆。圆的参数方程是:
 
-```
+```py
 x1= r*cos(theta)
 x2=r*sin(theta)
 ```
 
 如果我们希望圆不在原点，那么我们使用:
 
-```
+```py
 x1= r*cos(theta) + h
 x2=r*sin(theta) + k
 ```
@@ -133,7 +133,7 @@ x2=r*sin(theta) + k
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -179,7 +179,7 @@ plt.plot(x1, x2, color='green', linestyle='dotted')
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np
@@ -265,7 +265,7 @@ plt.text(x_points[2], y_points[2], '  Point_P2', color='black')
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import matplotlib.pyplot as plt
 import numpy as np

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，使用`np.chebfit()`方法，我们能够使用该方法获得切比雪夫级数的最小二乘拟合。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb

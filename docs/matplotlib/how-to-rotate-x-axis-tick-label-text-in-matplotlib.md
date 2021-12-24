@@ -12,7 +12,7 @@ Matplotlib 是一个令人惊讶的，也是 Python 中最广泛使用的数组�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -47,7 +47,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -85,7 +85,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -118,7 +118,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -154,7 +154,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np

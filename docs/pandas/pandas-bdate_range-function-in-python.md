@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas
 
@@ -37,7 +37,7 @@ print(pandas.bdate_range(start='8/1/2020',
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas
 

@@ -25,7 +25,7 @@ Pandas `**dataframe.groupby()**`功能用于根据一些标准将数据分组。
 
 **示例#1:** 使用`groupby()`功能根据“团队”对数据进行分组。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ df
 
 现在应用`groupby()`功能。
 
-```
+```py
 # applying groupby() function to
 # group the data on team value.
 gk = df.groupby('Team')
@@ -55,7 +55,7 @@ gk.first()
 
 让我们打印包含任意一个组的值。为此使用团队的名称。我们使用函数`get_group()`来查找任何组中包含的条目。
 
-```
+```py
 # Finding the values contained in the "Boston Celtics" group
 gk.get_group('Boston Celtics')
 ```
@@ -65,7 +65,7 @@ gk.get_group('Boston Celtics')
 
 **示例 2:** 使用`groupby()`功能基于多个类别形成组(即使用多个列执行拆分)。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

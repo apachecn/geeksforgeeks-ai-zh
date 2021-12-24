@@ -10,7 +10,7 @@
 
 **代码#1 : rank_trotterjohnson()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rank_trotterjohnson()
 
@@ -37,7 +37,7 @@ print ("Permutation b - rank_trotterjohnson form : ", b.rank_trotterjohnson())
 
 **代码#2 : rank_trotterjohnson()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.rank_trotterjohnson()
 

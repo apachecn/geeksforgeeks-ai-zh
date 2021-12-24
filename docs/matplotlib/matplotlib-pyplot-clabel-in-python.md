@@ -25,7 +25,7 @@ mathplotlib . py plot 中的 clabel()方法用于在类的实例中为线轮廓�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import numpy 
 import matplotlib.pyplot 
@@ -55,7 +55,7 @@ ax.set_title('Simplest default with labels')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import numpy 
 import matplotlib.pyplot 
@@ -89,7 +89,7 @@ ax.set_title('labels at selected locations')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import numpy 
 import matplotlib.pyplot 
@@ -122,7 +122,7 @@ ax.set_title('Single color - negative contours dashed')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import numpy 
 import matplotlib.pyplot 
@@ -156,7 +156,7 @@ ax.set_title('Single color - negative contours solid')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 import numpy 
 import matplotlib.pyplot 

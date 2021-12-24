@@ -12,7 +12,7 @@ matplotlib.pyplot.plot()函数默认情况下通过用直线连接数据中的�
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -50,7 +50,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 import numpy as np
 from scipy.interpolate import make_interp_spline
@@ -93,7 +93,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import numpy as np
 from scipy.interpolate import interp1d
 import matplotlib.pyplot as plt

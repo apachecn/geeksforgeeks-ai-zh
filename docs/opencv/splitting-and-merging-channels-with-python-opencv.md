@@ -25,7 +25,7 @@ cv2.split()用于将彩色/多通道图像分割成独立的单通道图像。�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain splitting of channels
 
 # Importing cv2
@@ -75,7 +75,7 @@ cv2.waitKey(0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain Merging of Channels
 
 # Importing cv2

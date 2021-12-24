@@ -18,7 +18,7 @@
 
 **示例#1:** 使用`Series.factorize()`函数对给定序列对象的底层数据进行编码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -40,7 +40,7 @@ print(sr)
 ![](img/c46311821e25f3706ed4fd5f607642c8.png)
 现在我们使用`Series.factorize()`函数对给定序列对象的底层数据进行编码。
 
-```
+```py
 # encode the values
 result = sr.factorize()
 
@@ -54,7 +54,7 @@ print(result)
 
 **例 2 :** 使用`Series.factorize()`函数对给定序列对象的底层数据进行编码。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.factorize()`函数对给定序列对象的底层数据进行编码。
 
-```
+```py
 # encode the values
 result = sr.factorize()
 

@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.core.defchararray.join() method 
 
@@ -32,7 +32,7 @@ print ("Output joined array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input original array :  ['Python' 'Numpy' 'Pandas']
 Output joined array:  ['P-y-t-h-o-n' 'N+u+m+p+y' 'P*a*n*d*a*s']
 

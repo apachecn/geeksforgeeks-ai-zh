@@ -34,7 +34,7 @@
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to convert
 # dictionary to numpy array
 
@@ -63,7 +63,7 @@ print(numpyArray)
 
 ****输出:****
 
-```
+```py
 [['1' 'Geeks']
  ['2' 'For']
  ['3' 'Geeks']] 
@@ -73,7 +73,7 @@ print(numpyArray)
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to convert
 # dictionary to numpy array
 
@@ -104,7 +104,7 @@ print(numpyArray)
 
 ****输出:****
 
-```
+```py
 [[1 'Geeks']
  [2 'For']
  [3 {'A': 'Welcome', 'B': 'To', 'C': 'Geeks'}]] 
@@ -114,7 +114,7 @@ print(numpyArray)
 
 ## **计算机编程语言**
 
-```
+```py
 # Python program to convert
 # dictionary to numpy array
 
@@ -142,7 +142,7 @@ print(numpyArray)
 
 ****输出:****
 
-```
+```py
 [['Name' 'Geeks']
  [1 list([1, 2, 3, 4])]] 
 ```

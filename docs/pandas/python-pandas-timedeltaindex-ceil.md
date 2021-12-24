@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`TimedeltaIndex.ceil()`函数将给定时间增量索引对象的值上限为指定频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(tidx)
 
 现在，我们将使用`TimedeltaIndex.ceil()`功能将数值上限为每分钟一次。
 
-```
+```py
 # ceil the values to minutely frequency.
 tidx.ceil('T')
 ```
@@ -43,7 +43,7 @@ tidx.ceil('T')
 
 **示例 2:** 使用`TimedeltaIndex.ceil()`函数将给定时间增量索引对象的值上限为指定频率。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(tidx)
 
 现在我们将使用`TimedeltaIndex.ceil()`功能将数值上限为每日频率。
 
-```
+```py
 # ceil the values to daily frequency.
 tidx.ceil('D')
 ```

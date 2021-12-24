@@ -17,7 +17,7 @@ Pandas `**Series.describe()**`函数生成一个描述性统计数据，总结�
 
 **示例#1:** 使用`Series.describe()`函数查找给定序列对象的汇总统计。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ print(sr)
 
 现在我们将使用`Series.describe()`函数来查找给定序列对象中底层数据的汇总统计。
 
-```
+```py
 # find summary statistics of the underlying 
 # data in the given series object.
 result = sr.describe()
@@ -54,7 +54,7 @@ print(result)
 
 **例 2 :** 使用`Series.describe()`函数查找给定序列对象中底层数据的汇总统计。给定的序列对象包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -77,7 +77,7 @@ print(sr)
 
 现在我们将使用`Series.describe()`函数来查找给定序列对象中底层数据的汇总统计。
 
-```
+```py
 # find summary statistics of the underlying 
 # data in the given series object.
 result = sr.describe()

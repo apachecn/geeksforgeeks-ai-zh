@@ -10,13 +10,13 @@ python 中的以下代码使用了用于图像处理技术的 OpenCV 库。该�
 
 *   在您的终端上运行以下命令，从 Ubuntu 或 Debian 安装它。
 
-```
+```py
 sudo apt-get install libopencv-dev python-opencv
 ```
 
 *   或者，要从官方网站下载 OpenCV，请运行以下命令:
 
-```
+```py
 bash install-opencv.sh
 ```
 
@@ -24,13 +24,13 @@ bash install-opencv.sh
 
 *   要安装 numpy，只需使用命令:
 
-```
+```py
 sudo pip install numpy
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for Detection of a
 # specific color(blue here) using OpenCV with Python
 import cv2

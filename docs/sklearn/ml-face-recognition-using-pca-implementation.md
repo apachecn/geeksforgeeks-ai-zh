@@ -9,7 +9,7 @@ scikit-learn 库还提供了一个获取 ***LFW_peoples*** 数据集的 API。�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import matplotlib library
 import matplotlib.pyplot as plt
 
@@ -30,7 +30,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 # this command will download the LFW_people's dataset to hard disk.
 lfw_people = fetch_lfw_people(min_faces_per_person = 70, resize = 0.4)
 
@@ -61,7 +61,7 @@ print("Number of Class Labels: % d" % n_classes)
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to plot images in 3 * 4 
 def plot_gallery(images, titles, h, w, n_row = 3, n_col = 4):
     plt.figure(figsize =(1.8 * n_col, 2.4 * n_row))
@@ -92,7 +92,7 @@ plot_gallery(X, true_titles, h, w)
 
 ## 蟒蛇 3
 
-```
+```py
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size = 0.25, random_state = 42)
 print("size of training Data is % d and Testing Data is % d" %(
@@ -106,7 +106,7 @@ print("size of training Data is % d and Testing Data is % d" %(
 
 ## 蟒蛇 3
 
-```
+```py
 n_components = 150
 
 t0 = time()
@@ -136,14 +136,14 @@ print("done in % 0.3fs" % (time() - t0))
 
 ## 蟒蛇 3
 
-```
+```py
 print("Sample Data point after applying PCA\n", X_train_pca[0])
 print("-----------------------------------------------------")
 print("Dimensions of training set = % s and Test Set = % s"%(
         X_train.shape, X_test.shape))
 ```
 
-```
+```py
 Sample Data point after applying PCA 
 [-2.0756025  -1.0457923   2.126936    0.03682641 -0.7575693  -0.51736575
   0.8555038   1.0519465   0.45772424  0.01348036 -0.03962574  0.63872665
@@ -179,7 +179,7 @@ Dimensions of training set (966, 1850) and Test Set (322, 1850)
 
 ## 蟒蛇 3
 
-```
+```py
 print("Fitting the classifier to the training set")
 t0 = time()
 param_grid = {'C': [1e3, 5e3, 1e4, 5e4, 1e5],
@@ -203,7 +203,7 @@ print("Confusion Matrix is:")
 print(confusion_matrix(y_test, y_pred, labels = range(n_classes)))
 ```
 
-```
+```py
 Fitting the classifier to the training set
 done in 45.872s
 Best estimator found by grid search:

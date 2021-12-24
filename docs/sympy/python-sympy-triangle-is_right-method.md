@@ -4,7 +4,7 @@
 
 In Sympy, the function `Triangle.is_right()` is used to check whether the given triangle is Right-Angled Triangle or not. Right-Angled Triangle is the triangle in which one angle is a right angle(90 degrees).
 
-```
+```py
 Syntax: Triangle.is_right()
 
 Returns: 
@@ -14,7 +14,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -28,13 +28,13 @@ print(isRight)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **例 2:**
 
-```
+```py
 # import Triangle, Point
 from sympy.geometry import Triangle, Point
 
@@ -48,6 +48,6 @@ print(isRight)
 
 **输出:**
 
-```
+```py
 False
 ```

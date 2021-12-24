@@ -17,7 +17,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_navigate_mode()函数**用于获�
 以下示例说明了 matplotlib . axes . axes . get _ navigate _ mode()函数在 matplotlib.axes:
 **示例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib
 import matplotlib.pyplot as plt
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

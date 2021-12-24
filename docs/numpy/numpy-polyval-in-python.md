@@ -17,7 +17,7 @@
 
 **代码:**解释 polyval()的 Python 代码
 
-```
+```py
 # Python code explaining 
 # numpy.polyval()
 
@@ -35,7 +35,7 @@ print ("\n p2 : \n", p2) 
 
 ![](img/66447dae5e7d3eb7519b5e99efc3226e.png)
 
-```
+```py
 # Solve for x = 2 
 print ("\n\np1 at x = 2 : ", p1(2)) 
 print ("p2 at x = 2 : ", p2(2)) 
@@ -43,7 +43,7 @@ print ("p2 at x = 2 : ", p2(2)) 
 
 ![](img/aa0f99223ff0407c6fe9a516409e686c.png)
 
-```
+```py
 a = np.polyval([1, 2], 2)
 b = np.polyval([4, 9, 5, 4], 2)
 

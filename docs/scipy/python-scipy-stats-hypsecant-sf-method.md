@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`stats.hypsecant.sf()`方法，我们能够通过使用这个方法得到生存函数值。
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 1
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 4

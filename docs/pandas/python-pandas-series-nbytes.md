@@ -16,7 +16,7 @@ Pandas `**Series.nbytes**`属性是返回给定 Series 对象中存储底层数�
 
 **示例#1:** Use `Series.nbytes`属性用于查找存储给定 Series 对象的底层数据所需的字节数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.nbytes`属性来查找存储给定 Series 对象的底层数据所需的字节数。
 
-```
+```py
 # return the number of bytes
 sr.nbytes
 ```
@@ -49,7 +49,7 @@ sr.nbytes
 
 **示例 2 :** 使用`Series.nbytes`属性来查找存储给定 Series 对象的底层数据所需的字节数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们将使用`Series.nbytes`属性来查找存储给定 Series 对象的底层数据所需的字节数。
 
-```
+```py
 # return the number of bytes
 sr.nbytes
 ```

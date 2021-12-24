@@ -31,7 +31,7 @@
 
 **代码#1:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ df.isnull()
 
 **代码#2:**
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -80,7 +80,7 @@ data[bool_series] 
 
 **代码#3:**
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -104,7 +104,7 @@ df.notnull()
 
 **代码#4:**
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -129,7 +129,7 @@ data[bool_series] 
 
 **代码#1:** 用单个值填充空值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -153,7 +153,7 @@ df.fillna(0)
 
 **代码#2:** 用之前的值填充空值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -178,7 +178,7 @@ df.fillna(method ='pad')
 
 **代码#3:** 用下一个填充空值
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -202,7 +202,7 @@ df.fillna(method ='bfill')
 
 **代码#4:** 在 CSV 文件中填充空值
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -217,7 +217,7 @@ data[10:25]
 ![](img/0a12f145716423857caa70cc6768d24e.png)
 现在我们要用“无性别”填充性别列中的所有空值
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -234,7 +234,7 @@ data
 ![](img/bf2cbe3ed89e76f5671c554fe83fc73d.png)
 **代码#5:** 使用 replace()方法填充空值
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -250,7 +250,7 @@ data[10:25]
 ![](img/d95906716a9b208ed679b5b456b3e608.png)
 现在我们要用-99 值替换数据框中的所有 Nan 值。
 
-```
+```py
 # importing pandas package 
 import pandas as pd 
 
@@ -266,7 +266,7 @@ data.replace(to_replace = np.nan, value = -99) 
 
 **代码#6:** 使用 interpolate()函数使用线性方法填充缺失值。
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -283,7 +283,7 @@ df 
 ![](img/93f42a075da27116cb479a700c24752a.png)
 我们用线性方法插值缺失值。请注意，线性方法忽略索引，并将值视为等距。
 
-```
+```py
 # to interpolate the missing values 
 df.interpolate(method ='linear', limit_direction ='forward')
 ```
@@ -298,7 +298,7 @@ df.interpolate(method ='linear', limit_direction ='forward')
 
 **代码#1:** 删除至少有 1 个空值的行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -320,7 +320,7 @@ df
 ![](img/2502ebbb98975e0050de5b47b6e7aae8.png)
 现在我们删除至少有一个 Nan 值(空值)的行
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -344,7 +344,7 @@ df.dropna()
 ![](img/d4fabe4eac10d52905d696d228779c83.png)
 **代码#2:** 如果该行中的所有值都丢失，则丢弃该行。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -366,7 +366,7 @@ df
 ![](img/6bcb2c993fba3a18da275fc886a36ce1.png)
 现在我们删除所有数据缺失或包含空值(NaN)的行
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -390,7 +390,7 @@ df.dropna(how = 'all')
 
 **代码#3:** 删除至少有 1 个空值的列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -412,7 +412,7 @@ df
 ![](img/31e9a66cac9a64dad6971d7f755a4087.png)
 现在我们删除至少有 1 个缺失值的列
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -437,7 +437,7 @@ df.dropna(axis = 1)
 
 **代码#4:** 删除 CSV 文件中至少有 1 个空值的行
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -454,7 +454,7 @@ new_data
 ![](img/98e6518ab7f9caffcee768efc7cfc988.png)
 现在我们比较数据帧的大小，这样我们就可以知道有多少行至少有 1 个空值
 
-```
+```py
 print("Old data frame length:", len(data))
 print("New data frame length:", len(new_data)) 
 print("Number of rows with at least 1 NA value: ", (len(data)-len(new_data)))
@@ -462,7 +462,7 @@ print("Number of rows with at least 1 NA value: ", (len(data)-len(new_data)))
 
 **输出:**
 
-```
+```py
 Old data frame length: 1000
 New data frame length: 764
 Number of rows with at least 1 NA value:  236

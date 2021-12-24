@@ -8,7 +8,7 @@ A [数据框](https://www.geeksforgeeks.org/python-pandas-dataframe/)是一种�
 
 ## 巨蟒
 
-```
+```py
 # import Pandas library
 import pandas as pd
 

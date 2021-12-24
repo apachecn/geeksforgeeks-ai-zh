@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，借助`matrix.cumsum()`方法，我们能够找到给定数组的累积和。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 6  8 11]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[ 1  3  6 10 15 21]]
 
 ```

@@ -12,7 +12,7 @@
 
 为了显示颜色，我们需要用蒙版对当前帧进行**逐位和**。为此，有一个名为 bitwise_and()的内置函数
 
-```
+```py
 syntax: 
 result = cv2.bitwise_and(pic1, pic2, mask)
 ```
@@ -23,21 +23,21 @@ result = cv2.bitwise_and(pic1, pic2, mask)
 
 首先，使用以下两个代码导入所需模块后，创建一个 OpenCV 视频捕获对象:
 
-```
+```py
 import cv2
 import numpy as np
 ```
 
 然后开始无限循环，读取网络摄像头读取的每一帧。使用 ***cv2.cvtColor()*** 功能将每一帧从 BGR 格式转换为 HSV 格式，它将帧作为第一个输入，颜色转换的类型作为第二个输入。
 
-```
+```py
 syntax:
 cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 ```
 
 之后，指定蓝色(或您喜欢的任何颜色)的下限和上限。通过创建两个期望下限和上限为[H，S，V]的 NumPy 阵列。这两个 NumPy 数组将用作阈值函数中的参数，即 *cv2.inRange()* 函数。它采用三个参数，图像源、下限和上限。
 
-```
+```py
 syntax:
 cv2.inRange(source, lower_limit, upper_limit)
 ```
@@ -48,7 +48,7 @@ cv2.inRange(source, lower_limit, upper_limit)
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 import numpy as np
 

@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到只用一行就可以很容易地转置一个数组。
 
-```
+```py
 # importing python module named numpy
 import numpy as np
 
@@ -30,7 +30,7 @@ print(gfg.transpose())
 
 **Output:**
 
-```
+```py
 [[1 2 3]
  [4 5 6]
  [7 8 9]]
@@ -44,7 +44,7 @@ print(gfg.transpose())
 **示例 2 :**
 在本例中，我们演示了在`numpy.transpose()`中使用元组。
 
-```
+```py
 # importing python module named numpy
 import numpy as np
 
@@ -62,7 +62,7 @@ print(gfg.transpose(1, 0))
 
 **Output:**
 
-```
+```py
 [[1 2]
  [4 5]
  [7 8]]

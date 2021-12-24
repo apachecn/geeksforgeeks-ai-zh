@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.errorbar()函数**用于制作阶梯�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.step(self, x, y, *args, where='pre', data=None, **kwargs)
 > ```
 > 
@@ -29,7 +29,7 @@ matplotlib 库的 Axes 模块中的 **Axes.errorbar()函数**用于制作阶梯�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 
 import numpy as np

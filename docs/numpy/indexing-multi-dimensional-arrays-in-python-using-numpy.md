@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # numpy library imported
 import numpy as np
 
@@ -19,7 +19,7 @@ print(arr_s)
 
 **输出:**
 
-```
+```py
 [0 1 2 3 4]
 ```
 
@@ -28,7 +28,7 @@ print(arr_s)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # here inside arrange method we
@@ -44,14 +44,14 @@ print(arr_b)
 
 **输出:**
 
-```
+```py
 [20 22 24 26 28]
 ```
 
 索引这些数组很简单。每个数组元素都有一个与之关联的特定索引。索引从 0 开始，一直到数组 1 的长度。在前面的例子中，arr_b 本身有 5 个元素。访问这些元素可以通过:
 完成
 
-```
+```py
 array_name[index_number]
 ```
 
@@ -59,7 +59,7 @@ array_name[index_number]
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # here inside arrange method we
@@ -81,7 +81,7 @@ print(arr_b[1:4])
 
 **输出**T2】
 
-```
+```py
 [20 22 24 26 28]
 24
 [22 24 26]
@@ -91,7 +91,7 @@ print(arr_b[1:4])
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 arr_m = np.arrange(12).reshape(6, 2)
@@ -100,7 +100,7 @@ print(arr_m)
 
 **输出:**
 
-```
+```py
 [[ 0  1]
  [ 2  3]
  [ 4  5]
@@ -114,7 +114,7 @@ print(arr_m)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 arr_m = np.arrange(12).reshape(2, 2, 3)
@@ -123,7 +123,7 @@ print(arr_m)
 
 **输出**T2】
 
-```
+```py
 [[[ 0  1  2]
   [ 3  4  5]]
 
@@ -136,7 +136,7 @@ print(arr_m)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 arr_m = np.arrange(12).reshape(2, 2, 3)
@@ -149,7 +149,7 @@ print(arr_m[1:5:2,::3])
 
 **输出:**
 
-```
+```py
 [[[ 0  1  2]
   [ 3  4  5]]
 

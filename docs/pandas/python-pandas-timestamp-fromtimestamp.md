@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.fromtimestamp()`函数从传递的值中返回时间戳对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -32,7 +32,7 @@ print(ts)
 
 现在我们将使用`Timestamp.fromtimestamp()`函数从传递的值中返回一个 Timestamp 对象。
 
-```
+```py
 # convert to a Timestamp object
 ts.fromtimestamp(992345678)
 ```
@@ -45,7 +45,7 @@ ts.fromtimestamp(992345678)
 
 **示例#2:** 使用`Timestamp.fromtimestamp()`函数从传递的值中返回时间戳对象。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ print(ts)
 
 现在我们将使用`Timestamp.fromtimestamp()`函数从传递的值中返回一个 Timestamp 对象。
 
-```
+```py
 # convert to a Timestamp object
 ts.fromtimestamp(634816)
 ```

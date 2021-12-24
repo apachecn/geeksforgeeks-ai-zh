@@ -22,7 +22,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import library
 import torch
 
@@ -49,7 +49,7 @@ print("Determinant: \n", det)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import library
 import torch
 
@@ -79,7 +79,7 @@ print("Determinant: \n", det)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import library
 import torch
 
@@ -112,7 +112,7 @@ print("Determinant: \n", det)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import library
 import torch
 
@@ -137,7 +137,7 @@ print("Determinant: \n", det)*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import library
 import torch
 

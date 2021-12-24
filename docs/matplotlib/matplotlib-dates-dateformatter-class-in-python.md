@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -51,7 +51,7 @@ axes.bar(diff.index,
 
 **例 2:**
 
-```
+```py
 import matplotlib
 import matplotlib.pyplot as plt
 from datetime import datetime

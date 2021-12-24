@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 shape()
 ```
 
@@ -18,7 +18,7 @@ shape()
 
 ## 蟒蛇
 
-```
+```py
 import numpy as np
 
 matrix= np.arange(1,9).reshape((3, 3))
@@ -32,7 +32,7 @@ print(matrix.shape)
 
 **输出:**
 
-```
+```py
 [[1 2 3]
 [4 5 6]
 [7 8 9]]
@@ -44,7 +44,7 @@ print(matrix.shape)
 
 ## 蟒蛇
 
-```
+```py
 import numpy as np
 
 matrix= np.arange(10,15).reshape((3, 2))
@@ -58,7 +58,7 @@ print(matrix.shape)
 
 **输出**
 
-```
+```py
 [[10 11]
 [12 13]
 [14 15]]

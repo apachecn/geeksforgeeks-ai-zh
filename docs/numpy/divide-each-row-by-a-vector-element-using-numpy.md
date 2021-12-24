@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module 
 import numpy as np
 
@@ -41,7 +41,7 @@ print(n_arr / vec[:,None])
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module 
 import numpy as np
 
@@ -72,7 +72,7 @@ print(n_arr / vec[:,None])
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numpy module 
 import numpy as np
 

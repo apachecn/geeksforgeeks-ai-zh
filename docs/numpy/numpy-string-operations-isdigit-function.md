@@ -11,7 +11,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isdigit() method 
 
@@ -27,7 +27,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['1000' '2000']
 Output array:  [ True  True]
 
@@ -35,7 +35,7 @@ Output array:  [ True  True]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.isdigit() method 
 
@@ -51,7 +51,7 @@ print ("Output array: ", out_arr)
 
 **Output:**
 
-```
+```py
 Input array :  ['1000 2' 'a1000' '1234 ab']
 Output array:  [False False False]
 

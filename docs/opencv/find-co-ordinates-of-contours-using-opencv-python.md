@@ -11,7 +11,7 @@
 
 在下面的代码中，我们将使用名为“test.jpg”的图像来查找轮廓，并在图像本身上打印顶点的坐标。
 
-```
+```py
 # Python code to find the co-ordinates of
 # the contours detected in an image.
 import numpy as np

@@ -26,7 +26,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **更换前:**
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -42,7 +42,7 @@ nba
 **替换后:**
 在下面的示例中，“学院”列中的所有空值都被替换为“无学院”字符串。首先从 CSV 导入数据框，然后选择学院列并对其使用 `fillna()`方法。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -63,7 +63,7 @@ nba
 在以下示例中，方法被设置为 *ffill* ，因此同一列中的值将替换空值。在这种情况下*佐治亚州*在第 4 行和第 5 行的学院列中替换了空值。
 同样，也可以使用填充、回填和垫料方法。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -83,7 +83,7 @@ nba
 
 在本例中，在 *fillna()* 方法中设置了 1 的限制，以检查在一次成功替换 NaN 值后功能是否停止替换。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

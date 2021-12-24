@@ -11,7 +11,7 @@ Python 中的 Pandas 是一个为数据分析和操作而编写的包。熊猫�
 要检查您的设备是否预装了 Python，只需进入**命令行**(在运行对话框中搜索**cmd**(<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">***+R**)。
 现在运行以下命令:*
 
-```
+```py
 *python --version* 
 ```
 
@@ -36,7 +36,7 @@ Python 中的 Pandas 是一个为数据分析和操作而编写的包。熊猫�
 *PIP 是一个包管理系统，用于安装和管理用 Python 编写的软件包/库。这些文件存储在一个被称为 Python 包索引(PyPI)的大型“在线存储库中”。
 熊猫可以通过使用以下命令使用 PIP 安装:*
 
-```
+```py
 *pip install pandas*
 ```
 
@@ -85,7 +85,7 @@ Python 中的 Pandas 是一个为数据分析和操作而编写的包。熊猫�
 
 *要在 Linux 上安装 Pandas，只需在终端窗口中键入以下命令，然后按回车键。Linux 将自动下载并安装在 Python 中运行熊猫环境所需的包和文件:*
 
-```
+```py
 *pip3 install pandas* 
 ```
 

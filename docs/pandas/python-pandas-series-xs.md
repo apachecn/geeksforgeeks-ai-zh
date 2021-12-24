@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.xs()`函数为传递的键值返回给定序列对象的横截面。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 ![](img/f6a6d4c6b86dd815350de4f5d5bfa931.png)
 现在我们将使用`Series.xs()`函数返回给定系列对象的横截面。
 
-```
+```py
 # return cross-section corresponding to
 # the 'City 4' label
 sr.xs(key = 'City 4')
@@ -50,7 +50,7 @@ sr.xs(key = 'City 4')
 
 **示例 2 :** 使用`Dataframe.xs()`函数为传递的键值返回给定数据框对象的横截面。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -73,7 +73,7 @@ print(df)
 
 现在我们将使用`Dataframe.xs()`函数返回给定数据框对象的横截面。
 
-```
+```py
 # return cross-section corresponding to
 # the 'Mammal' label
 sr.xs(key = 'Mammal')

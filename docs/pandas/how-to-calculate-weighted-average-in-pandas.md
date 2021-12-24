@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 def weighted_average(dataframe, value, weight):
     val = dataframe[value]
     wt = dataframe[weight]
@@ -30,7 +30,7 @@ def weighted_average(dataframe, value, weight):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 def weighted_average(dataframe, value, weight):
@@ -65,7 +65,7 @@ dataframe.groupby('item_name').apply(weighted_average,
 
 **语法:**
 
-```
+```py
 def weighted_average_of_group(values, weights, item):
     return (values * weights).groupby(item).sum() / weights.groupby(item).sum()
 ```
@@ -74,7 +74,7 @@ def weighted_average_of_group(values, weights, item):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 def weighted_average_of_group(values, weights, item):
@@ -101,7 +101,7 @@ weighted_average_of_group(values=dataframe.value,
 
 **语法**
 
-```
+```py
 def weighted_average_of_whole_dataframe(dataframe, value, weight):
     val = dataframe[value]
     wt = dataframe[weight]
@@ -112,7 +112,7 @@ def weighted_average_of_whole_dataframe(dataframe, value, weight):
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 def weighted_average(dataframe, value, weight):
@@ -134,6 +134,6 @@ weighted_average(dataframe, 'value', 'weight')
 
 **输出:**
 
-```
+```py
 75.075
 ```

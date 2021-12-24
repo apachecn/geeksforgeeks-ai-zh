@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [1,3,5,2,4,6] 
 k = 3
 
@@ -25,7 +25,7 @@ Output: [1,2,3]
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 import numpy as np
 
@@ -47,7 +47,7 @@ print(arr1[:k])
 
 **输出:**
 
-```
+```py
 The Original Array Content
 [23 12  1  3  4  5  6]
 4 smallest elements of the array
@@ -66,7 +66,7 @@ The Original Array Content
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import numpy as np
 
@@ -88,7 +88,7 @@ print(arr[result[:k]])
 
 **输出:**
 
-```
+```py
 The Original Array Content
 [23 12  1  3  4  5  6]
 4 smallest elements of the array

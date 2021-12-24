@@ -4,7 +4,7 @@
 
 In Sympy, the function `tangent_lines()` returns Tangent lines between p(point) and the ellipse.If p is on the ellipse, returns the tangent line through point p. Otherwise, returns the tangent line(s) from p to the ellipse, or None if no tangent line is possible (e.g., p inside ellipse).
 
-```
+```py
 Syntax: Ellipse.tangent_lines(p)
 
 Parameter: 
@@ -20,7 +20,7 @@ Raises:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Ellipse
 from sympy import Point, Ellipse
 
@@ -35,13 +35,13 @@ print(l1)
 
 **输出:**
 
-```
+```py
 [Line2D(Point2D(3, 0), Point2D(3, -12))]
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Ellipse
 from sympy import Point, Ellipse
 
@@ -56,6 +56,6 @@ print(l2)
 
 **输出:**
 
-```
+```py
 []
 ```

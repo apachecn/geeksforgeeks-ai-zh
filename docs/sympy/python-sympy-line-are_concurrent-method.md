@@ -4,7 +4,7 @@
 
 In Sympy, the function are_concurrent() is used to check whether the given linearentities(lines) are concurrent or not. Two or more linear entities are concurrent ifthey all intersect at a single point.
 
-```
+```py
 Syntax: Line.are_concurrent(lines)
 
 Parameters:
@@ -17,7 +17,7 @@ Returns:
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -34,13 +34,13 @@ print(areConcurrent)
 
 **输出:**
 
-```
+```py
 True
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Line
 from sympy import Point, Line
 
@@ -57,6 +57,6 @@ print(areConcurrent)
 
 **输出:**
 
-```
+```py
 False
 ```

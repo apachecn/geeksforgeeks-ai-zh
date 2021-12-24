@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.unravel_index() function
 
@@ -28,14 +28,14 @@ print(gfg) 
 
 **输出:**
 
-```
+```py
 (array([3, 6, 6]), array([4, 5, 1]))
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.unravel_index() function
 
@@ -49,7 +49,7 @@ print(gfg) 
 
 **输出:**
 
-```
+```py
 (array([1, 6, 2]), array([3, 5, 5]))
 
 ```

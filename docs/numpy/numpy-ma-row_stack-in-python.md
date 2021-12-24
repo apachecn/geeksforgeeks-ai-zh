@@ -10,13 +10,13 @@
 
 **结果:**
 
-```
+```py
 Row-wise stacked arrays
 ```
 
 **代码#1:** 解释 row_stack()
 
-```
+```py
 # importing libraries
 import numpy as np
 
@@ -35,7 +35,7 @@ print ("\narr1 : \n", arr1)
 
 **输出:**
 
-```
+```py
 arr : 
  [[1]
  [2]
@@ -50,7 +50,7 @@ arr1 :
 
 **代码#2:** 使用 row_stack()生成错误
 
-```
+```py
 # importing libraries
 import numpy as np
 

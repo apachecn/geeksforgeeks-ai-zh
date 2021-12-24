@@ -12,7 +12,7 @@
 
 **代码#1 : cycle_structure()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cycle_structure()
 
@@ -39,7 +39,7 @@ print ("Permutation b - cycle_structure form : ", b.cycle_structure)
 
 **代码#2 : cycle_structure()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.cycle_structure()
 

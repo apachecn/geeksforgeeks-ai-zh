@@ -16,7 +16,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # fabs() function
 
@@ -30,7 +30,7 @@ print ("Absolute value  of positive  input number : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 Absolute value  of positive  input number :  10.0
 
@@ -38,7 +38,7 @@ Absolute value  of positive  input number :  10.0
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # fabs() function
 
@@ -52,7 +52,7 @@ print ("Absolute value  of negative input number : ", out_num) 
 
 **输出:**
 
-```
+```py
 Input  number :  -9.0
 Absolute value  of negative input number :  9.0
 
@@ -60,7 +60,7 @@ Absolute value  of negative input number :  9.0
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # fabs() function
 
@@ -75,7 +75,7 @@ print ("Output absolute array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input array :  [2, 0, -2, -5]
 Output absolute array :  [ 2\.  0\.  2\.  5.]
 

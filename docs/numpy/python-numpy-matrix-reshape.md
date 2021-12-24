@@ -11,7 +11,7 @@
 **示例#1 :**
 在给定的示例中，我们能够使用`matrix.reshape()`方法重塑给定的矩阵。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -26,14 +26,14 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[64  1 12  3]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -48,7 +48,7 @@ print(geeks)
 
 **Output:**
 
-```
+```py
 [[1 2 4]
  [5 7 8]]
 

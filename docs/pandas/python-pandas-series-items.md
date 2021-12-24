@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Series.items()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(sr)
 ![](img/1f53af828e1a9600b255c9201272ff8a.png)
 现在我们将使用`Series.items()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # iterate over all the elements
 for items in sr.items():
     print(items)
@@ -48,7 +48,7 @@ for items in sr.items():
 
 **示例 2 :** 使用`Series.items()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -71,7 +71,7 @@ print(sr)
 
 现在我们将使用`Series.items()`函数迭代给定系列对象中的所有元素。
 
-```
+```py
 # iterate over all the elements
 for items in sr.items():
     print(items)

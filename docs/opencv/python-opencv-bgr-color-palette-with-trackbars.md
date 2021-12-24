@@ -5,7 +5,7 @@
 **OpenCV** 是一个主要针对实时计算机视觉的编程函数库。
 在本文中，让我们创建一个窗口，其中将包含带有跟踪条的 RGB 调色板。通过移动跟踪条，RGB 颜色的值将从 0 变为 255。所以使用相同的方法，我们可以找到具有 RGB 值的颜色。
 
-```
+```py
 Libraries needed:
 OpenCV
 Numpy
@@ -14,7 +14,7 @@ Numpy
 **方法:**
 创建一个分辨率为 512 x 512 的三色通道的黑色窗口。然后使用 OpenCV 库的预定义函数创建三个“B”“G”“R”跟踪条。将通道值设置为 0 到 255。将黑色窗口与这些彩色跟踪条合并。
 
-```
+```py
 # Python program to create RGB color  
 # palette with trackbars 
 

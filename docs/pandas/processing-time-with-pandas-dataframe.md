@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Load library
 import pandas as pd
 
@@ -33,7 +33,7 @@ df.head(6)
 
 **输出:**
 
-```
+```py
 0   2019-02-05 00:00:00
 1   2019-02-05 02:00:00
 2   2019-02-05 04:00:00
@@ -56,7 +56,7 @@ Name: time, dtype: datetime64[ns]
 
 ## 蟒蛇 3
 
-```
+```py
 # Load libraries
 import numpy as np
 import pandas as pd
@@ -84,7 +84,7 @@ timestamps = [pd.to_datetime(date, format ="%d-%m-%Y %I:%M %p",
 
 ## 蟒蛇 3
 
-```
+```py
 # Load library
 import pandas as pd
 df = pd.DataFrame()
@@ -100,7 +100,7 @@ print(dates.dt.weekday_name)
 
 **输出:**
 
-```
+```py
 0   2019-02-28
 1   2019-03-31
 2   2019-04-30
@@ -123,7 +123,7 @@ dtype: object
 
 ## 蟒蛇 3
 
-```
+```py
 # Load library
 import pandas as pd
 
@@ -144,7 +144,7 @@ print(x)
 
 **输出:**
 
-```
+```py
                  date
 0 2012-01-01 00:00:00
 1 2012-01-01 01:00:00                // 5 rows of Timestamps out of 1000
@@ -169,7 +169,7 @@ print(x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Load library
 import pandas as pd
 
@@ -192,7 +192,7 @@ print(x)
 
 **输出:**
 
-```
+```py
                                    date
 date                                   
 2012-01-01 00:00:00 2012-01-01 00:00:00

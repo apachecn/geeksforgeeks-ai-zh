@@ -9,7 +9,7 @@
 为了捕捉视频，我们需要创建一个`VideoCapture object`。视频捕获有设备索引或视频文件的名称。设备索引只是指定哪个摄像机的数字。如果我们通过 0，那么它是用于*第一个摄像头*，1 是用于*第二个摄像头*等等。我们一帧一帧地捕捉视频。
 **语法:**
 
-```
+```py
 cv2.VideoCapture(0): Means first camera or webcam.
 cv2.VideoCapture(1):  Means second camera or webcam.
 cv2.VideoCapture("file name.mp4"): Means video file
@@ -17,7 +17,7 @@ cv2.VideoCapture("file name.mp4"): Means video file
 
 下面是实现:
 
-```
+```py
 # importing libraries
 import cv2
 import numpy as np

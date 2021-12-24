@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```py
 numpy.argmin(array, axis = None, out = None)
 ```
 
 **参数:**
 
-```
+```py
 array : Input array to work on 
 axis  : [int, optional]Along a specified axis like 0 or 1
 out   : [array optional]Provides a feature to insert output to the out
@@ -23,7 +23,7 @@ out   : [array optional]Provides a feature to insert output to the out
 
 **返回:**
 
-```
+```py
 Array of indices into the array with same shape as array.shape
  with the dimension along axis removed.
 ```
@@ -32,7 +32,7 @@ Array of indices into the array with same shape as array.shape
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmin()
 
@@ -49,7 +49,7 @@ print("\nIndices of min element : ", geek.argmin(array, axis=0))
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [0 1 2 3 4 5 6 7]
 
@@ -60,7 +60,7 @@ Indices of min element :  0
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmin()
 
@@ -87,7 +87,7 @@ print("\nIndices of min element : ", geek.argmin(array, axis = 0))
 
 **输出:**
 
-```
+```py
 INPUT ARRAY : 
  [[ 8 13  5  0]
  [ 0  2  5  3]
@@ -101,7 +101,7 @@ Indices of min element :  [1 1 3 0]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # working of argmin()
 
@@ -125,7 +125,7 @@ print("\nmin ELEMENT INDICES : ", geek.argmin(array, axis = 0))
 
 **输出:**
 
-```
+```py
 array : 
  [[0 1 2 3 4]
  [5 6 7 8 9]]

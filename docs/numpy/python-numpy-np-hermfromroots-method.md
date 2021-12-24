@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.hermfromroots()`方法，我们能够通过使用这个方法从给定的根中得到厄米级数的系数。
 
-```
+```py
 # import numpy and hermfromroot
 import numpy as np
 from numpy.polynomial.hermite import hermfromroots
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and hermfromroot
 import numpy as np
 from numpy.polynomial.hermite import hermfromroots

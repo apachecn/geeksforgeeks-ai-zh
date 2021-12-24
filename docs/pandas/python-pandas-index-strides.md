@@ -14,7 +14,7 @@
 
 **示例#1:** 使用`Index.strides`属性查找给定索引对象中基础数据的步长。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(idx)
 
 现在我们将使用`Index.strides`属性来查找给定索引对象中底层数据的步长。
 
-```
+```py
 # return the number of strides
 result = idx.strides
 
@@ -44,7 +44,7 @@ print(result)
 
 **示例 2 :** 使用`Index.strides`属性查找给定索引对象中底层数据的步长。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -60,7 +60,7 @@ print(idx)
 
 现在我们将使用`Index.strides`属性来查找给定索引对象中底层数据的步长。
 
-```
+```py
 # return the number of strides
 result = idx.strides
 

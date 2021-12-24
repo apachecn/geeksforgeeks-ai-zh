@@ -10,7 +10,7 @@ NumPy 提供了返回向量 a 和 b 的点积的 [vdot()](https://www.geeksforge
 
 **语法:**
 
-```
+```py
 numpy.vdot(vector_a, vector_b)
 ```
 
@@ -18,7 +18,7 @@ numpy.vdot(vector_a, vector_b)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as library
 import numpy as np
 
@@ -39,7 +39,7 @@ print(z)
 
 **输出:**
 
-```
+```py
 Printing First matrix:
 [2.+3.j 4.+5.j]
 Printing Second matrix:
@@ -53,7 +53,7 @@ Product of first and second matrices are:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy as library
 import numpy as np
 
@@ -74,7 +74,7 @@ print(z)
 
 **输出:**
 
-```
+```py
 Printing First matrix:
 [[2.+3.j 4.+5.j]
  [4.+5.j 6.+7.j]]

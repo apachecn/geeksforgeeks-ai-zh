@@ -8,7 +8,7 @@
 
 **样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -25,7 +25,7 @@ matplotlib 库 pyplot 模块中的 **tricontour()函数**用于在非结构化�
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.tricontour(*args, **kwargs)
 > 
 > ```
@@ -48,7 +48,7 @@ matplotlib 库 pyplot 模块中的 **tricontour()函数**用于在非结构化�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri
@@ -84,7 +84,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

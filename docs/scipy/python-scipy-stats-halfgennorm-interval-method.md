@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`stats.halfgennorm.interval()`方法，我们能够通过使用这个方法得到分布的端点值。
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 alpha, beta = 0.1, 5
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import halfgennorm
 from scipy.stats import halfgennorm
 alpha, beta = 0.1, 1

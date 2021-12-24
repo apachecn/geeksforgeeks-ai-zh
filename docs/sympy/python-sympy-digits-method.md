@@ -14,7 +14,7 @@
 
 **示例#1:**
 
-```
+```py
 # import digits() method from sympy
 from sympy.ntheory.factor_ import digits
 
@@ -29,7 +29,7 @@ print("Digits of {} in base {} =  {} ".format(n, b, digits_n_b)) 
 
 **输出:**
 
-```
+```py
 Digits of 7524 in base 10 =  [10, 7, 5, 2, 4] 
 
 ```
@@ -48,7 +48,7 @@ digits_n_b = digits(n，b)
 打印(“以{}为基数的{}位数= {}”。格式(n，b，digits_n_b))
 **输出:**
 
-```
+```py
 Digits of 33 in base 2 =  [2, 1, 0, 0, 0, 0, 1] 
 
 ```

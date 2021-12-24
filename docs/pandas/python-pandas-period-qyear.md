@@ -14,7 +14,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Period.qyear` 属性查找给定期间对象的期间所在的会计年度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -31,7 +31,7 @@ print(prd)
 
 现在我们将使用`Period.qyear`属性来查找财政年度
 
-```
+```py
 # return the fiscal year
 prd.qyear
 ```
@@ -43,7 +43,7 @@ prd.qyear
 
 **示例#2:** 使用`Period.qyear`属性查找给定期间对象的期间所在的会计年度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -61,7 +61,7 @@ print(prd)
 
 现在我们将使用`Period.qyear`属性来查找财政年度
 
-```
+```py
 # return the fiscal year
 prd.qyear
 ```

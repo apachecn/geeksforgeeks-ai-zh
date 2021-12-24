@@ -17,7 +17,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_not_equal() method 
 
@@ -38,7 +38,7 @@ print ("Masked array : ", mask_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 1  2  3 -1  2]
 Masked array :  [-- 2 -- -- 2]
 
@@ -46,7 +46,7 @@ Masked array :  [-- 2 -- -- 2]
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.MaskedArray.masked_not_equal() method 
 
@@ -67,7 +67,7 @@ print ("Masked array : ", mask_arr)
 
 **Output:**
 
-```
+```py
 Input array :  [ 5.0e+08  3.0e-05 -4.5e+01  4.0e+04  5.0e+02]
 Masked array :  [-- -- -- -- 500.0]
 

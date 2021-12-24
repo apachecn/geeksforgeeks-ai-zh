@@ -16,7 +16,7 @@ PyTorch `torch.floor()`方法返回一个新的张量，它是输入元素的基
 
 Let’s see this concept with the help of few examples:**Example 1:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -32,7 +32,7 @@ print(out)
 
 **输出:**
 
-```
+```py
  1.5000
  4.2000
  6.7000
@@ -49,7 +49,7 @@ print(out)
 
 **例 2:**
 
-```
+```py
 # Importing the PyTorch library 
 import torch 
 
@@ -65,7 +65,7 @@ print(out)
 
 **输出:**
 
-```
+```py
 1.5900
  4.5999
  6.7800

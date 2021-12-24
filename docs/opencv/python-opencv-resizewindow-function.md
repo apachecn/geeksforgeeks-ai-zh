@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.resizeWindow() method
 
 # Importing cv2
@@ -53,7 +53,7 @@ cv2.waitKey(0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain cv2.resizeWindow() method
 
 # Importing cv2

@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -22,7 +22,7 @@ from statistics import mean
 
 ## 蟒蛇 3
 
-```
+```py
 # Changing the working location to the location of the data
 cd C:\Users\Dev\Desktop\Kaggle\House Prices
 
@@ -46,7 +46,7 @@ a) **线性回归:**T5】
 
 ## 蟒蛇 3
 
-```
+```py
 # Building and fitting the Linear Regression model
 linearModel = LinearRegression()
 linearModel.fit(X_train, y_train)
@@ -61,7 +61,7 @@ b) **岭(L2)回归:**T2】
 
 ## 蟒蛇 3
 
-```
+```py
 # List to maintain the different cross-validation scores
 cross_val_scores_ridge = []
 
@@ -88,7 +88,7 @@ for i in range(0, len(alpha)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Building and fitting the Ridge Regression model
 ridgeModelChosen = Ridge(alpha = 2)
 ridgeModelChosen.fit(X_train, y_train)
@@ -103,7 +103,7 @@ c) **拉索(L1)回归:**T2】
 
 ## 蟒蛇 3
 
-```
+```py
 # List to maintain the cross-validation scores
 cross_val_scores_lasso = []
 
@@ -130,7 +130,7 @@ for i in range(0, len(alpha)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Building and fitting the Lasso Regression Model
 lassoModelChosen = Lasso(alpha = 2, tol = 0.0925)
 lassoModelChosen.fit(X_train, y_train)
@@ -145,7 +145,7 @@ print(lassoModelChosen.score(X_test, y_test))
 
 ## 蟒蛇 3
 
-```
+```py
 # Building the two lists for visualization
 models = ['Linear Regression', 'Ridge Regression', 'Lasso Regression']
 scores = [linearModel.score(X_test, y_test),
@@ -167,7 +167,7 @@ for key, val in mapping.items():
 
 ## 蟒蛇 3
 
-```
+```py
 # Plotting the scores
 plt.bar(models, scores)
 plt.xlabel('Regression Models')

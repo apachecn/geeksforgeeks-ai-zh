@@ -35,7 +35,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -60,7 +60,7 @@ plt.hlines(quartile3,.7,1.2) 
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Fixing random state for

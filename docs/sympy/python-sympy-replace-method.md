@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.replace()`方法，我们能够替换表达式中的数学函数并返回更新后的表达式。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

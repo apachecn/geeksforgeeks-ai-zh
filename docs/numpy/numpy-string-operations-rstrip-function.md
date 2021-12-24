@@ -12,7 +12,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rstrip() method 
 
@@ -31,7 +31,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Sun' ' Moon ' 'Star']
 Output array:  ['Sun' 'Moon' 'Star']
 
@@ -39,7 +39,7 @@ Output array:  ['Sun' 'Moon' 'Star']
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rstrip() method 
 
@@ -58,7 +58,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['Geeks' 'For' 'Geeks']
 Output array:  ['Geek' 'For' 'Geek']
 
@@ -66,7 +66,7 @@ Output array:  ['Geek' 'For' 'Geek']
 
 **代码#3 :**
 
-```
+```py
 # Python program explaining
 # numpy.char.rstrip() method 
 
@@ -85,7 +85,7 @@ print ("Output array: ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  ['GeeksG' 'ForG' 'Geeks']
 Output array:  ['Geeks' 'For' 'Geeks']
 

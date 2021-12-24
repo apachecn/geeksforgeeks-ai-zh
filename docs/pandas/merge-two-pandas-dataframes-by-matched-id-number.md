@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -54,7 +54,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -86,7 +86,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -118,7 +118,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 
@@ -149,7 +149,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas as pd
 import pandas as pd
 

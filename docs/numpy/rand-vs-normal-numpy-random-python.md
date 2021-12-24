@@ -10,7 +10,7 @@
     fills it with random values.
     **Parameters :**
 
-    ```
+    ```py
     d0, d1, ..., dn : [int, optional]
     Dimension of the returned array we require, 
 
@@ -21,7 +21,7 @@
 
     **返回:**
 
-    ```
+    ```py
     Array of defined shape, filled with random values.
 
     ```
@@ -30,7 +30,7 @@
     **numpy.random.normal(loc = 0.0, scale = 1.0, size = None) :** creates an array of specified shape and fills it with random values which is actually a part of Normal(Gaussian)Distribution. This is Distribution is also known as Bell Curve because of its characteristics shape.
     **Parameters :**
 
-    ```
+    ```py
     loc   : [float or array_like]Mean of 
     the distribution. 
     scale : [float or array_like]Standard 
@@ -45,7 +45,7 @@
 
     **返回:**
 
-    ```
+    ```py
     Array of defined shape, filled with 
     random values following normal 
     distribution.
@@ -54,7 +54,7 @@
 
     **代码 1:随机构建 1D 阵列**
 
-    ```
+    ```py
     # Python Program illustrating
     # numpy.random.rand() method
 
@@ -67,7 +67,7 @@
 
     **输出:**
 
-    ```
+    ```py
     1D Array filled with random values : 
      [ 0.84503968  0.61570994  0.7619945   0.34994803  0.40113761]
 
@@ -75,7 +75,7 @@
 
     **代码 2:按照高斯分布随机构建 1D 阵列**
 
-    ```
+    ```py
     # Python Program illustrating
     # numpy.random.normal() method
 
@@ -93,7 +93,7 @@
 
     **输出:**
 
-    ```
+    ```py
     1D Array filled with random values as per gaussian distribution : 
      [-0.99013172 -1.52521808  0.37955684  0.57859283  1.34336863]
 
@@ -106,7 +106,7 @@
 
      **代码 3 : Python 程序，演示了 NumPy 中随机与正常的图形表示**
 
-    ```
+    ```py
     # Python Program illustrating
     # graphical representation of 
     # numpy.random.normal() method
@@ -141,7 +141,7 @@
 
     **输出:**
 
-    ```
+    ```py
     1D Array filled with random values as per gaussian distribution : 
      [ 0.12413355  0.01868444  0.08841698 ..., -0.01523021 -0.14621625
      -0.09157214]

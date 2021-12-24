@@ -25,7 +25,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 在此示例中，薪资列已被切片以获取小数点前的值。例如，我们想做一些数学运算，为此我们需要整数数据，所以工资列将被切片，直到第二个最后一个元素(-2 位置)。
 由于薪资列是作为 float64 数据类型导入的，因此首先使用。astype()方法。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -57,7 +57,7 @@ data.head(10)
 **示例#2:**
 在本例中，名称列被切片，步长参数保留为 2。因此，它将在切片过程中步进两个字符。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

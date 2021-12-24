@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import sympy and Benini
 from sympy.stats import Benini, density, cdf
 from sympy import Symbol, simplify, pprint
@@ -45,7 +45,7 @@ pprint(GFG, use_unicode = False)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import sympy and Benini
 from sympy.stats import Benini, density, cdf
 from sympy import Symbol, simplify, pprint

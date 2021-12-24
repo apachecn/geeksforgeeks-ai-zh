@@ -21,7 +21,7 @@ matplotlib 库的 axis 模块中的 **Tick.set_contains()函数**用于为艺术
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  
@@ -74,7 +74,7 @@ plt.show() 
 
 ![](img/67fa6479715bc67e540b8726f41fc7f0.png)
 
-```
+```py
 onpick1 text: ylabel
 onpick1 patch: Path(array([[0., 0.],
        [1., 0.],
@@ -93,7 +93,7 @@ onpick1 patch: Path(array([[0., 0.],
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Tick
 import matplotlib.pyplot as plt  

@@ -10,7 +10,7 @@
 
 **代码#1:复位()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.reset()
 
@@ -38,7 +38,7 @@ print ("\nPolyhedron - reset form : ", a.reset)
 
 **代码#2:复位()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.reset()
 

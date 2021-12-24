@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`numpy.isnat()`方法，如果在`np.datetime64()`方法中没有找到时间，我们就能够得到布尔值。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

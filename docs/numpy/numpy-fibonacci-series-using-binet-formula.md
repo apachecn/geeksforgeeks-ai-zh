@@ -13,7 +13,7 @@
 
 **例 1:** 求前 10 个斐波那契数。
 
-```
+```py
 import numpy as np
 
 # We are creating an array contains n = 10 elements
@@ -38,7 +38,7 @@ print("The first {} numbers of Fibonacci series are {} . ".format(lengthA, Fn))
 
 **示例 2 :** 寻找第一个‘n’个斐波那契数..
 
-```
+```py
 import numpy as np
 
 # We are creating an array contains n elements
@@ -60,7 +60,7 @@ print("The first {} numbers of Fibonacci series are {} . ".format(length_a, Fn))
 
 **输出:**
 
-```
+```py
 # Here user input was 10
 Enter the value of n+1'th number :10
 The first 9 numbers of Fibonacci series are [ 1\.  1\.  2\.  3\.  5\.  8\. 13\. 21\. 34.] . 

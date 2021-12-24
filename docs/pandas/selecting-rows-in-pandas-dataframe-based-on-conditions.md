@@ -8,7 +8,7 @@
 
 **代码#1 :** 使用基本方法从给定数据框中选择“百分比”大于 80 的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -35,7 +35,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#2 :** 使用`[loc[]](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)`从给定数据框中选择“百分比”大于 80 的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -61,7 +61,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#3 :** 使用`[loc[]](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)`从给定数据框中选择“百分比”不等于 95 的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -89,7 +89,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#1 :** 使用基本方法从给定数据帧中选择选项列表中出现“流”的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -117,7 +117,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#2 :** 使用`[loc[]](https://www.geeksforgeeks.org/python-pandas-extracting-rows-using-loc/)`从给定数据帧中选择选项列表中出现“流”的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -145,7 +145,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#3 :** 使用`.loc[]`从给定数据帧中选择选项列表中不存在“流”的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -175,7 +175,7 @@ print('\nresult dataframe :\n', rslt_df)
 
 **代码#1 :** 使用基本方法从给定数据框中选择“年龄”等于 21 且“流”出现在选项列表中的所有行。
 
-```
+```py
 # importing pandas
 import pandas as pd
 
@@ -204,7 +204,7 @@ print('\nResult dataframe :\n', rslt_df)
 
 **代码#2 :** 使用`从给定数据框中选择“年龄”等于 21 且“流”出现在选项列表中的所有行。loc[]。`
 
-```
+```py
 # importing pandas
 import pandas as pd
 

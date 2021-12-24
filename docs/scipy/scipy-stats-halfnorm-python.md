@@ -18,7 +18,7 @@
 
 **代码#1:创建半正态连续随机变量**
 
-```
+```py
 from scipy.stats import halfnorm  
 
 numargs = halfnorm.numargs
@@ -30,7 +30,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001E39B53B630>
 
@@ -38,7 +38,7 @@ RV :
 
 **代码#2:半正态随机变量和概率分布**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -53,7 +53,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [3.95023511 1.97013912 2.00977927 1.88217027 2.24680027 0.7298033
  0.56769996 0.62071753 1.74743798 0.35512999]
@@ -65,7 +65,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -77,7 +77,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.06122449 0.12244898 0.18367347 0.24489796 0.30612245
  0.36734694 0.42857143 0.48979592 0.55102041 0.6122449  0.67346939
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

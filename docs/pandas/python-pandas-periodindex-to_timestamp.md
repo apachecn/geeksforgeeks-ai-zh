@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`PeriodIndex.to_timestamp()`函数将给定的周期索引对象转换为日期时间索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -34,7 +34,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.to_timestamp()`函数将给定的周期索引对象转换为日期时间索引对象。
 
-```
+```py
 # cast to DatetimeIndex object
 pidx.to_timestamp()
 ```
@@ -49,7 +49,7 @@ pidx.to_timestamp()
 
 **示例 2:** 使用`PeriodIndex.to_timestamp()`函数将给定的周期索引对象转换为日期时间索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -67,7 +67,7 @@ print(pidx)
 
 现在我们将使用`PeriodIndex.to_timestamp()`函数将给定的周期索引对象转换为日期时间索引对象。
 
-```
+```py
 # cast to DatetimeIndex object
 pidx.to_timestamp()
 ```

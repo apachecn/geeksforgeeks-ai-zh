@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib as mpl
@@ -43,7 +43,7 @@ ax.xaxis.set_major_formatter(x_fmt)
 
 **例 2:**
 
-```
+```py
 from matplotlib.ticker import IndexFormatter, IndexLocator
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -10,7 +10,7 @@ matplotlib 库的 Axes 模块中的 **Axes.matshow()函数**也用于将 2D 矩�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.matshow(self, Z, **kwargs)
 > ```
 > 
@@ -26,7 +26,7 @@ matplotlib 库的 Axes 模块中的 **Axes.matshow()函数**也用于将 2D 矩�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -63,7 +63,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

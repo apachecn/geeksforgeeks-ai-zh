@@ -12,7 +12,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`**inverse_mellin_transform()**`方法，我们能够通过执行逆 mallin 变换来获得函数 F(x)。
 
-```
+```py
 # import inverse_mellin_transform
 from sympy.integrals.transforms import inverse_mellin_transform
 from sympy import oo, gamma
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import inverse_mellin_transform
 from sympy.integrals.transforms import inverse_mellin_transform
 from sympy import oo, gamma

@@ -35,7 +35,7 @@
 
 **例 1 :**
 
-```
+```py
 # matplotlib.pyplot.connect()
 from matplotlib.backend_bases import MouseButton
 import matplotlib.pyplot as plt
@@ -78,7 +78,7 @@ plt.show()
 
 **例 2 :**
 
-```
+```py
 from matplotlib.widgets import RectangleSelector
 import numpy as np
 import matplotlib.pyplot as plt

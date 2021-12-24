@@ -19,7 +19,7 @@
 > 
 > **返回类型**:与特征类型相同的张量。
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -40,7 +40,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input type: Tensor("Const_10:0", shape=(6, ), dtype=float32)
 Input: [ 1\.        -0.5        3.4000001 -2.0999999  0\.        -6.5      ]
 Return type: Tensor("ReLU_9:0", shape=(6, ), dtype=float32)
@@ -62,7 +62,7 @@ ReLu 函数存在所谓的“垂死的 ReLu”问题。由于负端 ReLU 函数�
 > 
 > **返回类型**:与特征类型相同的张量。
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf 
 
@@ -83,7 +83,7 @@ with tf.Session() as sess: 
 
 **输出:**
 
-```
+```py
 Input type: Tensor("Const_2:0", shape=(6,), dtype=float32)
 Input: [ 1\.        -0.5        3.4000001 -2.0999999  0\.        -6.5      ]
 Return type: Tensor("Leaky_ReLU_1/Maximum:0", shape=(6,), dtype=float32)

@@ -10,7 +10,7 @@ Python 的 *groupby()* 功能多才多艺。它用于根据一些标准将数据
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import pandas as pd
@@ -37,7 +37,7 @@ df_grouped
 
 ## 蟒蛇 3
 
-```
+```py
 # reset index
 df_grouped.reset_index()
 ```
@@ -52,7 +52,7 @@ df_grouped.reset_index()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -81,7 +81,7 @@ print(df2_grouped)
 
 ## 蟒蛇 3
 
-```
+```py
 # this will generate an error.
 df2_grouped.reset_index()
 ```
@@ -94,7 +94,7 @@ df2_grouped.reset_index()
 
 ## 蟒蛇 3
 
-```
+```py
 # resetting index on the basis of count
 df2_grouped.reset_index(name = 'count')
 ```
@@ -109,7 +109,7 @@ df2_grouped.reset_index(name = 'count')
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import numpy as np
 import pandas as pd

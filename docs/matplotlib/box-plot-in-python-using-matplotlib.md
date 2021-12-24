@@ -38,7 +38,7 @@ matplotlib 库的 [matplotlib.pyplot](https://www.geeksforgeeks.org/pyplot-in-ma
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -68,7 +68,7 @@ matplotlib.pyplot.boxplot()为 boxplot 提供了无限的定制可能性。notch
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np
@@ -102,7 +102,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import matplotlib.pyplot as plt
 import numpy as np

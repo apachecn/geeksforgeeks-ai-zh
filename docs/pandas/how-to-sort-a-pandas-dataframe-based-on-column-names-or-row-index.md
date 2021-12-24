@@ -19,7 +19,7 @@
 
 用列表字典创建一个简单的数据框，比如列名是:“姓名”、“年龄”、“地点”和“学院”。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ details
 
 **示例 1:** 根据行索引标签名称对数据框的行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -90,7 +90,7 @@ rslt_df
 
 **示例 2:** 根据行索引标签以降序对数据框的行进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -128,7 +128,7 @@ rslt_df
 
 **示例 3:** 根据行索引标签对数据框的行进行就地排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -166,7 +166,7 @@ details
 
 **示例 4:** 基于列名对数据框的列进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -203,7 +203,7 @@ rslt_df
 
 **示例 5:** 根据列名以降序对数据帧进行排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 
@@ -241,7 +241,7 @@ rslt_df
 
 **示例 6:** 根据列名对数据帧进行适当排序。
 
-```
+```py
 # import pandas library as pd
 import pandas as pd
 

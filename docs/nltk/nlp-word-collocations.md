@@ -10,7 +10,7 @@
 
 **代码#1:加载库**
 
-```
+```py
 from nltk.corpus import webtext
 
 # use to find bigrams, which are pairs of words
@@ -20,7 +20,7 @@ from nltk.metrics import BigramAssocMeasures
 
 **代码#2 :** 让我们找到搭配
 
-```
+```py
 # Loading the data 
 words = [w.lower() for w in webtext.words(
     'C:\\Geeksforgeeks\\python_and_grail.txt')]
@@ -31,7 +31,7 @@ biagram_collocation.nbest(BigramAssocMeasures.likelihood_ratio, 15)
 
 **输出:**
 
-```
+```py
 [("'", 's'),
  ('arthur', ':'),
  ('#', '1'),
@@ -54,7 +54,7 @@ biagram_collocation.nbest(BigramAssocMeasures.likelihood_ratio, 15)
 
 **代码#3 :**
 
-```
+```py
 from nltk.corpus import stopwords
 
 stopset = set(stopwords.words('english'))
@@ -66,7 +66,7 @@ biagram_collocation.nbest(BigramAssocMeasures.likelihood_ratio, 15)
 
 **输出:**
 
-```
+```py
 [('black', 'knight'),
  ('clop', 'clop'),
  ('head', 'knight'),
@@ -97,7 +97,7 @@ biagram_collocation.nbest(BigramAssocMeasures.likelihood_ratio, 15)
 
 **代码#4 :** 处理三胞胎而不是对。
 
-```
+```py
 # Loading Libraries
 from nltk.collocations import TrigramCollocationFinder
 from nltk.metrics import TrigramAssocMeasures
@@ -115,7 +115,7 @@ trigram_collocation.nbest(TrigramAssocMeasures.likelihood_ratio, 15)
 
 **输出:**
 
-```
+```py
 [('clop', 'clop', 'clop'),
  ('mumble', 'mumble', 'mumble'),
  ('squeak', 'squeak', 'squeak'),

@@ -11,7 +11,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **示例#1:** 比较数据
 在以下示例中，数据帧由 csv 文件制成。在“性别”栏中，只有 3 种类型的值(“男”、“女”或“男”)。性别列的每一行都与“男性”进行比较，然后返回一个布尔序列。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -36,7 +36,7 @@ data
 **示例#2:** 选择数据
 在以下示例中，布尔序列被传递给数据，并且仅返回具有性别=“男性”的行。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

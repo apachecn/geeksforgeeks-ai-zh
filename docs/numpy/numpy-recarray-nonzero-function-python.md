@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.nonzero() method 
 
@@ -60,7 +60,7 @@ print ("Indices of non zero elements : ", out_arr) 
 
 我们将`numpy.recarray.nonzero()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.nonzero() method 
 

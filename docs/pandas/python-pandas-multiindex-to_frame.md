@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.to_frame()`函数使用多索引级别作为列和索引来构建数据框。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(midx)
 
 现在让我们从 MultiIndex 构造数据帧。
 
-```
+```py
 # Construct the DataFrame
 midx.to_frame(index = True)
 ```
@@ -44,7 +44,7 @@ midx.to_frame(index = True)
 
 **示例 2:** 使用`MultiIndex.to_frame()`函数使用多索引构建数据帧。不要使用多索引级别来构造数据框的索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(midx)
 
 现在让我们使用 *midx* 多索引创建一个数据帧。
 
-```
+```py
 # Create Dataframe with new index values.
 midx.to_frame(index = False)
 ```

@@ -29,7 +29,7 @@ matplotlib 库 pyplot 模块中的**图形()函数**用于创建新图形。
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.lines as lines
@@ -49,7 +49,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import Subplot

@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.tolist() method 
 
@@ -47,7 +47,7 @@ print ("Output list of int record array ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[(  5.,  2) (  3., -4) (  6.,  9)]
  [(  9.,  1) (  5.,  4) (-12., -7)]]
 Record array of float:  [[  5\.   3\.   6.]
@@ -63,7 +63,7 @@ Output list of int record array  [[2, -4, 9], [1, 4, -7]]
 
 我们将`numpy.recarray.tolist()`应用于整个记录数组。
 
-```
+```py
 # Python program explaining
 # numpy.recarray.tolist() method 
 
@@ -89,7 +89,7 @@ print ("Output list of record array  ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[( 5.,  2) ( 3.,  4) ( 6., -7)]
  [( 9.,  1) ( 6.,  4) (-2., -7)]]
 Output list of record array   [[(5.0, 2), (3.0, 4), (6.0, -7)], [(9.0, 1), (6.0, 4), (-2.0, -7)]]

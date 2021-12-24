@@ -20,7 +20,7 @@ matplotlib 库的 axes 模块中的 **add_callback()方法**用于获取每次�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -52,7 +52,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 from random import randint, choice 
 import time 

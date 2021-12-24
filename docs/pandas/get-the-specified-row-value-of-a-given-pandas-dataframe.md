@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -49,7 +49,7 @@ print(df.iloc[2])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas library
 import pandas as pd
 

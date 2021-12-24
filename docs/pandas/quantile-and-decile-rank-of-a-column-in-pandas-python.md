@@ -28,7 +28,7 @@
 3.  使用`pandas.qcut()`函数，传递`Score`列，计算分位数离散化。并且`q`被设置为 4，因此这些值是从 0-3 分配的
 4.  打印带有分位数等级的数据帧。
 
-```
+```py
 # importing the modules
 import pandas as pd
 import numpy as np
@@ -59,7 +59,7 @@ print(df)
 3.  使用`pandas.qcut()`函数，传递`Score`列，计算分位数离散化。`q`被设置为 10，因此数值从 0-9 分配
 4.  以十分位数打印数据帧。
 
-```
+```py
 # importing the modules
 import pandas as pd
 import numpy as np

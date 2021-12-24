@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们使用`RegexpTokenizer()`方法借助正则表达式提取令牌流。
 
-```
+```py
 # import RegexpTokenizer() method from nltk
 from nltk.tokenize import RegexpTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import RegexpTokenizer() method from nltk
 from nltk.tokenize import RegexpTokenizer
 

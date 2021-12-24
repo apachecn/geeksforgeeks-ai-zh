@@ -16,7 +16,7 @@
 
 **代码#1:句子标记化–**在段落中拆分句子
 
-```
+```py
 from nltk.tokenize import sent_tokenize
 
 text = "Hello everyone. Welcome to GeeksforGeeks. You are studying NLP article"
@@ -25,7 +25,7 @@ sent_tokenize(text)
 
 **输出:**
 
-```
+```py
 ['Hello everyone.',
  'Welcome to GeeksforGeeks.',
  'You are studying NLP article']
@@ -37,7 +37,7 @@ sent_tokenize(text)
 
 **代码# 2:`PunktSentenceTokenizer` –**当我们拥有大量数据时，使用它们是高效的。
 
-```
+```py
 import nltk.data
 
 # Loading PunktSentenceTokenizer using English pickle file
@@ -48,7 +48,7 @@ tokenizer.tokenize(text)
 
 **输出:**
 
-```
+```py
 ['Hello everyone.',
  'Welcome to GeeksforGeeks.',
  'You are studying NLP article']
@@ -57,7 +57,7 @@ tokenizer.tokenize(text)
 
 **代码#3:标记不同语言的句子–**除了英语之外，还可以使用不同的 pickle 文件标记不同语言的句子。
 
-```
+```py
 import nltk.data
 
 spanish_tokenizer = nltk.data.load('tokenizers/punkt/PY3/spanish.pickle')
@@ -68,7 +68,7 @@ spanish_tokenizer.tokenize(text)
 
 **输出:**
 
-```
+```py
 ['Hola amigo.', 
  'Estoy bien.']
 
@@ -76,7 +76,7 @@ spanish_tokenizer.tokenize(text)
 
 **代码#4:单词标记化–**在一个句子中拆分单词。
 
-```
+```py
 from nltk.tokenize import word_tokenize
 
 text = "Hello everyone. Welcome to GeeksforGeeks."
@@ -85,7 +85,7 @@ word_tokenize(text)
 
 **输出:**
 
-```
+```py
 ['Hello', 'everyone', '.', 'Welcome', 'to', 'GeeksforGeeks', '.']
 
 ```
@@ -95,7 +95,7 @@ word_tokenize(text)
 
 **代码#5:使用`TreebankWordTokenizer`**
 
-```
+```py
 from nltk.tokenize import TreebankWordTokenizer
 
 tokenizer = TreebankWordTokenizer()
@@ -104,7 +104,7 @@ tokenizer.tokenize(text)
 
 **输出:**
 
-```
+```py
 ['Hello', 'everyone.', 'Welcome', 'to', 'GeeksforGeeks', '.']
 
 ```
@@ -113,7 +113,7 @@ tokenizer.tokenize(text)
 
 **代码# 6:`PunktWordTokenizer`–**它没有把标点符号和单词分开。
 
-```
+```py
 from nltk.tokenize import PunktWordTokenizer
 
 tokenizer = PunktWordTokenizer()
@@ -122,14 +122,14 @@ tokenizer.tokenize("Let's see how it's working.")
 
 **输出:**
 
-```
+```py
 ['Let', "'s", 'see', 'how', 'it', "'s", 'working', '.']
 
 ```
 
 **代码# 6:`WordPunctTokenizer`–**它将标点符号与单词分开。
 
-```
+```py
 from nltk.tokenize import WordPunctTokenizer
 
 tokenizer = WordPunctTokenizer()
@@ -138,14 +138,14 @@ tokenizer.tokenize("Let's see how it's working.")
 
 **输出:**
 
-```
+```py
 ['Let', "'", 's', 'see', 'how', 'it', "'", 's', 'working', '.']
 
 ```
 
 **代码#7:使用正则表达式**
 
-```
+```py
 from nltk.tokenize import RegexpTokenizer
 
 tokenizer = RegexpTokenizer("[\w']+")
@@ -155,14 +155,14 @@ tokenizer.tokenize(text)
 
 **输出:**
 
-```
+```py
 ["Let's", 'see', 'how', "it's", 'working']
 
 ```
 
 **代码#7:使用正则表达式**
 
-```
+```py
 from nltk.tokenize import regexp_tokenize
 
 text = "Let's see how it's working."
@@ -171,7 +171,7 @@ regexp_tokenize(text, "[\w']+")
 
 **输出:**
 
-```
+```py
 ["Let's", 'see', 'how', "it's", 'working']
 
 ```

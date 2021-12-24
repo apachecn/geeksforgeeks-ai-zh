@@ -23,7 +23,7 @@
 
 **示例#1:** 使用仅绘制等高线的`contour()`绘制等高线。
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **示例#2:** 使用绘制填充轮廓的`contourf()`绘制轮廓。
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

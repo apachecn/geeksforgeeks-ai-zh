@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```py
 # stats.sem() method 
 import numpy as np
 from scipy import stats
@@ -38,7 +38,7 @@ print ("\nsem ratio for arr1 : ", 
 
 **输出:**
 
-```
+```py
 arr1 :  [[20, 2, 7, 1, 34], [50, 12, 12, 34, 4]]
 
 arr2 :  [50, 12, 12, 34, 4]

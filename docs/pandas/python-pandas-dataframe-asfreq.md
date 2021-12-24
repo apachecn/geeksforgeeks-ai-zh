@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 从周频率到日频率对时间序列数据进行非抽样
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -43,7 +43,7 @@ df
 
 现在将这个每周采样的数据解采样为每天采样的数据。默认情况下，新创建的媒体夹将具有 nan 值。因此，使用 ***fill_value*** 参数用提供的值填充所有新创建的箱。
 
-```
+```py
 # unsampling and providing a fill value = 9.0
 df.asfreq(freq ='D', fill_value = 9.0)
 ```
@@ -55,7 +55,7 @@ df.asfreq(freq ='D', fill_value = 9.0)
 
 **示例#2:** 将一分钟时间标记的数据取消采样到 30s 箱中。首先创建一个带有 5 个一分钟时间戳的系列。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -79,7 +79,7 @@ df
 
 现在取消采样到 30 秒的容器中，并提供 100.0 的 fill_value
 
-```
+```py
 # unsampling and providing a fill value of 100.0
 df.asfreq(freq ='30S', fill_value = 100.0)
 ```

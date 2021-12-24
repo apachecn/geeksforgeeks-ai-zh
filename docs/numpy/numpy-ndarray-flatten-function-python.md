@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.flatten() function
 
@@ -29,14 +29,14 @@ print( gfg )
 
 **输出:**
 
-```
+```py
 [5 6 7 8]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.ndarray.flatten() function
 
@@ -52,7 +52,7 @@ print( gfg )
 
 **输出:**
 
-```
+```py
 [5 6 7 8]
 
 ```

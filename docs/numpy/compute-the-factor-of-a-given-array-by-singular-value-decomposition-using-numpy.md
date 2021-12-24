@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -50,7 +50,7 @@ print("\nU=", U, "\n\ns=", s, "\n\nV=", V)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 
@@ -77,7 +77,7 @@ print("\nU=", U, "\n\ns=", s, "\n\nV=", V)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import numpy library
 import numpy as np
 

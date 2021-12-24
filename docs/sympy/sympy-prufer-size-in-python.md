@@ -14,7 +14,7 @@
 
 **代码#1:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.size()
 
@@ -38,7 +38,7 @@ print ("Prufer a size : ", a.size)
 
 **代码#2:大小()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.size()
 

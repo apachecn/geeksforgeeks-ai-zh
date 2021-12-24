@@ -20,7 +20,7 @@
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
@@ -106,7 +106,7 @@ plt.show()
 
 ![](img/3b3a48a0e4e9bcbd0ffa659021569a6b.png)
 
-```
+```py
 import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg

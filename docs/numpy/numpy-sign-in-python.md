@@ -15,7 +15,7 @@
 
 **代码 1 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.sign() method
 
@@ -37,7 +37,7 @@ print ("\nCheck sign of array2 : ", geek.sign(array2)) 
 
 **输出:**
 
-```
+```py
 array1 :  [1, 0, -13]
 array2 :  [-1, 0, 15]
 
@@ -49,7 +49,7 @@ Check sign of array2 :  [-1  0  1]
 
 **代码 2 :**
 
-```
+```py
 # Python Program illustrating
 # numpy.sign() method
 
@@ -63,7 +63,7 @@ print ("\n Check sign of complex input2 : ", geek.sign(-7 + 3j)) 
 
 **输出:**
 
-```
+```py
  Check sign of complex input1 :  (1+0j)
 
  Check sign of complex input2 :  (-1+0j)

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Sample data which will be used
@@ -86,7 +86,7 @@ dataframe
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Using a inbuilt style to change
@@ -116,7 +116,7 @@ plt.plot(dataframe["A"])
 
 ## 蟒蛇 3
 
-```
+```py
 plt.style.use("fivethirtyeight")
 dataframe.plot(subplots=True, figsize=(12, 15))
 ```
@@ -137,7 +137,7 @@ dataframe.plot(subplots=True, figsize=(12, 15))
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Using a inbuilt style to change
@@ -173,7 +173,7 @@ plt.bar(dataframe.index, dataframe["A"], width=5)
 
 ## 蟒蛇 3
 
-```
+```py
 dataframe.rolling(window = 5).mean()
 ```
 
@@ -187,7 +187,7 @@ dataframe.rolling(window = 5).mean()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 # Using a inbuilt style to change
@@ -235,7 +235,7 @@ plt.plot(dataframe.rolling(
 
 ## 蟒蛇 3
 
-```
+```py
 import statsmodels.api as sm
 from pylab import rcParams
 import pandas as pd
@@ -298,7 +298,7 @@ rcParams['xtick.labelsize'] = 12
 
 ## 蟒蛇 3
 
-```
+```py
 from pandas.plotting import autocorrelation_plot
 
 autocorrelation_plot(dataframe['A'])
@@ -327,7 +327,7 @@ autocorrelation_plot(dataframe['A'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Splitting the plot into (1,2) subplots
 # and initializing them using fig and ax
 # variables
@@ -370,7 +370,7 @@ fig.autofmt_xdate()
 
 ## 蟒蛇 3
 
-```
+```py
 dataframe['Change'] = dataframe.A.div(dataframe.A.shift())
 dataframe['Change'].plot(figsize=(15, 10),
                          xlabel = "Date",
@@ -390,7 +390,7 @@ dataframe['Change'].plot(figsize=(15, 10),
 
 ## 蟒蛇 3
 
-```
+```py
 import calendar
 import seaborn as sns
 import pandas as pd

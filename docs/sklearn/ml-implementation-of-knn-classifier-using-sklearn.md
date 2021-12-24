@@ -10,7 +10,7 @@ k 近邻算法是机器学习中最基本也是最基本的分类算法之一。
 
 **步骤 1:导入所需的库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -21,7 +21,7 @@ import seaborn as sns
 
 **第二步:读取数据集**
 
-```
+```py
 cd C:\Users\Dev\Desktop\Kaggle\Breast_Cancer
 # Changing the read file location to the location of the file
 
@@ -40,7 +40,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 **第三步:训练模型**
 
-```
+```py
 K = []
 training = []
 test = []
@@ -61,7 +61,7 @@ for k in range(2, 21):
 
 **第四步:评估模型**
 
-```
+```py
 for keys, values in scores.items():
     print(keys, ':', values)
 ```
@@ -72,7 +72,7 @@ for keys, values in scores.items():
 
 **第五步:绘制训练和考试成绩图**
 
-```
+```py
 ax = sns.stripplot(K, training);
 ax.set(xlabel ='values of k', ylabel ='Training Score')  
 
@@ -82,7 +82,7 @@ plt.show()
 
 ![](img/fcd5a14d9e4ce4368ee85cacf12e062c.png)
 
-```
+```py
 ax = sns.stripplot(K, test);
 ax.set(xlabel ='values of k', ylabel ='Test Score')
 plt.show()
@@ -90,7 +90,7 @@ plt.show()
 
 ![](img/53e0be04d53934a9c82443af0d011eea.png)
 
-```
+```py
 plt.scatter(K, training, color ='k')
 plt.scatter(K, test, color ='g')
 plt.show()

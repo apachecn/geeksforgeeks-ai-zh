@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ main _ locator()函数**用于
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -46,7 +46,7 @@ plt.show()
 
 ![](img/14179b62527a896b032e468d8ad30834.png)
 
-```
+```py
 <matplotlib.ticker.AutoLocator object at 0x07D67ED0>
 
 ```
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -82,7 +82,7 @@ plt.show()
 
 ![](img/cb79b1a68678d7480146de169f1daa8d.png)
 
-```
+```py
 <matplotlib.ticker.AutoLocator object at 0x07CA9FD0>
 
 ```

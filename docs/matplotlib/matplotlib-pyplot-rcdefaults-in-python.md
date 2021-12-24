@@ -20,7 +20,7 @@ matplotlib 库 pyplot 模块中的 **rcdefaults()函数**用于从 Matplotlib �
 
 **例 1:**
 
-```
+```py
 # implementation of the matplotlib function
 import matplotlib.pyplot as plt
 
@@ -45,7 +45,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # implementation of the matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np

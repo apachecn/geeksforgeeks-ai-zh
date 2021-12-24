@@ -20,7 +20,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import modules
 import cv2
 import numpy as np

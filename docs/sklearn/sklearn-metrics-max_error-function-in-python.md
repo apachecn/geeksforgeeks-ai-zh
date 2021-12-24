@@ -20,7 +20,7 @@ max_error()函数计算最大残差。捕捉预测值和真实值之间最坏情
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from sklearn.metrics import max_error
 
@@ -34,7 +34,7 @@ print(max_error(y_true, y_pred))
 
 **输出:**
 
-```
+```py
 2
 
 ```
@@ -45,7 +45,7 @@ print(max_error(y_true, y_pred))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from sklearn.metrics import max_error
 
@@ -68,7 +68,7 @@ print(max_error(y_true, y_pred))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 from sklearn.metrics import max_error
 
@@ -83,7 +83,7 @@ print(max_error(y_true, y_pred))
 
 **输出:**
 
-```
+```py
 8
 
 ```

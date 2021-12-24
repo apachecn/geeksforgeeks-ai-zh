@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import sine_transform
 from sympy import sine_transform, exp
 from sympy.abc import x, k, a
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sine_transform
 from sympy import sine_transform, exp
 from sympy.abc import x, k, a

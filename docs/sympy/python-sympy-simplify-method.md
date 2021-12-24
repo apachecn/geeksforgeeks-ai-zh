@@ -14,7 +14,7 @@
 **示例#1:**
 在这个示例中，我们可以看到，通过使用 **sympy.lambdify()** 方法，我们可以简化任何数学表达式。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -31,7 +31,7 @@ print("After Simplification : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Simplification : sin(x)**2 + cos(x)**2
 After Simplification : 1
 
@@ -39,7 +39,7 @@ After Simplification : 1
 
 **例 2:**
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -56,7 +56,7 @@ print("After Simplification : {}".format(smpl)) 
 
 **输出:**
 
-```
+```py
 Before Simplification : (x**3 + x**2 - x - 1)/(x**2 + 2*x + 1)
 After Simplification : After Simplification : x - 1
 

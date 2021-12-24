@@ -12,7 +12,7 @@
 
 **代码#1:**
 
-```
+```py
 # median 
 import scipy
 import numpy as np
@@ -26,14 +26,14 @@ print("median without handling nan value :", scipy.median(arr1)) 
 
 **输出:**
 
-```
+```py
 median using nanmedian : 3.0
 median without handling nan value : nan
 ```
 
 **代码#2:** 有多维数据
 
-```
+```py
 # median 
 from scipy import median
 from scipy import nanmedian
@@ -62,7 +62,7 @@ print("\nmedian handling nan with default axis = 1 : \n", 
 
 **输出:**
 
-```
+```py
 median is : nan
 median handling nan : 3.0
 

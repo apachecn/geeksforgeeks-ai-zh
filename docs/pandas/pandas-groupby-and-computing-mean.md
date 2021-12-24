@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -37,7 +37,7 @@ df.groupby(['Animal']).mean()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -59,7 +59,7 @@ df.groupby(by=["b"]).mean()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 

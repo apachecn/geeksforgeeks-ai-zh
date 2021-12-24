@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -38,7 +38,7 @@ df.groupby(['Animal']).sum()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 
@@ -61,7 +61,7 @@ df.groupby(by=["b"]).sum()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import pandas as pd
 

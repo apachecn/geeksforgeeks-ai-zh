@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`np.chebgrid3d()`方法，我们能够通过评估 x、y 和 z 的笛卡尔乘积上的切比雪夫级数来获得系数数组。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.polynomial.chebyshev as cheb

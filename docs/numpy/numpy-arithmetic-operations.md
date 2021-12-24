@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -36,7 +36,7 @@ print(add_ans)
 
 **输出**
 
-```
+```py
 [  7  77  23 130]
 [  7  77  23 130]
 [  8  79  26 134]
@@ -49,7 +49,7 @@ print(add_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -67,7 +67,7 @@ print(sub_ans)
 
 **输出**
 
-```
+```py
 [ 3 67  3 70]
 [ 3 67  3 70]
 ```
@@ -76,7 +76,7 @@ print(sub_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -94,7 +94,7 @@ print(sub_ans)
 
 **输出**
 
-```
+```py
 [ 2 66  2 69]
 [ 2 66  2 69]
 ```
@@ -103,7 +103,7 @@ print(sub_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -121,7 +121,7 @@ print(mul_ans)
 
 **输出**
 
-```
+```py
 [  10  360  130 3000]
 [  10  360  130 3000]
 ```
@@ -130,7 +130,7 @@ print(mul_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Defining both the matrices
@@ -148,7 +148,7 @@ print(div_ans)
 
 **输出**
 
-```
+```py
 [ 2.5        14.4         1.3         3.33333333]
 [ 2.5        14.4         1.3         3.33333333]
 ```
@@ -161,7 +161,7 @@ mod()和 power()函数
 
 ## 蟒蛇 3
 
-```
+```py
 # Performing mod on two matrices
 mod_ans = np.mod(a, b)
 print(mod_ans)
@@ -177,7 +177,7 @@ print(pow_ans)
 
 **输出**
 
-```
+```py
 [ 1  2  3 10]
 [ 1  2  3 10]
 [                 25          1934917632        137858491849
@@ -190,7 +190,7 @@ print(pow_ans)
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting mean of all numbers in 'a'
 mean_a = np.mean(a)
 print(mean_a)
@@ -210,7 +210,7 @@ print(var_b)
 
 **输出**
 
-```
+```py
 47.5
 11.75
 190

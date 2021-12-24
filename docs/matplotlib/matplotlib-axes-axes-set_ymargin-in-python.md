@@ -20,7 +20,7 @@ matplotlib 库的 Axes 模块中的 **Axes.set_ymargin()函数**用于在自动�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -55,7 +55,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 import matplotlib.pyplot as plt

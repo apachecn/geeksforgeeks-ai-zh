@@ -13,7 +13,7 @@ OpenCV 是最受欢迎的跨平台库之一，它被广泛用于深度学习、�
 
 Opencv 可以通过在终端上运行给定的命令来下载:
 
-```
+```py
 pip install Opencv
 ```
 
@@ -26,7 +26,7 @@ pip install Opencv
 
 **语法:**
 
-```
+```py
 VideoCapture("url")
 ```
 
@@ -36,7 +36,7 @@ VideoCapture("url")
 
 **语法:**
 
-```
+```py
 timedelta(time)
 ```
 
@@ -44,7 +44,7 @@ timedelta(time)
 
 ## 蟒 3
 
-```
+```py
 # import module
 import cv2
 import datetime
@@ -65,7 +65,7 @@ print("video time:", video_time)
 
 **输出:**
 
-```
+```py
 duration in seconds: 32
 video time: 0:00:28
 ```

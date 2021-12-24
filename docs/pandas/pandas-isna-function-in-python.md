@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 import pandas
@@ -30,7 +30,7 @@ print(pandas.isna(numpy.nan))
 
 **输出:**
 
-```
+```py
 False
 True
 
@@ -40,7 +40,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import numpy
 import pandas
@@ -57,7 +57,7 @@ print(pandas.isna(array))
 
 **输出:**
 
-```
+```py
 [[ 1\. nan  3.]
  [ 4\.  5\. nan]]
 [[False  True False]

@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的**set _ 栅格化()方法**用于在矢量�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import numpy as np 
@@ -46,7 +46,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist  
 import matplotlib.pyplot as plt 

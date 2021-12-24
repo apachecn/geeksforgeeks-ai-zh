@@ -10,7 +10,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 给定一个字典，其中包含作为关键字的雇员实体和作为值的这些实体的列表。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -32,7 +32,7 @@ df[['Name', 'Qualification']]
 
 选择第二至第四列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -57,7 +57,7 @@ df[df.columns[1:4]]
 
 **示例 1:** 选择两列
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -79,7 +79,7 @@ df.loc[1:3, ['Name', 'Qualification']]
 
 **示例 2:** 选择一列到另一列。在我们的例子中，我们选择列名“名称”到“地址”。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -103,7 +103,7 @@ df.loc[0:1, 'Name':'Address']
 
 **示例 3:** 首先按标签格式过滤行和选择列，然后选择所有列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -131,7 +131,7 @@ df.loc[0, :]
 
 **例 1:** 选择前两列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -156,7 +156,7 @@ df.iloc[:, 0:2] 
 
 **示例 2:** 选择所有或部分列，使用 iloc 逐个选择。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 
@@ -180,7 +180,7 @@ df.iloc [0:2, 1:3]
 
 使用`.ix`逐个选择全部或部分列。
 
-```
+```py
 # Import pandas package
 import pandas as pd
 

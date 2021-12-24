@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.size
 ```
 
@@ -20,7 +20,7 @@ dataframe.size
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -49,7 +49,7 @@ data.size
 
 **语法**:
 
-```
+```py
 dataframe.shape
 ```
 
@@ -59,7 +59,7 @@ dataframe.shape
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -88,7 +88,7 @@ data.shape
 
 **语法**:
 
-```
+```py
 data.ndim
 ```
 
@@ -98,7 +98,7 @@ data.ndim
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

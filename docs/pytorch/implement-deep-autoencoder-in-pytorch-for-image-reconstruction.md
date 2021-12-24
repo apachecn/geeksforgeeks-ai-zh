@@ -46,7 +46,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -110,7 +110,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Creating a DeepAutoencoder class
 class DeepAutoencoder(torch.nn.Module):
     def __init__(self):
@@ -159,7 +159,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
 
 ## 计算机编程语言
 
-```
+```py
 # List that will store the training loss
 train_loss = []
 

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.expand()`方法，我们可以得到带有变量的数学表达式。这里我们也使用`symbols()`方法将变量声明为符号。
 
-```
+```py
 # import sympy
 from sympy import expand, symbols
 
@@ -29,7 +29,7 @@ print(exp)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import expand, symbols
 

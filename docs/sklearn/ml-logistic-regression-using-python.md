@@ -13,7 +13,7 @@
 
 输入库
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -21,13 +21,13 @@ import matplotlib.pyplot as plt
 
 正在加载数据集–用户数据
 
-```
+```py
 dataset = pd.read_csv('...\\User_Data.csv')
 ```
 
 现在，要预测用户是否会购买该产品，需要找出年龄和预计工资之间的关系。在这里，用户标识和性别不是发现这一点的重要因素。
 
-```
+```py
 # input
 x = dataset.iloc[:, [2, 3]].values
 
@@ -37,7 +37,7 @@ y = dataset.iloc[:, 4].values
 
 分割数据集进行训练和测试。75%的数据用于训练模型，25%的数据用于测试我们模型的性能。
 
-```
+```py
 from sklearn.cross_validation import train_test_split
 xtrain, xtest, ytrain, ytest = train_test_split(
         x, y, test_size = 0.25, random_state = 0)
@@ -45,7 +45,7 @@ xtrain, xtest, ytrain, ytest = train_test_split(
 
 现在，在这里执行要素缩放非常重要，因为年龄和估计薪资值位于不同的范围内。如果我们不缩放特征，那么当模型找到数据空间中数据点的最近邻居时，估计工资特征将主导年龄特征。
 
-```
+```py
 from sklearn.preprocessing import StandardScaler
 sc_x = StandardScaler()
 xtrain = sc_x.fit_transform(xtrain) 
@@ -56,7 +56,7 @@ print (xtrain[0:10, :])
 
 **输出:**
 
-```
+```py
 [[ 0.58164944 -0.88670699]
  [-0.60673761  1.46173768]
  [-0.01254409 -0.5677824 ]
@@ -73,7 +73,7 @@ print (xtrain[0:10, :])
 
 最后，我们正在训练我们的逻辑回归模型。
 
-```
+```py
 from sklearn.linear_model import LogisticRegression
 classifier = LogisticRegression(random_state = 0)
 classifier.fit(xtrain, ytrain)
@@ -81,13 +81,13 @@ classifier.fit(xtrain, ytrain)
 
 训练好模型后，就该用它对测试数据做预测了。
 
-```
+```py
 y_pred = classifier.predict(xtest)
 ```
 
 让我们测试一下我们的模型——混淆矩阵的性能
 
-```
+```py
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(ytest, y_pred)
 
@@ -96,7 +96,7 @@ print ("Confusion Matrix : \n", cm)
 
 **输出:**
 
-```
+```py
 Confusion Matrix : 
  [[65  3]
  [ 8 24]]
@@ -108,20 +108,20 @@ Confusion Matrix :
 
 性能测量-准确性
 
-```
+```py
 from sklearn.metrics import accuracy_score
 print ("Accuracy : ", accuracy_score(ytest, y_pred))
 ```
 
 **输出:**
 
-```
+```py
 Accuracy :  0.89
 ```
 
 可视化我们模型的性能。
 
-```
+```py
 from matplotlib.colors import ListedColormap
 X_set, y_set = xtest, ytest
 X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 1, 

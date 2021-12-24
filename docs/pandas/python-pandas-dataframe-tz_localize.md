@@ -20,7 +20,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.tz_localize()`函数将数据帧的给定 tz-naive 索引定位到目标时区。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ print(df)
 
 现在，我们将使用`DataFrame.tz_localize()`函数将数据框的给定 tz-naive 索引本地化为“欧洲/柏林”时区。
 
-```
+```py
 # Let's find out the current timezone
 # of the given dataframe
 print(df.index)
@@ -66,7 +66,7 @@ print(df.index) 
 
 **示例#2 :** 使用`DataFrame.tz_localize()`函数定位给定数据帧的原始索引。给定数据帧的索引是多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -91,7 +91,7 @@ print(df)
 
 现在我们将使用`DataFrame.tz_localize()`函数将给定数据帧的初始索引定位到‘美国/中央’。
 
-```
+```py
 # Let's find out the current timezone
 # of the Level 1 of the given dataframe
 print(df.index[1])

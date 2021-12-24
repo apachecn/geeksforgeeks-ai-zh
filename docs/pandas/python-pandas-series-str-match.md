@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.str.match()`函数将传递的正则表达式与给定序列对象的基础数据中的字符串进行匹配。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -42,7 +42,7 @@ print(sr)
 
 现在我们将使用`Series.str.match()`函数将传递的正则表达式与给定序列对象的基础数据中的字符串进行匹配。
 
-```
+```py
 # match either 'Tokyo' or 'Paris'
 result = sr.str.match(pat = '(Tokyo)|(Paris)')
 
@@ -58,7 +58,7 @@ print(result)
 
 **示例#2 :** 使用`Series.str.match()`函数将传递的正则表达式与给定序列对象的基础数据中的字符串进行匹配。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -84,7 +84,7 @@ print(sr)
 
 现在我们将使用`Series.str.match()`函数将传递的正则表达式与给定序列对象的基础数据中的字符串进行匹配。
 
-```
+```py
 # match groups having any capital letter
 # followed by 'i' and any other character
 result = sr.str.match(pat = '([A-Z]i.)')

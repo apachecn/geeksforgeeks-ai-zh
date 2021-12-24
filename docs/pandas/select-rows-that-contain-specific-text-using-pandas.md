@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -58,7 +58,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -85,7 +85,7 @@ for x in df.itertuples():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -113,7 +113,7 @@ for index, row in df.iterrows():
 
 ## 蟒蛇 3
 
-```
+```py
 # using regular expressions
 from re import search
 

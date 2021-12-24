@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`DatetimeIndex.dayofyear`属性为 DatetimeIndex 对象中的每个条目查找一年中某一天的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -30,7 +30,7 @@ print(didx)
 
 现在，我们希望找到 DatetimeIndex 对象中每个条目的日序数值。
 
-```
+```py
 # find the ordinal value of the day 
 # for each entries present in the object
 didx.dayofyear
@@ -42,7 +42,7 @@ didx.dayofyear
 
 **示例#2:** 使用`DatetimeIndex.dayofyear`属性为 DatetimeIndex 对象中的每个条目查找一年中某一天的序号值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -59,7 +59,7 @@ print(didx)
 ![](img/f749828ab485ff69221bcb7d1cdce7ba.png)
 现在我们要为 DatetimeIndex 对象中的每个条目找到日的序数值。
 
-```
+```py
 # find the ordinal value of the day 
 # for each entries present in the object
 didx.dayofyear

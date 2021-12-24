@@ -19,7 +19,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to explain cv2.cvtColor() method 
 
 # importing cv2 
@@ -49,7 +49,7 @@ cv2.imshow(window_name, image)
 **示例#2:**
 使用 HSV 颜色空间。HSV 颜色空间主要用于目标跟踪。
 
-```
+```py
 # Python program to explain cv2.cvtColor() method 
 
 # importing cv2 

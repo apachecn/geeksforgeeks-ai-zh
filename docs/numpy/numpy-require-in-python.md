@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.require() function
 
@@ -46,7 +46,7 @@ data.flags
 
 **输出:**
 
-```
+```py
 C_CONTIGUOUS : True
   F_CONTIGUOUS : False
   OWNDATA : False
@@ -60,7 +60,7 @@ C_CONTIGUOUS : True
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 # Python program explaining
@@ -72,7 +72,7 @@ b.flags
 
 **输出:**
 
-```
+```py
 C_CONTIGUOUS : True
   F_CONTIGUOUS : False
   OWNDATA : True

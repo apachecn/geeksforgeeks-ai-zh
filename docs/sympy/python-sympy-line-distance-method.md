@@ -4,7 +4,7 @@
 
 In Sympy, the function `distance()` is used to find the shortest distance between a given line and a given point.
 
-```
+```py
 Syntax: Line.distance(other)
 
 Parameter:  
@@ -18,7 +18,7 @@ Raises: NotImplementedError is raised if `other` is not a Point
 
 **示例#1:**
 
-```
+```py
 # import sympy and Point, Line 
 from sympy import Point, Line 
 
@@ -33,13 +33,13 @@ print(shortestDistance)
 
 **输出:**
 
-```
+```py
 sqrt(2)
 ```
 
 **示例#2:**
 
-```
+```py
 # import sympy and Point, Line 
 from sympy import Point, Line 
 
@@ -54,6 +54,6 @@ print(shortestDistance)
 
 **输出:**
 
-```
+```py
 2*sqrt(6)/3
 ```

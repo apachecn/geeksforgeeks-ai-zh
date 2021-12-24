@@ -6,7 +6,7 @@
 
 **代码#1:** 简单地将元组传递给 DataFrame 构造函数。
 
-```
+```py
 # import pandas to use pandas DataFrame
 import pandas as pd
 
@@ -28,7 +28,7 @@ print(df) 
 
 **代码#2:** 使用`from_records()`
 
-```
+```py
 import pandas as pd
 
 # data in the form of list of tuples
@@ -49,7 +49,7 @@ print(df) 
 
 **代码#3:** 使用`from_items()`
 
-```
+```py
 import pandas as pd
 
 # data in the form of list of tuples
@@ -70,7 +70,7 @@ print(df) 
 
 **代码#4:** 为*枢转*成为可能。
 
-```
+```py
 # import pandas to use pandas DataFrame
 import pandas as pd
 

@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`tokenize.TabTokenizer()`方法，我们能够从流中提取单词之间有制表符的标记。
 
-```
+```py
 # import TabTokenizer() method from nltk
 from nltk.tokenize import TabTokenizer
 
@@ -32,7 +32,7 @@ print(geek)
 
 **例 2 :**
 
-```
+```py
 # import TabTokenizer() method from nltk
 from nltk.tokenize import TabTokenizer
 

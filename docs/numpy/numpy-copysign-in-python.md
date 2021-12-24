@@ -15,7 +15,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program illustrating 
 # copysign() method 
 import numpy as np 
@@ -33,7 +33,7 @@ print ("\nCheck for copysign : ", np.signbit(np.copysign(arr1, arr2)))
 
 **输出:**
 
-```
+```py
 arr1 :  [1, -23, 34, 11]
 arr2 :  [-1, 2, -3, -4]
 
@@ -45,7 +45,7 @@ Check for copysign :  [ True False  True  True]
 
 **代码#2:**
 
-```
+```py
 # Python program illustrating 
 # copysign() method 
 import numpy as np 
@@ -58,7 +58,7 @@ print ("\nCheck for copysign : ", np.signbit(np.copysign(arr1, -3)))
 
 **输出:**
 
-```
+```py
 Check sign of arr2 :  [False  True False False]
 Check for copysign :  [ True  True  True  True]
 

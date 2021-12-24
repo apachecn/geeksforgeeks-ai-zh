@@ -27,7 +27,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，年龄列和体重列使用进行比较。lt()方法。由于权重列中的值与年龄列相比非常大，因此首先将值除以 10。在比较之前，使用删除空行。方法来避免错误。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -55,7 +55,7 @@ data
 
 在本例中，使用`pd.Series()`创建了两个系列。该序列也包含空值，因此将 10 传递给 fill_value 参数，用 10 替换空值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -81,7 +81,7 @@ result
 **输出:**
 从输出中可以看出，NaN 值被替换为 5，替换后进行比较，使用新值进行比较。
 
-```
+```py
 0     True
 1    False
 2    False

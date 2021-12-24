@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_offset_text()函数**用于获取
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import matplotlib.pyplot as plt 
@@ -58,7 +58,7 @@ plt.show()
 
 ![](img/0cb1a3ed8c5eeea70699d8b1f42d014c.png)
 
-```
+```py
 Value of get_offset_text() : Text(1, 24.911111111111108, '')
 
 ```
@@ -67,7 +67,7 @@ Value of get_offset_text() : Text(1, 24.911111111111108, '')
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 from matplotlib.axis import Axis  
 import matplotlib.pyplot as plt 
@@ -99,7 +99,7 @@ plt.show()
 
 ![](img/d8140567762fba6be1703f4ef8b1b1d2.png)
 
-```
+```py
 Value of get_offset_text() : Text(1, 0, '')
 
 ```

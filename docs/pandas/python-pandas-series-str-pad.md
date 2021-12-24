@@ -29,7 +29,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，字符串的最小长度设置为 15，并使用 **`str.pad()`** 方法在团队列中的字符串左侧添加空格。由于看不到空格，因此将它们与自定义输入字符串进行比较，并检查结果是否为真，仅针对球队名称“波士顿凯尔特人队”。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -57,7 +57,7 @@ data["Team"]== string
 
 在本例中，字符串的最小长度设置为 15，并使用 str.pad()方法将“_”添加到“团队”列中字符串的右侧。“_”被传递给 fillchar 参数以添加它，而不是默认的空格。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -82,7 +82,7 @@ data
 
 在本例中，使用 str.pad()中的 fillchar 参数将“+”添加到字符串的两端。width 参数设置为 20，这样填充后每个字符串的长度都变得相同。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

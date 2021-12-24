@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # Importing the necessary libraries
 import pandas as pd
 import numpy as np

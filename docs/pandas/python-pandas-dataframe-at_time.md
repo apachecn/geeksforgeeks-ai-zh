@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -44,7 +44,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.at_time('12:00')
 ```
 
@@ -56,7 +56,7 @@ df.at_time('12:00')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -82,7 +82,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 # Find the row values at time "02:00"
 df.at_time('02:00')
 ```

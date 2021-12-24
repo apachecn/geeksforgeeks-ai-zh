@@ -26,7 +26,7 @@
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import LogFormatterSciNotation
@@ -59,7 +59,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 from matplotlib.ticker import LogFormatter
 import numpy as np

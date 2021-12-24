@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # Change the data type of newly
 # created object to 'int64'
 idx.copy(dtype ='int64')
@@ -52,7 +52,7 @@ idx.copy(dtype ='int64')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -72,7 +72,7 @@ idx
 
 ## 蟒蛇 3
 
-```
+```py
 # to make copy and set data type in the datetime format.
 idx_copy = idx.copy(dtype ='datetime64')
 

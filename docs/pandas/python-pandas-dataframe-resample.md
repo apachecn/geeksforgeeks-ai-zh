@@ -34,7 +34,7 @@ T5】M:月末频率
 
 **示例#1:** 按月频率对数据进行重采样
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -55,7 +55,7 @@ df[:10]
 
 ![](img/50996392541ccb52d070005c88886756.png)
 
-```
+```py
 # Resampling the time series data based on months
 # we apply it on stock close price
 # 'M' indicates month
@@ -71,7 +71,7 @@ monthly_resampled_data
 
 **示例#2:** 按周频率对数据进行重采样
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -95,7 +95,7 @@ weekly_resampled_data
 
 **示例#3:** 按季度频率对数据进行重采样
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

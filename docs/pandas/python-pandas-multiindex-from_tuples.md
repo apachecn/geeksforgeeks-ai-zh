@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.from_tuples()`函数使用 python 元组构建多索引。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(tuples)
 
 现在让我们使用元组创建多索引。
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_tuples(tuples, names =('Age', 'Name'))
 
@@ -47,7 +47,7 @@ print(midx)
 
 **示例#2:** 使用`MultiIndex.from_tuples()`函数使用 python 元组构建 MultiIndex。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(tuples)
 
 现在让我们使用元组创建多索引。
 
-```
+```py
 # Creating the MultiIndex
 midx = pd.MultiIndex.from_tuples(tuples, names =('Subject', 'Marks'))
 

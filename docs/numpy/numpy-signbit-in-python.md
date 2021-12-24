@@ -14,7 +14,7 @@
 
 代码:
 
-```
+```py
 # Python program illustrating 
 # signbit() method 
 
@@ -35,7 +35,7 @@ print ("\nplacing signbit check values to out_arr : ", out_arr)
 
 **输出:**
 
-```
+```py
 arr :  [1, -23, 34, 11]
 
 Check for signbit :  [False  True False False]

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -28,7 +28,7 @@ from mpl_toolkits import mplot3d
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -41,7 +41,7 @@ ax = plt.axes(projection = '3d')
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -60,7 +60,7 @@ ax.plot3D(t, signal.square(2 * np.pi * 5 * t))
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
@@ -84,7 +84,7 @@ for angle in range(0, 360):
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import numpy as np
 import matplotlib.pyplot as plt
@@ -116,7 +116,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import numpy as np
 import matplotlib.pyplot as plt
@@ -153,7 +153,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from numpy import linspace
 import numpy as np
 import matplotlib.pyplot as plt

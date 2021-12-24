@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage
 
 # importing numpy module for
@@ -49,7 +49,7 @@ ndimage.geometric_transform(a, shift_func)
 
 ## 蟒蛇 3
 
-```
+```py
 from scipy import ndimage
 
 # importing numpy module for

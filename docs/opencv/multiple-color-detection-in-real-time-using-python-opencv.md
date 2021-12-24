@@ -30,7 +30,7 @@
 
 **下面是实现。**
 
-```
+```py
 **# Python code for Multiple Color Detection
 
 import numpy as np

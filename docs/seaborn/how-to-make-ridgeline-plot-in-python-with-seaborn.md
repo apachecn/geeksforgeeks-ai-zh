@@ -10,14 +10,14 @@
 
 像任何其他 python 库一样，seaborn 可以使用 pip 轻松安装:
 
-```
+```py
 pip install seaborn
 
 ```
 
 该库是 Anaconda 发行版的一部分，如果您的 IDE 受 Anaconda 支持，通常只需导入即可，但也可以通过以下命令安装:
 
-```
+```py
 conda install seaborn
 
 ```
@@ -48,7 +48,7 @@ conda install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd

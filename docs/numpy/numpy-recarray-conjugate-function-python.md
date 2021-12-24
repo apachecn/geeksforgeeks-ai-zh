@@ -18,7 +18,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.recarray.conjugate() method 
 
@@ -53,7 +53,7 @@ print ("Output 2nd conjugated array : ", out_arr) 
 
 **Output:**
 
-```
+```py
 Input array :  [[( 4.+1.j,  1.+3.j) ( 5.+0.j,  5.-1.j) ( 8.-6.j,  9.+0.j)]
  [( 9.+0.j,  1.+0.j) ( 7.+1.j,  3.-1.j) (-2.+6.j, -7.+3.j)]]
 1st Record array of complex :  [[ 4.+1.j  5.+0.j  8.-6.j]

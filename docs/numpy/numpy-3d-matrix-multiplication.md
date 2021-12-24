@@ -8,7 +8,7 @@
 
 ## 巨蟒
 
-```
+```py
 import numpy as np
 
 np.random.seed(42)

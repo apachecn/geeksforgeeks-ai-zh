@@ -10,7 +10,7 @@
 
 **代码#1:奇偶校验()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.parity()
 
@@ -36,7 +36,7 @@ print ("Permutation b - parity form : ", b.parity())
 
 **代码#2:奇偶校验()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.parity()
 

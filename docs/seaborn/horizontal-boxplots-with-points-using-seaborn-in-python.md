@@ -15,7 +15,7 @@ Seaborn 旨在使探索和理解数据的中心部分可视化。它提供了面
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import sklearn
 import numpy as np
@@ -28,7 +28,7 @@ import seaborn as sns
 
 ## 蟒蛇 3
 
-```
+```py
 # To avoid changing values everytime you run the cell
 np.random.seed(42)
 
@@ -51,7 +51,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using melt dataframe for Converting data to long form
 data_df = df.melt(var_name='Dessert', value_name='Votes')
 
@@ -67,7 +67,7 @@ print(data_df.head())
 
 ## 蟒蛇 3
 
-```
+```py
 # Adjust size
 plt.figure(figsize=(8.3,6))
 

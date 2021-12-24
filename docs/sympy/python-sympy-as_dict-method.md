@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.combinatorics.IntegerPartition().as_dict()`方法，我们能够获得带有其系数值的整数值字典。
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import IntegerPartition
 from sympy import *
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy and IntegerPartition
 from sympy.combinatorics.partitions import IntegerPartition
 from sympy import *

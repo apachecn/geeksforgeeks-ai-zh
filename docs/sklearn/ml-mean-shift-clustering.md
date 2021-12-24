@@ -32,7 +32,7 @@
 
 下面是 Python 实现:
 
-```
+```py
 import numpy as np
 import pandas as pd
 from sklearn.cluster import MeanShift
@@ -96,7 +96,7 @@ plt.show()
 
 **迭代模式搜索–**
 
-```
+```py
 1\. Initialize random seed and window W.
 2\. Calculate the center of gravity (mean) of W.    
 3\. Shift the search window to the mean.    
@@ -107,7 +107,7 @@ plt.show()
 
 通用算法大纲–
 
-```
+```py
 for p in copied_points:
     while not at_kde_peak:
         p = shift(p, original_points)
@@ -115,7 +115,7 @@ for p in copied_points:
 
 **换挡功能如下–**
 
-```
+```py
 def shift(p, original_points):
     shift_x = float(0)
     shift_y = float(0)

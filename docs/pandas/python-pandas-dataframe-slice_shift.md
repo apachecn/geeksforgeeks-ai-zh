@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`slice_shift()`功能将时间序列数据中的指数轴移动 2 个周期
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -39,7 +39,7 @@ df
 
 让我们使用`dataframe.slice_shift()`功能将索引轴正向移动 2 个周期
 
-```
+```py
 # shift index axis by two
 # periods in positive direction
 # axis = 0 is set by default
@@ -52,7 +52,7 @@ df.slice_shift(2, axis = 0)
 
 我们还可以将索引轴向负方向移动一些周期
 
-```
+```py
 # shift index axis by two 
 # periods in negative direction
 # axis = 0 is set by default
@@ -65,7 +65,7 @@ df.slice_shift(-2, axis = 0)
 
 **示例 2:** 使用`slice_shift()`功能将时间序列数据中的列轴移动 2 个周期
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ df.slice_shift(2, axis = 1)
 
 我们还可以将列轴向负方向移动一些周期
 
-```
+```py
 # shift column axis by two periods in negative direction
 df.slice_shift(-2, axis = 0)
 ```

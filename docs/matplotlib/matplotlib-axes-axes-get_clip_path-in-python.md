@@ -22,7 +22,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_clip_path()函数**用于获取�
 
 ![geek-1](img/7ba6fa5912389e3b043bbcb25a460a5c.png)
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
@@ -53,7 +53,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.cm as cm

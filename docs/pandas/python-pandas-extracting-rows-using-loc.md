@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，将“名称”列作为索引列，然后使用行的索引标签以系列的形式逐个提取两行。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(first, "\n\n\n", second)
 
 在本例中，将“名称”列作为索引列，然后通过将列表作为参数传递来同时提取两行。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -66,7 +66,7 @@ rows
 
 在本例中，团队名称作为索引列，并将一个团队名称传递给。loc 方法检查是否返回了所有具有相同团队名称的值。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -91,7 +91,7 @@ rows
 
 在本例中，传递了行的两个索引标签，并且返回了这两个索引标签之间的所有行(包括两个索引标签)。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 

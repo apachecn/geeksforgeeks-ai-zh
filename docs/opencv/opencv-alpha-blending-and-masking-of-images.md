@@ -30,7 +30,7 @@ apple.jpeg
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 
 img1 = cv2.imread('gfg.png')
@@ -87,7 +87,7 @@ while (choice) :
 
 ## 蟒蛇 3
 
-```
+```py
 import cv2
 im = cv2.imread("spectacles.png", cv2.IMREAD_UNCHANGED)
 _, mask = cv2.threshold(im[:, :, 3], 0, 255, cv2.THRESH_BINARY)

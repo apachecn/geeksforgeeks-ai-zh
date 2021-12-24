@@ -40,7 +40,7 @@
 
 **代码#1:** 使用 numpy 的绝对偏差
 
-```
+```py
 # Importing mean, absolute from numpy
 from numpy import mean, absolute
 
@@ -69,13 +69,13 @@ print(sum / len(data))             
 
 **输出:**
 
-```
+```py
 20.15
 ```
 
 **代码#2:** 使用 numpy 的绝对平均偏差
 
-```
+```py
 # Importing mean, absolute from numpy
 from numpy import mean, absolute
 
@@ -88,13 +88,13 @@ mean(absolute(data - mean(data)))
 
 **输出:**
 
-```
+```py
 20.055
 ```
 
 **代码#3:** 使用熊猫的绝对平均偏差
 
-```
+```py
 # Import the pandas library as pd
 import pandas as pd
 
@@ -110,6 +110,6 @@ df.mad()    # mad() is mean absolute deviation function
 
 **输出:**
 
-```
+```py
 20.055
 ```

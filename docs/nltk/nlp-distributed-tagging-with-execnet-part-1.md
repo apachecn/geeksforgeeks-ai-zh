@@ -23,7 +23,7 @@
 ![](img/c0e0ad9733aa07ddc3208f924f4e26e1.png)
 现在，调用 **channel.receive()** ，会返回一个标记句，这个标记句相当于树库语料库中的第一个标记句，所以已知标记起作用了。最后，它通过退出网关而结束，网关关闭通道并终止子进程。
 
-```
+```py
 import execnet, remote_tag, nltk.tag, nltk.data
 from nltk.corpus import treebank
 import pickle
@@ -45,6 +45,6 @@ gw.exit()
 
 **输出:**
 
-```
+```py
 True
 ```

@@ -6,7 +6,7 @@
 
 流图基本上是 2D 图的一种，主要被物理学家用来显示流体流动和 2D 场梯度。在 Matplotlib 中创建流图的基本功能是:
 
-```
+```py
 ax.streamplot(x_grid, y_grid, x_vec, y_vec, density=spacing)
 ```
 
@@ -18,7 +18,7 @@ ax.streamplot(x_grid, y_grid, x_vec, y_vec, density=spacing)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -57,7 +57,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -86,7 +86,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -123,7 +123,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -159,7 +159,7 @@ plt.show()   
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -196,7 +196,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
@@ -245,7 +245,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -289,7 +289,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 import numpy as np
 import matplotlib.pyplot as plt

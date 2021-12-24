@@ -6,7 +6,7 @@
 在大多数数据集中， **Date** 列似乎是数据类型 **String** ，用该列执行任何计算肯定都不舒服，例如两个日期之间的月差、时间差或找到星期几。因此，Pandas 提供了一个名为 to_datetime()的方法来将字符串转换为 Timestamp 对象。
 **例:**
 
-```
+```py
 We'll use the date format 'dd/mm/yyyy'
 
 Input :  '24/07/2020' 
@@ -21,7 +21,7 @@ Output : 'Monday'
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

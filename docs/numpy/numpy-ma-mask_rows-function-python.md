@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.mask_rows() function
 
@@ -35,7 +35,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[0 0 0 0]
  [0 0 0 0]
  [-- -- -- --]
@@ -46,7 +46,7 @@ print (gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program explaining
 # numpy.ma.mask_rows() function
 
@@ -67,7 +67,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [[0 0 0 0 0]
  [0 0 0 0 0]
  [0 0 0 0 0]

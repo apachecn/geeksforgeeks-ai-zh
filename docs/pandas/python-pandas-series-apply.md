@@ -18,7 +18,7 @@
 
 **示例#1:** 如果城市是‘里约’，使用`Series.apply()`功能将城市名称更改为‘蒙特利尔’。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -48,7 +48,7 @@ dtype: object
 
 现在如果城市是‘里约’，我们将使用`Series.apply()`功能将城市名称更改为‘蒙特利尔’。
 
-```
+```py
 # change 'Rio' to 'Montreal'
 # we have used a lambda function
 result = sr.apply(lambda x : 'Montreal' if x =='Rio' else x )
@@ -59,7 +59,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 City 1    New York
 City 2     Chicago
 City 3     Toronto
@@ -72,7 +72,7 @@ dtype: object
 
 **示例 2 :** 如果给定系列对象中的值大于 30，则使用`Series.apply()`函数返回真，否则返回假。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -92,7 +92,7 @@ print(sr)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    11.0
 2011-12-31 08:45:00    21.0
 2012-12-31 08:45:00     8.0
@@ -109,7 +109,7 @@ Freq: A-DEC, dtype: float64
 
 现在，如果给定序列对象中的值大于 30，我们将使用`Series.apply()`函数返回真，否则返回假。
 
-```
+```py
 # return True if greater than 30
 # else return False
 result = sr.apply(lambda x : True if x>30 else False)
@@ -120,7 +120,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 2010-12-31 08:45:00    False
 2011-12-31 08:45:00    False
 2012-12-31 08:45:00    False

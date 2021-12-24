@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import matplotlib.pyplot as plt
 
@@ -48,7 +48,7 @@ grid()方法用于在 matplotlib 图中定义网格。语法由–
 
 ## 计算机编程语言
 
-```
+```py
 # Importing the library
 import matplotlib.pyplot as plt
 
@@ -77,13 +77,13 @@ plt.show()
 
 **语法**:
 
-```
+```py
 plt.grid(b=True, axis='x')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import matplotlib.pyplot as plt
 
@@ -112,13 +112,13 @@ plt.show()
 
 **语法:**
 
-```
+```py
  plt.grid(b=True, axis='y')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import matplotlib.pyplot as plt
 
@@ -149,13 +149,13 @@ plt.show()
 
 **语法:**
 
-```
+```py
 plt.grid(linestyle='--')
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import matplotlib.pyplot as plt
 

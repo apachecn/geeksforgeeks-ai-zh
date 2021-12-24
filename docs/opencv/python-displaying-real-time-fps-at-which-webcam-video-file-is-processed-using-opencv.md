@@ -10,13 +10,13 @@
 *   现在我们将逐帧处理捕获的素材，直到 [**capture.read()**](https://www.geeksforgeeks.org/python-program-extract-frames-using-opencv/) 为真(此处 capture 表示一个对象，此函数还会返回 bool，并提供帧是否被成功读取的信息)。
 *   为了计算 FPS，我们将记录最后一帧处理的时间和当前帧处理的结束时间。因此，一帧的处理时间将是当前时间和前一帧时间之间的时间差。
 
-```
+```py
 Processing time for this frame = Current time – time when previous frame processed
 ```
 
 **所以 fps 在当前时刻会是:**
 
-```
+```py
  FPS = 1/ (Processing time for this frame)
 ```
 
@@ -26,7 +26,7 @@ Processing time for this frame = Current time – time when previous frame proce
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import cv2
 import time

@@ -10,7 +10,7 @@
 
 **代码# 1:unlank _ lex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_lex()
 
@@ -39,7 +39,7 @@ print ("Permutation b - unrank_lex form : ", b.unrank_lex(size, 2))
 
 **代码# 2:unlank _ lex()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.unrank_lex()
 

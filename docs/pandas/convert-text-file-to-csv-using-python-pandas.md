@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing panda library
 import pandas as pd
 
@@ -59,7 +59,7 @@ dataframe1.to_csv('GeeksforGeeks.csv', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 
@@ -92,7 +92,7 @@ websites.to_csv('GeeksforGeeks.csv', 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas library
 import pandas as pd
 

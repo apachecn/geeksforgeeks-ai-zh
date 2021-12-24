@@ -10,7 +10,7 @@
 
 **代码#1 : mul_inv()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.mul_inv()
 
@@ -37,7 +37,7 @@ print ("Permutation b - mul_inv form : ", b.mul_inv(b))
 
 **代码#2 : mul_inv()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.mul_inv()
 

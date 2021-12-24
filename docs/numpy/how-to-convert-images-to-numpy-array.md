@@ -8,13 +8,13 @@
 
 *   [**NumPy:**](https://www.geeksforgeeks.org/python-numpy/) 默认情况下，从 3.x 开始，在 Python 的更高版本中，NumPy 是可用的，如果不可用(在较低版本中)，可以使用安装
 
-```
+```py
 pip install numpy
 ```
 
 *   [**枕头:**](https://www.geeksforgeeks.org/python-pillow-a-fork-of-pil/) 这个也要在以后的版本中明确安装。它是首选的图像处理工具。在 Python 3 中，枕头 Python 库只不过是 PIL 的升级版。它可以使用安装
 
-```
+```py
 pip install Pillow
 ```
 
@@ -24,7 +24,7 @@ pip install Pillow
 
 可以轻松检查已安装枕头的版本
 
-```
+```py
 import PIL
 
 print('Installed Pillow Version:', PIL.__version__)

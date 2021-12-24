@@ -14,7 +14,7 @@
 
 **代码:在一个数组上使用原始 2D 切片操作来获得所需的一列或多列**
 
-```
+```py
 import numpy as np
 
 # Creating a sample numpy array (in 1D)
@@ -34,7 +34,7 @@ for col in range(ary.shape[1]):
 
 **输出:**
 
-```
+```py
 [[ 0,  1,  2,  3,  4],
  [ 5,  6,  7,  8,  9],
  [10, 11, 12, 13, 14],
@@ -58,7 +58,7 @@ for col in range(ary.shape[1]):
 
 **代码:**
 
-```
+```py
 # libraries
 import numpy as np
 
@@ -77,7 +77,7 @@ for col in ary.T:
 
 **输出:**
 
-```
+```py
 
 [ 0  5 10 15 20]
 [ 1  6 11 16 21]

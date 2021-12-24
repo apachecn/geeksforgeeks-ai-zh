@@ -12,7 +12,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axhline()函数**用于添加一条�
 
 > **语法:**
 > 
-> ```
+> ```py
 > Axes.axhline(self, y=0, xmin=0, xmax=1, **kwargs)
 > ```
 > 
@@ -30,7 +30,7 @@ matplotlib 库的 Axes 模块中的 **Axes.axhline()函数**用于添加一条�
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as mtri

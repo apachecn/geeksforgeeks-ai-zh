@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 
@@ -32,7 +32,7 @@ df
 
 ## 蟒蛇 3
 
-```
+```py
 df.head(10)
 ```
 
@@ -44,6 +44,6 @@ df.head(10)
 
 ## 蟒蛇 3
 
-```
+```py
 df.shape
 ```

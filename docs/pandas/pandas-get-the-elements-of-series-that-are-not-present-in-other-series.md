@@ -12,7 +12,7 @@ T5
 
 T8T10】
 
-```
+```py
 # Importing pandas library
 import pandas as pd
 

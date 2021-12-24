@@ -14,7 +14,7 @@ Matplotlib 有一个特殊的函数 matplotlib.patches.Circle()来绘制圆。
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstrating use of matplotlib.patches.Circle() function
 # to plot a colored Circle
 
@@ -37,7 +37,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstrating use of matplotlib.patches.Circle() function
 # to plot an un-colored Circle
 
@@ -64,7 +64,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot a Circle
 # using Parametric equation of a Circle
 
@@ -95,7 +95,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot a Circle
 # using Center-Radius form of circle equation
 
@@ -128,7 +128,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to plot a Circle
 # using Scatter plot of points
 

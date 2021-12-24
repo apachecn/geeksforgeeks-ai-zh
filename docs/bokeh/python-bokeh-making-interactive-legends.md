@@ -19,7 +19,7 @@ Bokeh 是一个 Python 交互式数据可视化工具。它使用 HTML 和 JavaS
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 
@@ -60,7 +60,7 @@ show(graph) 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules 
 from bokeh.plotting import figure, output_file, show 
 

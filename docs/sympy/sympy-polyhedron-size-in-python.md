@@ -10,7 +10,7 @@
 
 **代码#1:大小()示例–四面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.size()
 
@@ -38,7 +38,7 @@ print ("\nPolyhedron - size form : ", a.size)
 
 **代码#2:大小()示例–八面体**
 
-```
+```py
 # Python code explaining
 # SymPy.Polyhedron.size()
 

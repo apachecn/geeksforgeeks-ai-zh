@@ -15,7 +15,7 @@
 
 **示例#1:** 使用`Series.duplicated()`函数查找给定序列对象中的重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -37,7 +37,7 @@ print(sr)
 
 现在我们将使用`Series.duplicated()`函数来查找给定序列对象的底层数据中的重复值。
 
-```
+```py
 # detect duplicates
 result = sr.duplicated()
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例#2 :** 使用`Series.duplicated()`函数查找给定序列对象中的重复值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(sr)
 
 现在我们将使用`Series.duplicated()`函数来查找给定序列对象的底层数据中的重复值。
 
-```
+```py
 # detect duplicates
 result = sr.duplicated()
 

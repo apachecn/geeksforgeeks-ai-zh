@@ -25,7 +25,7 @@ pandas.concat()函数执行沿带有熊猫对象的轴的执行连接操作的�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -48,7 +48,7 @@ display(pd.concat([series1, series2]))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -72,7 +72,7 @@ display(pd.concat([series1, series2], 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -98,7 +98,7 @@ display(pd.concat([df1, df2], 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -124,7 +124,7 @@ display(pd.concat([df1, df2],
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -150,7 +150,7 @@ display(pd.concat([df1, df2], 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

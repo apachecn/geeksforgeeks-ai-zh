@@ -9,7 +9,7 @@ Pandas DataFrame 是一个二维标记数据结构，具有潜在的不同类型
 
 ## 蟒蛇 3
 
-```
+```py
 # Import pandas library
 import pandas as pd
 
@@ -25,7 +25,7 @@ print(df )
 
 **Output:** 
 
-```
+```py
 Name  Age
 0  Geeks   10
 1    for   15

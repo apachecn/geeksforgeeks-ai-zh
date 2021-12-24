@@ -16,7 +16,7 @@
 
 **示例#1:** 使用`Series.repeat()`功能重复给定序列对象中的每个值 2 次。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -38,7 +38,7 @@ print(sr)
 
 现在我们将使用`Series.repeat()`函数重复给定序列对象的每个值 2 次。
 
-```
+```py
 # repeat twice
 result = sr.repeat(repeats = 2)
 
@@ -53,7 +53,7 @@ print(result)
 
 **示例 2 :** 使用`Series.repeat()`函数在给定的 Series 对象中重复每个值 3 次。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(sr)
 
 现在我们将使用`Series.repeat()`函数重复给定序列对象的每个值 3 次。
 
-```
+```py
 # repeat twice
 result = sr.repeat(repeats = 3)
 

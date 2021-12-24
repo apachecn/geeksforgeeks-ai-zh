@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`numpy.getmaskarray()`方法，我们能够获得 numpy 数组形式的掩码矩阵。
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 
@@ -28,7 +28,7 @@ print(ma.getmaskarray(gfg))
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy.ma as ma
 

@@ -19,7 +19,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`clip_lower()`功能将数据帧的值修剪到给定阈值以下。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 现在将 2 到 2 以下的所有值修剪掉。
 
-```
+```py
 # Clip all values below 2
 df.clip_lower(2)
 ```
@@ -48,7 +48,7 @@ df.clip_lower(2)
 
 为此，我们可以使用 numpy 数组，但数组的形状必须与数据框的形状相同。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -70,7 +70,7 @@ limit
 
 现在对数据帧应用这些限制
 
-```
+```py
 # applying different limit value 
 # for each cell in the dataframe
 df.clip_lower(limit)

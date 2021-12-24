@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到每个元素都被作为参数在 MaskedArray 中传递的值右移。__irshift__()方法。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,14 +24,14 @@ print(gfg.__irshift__(2)) 
 
 **Output:**
 
-```
+```py
 [0 0 0 1 1]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -45,7 +45,7 @@ print(gfg.__irshift__(1)) 
 
 **Output:**
 
-```
+```py
 [[0 1 1 2 2]
  [3 2 2 1 1]]
 

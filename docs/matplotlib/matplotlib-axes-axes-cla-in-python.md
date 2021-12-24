@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.cla()函数**用于清除当前轴。
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -40,7 +40,7 @@ for i in range(len(data)):
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

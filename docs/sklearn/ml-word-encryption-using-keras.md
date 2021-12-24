@@ -10,7 +10,7 @@
 
     **代码:导入库**
 
-    ```
+    ```py
     # importing libraries
     import tensorflow as tf
     import numpy as np 
@@ -24,7 +24,7 @@
 
     **代码:创建顺序模型**
 
-    ```
+    ```py
     # creating the simplest neural structure with only 
     # one layer and that only have one neuron
     model = keras.Sequential([keras.layers.Dense(units = 1, 
@@ -39,7 +39,7 @@
 
      **代号:**
 
-    ```
+    ```py
     # here we will give sample data with which program 
     # will learn and make predictions on its basis
     xs = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
@@ -57,7 +57,7 @@
 
     **代码:**
 
-    ```
+    ```py
     # taking input from user
     code = input("code is: ")
     n = len(code)
@@ -76,7 +76,7 @@
 
     **完成实施–**
 
-    ```
+    ```py
     # importing libraries 
     import tensorflow as tf
     import numpy as np 
@@ -116,7 +116,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Wbjcibw!Nfisb!xsjujoh!gps!HffltgpsHfflt
 
     ```

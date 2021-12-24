@@ -10,7 +10,7 @@ OpenCV 具有`findContour()`功能，有助于从图像中提取轮廓。它最�
 
 **以下是寻找等高线的代码–**
 
-```
+```py
 import cv2
 import numpy as np
 

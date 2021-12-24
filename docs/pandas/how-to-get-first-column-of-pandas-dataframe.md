@@ -10,7 +10,7 @@
 
 **语法**:
 
-```
+```py
 dataframe.iloc[:, 0]
 ```
 
@@ -31,7 +31,7 @@ dataframe.iloc[:, 0]
 
 **语法:**
 
-```
+```py
 dataframe.iloc[:, :1]
 ```
 
@@ -41,7 +41,7 @@ dataframe.iloc[:, :1]
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -88,7 +88,7 @@ print(data.iloc[:, :1])
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -120,7 +120,7 @@ print(data[data.columns[0]])
 
 **语法**:
 
-```
+```py
 dataframe.first_column
 ```
 
@@ -128,7 +128,7 @@ dataframe.first_column
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 
@@ -160,7 +160,7 @@ print(data.id)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas module
 import pandas as pd
 

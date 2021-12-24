@@ -10,7 +10,7 @@
 
 **代码#1:原子()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.atoms()
 
@@ -36,7 +36,7 @@ print ("Permutation b - atoms form : ", b.atoms())
 
 **代码#2:原子()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.atoms()
 

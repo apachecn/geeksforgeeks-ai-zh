@@ -6,7 +6,7 @@
 
 斯凯尔姆是两个统计上独立的随机变量 N1 和 N2 的 N1-N2 差的分布，每个都是泊松分布的，具有各自的期望值 mu1 和 mu2。
 
-```
+```py
 Syntax:  sympy.stats.Skellam(name, mu1, mu2)
 
 Parameters:
@@ -21,7 +21,7 @@ Returns: discrete random variable with a Skellam distribution.
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Skellam, density, Symbol
 from sympy.stats import Skellam, density
 from sympy import Symbol
@@ -38,7 +38,7 @@ print(skeDist)
 
 **输出:**
 
-```
+```py
 (mu1/mu2)**(z/2)*exp(-mu1 - mu2)*besseli(z, 2*sqrt(mu1)*sqrt(mu2))
 
 ```
@@ -47,7 +47,7 @@ print(skeDist)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sympy, Skellam, density
 from sympy.stats import Skellam, density
 
@@ -60,7 +60,7 @@ print(skeDist)
 
 **输出:**
 
-```
+```py
 sqrt(2)*exp(-3)*besseli(3, 2*sqrt(2))/4
 
 ```

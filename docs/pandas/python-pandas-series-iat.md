@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Series.iat`属性返回给定序列对象在指定位置的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.iat`属性返回位于第 0 个索引处的值。
 
-```
+```py
 # return the value at 0th index
 sr.iat[0]
 ```
@@ -49,7 +49,7 @@ sr.iat[0]
 
 **示例 2 :** 使用`Series.iat`属性返回给定系列对象在指定位置的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -68,7 +68,7 @@ print(sr)
 
 现在我们将使用`Series.iat`属性返回位于第二个索引处的值。
 
-```
+```py
 # return the value at 2nd index
 sr.iat[2]
 ```

@@ -14,7 +14,7 @@
 
 **代码#1 : to_prufer()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.size()
 
@@ -38,7 +38,7 @@ print ("Prufer a size : ", a.to_prufer([[0, 1], [0, 2], [0, 3]], 4))
 
 **代码#2 : to_prufer()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Prufer.size()
 

@@ -8,7 +8,7 @@
 
 **样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -43,7 +43,7 @@ matplotlib 库 pyplot 模块中的**子图()函数**用于创建一个图形和�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -65,7 +65,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

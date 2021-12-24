@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import pandas
 import numpy
@@ -58,7 +58,7 @@ pandas.crosstab(a, [b, c], rownames=['a'], colnames=['b', 'c'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 

@@ -16,7 +16,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **Code #1:**
 
-```
+```py
 # importing pandas package 
 import pandas as geek
 
@@ -39,7 +39,7 @@ print(x2)
 
 **代码#2:**
 
-```
+```py
 # importing pandas package 
 import pandas as geek
 
@@ -62,7 +62,7 @@ print(x2)
 
 **代码#3:**
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np
@@ -89,7 +89,7 @@ print(x2)
 
 **代码#4:**
 
-```
+```py
 # importing pandas and numpy
 import pandas as pd
 import numpy as np

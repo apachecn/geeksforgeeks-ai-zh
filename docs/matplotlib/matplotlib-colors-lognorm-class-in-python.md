@@ -18,7 +18,7 @@ matplotlib.colors.LogNorm 类用于在对数标度上将一个值归一化到 0-
 
 **例 1:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib import colors
@@ -65,7 +65,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.colors import LogNorm

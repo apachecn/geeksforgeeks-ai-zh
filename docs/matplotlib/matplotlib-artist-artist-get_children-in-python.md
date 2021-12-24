@@ -18,7 +18,7 @@ matplotlib 库的艺术家模块中的 **get_children** **()方法**用于返回
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 
@@ -43,7 +43,7 @@ plt.show()
 
 ![](img/4715c712a39cdd52ccb1d3e327dd683f.png)
 
-```
+```py
 List of the child Artists of this Artist 
 
 Rectangle(xy=(-0.4, 0), width=0.8, height=0.58236, angle=0)
@@ -61,7 +61,7 @@ Rectangle(xy=(8.6, 0), width=0.8, height=0.509706, angle=0)
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist 
 import matplotlib.pyplot as plt 

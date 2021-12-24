@@ -16,7 +16,7 @@ Pandas DataFrame 是一个二维可变大小、潜在异构的表格数据结构
 
 **示例#1:** 使用`DataFrame.to_sparse()`函数将给定的数据帧转换为稀疏数据帧，以实现高效存储。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -41,7 +41,7 @@ print(df)
 
 现在我们将使用`DataFrame.to_sparse()`函数将给定的数据帧转换为稀疏数据帧。
 
-```
+```py
 # convert to SparseDataFrame
 result = df.to_sparse()
 
@@ -61,7 +61,7 @@ print(type(result))
 
 **示例 2:** 使用`DataFrame.to_sparse()`函数将给定的数据帧转换为稀疏数据帧，以实现高效存储。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -86,7 +86,7 @@ print(df)
 
 现在我们将使用`DataFrame.to_sparse()`函数将给定的数据帧转换为稀疏数据帧。
 
-```
+```py
 # convert to SparseDataFrame
 result = df.to_sparse()
 

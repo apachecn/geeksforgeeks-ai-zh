@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -42,7 +42,7 @@ numbers.index(9)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -56,7 +56,7 @@ np.where(numbers == 9)
 
 **输出**
 
-```
+```py
 (array([3], dtype=int64),)
 ```
 
@@ -68,7 +68,7 @@ np.where(numbers == 9)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -82,7 +82,7 @@ np.where(numbers == 0)
 
 **输出:**
 
-```
+```py
 (array([0, 5], dtype=int64),)
 ```
 
@@ -94,7 +94,7 @@ np.where(numbers == 0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary packages
 import numpy as np
 
@@ -108,7 +108,7 @@ np.where(numbers == 7)
 
 **输出**
 
-```
+```py
 (array([], dtype=int64),)
 ```
 

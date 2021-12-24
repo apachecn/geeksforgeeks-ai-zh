@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Trimmed Variance 
 
 from scipy import stats
@@ -33,7 +33,7 @@ print("\nTrimmed Variance by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Variance : 35.0
 
 Trimmed Variance by setting limit :  7.5
@@ -42,7 +42,7 @@ Trimmed Variance by setting limit :  7.5
 
 **代码#2:** 检查“包含”标志
 
-```
+```py
 # Trimmed Variance 
 
 from scipy import stats
@@ -65,7 +65,7 @@ print("\nTrimmed Variance by setting limit : ", 
 
 **Output:**
 
-```
+```py
 Trimmed Variance by setting limit :  7.5
 
 Trimmed Variance by setting limit :  6.0

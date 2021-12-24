@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 seaborn.load_dataset(name, cache=True, data_home=None, **kws)
 ```
 
@@ -20,7 +20,7 @@ seaborn.load_dataset(name, cache=True, data_home=None, **kws)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Install seaborn using pip install seaborn
 # Import the seaborn package
@@ -44,7 +44,7 @@ data.head()
 
 **语法:**
 
-```
+```py
 seaborn.scatterplot(x, y, hue, style, size, data, palette,
 hue_order, legend)
 ```
@@ -55,7 +55,7 @@ hue_order, legend)
 
 **语法:**
 
-```
+```py
 figure_name.get_figure()
 ```
 
@@ -67,7 +67,7 @@ get_figure 函数将输出图形存储到变量中。将图暂时存储在变量
 
 ## 蟒蛇 3
 
-```
+```py
 # Install seaborn using pip install seaborn
 # Import the seaborn package
 import seaborn as sns
@@ -98,7 +98,7 @@ scatter_fig.savefig('scatterplot.png')
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Install seaborn using pip install seaborn
 # Import the seaborn package
@@ -130,7 +130,7 @@ scatter_fig.savefig('scatterplot.jpg')
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Install seaborn using pip install seaborn
 # Import the seaborn package
@@ -164,7 +164,7 @@ scatter_fig.savefig('scatterplot.tiff')
 
 ## 蟒蛇 3
 
-```
+```py
 # Install seaborn using pip install seaborn
 # Import the seaborn package
 import seaborn as sns

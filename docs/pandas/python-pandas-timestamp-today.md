@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Timestamp.today()`函数返回本地时区的当前时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(ts)
 
 现在我们将使用`Timestamp.today()`函数返回本地时区的当前时间。
 
-```
+```py
 # return current time
 ts.today()
 ```
@@ -46,7 +46,7 @@ ts.today()
 
 **示例 2:** 使用`Timestamp.today()`函数返回本地时区的当前时间。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(ts)
 
 现在我们将使用`Timestamp.today()`函数返回本地时区的当前时间。
 
-```
+```py
 # return current time
 ts.today()
 ```

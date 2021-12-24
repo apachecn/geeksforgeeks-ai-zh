@@ -12,7 +12,7 @@ matplotlib 库 pyplot 模块中的 **plot_date()函数**用于绘制包含日期
 
 > **语法:**
 > 
-> ```
+> ```py
 > matplotlib.pyplot.plot_date(x, y, fmt='o', tz=None, xdate=True, ydate=False, hold=None, data=None, **kwargs)
 > 
 > ```
@@ -33,7 +33,7 @@ matplotlib 库 pyplot 模块中的 **plot_date()函数**用于绘制包含日期
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import datetime
 import matplotlib.pyplot as plt
@@ -57,7 +57,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import datetime
 import matplotlib.pyplot as plt

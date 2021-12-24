@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 A = np.array([5, 7, 3, 1])
@@ -30,7 +30,7 @@ print (c)
 
 ## 蟒蛇 3
 
-```
+```py
 macros = array([
   [0.8, 2.9, 3.9],
   [52.4, 23.6, 36.5],
@@ -55,7 +55,7 @@ result
 
 **输出:**
 
-```
+```py
 array([[   2.4,    8.7,   31.2 ],
        [  157.2,   70.8,  292 ],
        [   165.6,  95.1,   191.2],
@@ -66,7 +66,7 @@ array([[   2.4,    8.7,   31.2 ],
 
 **输入:**阵列 **A** 带 **m** 尺寸，阵列 **B** 带 **n** 尺寸
 
-```
+```py
 p = max(m, n)
 if m < p:
     left-pad A's shape with 1s until it also has p dimensions
@@ -98,7 +98,7 @@ for i in p-1 ... 0:
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 a = np.array([17, 11, 19]) # 1x3 Dimension array
 print(a)
@@ -113,7 +113,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 [17 11 19]
 3
 [20 14 22]
@@ -123,7 +123,7 @@ print(c)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 A = np.array([[11, 22, 33], [10, 20, 30]])
 print(A)
@@ -137,7 +137,7 @@ print(C)
 
 **输出:**
 
-```
+```py
 [[11 22 33]
  [10 20 30]]
  4
@@ -149,7 +149,7 @@ print(C)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 
 v = np.array([12, 24, 36]) 
@@ -189,7 +189,7 @@ print(x * 2)
 
 **输出:**
 
-```
+```py
 [[ 4  5]
  [ 8 10]
  [12 15]]
@@ -213,7 +213,7 @@ print(x * 2)
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 

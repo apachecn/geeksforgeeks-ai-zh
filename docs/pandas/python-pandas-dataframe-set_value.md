@@ -17,7 +17,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`set_value()`功能在特定索引处设置数据框中的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 让我们使用`dataframe.set_value()`函数来设置特定索引的值。
 
-```
+```py
 # set value of a cell which has index label "2" and column label "B"
 df.set_value(2, 'B', 100)
 ```
@@ -45,7 +45,7 @@ df.set_value(2, 'B', 100)
 
 **示例 2:** 使用`set_value()`功能设置数据框中不存在的索引和列的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -63,7 +63,7 @@ df
 
 让我们使用`dataframe.set_value()`函数来设置特定索引的值。
 
-```
+```py
 # set value of a cell which has index label "8" and column label "8"
 df.set_value(8, 8, 1000)
 ```

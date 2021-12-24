@@ -11,7 +11,7 @@
 
 **代码#1:使用分类后标签**
 
-```
+```py
 from nltk.tag.sequential import ClassifierBasedPOSTagger
 from nltk.corpus import treebank
 
@@ -28,7 +28,7 @@ print ("Accuracy : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy : 0.9309734513274336
 
 ```
@@ -37,7 +37,7 @@ Accuracy : 0.9309734513274336
 
 **代码#2:使用 MaxentClassifier**
 
-```
+```py
 from nltk.classify import MaxentClassifier
 from nltk.corpus import treebank
 
@@ -55,7 +55,7 @@ print ("Accuracy : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy : 0.9258363911072739
 
 ```
@@ -68,7 +68,7 @@ Accuracy : 0.9258363911072739
 
 **代码#3:自定义特征检测器**
 
-```
+```py
 from nltk.tag.sequential import ClassifierBasedTagger
 from tag_util import unigram_feature_detector
 from nltk.corpus import treebank
@@ -88,7 +88,7 @@ print ("Accuracy : ", a)
 
 **输出:**
 
-```
+```py
 Accuracy : 0.8733865745737104
 
 ```

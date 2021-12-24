@@ -16,7 +16,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python3 code demonstrate conj() function
 
 #importing numpy
@@ -33,7 +33,7 @@ print ("Output conjugated complex number of 5-8j: ", out_complx2)
 
 **输出:**
 
-```
+```py
 Output conjugated complex number of  2+4j :  (2-4j)
 Output conjugated complex number of 5-8j:  (5+8j)
 
@@ -41,7 +41,7 @@ Output conjugated complex number of 5-8j:  (5+8j)
 
 **代码#2 :**
 
-```
+```py
 # Python3 code demonstrate conj() function
 
 # importing numpy
@@ -56,7 +56,7 @@ print ("Output conjugated array : ", out_array)
 
 **输出:**
 
-```
+```py
 Input array :  [[ 1.+3.j  0.+0.j]
  [ 0.+0.j  1.+3.j]]
 Output conjugated array :  [[ 1.-3.j  0.-0.j]

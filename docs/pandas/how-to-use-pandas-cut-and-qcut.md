@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -27,7 +27,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.read_csv('cardekho.csv')
 df.head()
 ```
@@ -38,7 +38,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # no missing values in the dataset
 df.info()
 ```
@@ -49,7 +49,7 @@ df.info()
 
 ## 蟒蛇 3
 
-```
+```py
 df.loc[0, 'Year'] = np.nan
 
 # these are the 'unique' years in
@@ -67,7 +67,7 @@ np.array(sorted(df.Year.unique()))
 
 ## 蟒蛇 3
 
-```
+```py
 # right = True, by default
 pd.cut(df.Year, bins=3, right=True).head()
 ```
@@ -82,6 +82,6 @@ pd.cut(df.Year, bins=3, right=True).head()
 
 ## 蟒蛇 3
 
-```
+```py
 pd.cut(df.Year, bins=3, right=False).head()
 ```

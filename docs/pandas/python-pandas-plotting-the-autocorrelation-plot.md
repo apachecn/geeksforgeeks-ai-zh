@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various package
 import pandas as pd
 import numpy as np
@@ -49,7 +49,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing various package
 import pandas as pd
 import numpy as np

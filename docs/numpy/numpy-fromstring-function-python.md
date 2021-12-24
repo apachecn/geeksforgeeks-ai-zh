@@ -22,7 +22,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program explaining
 # numpy.fromstring() function
 
@@ -42,7 +42,7 @@ print(gfg)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program explaining
 # numpy.fromstring() function
 

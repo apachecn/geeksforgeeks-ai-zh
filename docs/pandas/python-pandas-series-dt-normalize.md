@@ -12,7 +12,7 @@
 
 **示例#1:** 使用`Series.dt.normalize()`功能将给定系列对象中的时间转换为午夜。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -36,7 +36,7 @@ print(sr)
 
 现在我们将使用`Series.dt.normalize()`功能将时间转换为午夜。
 
-```
+```py
 # convert to midnight
 result = sr.dt.normalize()
 
@@ -52,7 +52,7 @@ print(result)
 
 **示例#1:** 使用`Series.dt.normalize()`功能将给定系列对象中的时间转换为午夜。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -76,7 +76,7 @@ print(sr)
 
 现在我们将使用`Series.dt.normalize()`功能将时间转换为午夜。
 
-```
+```py
 # convert to midnight
 result = sr.dt.normalize()
 

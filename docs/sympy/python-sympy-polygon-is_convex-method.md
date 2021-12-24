@@ -4,7 +4,7 @@
 
 在 Sympy 中，函数**polygon . is _ 凸()**用于检查给定的多边形是否凸。如果一个多边形的所有内角都小于 180 度，并且边之间没有交点，那么这个多边形就是凸的。
 
-```
+```py
 Syntax: Polygon.is_convex()
 
 Returns:
@@ -16,7 +16,7 @@ Returns:
 
 ## 蟒蛇 3
 
-```
+```py
 # import Point, Polygon
 from sympy import Point, Polygon
 
@@ -32,7 +32,7 @@ print(isConvex.is_convex())
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -40,7 +40,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import Point, Polygon
 from sympy import Point, Polygon
 
@@ -56,6 +56,6 @@ print(isConvex.is_convex())
 
 **输出:**
 
-```
+```py
 False
 ```

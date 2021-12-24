@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import pyplot as plt
 import seaborn as sns
 current_palette = sns.color_palette()
@@ -52,7 +52,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import pyplot as plt
 import seaborn as sns
 current_palette = sns.color_palette()
@@ -74,7 +74,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from matplotlib import pyplot as plt
 import seaborn as sns
 current_palette = sns.color_palette()
@@ -94,7 +94,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import pandas as pd
 import seaborn as sns
@@ -116,7 +116,7 @@ sns.palplot(sns.color_palette("deep", 10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 
@@ -133,7 +133,7 @@ sns.palplot(sns.color_palette("muted", 10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 
@@ -150,7 +150,7 @@ sns.palplot(sns.color_palette("bright", 10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 
@@ -167,7 +167,7 @@ sns.palplot(sns.color_palette("dark", 10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 
@@ -184,7 +184,7 @@ sns.palplot(sns.color_palette("BuGn_r", 10))
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import seaborn as sns
 

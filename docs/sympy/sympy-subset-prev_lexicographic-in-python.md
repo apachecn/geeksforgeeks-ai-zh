@@ -12,7 +12,7 @@
 
 **代码# 1:prev _ 词典()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_lexicographic()
 
@@ -36,7 +36,7 @@ print ("Subset a prev_lexicographic : ", a.prev_lexicographic().subset)
 
 **代码# 2:prev _ 词典()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.prev_lexicographic()
 

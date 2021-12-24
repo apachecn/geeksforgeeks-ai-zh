@@ -34,7 +34,7 @@ matplotlib 库 pyplot 模块中的 **errorbar()函数**用于将 y 对 x 绘制�
 
 **示例#1:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt

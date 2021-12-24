@@ -12,7 +12,7 @@
 
 **代码# 1:rank _ dictionary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_lexicographic()
 
@@ -36,7 +36,7 @@ print ("Subset a rank_lexicographic : ", a.rank_lexicographic)
 
 **代码# 2:rank _ dictionary()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Subset.rank_lexicographic()
 

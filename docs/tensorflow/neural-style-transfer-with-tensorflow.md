@@ -48,7 +48,7 @@ VGG-19 体系结构
 
 ## 蟒蛇 3
 
-```
+```py
 # import numpy, tensorflow and matplotlib
 import tensorflow as tf
 import numpy as np
@@ -66,7 +66,7 @@ from tensorflow.python.keras.models import Model
 
 ## 蟒蛇 3
 
-```
+```py
 # Image Credits: Tensorflow Doc
 content_path = tf.keras.utils.get_file('content.jpg',
                                        'https://storage.googleapis.com/download.tensorflow.org/example_images/YellowLabradorLooking_new.jpg')
@@ -80,7 +80,7 @@ style_path = tf.keras.utils.get_file('style.jpg',
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # this function download the VGG model and initiliase it
 model = VGG19(
@@ -96,7 +96,7 @@ model.summary()
 
 **输出:**
 
-```
+```py
 Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/vgg19/vgg19_weights_tf_dim_ordering_tf_kernels_notop.h5
 80142336/80134624 [==============================] - 1s 0us/step
 Model: "vgg19"
@@ -159,7 +159,7 @@ ________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # code to load and process image
 def load_and_process_image(image_path):
     img = load_img(image_path)
@@ -176,7 +176,7 @@ def load_and_process_image(image_path):
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 def deprocess(img):
     # perform the inverse of the pre processing step
@@ -209,7 +209,7 @@ def display_image(image):
 
 ## 蟒蛇 3
 
-```
+```py
 # load content image
 content_img = load_and_process_image(content_path)
 display_image(content_img)
@@ -235,7 +235,7 @@ display_image(style_img)
 
 ## 蟒蛇 3
 
-```
+```py
 # define content model
 content_layer = 'block5_conv2'
 content_model = Model(
@@ -247,7 +247,7 @@ content_model.summary()
 
 **输出:**
 
-```
+```py
 Model: "functional_9"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -302,7 +302,7 @@ _________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # define style model
 style_layers = [
     'block1_conv1',
@@ -319,7 +319,7 @@ style_models = [Model(inputs=model.input,
 
 ## 蟒蛇 3
 
-```
+```py
 # Content loss
 def content_loss(content, generated):
     a_C = content_model(content)
@@ -333,7 +333,7 @@ def content_loss(content, generated):
 
 ## 蟒蛇 3
 
-```
+```py
 # gram matrix
 def gram_matrix(A):
     channels = int(A.shape[-1])
@@ -363,7 +363,7 @@ def style_cost(style, generated):
 
 ## 蟒蛇 3
 
-```
+```py
 # training function
 generated_images = []
 
@@ -404,14 +404,14 @@ def training_loop(content_path, style_path, iterations=50, a=10, b=1000):
 
 ## 蟒蛇 3
 
-```
+```py
 # Train the model and get best image
 final_img = training(content_path, style_path)
 ```
 
 **输出:**
 
-```
+```py
 CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
 Wall time: 6.2 µs
 Iteration :0
@@ -620,7 +620,7 @@ Total Loss 3.089630e+09.
 
 ## 蟒蛇 3
 
-```
+```py
 # code to display best generated image and last 10 intermediate results
 plt.figure(figsize=(12, 12))
 

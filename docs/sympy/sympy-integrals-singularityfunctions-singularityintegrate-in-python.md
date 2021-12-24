@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import singularityintegrate
 from sympy.integrals.singularityfunctions import singularityintegrate
 from sympy import SingularityFunction, symbols, Function
@@ -36,7 +36,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import singularityintegrate
 from sympy.integrals.singularityfunctions import singularityintegrate
 from sympy import SingularityFunction, symbols, Function

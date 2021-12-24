@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中我们可以看到，通过使用`sympy.as_leading_term()`方法，我们能够检查作为参数传递的变量的数学函数的前导项。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

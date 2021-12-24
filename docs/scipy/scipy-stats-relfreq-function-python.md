@@ -18,7 +18,7 @@
 
 **代码#1:**
 
-```
+```py
 # relative frequency
 from scipy import stats
 import numpy as np 
@@ -36,7 +36,7 @@ print ("extra-points : ", d)
 
 **输出:**
 
-```
+```py
 Array element :  [1, 3, 27, 2, 5, 13] 
 
 cumulative frequency :  [0.66666667 0.16666667 0\.         0.16666667]
@@ -48,7 +48,7 @@ extra-points :  0
 
 **代码#2:**
 
-```
+```py
 # relative frequency
 from scipy import stats
 import numpy as np 
@@ -67,7 +67,7 @@ print ("extrapoints : ", d)
 
 **输出:**
 
-```
+```py
 Array element :  [1, 3, 27, 2, 5, 13] 
 
 cumfreqs :  [0.26666667 1\.         0\.         0.01666667]

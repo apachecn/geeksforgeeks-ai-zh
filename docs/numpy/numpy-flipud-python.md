@@ -5,25 +5,25 @@
 **numpy.flipud()** 函数将数组(每列中的条目)上下翻转，形状保持不变。
 **语法:**
 
-```
+```py
 numpy.flipud(array)
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array, we want to flip
 
 ```
 
 **返回:**
 
-```
+```py
 Flipped array in up-down direction.
 
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.flipud() method
 
@@ -38,7 +38,7 @@ print("\nFlipped array : \n", geek.flipud(array))
 
 **输出:**
 
-```
+```py
 Original array : 
  [[[0 1]
   [2 3]]

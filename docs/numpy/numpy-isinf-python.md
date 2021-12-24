@@ -6,13 +6,13 @@
 
 **numpy.isinf()** 函数按元素测试是+ve 还是-ve 无穷大，并以布尔数组的形式返回结果。
 
-```
+```py
 Syntax: numpy.isinf(array [, out])
 ```
 
 **参数:**
 
-```
+```py
 array : [array_like]Input array or object whose 
          elements, we need to test for  infinity
 out   : [ndarray, optional]Output array placed 
@@ -23,7 +23,7 @@ out   : [ndarray, optional]Output array placed
 
 **返回:**
 
-```
+```py
 boolean array containing the result. For scalar 
 input, the result is a new boolean with value
 True if the input is positive or negative infinity; 
@@ -38,7 +38,7 @@ or negative infinity; elsewhere the values are False.
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.isinf() method
 
@@ -63,7 +63,7 @@ print("Checking for infinity : ", geek.isinf(x, y))
 
 **输出:**
 
-```
+```py
 Finite :  False 
 
 Finite :  False 
@@ -81,7 +81,7 @@ Checking for infinity :  [1 0 1]
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program illustrating
 # numpy.isinf() method
 
@@ -102,7 +102,7 @@ print("\nIs Infinity : \n", geek.isinf(b))
 
 **输出:**
 
-```
+```py
  [[0 1 2 3]
  [4 5 6 7]]
 

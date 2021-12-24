@@ -20,7 +20,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`skew()`函数查找指数轴上数据的偏斜度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ df
 
 让我们使用`dataframe.skew()`函数来寻找偏斜度
 
-```
+```py
 # skewness along the index axis
 df.skew(axis = 0, skipna = True)
 ```
@@ -45,7 +45,7 @@ df.skew(axis = 0, skipna = True)
 
 **例#2:** 使用`skew()`函数求数据在列轴上的偏斜度。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 

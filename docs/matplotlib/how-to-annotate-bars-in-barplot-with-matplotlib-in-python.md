@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries for dataframe creation
 # and graph plotting
 import numpy as np
@@ -43,7 +43,7 @@ df = pd.DataFrame(data, columns=['Name', 'Marks'])
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining the plotsize
 plt.figure(figsize=(8, 6))
 
@@ -80,7 +80,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining the plot size
 plt.figure(figsize=(8, 8))
 
@@ -126,7 +126,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries for dataframe creation
 # and graph plotting
 import numpy as np

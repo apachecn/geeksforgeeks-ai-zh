@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import seaborn as sns
 from sunbird.categorical_encoding import frequency_encoding
@@ -54,7 +54,7 @@ sns.clustermap(data, figsize=(7, 7))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import seaborn as sns
 from sunbird.categorical_encoding import frequency_encoding

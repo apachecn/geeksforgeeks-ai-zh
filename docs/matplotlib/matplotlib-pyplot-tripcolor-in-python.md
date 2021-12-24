@@ -8,7 +8,7 @@
 
 **样本代码**
 
-```
+```py
 # sample code
 import matplotlib.pyplot as plt 
 
@@ -42,7 +42,7 @@ matplotlib 库中 pyplot 模块中的 **tripcolor()函数**用于创建非结构
 
 **示例-1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -83,7 +83,7 @@ plt.show()
 
 **示例-2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri

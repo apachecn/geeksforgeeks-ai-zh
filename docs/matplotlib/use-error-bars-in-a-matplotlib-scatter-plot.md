@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 a = [1, 3, 5, 7]
@@ -48,7 +48,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 a = [1, 3, 5, 7]
@@ -69,7 +69,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 a = [1, 3, 5, 7]
@@ -93,7 +93,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing matplotlib
 import matplotlib.pyplot as plt
 

@@ -5,7 +5,7 @@
 **numpy.logspace()** 函数返回对数刻度上均匀间隔的空格数。
 **语法:**
 
-```
+```py
 numpy.logspace(start,
                stop,
                num = 50,
@@ -16,7 +16,7 @@ numpy.logspace(start,
 
 **参数:**
 
-```
+```py
 -> start    : [float] start(base ** start) of interval range.
 -> stop     : [float] end(base ** stop) of interval range
 -> endpoint : [boolean, optional]If True, stop is the last sample. By default, True
@@ -27,7 +27,7 @@ numpy.logspace(start,
 
 **返回:**
 
-```
+```py
 -> ndarray
 ```
 
@@ -35,7 +35,7 @@ numpy.logspace(start,
 
 ## 计算机编程语言
 
-```
+```py
 # Python Programming illustrating
 # numpy.logspace method
 
@@ -53,7 +53,7 @@ print("B\n", geek.logspace(2.0, 3.0, num=5, dtype = int))
 
 **输出:**
 
-```
+```py
 B
  [  121\.           220.36039471   401.31159963   730.8527479   1331\.        ]
 B
@@ -66,7 +66,7 @@ B
 
 ## 计算机编程语言
 
-```
+```py
 # Graphical Representation of numpy.logspace()
 import numpy as geek
 import pylab as p

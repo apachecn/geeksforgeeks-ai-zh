@@ -15,7 +15,7 @@
 
 **代码:**
 
-```
+```py
 # Python Program illustrating 
 # numpy.char.decode() method 
 import numpy as np 
@@ -46,7 +46,7 @@ print ("\nDecoded arr1 : \n", decode_arr2)
 
 **输出:**
 
-```
+```py
 arr1 :  ['eAAAa', 'ttttds', 'AAtAAt']
 arr2 :  ['11sf', 'sdsf2', '1111f2']
 

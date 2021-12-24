@@ -19,7 +19,7 @@
 
 **示例#1 :** 使用`Series.sem()`函数找到给定 Series 对象中基础数据平均值的标准误差。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -35,7 +35,7 @@ print(sr)
 
 现在我们用`Series.sem()`函数求底层数据均值的标准误差。
 
-```
+```py
 # find standard error of the mean
 sr.sem()
 ```
@@ -47,7 +47,7 @@ sr.sem()
 
 **示例#2 :** 使用`Series.sem()`函数查找给定 Series 对象中底层数据平均值的标准误差。给定的 Series 对象还包含一些缺失的值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -64,7 +64,7 @@ print(sr)
 
 现在我们用`Series.sem()`函数求底层数据均值的标准误差。
 
-```
+```py
 # find standard error of the mean
 # Skip all the missing values
 sr.sem(skipna = True)

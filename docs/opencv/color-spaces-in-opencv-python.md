@@ -15,7 +15,7 @@ T3】
 ![](img/bf0e8bb9000e419da366c4676e2467d8.png)
 **可视化 RGB 图像的不同颜色通道。**
 
-```
+```py
 import cv2
 
 image = cv2.imread('C://Users//Gfg//rgb.png')

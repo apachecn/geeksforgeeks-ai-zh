@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the libraries
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
@@ -50,7 +50,7 @@ from sklearn.model_selection import StratifiedShuffleSplit
 
 ## 蟒蛇 3
 
-```
+```py
 # convert data set into dataframe
 churn_df = pd.read_csv(r"ChurnData.csv")
 
@@ -65,7 +65,7 @@ y = churn_df['churn'].astype('int')
 
 ## 蟒蛇 3
 
-```
+```py
 # data pre-processing
 X = preprocessing.StandardScaler().fit(X).transform(X)
 ```
@@ -74,7 +74,7 @@ X = preprocessing.StandardScaler().fit(X).transform(X)
 
 ## 蟒蛇 3
 
-```
+```py
 # use StratifiedShuffleSplit()
 sss = StratifiedShuffleSplit(n_splits=4, test_size=0.5,
                              random_state=0)
@@ -89,7 +89,7 @@ sss.get_n_splits(X, y)
 
 ## 蟒蛇 3
 
-```
+```py
 scores = []
 
 # using regression to get predicted data

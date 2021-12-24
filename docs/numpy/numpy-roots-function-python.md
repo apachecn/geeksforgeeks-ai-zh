@@ -13,7 +13,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Python program explaining
 # numpy.roots() function
 
@@ -29,14 +29,14 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [-1.+1.41421356j -1.-1.41421356j]
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python program explaining
 # numpy.roots() function
 
@@ -52,7 +52,7 @@ print (gfg)
 
 **输出:**
 
-```
+```py
 [-0.3125+0.46351241j -0.3125-0.46351241j]
 
 ```

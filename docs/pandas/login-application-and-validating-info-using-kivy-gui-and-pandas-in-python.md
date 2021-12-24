@@ -18,7 +18,7 @@ Kivy 是一个多平台图形用户界面库，以反应灵敏而闻名。它在
 
 **主程序:**
 
-```
+```py
 # import all the relevant classes
 from kivy.app import App
 from kivy.uix.widget import Widget
@@ -119,7 +119,7 @@ if __name__=="__main__":
 
 **。kv 档:**。kv 文件包含设计和放置 GUI 以及定义屏幕转换方向的所有代码。
 
-```
+```py
 # there are three screens
 windowManager:
     loginWindow:

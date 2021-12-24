@@ -17,7 +17,7 @@
 
 **示例#1:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -32,7 +32,7 @@ print("Value of nth lucas number : {}".format(nth_lucas))  
 
 **输出:**
 
-```
+```py
 Value of n = 7
 Value of nth lucas number : 29
 
@@ -40,7 +40,7 @@ Value of nth lucas number : 29
 
 **例 2:**
 
-```
+```py
 # import sympy 
 from sympy import * 
 
@@ -55,7 +55,7 @@ print("N lucas number are : {}".format(n_lucas))  
 
 **输出:**
 
-```
+```py
 Value of n = 10
 N lucas number are : [2, 1, 3, 4, 7, 11, 18, 29, 47, 76, 123]
 

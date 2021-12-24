@@ -20,7 +20,7 @@ matplotlib.colors.SymLogNorm 类用于从原点到正负方向的对称对数缩
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as colors
@@ -59,7 +59,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import colors, ticker

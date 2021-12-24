@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`np.ma.mini()`方法，我们能够通过使用该方法来获得掩码数组的最小值。
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.ma as ma
@@ -28,7 +28,7 @@ print(min)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 import numpy.ma as ma

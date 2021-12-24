@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_transform()函数**用于获取�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt
@@ -52,7 +52,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function  
 import matplotlib.pyplot as plt
 from matplotlib import collections, colors, transforms
@@ -102,7 +102,7 @@ plt.show() 
 
 ![](img/2da577771302ab81323b003000c477da.png)
 
-```
+```py
 Value Return by get_transform() :
  Affine2D(
     [[1.38888889 0\.         0\.        ]

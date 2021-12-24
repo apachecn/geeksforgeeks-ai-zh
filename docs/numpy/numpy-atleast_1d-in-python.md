@@ -15,7 +15,7 @@
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_1d() function
 
@@ -30,7 +30,7 @@ print ("output 1d array from input number : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  number :  10
 output 1d array from input number :  [10]
 
@@ -38,7 +38,7 @@ output 1d array from input number :  [10]
 
 **代码#2:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_1d() function
 
@@ -55,7 +55,7 @@ print ("output array : ", out_arr) 
 
 **输出:**
 
-```
+```py
 Input  list :  [[2, 6, 10], [8, 12, 16]]
 output array :  [[ 2  6 10]
  [ 8 12 16]]
@@ -64,7 +64,7 @@ output array :  [[ 2  6 10]
 
 **代码#3:工作**
 
-```
+```py
 # Python program explaining
 # numpy.atleast_1d() function
 # when inputs are in high dimension
@@ -81,7 +81,7 @@ print(in_arr is out_arr)
 
 **输出:**
 
-```
+```py
 IInput  array :
   [[0 1 2]
  [3 4 5]

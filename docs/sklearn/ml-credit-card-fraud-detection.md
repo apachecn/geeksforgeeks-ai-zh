@@ -24,7 +24,7 @@
 可以从[这个链接](https://www.kaggle.com/mlg-ulb/creditcardfraud/download)T5 下载数据集，如果链接不工作请转到[这个](https://www.kaggle.com/mlg-ulb/creditcardfraud)链接登录 kaggle 下载数据集。
 **代码:导入所有必要的库**
 
-```
+```py
 # import the necessary packages
 import numpy as np
 import pandas as pd
@@ -35,7 +35,7 @@ from matplotlib import gridspec
 
 **代码:加载数据**
 
-```
+```py
 # Load the dataset from the csv file using pandas
 # best way is to mount the drive on colab and 
 # copy the path for the csv file
@@ -44,7 +44,7 @@ data = pd.read_csv("credit.csv")
 
 **代码:理解数据**
 
-```
+```py
 # Grab a peek at the data
 data.head()
 ```
@@ -53,7 +53,7 @@ data.head()
 
 **代码:描述数据**
 
-```
+```py
 # Print the shape of the data
 # data = data.sample(frac = 0.1, random_state = 48)
 print(data.shape)
@@ -62,7 +62,7 @@ print(data.describe())
 
 **输出:**
 
-```
+```py
 (284807, 31)
                 Time            V1  ...         Amount          Class
 count  284807.000000  2.848070e+05  ...  284807.000000  284807.000000
@@ -81,7 +81,7 @@ max    172792.000000  2.454930e+00  ...   25691.160000       1.000000
 **代码:数据不平衡**
 时间来解释我们正在处理的数据。
 
-```
+```py
 # Determine number of fraud cases in dataset
 fraud = data[data['Class'] == 1]
 valid = data[data['Class'] == 0]
@@ -96,14 +96,14 @@ print('Valid Transactions: {}'.format(len(data[data['Class'] == 0])))
 
 **编码:打印欺诈交易金额明细**
 
-```
+```py
 print(“Amount details of the fraudulent transaction”)
 fraud.Amount.describe()
 ```
 
 **输出:**
 
-```
+```py
 Amount details of the fraudulent transaction
 count     492.000000
 mean      122.211321
@@ -119,14 +119,14 @@ Name: Amount, dtype: float64
 
 **编码:打印正常交易的金额明细**
 
-```
+```py
 print(“details of valid transaction”)
 valid.Amount.describe()
 ```
 
 **输出:**
 
-```
+```py
 Amount details of valid transaction
 count    284315.000000
 mean         88.291022
@@ -145,7 +145,7 @@ Name: Amount, dtype: float64
 **代码:绘制相关矩阵**
 相关矩阵以图形方式让我们了解特征之间是如何相互关联的，并且可以帮助我们预测哪些特征与预测最相关。
 
-```
+```py
 # Correlation matrix
 corrmat = data.corr()
 fig = plt.figure(figsize = (12, 9))
@@ -159,7 +159,7 @@ plt.show()
 **代码:分离 X 和 Y 值**
 将数据分为输入参数和输出值格式
 
-```
+```py
 # dividing the X and the Y from the dataset
 X = data.drop(['Class'], axis = 1)
 Y = data["Class"]
@@ -173,7 +173,7 @@ yData = Y.values
 
 **输出:**
 
-```
+```py
 
 (284807, 30)
 (284807, )
@@ -182,7 +182,7 @@ yData = Y.values
  **训练和测试数据分叉**
 我们将数据集分为两个主要组。一个用于训练模型，另一个用于测试我们训练的模型的性能。
 
-```
+```py
 # Using Skicit-learn to split data into training and testing sets
 from sklearn.model_selection import train_test_split
 # Split the data into training and testing sets
@@ -192,7 +192,7 @@ xTrain, xTest, yTrain, yTest = train_test_split(
 
 **代码:使用 skicit learn 构建随机森林模型**
 
-```
+```py
 # Building the Random Forest Classifier (RANDOM FOREST)
 from sklearn.ensemble import RandomForestClassifier
 # random forest model creation
@@ -204,7 +204,7 @@ yPred = rfc.predict(xTest)
 
 **代码:建立各种评估参数**
 
-```
+```py
 # Evaluating the classifier
 # printing every score of the classifier
 # scoring in anything
@@ -235,7 +235,7 @@ print("The Matthews correlation coefficient is{}".format(MCC))
 
 **输出:**
 
-```
+```py
 The model used is Random Forest classifier
 The accuracy is  0.9995611109160493
 The precision is 0.9866666666666667
@@ -247,7 +247,7 @@ The Matthews correlation coefficient is0.8629589216367891
 
 **代码:可视化混淆矩阵**
 
-```
+```py
 # printing the confusion matrix
 LABELS = ['Normal', 'Fraud']
 conf_matrix = confusion_matrix(yTest, yPred)

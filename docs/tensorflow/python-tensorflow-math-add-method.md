@@ -21,7 +21,7 @@ Tensorflow math.add()方法返回传递输入的 a + b。运算是在 a 和 b �
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -45,7 +45,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_79:0", shape=(), dtype=int32)
 3
 Input 2 Tensor("Const_80:0", shape=(), dtype=int32)
@@ -58,7 +58,7 @@ Output:  Tensor("Add_1:0", shape=(), dtype=int32)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the Tensorflow library
 import tensorflow as tf
 
@@ -82,7 +82,7 @@ with tf.Session() as sess:
 
 **输出:**
 
-```
+```py
 Input 1 Tensor("Const_87:0", shape=(), dtype=string)
 b'This is '
 Input 2 Tensor("Const_88:0", shape=(), dtype=string)

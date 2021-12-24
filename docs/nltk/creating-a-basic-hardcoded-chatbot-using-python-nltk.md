@@ -7,13 +7,13 @@
 **需求:**
 你需要安装 NLTK(自然语言工具包)，它为用 Python 编程语言编写的英语提供符号和统计自然语言处理的库和程序。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install nltk
 ```
 
 下面是实现
 
-```
+```py
 from nltk.chat.util import Chat, reflections
 
 pairs =[

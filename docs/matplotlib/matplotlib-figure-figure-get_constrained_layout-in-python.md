@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -65,14 +65,14 @@ plt.show()
 
 ![](img/49fb7c0510440278cb1415d8680f9c94.png)
 
-```
+```py
 Value return by get_constrained_layout() : False
 
 ```
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 import numpy as np
@@ -109,7 +109,7 @@ plt.show()
 
 ![](img/8cb02fcfa9bb988d565b68b4cbb729d2.png)
 
-```
+```py
 Value return by get_constrained_layout() : False
 
 ```

@@ -8,7 +8,7 @@
 
 **参数:**
 
-```
+```py
 array : [array_like]elements are in radians.
 out   : [array_like]array of same shape as x.
 
@@ -21,7 +21,7 @@ out   : [array_like]array of same shape as x.
 
 **返回:**
 
-```
+```py
 An array with inverse tangent of x
 for all x i.e. array elements. 
 
@@ -31,7 +31,7 @@ The values are in the closed interval [-pi/2, pi/2].
 
 **代码#1:工作**
 
-```
+```py
 # Python program explaining
 # arctan() function
 
@@ -47,7 +47,7 @@ print ("\nInverse Tangent values : \n",
 
 **输出:**
 
-```
+```py
 Input array : 
  [0, 1, 0.3, -1]
 
@@ -57,7 +57,7 @@ Inverse Tangent values :
 
 **代码#2:图形表示**
 
-```
+```py
 # Python program showing
 # Graphical representation  
 # of arctan() function
@@ -88,7 +88,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 in_array :  [-3.14159265 -2.57039399 -1.99919533 -1.42799666 -0.856798   -0.28559933
   0.28559933  0.856798    1.42799666  1.99919533  2.57039399  3.14159265]
 

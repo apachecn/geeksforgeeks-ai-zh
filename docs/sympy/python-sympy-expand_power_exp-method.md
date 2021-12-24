@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`sympy.expand_power_exp()`方法，我们能够简化数学表达式的幂。
 
-```
+```py
 # import sympy
 from sympy import * 
 
@@ -29,7 +29,7 @@ print(fact)
 
 **例 2 :**
 
-```
+```py
 # import sympy
 from sympy import * 
 

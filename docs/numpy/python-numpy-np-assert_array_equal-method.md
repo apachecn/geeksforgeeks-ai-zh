@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`np.assert_array_equal()`方法，如果两个类似错误的对象不相等，我们可以通过使用这个方法得到断言错误。
 
-```
+```py
 # import numpy and assert_array_equal
 import numpy as np
 import numpy.testing as npt
@@ -27,7 +27,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and assert_array_equal
 import numpy as np
 import numpy.testing as npt

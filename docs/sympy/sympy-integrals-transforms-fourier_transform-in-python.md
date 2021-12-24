@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import fourier_transform
 from sympy import fourier_transform, exp
 from sympy.abc import x, k
@@ -37,7 +37,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import fourier_transform
 from sympy import fourier_transform, exp
 from sympy.abc import x, k

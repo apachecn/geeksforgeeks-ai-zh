@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import torch module
 import torch
 
@@ -29,7 +29,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 tensor([[[ 1,  2,  3,  4,  5,  6,  7,  8],
         [10, 11, 12, 13, 14, 15, 16, 17]],
        [[71, 72, 73, 74, 75, 76, 77, 78],
@@ -57,7 +57,7 @@ tensor([[[ 1,  2,  3,  4,  5,  6,  7,  8],
 
 ## 蟒蛇 3
 
-```
+```py
 # access  all the tensors of 1 
 # dimension and get only 7 values 
 # in that dimension
@@ -66,7 +66,7 @@ print(a[0:1, 0:1, :7])
 
 **输出:**
 
-```
+```py
 tensor([[[1, 2, 3, 4, 5, 6, 7]]])
 ```
 
@@ -74,7 +74,7 @@ tensor([[[1, 2, 3, 4, 5, 6, 7]]])
 
 ## 蟒蛇 3
 
-```
+```py
 # access  all the tensors of all
 # dimensions and get only 3 values 
 # in each dimension
@@ -83,7 +83,7 @@ print(a[0:1, 0:2, :3])
 
 **输出:**
 
-```
+```py
 tensor([[[ 1,  2,  3],
         [10, 11, 12]]])
 ```
@@ -92,7 +92,7 @@ tensor([[[ 1,  2,  3],
 
 ## 蟒蛇 3
 
-```
+```py
 # access 8 elements in 1 dimension
 # on all tensors
 print(a[0:2, 1, 0:8])
@@ -100,7 +100,7 @@ print(a[0:2, 1, 0:8])
 
 **输出:**
 
-```
+```py
 tensor([[10, 11, 12, 13, 14, 15, 16, 17],
        [81, 82, 83, 84, 85, 86, 87, 88]])
 ```

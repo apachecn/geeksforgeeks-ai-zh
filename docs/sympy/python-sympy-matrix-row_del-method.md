@@ -11,7 +11,7 @@
 
 In the given example we can see that the `sympy.Matrix.row_del()` method is used to delete the row of a matrix and return a new matrix.
 
-```
+```py
 # Import all the methods from sympy
 from sympy import *
 
@@ -27,7 +27,7 @@ print(gfg_val)
 
 **例 2 :**
 
-```
+```py
 from sympy import *
 
 # use the row_del() method for matrix

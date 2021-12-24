@@ -10,7 +10,7 @@
 **示例#1 :**
 在本例中，我们可以使用`matrix.squeeze()`方法来挤压给定矩阵的大小。
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -25,14 +25,14 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 4 12]]
 
 ```
 
 **例 2 :**
 
-```
+```py
 # import the important module in python
 import numpy as np
 
@@ -47,7 +47,7 @@ print(gfg)
 
 **Output:**
 
-```
+```py
 [[ 4  1  9]
  [12  3  1]
  [ 4  5  6]]

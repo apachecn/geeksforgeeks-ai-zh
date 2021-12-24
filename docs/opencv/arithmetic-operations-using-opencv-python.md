@@ -14,7 +14,7 @@
 
 **图像添加代码–**
 
-```
+```py
 import  cv2
 import matplotlib.pyplot as plt % matplotlib inline
 # matplotlib can be used to plot the images as subplot
@@ -50,7 +50,7 @@ cv2.destroyAllWindows()
 
 **图像减法代码–**
 
-```
+```py
 import  cv2
 import matplotlib.pyplot as plt % matplotlib inline
 

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 
@@ -31,7 +31,7 @@ print("New flattened array:\n", flattened_array)
 
 **输出:**
 
-```
+```py
 Original array:
  [[ 5  6  7]
  [ 8  9 10]]
@@ -44,7 +44,7 @@ New flattened array:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import numpy as np
 
@@ -59,7 +59,7 @@ print("New flattened array:\n", flattened_array)
 
 **输出:**
 
-```
+```py
 Original array:
  [[[3 4]
   [5 6]]

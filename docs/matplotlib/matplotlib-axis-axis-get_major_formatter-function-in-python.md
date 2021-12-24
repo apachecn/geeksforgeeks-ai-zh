@@ -20,7 +20,7 @@ matplotlib 库的 Axis 模块中的**axis . get _ main _ formatter()函数**用�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -45,7 +45,7 @@ plt.show()
 
 ![](img/3a5a82fbc93c07d3f704e775fa1ed1ca.png)
 
-```
+```py
 <matplotlib.ticker.ScalarFormatter object at 0x08497E30>
 
 ```
@@ -54,7 +54,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np
 from matplotlib.axis import Axis  
@@ -81,7 +81,7 @@ plt.show()
 
 ![](img/8af24dd213bf91345caa26a53bb25edc.png)
 
-```
+```py
 <matplotlib.ticker.ScalarFormatter object at 0x084E9F10>
 
 ```

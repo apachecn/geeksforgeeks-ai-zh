@@ -24,7 +24,7 @@
 
 **代码#1:创建 chi 连续随机变量**
 
-```
+```py
 # importing scipy
 from scipy.stats import chi 
 
@@ -37,7 +37,7 @@ print ("RV : \n", rv) 
 
 **输出:**
 
-```
+```py
 RV : 
  <scipy.stats._distn_infrastructure.rv_frozen object at 0x000002948537C6D8>
 
@@ -45,7 +45,7 @@ RV :
 
 **代码#2 : chi 随机变量和概率分布。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -60,7 +60,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [2.40483665 1.68478304 0.01664071 2.48977805 3.66286843 1.68463842
  0.14434643 0.67812242 0.46190886 1.99973997]
@@ -73,7 +73,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -85,7 +85,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
 Distribution : 
  [0\.         0.10204082 0.20408163 0.30612245 0.40816327 0.51020408
@@ -103,7 +103,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

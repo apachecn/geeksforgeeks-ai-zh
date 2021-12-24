@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`stats.hypsecant.stats()`方法，我们能够使用该方法获得均值、方差、偏斜度和峰度的值。
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 5
@@ -27,7 +27,7 @@ print(M, V, S, K)
 
 **例 2 :**
 
-```
+```py
 # import hypsecant
 from scipy.stats import hypsecant
 beta = 3

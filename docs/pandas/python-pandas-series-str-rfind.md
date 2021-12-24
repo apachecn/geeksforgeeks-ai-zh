@@ -23,7 +23,7 @@ Pandas **str.rfind()** 方法用于从右侧搜索序列中出现的每个字符
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -53,7 +53,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 

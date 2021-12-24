@@ -22,7 +22,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **注意:**我们可以使用任何一种填充方法(例如。ffill '，' bfill ')。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -52,7 +52,7 @@ df2
 
 让我们使用`dataframe.reindex_like()`函数来查找匹配的索引。
 
-```
+```py
 # find matching indexes
 df1.reindex_like(df2)
 ```
@@ -62,7 +62,7 @@ df1.reindex_like(df2)
 
 注意输出，不匹配的索引用`NaN`值填充，我们可以用‘ffill’方法填充缺失的值。
 
-```
+```py
 # filling the missing values using ffill method
 df1.reindex_like(df2, method ='ffill')
 ```
@@ -73,7 +73,7 @@ df1.reindex_like(df2, method ='ffill')
 
 **示例 2:** 使用`reindex_like()`函数匹配两个数据帧的索引，并限制填充缺失值。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -99,7 +99,7 @@ df1.reindex_like(df2)
 ![](img/8868c3a443f912b24de0e57e849ad69e.png)
 注意输出，不匹配的索引填充有`NaN`值，我们可以使用‘ffill’方法填充缺失的值。我们还限制了可以使用 limit 参数填充的连续不匹配索引的数量。
 
-```
+```py
 # match the indexes
 # fill the unmatched index using 'ffill' method
 # maximum consecutive unmatched indexes to be filled is 1

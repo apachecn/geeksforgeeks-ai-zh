@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import matplotlib.pyplot as plt
 
@@ -46,7 +46,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import matplotlib.pyplot as plt
 
@@ -80,7 +80,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 import numpy as np
@@ -111,7 +111,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 import numpy as np

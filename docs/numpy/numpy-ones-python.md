@@ -4,13 +4,13 @@
 
 **numpy.ones()** 函数返回一个给定形状和类型的新数组，带有 1。
 
-```
+```py
 Syntax: numpy.ones(shape, dtype = None, order = 'C') 
 ```
 
 **参数:**
 
-```
+```py
 shape : integer or sequence of integers
 order  : C_contiguous or F_contiguous
          C-contiguous order in memory(last index varies the fastest)
@@ -23,11 +23,11 @@ dtype : [optional, float(byDeafult)] Data type of returned array.
 
 **返回:**
 
-```
+```py
 ndarray of ones having given shape, order and datatype.
 ```
 
-```
+```py
 # Python Program illustrating
 # numpy.ones method
 
@@ -45,7 +45,7 @@ print("\nMatrix c : \n", c)
 
 **输出:**
 
-```
+```py
 Matrix b : 
  [1 1]
 

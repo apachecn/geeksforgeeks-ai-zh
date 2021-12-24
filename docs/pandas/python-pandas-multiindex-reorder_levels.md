@@ -15,7 +15,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`MultiIndex.reorder_levels()`函数对多索引的级别进行重新排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -33,7 +33,7 @@ print(midx)
 
 现在让我们重新排列多索引的级别。
 
-```
+```py
 # reorder the levels such that
 # 1st level appears before the 0th
 midx.reorder_levels([1, 0])
@@ -45,7 +45,7 @@ midx.reorder_levels([1, 0])
 
 **示例 2:** 使用`MultiIndex.reorder_levels()`功能对多索引的级别进行重新排序。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -62,7 +62,7 @@ print(midx)
 
 现在让我们重新排列多索引的级别。
 
-```
+```py
 # reorder the levels
 midx.reorder_levels([0, 2, 1])
 ```

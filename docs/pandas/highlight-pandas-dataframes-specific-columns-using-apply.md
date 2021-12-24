@@ -23,7 +23,7 @@
 
 **例 1 :**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 
@@ -61,7 +61,7 @@ display(df.style.apply(highlight_cols, axis = None))
 
 **例 2 :**
 
-```
+```py
 # importing pandas as pd 
 import pandas as pd 
 

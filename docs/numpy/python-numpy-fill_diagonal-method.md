@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`numpy.fill_diagonal()`方法，我们能够获得用作为参数传递的值填充的对角线。
 
-```
+```py
 # import numpy
 import numpy as np
 
@@ -28,7 +28,7 @@ print(array)
 
 **例 2 :**
 
-```
+```py
 # import numpy
 import numpy as np
 

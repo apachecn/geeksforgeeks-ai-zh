@@ -18,7 +18,7 @@ Jaccard 距离，与 Jaccard 系数相反，用于测量两个样本集之间的
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the nltk suite 
 import nltk
 
@@ -32,7 +32,7 @@ from nltk.util import ngrams
 
 ## 蟒蛇 3
 
-```
+```py
 # Downloading and importing
 # package 'words' from nltk corpus
 nltk.download('words')
@@ -45,7 +45,7 @@ correct_words = words.words()
 
 ## 蟒蛇 3
 
-```
+```py
 # list of incorrect spellings
 # that need to be corrected 
 incorrect_words=['happpy', 'azmaing', 'intelliengt']
@@ -72,25 +72,25 @@ for word in incorrect_words:
 
 *   插入新字符:
 
-```
+```py
 bat -> bats (insertion of 's')
 ```
 
 *   删除现有字符。
 
-```
+```py
 care -> car (deletion of 'e')
 ```
 
 *   替换现有字符。
 
-```
+```py
 bin -> bit (substitution of n with t)
 ```
 
 *   两个现有连续字符的换位。
 
-```
+```py
 sing -> sign (transposition of ng to gn)
 ```
 
@@ -100,7 +100,7 @@ sing -> sign (transposition of ng to gn)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the nltk suite 
 import nltk
 
@@ -112,7 +112,7 @@ from nltk.metrics.distance  import edit_distance
 
 ## 蟒蛇 3
 
-```
+```py
 # Downloading and importing package 'words'
 nltk.download('words')
 from nltk.corpus import words
@@ -123,7 +123,7 @@ correct_words = words.words()
 
 ## 蟒蛇 3
 
-```
+```py
 # list of incorrect spellings
 # that need to be corrected 
 incorrect_words=['happpy', 'azmaing', 'intelliengt']

@@ -27,7 +27,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the library
 import matplotlib.pyplot as plt
 from scipy.misc import derivative
@@ -65,7 +65,7 @@ plt.grid(True)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing the library
 import matplotlib.pyplot as plt
 from scipy.misc import derivative
@@ -103,7 +103,7 @@ plt.grid(True)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing modules
 import matplotlib.pyplot as plt
 from scipy.misc import derivative

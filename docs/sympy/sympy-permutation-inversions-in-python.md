@@ -9,7 +9,7 @@
 
 **代码#1:反转()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.inversions()
 
@@ -36,7 +36,7 @@ print ("Permutation b - inversions form : ", b.inversions())
 
 **代码#2:反演()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.inversions()
 

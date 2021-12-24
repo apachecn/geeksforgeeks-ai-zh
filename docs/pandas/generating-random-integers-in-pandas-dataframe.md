@@ -8,7 +8,7 @@ Pandas 是最流行的用于数据分析的 Python 库。它通过纯 C 或 Pyth
 
 **例 1 :** 熊猫单数据帧列生成随机整数。
 
-```
+```py
 # importing pandas and numpy libraries
 import numpy as np
 import pandas as pd
@@ -26,7 +26,7 @@ print(df)
 
 **示例 2** :对熊猫单数据框列中的一列进行排序。
 
-```
+```py
 # importing pandas and numpy libraries
 import numpy as np
 import pandas as pd
@@ -55,7 +55,7 @@ print(df)
 
 **例 3 :** 在熊猫多数据帧列中生成随机整数。
 
-```
+```py
 # importing pandas and numpy libraries
 import numpy as np
 import pandas as pd
@@ -75,7 +75,7 @@ print(df)
 
 **示例 4 :** 对 Pandas 多数据框列中的随机整数列进行排序。
 
-```
+```py
 # importing pandas and numpy libraries
 import numpy as np
 import pandas as pd

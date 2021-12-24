@@ -18,7 +18,7 @@ matplotlib 库的 Axes 模块中的 **Axes.get_visible()函数**用于获取可�
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function
 import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist.axislines import Subplot
@@ -40,7 +40,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 import numpy as np
 import matplotlib.pyplot as plt
@@ -76,7 +76,7 @@ plt.show()
 
 ![](img/49f366926152d6c8667f2b03479ad949.png)
 
-```
+```py
 Visibilities of Axis
 Bottom : False 
 Top : False 

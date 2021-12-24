@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -28,7 +28,7 @@ ax = plt.axes(projection ='3d')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing mplot3d toolkits, numpy and matplotlib
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -58,7 +58,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing mplot3d toolkits
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -92,7 +92,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from mpl_toolkits import mplot3d
 import numpy as np
@@ -122,7 +122,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -155,7 +155,7 @@ ax.set_title('wireframe geeks for geeks');
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -188,7 +188,7 @@ ax.contour3D(X, Y, Z)
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt
@@ -220,7 +220,7 @@ ax.plot_trisurf(x, y, z, cmap ='viridis', edgecolor ='green');
 
 ## 蟒蛇 3
 
-```
+```py
 from mpl_toolkits import mplot3d
 import numpy as np
 import matplotlib.pyplot as plt

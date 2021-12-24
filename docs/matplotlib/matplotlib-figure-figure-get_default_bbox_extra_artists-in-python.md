@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 import matplotlib.tri as tri
@@ -66,7 +66,7 @@ plt.show()
 
 ![](img/f0d6a3a79938943a9fad5bba61621f45.png)
 
-```
+```py
 Value Return by get_default_bbox_extra_artists() :
 AxesSubplot(0.125, 0.11;0.775x0.77)
 Line2D(_line0)
@@ -86,7 +86,7 @@ Rectangle(xy=(0, 0), width=1, height=1, angle=0)
 
 **例 2:**
 
-```
+```py
 # ImpleIn Reviewtation of matplotlib function  
 import matplotlib.pyplot as plt
 
@@ -124,7 +124,7 @@ plt.show()
 
 ![](img/93721e55614d286960664cdc079e7e8e.png)
 
-```
+```py
 Value Return by get_default_bbox_extra_artists() :
 AxesSubplot(0.125, 0.11;0.775x0.77)
 Line2D(_line0)

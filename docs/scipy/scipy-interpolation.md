@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required Python libraries
 import matplotlib.pyplot as plt
 from scipy import interpolate
@@ -61,7 +61,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required Python libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -102,7 +102,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 import matplotlib.pyplot as plt
 from scipy.interpolate import UnivariateSpline
@@ -136,7 +136,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required libraries
 import numpy as np
 from scipy.interpolate import Rbf

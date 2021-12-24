@@ -19,7 +19,7 @@ t-SNE 一种非线性降维算法，基于数据点与特征的相似性来发�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Necessary Modules.
 import numpy as np
 import pandas as pd
@@ -32,7 +32,7 @@ from sklearn.preprocessing import StandardScaler
 
 ## 蟒蛇 3
 
-```
+```py
 # Reading the data using pandas 
 df = pd.read_csv('mnist_train.csv')
 
@@ -54,7 +54,7 @@ d = df.drop("label", axis = 1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Data-preprocessing: Standardizing the data
 from sklearn.preprocessing import StandardScaler
 
@@ -64,7 +64,7 @@ print(standardized_data.shape)
 
 **输出:**
 
-```
+```py
 (15000, 784)
 ```
 
@@ -72,7 +72,7 @@ print(standardized_data.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # TSNE
 # Picking the top 1000 points as TSNE
 # takes a lot of time for 15K points

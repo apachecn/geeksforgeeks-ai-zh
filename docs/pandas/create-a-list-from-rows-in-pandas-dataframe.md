@@ -6,7 +6,7 @@ Python 列表很容易使用，而且 list 有很多内置函数，可以对列�
 
 **解决方案#1:** 为了迭代熊猫数据帧的行，我们可以使用`DataFrame.iterrows()`函数，然后我们可以将每行的数据附加到列表的末尾。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -25,7 +25,7 @@ print(df)
 
 现在，我们将使用`DataFrame.iterrows()`函数迭代给定数据帧的每一行，并根据每一行的数据构建一个列表。
 
-```
+```py
 # Create an empty list
 Row_list =[]
 
@@ -47,7 +47,7 @@ print(Row_list)
 
 正如我们在输出中看到的，我们已经成功地将给定数据帧的每一行提取到一个列表中。就像任何其他 Python 的列表一样，我们可以对提取的列表执行任何列表操作。
 
-```
+```py
 # Find the length of the newly 
 # created list
 print(len(Row_list))
@@ -64,7 +64,7 @@ print(Row_list[:3])
 
 **解决方案#2:** 为了迭代熊猫数据帧的行，我们可以使用`DataFrame.itertuples()`函数，然后我们可以将每行的数据附加到列表的末尾。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -83,7 +83,7 @@ print(df)
 
 现在，我们将使用`DataFrame.itertuples()`函数迭代给定数据帧的每一行，并根据每一行的数据构建一个列表。
 
-```
+```py
 # Create an empty list
 Row_list =[]
 
@@ -105,7 +105,7 @@ print(Row_list)
 
 正如我们在输出中看到的，我们已经成功地将给定数据帧的每一行提取到一个列表中。就像任何其他 Python 的列表一样，我们可以对提取的列表执行任何列表操作。
 
-```
+```py
 # Find the length of the newly 
 # created list
 print(len(Row_list))

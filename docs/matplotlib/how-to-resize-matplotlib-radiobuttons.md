@@ -10,7 +10,7 @@ Matplotlib 是一个神奇的 Python 可视化库，用于数组的 2D 图。Mat
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -50,7 +50,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 import matplotlib.pyplot as plt
@@ -87,7 +87,7 @@ for circle in radio.circles:
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import numpy as np
 import matplotlib.pyplot as plt

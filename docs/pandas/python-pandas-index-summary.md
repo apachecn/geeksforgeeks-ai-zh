@@ -12,7 +12,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 **示例#1:** 使用`Index.summary()`函数查找索引的摘要。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -29,7 +29,7 @@ idx
 
 现在我们将找到索引的摘要。
 
-```
+```py
 # find the summary of the Index.
 idx.summary()
 ```
@@ -41,7 +41,7 @@ idx.summary()
 
 **例 2:** 使用`Index.summary()`函数总结指数。
 
-```
+```py
 # importing pandas as pd
 import pandas as pd
 
@@ -57,7 +57,7 @@ idx
 
 现在我们将找到索引的摘要。
 
-```
+```py
 # the function returns the summary of the Index
 idx.summary()
 ```

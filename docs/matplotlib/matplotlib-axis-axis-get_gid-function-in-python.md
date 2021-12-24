@@ -21,7 +21,7 @@ matplotlib 库的 Axis 模块中的 **Axis.get_gid()函数**用于获取组 id�
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -61,7 +61,7 @@ plt.show()
 
 ![](img/50c1dec69a32a47cf22729bed63b8ecf.png)
 
-```
+```py
 Value Return : patch_ 0
 
 ```
@@ -70,7 +70,7 @@ Value Return : patch_ 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.axis import Axis
 import numpy as np  
@@ -133,7 +133,7 @@ plt.show()
 
 ![](img/fcad25e7996b293848e9b952f946dee2.png)
 
-```
+```py
 Value Return :
 patch_ 0
 patch_ 1

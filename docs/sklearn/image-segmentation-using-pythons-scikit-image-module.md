@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install scikit-image
 ```
 
@@ -30,7 +30,7 @@ skimage 包的 rgb2gray 模块用于将 3 通道 rgb 图像转换为 1 通道单
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Necessary Libraries
 from skimage import data
 from skimage.color import rgb2gray
@@ -79,7 +79,7 @@ HSV(色调、饱和度、值)颜色模型将 RGB 基本颜色重新映射到人�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Necessary Libraries
 from skimage import data
 from skimage.color import rgb2hsv
@@ -122,7 +122,7 @@ plt.colorbar(hsv_coffee_colorbar, fraction=0.046, pad=0.04)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Necessary Libraries
 # Displaying the sample image - Monochrome Format
 from skimage import data
@@ -205,7 +205,7 @@ plt.tight_layout()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary libraries
 from skimage import data
 from skimage import filters
@@ -299,7 +299,7 @@ plt.imshow(binarized_coffee, cmap = "gray")
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing necessary libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -376,7 +376,7 @@ ax.plot(snake[:, 0], snake[:, 1], '--r', lw=5)
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 from skimage.color import rgb2gray
 from skimage import data, img_as_float
@@ -440,7 +440,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required boundaries
 from skimage.segmentation import slic, mark_boundaries
 from skimage.data import astronaut
@@ -497,7 +497,7 @@ plt.imshow(mark_boundaries(astronaut, astronaut_segments))
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required libraries
 from skimage.segmentation import slic
 from skimage.data import astronaut
@@ -554,7 +554,7 @@ plt.imshow(label2rgb(astronaut_segments,
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 from skimage.segmentation import felzenszwalb
 from skimage.color import label2rgb

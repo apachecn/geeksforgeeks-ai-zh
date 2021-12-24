@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def ModifiedWay(rotateImage, angle):
 
     # Taking image height and width
@@ -68,7 +68,7 @@ def ModifiedWay(rotateImage, angle):
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import cv2
 import numpy as np
@@ -178,7 +178,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Required Libraries
 import cv2
 import numpy as np

@@ -13,7 +13,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`sympy.stats.Moyal()`方法，我们能够通过使用这个方法得到代表烟雾分布的连续随机变量。
 
-```
+```py
 # Import sympy and Moyal
 from sympy.stats import Moyal, density
 from sympy import Symbol, pprint
@@ -35,7 +35,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Moyal
 from sympy.stats import Moyal, density, cdf
 from sympy import Symbol, pprint

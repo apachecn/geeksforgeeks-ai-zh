@@ -8,7 +8,7 @@
 
 这是 Jupyter 笔记本中默认数据表的外观:
 
-```
+```py
 import pandas as pd
 
 df = pd.DataFrame({'A':[1, 2, 3, 4, 5, 6, 7, 8], 
@@ -24,7 +24,7 @@ df.head()
 
 现在让我们尝试改变风格。我们可以通过熊猫模块的**set _ table _ style**方法来实现。
 
-```
+```py
 df.style.set_table_styles()
 ```
 
@@ -32,7 +32,7 @@ df.style.set_table_styles()
 
 因此，如果我们需要更改表格数据部分中文本的字体系列，我们可以这样做:
 
-```
+```py
 df.style.set_table_styles(
 
 [{'selector': 'td',
@@ -42,7 +42,7 @@ df.style.set_table_styles(
 
 让我们尝试添加更多的更改并查看输出。
 
-```
+```py
 df = pd.DataFrame({'A':[1, 2, 3, 4, 5, 6, 7, 8], 
                    'B':[1, 2, 3, 4, 5, 6, 7, 8], 
                    'C':[1, 2, 3, 4, 5, 6, 7, 8],
@@ -64,7 +64,7 @@ df.style.set_table_styles(
 
 我们也可以通过 `**hide_index()**`方法隐藏索引列:
 
-```
+```py
 df.style.set_table_styles(
 [
  {'selector': 'th',

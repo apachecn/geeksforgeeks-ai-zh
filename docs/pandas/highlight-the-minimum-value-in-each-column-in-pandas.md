@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Libraries
 import pandas as pd
 import numpy as np
@@ -49,7 +49,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 # Highlighting the minimum values of last 2 columns
 df.style.highlight_min(color = 'lightgreen', 
                        axis = 0)
@@ -75,7 +75,7 @@ df.style.highlight_min(color = 'lightgreen', 
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom function 
 # which returns the list for
 # df.style.apply() method
@@ -97,7 +97,7 @@ df.style.apply(highlight_min)
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom function
 # which returns the list for
 # df.style.apply() method
@@ -118,7 +118,7 @@ df.style.apply(highlight_min)
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom function 
 # which returns the list for
 # df.style.apply() method

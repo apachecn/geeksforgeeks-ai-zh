@@ -8,7 +8,7 @@
 
 **Code: Loading dataset**
 
-```
+```py
 # importing required libraries
 # importing Scikit-learn library and datasets package
 from sklearn import datasets 
@@ -19,31 +19,31 @@ iris = datasets.load_iris()   
 
 **代码:检查我们的数据集内容和其中存在的要素名称。**
 
-```
+```py
 print(iris.target_names)
 ```
 
 **输出:**
 
-```
+```py
 [‘setosa’ ‘versicolor’ ‘virginica’]
 ```
 
 **代码:**
 
-```
+```py
 print(iris.feature_names)
 ```
 
 **输出:**
 
-```
+```py
 [‘sepal length (cm)’, ’sepal width (cm)’, ’petal length (cm)’, ’petal width (cm)’]
 ```
 
 **代码:**
 
-```
+```py
 # dividing the datasets into two parts i.e. training datasets and test datasets
 X, y = datasets.load_iris( return_X_y = True)
 
@@ -55,7 +55,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.30)
 
 **代码:导入需要的库和随机森林分类器模块。**
 
-```
+```py
 # importing random forest classifier from assemble module
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
@@ -67,14 +67,14 @@ data = pd.DataFrame({‘sepallength’: iris.data[:, 0], ’sepalwidth’: iris.
 
 **代码:查看数据集**
 
-```
+```py
 # printing the top 5 datasets in iris dataset
 print(data.head())
 ```
 
 **输出:**
 
-```
+```py
      sepallength   sepalwidth   petallength     petalwidth   species
 
 0          5.1             3.5               1.4                0.2           0
@@ -90,7 +90,7 @@ print(data.head())
 
 **代码:**
 
-```
+```py
 # creating a RF classifier
 clf = RandomForestClassifier(n_estimators = 100) 
 
@@ -111,20 +111,20 @@ print("ACCURACY OF THE MODEL: ", metrics.accuracy_score(y_test, y_pred))
 
 **输出:**
 
-```
+```py
 ACCURACY OF THE MODEL: 0.9238095238095239
 ```
 
 **编码:从数据集预测花的类型**
 
-```
+```py
 # predicting which type of flower it is.
 clf.predict([[3, 3, 2, 2]])
 ```
 
 **输出:**
 
-```
+```py
 array([0])
 ```
 
@@ -132,7 +132,7 @@ array([0])
 
 **代码:**
 
-```
+```py
 # importing random forest classifier from assemble module
 from sklearn.ensemble import RandomForestClassifier
 # Create a Random forest Classifier
@@ -144,7 +144,7 @@ clf.fit(X_train, y_train)
 
 **代码:计算特征重要性**
 
-```
+```py
 # using the feature importance variable
 import pandas as pd
 feature_imp = pd.Series(clf.feature_importances_, index = iris.feature_names).sort_values(ascending = False)
@@ -153,7 +153,7 @@ feature_imp
 
 **输出:**
 
-```
+```py
 petal width (cm)     0.458607
 petal length (cm)    0.413859
 sepal length (cm)    0.103600

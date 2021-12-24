@@ -12,7 +12,7 @@
 
 **代码# 1:RGS _ unlank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_unrank()
 
@@ -35,7 +35,7 @@ print ("unranked restricted growth string for super size 10 : \n", p)
 
 **代码# 2:RGS _ unlank()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.RGS_unrank()
 

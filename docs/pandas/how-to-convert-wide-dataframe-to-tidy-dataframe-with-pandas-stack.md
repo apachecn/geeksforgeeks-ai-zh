@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Single level columns
@@ -42,7 +42,7 @@ print(df_single_level_cols)
 
 ## 蟒蛇 3
 
-```
+```py
 # Single level with stack()
 df_single_level_cols.stack()
 ```
@@ -57,7 +57,7 @@ df_single_level_cols.stack()
 
 ## 蟒蛇 3
 
-```
+```py
 # Simple Multi-level columns
 multicol1 = pd.MultiIndex.from_tuples([('Science', 'Physics'),
                                        ('Science', 'Chemistry')])
@@ -77,7 +77,7 @@ print(df_multi_level_cols1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Multi-level stacking with stack
 df_multi_level_cols1.stack()
 ```

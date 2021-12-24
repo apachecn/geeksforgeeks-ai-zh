@@ -20,7 +20,7 @@ matplotlib 库的 artist 模块中的 **get_clip_path()方法**用于获取剪�
 **输入图像:**
 ![](img/01b4c4a487799db375e5275e0d4480a1.png)
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import matplotlib.pyplot as plt 
@@ -51,7 +51,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function
 from matplotlib.artist import Artist
 import numpy as np 

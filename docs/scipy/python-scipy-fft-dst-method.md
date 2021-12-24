@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 scipy.fft.dst(x, type=2)
 
 ```
@@ -19,7 +19,7 @@ scipy.fft.dst(x, type=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -31,7 +31,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [13.06562965 -5.65685425  5.41196100 -4.00000000]
 
 ```
@@ -40,7 +40,7 @@ print(gfg)
 
 ## 蟒蛇 3
 
-```
+```py
 # import scipy
 from scipy import fft
 
@@ -52,7 +52,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 [ -1.43023367  -2.3137085   -6.16568427  -7.77337942 -20.3137085
  -23.82253852]
 

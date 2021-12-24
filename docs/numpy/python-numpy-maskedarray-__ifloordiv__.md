@@ -11,7 +11,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到数组中的每个元素都用 MaskedArray 方法中作为参数给出的值进行了划分。__ifloordiv__()。
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -24,14 +24,14 @@ print(gfg.__ifloordiv__(2)) 
 
 **Output:**
 
-```
+```py
 [  5\.  10\.  15\.   2\.  25.]
 
 ```
 
 **例 2:**
 
-```
+```py
 # import the important module in python 
 import numpy as np 
 
@@ -45,7 +45,7 @@ print(gfg.__ifloordiv__(5)) 
 
 **Output:**
 
-```
+```py
 [[  2\.   4\.   6\.   0\.  10.]
  [  1\.   1\.   0\.   0\.   0.]]
 

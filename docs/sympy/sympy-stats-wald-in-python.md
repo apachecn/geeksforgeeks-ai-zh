@@ -14,7 +14,7 @@
 **示例#1 :**
 在这个示例中我们可以看到，通过使用`sympy.stats.Wald()`方法，我们能够通过使用该方法获得表示逆高斯或 wald 分布的连续随机变量。
 
-```
+```py
 # Import sympy and Wald
 from sympy.stats import Wald, density
 from sympy import Symbol, pprint
@@ -45,7 +45,7 @@ pprint(gfg)
 
 **例 2 :**
 
-```
+```py
 # Import sympy and Wald
 from sympy.stats import Wald, density
 from sympy import Symbol, pprint

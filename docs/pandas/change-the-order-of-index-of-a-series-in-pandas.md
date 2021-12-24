@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import pandas as pd
 import numpy as np
@@ -54,7 +54,7 @@ total_series
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import pandas as pd
 import numpy as np
@@ -81,7 +81,7 @@ total_series
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import pandas as pd
 import numpy as np

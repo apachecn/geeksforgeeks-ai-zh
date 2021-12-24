@@ -18,7 +18,7 @@ matplotlib 库的**init _ lay 发件箱()方法**图形模块用于初始化 lay
 
 **例 1:**
 
-```
+```py
 # Implementation of matplotlib function 
 import matplotlib.pyplot as plt 
 import numpy as np 
@@ -48,7 +48,7 @@ plt.show() 
 
 **例 2:**
 
-```
+```py
 # Implementation of matplotlib function 
 import numpy as np 
 import matplotlib.pyplot as plt 

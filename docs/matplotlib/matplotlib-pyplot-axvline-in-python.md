@@ -28,7 +28,7 @@
 
 **示例-1:**
 
-```
+```py
 # Importing matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
@@ -55,7 +55,7 @@ plt.show()
 
 **示例-2 :**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =[0, 5, 10, 15, 20]
@@ -76,7 +76,7 @@ plt.show()
 
 **示例-3 :**
 
-```
+```py
 import matplotlib.pyplot as plt
 
 x =[0, 5, 10, 15, 20]

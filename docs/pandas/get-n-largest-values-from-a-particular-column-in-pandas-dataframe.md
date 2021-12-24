@@ -8,7 +8,7 @@
 
 首先观察这个数据集。我们将使用该数据的“年龄”、“体重”和“工资”列，以便从熊猫数据框的特定列中获得最大的值。
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -22,7 +22,7 @@ df.head(10)
 
 **代码#1:** 获得 5 个最大年龄
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -38,7 +38,7 @@ df.nlargest(5, ['Age'])
 
 **代码#2:** 获得 10 个最大重量
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 
@@ -54,7 +54,7 @@ df.nlargest(10, ['Weight'])
 
 **代码#3:** 获得 10 点最高工资
 
-```
+```py
 # importing pandas module 
 import pandas as pd 
 

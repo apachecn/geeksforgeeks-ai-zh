@@ -18,7 +18,7 @@ OpenCV 是用于计算机视觉、机器学习和图像处理的巨大开源库�
 
 **示例:**
 
-```
+```py
 # Python program to write
 # text on video
 

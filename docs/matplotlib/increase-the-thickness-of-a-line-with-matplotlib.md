@@ -63,7 +63,7 @@ Matplotlib 是使用可用数据集绘制图形的最广泛使用的库。Matplo
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 places = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
@@ -90,7 +90,7 @@ plt.legend(loc='lower left', ncol=1)
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 
 age = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]

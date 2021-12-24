@@ -24,7 +24,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 **例#1:** 计算单词出现次数
 在本例中，Pandas 系列由列表组成，使用 str.count()方法计算 gfg 的出现次数。
 
-```
+```py
 # importing pandas package
 import pandas as pd
 
@@ -50,7 +50,7 @@ count
 
 在本例中，“a”出现在“名称”列中。标志参数也被使用并重新设置。我被传递给它，这意味着 IGNORECASE。因此，A 和 A 都将在计数过程中考虑。
 
-```
+```py
 # importing pandas module 
 import pandas as pd
 

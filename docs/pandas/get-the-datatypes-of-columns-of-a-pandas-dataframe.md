@@ -7,7 +7,7 @@
 
 ## 大蟒
 
-```
+```py
 # importing the module
 import pandas as pd
 
@@ -48,7 +48,7 @@ print("Type of Location Column Element : ", type(table.iloc[:, 4][0]))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd
 

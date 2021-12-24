@@ -12,7 +12,7 @@
 
 **代码# 1:get _ 邻接矩阵()示例**
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_adjacency_matrix()
 
@@ -52,7 +52,7 @@ print ("b - get_adjacency_matrix : \n", b.get_adjacency_matrix())
 
 **代码# 2:get _ 邻接矩阵()示例**–2D 置换
 
-```
+```py
 # Python code explaining
 # SymPy.Permutation.get_adjacency_matrix()
 

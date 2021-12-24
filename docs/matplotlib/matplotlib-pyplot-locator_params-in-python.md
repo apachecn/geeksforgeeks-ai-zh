@@ -8,7 +8,7 @@
 
 **定位器 _params()** 用于控制蜱虫定位器的行为。属性轴用于指定应用函数的轴。
 
-```
+```py
 # for Y axis
 matplotlib.pyplot.locator_params(axis='y', nbins=3) 
 
@@ -22,14 +22,14 @@ matplotlib.pyplot.locator_params(nbins=3)
 
 减少最大刻度数并使用严格的界限:
 
-```
+```py
 plt.locator_params(tight=True, nbins=4)
 
 ```
 
 **例 1:**
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 
@@ -63,7 +63,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 
@@ -102,7 +102,7 @@ for_lines("x-axis", "y-axis",
 
 **例 3:**
 
-```
+```py
 # importing libraries
 import matplotlib.pyplot as plt
 

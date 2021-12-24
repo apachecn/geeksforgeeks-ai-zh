@@ -55,7 +55,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules needed
 import cv2
 import numpy as np
@@ -93,7 +93,7 @@ cv2.destroyAllWindows()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules needed
 import cv2
 import numpy as np

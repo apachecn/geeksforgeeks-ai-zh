@@ -13,7 +13,7 @@
 
 **示例#1:**
 
-```
+```py
 # import totient() method from sympy
 from sympy.ntheory.factor_ import totient
 
@@ -27,14 +27,14 @@ print("phi({}) =  {} ".format(n, totient_n)) # 1 5 7 11 13 17 19 23
 
 **输出:**
 
-```
+```py
 phi(24) =  8
 
 ```
 
 **例 2:**
 
-```
+```py
 # import totient() method from sympy
 from sympy.ntheory.factor_ import totient
 
@@ -48,7 +48,7 @@ print("phi({}) =  {} ".format(n, totient_n))
 
 **输出:**
 
-```
+```py
 phi(19) =  18
 
 ```

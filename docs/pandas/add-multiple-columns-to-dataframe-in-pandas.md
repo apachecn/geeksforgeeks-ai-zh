@@ -12,7 +12,7 @@
 
 向数据框添加多列
 
-```
+```py
 # importing pandas library
 import pandas as pd
 

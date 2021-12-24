@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tensorflow as tf  
 
 # Display the version
@@ -37,7 +37,7 @@ from tensorflow.keras.models import Model
 
 **输出:**
 
-```
+```py
 2.4.1
 ```
 
@@ -47,7 +47,7 @@ from tensorflow.keras.models import Model
 
 ## 蟒蛇 3
 
-```
+```py
 # Load in the data
 cifar10 = tf.keras.datasets.cifar10
 
@@ -70,7 +70,7 @@ print(x_train.shape, y_train.shape, x_test.shape, y_test.shape)
 
 ## 蟒蛇 3
 
-```
+```py
 # Reduce pixel values
 x_train, x_test = x_train / 255.0, x_test / 255.0
 
@@ -82,7 +82,7 @@ y_train, y_test = y_train.flatten(), y_test.flatten()
 
 ## 蟒蛇 3
 
-```
+```py
 # visualize data by plotting images
 fig, ax = plt.subplots(5, 5)
 k = 0
@@ -105,7 +105,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # number of classes
 K = len(set(y_train))
 
@@ -162,7 +162,7 @@ model.summary()
 
 ## 蟒蛇 3
 
-```
+```py
 # Compile
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',

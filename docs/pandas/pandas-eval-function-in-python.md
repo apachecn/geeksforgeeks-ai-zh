@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 
@@ -32,7 +32,7 @@ print(pandas.eval("2+3*(5-2)"))
 
 **输出:**
 
-```
+```py
 5
 11
 
@@ -42,7 +42,7 @@ print(pandas.eval("2+3*(5-2)"))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import pandas
 

@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.is_nonpositive()函数
 
-```
+```py
 Syntax:  sympy.is_nonpositive(n)
 Parameter:  n; number to be tested
 Return:  bool value result 
@@ -16,7 +16,7 @@ Return:  bool value result
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check non-positive number
 # using sympy.is_nonpositive() method
 
@@ -33,7 +33,7 @@ print(geek2)
 
 输出:
 
-```
+```py
 True
 False
 ```
@@ -42,7 +42,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check non-positive number
 # using sympy.is_nonpositive() method
 
@@ -57,6 +57,6 @@ print(geek)
 
 输出:
 
-```
+```py
 True
 ```

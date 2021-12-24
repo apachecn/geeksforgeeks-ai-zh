@@ -28,7 +28,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 在本例中，为团队列设置了 12 的最大宽度，并将“_”作为 fillchar 传递，用下划线填充剩余的空间。如果字符串长度小于宽度，则“_”将以字符串作为后缀。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -57,7 +57,7 @@ data.head(10)
 
 在本例中，为团队列设置了 15 的最大宽度，并将“*”作为 fillchar 传递，以“*”填充剩余的空间。如果字符串长度小于宽度，则“*”将以字符串作为前缀。
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
